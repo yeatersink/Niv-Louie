@@ -1,14 +1,15 @@
 import pandas as pd
+import json
 
 def format_names(name):
     return name.replace("CUNEIFORM SIGN ","")
 
-print("enter 1 to generate spreadsheets or enter 2 to add symbols to nvda")
-option=int(input("enter one or two"))
+print("enter 1 to generate spreadsheets, enter 2 to add symbols to nvda, or enter 3 to genera te braille table")
+option=int(input("enter one, two, or three"))
 if option == 1:
     print("Generating Spreadsheets")
     akkadian=pd.read_csv("languages/source/Akkadian.csv")
-    filtered_akkadian=akkadian[["Character(decimal)","Name"]]
+    filtered_akkadian=akkadian[["Character(decimal)","Name","Braille"]]
     name_column=filtered_akkadian["Name"]
     new_name_column=name_column.apply(format_names)
     filtered_akkadian["Name"]=new_name_column
@@ -23,5 +24,9 @@ elif option==2:
         nvda_symbols_file.write(new_line)
     nvda_symbols_file.write("#End Beta Akkadian\n\n")
     nvda_symbols_file.close()
+elif option==3:
+    braille_file=open("utils/brailleconverter.json")
+    braille_object=json.load(braille_file)
+    print(braille_object["k"])
 else:
     print("That was not a valid option")
