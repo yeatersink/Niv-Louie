@@ -10,15 +10,34 @@ def format_names(name):
 
 def get_braille(text):
     braille=""
-    print(text)
+    if any(char.isdigit() for char in text):
+        for index,char in enumerate(text):
+            if char.isdigit():
+                text=text[:index]+"_#"+text[index:]
     if "[q~*]" in text:
         text=text.replace("[q~*]","*")
-        if "[q~+]" in text:
-            text=text.replace("[q~+]","+")
-            
+    if "[q~+]" in text:
+        text=text.replace("[q~+]","+")
+    if "[q~/]" in text:
+        text=text.replace("[q~/]","/")
+    if "[q~^]"*3 in text:
+        text=text.replace("[q~^]"*3,"^#3")
+    if "[q~^]"*2 in text:
+        text=text.replace("[q~^]"*2,"^#2")
+    if "[q~$]" in text:
+        text=text.replace("[q~$]","OPPOSING")
+    if "[q~&]" in text:
+        text=text.replace("[q~&]","CROSSING")
+    if "lt;" in text:
+        text=text.replace("lt;","<")
+    if "[q~%]" in text:
+        text=text.replace("[q~%]","ROTATED NINETY DEGREES")
+
     for char in text:
-        print(char)
         braille+=braille_object[char.lower()]+"-"
+
+    if braille[-1]=="-":
+        braille=braille[:-1]
     return braille
 
 print("enter 1 to generate spreadsheets, enter 2 to add symbols to nvda, or enter 3 to genera te braille table")
