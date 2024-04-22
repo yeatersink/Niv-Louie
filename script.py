@@ -64,8 +64,43 @@ elif option==2:
     nvda_symbols_file.write("#End Beta Akkadian\n\n")
     nvda_symbols_file.close()
 elif option==3:
-    braille_file=open("utils/brailleconverter.json")
-    braille_object=json.load(braille_file)
-    
+    print("creating table for lib louis")
+    akkadian=pd.read_csv("languages/filtered_akkadian.csv")
+    braille_table=open("braille/beta-akkadian.tbl","w",encoding="utf-8")
+    braille_table.write("""
+# liblouis: Beta Akkadian Grade 1 table
+#
+# ------------
+#-name: Beta Akkadian grade 1
+#-index-name: Akkadian uncontracted
+#-display-name: Akkadian uncontracted braille as used in the study of Akkadian .
+#
+#+language:akk
+#+type:literary
+#+contraction:no
+#+grade:1
+#+system:AKK
+
+# This file is free software; you can redistribute it and/or
+# modify it under the terms of the GNU Lesser General Public
+# License as published by the Free Software Foundation; either
+# version 2.1 of the License, or (at your option) any later version.
+
+# This file is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+# Lesser General Public License for more details.
+
+# You should have received a copy of the GNU Lesser General Public
+# License along with this file; if not, write to the Free Software
+# Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA
+# liblouis  comes with ABSOLUTELY NO WARRANTY.
+
+# Maintained by Matt Yeater and Paul Geoghegan
+""")
+    for index, row in akkadian.iterrows():
+        new_line="always "+str(row["Character(decimal)"])+" "+str(row["Braille"])+"\n"
+        braille_table.write(new_line)
+    braille_table.close()
 else:
     print("That was not a valid option")
