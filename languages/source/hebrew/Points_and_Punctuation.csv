@@ -1,0 +1,45 @@
+Character,Hex,Logic,Name,ASCII,Braille
+סְ,05B0,187,point sheva*,',',e,U+0065
+סְ,05B0,188,point sheva*,,,e,U+0065
+סְ,05B0,195,point sheva*,,,e,U+0065
+סֱ,05B1,188,point hataf segol*,,,,
+סֱ,05B1,185,point hataf segol*,5,5,,
+סֲ,05B2,188,point hataf patah*,,,,
+סֲ,05B2,185,point hataf patah*,3,3,,
+סֳ,05B3,188,point hataf qamats*,,,,
+סֳ,05B3,185,point hataf qamats*,>,>,,
+סִי,05B4+05D9,201,point hiriq-yod*,i,i,î,U+00ee
+סִי,05B4+05D9,188,point hiriq-yod*,j,j,î,U+00ee
+סִי,05B4+05D9,185,point hiriq-yod*,i,i,î,U+00ee
+סִ,05B4,188,point hiriq*,,,i,U+0069
+סִ,05B4,185,point hiriq*,9,9,i,U+0069
+סֵי,05B5+05D9,188,point tsere-yod*,j,j,ê,U+00ea
+סֵי,05B5+05D9,185,point tsere-yod*,#,#,ê,U+00ea
+סֵ,05B5,188,point tsere*,,,e,U+0065
+סֵ,05B5,185,point tsere*,/,/,e,U+0065
+סֶ,05B6,188,point segol*,,,ę,U+0119
+סֶ,05B6,185,point segol*,e,e,ę,U+0119
+סַ,05B7,188,point patah*,,,a,U+0061
+סַ,05B7,185,point patah*,c,c,a,U+0061
+סָ,05B8,188,point qamats*,,,#x0101;,U+0101
+סָ,05B8,185,point qamats*,<,<,ā,U+0101
+סֹ,05B9,188,point holam*,,,o,U+006d
+סֹ,05B9,185,point holam*,[,[,o,U+006d
+וֺ,05BA,188,point holam haser for vav*,,,ô,U+00f4
+וֺ,05BA,185,point holam haser for vav*,,,ô,U+00f4
+סֻ,05BB,188,point qubuts*,,,u,U+0075
+סֻ,05BB,185,point qubuts*,+,+,u,U+0075
+סּ,05BC,186,point dagesh or mapiq*,"""","""",,
+סּ,05BC,196,point dagesh or mapiq*,,,,
+סֽ,05BD,185,point meteg*,@,@,,
+סֽ,05BD,8,point meteg*,,,,
+־,05BE,8,punctuation maqaf* - isolated,-,-,,
+סֿ,05BF,8,point rafe*,,,,
+׀,05C0,8,punctuation paseq*,,,,
+סׁ,05C1,8,point shin dot*,,,,
+סׂ,05C2,8,point sin dot*,,,,
+׃,05C3,8,punctuation sof pasuq*,4,4,,
+סׄ,05C4,8,mark upper dot*,*,*,,
+סׅ,05C5,8,mark lower dot*,,,,
+׆,05C6,8,punctuation nun hafukha*,,,,
+סׇ,05C7,8,point qamats qatan*,,,ā,U+0101

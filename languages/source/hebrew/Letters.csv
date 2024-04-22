@@ -1,0 +1,69 @@
+Character,Hex,Logic,Name,ASCII,Brailvavle,Brill,Brill Unicode
+א,05D0,8,letter alef,a,a,ʾ,U+02be
+בּ,05D1+05BC,8,letter bet,b,b,b,U+0062
+ב,05D1,214,letter vet - no dagesh input,b,b,ḇ,U+1e07
+ב,05D1,8,letter vet,v,v,ḇ,U+1e07
+ג,05D2,8,letter gimel,g,g,ḡ,U+1e21
+דּ,05D3+05BC,186,letter dalet with dagesh,"""d","""d",d,U+0064
+דּ,05D3+05BC,196,letter dalet with dagesh - isolated,d,d,d,U+0064
+ד,05D3,8,letter dalet,d,d,ḏ,U+1e0f
+הּ,05D4+05BC,8,letter he - isolated,h,h,,
+ה,05D4,8,letter he,h,h,h,U+0068
+וֹ,05D5+05B9,201,point holam-vav*,o,o,,
+וֹ,05D5+05B9,188,point holam-vav - isolated,w,w,,
+וֹ,05D5+05B9,185,point holam-vav,o,o,,
+וּ,05D5+05BC,201,point shuruq,u,u,,
+וּ,05D5+05BC,188,point shuruq - isolated,w,w,,
+וּ,05D5+05BC,185,point shuruq,u,u,,
+ו,05D5,8,letter vav,w,w,w,U+0077
+ז,05D6,8,letter zayin,z,z,z,U+007A
+ח,05D7,8,letter het,x,x,ḥ,U+1e25
+ט,05D8,8,letter tet,t,t,ṭ,U+1e6d
+יּ,05D9+05BC,186,letter yod with dagesh,"""j","""j",,
+יּ,05D9+05BC,196,letter yod with dagesh - isolated,j,j,,
+י,05D9,8,letter yod,j,j,y,U+0079
+ך,05DA,214,letter final kaf - Alef input,k,k,ḵ,U+1e35
+ך,05DA,8,letter final kaf,*,*,ḵ,U+1e35
+כּ,05DB+05BC,8,letter kaf,k,k,k,U+006b
+כ,05DB,214,letter khaf - no dagesh input,k,k,ḵ,U+1e35
+כ,05DB,8,letter khaf,*,*,ḵ,U+1e35
+לּ,05DC+05BC,186,letter lamed with dagesh,"""l","""l",,
+לּ,05DC+05BC,196,letter lamed with dagesh - isolated,l,l,,
+ל,05DC,8,letter lamed,l,l,l,U+006C
+ם,05DD,8,letter final mem,m,m,m,U+006d
+מּ,05DE+05BC,186,letter mem with dagesh,"""m","""m",,
+מּ,05DE+05BC,196,letter mem with dagesh - isolated,m,m,,
+מ,05DE,8,letter mem,m,m,m,U+006d
+ן,05DF,8,letter final nun,n,n,n,U+006e
+נּ,05E0+05BC,186,letter nun with dagesh,"""n","""n",,
+נּ,05E0+05BC,196,letter nun with dagesh - isolated,n,n,,
+נ,05E0,8,letter nun,n,n,n,U+006e
+ס,05E1,8,letter samekh,s,s,s,U+0073
+ע,05E2,8,letter ayin,$,$,ʿ,U+02bf
+ף,05E3,8,letter final pe,f,f,p̄,U+0070+0304
+פּ,05E4+05BC,8,letter pe,p,p,p,U+0070
+פ,05E4,214,letter fe - no dagesh input,p,p,p̄,U+0070+0304
+פ,05E4,8,letter fe,f,f,,
+ץ,05E5,8,letter final tsadi,!,!,ṣ,U+1e63
+צ,05E6,8,letter tsadi,!,!,ṣ,U+1e63
+קּ,05E7+05BC,186,letter qof with dagesh,"""q","""q",,
+קּ,05E7+05BC,196,letter qof with dagesh - isolated,q,q,,
+ק,05E7,8,letter qof,q,q,q,U+0071
+ר,05E8,8,letter resh,r,r,r,U+0072
+שׁ,05E9+05C1,8,letter shin,%,%,š,U+0161
+שׂ,05E9+05C2,214,letter sin,:,:,ś,U+015b
+שׂ,05E9+05C2,8,letter sin,:,:,,
+שּׁ,05E9+05BC+05C1,186,letter shin with dagesh,"""%","""%",,
+שּׁ,05E9+05BC+05C1,196,letter shin with dagesh - isolated,%,%,,
+שּׂ,05E9+05BC+05C2,214,letter sin with dagesh,""":",""":",,
+שּׂ,05E9+05BC+05C2,186,letter sin with dagesh,""":",""":",,
+שּׂ,05E9+05BC+05C2,196,letter sin with dagesh - isolated,:,:,,
+שּ,05E9+05BC,186,letter shin with dagesh,"""%","""%",,
+שּ,05E9+05BC,196,letter shin with dagesh - isolated,%,%,,
+ש,05E9,8,letter shin,%,%,,
+תּ,05EA+05BC,8,letter tav,\,\,t,U+0074
+ת,05EA,214,letter tav - no dagesh input,\,\,ṯ,U+1e6f
+ת,05EA,8,letter tav,?,?,ṯ,U+1e6f
+װ,05F0,8,ligature yiddish double vav*,,,ww,U+0077+0077
+ױ,05F1,8,ligature yiddish vav yod*,,,wy,U+0077+0079
+ײ,05F2,8,ligature yiddish double yod*,,,yy,U+0079+0079
