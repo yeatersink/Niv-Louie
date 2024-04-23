@@ -25,7 +25,7 @@ def create_csv(language_option):
 def format_names(name):
     for phrase in languages[language_option]["replace"]:
         if phrase in name:
-            return name.replace(phrase,"").trim()
+            return name.replace(phrase,"").strip()
     return name
 
 def get_braille(text):

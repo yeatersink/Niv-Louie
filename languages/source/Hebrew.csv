@@ -1,150 +1,150 @@
-Character,Hex,Logic,Name,ASCII,Braille
-סְ,05B0,187,point sheva*,',',e,U+0065
-סְ,05B0,188,point sheva*,,,e,U+0065
-סְ,05B0,195,point sheva*,,,e,U+0065
-סֱ,05B1,188,point hataf segol*,,,,
-סֱ,05B1,185,point hataf segol*,5,5,,
-סֲ,05B2,188,point hataf patah*,,,,
-סֲ,05B2,185,point hataf patah*,3,3,,
-סֳ,05B3,188,point hataf qamats*,,,,
-סֳ,05B3,185,point hataf qamats*,>,>,,
-סִי,05B4+05D9,201,point hiriq-yod*,i,i,î,U+00ee
-סִי,05B4+05D9,188,point hiriq-yod*,j,j,î,U+00ee
-סִי,05B4+05D9,185,point hiriq-yod*,i,i,î,U+00ee
-סִ,05B4,188,point hiriq*,,,i,U+0069
-סִ,05B4,185,point hiriq*,9,9,i,U+0069
-סֵי,05B5+05D9,188,point tsere-yod*,j,j,ê,U+00ea
-סֵי,05B5+05D9,185,point tsere-yod*,#,#,ê,U+00ea
-סֵ,05B5,188,point tsere*,,,e,U+0065
-סֵ,05B5,185,point tsere*,/,/,e,U+0065
-סֶ,05B6,188,point segol*,,,ę,U+0119
-סֶ,05B6,185,point segol*,e,e,ę,U+0119
-סַ,05B7,188,point patah*,,,a,U+0061
-סַ,05B7,185,point patah*,c,c,a,U+0061
-סָ,05B8,188,point qamats*,,,#x0101;,U+0101
-סָ,05B8,185,point qamats*,<,<,ā,U+0101
-סֹ,05B9,188,point holam*,,,o,U+006d
-סֹ,05B9,185,point holam*,[,[,o,U+006d
-וֺ,05BA,188,point holam haser for vav*,,,ô,U+00f4
-וֺ,05BA,185,point holam haser for vav*,,,ô,U+00f4
-סֻ,05BB,188,point qubuts*,,,u,U+0075
-סֻ,05BB,185,point qubuts*,+,+,u,U+0075
-סּ,05BC,186,point dagesh or mapiq*,"""","""",,
-סּ,05BC,196,point dagesh or mapiq*,,,,
-סֽ,05BD,185,point meteg*,@,@,,
-סֽ,05BD,8,point meteg*,,,,
-־,05BE,8,punctuation maqaf* - isolated,-,-,,
-סֿ,05BF,8,point rafe*,,,,
-׀,05C0,8,punctuation paseq*,,,,
-סׁ,05C1,8,point shin dot*,,,,
-סׂ,05C2,8,point sin dot*,,,,
-׃,05C3,8,punctuation sof pasuq*,4,4,,
-סׄ,05C4,8,mark upper dot*,*,*,,
-סׅ,05C5,8,mark lower dot*,,,,
-׆,05C6,8,punctuation nun hafukha*,,,,
-סׇ,05C7,8,point qamats qatan*,,,ā,U+0101
-א,05D0,8,letter alef,a,a,ʾ,U+02be
-בּ,05D1+05BC,8,letter bet,b,b,b,U+0062
-ב,05D1,214,letter vet - no dagesh input,b,b,ḇ,U+1e07
-ב,05D1,8,letter vet,v,v,ḇ,U+1e07
-ג,05D2,8,letter gimel,g,g,ḡ,U+1e21
-דּ,05D3+05BC,186,letter dalet with dagesh,"""d","""d",d,U+0064
-דּ,05D3+05BC,196,letter dalet with dagesh - isolated,d,d,d,U+0064
-ד,05D3,8,letter dalet,d,d,ḏ,U+1e0f
-הּ,05D4+05BC,8,letter he - isolated,h,h,,
-ה,05D4,8,letter he,h,h,h,U+0068
-וֹ,05D5+05B9,201,point holam-vav*,o,o,,
-וֹ,05D5+05B9,188,point holam-vav - isolated,w,w,,
-וֹ,05D5+05B9,185,point holam-vav,o,o,,
-וּ,05D5+05BC,201,point shuruq,u,u,,
-וּ,05D5+05BC,188,point shuruq - isolated,w,w,,
-וּ,05D5+05BC,185,point shuruq,u,u,,
-ו,05D5,8,letter vav,w,w,w,U+0077
-ז,05D6,8,letter zayin,z,z,z,U+007A
-ח,05D7,8,letter het,x,x,ḥ,U+1e25
-ט,05D8,8,letter tet,t,t,ṭ,U+1e6d
-יּ,05D9+05BC,186,letter yod with dagesh,"""j","""j",,
-יּ,05D9+05BC,196,letter yod with dagesh - isolated,j,j,,
-י,05D9,8,letter yod,j,j,y,U+0079
-ך,05DA,214,letter final kaf - Alef input,k,k,ḵ,U+1e35
-ך,05DA,8,letter final kaf,*,*,ḵ,U+1e35
-כּ,05DB+05BC,8,letter kaf,k,k,k,U+006b
-כ,05DB,214,letter khaf - no dagesh input,k,k,ḵ,U+1e35
-כ,05DB,8,letter khaf,*,*,ḵ,U+1e35
-לּ,05DC+05BC,186,letter lamed with dagesh,"""l","""l",,
-לּ,05DC+05BC,196,letter lamed with dagesh - isolated,l,l,,
-ל,05DC,8,letter lamed,l,l,l,U+006C
-ם,05DD,8,letter final mem,m,m,m,U+006d
-מּ,05DE+05BC,186,letter mem with dagesh,"""m","""m",,
-מּ,05DE+05BC,196,letter mem with dagesh - isolated,m,m,,
-מ,05DE,8,letter mem,m,m,m,U+006d
-ן,05DF,8,letter final nun,n,n,n,U+006e
-נּ,05E0+05BC,186,letter nun with dagesh,"""n","""n",,
-נּ,05E0+05BC,196,letter nun with dagesh - isolated,n,n,,
-נ,05E0,8,letter nun,n,n,n,U+006e
-ס,05E1,8,letter samekh,s,s,s,U+0073
-ע,05E2,8,letter ayin,$,$,ʿ,U+02bf
-ף,05E3,8,letter final pe,f,f,p̄,U+0070+0304
-פּ,05E4+05BC,8,letter pe,p,p,p,U+0070
-פ,05E4,214,letter fe - no dagesh input,p,p,p̄,U+0070+0304
-פ,05E4,8,letter fe,f,f,,
-ץ,05E5,8,letter final tsadi,!,!,ṣ,U+1e63
-צ,05E6,8,letter tsadi,!,!,ṣ,U+1e63
-קּ,05E7+05BC,186,letter qof with dagesh,"""q","""q",,
-קּ,05E7+05BC,196,letter qof with dagesh - isolated,q,q,,
-ק,05E7,8,letter qof,q,q,q,U+0071
-ר,05E8,8,letter resh,r,r,r,U+0072
-שׁ,05E9+05C1,8,letter shin,%,%,š,U+0161
-שׂ,05E9+05C2,214,letter sin,:,:,ś,U+015b
-שׂ,05E9+05C2,8,letter sin,:,:,,
-שּׁ,05E9+05BC+05C1,186,letter shin with dagesh,"""%","""%",,
-שּׁ,05E9+05BC+05C1,196,letter shin with dagesh - isolated,%,%,,
-שּׂ,05E9+05BC+05C2,214,letter sin with dagesh,""":",""":",,
-שּׂ,05E9+05BC+05C2,186,letter sin with dagesh,""":",""":",,
-שּׂ,05E9+05BC+05C2,196,letter sin with dagesh - isolated,:,:,,
-שּ,05E9+05BC,186,letter shin with dagesh,"""%","""%",,
-שּ,05E9+05BC,196,letter shin with dagesh - isolated,%,%,,
-ש,05E9,8,letter shin,%,%,,
-תּ,05EA+05BC,8,letter tav,\,\,t,U+0074
-ת,05EA,214,letter tav - no dagesh input,\,\,ṯ,U+1e6f
-ת,05EA,8,letter tav,?,?,ṯ,U+1e6f
-װ,05F0,8,ligature yiddish double vav*,,,ww,U+0077+0077
-ױ,05F1,8,ligature yiddish vav yod*,,,wy,U+0077+0079
-ײ,05F2,8,ligature yiddish double yod*,,,yy,U+0079+0079
-ס֑,0591,8,accent etnahta* - isolated,2,2,,
-ס֑,0591,20,accent etnahta* - isolated,,,,
-ס֒,0592,19,accent segol* - isolated,,,,
-ס֒,0592,188,accent segol* - isolated,,,,
-ס֒,0592,8,accent segol* - isolated,e,e,,
-ס֓,0593,8,accent shalshelet* - isolated,,,,
-ס֔,0594,8,accent zaqef qatan* - isolated,1,1,,
-ס֔,0594,20,accent zaqef qatan* - isolated,,,,
-ס֕,0595,8,accent zaqef gadol* - isolated,,,,
-ס֖,0596,8,accent tipeha* - isolated,,,,
-ס֗,0597,8,accent revia* - isolated,";riv""",";riv""",,
-ס֘,0598,8,accent zarqa* - isolated,,,,
-ס֙,0599,8,accent pashta* - isolated,,,,
-ס֚,059A,8,accent yetiv* - isolated,,,,
-ס֛,059B,8,accent tevir* - isolated,,,,
-ס֜,059C,8,accent geresh* - isolated,";ger""",";ger""",,
-ס֝,059D,8,accent geresh muqdam* - isolated,,,,
-ס֞,059E,8,accent gershayim* - isolated,,,,
-ס֟,059F,8,accent qarney para* - isolated,,,,
-ס֠,05A0,8,accent telisha gedola* - isolated,,,,
-ס֡,05A1,8,accent pazer* - isolated,,,,
-ס֢,05A2,8,accent atnah hafukh* - isolated,,,,
-ס֣,05A3,8,accent munah* - isolated,";mun""",";mun""",,
-ס֤,05A4,8,accent mahapakh* - isolated,,,,
-ס֥,05A5,8,accent merkha* - isolated,,,,
-ס֦,05A6,8,accent merkha kefula* - isolated,,,,
-ס֧,05A7,8,accent darga* - isolated,,,,
-ס֨,05A8,8,accent qadma* - isolated,,,,
-ס֩,05A9,8,accent telisha qetana* - isolated,,,,
-ס֪,05AA,8,accent yerah ben yomo* - isolated,,,,
-ס֫,05AB,8,accent ole* - isolated,,,,
-ס֬,05AC,8,accent iluy* - isolated,,,,
-ס֭,05AD,8,accent dehi* - isolated,,,,
-ס֮,05AE,8,accent zinor* - isolated,,,,
-ס֯,05AF,8,mark masora circle* - isolated,,,,
-׳,05F3,8,punctuation geresh*,,,,
-״,05F4,8,punctuation gershayim*,,,,
+"Character","Hex","Logic","Name","ASCII","Braille"
+"סְ","05B0","187","point sheva*","'","'"
+"סְ","05B0","188","point sheva*","",""
+"סְ","05B0","195","point sheva*","",""
+"סֱ","05B1","188","point hataf segol*","",""
+"סֱ","05B1","185","point hataf segol*","5","5"
+"סֲ","05B2","188","point hataf patah*","",""
+"סֲ","05B2","185","point hataf patah*","3","3"
+"סֳ","05B3","188","point hataf qamats*","",""
+"סֳ","05B3","185","point hataf qamats*",">",">"
+"סִי","05B4+05D9","201","point hiriq-yod*","i","i"
+"סִי","05B4+05D9","188","point hiriq-yod*","j","j"
+"סִי","05B4+05D9","185","point hiriq-yod*","i","i"
+"סִ","05B4","188","point hiriq*","",""
+"סִ","05B4","185","point hiriq*","9","9"
+"סֵי","05B5+05D9","188","point tsere-yod*","j","j"
+"סֵי","05B5+05D9","185","point tsere-yod*","#","#"
+"סֵ","05B5","188","point tsere*","",""
+"סֵ","05B5","185","point tsere*","/","/"
+"סֶ","05B6","188","point segol*","",""
+"סֶ","05B6","185","point segol*","e","e"
+"סַ","05B7","188","point patah*","",""
+"סַ","05B7","185","point patah*","c","c"
+"סָ","05B8","188","point qamats*","",""
+"סָ","05B8","185","point qamats*","<","<"
+"סֹ","05B9","188","point holam*","",""
+"סֹ","05B9","185","point holam*","[","["
+"וֺ","05BA","188","point holam haser for vav*","",""
+"וֺ","05BA","185","point holam haser for vav*","",""
+"סֻ","05BB","188","point qubuts*","",""
+"סֻ","05BB","185","point qubuts*","+","+"
+"סּ","05BC","186","point dagesh or mapiq*","""",""""
+"סּ","05BC","196","point dagesh or mapiq*","",""
+"סֽ","05BD","185","point meteg*","@","@"
+"סֽ","05BD","8","point meteg*","",""
+"־","05BE","8","punctuation maqaf* - isolated","-","-"
+"סֿ","05BF","8","point rafe*","",""
+"׀","05C0","8","punctuation paseq*","",""
+"סׁ","05C1","8","point shin dot*","",""
+"סׂ","05C2","8","point sin dot*","",""
+"׃","05C3","8","punctuation sof pasuq*","4","4"
+"סׄ","05C4","8","mark upper dot*","*","*"
+"סׅ","05C5","8","mark lower dot*","",""
+"׆","05C6","8","punctuation nun hafukha*","",""
+"סׇ","05C7","8","point qamats qatan*","",""
+"׳","05F3","8","punctuation geresh*","",""
+"״","05F4","8","punctuation gershayim*","",""
+"א","05D0","8","letter alef","a","a"
+"בּ","05D1+05BC","8","letter bet","b","b"
+"ב","05D1","214","letter vet - no dagesh input","b","b"
+"ב","05D1","8","letter vet","v","v"
+"ג","05D2","8","letter gimel","g","g"
+"דּ","05D3+05BC","186","letter dalet with dagesh","""d","""d"
+"דּ","05D3+05BC","196","letter dalet with dagesh - isolated","d","d"
+"ד","05D3","8","letter dalet","d","d"
+"הּ","05D4+05BC","8","letter he - isolated","h","h"
+"ה","05D4","8","letter he","h","h"
+"וֹ","05D5+05B9","201","point holam-vav*","o","o"
+"וֹ","05D5+05B9","188","point holam-vav - isolated","w","w"
+"וֹ","05D5+05B9","185","point holam-vav","o","o"
+"וּ","05D5+05BC","201","point shuruq","u","u"
+"וּ","05D5+05BC","188","point shuruq - isolated","w","w"
+"וּ","05D5+05BC","185","point shuruq","u","u"
+"ו","05D5","8","letter vav","w","w"
+"ז","05D6","8","letter zayin","z","z"
+"ח","05D7","8","letter het","x","x"
+"ט","05D8","8","letter tet","t","t"
+"יּ","05D9+05BC","186","letter yod with dagesh","""j","""j"
+"יּ","05D9+05BC","196","letter yod with dagesh - isolated","j","j"
+"י","05D9","8","letter yod","j","j"
+"ך","05DA","214","letter final kaf - Alef input","k","k"
+"ך","05DA","8","letter final kaf","*","*"
+"כּ","05DB+05BC","8","letter kaf","k","k"
+"כ","05DB","214","letter khaf - no dagesh input","k","k"
+"כ","05DB","8","letter khaf","*","*"
+"לּ","05DC+05BC","186","letter lamed with dagesh","""l","""l"
+"לּ","05DC+05BC","196","letter lamed with dagesh - isolated","l","l"
+"ל","05DC","8","letter lamed","l","l"
+"ם","05DD","8","letter final mem","m","m"
+"מּ","05DE+05BC","186","letter mem with dagesh","""m","""m"
+"מּ","05DE+05BC","196","letter mem with dagesh - isolated","m","m"
+"מ","05DE","8","letter mem","m","m"
+"ן","05DF","8","letter final nun","n","n"
+"נּ","05E0+05BC","186","letter nun with dagesh","""n","""n"
+"נּ","05E0+05BC","196","letter nun with dagesh - isolated","n","n"
+"נ","05E0","8","letter nun","n","n"
+"ס","05E1","8","letter samekh","s","s"
+"ע","05E2","8","letter ayin","$","$"
+"ף","05E3","8","letter final pe","f","f"
+"פּ","05E4+05BC","8","letter pe","p","p"
+"פ","05E4","214","letter fe - no dagesh input","p","p"
+"פ","05E4","8","letter fe","f","f"
+"ץ","05E5","8","letter final tsadi","!","!"
+"צ","05E6","8","letter tsadi","!","!"
+"קּ","05E7+05BC","186","letter qof with dagesh","""q","""q"
+"קּ","05E7+05BC","196","letter qof with dagesh - isolated","q","q"
+"ק","05E7","8","letter qof","q","q"
+"ר","05E8","8","letter resh","r","r"
+"שׁ","05E9+05C1","8","letter shin","%","%"
+"שׂ","05E9+05C2","214","letter sin",":",":"
+"שׂ","05E9+05C2","8","letter sin",":",":"
+"שּׁ","05E9+05BC+05C1","186","letter shin with dagesh","""%","""%"
+"שּׁ","05E9+05BC+05C1","196","letter shin with dagesh - isolated","%","%"
+"שּׂ","05E9+05BC+05C2","214","letter sin with dagesh",""":",""":"
+"שּׂ","05E9+05BC+05C2","186","letter sin with dagesh",""":",""":"
+"שּׂ","05E9+05BC+05C2","196","letter sin with dagesh - isolated",":",":"
+"שּ","05E9+05BC","186","letter shin with dagesh","""%","""%"
+"שּ","05E9+05BC","196","letter shin with dagesh - isolated","%","%"
+"ש","05E9","8","letter shin","%","%"
+"תּ","05EA+05BC","8","letter tav","\","\"
+"ת","05EA","214","letter tav - no dagesh input","\","\"
+"ת","05EA","8","letter tav","?","?"
+"װ","05F0","8","ligature yiddish double vav*","",""
+"ױ","05F1","8","ligature yiddish vav yod*","",""
+"ײ","05F2","8","ligature yiddish double yod*","",""
+"ס֑","0591","8","accent etnahta* - isolated","2","2"
+"ס֑","0591","20","accent etnahta* - isolated","",""
+"ס֒","0592","19","accent segol* - isolated","",""
+"ס֒","0592","188","accent segol* - isolated","",""
+"ס֒","0592","8","accent segol* - isolated","e","e"
+"ס֓","0593","8","accent shalshelet* - isolated","",""
+"ס֔","0594","8","accent zaqef qatan* - isolated","1","1"
+"ס֔","0594","20","accent zaqef qatan* - isolated","",""
+"ס֕","0595","8","accent zaqef gadol* - isolated","",""
+"ס֖","0596","8","accent tipeha* - isolated","",""
+"ס֗","0597","8","accent revia* - isolated",";riv""",";riv"""
+"ס֘","0598","8","accent zarqa* - isolated","",""
+"ס֙","0599","8","accent pashta* - isolated","",""
+"ס֚","059A","8","accent yetiv* - isolated","",""
+"ס֛","059B","8","accent tevir* - isolated","",""
+"ס֜","059C","8","accent geresh* - isolated",";ger""",";ger"""
+"ס֝","059D","8","accent geresh muqdam* - isolated","",""
+"ס֞","059E","8","accent gershayim* - isolated","",""
+"ס֟","059F","8","accent qarney para* - isolated","",""
+"ס֠","05A0","8","accent telisha gedola* - isolated","",""
+"ס֡","05A1","8","accent pazer* - isolated","",""
+"ס֢","05A2","8","accent atnah hafukh* - isolated","",""
+"ס֣","05A3","8","accent munah* - isolated",";mun""",";mun"""
+"ס֤","05A4","8","accent mahapakh* - isolated","",""
+"ס֥","05A5","8","accent merkha* - isolated","",""
+"ס֦","05A6","8","accent merkha kefula* - isolated","",""
+"ס֧","05A7","8","accent darga* - isolated","",""
+"ס֨","05A8","8","accent qadma* - isolated","",""
+"ס֩","05A9","8","accent telisha qetana* - isolated","",""
+"ס֪","05AA","8","accent yerah ben yomo* - isolated","",""
+"ס֫","05AB","8","accent ole* - isolated","",""
+"ס֬","05AC","8","accent iluy* - isolated","",""
+"ס֭","05AD","8","accent dehi* - isolated","",""
+"ס֮","05AE","8","accent zinor* - isolated","",""
+"ס֯","05AF","8","mark masora circle* - isolated","",""
