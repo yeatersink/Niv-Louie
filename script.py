@@ -2,8 +2,9 @@ import pandas as pd
 import json
 
 languages=[
-    {"name":"Akkadian","name_column":"Name","char_column":"Character(decimal)","braille_column":"Braille","replace":"Cuneiform Sign"},
-        {"name":"Hebrew","name_column":"Name","char_column":"Character(decimal)","braille_column":"Braille","replace":"Cuneiform Sign"}
+    {"name":"Akkadian","name_column":"Name","char_column":"Character(decimal)","braille_column":"Braille","replace":["Cuneiform Sign"]},
+        {"name":"Hebrew","name_column":"Name","char_column":"Character","braille_column":"Braille","replace":["point","punctuation","mark","letter","accent"]},
+        {"name":"Ugaritic","name_column":"Name","char_column":"Character(decimal)","braille_column":"Braille","replace":["UGARITIC LETTER","UGARITIC "]},
     ]
 
 braille_file=open("utils/brailleconverter.json")
@@ -15,21 +16,29 @@ def create_csv(language_option):
     filtered_language=language_file[[languages[language_option]["char_column"],languages[language_option]["name_column"],languages[language_option]["braille_column"]]]
     name_column=filtered_language[languages[language_option]["name_column"]]
     new_name_column=name_column.apply(format_names)
-    filtered_language[languages[language_option]["name_column"]]=new_name_column
-    braille_column=filtered_language[languages[language_option]["braille_column"]]
-    new_braille_column=braille_column.apply(get_braille)
-    filtered_language["Braille"]=new_braille_column
+    filtered_language["Name"]=new_name_column
+    # braille_column=filtered_language[languages[language_option]["braille_column"]]
+    # new_braille_column=braille_column.apply(get_braille)
+    # filtered_language["Braille"]=new_braille_column
     filtered_language.to_csv("languages/filtered_"+languages[language_option]["name"]+".csv")
 
 def format_names(name):
-    return name.replace("CUNEIFORM SIGN ","")
+    print(name)
+    for phrase in languages[language_option]["replace"]:
+        if phrase in name:
+            return name.replace(phrase,"")
+    return name
 
 def get_braille(text):
     braille=""
     if any(char.isdigit() for char in text):
+        newText=""
         for index,char in enumerate(text):
             if char.isdigit():
-                text=text[:index]+"_#"+text[index:]
+                newText+="_#"+char
+            else:
+                newText+=char
+        text=newText
     if "[q~*]" in text:
         text=text.replace("[q~*]","*")
     if "[q~+]" in text:
@@ -48,6 +57,7 @@ def get_braille(text):
         text=text.replace("lt;","<")
     if "[q~%]" in text:
         text=text.replace("[q~%]","ROTATED NINETY DEGREES")
+    print(text)
 
     for char in text:
         braille+=braille_object[char.lower()]+"-"
@@ -64,14 +74,14 @@ option=int(input("enter one, two, or three"))
 if option == 1:
     create_csv(language_option)
 elif option==2:
-    print("adding symbols to nvda")
-    akkadian=pd.read_csv("languages/filtered_akkadian.csv")
+    print("adding symbols to nvda for",languages[language_option]["name"])
+    language_file=pd.read_csv("languages/filtered_"+languages[language_option]["name"]+".csv")
     nvda_symbols_file=open("C:/Program Files (x86)/NVDA/locale/en/symbols.dic","a+",encoding="utf-8")
-    nvda_symbols_file.write("\n#Beta Akkadian\n")
-    for index,row in akkadian.iterrows():
-        new_line=str(row["Character(decimal)"])+"\t"+str(row["Name"])+"\tmost\talways\n"
+    nvda_symbols_file.write("\n#"+languages[language_option]["name"]+"\n")
+    for index,row in language_file.iterrows():
+        new_line=str(row[languages[language_option]["name_column"]])+"\t"+str(row["Name"])+"\tmost\talways\n"
         nvda_symbols_file.write(new_line)
-    nvda_symbols_file.write("#End Beta Akkadian\n\n")
+    nvda_symbols_file.write("#End "+languages[language_option]["name"]+"\n\n")
     nvda_symbols_file.close()
 elif option==3:
     print("creating table for lib louis")
