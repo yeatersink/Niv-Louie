@@ -23,10 +23,9 @@ def create_csv(language_option):
     filtered_language.to_csv("languages/filtered_"+languages[language_option]["name"]+".csv")
 
 def format_names(name):
-    print(name)
     for phrase in languages[language_option]["replace"]:
         if phrase in name:
-            return name.replace(phrase,"")
+            return name.replace(phrase,"").trim()
     return name
 
 def get_braille(text):
@@ -79,7 +78,7 @@ elif option==2:
     nvda_symbols_file=open("C:/Program Files (x86)/NVDA/locale/en/symbols.dic","a+",encoding="utf-8")
     nvda_symbols_file.write("\n#"+languages[language_option]["name"]+"\n")
     for index,row in language_file.iterrows():
-        new_line=str(row[languages[language_option]["name_column"]])+"\t"+str(row["Name"])+"\tmost\talways\n"
+        new_line=str(row[languages[language_option]["char_column"]])+"\t"+str(row["Name"])+"\tmost\talways\n"
         nvda_symbols_file.write(new_line)
     nvda_symbols_file.write("#End "+languages[language_option]["name"]+"\n\n")
     nvda_symbols_file.close()
