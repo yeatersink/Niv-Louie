@@ -1,50 +1,32 @@
 ,Character,Name,Braille
-0,סְ,sheva*,'
-1,סְ,sheva*,
-2,סְ,sheva*,
-3,סֱ,hataf segol*,
-4,סֱ,hataf segol*,5
-5,סֲ,hataf patah*,
-6,סֲ,hataf patah*,3
-7,סֳ,hataf qamats*,
-8,סֳ,hataf qamats*,>
-9,סִי,hiriq-yod*,i
-10,סִי,hiriq-yod*,j
-11,סִי,hiriq-yod*,i
-12,סִ,hiriq*,
-13,סִ,hiriq*,9
-14,סֵי,tsere-yod*,j
-15,סֵי,tsere-yod*,#
-16,סֵ,tsere*,
-17,סֵ,tsere*,/
-18,סֶ,segol*,
-19,סֶ,segol*,e
-20,סַ,patah*,
-21,סַ,patah*,c
-22,סָ,qamats*,
-23,סָ,qamats*,<
-24,סֹ,holam*,
-25,סֹ,holam*,[
-26,וֺ,holam haser for vav*,
-27,וֺ,holam haser for vav*,
-28,סֻ,qubuts*,
-29,סֻ,qubuts*,+
-30,סּ,dagesh or mapiq*,""""
-31,סּ,dagesh or mapiq*,
-32,סֽ,meteg*,@
-33,סֽ,meteg*,
-34,־,maqaf* - isolated,-
-35,סֿ,rafe*,
-36,׀,paseq*,
-37,סׁ,shin dot*,
-38,סׂ,sin dot*,
-39,׃,sof pasuq*,4
-40,סׄ,upper dot*,*
-41,סׅ,lower dot*,
-42,׆,nun hafukha*,
-43,סׇ,qamats qatan*,
-44,׳,geresh*,
-45,״,gershayim*,
+0,סְ,sheva,'
+3,סֱ,hataf segol,
+5,סֲ,hataf patah,
+7,סֳ,hataf qamats,
+9,סִי,hiriq-yod,i
+12,סִ,hiriq,
+14,סֵי,tsere-yod,j
+16,סֵ,tsere,
+18,סֶ,segol,
+20,סַ,patah,
+22,סָ,qamats,
+24,סֹ,holam,
+26,וֺ,holam haser for vav,
+28,סֻ,qubuts,
+30,סּ,dagesh or mapiq,""""
+32,סֽ,meteg,@
+34,־,maqaf - isolated,-
+35,סֿ,rafe,
+36,׀,paseq,
+37,סׁ,shin dot,
+38,סׂ,sin dot,
+39,׃,sof pasuq,4
+40,סׄ,upper dot,*
+41,סׅ,lower dot,
+42,׆,nun hafukha,
+43,סׇ,qamats qatan,
+44,׳,geresh,
+45,״,gershayim,
 46,א,alef,a
 47,בּ,bet,b
 48,ב,vet - no dagesh input,b
@@ -55,12 +37,10 @@
 53,ד,dalet,d
 54,הּ,he - isolated,h
 55,ה,he,h
-56,וֹ,holam-vav*,o
+56,וֹ,holam-vav,o
 57,וֹ,holam-vav - isolated,w
-58,וֹ,holam-vav,o
 59,וּ,shuruq,u
 60,וּ,shuruq - isolated,w
-61,וּ,shuruq,u
 62,ו,vav,w
 63,ז,zayin,z
 64,ח,het,x
@@ -98,53 +78,43 @@
 96,ר,resh,r
 97,שׁ,shin,%
 98,שׂ,sin,:
-99,שׂ,sin,:
 100,שּׁ,shin with dagesh,"""%"
 101,שּׁ,shin with dagesh - isolated,%
 102,שּׂ,sin with dagesh,""":"
-103,שּׂ,sin with dagesh,""":"
 104,שּׂ,sin with dagesh - isolated,:
-105,שּ,shin with dagesh,"""%"
-106,שּ,shin with dagesh - isolated,%
-107,ש,shin,%
 108,תּ,tav,\
 109,ת,tav - no dagesh input,\
-110,ת,tav,?
-111,װ,ligature yiddish double vav*,
-112,ױ,ligature yiddish vav yod*,
-113,ײ,ligature yiddish double yod*,
-114,ס֑,etnahta* - isolated,2
-115,ס֑,etnahta* - isolated,
-116,ס֒,segol* - isolated,
-117,ס֒,segol* - isolated,
-118,ס֒,segol* - isolated,e
-119,ס֓,shalshelet* - isolated,
-120,ס֔,zaqef qatan* - isolated,1
-121,ס֔,zaqef qatan* - isolated,
-122,ס֕,zaqef gadol* - isolated,
-123,ס֖,tipeha* - isolated,
-124,ס֗,revia* - isolated,";riv"""
-125,ס֘,zarqa* - isolated,
-126,ס֙,pashta* - isolated,
-127,ס֚,yetiv* - isolated,
-128,ס֛,tevir* - isolated,
-129,ס֜,geresh* - isolated,";ger"""
-130,ס֝,geresh muqdam* - isolated,
-131,ס֞,gershayim* - isolated,
-132,ס֟,qarney para* - isolated,
-133,ס֠,telisha gedola* - isolated,
-134,ס֡,pazer* - isolated,
-135,ס֢,atnah hafukh* - isolated,
-136,ס֣,munah* - isolated,";mun"""
-137,ס֤,mahapakh* - isolated,
-138,ס֥,merkha* - isolated,
-139,ס֦,merkha kefula* - isolated,
-140,ס֧,darga* - isolated,
-141,ס֨,qadma* - isolated,
-142,ס֩,telisha qetana* - isolated,
-143,ס֪,yerah ben yomo* - isolated,
-144,ס֫,ole* - isolated,
-145,ס֬,iluy* - isolated,
-146,ס֭,dehi* - isolated,
-147,ס֮,zinor* - isolated,
-148,ס֯,masora circle* - isolated,
+111,װ,ligature yiddish double vav,
+112,ױ,ligature yiddish vav yod,
+113,ײ,ligature yiddish double yod,
+114,ס֑,etnahta - isolated,2
+116,ס֒,segol - isolated,
+119,ס֓,shalshelet - isolated,
+120,ס֔,zaqef qatan - isolated,1
+122,ס֕,zaqef gadol - isolated,
+123,ס֖,tipeha - isolated,
+124,ס֗,revia - isolated,";riv"""
+125,ס֘,zarqa - isolated,
+126,ס֙,pashta - isolated,
+127,ס֚,yetiv - isolated,
+128,ס֛,tevir - isolated,
+129,ס֜,geresh - isolated,";ger"""
+130,ס֝,geresh muqdam - isolated,
+131,ס֞,gershayim - isolated,
+132,ס֟,qarney para - isolated,
+133,ס֠,telisha gedola - isolated,
+134,ס֡,pazer - isolated,
+135,ס֢,atnah hafukh - isolated,
+136,ס֣,munah - isolated,";mun"""
+137,ס֤,mahapakh - isolated,
+138,ס֥,merkha - isolated,
+139,ס֦,merkha kefula - isolated,
+140,ס֧,darga - isolated,
+141,ס֨,qadma - isolated,
+142,ס֩,telisha qetana - isolated,
+143,ס֪,yerah ben yomo - isolated,
+144,ס֫,ole - isolated,
+145,ס֬,iluy - isolated,
+146,ס֭,dehi - isolated,
+147,ס֮,zinor - isolated,
+148,ס֯,masora circle - isolated,

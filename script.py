@@ -3,7 +3,7 @@ import json
 
 languages=[
     {"name":"Akkadian","name_column":"Name","char_column":"Character(decimal)","braille_column":"Braille","replace":["Cuneiform Sign"]},
-        {"name":"Hebrew","name_column":"Name","char_column":"Character","braille_column":"Braille","replace":["point","punctuation","mark","letter","accent"]},
+        {"name":"Hebrew","name_column":"Name","char_column":"Character","braille_column":"Braille","replace":["point","punctuation","mark","letter","accent","*"]},
         {"name":"Ugaritic","name_column":"Name","char_column":"Character(decimal)","braille_column":"Braille","replace":["UGARITIC LETTER","UGARITIC "]},
     ]
 
@@ -20,12 +20,13 @@ def create_csv(language_option):
     # braille_column=filtered_language[languages[language_option]["braille_column"]]
     # new_braille_column=braille_column.apply(get_braille)
     # filtered_language["Braille"]=new_braille_column
+    filtered_language.drop_duplicates(inplace=True,subset=["Name"])
     filtered_language.to_csv("languages/filtered_"+languages[language_option]["name"]+".csv")
 
 def format_names(name):
     for phrase in languages[language_option]["replace"]:
         if phrase in name:
-            return name.replace(phrase,"").strip()
+            name=name.replace(phrase,"").strip()
     return name
 
 def get_braille(text):
