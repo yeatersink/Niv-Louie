@@ -66,9 +66,14 @@ def get_braille(text):
         braille=braille[:-1]
     return braille
 
-def change_characters(row):
-    row[languages[language_option]["char_column"]]=chr(row["Hex"])
-    return row
+def change_characters(hex):
+    new_char=""
+    if "+" in hex:
+        for char in hex.split("+"):
+            new_char+=chr(int(char,16))
+    else:
+        new_char=chr(int(hex,16))
+    return new_char
 
 print("Please Choose a Language")
 for index,language in enumerate(languages):
@@ -129,7 +134,7 @@ elif option==3:
     braille_table.close()
 elif option==4:
     language_file=pd.read_csv("languages/source/"+languages[language_option]["name"]+".csv")
-    language_file.apply(change_characters)
+    language_file[languages[language_option]["char_column"]]=language_file["Hex"].apply(change_characters)
     language_file.to_csv("languages/source/"+languages[language_option]["name"]+".csv")
 else:
     print("That was not a valid option")
