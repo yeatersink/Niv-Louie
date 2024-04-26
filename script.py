@@ -17,10 +17,10 @@ def create_csv(language_option):
     name_column=filtered_language[languages[language_option]["name_column"]]
     new_name_column=name_column.apply(format_names)
     filtered_language["Name"]=new_name_column
-    braille_column=filtered_language[languages[language_option]["braille_column"]]
-    new_braille_column=braille_column.apply(get_braille)
-    filtered_language["Braille"]=new_braille_column
-    filtered_language.drop_duplicates(inplace=True,subset=["Name"])
+    # braille_column=filtered_language[languages[language_option]["braille_column"]]
+    # new_braille_column=braille_column.apply(get_braille)
+    # filtered_language["Braille"]=new_braille_column
+    filtered_language.drop_duplicates(inplace=True,subset=[languages[language_option]["char_column"]])
     filtered_language.to_csv("languages/filtered_"+languages[language_option]["name"]+".csv")
 
 def format_names(name):
@@ -79,7 +79,7 @@ print("Please Choose a Language")
 for index,language in enumerate(languages):
     print(index,": ",languages[index]["name"])
 language_option=int(input("Choose a Language"))
-print("enter 1 to generate spreadsheets, enter 2 to add symbols to nvda, or enter 3 to genera te braille table")
+print("enter 1 to generate spreadsheets, enter 2 to add symbols to nvda, enter 3 to generate braille table, or enter 4 to remove extra characters")
 option=int(input("enter one, two, or three"))
 if option == 1:
     create_csv(language_option)
@@ -137,6 +137,7 @@ elif option==3:
         braille_table.write(new_line)
     braille_table.close()
 elif option==4:
+    print("removing characters")
     language_file=pd.read_csv("languages/source/"+languages[language_option]["name"]+".csv")
     language_file[languages[language_option]["char_column"]]=language_file["Hex"].apply(change_characters)
     language_file.to_csv("languages/source/"+languages[language_option]["name"]+".csv")
