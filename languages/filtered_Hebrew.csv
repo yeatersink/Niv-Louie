@@ -13,14 +13,14 @@
 24,ֹ,holam,
 26,ֺ,holam haser for vav,
 28,ֻ,qubuts,
-30,ּ,dagesh or mapiq,""""
+30,ּ,dagesh ,""""
 32,ֽ,meteg,@
-34,־,maqaf - isolated,-
+34,־,maqaf,-
 35,ֿ,rafe,
 36,׀,paseq,
 37,ׁ,shin dot,
 38,ׂ,sin dot,
-39,׃,sof pasuq,4
+39,׃,soaf pasuq,4
 40,ׄ,upper dot,*
 41,ׅ,lower dot,
 42,׆,nun hafukha,
@@ -29,92 +29,94 @@
 45,״,gershayim,
 46,א,alef,a
 47,בּ,bet,b
-48,ב,vet - no dagesh input,b
-49,ב,vet,v
+48,ב,bet without dagesh ,b
+49,ב,bet with dagesh,v
 50,ג,gimel,g
 51,דּ,dalet with dagesh,"""d"
-52,דּ,dalet with dagesh - isolated,d
+52,דּ,dalet with dagesh ,d
 53,ד,dalet,d
-54,הּ,he - isolated,h
-55,ה,he,h
+54,הּ,hey,h
+55,ה,hey,h
 56,וֹ,holam-vav,o
-57,וֹ,holam-vav - isolated,w
+57,וֹ,holam-vav ,w
 59,וּ,shuruq,u
-60,וּ,shuruq - isolated,w
+60,וּ,shuruq,w
 62,ו,vav,w
 63,ז,zayin,z
 64,ח,het,x
 65,ט,tet,t
 66,יּ,yod with dagesh,"""j"
-67,יּ,yod with dagesh - isolated,j
+67,יּ,yod with dagesh ,j
 68,י,yod,j
-69,ך,final kaf - Alef input,k
+69,ך,final kaf - Alef ,k
 70,ך,final kaf,*
 71,כּ,kaf,k
-72,כ,khaf - no dagesh input,k
+72,כ,khaf without dagesh ,k
 73,כ,khaf,*
 74,לּ,lamed with dagesh,"""l"
-75,לּ,lamed with dagesh - isolated,l
+75,לּ,lamed with dagesh ,l
 76,ל,lamed,l
 77,ם,final mem,m
 78,מּ,mem with dagesh,"""m"
-79,מּ,mem with dagesh - isolated,m
+79,מּ,mem with dagesh ,m
 80,מ,mem,m
 81,ן,final nun,n
 82,נּ,nun with dagesh,"""n"
-83,נּ,nun with dagesh - isolated,n
+83,נּ,nun with dagesh ,n
 84,נ,nun,n
 85,ס,samekh,s
 86,ע,ayin,$
 87,ף,final pe,f
 88,פּ,pe,p
-89,פ,fe - no dagesh input,p
+89,פ,fe without dagesh ,p
 90,פ,fe,f
 91,ץ,final tsadi,!
 92,צ,tsadi,!
 93,קּ,qof with dagesh,"""q"
-94,קּ,qof with dagesh - isolated,q
+94,קּ,qof with dagesh ,q
 95,ק,qof,q
 96,ר,resh,r
 97,שׁ,shin,%
 98,שׂ,sin,:
 100,שּׁ,shin with dagesh,"""%"
-101,שּׁ,shin with dagesh - isolated,%
+101,שּׁ,shin with dagesh ,%
 102,שּׂ,sin with dagesh,""":"
-104,שּׂ,sin with dagesh - isolated,:
+104,שּׂ,sin with dagesh ,:
 108,תּ,tav,\
-109,ת,tav - no dagesh input,\
-111,װ,ligature yiddish double vav,
-112,ױ,ligature yiddish vav yod,
-113,ײ,ligature yiddish double yod,
-114,֑,etnahta - isolated,2
-116,֒,segol - isolated,
-119,֓,shalshelet - isolated,
-120,֔,zaqef qatan - isolated,1
-122,֕,zaqef gadol - isolated,
-123,֖,tipeha - isolated,
-124,֗,revia - isolated,";riv"""
-125,֘,zarqa - isolated,
-126,֙,pashta - isolated,
-127,֚,yetiv - isolated,
-128,֛,tevir - isolated,
-129,֜,geresh - isolated,";ger"""
-130,֝,geresh muqdam - isolated,
-131,֞,gershayim - isolated,
-132,֟,qarney para - isolated,
-133,֠,telisha gedola - isolated,
-134,֡,pazer - isolated,
-135,֢,atnah hafukh - isolated,
-136,֣,munah - isolated,";mun"""
-137,֤,mahapakh - isolated,
-138,֥,merkha - isolated,
-139,֦,merkha kefula - isolated,
-140,֧,darga - isolated,
-141,֨,qadma - isolated,
-142,֩,telisha qetana - isolated,
-143,֪,yerah ben yomo - isolated,
-144,֫,ole - isolated,
-145,֬,iluy - isolated,
-146,֭,dehi - isolated,
-147,֮,zinor - isolated,
-148,֯,masora circle - isolated,
+109,ת,tav without dagesh ,\
+111,װ,double vav,
+112,ױ,vav yod,
+113,ײ,double yod,
+114,֑,etnakta ,2
+116,֒,segol ,
+119,֓,shalshelet ,
+120,֔,zaqef qatan ,1
+122,֕,zaqef gadol ,
+123,֖,tipeha ,
+124,֗,revia ,";riv"""
+125,֘,zarqa ,
+126,֙,pashta ,
+127,֚,yetiv ,
+128,֛,tevir ,
+129,֜,geresh ,";ger"""
+130,֝,geresh muqdam ,
+131,֞,gershayim ,
+132,֟,qarney para ,
+133,֠,telisha gedola,
+134,֡,pazer ,
+135,֢,atnah hafukh ,
+136,֣,munah ,";mun"""
+137,֤,mahapakh ,
+138,֥,merkha ,
+139,֦,merkha kefula ,
+140,֧,darga ,
+141,֨,qadma ,
+142,֩,telisha qetana ,
+143,֪,yerah ben yomo ,
+144,֫,ole ,
+145,֬,iluy ,
+146,֭,dehi ,
+147,֮,zinor ,
+148,֯,masora circle ,
+149,ש,shin,%,
+ 

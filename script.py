@@ -17,9 +17,9 @@ def create_csv(language_option):
     name_column=filtered_language[languages[language_option]["name_column"]]
     new_name_column=name_column.apply(format_names)
     filtered_language["Name"]=new_name_column
-    # braille_column=filtered_language[languages[language_option]["braille_column"]]
-    # new_braille_column=braille_column.apply(get_braille)
-    # filtered_language["Braille"]=new_braille_column
+    braille_column=filtered_language[languages[language_option]["braille_column"]]
+    new_braille_column=braille_column.apply(get_braille)
+    filtered_language["Braille"]=new_braille_column
     filtered_language.drop_duplicates(inplace=True,subset=["Name"])
     filtered_language.to_csv("languages/filtered_"+languages[language_option]["name"]+".csv")
 
@@ -126,10 +126,14 @@ elif option==3:
 # Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA
 # liblouis  comes with ABSOLUTELY NO WARRANTY.
 
-# Maintained by Matt Yeater and Paul Geoghegan
+#for more information one the Akkadian language, please go to:
+#https://oracc.museum.upenn.edu/dcclt/signlists/signlists/
+#The standard for Akkadian has been set by the academic community represented by ORACC. The braille code for Akkadian follows the standard set by ORACC. The braille code for Akkadian is represented in braille as the name for the sign in Akkadian. Thus, if the Akkadian sign is a "Lum," then the braille code for this sign would be lum.
+#This project is overseen by Ariel University and supervised by Dr. Shai Gordin 
+# Maintained by Matityahu Yeshurun and Paul Geoghegan
 """)
     for index, row in akkadian.iterrows():
-        new_line="always "+str(row["Character(decimal)"])+" "+str(row["Braille"])+"\n"
+        new_line="letter "+str(row["Character(decimal)"])+" "+str(row["Braille"])+"\n"
         braille_table.write(new_line)
     braille_table.close()
 elif option==4:
