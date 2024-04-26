@@ -1,0 +1,252 @@
+,Character,Name,Braille
+0,܀,END OF PARAGRAPH,.p
+1,܁,SUPRALINEAR FULL STOP,6
+2,܂,SUBLINEAR FULL STOP,4
+3,܃,SUPRALINEAR COLON,.c
+4,܄,SUBLINEAR COLON,.-
+5,܅,HORIZONTAL COLON,.3
+6,܆,COLON SKEWED LEFT,8
+7,܇,COLON SKEWED RIGHT,0
+8,܈,SUPRALINEAR COLON SKEWED LEFT,.:
+9,܉,SUBLINEAR COLON SKEWED RIGHT,.s
+10,܊,CONTRACTION,.'
+11,܋,HARKLEAN OBELUS,.o
+12,܌,HARKLEAN METOBELUS,.m
+13,܍,HARKLEAN ASTERISCUS,.9
+14,܏,ABBREVIATION MARK,.a
+15,ܐ˛˥,ALAPH and 2 more,"""a*"
+16,ܐ˞˥,ALAPH and 2 more,"""a:"
+17,ܐˡ˥,ALAPH and 2 more,"""a5"
+18,ܐIe;˥,ALAPH and 2 more,"""a+"
+19,ܐ˥,ALAPH and QUSHSHAYA,"""a"
+20,ܐ˦,ALAPH and RUKKAKHA,",a"
+21,ܐ,ALAPH,a
+22,ܑ˛˥,SUPERSCRIPT ALAPH  and 2 more,"""_a*"
+23,ܑ˞˥,SUPERSCRIPT ALAPH  and 2 more,"""_a:"
+24,ܑˡ˥,SUPERSCRIPT ALAPH  and 2 more,"""_a5"
+25,ܑIe;˥,SUPERSCRIPT ALAPH  and 2 more,"""_a+"
+26,ܑ˥,SUPERSCRIPT ALAPH  and QUSHSHAYA,"""_a"
+27,ܑ˦,SUPERSCRIPT ALAPH  and RUKKAKHA,",_a"
+28,ܑ,SUPERSCRIPT ALAPH,_a
+29,ܒ˛˥,BETH and 2 more,"""b*"
+30,ܒ˞˥,BETH and 2 more,"""b:"
+31,ܒˡ˥,BETH and 2 more,"""b5"
+32,ܒIe;˥,BETH and 2 more,"""b+"
+33,ܒ˥,BETH and QUSHSHAYA,"""b"
+34,ܒ˦,BETH and RUKKAKHA,",b"
+35,ܒ,BETH,b
+36,ܓ˛˥,GAMAL and 2 more,"""g*"
+37,ܓ˞˥,GAMAL and 2 more,"""g:"
+38,ܓˡ˥,GAMAL and 2 more,"""g5"
+39,ܓIe;˥,GAMAL and 2 more,"""g+"
+40,ܓ˥,GAMAL and QUSHSHAYA,"""g"
+41,ܓ˦,GAMAL and RUKKAKHA,",g"
+42,ܓ,GAMAL,g
+43,ܔ˛˥,GAMAL GARSHUNI and 2 more,"""_g*"
+44,ܔ˞˥,GAMAL GARSHUNI and 2 more,"""_g:"
+45,ܔˡ˥,GAMAL GARSHUNI and 2 more,"""_g5"
+46,ܔIe;˥,GAMAL GARSHUNI and 2 more,"""_g+"
+47,ܔ˥,GAMAL GARSHUNI and QUSHSHAYA,"""_g"
+48,ܔ˦,GAMAL GARSHUNI and RUKKAKHA,",_g"
+49,ܔ,GAMAL GARSHUNI,_g
+50,ܕ˛˥,DALATH and 2 more,"""d*"
+51,ܕ˞˥,DALATH and 2 more,"""d:"
+52,ܕˡ˥,DALATH and 2 more,"""d5"
+53,ܕIe;˥,DALATH and 2 more,"""d+"
+54,ܕ˥,DALATH and QUSHSHAYA,"""d"
+55,ܕ˦,DALATH and RUKKAKHA,",d"
+56,ܕ,DALATH,d
+57,ܖ˛˥,DOTLESS DALATH RISH and 2 more,"""_d*"
+58,ܖ˞˥,DOTLESS DALATH RISH and 2 more,"""_d:"
+59,ܖˡ˥,DOTLESS DALATH RISH and 2 more,"""_d5"
+60,ܖIe;˥,DOTLESS DALATH RISH and 2 more,"""_d+"
+61,ܖ˥,DOTLESS DALATH RISH and QUSHSHAYA,"""_d"
+62,ܖ˦,DOTLESS DALATH RISH and RUKKAKHA,",_d"
+63,ܖ,DOTLESS DALATH RISH,_d
+64,ܗ˛˥,HE and 2 more,"""h*"
+65,ܗ˞˥,HE and 2 more,"""h:"
+66,ܗˡ˥,HE and 2 more,"""h5"
+67,ܗIe;˥,HE and 2 more,"""h+"
+68,ܗ˥,HE and QUSHSHAYA,"""h"
+69,ܗ˦,HE and RUKKAKHA,",h"
+70,ܗ,HE,h
+71,ܘ˛˥,WAW and 2 more,"""w*"
+72,ܘ˞˥,WAW and 2 more,"""w:"
+73,ܘˡ˥,WAW and 2 more,"""w5"
+74,ܘIe;˥,WAW and 2 more,"""w+"
+75,ܘ˥,WAW and QUSHSHAYA,"""w"
+76,ܘ˦,WAW and RUKKAKHA,",w"
+77,ܘ,WAW,w
+78,ܙ˛˥,ZAIN and 2 more,"""z*"
+79,ܙ˞˥,ZAIN and 2 more,"""z:"
+80,ܙˡ˥,ZAIN and 2 more,"""z5"
+81,ܙIe;˥,ZAIN and 2 more,"""z+"
+82,ܙ˥,ZAIN and QUSHSHAYA,"""z"
+83,ܙ˦,ZAIN and RUKKAKHA,",z"
+84,ܙ,ZAIN,z
+85,ܚ˛˥,HETH and 2 more,"""x*"
+86,ܚ˞˥,HETH and 2 more,"""x:"
+87,ܚˡ˥,HETH and 2 more,"""x5"
+88,ܚIe;˥,HETH and 2 more,"""x+"
+89,ܚ˥,HETH and QUSHSHAYA,"""x"
+90,ܚ˦,HETH and RUKKAKHA,",x"
+91,ܚ,HETH,x
+92,ܛ˛˥,TETH and 2 more,"""t*"
+93,ܛ˞˥,TETH and 2 more,"""t:"
+94,ܛˡ˥,TETH and 2 more,"""t5"
+95,ܛIe;˥,TETH and 2 more,"""t+"
+96,ܛ˥,TETH and QUSHSHAYA,"""t"
+97,ܛ˦,TETH and RUKKAKHA,",t"
+98,ܛ,TETH,t
+99,ܜ˛˥,TETH GARSHUNI and 2 more,"""_t*"
+100,ܜ˞˥,TETH GARSHUNI and 2 more,"""_t:"
+101,ܜˡ˥,TETH GARSHUNI and 2 more,"""_t5"
+102,ܜIe;˥,TETH GARSHUNI and 2 more,"""_t+"
+103,ܜ˥,TETH GARSHUNI and QUSHSHAYA,"""_t"
+104,ܜ˦,TETH GARSHUNI and RUKKAKHA,",_t"
+105,ܜ,TETH GARSHUNI,_t
+106,ܝ˛˥,YUDH and 2 more,"""j*"
+107,ܝ˞˥,YUDH and 2 more,"""j:"
+108,ܝˡ˥,YUDH and 2 more,"""j5"
+109,ܝIe;˥,YUDH and 2 more,"""j+"
+110,ܝ˥,YUDH and QUSHSHAYA,"""j"
+111,ܝ˦,YUDH and RUKKAKHA,",j"
+112,ܝ,YUDH,j
+113,ܞ˛˥,YUDH HE and 2 more,"""_j*"
+114,ܞ˞˥,YUDH HE and 2 more,"""_j:"
+115,ܞˡ˥,YUDH HE and 2 more,"""_j5"
+116,ܞIe;˥,YUDH HE and 2 more,"""_j+"
+117,ܞ˥,YUDH HE and QUSHSHAYA,"""_j"
+118,ܞ˦,YUDH HE and RUKKAKHA,",_j"
+119,ܞ,YUDH HE,_j
+120,ܟ˛˥,KAPH and 2 more,"""k*"
+121,ܟ˞˥,KAPH and 2 more,"""k:"
+122,ܟˡ˥,KAPH and 2 more,"""k5"
+123,ܟIe;˥,KAPH and 2 more,"""k+"
+124,ܟ˥,KAPH and QUSHSHAYA,"""k"
+125,ܟ˦,KAPH and RUKKAKHA,",k"
+126,ܟ,KAPH,k
+127,ܠ˛˥,LAMADH and 2 more,"""l*"
+128,ܠ˞˥,LAMADH and 2 more,"""l:"
+129,ܠˡ˥,LAMADH and 2 more,"""l5"
+130,ܠIe;˥,LAMADH and 2 more,"""l+"
+131,ܠ˥,LAMADH and QUSHSHAYA,"""l"
+132,ܠ˦,LAMADH and RUKKAKHA,",l"
+133,ܠ,LAMADH,l
+134,ܡ˛˥,MIM and 2 more,"""m*"
+135,ܡ˞˥,MIM and 2 more,"""m:"
+136,ܡˡ˥,MIM and 2 more,"""m5"
+137,ܡIe;˥,MIM and 2 more,"""m+"
+138,ܡ˥,MIM and QUSHSHAYA,"""m"
+139,ܡ˦,MIM and RUKKAKHA,",m"
+140,ܡ,MIM,m
+141,ܢ˛˥,NUN and 2 more,"""n*"
+142,ܢ˞˥,NUN and 2 more,"""n:"
+143,ܢˡ˥,NUN and 2 more,"""n5"
+144,ܢIe;˥,NUN and 2 more,"""n+"
+145,ܢ˥,NUN and QUSHSHAYA,"""n"
+146,ܢ˦,NUN and RUKKAKHA,",n"
+147,ܢ,NUN,n
+148,ܣ˛˥,SEMKATH and 2 more,"""s*"
+149,ܣ˞˥,SEMKATH and 2 more,"""s:"
+150,ܣˡ˥,SEMKATH and 2 more,"""s5"
+151,ܣIe;˥,SEMKATH and 2 more,"""s+"
+152,ܣ˥,SEMKATH and QUSHSHAYA,"""s"
+153,ܣ˦,SEMKATH and RUKKAKHA,",s"
+154,ܣ,SEMKATH,s
+155,ܤ˛˥,FINAL SEMKATH and 2 more,"""_s*"
+156,ܤ˞˥,FINAL SEMKATH and 2 more,"""_s:"
+157,ܤˡ˥,FINAL SEMKATH and 2 more,"""_s5"
+158,ܤIe;˥,FINAL SEMKATH and 2 more,"""_s+"
+159,ܤ˥,FINAL SEMKATH and QUSHSHAYA,"""_s"
+160,ܤ˦,FINAL SEMKATH and RUKKAKHA,",_s"
+161,ܤ,FINAL SEMKATH,_s
+162,ܥ˛˥,E and 2 more,"""$*"
+163,ܥ˞˥,E and 2 more,"""$:"
+164,ܥˡ˥,E and 2 more,"""$5"
+165,ܥIe;˥,E and 2 more,"""$+"
+166,ܥ˥,E and QUSHSHAYA,"""$"
+167,ܥ˦,E and RUKKAKHA,",$"
+168,ܥ,E,$
+169,ܦ˛˥,PE and 2 more,"""p*"
+170,ܦ˞˥,PE and 2 more,"""p:"
+171,ܦˡ˥,PE and 2 more,"""p5"
+172,ܦIe;˥,PE and 2 more,"""p+"
+173,ܦ˥,PE and QUSHSHAYA,"""p"
+174,ܦ˦,PE and RUKKAKHA,",p"
+175,ܦ,PE,p
+176,ܧ˛˥,REVERSED PE and 2 more,"""_p*"
+177,ܧ˞˥,REVERSED PE and 2 more,"""_p:"
+178,ܧˡ˥,REVERSED PE and 2 more,"""_p5"
+179,ܧIe;˥,REVERSED PE and 2 more,"""_p+"
+180,ܧ˥,REVERSED PE and QUSHSHAYA,"""_p"
+181,ܧ˦,REVERSED PE and RUKKAKHA,",_p"
+182,ܧ,REVERSED PE,_p
+183,ܨ˛˥,SADHE and 2 more,"""!*"
+184,ܨ˞˥,SADHE and 2 more,"""!:"
+185,ܨˡ˥,SADHE and 2 more,"""!5"
+186,ܨIe;˥,SADHE and 2 more,"""!+"
+187,ܨ˥,SADHE and QUSHSHAYA,"""""!"
+188,ܨ˦,SADHE and RUKKAKHA,",,!"
+189,ܨ,SADHE,!
+190,ܩ˛˥,QAPH and 2 more,"""q*"
+191,ܩ˞˥,QAPH and 2 more,"""q:"
+192,ܩˡ˥,QAPH and 2 more,"""q5"
+193,ܩIe;˥,QAPH and 2 more,"""q+"
+194,ܩ˥,QAPH and QUSHSHAYA,"""q"
+195,ܩ˦,QAPH and RUKKAKHA,",q"
+196,ܩ,QAPH,q
+197,ܪ˛˥,RISH and 2 more,"""r*"
+198,ܪ˞˥,RISH and 2 more,"""r:"
+199,ܪˡ˥,RISH and 2 more,"""r5"
+200,ܪIe;˥,RISH and 2 more,"""r+"
+201,ܪ˥,RISH and QUSHSHAYA,"""r"
+202,ܪ˦,RISH and RUKKAKHA,",r"
+203,ܪ,RISH,r
+204,ܫ˛˥,SHIN and 2 more,"""%*"
+205,ܫ˞˥,SHIN and 2 more,"""%:"
+206,ܫˡ˥,SHIN and 2 more,"""%5"
+207,ܫIe;˥,SHIN and 2 more,"""%+"
+208,ܫ˥,SHIN and QUSHSHAYA,"""%"
+209,ܫ˦,SHIN and RUKKAKHA,",%"
+210,ܫ,SHIN,%
+211,ܬ˛˥,TAW and 2 more,"""\*"
+212,ܬ˞˥,TAW and 2 more,"""\:"
+213,ܬˡ˥,TAW and 2 more,"""\5"
+214,ܬIe;˥,TAW and 2 more,"""\+"
+215,ܬ˥,TAW and QUSHSHAYA,"""\"
+216,ܬ˦,TAW and RUKKAKHA,",\"
+217,ܬ,TAW,\
+218,ܭ,PERSIAN BHETH,_2
+219,ܮ,PERSIAN GHAMAL,_7
+220,ܯ,PERSIAN DHALATH,_4
+221,ܰ,PTHAHA ABOVE,(
+222,ܱ,PTHAHA BELOW,*
+223,ܲ,PTHAHA DOTTED,c
+224,ܳ,ZQAPHA ABOVE,>
+225,ܴ,ZQAPHA BELOW,:
+226,ܵ,ZQAPHA DOTTED,<
+227,ܶ,RBASA ABOVE,e
+228,ܷ,RBASA BELOW,5
+229,ܸ,DOTTED ZLAMA HORIZONTAL,/
+230,ܹ,DOTTED ZLAMA ANGULAR,#
+231,ܺ,HBASA ABOVE,i
+232,ܻ,HBASA BELOW,9
+233,ܼ,HBASA-ESASA DOTTED,_
+234,ܽ,ESASA ABOVE,u
+235,ܾ,ESASA BELOW,v
+236,ܿ,RWAHA,o
+237,݀,FEMININE DOT,f
+238,݁,QUSHSHAYA,""""
+239,݂,RUKKAKHA,","
+240,݃,TWO VERTICAL DOTS ABOVE,.b
+241,݄,TWO VERTICAL DOTS BELOW,.2
+242,݅,THREE DOTS ABOVE,.h
+243,݆,THREE DOTS BELOW,.0
+244,݇,OBLIQUE LINE ABOVE,.^
+245,݈,OBLIQUE LINE BELOW,.;
+246,݉,MUSIC,.%
+247,݊,BARREKH,.v
+248,ݍ,SOGDIAN ZHAIN,_z
+249,ݎ,SOGDIAN KHAPH,_k
+250,ݏ,SOGDIAN FE,_f

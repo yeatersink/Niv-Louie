@@ -2,8 +2,9 @@ import pandas as pd
 import json
 
 languages=[
-    {"name":"Akkadian","name_column":"Name","char_column":"Character(decimal)","braille_column":"Braille","replace":["Cuneiform Sign"]},
+    {"name":"Akkadian","name_column":"Name","char_column":"Character(decimal)","braille_column":"Braille","replace":["CUNEIFORM SIGN"]},
         {"name":"Hebrew","name_column":"Name","char_column":"Character","braille_column":"Braille","replace":["point","punctuation","mark","letter","accent","*"]},
+        {"name":"Syriac","name_column":"Name","char_column":"Character","braille_column":"Braille","replace":[]},
         {"name":"Ugaritic","name_column":"Name","char_column":"Character(decimal)","braille_column":"Braille","replace":["UGARITIC LETTER","UGARITIC "]},
     ]
 
@@ -24,9 +25,10 @@ def create_csv(language_option):
     filtered_language.to_csv("languages/filtered_"+languages[language_option]["name"]+".csv")
 
 def format_names(name):
-    for phrase in languages[language_option]["replace"]:
-        if phrase in name:
-            name=name.replace(phrase,"").strip()
+    if len(languages[language_option]["replace"]) > 0:
+        for phrase in languages[language_option]["replace"]:
+            if phrase in name:
+                name=name.replace(phrase,"").strip()
     return name
 
 def get_braille(text):
