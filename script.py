@@ -81,8 +81,8 @@ print("Please Choose a Language")
 for index,language in enumerate(languages):
     print(index,": ",languages[index]["name"])
 language_option=int(input("Choose a Language"))
-print("enter 1 to generate spreadsheets, enter 2 to add symbols to nvda, enter 3 to generate braille table, or enter 4 to remove extra characters")
-option=int(input("enter one, two, or three"))
+print("enter 1 to generate spreadsheets, enter 2 to add symbols to nvda, enter 3 to generate braille table, enter 4 to remove extra characters, or enter 5 to remove lines with multiple characters")
+option=int(input("enter a number one through 5"))
 if option == 1:
     create_csv(language_option)
 elif option==2:
@@ -142,6 +142,12 @@ elif option==4:
     print("removing characters")
     language_file=pd.read_csv("languages/source/"+languages[language_option]["name"]+".csv")
     language_file[languages[language_option]["char_column"]]=language_file["Hex"].apply(change_characters)
+    language_file.to_csv("languages/source/"+languages[language_option]["name"]+".csv")
+elif option == 5:
+    print ("removing lines with multiple symbols")
+    language_file=pd.read_csv("languages/source/"+languages[language_option]["name"]+".csv")
+    str_to_remove = ["+"]
+    language_file[~language_file.Hex.str.contains('|'.join(str_to_remove))]
     language_file.to_csv("languages/source/"+languages[language_option]["name"]+".csv")
 else:
     print("That was not a valid option")
