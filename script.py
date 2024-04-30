@@ -41,16 +41,14 @@ def get_braille(text):
             else:
                 newText+=char
         text=newText
-    if "[q~*]" in text:
-        text=text.replace("[q~*]","*")
-    if "[q~+]" in text:
-        text=text.replace("[q~+]","+")
-    if "[q~/]" in text:
-        text=text.replace("[q~/]","/")
     if "[q~^]"*3 in text:
         text=text.replace("[q~^]"*3,"^#3")
     if "[q~^]"*2 in text:
         text=text.replace("[q~^]"*2,"^#2")
+    if "[q~" in text:
+        text=text.replace("[q~","")
+    if "]" in text:
+        text=text.replace("]","")
     if "[q~$]" in text:
         text=text.replace("[q~$]","OPPOSING")
     if "[q~&]" in text:
