@@ -2,10 +2,10 @@ import pandas as pd
 import json
 
 languages=[
-    {"name":"Akkadian","name_column":"Name","char_column":"Character(decimal)","braille_column":"Braille","replace":["CUNEIFORM SIGN"]},
-        {"name":"Hebrew","name_column":"Name","char_column":"Character","braille_column":"Braille","replace":["point","punctuation","mark","letter","accent","*"]},
-        {"name":"Syriac","name_column":"Name","char_column":"Character","braille_column":"Braille","replace":[]},
-        {"name":"Ugaritic","name_column":"Name","char_column":"Character(decimal)","braille_column":"Braille","replace":["UGARITIC LETTER","UGARITIC "]},
+    {"name":"Akkadian","language_code":"akk","name_column":"Name","char_column":"Character(decimal)","braille_column":"Braille","replace":["CUNEIFORM SIGN"]},
+        {"name":"Hebrew","language_code":"heb","name_column":"Name","char_column":"Character","braille_column":"Braille","replace":["point","punctuation","mark","letter","accent","*"]},
+        {"name":"Syriac","language_code":"syc","name_column":"Name","char_column":"Character","braille_column":"Braille","replace":[]},
+        {"name":"Ugaritic","language_code":"ug","name_column":"Name","char_column":"Character(decimal)","braille_column":"Braille","replace":["UGARITIC LETTER","UGARITIC "]}
     ]
 
 braille_file=open("utils/brailleconverter.json")
@@ -18,9 +18,9 @@ def create_csv(language_option):
     name_column=filtered_language[languages[language_option]["name_column"]]
     new_name_column=name_column.apply(format_names)
     filtered_language["Name"]=new_name_column
-    # braille_column=filtered_language[languages[language_option]["braille_column"]]
-    # new_braille_column=braille_column.apply(get_braille)
-    # filtered_language["Braille"]=new_braille_column
+    braille_column=filtered_language[languages[language_option]["braille_column"]]
+    new_braille_column=braille_column.apply(get_braille)
+    filtered_language["Braille"]=new_braille_column
     filtered_language.drop_duplicates(inplace=True,subset=[languages[language_option]["char_column"]])
     filtered_language.to_csv("languages/filtered_"+languages[language_option]["name"]+".csv")
 
@@ -37,7 +37,7 @@ def get_braille(text):
         newText=""
         for index,char in enumerate(text):
             if char.isdigit():
-                newText+="_#"+char
+                newText+="#"+char
             else:
                 newText+=char
         text=newText
@@ -97,21 +97,21 @@ elif option==2:
     nvda_symbols_file.close()
 elif option==3:
     print("creating table for lib louis")
-    akkadian=pd.read_csv("languages/filtered_akkadian.csv")
-    braille_table=open("braille/beta-akkadian.tbl","w",encoding="utf-8")
+    braille=pd.read_csv("languages/filtered_"+languages[language_option]["name"]+".csv")
+    braille_table=open("braille/"+languages[language_option]["language_code"]+".tbl","w",encoding="utf-8")
     braille_table.write("""
-# liblouis: Beta Akkadian Grade 1 table
+# liblouis: """+languages[language_option]["name"]+""" Grade 1 table
 #
 # ------------
-#-name: Beta Akkadian grade 1
-#-index-name: Akkadian uncontracted
-#-display-name: Akkadian uncontracted braille as used in the study of Akkadian .
+#-name: """+languages[language_option]["name"]+""" grade 1
+#-index-name: """+languages[language_option]["name"]+""" uncontracted
+#-display-name: """+languages[language_option]["name"]+""" uncontracted braille as used in the study of """+languages[language_option]["name"]+""" .
 #
-#+language:akk
+#+language:"""+languages[language_option]["language_code"]+"""
 #+type:literary
 #+contraction:no
 #+grade:1
-#+system:AKK
+#+system:"""+languages[language_option]["language_code"]+"""
 
 # This file is free software; you can redistribute it and/or
 # modify it under the terms of the GNU Lesser General Public
@@ -128,14 +128,14 @@ elif option==3:
 # Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA
 # liblouis  comes with ABSOLUTELY NO WARRANTY.
 
-#for more information one the Akkadian language, please go to:
+#for more information on the """+languages[language_option]["name"]+""" language, please go to:
 #https://oracc.museum.upenn.edu/dcclt/signlists/signlists/
-#The standard for Akkadian has been set by the academic community represented by ORACC. The braille code for Akkadian follows the standard set by ORACC. The braille code for Akkadian is represented in braille as the name for the sign in Akkadian. Thus, if the Akkadian sign is a "Lum," then the braille code for this sign would be lum.
+#The standard for """+languages[language_option]["name"]+""" has been set by the academic community represented by ORACC. The braille code for """+languages[language_option]["name"]+""" follows the standard set by ORACC. The braille code for """+languages[language_option]["name"]+""" is represented in braille as the name for the sign in """+languages[language_option]["name"]+""". Thus, if the """+languages[language_option]["name"]+""" sign is a "Lum," then the braille code for this sign would be lum.
 #This project is overseen by Ariel University and supervised by Dr. Shai Gordin 
 # Maintained by Matityahu Yeshurun and Paul Geoghegan
 """)
-    for index, row in akkadian.iterrows():
-        new_line="letter "+str(row["Character(decimal)"])+" "+str(row["Braille"])+"\n"
+    for index, row in braille.iterrows():
+        new_line="letter "+str(row[languages[language_option]["char_column"]])+" "+str(row[languages[language_option]["braille_column"]])+"\n"
         braille_table.write(new_line)
     braille_table.close()
 elif option==4:
