@@ -10,7 +10,7 @@ languages=[
 
 braille_file=open("utils/brailleconverter.json",encoding="utf8")
 braille_object=json.load(braille_file)
-braille_numbers_file=open("utils/brailleconverter.json",encoding="utf8")
+braille_numbers_file=open("utils/brailletonumbers.json",encoding="utf8")
 braille_numbers_object=json.load(braille_numbers_file)
 
 def create_csv(language_option):
@@ -78,7 +78,7 @@ def braille_to_numbers(text):
     braille=""
     for char in text:
         braille+=braille_numbers_object[char.lower()]+"-"
-    if braille[_1]=="-":
+    if braille[-1]=="-":
         braille=braille[:-1]
     return braille
 
