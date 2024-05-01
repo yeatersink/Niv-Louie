@@ -8,8 +8,10 @@ languages=[
         {"name":"Ugaritic","language_code":"ug","name_column":"Name","char_column":"Character(decimal)","braille_column":"Braille","replace":["UGARITIC LETTER","UGARITIC "]}
     ]
 
-braille_file=open("utils/brailleconverter.json")
+braille_file=open("utils/brailleconverter.json",encoding="utf8")
 braille_object=json.load(braille_file)
+braille_numbers_file=open("utils/brailleconverter.json",encoding="utf8")
+braille_numbers_object=json.load(braille_numbers_file)
 
 def create_csv(language_option):
     print("Generating",languages[language_option]["name"],"Spreadsheets")
@@ -18,9 +20,6 @@ def create_csv(language_option):
     name_column=filtered_language[languages[language_option]["name_column"]]
     new_name_column=name_column.apply(format_names)
     filtered_language["Name"]=new_name_column
-    braille_column=filtered_language[languages[language_option]["braille_column"]]
-    new_braille_column=braille_column.apply(get_braille)
-    filtered_language["Braille"]=new_braille_column
     filtered_language.drop_duplicates(inplace=True,subset=[languages[language_option]["char_column"]])
     filtered_language.to_csv("languages/filtered_"+languages[language_option]["name"]+".csv")
 
@@ -60,7 +59,7 @@ def get_braille(text):
     print(text)
 
     for char in text:
-        braille+=braille_object[char.lower()]+"-"
+        braille+=braille_object[char.lower()]
 
     if braille[-1]=="-":
         braille=braille[:-1]
@@ -75,11 +74,20 @@ def change_characters(hex):
         new_char=chr(int(hex,16))
     return new_char
 
+def braille_to_numbers(text):
+    braille=""
+    for char in text:
+        braille+=braille_numbers_object[char.lower()]+"-"
+    if braille[_1]=="-":
+        braille=braille[:-1]
+    return braille
+
+
 print("Please Choose a Language")
 for index,language in enumerate(languages):
     print(index,": ",languages[index]["name"])
 language_option=int(input("Choose a Language"))
-print("enter 1 to generate spreadsheets, enter 2 to add symbols to nvda, enter 3 to generate braille table, enter 4 to remove extra characters, or enter 5 to remove lines with multiple characters")
+print("enter 1 to generate spreadsheets, enter 2 to add symbols to nvda, enter 3 to generate braille table, enter 4 to remove extra characters, or enter 5 to convert text characters to braille characters")
 option=int(input("enter a number one through 5"))
 if option == 1:
     create_csv(language_option)
@@ -97,6 +105,7 @@ elif option==3:
     print("creating table for lib louis")
     braille=pd.read_csv("languages/filtered_"+languages[language_option]["name"]+".csv")
     braille_table=open("braille/"+languages[language_option]["language_code"]+".tbl","w",encoding="utf-8")
+    braille[languages[language_option]["braille_column"]]=braille[languages[language_option]["braille_column"]].apply(braille_to_numbers)
     braille_table.write("""
 # liblouis: """+languages[language_option]["name"]+""" Grade 1 table
 #
@@ -142,10 +151,11 @@ elif option==4:
     language_file[languages[language_option]["char_column"]]=language_file["Hex"].apply(change_characters)
     language_file.to_csv("languages/source/"+languages[language_option]["name"]+".csv")
 elif option == 5:
-    print ("removing lines with multiple symbols")
+    print ("converting text to braille")
     language_file=pd.read_csv("languages/source/"+languages[language_option]["name"]+".csv")
-    str_to_remove = ["+"]
-    language_file[~language_file.Hex.str.contains('|'.join(str_to_remove))]
+    braille_column=language_file[languages[language_option]["braille_column"]]
+    new_braille_column=braille_column.apply(get_braille)
+    language_file["Braille"]=new_braille_column
     language_file.to_csv("languages/source/"+languages[language_option]["name"]+".csv")
 else:
     print("That was not a valid option")
