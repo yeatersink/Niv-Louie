@@ -5,6 +5,7 @@ languages=[
     {"name":"Akkadian","language_code":"akk","name_column":"Name","char_column":"Character(decimal)","braille_column":"Braille","replace":["CUNEIFORM SIGN"]},
         {"name":"Hebrew","language_code":"heb","name_column":"Name","char_column":"Character","braille_column":"Braille","replace":["point","punctuation","mark","letter","accent","*"]},
         {"name":"Syriac","language_code":"syc","name_column":"Name","char_column":"Character","braille_column":"Braille","replace":[]},
+        {"name":"Transliteration","language_code":"transliteration","name_column":"Name","char_column":"Character","braille_column":"Braille","replace":[]},
         {"name":"Ugaritic","language_code":"ug","name_column":"Name","char_column":"Character(decimal)","braille_column":"Braille","replace":["UGARITIC LETTER","UGARITIC "]}
     ]
 
@@ -48,18 +49,11 @@ def get_braille(text):
         text=text.replace("[q~","")
     if "]" in text:
         text=text.replace("]","")
-    if "[q~$]" in text:
-        text=text.replace("[q~$]","OPPOSING")
-    if "[q~&]" in text:
-        text=text.replace("[q~&]","CROSSING")
-    if "lt;" in text:
-        text=text.replace("lt;","<")
-    if "[q~%]" in text:
-        text=text.replace("[q~%]","ROTATED NINETY DEGREES")
     print(text)
 
     for char in text:
-        braille+=braille_object[char.lower()]
+        if char not in braille_numbers_object:
+            braille+=braille_object[char.lower()]
 
     if braille[-1]=="-":
         braille=braille[:-1]
