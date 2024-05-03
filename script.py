@@ -54,9 +54,11 @@ def get_braille(text):
     for char in text:
         if char not in braille_numbers_object:
             braille+=braille_object[char.lower()]
-
-    if braille[-1]=="-":
-        braille=braille[:-1]
+        else:
+            braille+=char
+    if len(braille) > 1:
+        if braille[-1]=="-":
+            braille=braille[:-1]
     return braille
 
 def change_characters(hex):
@@ -70,6 +72,7 @@ def change_characters(hex):
 
 def braille_to_numbers(text):
     braille=""
+    print(text)
     for char in text:
         braille+=braille_numbers_object[char.lower()]+"-"
     if braille[-1]=="-":

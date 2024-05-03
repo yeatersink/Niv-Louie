@@ -1,106 +1,106 @@
-"Character","Hex","Logic","Name","ASCII","Braille"
-"ְ","05B0","187","point sheva*","'","'"
-"ֱ","05B1","188","hataf segol","⠢","⠢"
-"ֲ","05B2","188","hataf patah","⠒","⠒"
-"ֳ","05B3","185","point hataf qamats*",">",">"
-"ִי","05B4+05D9","201","point hiriq-yod","⠔","⠔"
-"ִ","05B4","188","point hiriq*","",""
-"ֵי","05B5+05D9","188","point tsere-yod*","#","#"
-"ֵ","05B5","185","point tsere*","/","/"
-"ֶ","05B6","185","point segol*","e","e"
-"ַ","05B7","185","point patah*","c","c"
-"ָ","05B8","185","point qamats*","<","<"
-"ֹ","05B9","185","point holam*","⠕","⠕"
-"ֺ","05BA","188","point holam haser for vav","[]","[]"
-"ֻ","05BB","185","point qubuts*","+","+"
-"ּ","05BC","186","dagesh ","","⠐"
-"ֽ","05BD","185","point meteg*","⠡","⠡"
-"־","05BE","8","punctuation maqaf","-","-"
-“◌ֿ","05BF","8","rafe*","⠈","⠂"
-"׀","05C0","8","punctuation paseq*","",""
-"ׁ","05C1","8","shin dot*","",""
-"ׂ","05C2","8","sin dot*","",""
-"׃","05C3","8","punctuation sof pasuq*","⠲","⠲"
-"ׄ","05C4","8","mark upper dot*","*","*"
-"ׅ","05C5","8","mark lower dot*","",""
-"׆","05C6","8","punctuation nun hafukha","",""
-"ׇ","05C7","8","point qamats qatan*","⠣","⠣"
-"׳","05F3","8","punctuation geresh*","⠸⠣","⠸⠣"
-"״","05F4","8","punctuation gershayim*","⠸","⠸"
-"א","05D0","8","letter alef","a","a"
-"בּ","05D1+05BC","8","bet","b","b"
-"ב","05D1","8","letter vet","v","v"
-"ג","05D2","8","letter gimel","g","g"
-"דּ","05D3+05BC","186","dalet with dagesh","⠐⠙","⠐⠙"
-"ד","05D3","8","letter dalet","d","d"
-"הּ","05D4+05BC","8","letter hey - isolated","h","h"
-"ה","05D4","8","letter hey","h","h"
-"וֹ","05D5+05B9","201","holam-vav*","⠪","⠪"
-"וּ","05D5+05BC","201","shuruq","u","u"
-"ו","05D5","8","vav","w","w"
-"ז","05D6","8","zayin","z","z"
-"ח","05D7","8","letter het","x","x"
-"ט","05D8","8","letter tet","t","t"
-"יּ","05D9+05BC","186","letter yod with dagesh","⠐⠚","⠐⠚"
-"י","05D9","8","letter yod","j","j"
-"ך","05DA","214","letter final kaf","k","k"
-"כּ","05DB+05BC","8","letter kaf","k","k"
-  "כּ","FB3B","9","KAF WITH DAGESH","⠡","⠡" 
-"לּ","05DC+05BC","186","letter lamed with dagesh","⠐⠇","⠐⠇"
-"ל","05DC","8","letter lamed","l","l"
-"ם","05DD","8","letter final mem","m","m"
-"מּ","05DE+05BC","186","letter mem with dagesh","⠐⠍","⠐⠍",
-"מ","05DE","8","letter mem","m","m"
-"ן","05DF","8","letter final nun","n","n"
-"נּ","05E0+05BC","186","letter nun with dagesh","⠐⠝","⠐⠝",
-"נ","05E0","8","letter nun","n","n"
-"ס","05E1","8","letter samekh","s","s"
-"ע","05E2","8","letter ayin","⠫","⠫"
-"ף","05E3","8","letter final pe","f","f"
-"פּ","05E4+05BC","8","letter pe","p","p"
-"פ","05E4","214","fe","p","p"
-"ץ","05E5","8","letter final tsadi","⠮","⠮"
-"צ","05E6","8","letter tsadi","⠮","⠮"
-"קּ","05E7+05BC","186","letter qof with dagesh","⠐⠟","⠐⠟
-"ק","05E7","8","letter qof","q","q"
-"ר","05E8","8","letter resh","r","r"
-"שׁ","05E9+05C1","8","letter shin","⠩","⠩"
-"שׂ","05E9+05C2","214","letter sin","⠩","⠩"
-"שּׁ","05E9+05BC+05C1","196","letter shin with dagesh - isolated","⠯","⠯"
-"שּׂ","05E9+05BC+05C2","214","letter sin with dagesh","⠐⠩","⠐⠩"
-"תּ","05EA+05BC","8","letter tav","⠹","⠹"
-"תּ","FB4A","10","tav with daggesh","⠐⠞","⠐⠞"
-"װ","05F0","8","double vav*",ww"","ww"
-"ױ","05F1","8","vav yod*","jj","jj"
-"ײ","05F2","8","double yod*","jj","jj"
-"֑","0591","8","atnokta","⠆","⠆"
-"֒","0592","8","accent segol* - isolated","e⠨⠎","⠨⠎"
-"֓","0593","8","accent shalshelet","⠨⠩","⠨⠩"
-"֔","0594","8","accent zaqef qatan","⠂","⠂"
-"֕","0595","8","accent zaqef gadol","⠨⠛","⠨⠛"
-"֖","0596","8","accent tipeha","⠨⠞","⠨⠞"
-"֗","0597","8","accent revia",";riv",";riv"⠨⠗"⠨⠗"
-"֘","0598","8","accent zarqa","",""
-"֙","0599","8","accent pashta","",""
-"֚","059A","8","accent yetiv","⠨⠚","⠨⠚"
-"֛","059B","8","accent tevir","⠨⠧","⠨⠧"
-"֜","059C","8","accent geresh",";ger",";ger","⠨⠁"
-"֝","059D","8","accent geresh muqdam","",""
-"֞","059E","8","accent gershayim","⠨⠃","⠨⠃"
-"֟","059F","8","accent qarney para","⠨⠝ ","⠨⠝ "
-"֠","05A0","8","accent telisha gedola","⠨⠶","⠨⠶"
-"֡","05A1","8","accent pazer","⠨⠦","⠨⠦"
-"֢","05A2","8","accent atnah hafukh","⠨⠆","⠨⠆"
-"֣","05A3","8","accent munah",";mun",";mun","⠨⠥"
-"֤","05A4","8","accent mahapakh","",""
-"֥","05A5","8","accent merkha","⠨⠍","⠨⠍"
-"֦","05A6","8","accent merkha kefula","⠨⠅","⠨⠅"
-"֧","05A7","8","accent darga","⠨⠙","⠨⠙"
-"֨","05A8","8","accent qadma","⠨⠏","⠨⠏"
-"֩","05A9","8","accent telisha qetana",""⠨⠟,"⠨⠟"
-"֪","05AA","8","accent yerah ben yomo","⠨⠽","⠨⠽"
-"֫","05AB","8","accent ole","⠨⠕","⠨⠕"
-"֬","05AC","8","accent iluy","⠨⠊","⠨⠊"
-"֭","05AD","8","accent dehi","",""
-"֮","05AE","8","accent zinor","⠨⠵","⠨⠵"
-"֯","05AF","8","mark masora circle","","⠿"
+,Character,Hex,Logic,Name,ASCII,Braille
+0,ְ,05B0,187,point sheva*,',
+1,ֱ,05B1,188,hataf segol,,
+2,ֲ,05B2,188,hataf patah,,
+3,ֳ,05B3,185,point hataf qamats*,,
+4,ִי,05B4+05D9,201,point hiriq-yod,,
+5,ִ,05B4,188,point hiriq*,,
+6,ֵי,05B5+05D9,188,point tsere-yod*,⠼,
+7,ֵ,05B5,185,point tsere*,⠌,
+8,ֶ,05B6,185,point segol*,e,
+9,ַ,05B7,185,point patah*,c,
+10,ָ,05B8,185,point qamats*,<,
+11,ֹ,05B9,185,point holam*,,
+12,ֺ,05BA,188,point holam haser for vav,⠬,
+13,ֻ,05BB,185,point qubuts*,+,⠐⠖
+14,ּ,05BC,186,dagesh,,
+15,ֽ,05BD,185,point meteg*,,
+16,־,05BE,8,punctuation maqaf,-,⠤
+17,"“◌ֿ""",05BF,8,rafe*,,
+18,׀,05C0,8,punctuation paseq*,⠸⠏,
+19,ׁ,05C1,8,shin dot*,⠈,
+20,ׂ,05C2,8,sin dot*,⠘,
+21,׃,05C3,8,punctuation sof pasuq*,,
+22,ׄ,05C4,8,mark upper dot*,⠈,
+23,ׅ,05C5,8,mark lower dot*,⠘,
+24,׆,05C6,8,punctuation nun hafukha,⠸⠝,
+25,ׇ,05C7,8,point qamats qatan*,,
+26,׳,05F3,8,punctuation geresh*,,
+27,״,05F4,8,punctuation gershayim*,,
+28,א,05D0,8,letter alef,a,⠁
+29,בּ,05D1+05BC,8,bet,b,⠃
+30,ב,05D1,8,letter vet,v,⠧
+31,ג,05D2,8,letter gimel,g,⠛
+32,דּ,05D3+05BC,186,dalet with dagesh,,
+33,ד,05D3,8,letter dalet,d,⠙
+34,הּ,05D4+05BC,8,letter hey - isolated,h,⠓
+35,ה,05D4,8,letter hey,h,⠓
+36,וֹ,05D5+05B9,201,holam-vav*,⠪,
+37,וּ,05D5+05BC,201,shuruq,u,⠥
+38,ו,05D5,8,vav,w,⠺
+39,ז,05D6,8,zayin,z,⠵
+40,ח,05D7,8,letter het,x,⠭
+41,ט,05D8,8,letter tet,t,⠞
+42,יּ,05D9+05BC,186,letter yod with dagesh,,
+43,י,05D9,8,letter yod,j,⠚
+44,ך,05DA,214,letter final kaf,k,⠅
+45,כּ,05DB+05BC,8,letter kaf,k,⠅
+46,כּ,FB3B,9,KAF WITH DAGESH,,
+47,לּ,05DC+05BC,186,letter lamed with dagesh,⠐⠇,
+48,ל,05DC,8,letter lamed,l,⠇
+49,ם,05DD,8,letter final mem,m,⠍
+50,מּ,05DE+05BC,186,letter mem with dagesh,⠐⠍,
+51,מ,05DE,8,letter mem,m,⠍
+52,ן,05DF,8,letter final nun,n,⠝
+53,נּ,05E0+05BC,186,letter nun with dagesh,⠐⠝,
+54,נ,05E0,8,letter nun,n,⠝
+55,ס,05E1,8,letter samekh,s,⠎
+56,ע,05E2,8,letter ayin,⠫,
+57,ף,05E3,8,letter final pe,f,⠋
+58,פּ,05E4+05BC,8,letter pe,p,⠏
+59,פ,05E4,214,fe,p,⠏
+60,ץ,05E5,8,letter final tsadi,⠮,
+61,צ,05E6,8,letter tsadi,⠮,
+62,קּ,05E7+05BC,186,letter qof with dagesh,⠐⠟,
+63,ק,05E7,8,letter qof,q,⠟
+64,ר,05E8,8,letter resh,r,⠗
+65,שׁ,05E9+05C1,8,letter shin,⠩,
+66,שׂ,05E9+05C2,214,letter sin,⠩,
+67,שּׁ,05E9+05BC+05C1,196,letter shin with dagesh - isolated,⠯,
+68,שּׂ,05E9+05BC+05C2,214,letter sin with dagesh,⠐⠩,
+69,תּ,05EA+05BC,8,letter tav,⠹,
+70,תּ,FB4A,10,tav with daggesh,⠐⠞,
+71,װ,05F0,8,double vav*,ww,⠺⠺
+72,ױ,05F1,8,vav yod*,jj,⠚⠚
+73,ײ,05F2,8,double yod*,jj,⠚⠚
+74,֑,0591,8,atnokta,⠆,
+75,֒,0592,8,accent segol* - isolated,⠨⠎,
+76,֓,0593,8,accent shalshelet,⠨⠩,
+77,֔,0594,8,accent zaqef qatan,⠂,
+78,֕,0595,8,accent zaqef gadol,⠨⠛,
+79,֖,0596,8,accent tipeha,⠨⠞,
+80,֗,0597,8,accent revia,;riv,
+81,֘,0598,8,accent zarqa,⠨⠙,
+82,֙,0599,8,accent pashta,⠨⠌,
+83,֚,059A,8,accent yetiv,⠨⠚,
+84,֛,059B,8,accent tevir,⠨⠧,
+85,֜,059C,8,accent geresh,;ger,
+86,֝,059D,8,accent geresh muqdam,⠨⠡,
+87,֞,059E,8,accent gershayim,⠨⠃,
+88,֟,059F,8,accent qarney para,⠨⠝,
+89,֠,05A0,8,accent telisha gedola,⠨⠶,
+90,֡,05A1,8,accent pazer,⠨⠦,
+91,֢,05A2,8,accent atnah hafukh,⠨⠆,
+92,֣,05A3,8,accent munah,;mun,
+93,֤,05A4,8,accent mahapakh,⠨⠔,
+94,֥,05A5,8,accent merkha,⠨⠍,
+95,֦,05A6,8,accent merkha kefula,⠨⠅,
+96,֧,05A7,8,accent darga,⠨⠙,
+97,֨,05A8,8,accent qadma,⠨⠏,
+98,֩,05A9,8,accent telisha qetana,⠨⠟,
+99,֪,05AA,8,accent yerah ben yomo,⠨⠽,
+100,֫,05AB,8,accent ole,⠨⠕,
+101,֬,05AC,8,accent iluy,⠨⠊,
+102,֭,05AD,8,accent dehi,⠨⠓,
+103,֮,05AE,8,accent zinor,⠨⠵,
+104,֯,05AF,8,mark masora circle,⠸⠍,
