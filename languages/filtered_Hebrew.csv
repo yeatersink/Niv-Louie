@@ -7,15 +7,15 @@
 5,ִ,hiriq,⠊
 6,ֵי,tsere-yod,⠼
 7,ֵ,tsere,⠌
-8,ֶ,segol,e
-9,ַ,patah,c
+8,ֶ,segol,⠑
+9,ַ,patah,⠉
 10,ָ,qamats,⠣
 11,ֹ,holam,⠕
-12,ֺ,holam haser for vav,[]
-13,ֻ,qubuts,+
+12,ֺ,holam haser for vav,⠐⠪
+13,ֻ,qubuts,⠐⠖
 14,ּ,dagesh,⠐
 15,ֽ,meteg,⠡
-16,־,maqaf,-
+16,־,maqaf,⠤
 17,"“◌ֿ""",rafe,⠂
 18,׀,paseq,⠸⠸⠏⠏
 19,ׁ,shin dot,⠈
@@ -27,52 +27,52 @@
 25,ׇ,qamats qatan,⠣
 26,׳,geresh,⠸⠣
 27,״,gershayim,⠸
-28,א,alef,a
-29,בּ,bet,b
-30,ב,vet,v
-31,ג,gimel,g
-32,דּ,dalet with dagesh,⠐⠙
-33,ד,dalet,d
-34,הּ,hey - isolated,h
-35,ה,hey,h
+28,א,alef,⠁
+29,בּ,bet,⠃
+30,ב,bet with dagesh,⠧
+31,ג,gimsel,⠛
+32,דּ,dalest with dagesh,⠐⠙
+33,ד,dalet,⠙
+34,הּ,1hey - isolated,⠓
+35,ה,hey,⠓
 36,וֹ,holam-vav,⠪
-37,וּ,shuruq,u
-38,ו,vav,w
-39,ז,zayin,z
-40,ח,het,x
-41,ט,tet,t
+37,וּ,shuruq,⠥
+38,ו,vav,⠺
+39,ז,zayin,⠵
+40,ח,het,⠭
+41,ט,tet,⠞
 42,יּ,yod with dagesh,⠐⠚
-43,י,yod,j
-44,ך,final kaf,k
-45,כּ,kaf,k
+43,י,yod,⠚
+44,ך,final kaf,⠅
+45,כּ,kaf,⠅
 46,כּ,KAF WITH DAGESH,⠡
 47,לּ,lamed with dagesh,⠐⠇
-48,ל,lamed,l
-49,ם,final mem,m
+48,ל,lamed,⠇
+49,ם,final mem,⠍
 50,מּ,mem with dagesh,⠐⠍
-51,מ,mem,m
-52,ן,final nun,n
+51,מ,mem,⠍
+52,ן,final nun,⠝
 53,נּ,nun with dagesh,⠐⠝
-54,נ,nun,n
-55,ס,samekh,s
+54,נ,nun,⠝
+55,ס,samekh,⠎
 56,ע,ayin,⠫
-57,ף,final pe,f
-58,פּ,pe,p
-59,פ,fe,p
+57,ף,final pe,⠋
+58,פּ,pe,⠏
+59,פ,fe,⠏
 60,ץ,final tsadi,⠮
 61,צ,tsadi,⠮
 62,קּ,qof with dagesh,⠐⠟
-63,ק,qof,q
-64,ר,resh,r
+63,ק,qof,⠟
+64,ר,resh,⠗
 65,שׁ,shin,⠩
 66,שׂ,sin,⠩
 67,שּׁ,shin with dagesh - isolated,⠯
 68,שּׂ,sin with dagesh,⠐⠩
 69,תּ,tav,⠹
 70,תּ,tav with daggesh,⠐⠞
-71,װ,double vav,ww
-72,ױ,vav yod,jj
-73,ײ,double yod,jj
+71,װ,double vav,⠺⠺
+72,ױ,vav yod,⠚⠚
+73,ײ,double yod,⠚⠚
 74,֑,atnokta,⠆
 75,֒,segol - isolated,⠨⠎
 76,֓,shalshelet,⠨⠩
@@ -92,7 +92,7 @@
 90,֡,pazer,⠨⠦
 91,֢,atnah hafukh,⠨⠆
 92,֣,munah,⠨⠥
-93,֤,mahapakh,
+93,֤,mahapakh,⠨⠓
 94,֥,merkha,⠨⠍
 95,֦,merkha kefula,⠨⠅
 96,֧,darga,⠨⠙
@@ -101,6 +101,6 @@
 99,֪,yerah ben yomo,⠨⠽
 100,֫,ole,⠨⠕
 101,֬,iluy,⠨⠊
-102,֭,dehi,⠨⠓
+102,֭,dehi,⠨⠊
 103,֮,zinor,⠨⠵
 104,֯,masora circle,⠸⠍

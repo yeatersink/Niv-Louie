@@ -2,8 +2,22 @@ import pandas as pd
 import json
 
 languages=[
-    {"name":"Akkadian","language_code":"akk","name_column":"Name","char_column":"Character(decimal)","braille_column":"Braille","replace":["CUNEIFORM SIGN"]},
-        {"name":"Hebrew","language_code":"heb","name_column":"Name","char_column":"Character","braille_column":"Braille","replace":["point","punctuation","mark","letter","accent","*"]},
+    {"name":"Akkadian","language_code":"akk","name_column":"Name","char_column":"Character(decimal)","braille_column":"Braille","replace":["CUNEIFORM SIGN"],"language_information":"""
+#for more information on the Akkadian language, please go to:
+#https://oracc.museum.upenn.edu/dcclt/signlists/signlists/
+#The standard for Akkadian has been set by the academic community represented by ORACC. The braille code for Akkadian follows the standard set by ORACC. The braille code for Akkadian is represented in braille as the name for the sign in Akkadian. Thus, if the Akkadian sign is a "Lum," then the braille code for this sign would be lum.
+""","contributers":"""
+#This project is overseen by Ariel University and supervised by Dr. Shai Gordin
+# Maintained by Matityahu Yeshurun and Paul Geoghegan
+"""},
+        {"name":"Hebrew","language_code":"heb","name_column":"Name","char_column":"Character","braille_column":"Braille","replace":["point","punctuation","mark","letter","accent","*"],"language_information":"""
+#for more information on the Hebrew language, please go to:
+#https://mechon-mamre.org/index.htm
+#The standard for Hebrew has been set by the community represented by Jewish studies. The braille code for Hebrew follows the standard set by HIJS. The braille code for Hebrew is represented in braille as the name for the sign in Hebrew. Thus, if the Hebrew sign is a "Bet," then the braille code for this sign would be bet represented by early forms of Hebrew braille.
+""","contributers":"""
+#This project is overseen by Ariel University and supervised by Dr. Shai Gordin 
+# Maintained by Matityahu Yeshurun and Paul Geoghegan
+"""},
         {"name":"Syriac","language_code":"syc","name_column":"Name","char_column":"Character","braille_column":"Braille","replace":[]},
         {"name":"Transliteration","language_code":"transliteration","name_column":"Name","char_column":"Character","braille_column":"Braille","replace":[]},
         {"name":"Ugaritic","language_code":"ug","name_column":"Name","char_column":"Character(decimal)","braille_column":"Braille","replace":["UGARITIC LETTER","UGARITIC "]}
@@ -132,12 +146,7 @@ elif option==3:
 # Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA
 # liblouis  comes with ABSOLUTELY NO WARRANTY.
 
-#for more information on the """+languages[language_option]["name"]+""" language, please go to:
-#https://oracc.museum.upenn.edu/dcclt/signlists/signlists/
-#The standard for """+languages[language_option]["name"]+""" has been set by the academic community represented by ORACC. The braille code for """+languages[language_option]["name"]+""" follows the standard set by ORACC. The braille code for """+languages[language_option]["name"]+""" is represented in braille as the name for the sign in """+languages[language_option]["name"]+""". Thus, if the """+languages[language_option]["name"]+""" sign is a "Lum," then the braille code for this sign would be lum.
-#This project is overseen by Ariel University and supervised by Dr. Shai Gordin 
-# Maintained by Matityahu Yeshurun and Paul Geoghegan
-""")
+"""+languages[language_option]["language_information"]+languages[language_option]["contributers"])
     for index, row in braille.iterrows():
         new_line="letter "+str(row[languages[language_option]["char_column"]])+" "+str(row[languages[language_option]["braille_column"]])+"\n"
         braille_table.write(new_line)

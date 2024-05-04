@@ -1,0 +1,139 @@
+
+# liblouis: Hebrew Grade 1 table
+#
+# ------------
+#-name: Hebrew grade 1
+#-index-name: Hebrew uncontracted
+#-display-name: Hebrew uncontracted braille as used in the study of Hebrew .
+#
+#+language:heb
+#+type:literary
+#+contraction:no
+#+grade:1
+#+system:heb
+
+# This file is free software; you can redistribute it and/or
+# modify it under the terms of the GNU Lesser General Public
+# License as published by the Free Software Foundation; either
+# version 2.1 of the License, or (at your option) any later version.
+
+# This file is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+# Lesser General Public License for more details.
+
+# You should have received a copy of the GNU Lesser General Public
+# License along with this file; if not, write to the Free Software
+# Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA
+# liblouis  comes with ABSOLUTELY NO WARRANTY.
+
+#for more information on the Hebrew language, please go to:
+#https://mechon-mamre.org/index.htm
+#The standard for Hebrew has been set by the community represented by Jewish studies. The braille code for Hebrew follows the standard set by HIJS. The braille code for Hebrew is represented in braille as the name for the sign in Hebrew. Thus, if the Hebrew sign is a "Bet," then the braille code for this sign would be bet represented by early forms of Hebrew braille.
+#This project is overseen by Ariel University and supervised by Dr. Shai Gordin 
+# Maintained by Matityahu Yeshurun and Paul Geoghegan
+letter ְ 3
+letter ֱ 26
+letter ֲ 25
+letter ֳ 345
+letter ִי 35
+letter ִ 24
+letter ֵי 3456
+letter ֵ 34
+letter ֶ 15
+letter ַ 14
+letter ָ 126
+letter ֹ 135
+letter ֺ 5-246
+letter ֻ 5-235
+letter ּ 5
+letter ֽ 16
+letter ־ 36
+letter “◌ֿ" 2
+letter ׀ 456-456-1234-1234
+letter ׁ 4
+letter ׂ 45
+letter ׃ 256
+letter ׄ 4
+letter ׅ 45
+letter ׆ 456-1345
+letter ׇ 126
+letter ׳ 456-126
+letter ״ 456
+letter א 1
+letter בּ 12
+letter ב 1236
+letter ג 1245
+letter דּ 5-145
+letter ד 145
+letter הּ 125
+letter ה 125
+letter וֹ 246
+letter וּ 136
+letter ו 2456
+letter ז 1356
+letter ח 1346
+letter ט 2345
+letter יּ 5-245
+letter י 245
+letter ך 13
+letter כּ 13
+letter כּ 16
+letter לּ 5-123
+letter ל 123
+letter ם 134
+letter מּ 5-134
+letter מ 134
+letter ן 1345
+letter נּ 5-1345
+letter נ 1345
+letter ס 234
+letter ע 1246
+letter ף 124
+letter פּ 1234
+letter פ 1234
+letter ץ 2346
+letter צ 2346
+letter קּ 5-12345
+letter ק 12345
+letter ר 1235
+letter שׁ 146
+letter שׂ 146
+letter שּׁ 12346
+letter שּׂ 5-146
+letter תּ 1456
+letter תּ 5-2345
+letter װ 2456-2456
+letter ױ 245-245
+letter ײ 245-245
+letter ֑ 23
+letter ֒ 46-234
+letter ֓ 46-146
+letter ֔ 2
+letter ֕ 46-1245
+letter ֖ 46-2345
+letter ֗ 46-1235
+letter ֘ 46-145
+letter ֙ 46-34
+letter ֚ 46-245
+letter ֛ 46-1236
+letter ֜ 46-1
+letter ֝ 46-16
+letter ֞ 46-12
+letter ֟ 46-1345
+letter ֠ 46-2356
+letter ֡ 46-236
+letter ֢ 46-23
+letter ֣ 46-136
+letter ֤ 46-125
+letter ֥ 46-134
+letter ֦ 46-13
+letter ֧ 46-145
+letter ֨ 46-1234
+letter ֩ 46-12345
+letter ֪ 46-13456
+letter ֫ 46-135
+letter ֬ 46-24
+letter ֭ 46-24
+letter ֮ 46-1356
+letter ֯ 456-134

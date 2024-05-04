@@ -1,5 +1,7 @@
+
 Accent,alpha,epsilon,eta,iota,omichron,upsilon,omega
 No Accent,a,e,:,i,o,u,w
+
 grave/varia +0300,a→(,e→c,:→!,i→/,o→+,u→),w→q
 acute/oxia +0301,a→>,e→$,:→=,i→],o→[,u→\,w→j
 circum/perispomeni +0342,a→*,,:→<,i→%,,u→v,w→#
