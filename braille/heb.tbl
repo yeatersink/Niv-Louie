@@ -27,9 +27,11 @@
 # Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA
 # liblouis  comes with ABSOLUTELY NO WARRANTY.
 
+
 #for more information on the Hebrew language, please go to:
 #https://mechon-mamre.org/index.htm
 #The standard for Hebrew has been set by the community represented by Jewish studies. The braille code for Hebrew follows the standard set by HIJS. The braille code for Hebrew is represented in braille as the name for the sign in Hebrew. Thus, if the Hebrew sign is a "Bet," then the braille code for this sign would be bet represented by early forms of Hebrew braille.
+
 #This project is overseen by Ariel University and supervised by Dr. Shai Gordin 
 # Maintained by Matityahu Yeshurun and Paul Geoghegan
 letter ְ 3

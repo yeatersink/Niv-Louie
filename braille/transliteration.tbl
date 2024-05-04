@@ -1,0 +1,106 @@
+
+# liblouis: Transliteration Grade 1 table
+#
+# ------------
+#-name: Transliteration grade 1
+#-index-name: Transliteration uncontracted
+#-display-name: Transliteration uncontracted braille as used in the study of Transliteration .
+#
+#+language:transliteration
+#+type:literary
+#+contraction:no
+#+grade:1
+#+system:transliteration
+
+# This file is free software; you can redistribute it and/or
+# modify it under the terms of the GNU Lesser General Public
+# License as published by the Free Software Foundation; either
+# version 2.1 of the License, or (at your option) any later version.
+
+# This file is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+# Lesser General Public License for more details.
+
+# You should have received a copy of the GNU Lesser General Public
+# License along with this file; if not, write to the Free Software
+# Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA
+# liblouis  comes with ABSOLUTELY NO WARRANTY.
+
+
+#for more information on the Transliteration table, please go to:
+#http://oracc.ub.uni-muenchen.de/doc/help/languages/ugaritic/index.html
+#The standard for Transliteration has been set by the academic community represented by ORACC. The braille code for transliteration follows the standard set by ORACC. The braille code for transliteration is represented in braille as the name for the sign in the transliteation table. Thus, if the sign is a "a," then the braille code for this sign would be a.
+
+#This project is overseen by Ariel University and supervised by Dr. Shai Gordin
+# Maintained by Matityahu Yeshurun and Paul Geoghegan
+letter á 45-34-1
+letter é 45-34-15
+letter í 45-34-24
+letter ú 45-34-136
+letter Á 6-45-34-1
+letter É 6-45-34-15
+letter Í 6-45-34-24
+letter Ú 6-45-34-136
+letter ś 45-34-234
+letter Ś 6-45-34-234
+letter à 45-16-1
+letter è 45-16-15
+letter ì 45-16-24
+letter ù 45-16-136
+letter À 6-45-16-1
+letter È 6-45-16-15
+letter Ì 6-45-16-24
+letter Ù 6-45-16-136
+letter ā 4-36-1
+letter ē 4-36-15
+letter ī 4-36-24
+letter ū 4-36-136
+letter Ā 6-4-36-1
+letter Ē 6-4-36-15
+letter Ī 6-4-36-24
+letter Ū 6-4-36-136
+letter â 45-146-1
+letter ê 45-146-15
+letter î 45-146-24
+letter û 45-146-136
+letter Â 6-45-146-1
+letter Ê 6-45-146-15
+letter Î 6-45-146-24
+letter Û 6-45-146-136
+letter š 146
+letter Š 6-146
+letter ṣ 5-234
+letter Ṣ 6-5-234
+letter ṭ 5-2345
+letter Ṭ 6-5-2345
+letter ḫ 16
+letter Ḫ 6-16
+letter ŋ 5-245
+letter Ŋ 6-5-245
+letter × 5-236
+letter ʾ 1246
+letter ʿ 5-1246
+letter ₁ 26-3456-1
+letter ₂ 26-3456-12
+letter ₃ 26-3456-14
+letter ₄ 26-3456-145
+letter ₅ 26-3456-15
+letter ₆ 26-3456-124
+letter ₇ 26-3456-1245
+letter ₈ 26-3456-125
+letter ₉ 26-3456-24
+letter ₓ 26-1346
+letter ⸢ 46-126
+letter ⸣ 46-345
+letter ⸤ 46-126
+letter ⸥ 46-345
+letter ʳ 1235
+letter ḏ 56-145
+letter Ḏ 6-56-145
+letter ẓ 5-1356
+letter Ẓ 6-5-1356
+letter ǵ 45-34-1245
+letter Ǵ 6-45-34-1245
+letter ṯ 1456
+letter Ṯ 6-1456

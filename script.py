@@ -19,8 +19,22 @@ languages=[
 # Maintained by Matityahu Yeshurun and Paul Geoghegan
 """},
         {"name":"Syriac","language_code":"syc","name_column":"Name","char_column":"Character","braille_column":"Braille","replace":[]},
-        {"name":"Transliteration","language_code":"transliteration","name_column":"Name","char_column":"Character","braille_column":"Braille","replace":[]},
-        {"name":"Ugaritic","language_code":"ug","name_column":"Name","char_column":"Character(decimal)","braille_column":"Braille","replace":["UGARITIC LETTER","UGARITIC "]}
+        {"name":"Transliteration","language_code":"transliteration","name_column":"Name","char_column":"Character","braille_column":"Braille","replace":[],"language_information":"""
+#for more information on the Transliteration table, please go to:
+#http://oracc.ub.uni-muenchen.de/doc/help/languages/ugaritic/index.html
+#The standard for Transliteration has been set by the academic community represented by ORACC. The braille code for transliteration follows the standard set by ORACC. The braille code for transliteration is represented in braille as the name for the sign in the transliteation table. Thus, if the sign is a "a," then the braille code for this sign would be a.
+""","contributers":"""
+#This project is overseen by Ariel University and supervised by Dr. Shai Gordin
+# Maintained by Matityahu Yeshurun and Paul Geoghegan
+"""},
+        {"name":"Ugaritic","language_code":"ug","name_column":"Name","char_column":"Character(decimal)","braille_column":"Braille","replace":["UGARITIC LETTER","UGARITIC "],"language_information":"""
+#for more information on the Ugaritic language, please go to:
+#https://oracc.museum.upenn.edu/aemw/ugarit/corpus
+#The standard for Ugaritic has been set by the academic community represented by ORACC. The braille code for Ugaritic follows the standard set by ORACC. The braille code for Ugaritic is represented in braille as the name for the sign in Ugaritic. Thus, if the Ugaritic sign is a "Alepha," then the braille code for this sign would be a.
+""","contributers":"""
+#This project is overseen by Ariel University and supervised by Dr. Shai Gordin
+# Maintained by Matityahu Yeshurun and Paul Geoghegan
+"""}
     ]
 
 braille_file=open("utils/brailleconverter.json",encoding="utf8")
