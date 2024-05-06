@@ -107,6 +107,10 @@ def braille_to_numbers(text):
         braille=braille[:-1]
     return braille
 
+def create_tests(language_option):
+    language_file=pd.read_csv("languages/filtered_"+languages[language_option]["name"+".csv"],encoding="utf8")
+    test_csv=pd.read_csv("braille_tests/"+languages[language_option]["language_code"]+".csv",encoding="utf8")
+
 
 print("Please Choose a Language")
 for index,language in enumerate(languages):
