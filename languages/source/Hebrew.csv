@@ -44,7 +44,7 @@
 42,42,יּ,05D9+05BC,186,letter yod with dagesh,⠐⠚
 43,43,י,05D9,8,letter yod,⠚
 44,44,ך,05DA,214,letter final kaf,⠅
-45,45,כּ,05DB+05BC,8,letter kaf,⠅
+45,45,כּ,05DB+05BC,8,kaf,⠅
 46,46,כּ,FB3B,9,KAF WITH DAGESH,⠡
 47,47,לּ,05DC+05BC,186,letter lamed with dagesh,⠐⠇
 48,48,ל,05DC,8,letter lamed,⠇
@@ -57,8 +57,8 @@
 55,55,ס,5.00E+01,8,letter samekh,⠎
 56,56,ע,5.00E+02,8,letter ayin,⠫
 57,57,ף,5.00E+03,8,letter final pe,⠋
-58,58,פּ,05E4+05BC,8,letter pe,⠏
-59,59,פ,5.00E+04,214,fe,⠏
+58,58,פּ,05E4+05BC,8,pe with dagesh,⠐⠏
+59,59,פ,5.00E+04,214,Pe ,⠏
 60,60,ץ,5.00E+05,8,letter final tsadi,⠮
 61,61,צ,5.00E+06,8,letter tsadi,⠮
 62,62,קּ,05E7+05BC,186,letter qof with dagesh,⠐⠟
@@ -68,8 +68,8 @@
 66,66,שׂ,05E9+05C2,214,letter sin,⠩
 67,67,שּׁ,05E9+05BC+05C1,196,letter shin with dagesh - isolated,⠯
 68,68,שּׂ,05E9+05BC+05C2,214,letter sin with dagesh,⠐⠩
-69,69,תּ,05EA+05BC,8,letter tav,⠹
-70,70,תּ,FB4A,10,tav with daggesh,⠐⠞
+69,69,תּ,05EA+05BC,8,letter tav,⠞
+70,70,תּ,FB4A,10,tav with daggesh,⠐⠹
 71,71,װ,05F0,8,double vav*,⠺⠺
 72,72,ױ,05F1,8,vav yod*,⠚⠚
 73,73,ײ,05F2,8,double yod*,⠚⠚
