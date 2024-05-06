@@ -108,16 +108,24 @@ def braille_to_numbers(text):
     return braille
 
 def create_tests(language_option):
-    language_file=pd.read_csv("languages/filtered_"+languages[language_option]["name"+".csv"],encoding="utf8")
+    language_file=pd.read_csv("languages/filtered_"+languages[language_option]["name"]+".csv",encoding="utf8")
     test_csv=pd.read_csv("braille_tests/"+languages[language_option]["language_code"]+".csv",encoding="utf8")
+    for index,row in test_csv.iterrows():
+        braille_test=""
+        for char in row["Text"]:
+            temp_row=language_file.loc[language_file[languages[language_option]["char_column"]]== char]
+            print(temp_row,"\n")
+            print("Braille: ",temp_row[languages[language_option]["braille_column"]],"\n")
+            braille_test+=temp_row[languages[language_option]["braille_column"]]
+        print(row["Text"]+": "+braille_test)
 
 
 print("Please Choose a Language")
 for index,language in enumerate(languages):
-    print(index,": ",languages[index]["name"])
-language_option=int(input("Choose a Language"))
-print("enter 1 to generate spreadsheets, enter 2 to add symbols to nvda, enter 3 to generate braille table, enter 4 to remove extra characters, or enter 5 to convert text characters to braille characters")
-option=int(input("enter a number one through 5"))
+    print(languages[index]["name"],": ",index+1)
+language_option=int(input("Choose a Language"))-1
+print("enter 1 to generate spreadsheets, enter 2 to add symbols to nvda, enter 3 to generate braille table, enter 4 to remove extra characters, enter 5 to convert text characters to braille characters, or enter 6 to produce braille test")
+option=int(input("enter a number one through 6"))
 if option == 1:
     create_csv(language_option)
 elif option==2:
@@ -181,5 +189,8 @@ elif option == 5:
     new_braille_column=braille_column.apply(get_braille)
     language_file["Braille"]=new_braille_column
     language_file.to_csv("languages/source/"+languages[language_option]["name"]+".csv")
+elif option==6:
+    create_tests(language_option)
 else:
+
     print("That was not a valid option")
