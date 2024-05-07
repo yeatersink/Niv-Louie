@@ -110,15 +110,44 @@ def braille_to_numbers(text):
 def create_tests(language_option):
     language_file=pd.read_csv("languages/filtered_"+languages[language_option]["name"]+".csv",encoding="utf8")
     test_csv=pd.read_csv("braille_tests/"+languages[language_option]["language_code"]+".csv",encoding="utf8")
+    test_yaml=open("braille_tests/"+languages[language_option]["language_code"]+".yaml","w",encoding="utf8")
+    test_yaml.write("""
+# Yaml Test For """+languages[language_option]["name"]+"""
+#
+# This file is free software; you can redistribute it and/or
+# modify it under the terms of the GNU Lesser General Public
+# License as published by the Free Software Foundation; either
+# version 2.1 of the License, or (at your option) any later version.
+
+# This file is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+# Lesser General Public License for more details.
+
+# You should have received a copy of the GNU Lesser General Public
+# License along with this file; if not, write to the Free Software
+# Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA
+# liblouis  comes with ABSOLUTELY NO WARRANTY.
+
+display: unicode.dis
+table:
+  language: """+languages[language_option]["language_code"]+"""
+  grade: 1
+  __assert-match: """+languages[language_option]["language_code"]+""".tbl
+flags: { testmode: forward }
+tests:
+  # """+languages[language_option]["name"]+"""
+""")
     for index,row in test_csv.iterrows():
         braille_test=""
         for char in row["Text"]:
-            print(char)
-            temp_row=language_file.loc[[language_file[languages[language_option]["char_column"]]== char]]
-            print(temp_row,"\n")
-            print("Braille: ",temp_row[languages[language_option]["braille_column"]],"\n")
-            braille_test+=temp_row[languages[language_option]["braille_column"]]
+            print("Test Char: ",char)
+            temp_row=language_file.loc[language_file[languages[language_option]["char_column"]]== char].values[0]
+            print(temp_row[-1],"\n")
+            braille_test+=temp_row[-1]
         print(row["Text"]+": "+braille_test)
+        test_yaml.write('  - ["'+row["Text"]+'", "'+braille_test+'"]\n')
+    test_yaml.close()
 
 
 print("Please Choose a Language")

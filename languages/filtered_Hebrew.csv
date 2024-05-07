@@ -44,63 +44,66 @@
 42,יּ,yod with dagesh,⠐⠚
 43,י,yod,⠚
 44,ך,final kaf,⠅
-45,כּ,kaf,⠅
-46,כּ,KAF WITH DAGESH,⠡
-47,לּ,lamed with dagesh,⠐⠇
-48,ל,lamed,⠇
-49,ם,final mem,⠍
-50,מּ,mem with dagesh,⠐⠍
-51,מ,mem,⠍
-52,ן,final nun,⠝
-53,נּ,nun with dagesh,⠐⠝
-54,נ,nun,⠝
-55,ס,samekh,⠎
-56,ע,ayin,⠫
-57,ף,final pe,⠋
-58,פּ,pe with dagesh,⠐⠏
-59,פ,Pe ,⠏
-60,ץ,final tsadi,⠮
-61,צ,tsadi,⠮
-62,קּ,qof with dagesh,⠐⠟
-63,ק,qof,⠟
-64,ר,resh,⠗
-65,שׁ,shin,⠩
-66,שׂ,sin,⠩
-67,שּׁ,shin with dagesh - isolated,⠯
-68,שּׂ,sin with dagesh,⠐⠩
-69,תּ,tav,⠞
-70,תּ,tav with daggesh,⠐⠹
-71,װ,double vav,⠺⠺
-72,ױ,vav yod,⠚⠚
-73,ײ,double yod,⠚⠚
-74,֑,atnokta,⠆
-75,֒,segol - isolated,⠨⠎
-76,֓,shalshelet,⠨⠩
-77,֔,zaqef qatan,⠂
-78,֕,zaqef gadol,⠨⠛
-79,֖,tipeha,⠨⠞
-80,֗,revia,⠨⠗
-81,֘,zarqa,⠨⠙
-82,֙,pashta,⠨⠌
-83,֚,yetiv,⠨⠚
-84,֛,tevir,⠨⠧
-85,֜,geresh,⠨⠁
-86,֝,geresh muqdam,⠨⠡
-87,֞,gershayim,⠨⠃
-88,֟,qarney para,⠨⠝
-89,֠,telisha gedola,⠨⠶
-90,֡,pazer,⠨⠦
-91,֢,atnah hafukh,⠨⠆
-92,֣,munah,⠨⠥
-93,֤,mahapakh,⠨⠓
-94,֥,merkha,⠨⠍
-95,֦,merkha kefula,⠨⠅
-96,֧,darga,⠨⠙
-97,֨,qadma,⠨⠏
-98,֩,telisha qetana,⠨⠟
-99,֪,yerah ben yomo,⠨⠽
-100,֫,ole,⠨⠕
-101,֬,iluy,⠨⠊
-102,֭,dehi,⠨⠊
-103,֮,zinor,⠨⠵
-104,֯,masora circle,⠸⠍
+45,כּ,kav,⠅
+46,כ,"kaf""",⠅
+47,כּ,KAF WITH DAGESH,⠡
+48,לּ,lamed with dagesh,⠐⠇
+49,ל,lamed,⠇
+50,ם,final mem,⠍
+51,מּ,mem with dagesh,⠐⠍
+52,מ,mem,⠍
+53,ן,final nun,⠝
+54,נּ,nun with dagesh,⠐⠝
+55,נ,nun,⠝
+56,ס,samekh,⠎
+57,ע,ayin,⠫
+58,ף,final pe,⠋
+59,פּ,pe with dagesh,⠐⠏
+60,פ,Pe ,⠏
+61,ץ,final tsadi,⠮
+62,צ,tsadi,⠮
+63,קּ,qof with dagesh,⠐⠟
+64,ק,qof,⠟
+65,ר,resh,⠗
+66,שׁ,shin with dot,⠩
+67,ש,shin,⠩
+68,שׂ,sin,⠩
+69,שּׁ,shin with dagesh - isolated,⠯
+70,שּׂ,sin with dagesh,⠐⠩
+71,תּ,taf,⠞
+72,ת,tav,⠹
+73,תּ,tav with daggesh,⠐⠹
+74,װ,double vav,⠺⠺
+75,ױ,vav yod,⠚⠚
+76,ײ,double yod,⠚⠚
+77,֑,atnokta,⠆
+78,֒,segol - isolated,⠨⠎
+79,֓,shalshelet,⠨⠩
+80,֔,zaqef qatan,⠂
+81,֕,zaqef gadol,⠨⠛
+82,֖,tipeha,⠨⠞
+83,֗,revia,⠨⠗
+84,֘,zarqa,⠨⠙
+85,֙,pashta,⠨⠌
+86,֚,yetiv,⠨⠚
+87,֛,tevir,⠨⠧
+88,֜,geresh,⠨⠁
+89,֝,geresh muqdam,⠨⠡
+90,֞,gershayim,⠨⠃
+91,֟,qarney para,⠨⠝
+92,֠,telisha gedola,⠨⠶
+93,֡,pazer,⠨⠦
+94,֢,atnah hafukh,⠨⠆
+95,֣,munah,⠨⠥
+96,֤,mahapakh,⠨⠓
+97,֥,merkha,⠨⠍
+98,֦,merkha kefula,⠨⠅
+99,֧,darga,⠨⠙
+100,֨,qadma,⠨⠏
+101,֩,telisha qetana,⠨⠟
+102,֪,yerah ben yomo,⠨⠽
+103,֫,ole,⠨⠕
+104,֬,iluy,⠨⠊
+105,֭,dehi,⠨⠊
+106,֮,zinor,⠨⠵
+107,֯,masora circle,⠸⠍
