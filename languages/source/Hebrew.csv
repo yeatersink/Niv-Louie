@@ -1,107 +1,107 @@
-,Unnamed: 0,Character,Hex,Logic,Name,Braille
-0,0,ְ,05B0,187,point sheva*,⠄
-1,1,ֱ,05B1,188,hataf segol,⠢
-2,2,ֲ,05B2,188,hataf patah,⠒
-3,3,ֳ,05B3,185,point hataf qamats*,⠜
-4,4,ִי,05B4+05D9,201,point hiriq-yod,⠔
-5,5,ִ,05B4,188,point hiriq*,⠊
-6,6,ֵי,05B5+05D9,188,point tsere-yod*,⠼
-7,7,ֵ,05B5,185,point tsere*,⠌
-8,8,ֶ,05B6,185,point segol*,⠑
-9,9,ַ,05B7,185,point patah*,⠉
-10,10,ָ,05B8,185,point qamats*,⠣
-11,11,ֹ,05B9,185,point holam*,⠕
-12,12,ֺ,05BA,188,point holam haser for vav,⠐⠪
-13,13,ֻ,05BB,185,point qubuts*,⠐⠖
-14,14,ּ,05BC,186,dagesh,⠐
-15,15,ֽ,05BD,185,point meteg*,⠡
-16,16,־,05BE,8,punctuation maqaf,⠤
-17,17,"“◌ֿ""",05BF,8,rafe*,⠂
-18,18,׀,05C0,8,punctuation paseq*,⠸⠸⠏⠏
-19,19,ׁ,05C1,8,shin dot*,⠈
-20,20,ׂ,05C2,8,sin dot*,⠘
-21,21,׃,05C3,8,punctuation sof pasuq*,⠲
-22,22,ׄ,05C4,8,mark upper dot*,⠈
-23,23,ׅ,05C5,8,mark lower dot*,⠘
-24,24,׆,05C6,8,punctuation nun hafukha,⠸⠝
-25,25,ׇ,05C7,8,point qamats qatan*,⠣
-26,26,׳,05F3,8,punctuation geresh*,⠸⠣
-27,27,״,05F4,8,punctuation gershayim*,⠸
-28,28,א,05D0,8,letter alef,⠁
-29,29,בּ,05D1+05BC,8,bet,⠃
-30,30,ב,05D1,8,bet with dagesh,⠧
-31,31,ג,05D2,8,letter gimsel,⠛
-32,32,דּ,05D3+05BC,186,dalest with dagesh,⠐⠙
-33,33,ד,05D3,8,letter dalet,⠙
-34,34,הּ,05D4+05BC,8,letter 1hey - isolated,⠓
-35,35,ה,05D4,8,letter hey,⠓
-36,36,וֹ,05D5+05B9,201,holam-vav*,⠪
-37,37,וּ,05D5+05BC,201,shuruq,⠥
-38,38,ו,05D5,8,vav,⠺
-39,39,ז,05D6,8,zayin,⠵
-40,40,ח,05D7,8,letter het,⠭
-41,41,ט,05D8,8,letter tet,⠞
-42,42,יּ,05D9+05BC,186,letter yod with dagesh,⠐⠚
-43,43,י,05D9,8,letter yod,⠚
-44,44,ך,05DA,214,letter final kaf,⠅
-45,45,כּ,05DB+05BC,8,kaf,⠅
-46,46,כּ,FB3B,9,KAF WITH DAGESH,⠡
-47,47,לּ,05DC+05BC,186,letter lamed with dagesh,⠐⠇
-48,48,ל,05DC,8,letter lamed,⠇
-49,49,ם,05DD,8,letter final mem,⠍
-50,50,מּ,05DE+05BC,186,letter mem with dagesh,⠐⠍
-51,51,מ,05DE,8,letter mem,⠍
-52,52,ן,05DF,8,letter final nun,⠝
-53,53,נּ,05E0+05BC,186,letter nun with dagesh,⠐⠝
-54,54,נ,5.00E+00,8,letter nun,⠝
-55,55,ס,5.00E+01,8,letter samekh,⠎
-56,56,ע,5.00E+02,8,letter ayin,⠫
-57,57,ף,5.00E+03,8,letter final pe,⠋
-58,58,פּ,05E4+05BC,8,pe with dagesh,⠐⠏
-59,59,פ,5.00E+04,214,Pe ,⠏
-60,60,ץ,5.00E+05,8,letter final tsadi,⠮
-61,61,צ,5.00E+06,8,letter tsadi,⠮
-62,62,קּ,05E7+05BC,186,letter qof with dagesh,⠐⠟
-63,63,ק,5.00E+07,8,letter qof,⠟
-64,64,ר,5.00E+08,8,letter resh,⠗
-65,65,שׁ,05E9+05C1,8,letter shin,⠩
-66,66,שׂ,05E9+05C2,214,letter sin,⠩
-67,67,שּׁ,05E9+05BC+05C1,196,letter shin with dagesh - isolated,⠯
-68,68,שּׂ,05E9+05BC+05C2,214,letter sin with dagesh,⠐⠩
-69,69,תּ,05EA+05BC,8,letter tav,⠞
-70,70,תּ,FB4A,10,tav with daggesh,⠐⠹
-71,71,װ,05F0,8,double vav*,⠺⠺
-72,72,ױ,05F1,8,vav yod*,⠚⠚
-73,73,ײ,05F2,8,double yod*,⠚⠚
-74,74,֑,591,8,atnokta,⠆
-75,75,֒,592,8,accent segol* - isolated,⠨⠎
-76,76,֓,593,8,accent shalshelet,⠨⠩
-77,77,֔,594,8,accent zaqef qatan,⠂
-78,78,֕,595,8,accent zaqef gadol,⠨⠛
-79,79,֖,596,8,accent tipeha,⠨⠞
-80,80,֗,597,8,accent revia,⠨⠗
-81,81,֘,598,8,accent zarqa,⠨⠙
-82,82,֙,599,8,accent pashta,⠨⠌
-83,83,֚,059A,8,accent yetiv,⠨⠚
-84,84,֛,059B,8,accent tevir,⠨⠧
-85,85,֜,059C,8,accent geresh,⠨⠁
-86,86,֝,059D,8,accent geresh muqdam,⠨⠡
-87,87,֞,059E,8,accent gershayim,⠨⠃
-88,88,֟,059F,8,accent qarney para,⠨⠝
-89,89,֠,05A0,8,accent telisha gedola,⠨⠶
-90,90,֡,05A1,8,accent pazer,⠨⠦
-91,91,֢,05A2,8,accent atnah hafukh,⠨⠆
-92,92,֣,05A3,8,accent munah,⠨⠥
-93,93,֤,05A4,8,accent mahapakh,⠨⠓
-94,94,֥,05A5,8,accent merkha,⠨⠍
-95,95,֦,05A6,8,accent merkha kefula,⠨⠅
-96,96,֧,05A7,8,accent darga,⠨⠙
-97,97,֨,05A8,8,accent qadma,⠨⠏
-98,98,֩,05A9,8,accent telisha qetana,⠨⠟
-99,99,֪,05AA,8,accent yerah ben yomo,⠨⠽
-100,100,֫,05AB,8,accent ole,⠨⠕
-101,101,֬,05AC,8,accent iluy,⠨⠊
-102,102,֭,05AD,8,accent dehi,⠨⠊
-103,103,֮,05AE,8,accent zinor,⠨⠵
-104,104,֯,05AF,8,mark masora circle,⠸⠍
-
+Character,Hex,Logic,Name,Braille
+ְ,05B0,187,point sheva*,⠄
+ֱ,05B1,188,hataf segol,⠢
+ֲ,05B2,188,hataf patah,⠒
+ֳ,05B3,185,point hataf qamats*,⠜
+ִי,05B4+05D9,201,point hiriq-yod,⠔
+ִ,05B4,188,point hiriq*,⠊
+ֵי,05B5+05D9,188,point tsere-yod*,⠼
+ֵ,05B5,185,point tsere*,⠌
+ֶ,05B6,185,point segol*,⠑
+ַ,05B7,185,point patah*,⠉
+ָ,05B8,185,point qamats*,⠣
+ֹ,05B9,185,point holam*,⠕
+ֺ,05BA,188,point holam haser for vav,⠐⠪
+ֻ,05BB,185,point qubuts*,⠐⠖
+ּ,05BC,186,dagesh,⠐
+ֽ,05BD,185,point meteg*,⠡
+־,05BE,8,punctuation maqaf,⠤
+"“◌ֿ""",05BF,8,rafe*,⠂
+׀,05C0,8,punctuation paseq*,⠸⠸⠏⠏
+ׁ,05C1,8,shin dot*,⠈
+ׂ,05C2,8,sin dot*,⠘
+׃,05C3,8,punctuation sof pasuq*,⠲
+ׄ,05C4,8,mark upper dot*,⠈
+ׅ,05C5,8,mark lower dot*,⠘
+׆,05C6,8,punctuation nun hafukha,⠸⠝
+ׇ,05C7,8,point qamats qatan*,⠣
+׳,05F3,8,punctuation geresh*,⠸⠣
+״,05F4,8,punctuation gershayim*,⠸
+א,05D0,8,letter alef,⠁
+בּ,05D1+05BC,8,bet,⠃
+ב,05D1,8,bet with dagesh,⠧
+ג,05D2,8,letter gimsel,⠛
+דּ,05D3+05BC,186,dalest with dagesh,⠐⠙
+ד,05D3,8,letter dalet,⠙
+הּ,05D4+05BC,8,letter 1hey - isolated,⠓
+ה,05D4,8,letter hey,⠓
+וֹ,05D5+05B9,201,holam-vav*,⠪
+וּ,05D5+05BC,201,shuruq,⠥
+ו,05D5,8,vav,⠺
+ז,05D6,8,zayin,⠵
+ח,05D7,8,letter het,⠭
+ט,05D8,8,letter tet,⠞
+יּ,05D9+05BC,186,letter yod with dagesh,⠐⠚
+י,05D9,8,letter yod,⠚
+ך,05DA,214,letter final kaf,⠅
+כּ,05DB+05BC,8,kaf,⠅
+כּ,FB3B,9,KAF WITH DAGESH,⠡
+לּ,05DC+05BC,186,letter lamed with dagesh,⠐⠇
+ל,05DC,8,letter lamed,⠇
+ם,05DD,8,letter final mem,⠍
+מּ,05DE+05BC,186,letter mem with dagesh,⠐⠍
+מ,05DE,8,letter mem,⠍
+ן,05DF,8,letter final nun,⠝
+נּ,05E0+05BC,186,letter nun with dagesh,⠐⠝
+נ,5,8,letter nun,⠝
+ס,50,8,letter samekh,⠎
+ע,500,8,letter ayin,⠫
+ף,5000,8,letter final pe,⠋
+פּ,05E4+05BC,8,pe with dagesh,⠐⠏
+פ,50000,214,Pe ,⠏
+ץ,500000,8,letter final tsadi,⠮
+צ,5000000,8,letter tsadi,⠮
+קּ,05E7+05BC,186,letter qof with dagesh,⠐⠟
+ק,50000000,8,letter qof,⠟
+ר,500000000,8,letter resh,⠗
+שׁ,05E9+05C1,8,letter shin with dot,⠩
+"ש","05E9","8",letter shin,⠩
+שׂ,05E9+05C2,214,letter sin,⠩
+שּׁ,05E9+05BC+05C1,196,letter shin with dagesh - isolated,⠯
+שּׂ,05E9+05BC+05C2,214,letter sin with dagesh,⠐⠩
+תּ,05EA+05BC,8,letter tav,⠞
+תּ,FB4A,10,tav with daggesh,⠐⠹
+װ,05F0,8,double vav*,⠺⠺
+ױ,05F1,8,vav yod*,⠚⠚
+ײ,05F2,8,double yod*,⠚⠚
+֑,591,8,atnokta,⠆
+֒,592,8,accent segol* - isolated,⠨⠎
+֓,593,8,accent shalshelet,⠨⠩
+֔,594,8,accent zaqef qatan,⠂
+֕,595,8,accent zaqef gadol,⠨⠛
+֖,596,8,accent tipeha,⠨⠞
+֗,597,8,accent revia,⠨⠗
+֘,598,8,accent zarqa,⠨⠙
+֙,599,8,accent pashta,⠨⠌
+֚,059A,8,accent yetiv,⠨⠚
+֛,059B,8,accent tevir,⠨⠧
+֜,059C,8,accent geresh,⠨⠁
+֝,059D,8,accent geresh muqdam,⠨⠡
+֞,059E,8,accent gershayim,⠨⠃
+֟,059F,8,accent qarney para,⠨⠝
+֠,05A0,8,accent telisha gedola,⠨⠶
+֡,05A1,8,accent pazer,⠨⠦
+֢,05A2,8,accent atnah hafukh,⠨⠆
+֣,05A3,8,accent munah,⠨⠥
+֤,05A4,8,accent mahapakh,⠨⠓
+֥,05A5,8,accent merkha,⠨⠍
+֦,05A6,8,accent merkha kefula,⠨⠅
+֧,05A7,8,accent darga,⠨⠙
+֨,05A8,8,accent qadma,⠨⠏
+֩,05A9,8,accent telisha qetana,⠨⠟
+֪,05AA,8,accent yerah ben yomo,⠨⠽
+֫,05AB,8,accent ole,⠨⠕
+֬,05AC,8,accent iluy,⠨⠊
+֭,05AD,8,accent dehi,⠨⠊
+֮,05AE,8,accent zinor,⠨⠵
+֯,05AF,8,mark masora circle,⠸⠍

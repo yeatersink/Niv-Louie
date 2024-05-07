@@ -113,7 +113,8 @@ def create_tests(language_option):
     for index,row in test_csv.iterrows():
         braille_test=""
         for char in row["Text"]:
-            temp_row=language_file.loc[language_file[languages[language_option]["char_column"]]== char]
+            print(char)
+            temp_row=language_file.loc[[language_file[languages[language_option]["char_column"]]== char]]
             print(temp_row,"\n")
             print("Braille: ",temp_row[languages[language_option]["braille_column"]],"\n")
             braille_test+=temp_row[languages[language_option]["braille_column"]]
