@@ -1,17 +1,4 @@
-
-Accent,alpha,epsilon,eta,iota,omichron,upsilon,omega
-No Accent,a,e,:,i,o,u,w
-
-grave/varia +0300,a→(,e→c,:→!,i→/,o→+,u→),w→q
-acute/oxia +0301,a→>,e→$,:→=,i→],o→[,u→\,w→j
-circum/perispomeni +0342,a→*,,:→<,i→%,,u→v,w→#
-Accent,Effect
-smooth/psili +0313,0v (v=vowel)
-rough/dasia +0314,hv (v=vowel)
-Accent,Effect
-subscript/ypogegramei +0345,add 9
-Accent,Effect
-dialytika,2 (between vowels)
+Unicode,Character,Name,Braille,Redundant Braille
 0384,΄,tonos,,
 0385,΅,dialytika and oxia,,
 0387,·,greek semi-colon,;,;
