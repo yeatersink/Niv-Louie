@@ -3,15 +3,16 @@ import pandas as pd
 #json is used for reading the json files
 import json
 #The languages variable is imported from the languages file
-from utils.languages import languages
+from utils.languages_file import languages
+#The create_csv function is used to create the filtered csv file
 from utils.csv import create_csv
 
-#The brailleconverter.json file is opened and read in to the braille_object variable
-braille_file=open("utils/brailleconverter.json",encoding="utf8")
+#The braille_converter.json file is opened and read in to the braille_object variable
+braille_file=open("utils/braille_converter.json",encoding="utf8")
 braille_object=json.load(braille_file)
 
 #The braille_numbers.json file is opened and read in to the braille_numbers_object variable
-braille_numbers_file=open("utils/brailletonumbers.json",encoding="utf8")
+braille_numbers_file=open("utils/braille_to_numbers.json",encoding="utf8")
 braille_numbers_object=json.load(braille_numbers_file)
 
 def get_braille(text):
@@ -30,18 +31,18 @@ def get_braille(text):
     braille=""
     #The text is checked to see if it contains any numbers
     if any(char.isdigit() for char in text):
-        newText=""
+        new_text=""
         #The text is looped
         for index,char in enumerate(text):
             #checks if the character is a number
             if char.isdigit():
                 #adds a number sign to the character
-                newText+="#"+char
+                new_text+="#"+char
             else:
                 #adds the character to the new text
-                newText+=char
+                new_text+=char
         #the text is replaced with the new text
-        text=newText
+        text=new_text
     #The text is checked to see if it contains any special characters
     if "[q~^]"*3 in text:
         text=text.replace("[q~^]"*3,"^#3")
@@ -194,7 +195,7 @@ elif option==2:
     #The language file is read in to pandas
     language_file=pd.read_csv("languages/filtered_"+languages[language_option]["name"]+".csv")
     #The nvda symbols file is opened in append mode to add the symbols to the end of the file
-    nvda_symbols_file=open("C:/Program Files (x86)/NVDA/locale/en/symbols.dic","a+",encoding="utf-8")
+    nvda_symbols_file=open("C:/Program Files (x86)/NVDA/locale/en/symbols.dic","a+",encoding="utf8")
     #a comment is added to the file to show where the symbols for the language start
     nvda_symbols_file.write("\n#"+languages[language_option]["name"]+"\n")
     #this loop goes through each row in the language file and adds the character and name to the nvda symbols file
@@ -211,7 +212,7 @@ elif option==3:
     #The language file is read in to pandas
     braille=pd.read_csv("languages/filtered_"+languages[language_option]["name"]+".csv")
     #The braille table is opened in write mode to create the table
-    braille_table=open("braille/"+languages[language_option]["language_code"]+".tbl","w",encoding="utf-8")
+    braille_table=open("braille/"+languages[language_option]["language_code"]+".tbl","w",encoding="utf8")
     #The braille column is converted to numbers
     braille[languages[language_option]["braille_column"]]=braille[languages[language_option]["braille_column"]].apply(braille_to_numbers)
     #The braille table is written to with the information for the language that is required for lib louis
@@ -244,7 +245,7 @@ elif option==3:
 # Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA
 # liblouis  comes with ABSOLUTELY NO WARRANTY.
 
-"""+languages[language_option]["language_information"]+languages[language_option]["contributers"])
+"""+languages[language_option]["language_information"]+languages[language_option]["contributors"])
     #This loop goes through each row in the braille file and writes the braille code and the number to the braille table
     for index, row in braille.iterrows():
         new_line="letter "+str(row[languages[language_option]["char_column"]])+" "+str(row[languages[language_option]["braille_column"]])+"\n"
@@ -259,7 +260,7 @@ elif option==4:
     #the characters are changed to the correct characters
     language_file[languages[language_option]["char_column"]]=language_file["Hex"].apply(change_characters)
     #the file is saved to the source folder
-    language_file.to_csv("languages/source/"+languages[language_option]["name"]+".csv")
+    language_file.to_csv("languages/source/"+languages[language_option]["name"]+".csv",index=False)
 #option 5 converts the text characters to braille characters in the source language file
 elif option == 5:
     print ("converting text to braille")
@@ -272,7 +273,7 @@ elif option == 5:
     #the braille column is replaced with the new braille column
     language_file["Braille"]=new_braille_column
     #the file is saved to the source folder
-    language_file.to_csv("languages/source/"+languages[language_option]["name"]+".csv")
+    language_file.to_csv("languages/source/"+languages[language_option]["name"]+".csv",index=False)
 #option 6 creates the braille tests for Lib Louis
 elif option==6:
     #The create_tests function is called with the chosen language

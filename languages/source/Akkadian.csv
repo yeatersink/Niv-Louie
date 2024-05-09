@@ -1,923 +1,923 @@
-,Character(decimal),Decimal,Character(hex),Hex,Name,Braille
-0,𒀀,73728,𒀀,12000,CUNEIFORM SIGN A,⠁
-1,𒀁,73729,𒀁,12001,CUNEIFORM SIGN A TIMES A,⠁⠐⠦⠁
-2,𒀂,73730,𒀂,12002,CUNEIFORM SIGN A TIMES BAD,⠁⠐⠦⠃⠁⠙
-3,𒀃,73731,𒀃,12003,CUNEIFORM SIGN A TIMES GAN2 TENU,⠁⠐⠦⠛⠁⠝⠼⠃ ⠞⠑⠝⠥
-4,𒀄,73732,𒀄,12004,CUNEIFORM SIGN A TIMES HA,⠁⠐⠦⠓⠁
-5,𒀅,73733,𒀅,12005,CUNEIFORM SIGN A TIMES IGI,⠁⠐⠦⠊⠛⠊
-6,𒀆,73734,𒀆,12006,CUNEIFORM SIGN A TIMES LAGAR GUNU,⠁⠐⠦⠇⠁⠛⠁⠗ ⠛⠥⠝⠥
-7,𒀇,73735,𒀇,12007,CUNEIFORM SIGN A TIMES MUSH,⠁⠐⠦⠍⠥⠎⠓
-8,𒀈,73736,𒀈,12008,CUNEIFORM SIGN A TIMES SAG,⠁⠐⠦⠎⠁⠛
-9,𒀉,73737,𒀉,12009,CUNEIFORM SIGN A2,⠁⠼⠃
-10,𒀊,73738,𒀊,1200A,CUNEIFORM SIGN AB,⠁⠃
-11,𒀋,73739,𒀋,1200B,CUNEIFORM SIGN AB TIMES ASH2,⠁⠃⠐⠦⠁⠎⠓⠼⠃
-12,𒀌,73740,𒀌,1200C,CUNEIFORM SIGN AB TIMES DUN3 GUNU,⠁⠃⠐⠦⠙⠥⠝⠼⠉ ⠛⠥⠝⠥
-13,𒀍,73741,𒀍,1200D,CUNEIFORM SIGN AB TIMES GAL,⠁⠃⠐⠦⠛⠁⠇
-14,𒀎,73742,𒀎,1200E,CUNEIFORM SIGN AB TIMES GAN2 TENU,⠁⠃⠐⠦⠛⠁⠝⠼⠃ ⠞⠑⠝⠥
-15,𒀏,73743,𒀏,1200F,CUNEIFORM SIGN AB TIMES HA,⠁⠃⠐⠦⠓⠁
-16,𒀐,73744,𒀐,12010,CUNEIFORM SIGN AB TIMES IGI GUNU,⠁⠃⠐⠦⠊⠛⠊ ⠛⠥⠝⠥
-17,𒀑,73745,𒀑,12011,CUNEIFORM SIGN AB TIMES IMIN,⠁⠃⠐⠦⠊⠍⠊⠝
-18,𒀒,73746,𒀒,12012,CUNEIFORM SIGN AB TIMES LAGAB,⠁⠃⠐⠦⠇⠁⠛⠁⠃
-19,𒀓,73747,𒀓,12013,CUNEIFORM SIGN AB TIMES SHESH,⠁⠃⠐⠦⠎⠓⠑⠎⠓
-20,𒀔,73748,𒀔,12014,CUNEIFORM SIGN AB TIMES U PLUS U PLUS U,⠁⠃⠐⠦⠥⠐⠖⠥⠐⠖⠥
-21,𒀕,73749,𒀕,12015,CUNEIFORM SIGN AB GUNU,⠁⠃ ⠛⠥⠝⠥
-22,𒀖,73750,𒀖,12016,CUNEIFORM SIGN AB2,⠁⠃⠼⠃
-23,𒀗,73751,𒀗,12017,CUNEIFORM SIGN AB2 TIMES BALAG,⠁⠃⠼⠃⠐⠦⠃⠁⠇⠁⠛
-24,𒀘,73752,𒀘,12018,CUNEIFORM SIGN AB2 TIMES GAN2 TENU,⠁⠃⠼⠃⠐⠦⠛⠁⠝⠼⠃ ⠞⠑⠝⠥
-25,𒀙,73753,𒀙,12019,CUNEIFORM SIGN AB2 TIMES ME PLUS EN,⠁⠃⠼⠃⠐⠦⠍⠑⠐⠖⠑⠝
-26,𒀚,73754,𒀚,1201A,CUNEIFORM SIGN AB2 TIMES SHA3,⠁⠃⠼⠃⠐⠦⠎⠓⠁⠼⠉
-27,𒀛,73755,𒀛,1201B,CUNEIFORM SIGN AB2 TIMES TAK4,⠁⠃⠼⠃⠐⠦⠞⠁⠅⠼⠙
-28,𒀜,73756,𒀜,1201C,CUNEIFORM SIGN AD,⠁⠙
-29,𒀝,73757,𒀝,1201D,CUNEIFORM SIGN AK,⠁⠅
-30,𒀞,73758,𒀞,1201E,CUNEIFORM SIGN AK TIMES ERIN2,⠁⠅⠐⠦⠑⠗⠊⠝⠼⠃
-31,𒀟,73759,𒀟,1201F,CUNEIFORM SIGN AK TIMES SHITA PLUS GISH,⠁⠅⠐⠦⠎⠓⠊⠞⠁⠐⠖⠛⠊⠎⠓
-32,𒀠,73760,𒀠,12020,CUNEIFORM SIGN AL,⠁⠇
-33,𒀡,73761,𒀡,12021,CUNEIFORM SIGN AL TIMES AL,⠁⠇⠐⠦⠁⠇
-34,𒀢,73762,𒀢,12022,CUNEIFORM SIGN AL TIMES DIM2,⠁⠇⠐⠦⠙⠊⠍⠼⠃
-35,𒀣,73763,𒀣,12023,CUNEIFORM SIGN AL TIMES GISH,⠁⠇⠐⠦⠛⠊⠎⠓
-36,𒀤,73764,𒀤,12024,CUNEIFORM SIGN AL TIMES HA,⠁⠇⠐⠦⠓⠁
-37,𒀥,73765,𒀥,12025,CUNEIFORM SIGN AL TIMES KAD3,⠁⠇⠐⠦⠅⠁⠙⠼⠉
-38,𒀦,73766,𒀦,12026,CUNEIFORM SIGN AL TIMES KI,⠁⠇⠐⠦⠅⠊
-39,𒀧,73767,𒀧,12027,CUNEIFORM SIGN AL TIMES SHE,⠁⠇⠐⠦⠎⠓⠑
-40,𒀨,73768,𒀨,12028,CUNEIFORM SIGN AL TIMES USH,⠁⠇⠐⠦⠥⠎⠓
-41,𒀩,73769,𒀩,12029,CUNEIFORM SIGN ALAN,⠁⠇⠁⠝
-42,𒀪,73770,𒀪,1202A,CUNEIFORM SIGN ALEPH,⠁⠇⠑⠏⠓
-43,𒀫,73771,𒀫,1202B,CUNEIFORM SIGN AMAR,⠁⠍⠁⠗
-44,𒀬,73772,𒀬,1202C,CUNEIFORM SIGN AMAR TIMES SHE,⠁⠍⠁⠗⠐⠦⠎⠓⠑
-45,𒀭,73773,𒀭,1202D,CUNEIFORM SIGN AN,⠁⠝
-46,𒀮,73774,𒀮,1202E,CUNEIFORM SIGN AN OVER AN,⠁⠝⠐⠌⠁⠝
-47,𒀯,73775,𒀯,1202F,CUNEIFORM SIGN AN THREE TIMES,⠁⠝⠔⠼⠉
-48,𒀰,73776,𒀰,12030,CUNEIFORM SIGN AN PLUS NAGA OPPOSING AN PLUS NAGA,⠁⠝⠐⠖⠝⠁⠛⠁⠈⠎⠁⠝⠐⠖⠝⠁⠛⠁
-49,𒀱,73777,𒀱,12031,CUNEIFORM SIGN AN PLUS NAGA SQUARED,⠁⠝⠐⠖⠝⠁⠛⠁⠔⠼⠃
-50,𒀲,73778,𒀲,12032,CUNEIFORM SIGN ANSHE,⠁⠝⠎⠓⠑
-51,𒀳,73779,𒀳,12033,CUNEIFORM SIGN APIN,⠁⠏⠊⠝
-52,𒀴,73780,𒀴,12034,CUNEIFORM SIGN ARAD,⠁⠗⠁⠙
-53,𒀵,73781,𒀵,12035,CUNEIFORM SIGN ARAD TIMES KUR,⠁⠗⠁⠙⠐⠦⠅⠥⠗
-54,𒀶,73782,𒀶,12036,CUNEIFORM SIGN ARKAB,⠁⠗⠅⠁⠃
-55,𒀷,73783,𒀷,12037,CUNEIFORM SIGN ASAL2,⠁⠎⠁⠇⠼⠃
-56,𒀸,73784,𒀸,12038,CUNEIFORM SIGN ASH,⠁⠎⠓
-57,𒀹,73785,𒀹,12039,CUNEIFORM SIGN ASH ZIDA TENU,⠁⠎⠓ ⠵⠊⠙⠁ ⠞⠑⠝⠥
-58,𒀺,73786,𒀺,1203A,CUNEIFORM SIGN ASH KABA TENU,⠁⠎⠓ ⠅⠁⠃⠁ ⠞⠑⠝⠥
-59,𒀻,73787,𒀻,1203B,CUNEIFORM SIGN ASH OVER ASH TUG2 OVER TUG2 TUG2 OVER TUG2 PAP,⠁⠎⠓⠐⠌⠁⠎⠓ ⠞⠥⠛⠼⠃⠐⠌⠞⠥⠛⠼⠃ ⠞⠥⠛⠼⠃⠐⠌⠞⠥⠛⠼⠃ ⠏⠁⠏
-60,𒀼,73788,𒀼,1203C,CUNEIFORM SIGN ASH OVER ASH OVER ASH,⠁⠎⠓⠐⠌⠁⠎⠓⠐⠌⠁⠎⠓
-61,𒀽,73789,𒀽,1203D,CUNEIFORM SIGN ASH OVER ASH OVER ASH CROSSING ASH OVER ASH OVER ASH,⠁⠎⠓⠐⠌⠁⠎⠓⠐⠌⠁⠎⠓⠈⠯⠁⠎⠓⠐⠌⠁⠎⠓⠐⠌⠁⠎⠓
-62,𒀾,73790,𒀾,1203E,CUNEIFORM SIGN ASH2,⠁⠎⠓⠼⠃
-63,𒀿,73791,𒀿,1203F,CUNEIFORM SIGN ASHGAB,⠁⠎⠓⠛⠁⠃
-64,𒁀,73792,𒁀,12040,CUNEIFORM SIGN BA,⠃⠁
-65,𒁁,73793,𒁁,12041,CUNEIFORM SIGN BAD,⠃⠁⠙
-66,𒁂,73794,𒁂,12042,CUNEIFORM SIGN BAG3,⠃⠁⠛⠼⠉
-67,𒁃,73795,𒁃,12043,CUNEIFORM SIGN BAHAR2,⠃⠁⠓⠁⠗⠼⠃
-68,𒁄,73796,𒁄,12044,CUNEIFORM SIGN BAL,⠃⠁⠇
-69,𒁅,73797,𒁅,12045,CUNEIFORM SIGN BAL OVER BAL,⠃⠁⠇⠐⠌⠃⠁⠇
-70,𒁆,73798,𒁆,12046,CUNEIFORM SIGN BALAG,⠃⠁⠇⠁⠛
-71,𒁇,73799,𒁇,12047,CUNEIFORM SIGN BAR,⠃⠁⠗
-72,𒁈,73800,𒁈,12048,CUNEIFORM SIGN BARA2,⠃⠁⠗⠁⠼⠃
-73,𒁉,73801,𒁉,12049,CUNEIFORM SIGN BI,⠃⠊
-74,𒁊,73802,𒁊,1204A,CUNEIFORM SIGN BI TIMES A,⠃⠊⠐⠦⠁
-75,𒁋,73803,𒁋,1204B,CUNEIFORM SIGN BI TIMES GAR,⠃⠊⠐⠦⠛⠁⠗
-76,𒁌,73804,𒁌,1204C,CUNEIFORM SIGN BI TIMES IGI GUNU,⠃⠊⠐⠦⠊⠛⠊ ⠛⠥⠝⠥
-77,𒁍,73805,𒁍,1204D,CUNEIFORM SIGN BU,⠃⠥
-78,𒁎,73806,𒁎,1204E,CUNEIFORM SIGN BU OVER BU AB,⠃⠥⠐⠌⠃⠥ ⠁⠃
-79,𒁏,73807,𒁏,1204F,CUNEIFORM SIGN BU OVER BU UN,⠃⠥⠐⠌⠃⠥ ⠥⠝
-80,𒁐,73808,𒁐,12050,CUNEIFORM SIGN BU CROSSING BU,⠃⠥⠈⠯⠃⠥
-81,𒁑,73809,𒁑,12051,CUNEIFORM SIGN BULUG,⠃⠥⠇⠥⠛
-82,𒁒,73810,𒁒,12052,CUNEIFORM SIGN BULUG OVER BULUG,⠃⠥⠇⠥⠛⠐⠌⠃⠥⠇⠥⠛
-83,𒁓,73811,𒁓,12053,CUNEIFORM SIGN BUR,⠃⠥⠗
-84,𒁔,73812,𒁔,12054,CUNEIFORM SIGN BUR2,⠃⠥⠗⠼⠃
-85,𒁕,73813,𒁕,12055,CUNEIFORM SIGN DA,⠙⠁
-86,𒁖,73814,𒁖,12056,CUNEIFORM SIGN DAG,⠙⠁⠛
-87,𒁗,73815,𒁗,12057,CUNEIFORM SIGN DAG KISIM5 TIMES A PLUS MASH,⠙⠁⠛ ⠅⠊⠎⠊⠍⠼⠑⠐⠦⠁⠐⠖⠍⠁⠎⠓
-88,𒁘,73816,𒁘,12058,CUNEIFORM SIGN DAG KISIM5 TIMES AMAR,⠙⠁⠛ ⠅⠊⠎⠊⠍⠼⠑⠐⠦⠁⠍⠁⠗
-89,𒁙,73817,𒁙,12059,CUNEIFORM SIGN DAG KISIM5 TIMES BALAG,⠙⠁⠛ ⠅⠊⠎⠊⠍⠼⠑⠐⠦⠃⠁⠇⠁⠛
-90,𒁚,73818,𒁚,1205A,CUNEIFORM SIGN DAG KISIM5 TIMES BI,⠙⠁⠛ ⠅⠊⠎⠊⠍⠼⠑⠐⠦⠃⠊
-91,𒁛,73819,𒁛,1205B,CUNEIFORM SIGN DAG KISIM5 TIMES GA,⠙⠁⠛ ⠅⠊⠎⠊⠍⠼⠑⠐⠦⠛⠁
-92,𒁜,73820,𒁜,1205C,CUNEIFORM SIGN DAG KISIM5 TIMES GA PLUS MASH,⠙⠁⠛ ⠅⠊⠎⠊⠍⠼⠑⠐⠦⠛⠁⠐⠖⠍⠁⠎⠓
-93,𒁝,73821,𒁝,1205D,CUNEIFORM SIGN DAG KISIM5 TIMES GI,⠙⠁⠛ ⠅⠊⠎⠊⠍⠼⠑⠐⠦⠛⠊
-94,𒁞,73822,𒁞,1205E,CUNEIFORM SIGN DAG KISIM5 TIMES GIR2,⠙⠁⠛ ⠅⠊⠎⠊⠍⠼⠑⠐⠦⠛⠊⠗⠼⠃
-95,𒁟,73823,𒁟,1205F,CUNEIFORM SIGN DAG KISIM5 TIMES GUD,⠙⠁⠛ ⠅⠊⠎⠊⠍⠼⠑⠐⠦⠛⠥⠙
-96,𒁠,73824,𒁠,12060,CUNEIFORM SIGN DAG KISIM5 TIMES HA,⠙⠁⠛ ⠅⠊⠎⠊⠍⠼⠑⠐⠦⠓⠁
-97,𒁡,73825,𒁡,12061,CUNEIFORM SIGN DAG KISIM5 TIMES IR,⠙⠁⠛ ⠅⠊⠎⠊⠍⠼⠑⠐⠦⠊⠗
-98,𒁢,73826,𒁢,12062,CUNEIFORM SIGN DAG KISIM5 TIMES IR PLUS LU,⠙⠁⠛ ⠅⠊⠎⠊⠍⠼⠑⠐⠦⠊⠗⠐⠖⠇⠥
-99,𒁣,73827,𒁣,12063,CUNEIFORM SIGN DAG KISIM5 TIMES KAK,⠙⠁⠛ ⠅⠊⠎⠊⠍⠼⠑⠐⠦⠅⠁⠅
-100,𒁤,73828,𒁤,12064,CUNEIFORM SIGN DAG KISIM5 TIMES LA,⠙⠁⠛ ⠅⠊⠎⠊⠍⠼⠑⠐⠦⠇⠁
-101,𒁥,73829,𒁥,12065,CUNEIFORM SIGN DAG KISIM5 TIMES LU,⠙⠁⠛ ⠅⠊⠎⠊⠍⠼⠑⠐⠦⠇⠥
-102,𒁦,73830,𒁦,12066,CUNEIFORM SIGN DAG KISIM5 TIMES LU PLUS MASH2,⠙⠁⠛ ⠅⠊⠎⠊⠍⠼⠑⠐⠦⠇⠥⠐⠖⠍⠁⠎⠓⠼⠃
-103,𒁧,73831,𒁧,12067,CUNEIFORM SIGN DAG KISIM5 TIMES LUM,⠙⠁⠛ ⠅⠊⠎⠊⠍⠼⠑⠐⠦⠇⠥⠍
-104,𒁨,73832,𒁨,12068,CUNEIFORM SIGN DAG KISIM5 TIMES NE,⠙⠁⠛ ⠅⠊⠎⠊⠍⠼⠑⠐⠦⠝⠑
-105,𒁩,73833,𒁩,12069,CUNEIFORM SIGN DAG KISIM5 TIMES PAP PLUS PAP,⠙⠁⠛ ⠅⠊⠎⠊⠍⠼⠑⠐⠦⠏⠁⠏⠐⠖⠏⠁⠏
-106,𒁪,73834,𒁪,1206A,CUNEIFORM SIGN DAG KISIM5 TIMES SI,⠙⠁⠛ ⠅⠊⠎⠊⠍⠼⠑⠐⠦⠎⠊
-107,𒁫,73835,𒁫,1206B,CUNEIFORM SIGN DAG KISIM5 TIMES TAK4,⠙⠁⠛ ⠅⠊⠎⠊⠍⠼⠑⠐⠦⠞⠁⠅⠼⠙
-108,𒁬,73836,𒁬,1206C,CUNEIFORM SIGN DAG KISIM5 TIMES U2 PLUS GIR2,⠙⠁⠛ ⠅⠊⠎⠊⠍⠼⠑⠐⠦⠥⠼⠃⠐⠖⠛⠊⠗⠼⠃
-109,𒁭,73837,𒁭,1206D,CUNEIFORM SIGN DAG KISIM5 TIMES USH,⠙⠁⠛ ⠅⠊⠎⠊⠍⠼⠑⠐⠦⠥⠎⠓
-110,𒁮,73838,𒁮,1206E,CUNEIFORM SIGN DAM,⠙⠁⠍
-111,𒁯,73839,𒁯,1206F,CUNEIFORM SIGN DAR,⠙⠁⠗
-112,𒁰,73840,𒁰,12070,CUNEIFORM SIGN DARA3,⠙⠁⠗⠁⠼⠉
-113,𒁱,73841,𒁱,12071,CUNEIFORM SIGN DARA4,⠙⠁⠗⠁⠼⠙
-114,𒁲,73842,𒁲,12072,CUNEIFORM SIGN DI,⠙⠊
-115,𒁳,73843,𒁳,12073,CUNEIFORM SIGN DIB,⠙⠊⠃
-116,𒁴,73844,𒁴,12074,CUNEIFORM SIGN DIM,⠙⠊⠍
-117,𒁵,73845,𒁵,12075,CUNEIFORM SIGN DIM TIMES SHE,⠙⠊⠍⠐⠦⠎⠓⠑
-118,𒁶,73846,𒁶,12076,CUNEIFORM SIGN DIM2,⠙⠊⠍⠼⠃
-119,𒁷,73847,𒁷,12077,CUNEIFORM SIGN DIN,⠙⠊⠝
-120,𒁸,73848,𒁸,12078,CUNEIFORM SIGN DIN KASKAL U GUNU DISH,⠙⠊⠝ ⠅⠁⠎⠅⠁⠇ ⠥ ⠛⠥⠝⠥ ⠙⠊⠎⠓
-121,𒁹,73849,𒁹,12079,CUNEIFORM SIGN DISH,⠙⠊⠎⠓
-122,𒁺,73850,𒁺,1207A,CUNEIFORM SIGN DU,⠙⠥
-123,𒁻,73851,𒁻,1207B,CUNEIFORM SIGN DU OVER DU,⠙⠥⠐⠌⠙⠥
-124,𒁼,73852,𒁼,1207C,CUNEIFORM SIGN DU GUNU,⠙⠥ ⠛⠥⠝⠥
-125,𒁽,73853,𒁽,1207D,CUNEIFORM SIGN DU SHESHIG,⠙⠥ ⠎⠓⠑⠎⠓⠊⠛
-126,𒁾,73854,𒁾,1207E,CUNEIFORM SIGN DUB,⠙⠥⠃
-127,𒁿,73855,𒁿,1207F,CUNEIFORM SIGN DUB TIMES ESH2,⠙⠥⠃⠐⠦⠑⠎⠓⠼⠃
-128,𒂀,73856,𒂀,12080,CUNEIFORM SIGN DUB2,⠙⠥⠃⠼⠃
-129,𒂁,73857,𒂁,12081,CUNEIFORM SIGN DUG,⠙⠥⠛
-130,𒂂,73858,𒂂,12082,CUNEIFORM SIGN DUGUD,⠙⠥⠛⠥⠙
-131,𒂃,73859,𒂃,12083,CUNEIFORM SIGN DUH,⠙⠥⠓
-132,𒂄,73860,𒂄,12084,CUNEIFORM SIGN DUN,⠙⠥⠝
-133,𒂅,73861,𒂅,12085,CUNEIFORM SIGN DUN3,⠙⠥⠝⠼⠉
-134,𒂆,73862,𒂆,12086,CUNEIFORM SIGN DUN3 GUNU,⠙⠥⠝⠼⠉ ⠛⠥⠝⠥
-135,𒂇,73863,𒂇,12087,CUNEIFORM SIGN DUN3 GUNU GUNU,⠙⠥⠝⠼⠉ ⠛⠥⠝⠥ ⠛⠥⠝⠥
-136,𒂈,73864,𒂈,12088,CUNEIFORM SIGN DUN4,⠙⠥⠝⠼⠙
-137,𒂉,73865,𒂉,12089,CUNEIFORM SIGN DUR2,⠙⠥⠗⠼⠃
-138,𒂊,73866,𒂊,1208A,CUNEIFORM SIGN E,⠑
-139,𒂋,73867,𒂋,1208B,CUNEIFORM SIGN E TIMES PAP,⠑⠐⠦⠏⠁⠏
-140,𒂌,73868,𒂌,1208C,CUNEIFORM SIGN E OVER E NUN OVER NUN,⠑⠐⠌⠑ ⠝⠥⠝⠐⠌⠝⠥⠝
-141,𒂍,73869,𒂍,1208D,CUNEIFORM SIGN E2,⠑⠼⠃
-142,𒂎,73870,𒂎,1208E,CUNEIFORM SIGN E2 TIMES A PLUS HA PLUS DA,⠑⠼⠃⠐⠦⠁⠐⠖⠓⠁⠐⠖⠙⠁
-143,𒂏,73871,𒂏,1208F,CUNEIFORM SIGN E2 TIMES GAR,⠑⠼⠃⠐⠦⠛⠁⠗
-144,𒂐,73872,𒂐,12090,CUNEIFORM SIGN E2 TIMES MI,⠑⠼⠃⠐⠦⠍⠊
-145,𒂑,73873,𒂑,12091,CUNEIFORM SIGN E2 TIMES SAL,⠑⠼⠃⠐⠦⠎⠁⠇
-146,𒂒,73874,𒂒,12092,CUNEIFORM SIGN E2 TIMES SHE,⠑⠼⠃⠐⠦⠎⠓⠑
-147,𒂓,73875,𒂓,12093,CUNEIFORM SIGN E2 TIMES U,⠑⠼⠃⠐⠦⠥
-148,𒂔,73876,𒂔,12094,CUNEIFORM SIGN EDIN,⠑⠙⠊⠝
-149,𒂕,73877,𒂕,12095,CUNEIFORM SIGN EGIR,⠑⠛⠊⠗
-150,𒂖,73878,𒂖,12096,CUNEIFORM SIGN EL,⠑⠇
-151,𒂗,73879,𒂗,12097,CUNEIFORM SIGN EN,⠑⠝
-152,𒂘,73880,𒂘,12098,CUNEIFORM SIGN EN TIMES GAN2,⠑⠝⠐⠦⠛⠁⠝⠼⠃
-153,𒂙,73881,𒂙,12099,CUNEIFORM SIGN EN TIMES GAN2 TENU,⠑⠝⠐⠦⠛⠁⠝⠼⠃ ⠞⠑⠝⠥
-154,𒂚,73882,𒂚,1209A,CUNEIFORM SIGN EN TIMES ME,⠑⠝⠐⠦⠍⠑
-155,𒂛,73883,𒂛,1209B,CUNEIFORM SIGN EN CROSSING EN,⠑⠝⠈⠯⠑⠝
-156,𒂜,73884,𒂜,1209C,CUNEIFORM SIGN EN OPPOSING EN,⠑⠝⠈⠎⠑⠝
-157,𒂝,73885,𒂝,1209D,CUNEIFORM SIGN EN SQUARED,⠑⠝⠔⠼⠃
-158,𒂞,73886,𒂞,1209E,CUNEIFORM SIGN EREN,⠑⠗⠑⠝
-159,𒂟,73887,𒂟,1209F,CUNEIFORM SIGN ERIN2,⠑⠗⠊⠝⠼⠃
-160,𒂠,73888,𒂠,120A0,CUNEIFORM SIGN ESH2,⠑⠎⠓⠼⠃
-161,𒂡,73889,𒂡,120A1,CUNEIFORM SIGN EZEN,⠑⠵⠑⠝
-162,𒂢,73890,𒂢,120A2,CUNEIFORM SIGN EZEN TIMES A,⠑⠵⠑⠝⠐⠦⠁
-163,𒂣,73891,𒂣,120A3,CUNEIFORM SIGN EZEN TIMES A PLUS LAL,⠑⠵⠑⠝⠐⠦⠁⠐⠖⠇⠁⠇
-164,𒂤,73892,𒂤,120A4,CUNEIFORM SIGN EZEN TIMES A PLUS LAL TIMES LAL,⠑⠵⠑⠝⠐⠦⠁⠐⠖⠇⠁⠇⠐⠦⠇⠁⠇
-165,𒂥,73893,𒂥,120A5,CUNEIFORM SIGN EZEN TIMES AN,⠑⠵⠑⠝⠐⠦⠁⠝
-166,𒂦,73894,𒂦,120A6,CUNEIFORM SIGN EZEN TIMES BAD,⠑⠵⠑⠝⠐⠦⠃⠁⠙
-167,𒂧,73895,𒂧,120A7,CUNEIFORM SIGN EZEN TIMES DUN3 GUNU,⠑⠵⠑⠝⠐⠦⠙⠥⠝⠼⠉ ⠛⠥⠝⠥
-168,𒂨,73896,𒂨,120A8,CUNEIFORM SIGN EZEN TIMES DUN3 GUNU GUNU,⠑⠵⠑⠝⠐⠦⠙⠥⠝⠼⠉ ⠛⠥⠝⠥ ⠛⠥⠝⠥
-169,𒂩,73897,𒂩,120A9,CUNEIFORM SIGN EZEN TIMES HA,⠑⠵⠑⠝⠐⠦⠓⠁
-170,𒂪,73898,𒂪,120AA,CUNEIFORM SIGN EZEN TIMES HA GUNU,⠑⠵⠑⠝⠐⠦⠓⠁ ⠛⠥⠝⠥
-171,𒂫,73899,𒂫,120AB,CUNEIFORM SIGN EZEN TIMES IGI GUNU,⠑⠵⠑⠝⠐⠦⠊⠛⠊ ⠛⠥⠝⠥
-172,𒂬,73900,𒂬,120AC,CUNEIFORM SIGN EZEN TIMES KASKAL,⠑⠵⠑⠝⠐⠦⠅⠁⠎⠅⠁⠇
-173,𒂭,73901,𒂭,120AD,CUNEIFORM SIGN EZEN TIMES KASKAL SQUARED,⠑⠵⠑⠝⠐⠦⠅⠁⠎⠅⠁⠇⠔⠼⠃
-174,𒂮,73902,𒂮,120AE,CUNEIFORM SIGN EZEN TIMES KU3,⠑⠵⠑⠝⠐⠦⠅⠥⠼⠉
-175,𒂯,73903,𒂯,120AF,CUNEIFORM SIGN EZEN TIMES LA,⠑⠵⠑⠝⠐⠦⠇⠁
-176,𒂰,73904,𒂰,120B0,CUNEIFORM SIGN EZEN TIMES LAL TIMES LAL,⠑⠵⠑⠝⠐⠦⠇⠁⠇⠐⠦⠇⠁⠇
-177,𒂱,73905,𒂱,120B1,CUNEIFORM SIGN EZEN TIMES LI,⠑⠵⠑⠝⠐⠦⠇⠊
-178,𒂲,73906,𒂲,120B2,CUNEIFORM SIGN EZEN TIMES LU,⠑⠵⠑⠝⠐⠦⠇⠥
-179,𒂳,73907,𒂳,120B3,CUNEIFORM SIGN EZEN TIMES U2,⠑⠵⠑⠝⠐⠦⠥⠼⠃
-180,𒂴,73908,𒂴,120B4,CUNEIFORM SIGN EZEN TIMES UD,⠑⠵⠑⠝⠐⠦⠥⠙
-181,𒂵,73909,𒂵,120B5,CUNEIFORM SIGN GA,⠛⠁
-182,𒂶,73910,𒂶,120B6,CUNEIFORM SIGN GA GUNU,⠛⠁ ⠛⠥⠝⠥
-183,𒂷,73911,𒂷,120B7,CUNEIFORM SIGN GA2,⠛⠁⠼⠃
-184,𒂸,73912,𒂸,120B8,CUNEIFORM SIGN GA2 TIMES A PLUS DA PLUS HA,⠛⠁⠼⠃⠐⠦⠁⠐⠖⠙⠁⠐⠖⠓⠁
-185,𒂹,73913,𒂹,120B9,CUNEIFORM SIGN GA2 TIMES A PLUS HA,⠛⠁⠼⠃⠐⠦⠁⠐⠖⠓⠁
-186,𒂺,73914,𒂺,120BA,CUNEIFORM SIGN GA2 TIMES A PLUS IGI,⠛⠁⠼⠃⠐⠦⠁⠐⠖⠊⠛⠊
-187,𒂻,73915,𒂻,120BB,CUNEIFORM SIGN GA2 TIMES AB2 TENU PLUS TAB,⠛⠁⠼⠃⠐⠦⠁⠃⠼⠃ ⠞⠑⠝⠥⠐⠖⠞⠁⠃
-188,𒂼,73916,𒂼,120BC,CUNEIFORM SIGN GA2 TIMES AN,⠛⠁⠼⠃⠐⠦⠁⠝
-189,𒂽,73917,𒂽,120BD,CUNEIFORM SIGN GA2 TIMES ASH,⠛⠁⠼⠃⠐⠦⠁⠎⠓
-190,𒂾,73918,𒂾,120BE,CUNEIFORM SIGN GA2 TIMES ASH2 PLUS GAL,⠛⠁⠼⠃⠐⠦⠁⠎⠓⠼⠃⠐⠖⠛⠁⠇
-191,𒂿,73919,𒂿,120BF,CUNEIFORM SIGN GA2 TIMES BAD,⠛⠁⠼⠃⠐⠦⠃⠁⠙
-192,𒃀,73920,𒃀,120C0,CUNEIFORM SIGN GA2 TIMES BAR PLUS RA,⠛⠁⠼⠃⠐⠦⠃⠁⠗⠐⠖⠗⠁
-193,𒃁,73921,𒃁,120C1,CUNEIFORM SIGN GA2 TIMES BUR,⠛⠁⠼⠃⠐⠦⠃⠥⠗
-194,𒃂,73922,𒃂,120C2,CUNEIFORM SIGN GA2 TIMES BUR PLUS RA,⠛⠁⠼⠃⠐⠦⠃⠥⠗⠐⠖⠗⠁
-195,𒃃,73923,𒃃,120C3,CUNEIFORM SIGN GA2 TIMES DA,⠛⠁⠼⠃⠐⠦⠙⠁
-196,𒃄,73924,𒃄,120C4,CUNEIFORM SIGN GA2 TIMES DI,⠛⠁⠼⠃⠐⠦⠙⠊
-197,𒃅,73925,𒃅,120C5,CUNEIFORM SIGN GA2 TIMES DIM TIMES SHE,⠛⠁⠼⠃⠐⠦⠙⠊⠍⠐⠦⠎⠓⠑
-198,𒃆,73926,𒃆,120C6,CUNEIFORM SIGN GA2 TIMES DUB,⠛⠁⠼⠃⠐⠦⠙⠥⠃
-199,𒃇,73927,𒃇,120C7,CUNEIFORM SIGN GA2 TIMES EL,⠛⠁⠼⠃⠐⠦⠑⠇
-200,𒃈,73928,𒃈,120C8,CUNEIFORM SIGN GA2 TIMES EL PLUS LA,⠛⠁⠼⠃⠐⠦⠑⠇⠐⠖⠇⠁
-201,𒃉,73929,𒃉,120C9,CUNEIFORM SIGN GA2 TIMES EN,⠛⠁⠼⠃⠐⠦⠑⠝
-202,𒃊,73930,𒃊,120CA,CUNEIFORM SIGN GA2 TIMES EN TIMES GAN2 TENU,⠛⠁⠼⠃⠐⠦⠑⠝⠐⠦⠛⠁⠝⠼⠃ ⠞⠑⠝⠥
-203,𒃋,73931,𒃋,120CB,CUNEIFORM SIGN GA2 TIMES GAN2 TENU,⠛⠁⠼⠃⠐⠦⠛⠁⠝⠼⠃ ⠞⠑⠝⠥
-204,𒃌,73932,𒃌,120CC,CUNEIFORM SIGN GA2 TIMES GAR,⠛⠁⠼⠃⠐⠦⠛⠁⠗
-205,𒃍,73933,𒃍,120CD,CUNEIFORM SIGN GA2 TIMES GI,⠛⠁⠼⠃⠐⠦⠛⠊
-206,𒃎,73934,𒃎,120CE,CUNEIFORM SIGN GA2 TIMES GI4,⠛⠁⠼⠃⠐⠦⠛⠊⠼⠙
-207,𒃏,73935,𒃏,120CF,CUNEIFORM SIGN GA2 TIMES GI4 PLUS A,⠛⠁⠼⠃⠐⠦⠛⠊⠼⠙⠐⠖⠁
-208,𒃐,73936,𒃐,120D0,CUNEIFORM SIGN GA2 TIMES GIR2 PLUS SU,⠛⠁⠼⠃⠐⠦⠛⠊⠗⠼⠃⠐⠖⠎⠥
-209,𒃑,73937,𒃑,120D1,CUNEIFORM SIGN GA2 TIMES HA PLUS LU PLUS ESH2,⠛⠁⠼⠃⠐⠦⠓⠁⠐⠖⠇⠥⠐⠖⠑⠎⠓⠼⠃
-210,𒃒,73938,𒃒,120D2,CUNEIFORM SIGN GA2 TIMES HAL,⠛⠁⠼⠃⠐⠦⠓⠁⠇
-211,𒃓,73939,𒃓,120D3,CUNEIFORM SIGN GA2 TIMES HAL PLUS LA,⠛⠁⠼⠃⠐⠦⠓⠁⠇⠐⠖⠇⠁
-212,𒃔,73940,𒃔,120D4,CUNEIFORM SIGN GA2 TIMES HI PLUS LI,⠛⠁⠼⠃⠐⠦⠓⠊⠐⠖⠇⠊
-213,𒃕,73941,𒃕,120D5,CUNEIFORM SIGN GA2 TIMES HUB2,⠛⠁⠼⠃⠐⠦⠓⠥⠃⠼⠃
-214,𒃖,73942,𒃖,120D6,CUNEIFORM SIGN GA2 TIMES IGI GUNU,⠛⠁⠼⠃⠐⠦⠊⠛⠊ ⠛⠥⠝⠥
-215,𒃗,73943,𒃗,120D7,CUNEIFORM SIGN GA2 TIMES ISH PLUS HU PLUS ASH,⠛⠁⠼⠃⠐⠦⠊⠎⠓⠐⠖⠓⠥⠐⠖⠁⠎⠓
-216,𒃘,73944,𒃘,120D8,CUNEIFORM SIGN GA2 TIMES KAK,⠛⠁⠼⠃⠐⠦⠅⠁⠅
-217,𒃙,73945,𒃙,120D9,CUNEIFORM SIGN GA2 TIMES KASKAL,⠛⠁⠼⠃⠐⠦⠅⠁⠎⠅⠁⠇
-218,𒃚,73946,𒃚,120DA,CUNEIFORM SIGN GA2 TIMES KID,⠛⠁⠼⠃⠐⠦⠅⠊⠙
-219,𒃛,73947,𒃛,120DB,CUNEIFORM SIGN GA2 TIMES KID PLUS LAL,⠛⠁⠼⠃⠐⠦⠅⠊⠙⠐⠖⠇⠁⠇
-220,𒃜,73948,𒃜,120DC,CUNEIFORM SIGN GA2 TIMES KU3 PLUS AN,⠛⠁⠼⠃⠐⠦⠅⠥⠼⠉⠐⠖⠁⠝
-221,𒃝,73949,𒃝,120DD,CUNEIFORM SIGN GA2 TIMES LA,⠛⠁⠼⠃⠐⠦⠇⠁
-222,𒃞,73950,𒃞,120DE,CUNEIFORM SIGN GA2 TIMES ME PLUS EN,⠛⠁⠼⠃⠐⠦⠍⠑⠐⠖⠑⠝
-223,𒃟,73951,𒃟,120DF,CUNEIFORM SIGN GA2 TIMES MI,⠛⠁⠼⠃⠐⠦⠍⠊
-224,𒃠,73952,𒃠,120E0,CUNEIFORM SIGN GA2 TIMES NUN,⠛⠁⠼⠃⠐⠦⠝⠥⠝
-225,𒃡,73953,𒃡,120E1,CUNEIFORM SIGN GA2 TIMES NUN OVER NUN,⠛⠁⠼⠃⠐⠦⠝⠥⠝⠐⠌⠝⠥⠝
-226,𒃢,73954,𒃢,120E2,CUNEIFORM SIGN GA2 TIMES PA,⠛⠁⠼⠃⠐⠦⠏⠁
-227,𒃣,73955,𒃣,120E3,CUNEIFORM SIGN GA2 TIMES SAL,⠛⠁⠼⠃⠐⠦⠎⠁⠇
-228,𒃤,73956,𒃤,120E4,CUNEIFORM SIGN GA2 TIMES SAR,⠛⠁⠼⠃⠐⠦⠎⠁⠗
-229,𒃥,73957,𒃥,120E5,CUNEIFORM SIGN GA2 TIMES SHE,⠛⠁⠼⠃⠐⠦⠎⠓⠑
-230,𒃦,73958,𒃦,120E6,CUNEIFORM SIGN GA2 TIMES SHE PLUS TUR,⠛⠁⠼⠃⠐⠦⠎⠓⠑⠐⠖⠞⠥⠗
-231,𒃧,73959,𒃧,120E7,CUNEIFORM SIGN GA2 TIMES SHID,⠛⠁⠼⠃⠐⠦⠎⠓⠊⠙
-232,𒃨,73960,𒃨,120E8,CUNEIFORM SIGN GA2 TIMES SUM,⠛⠁⠼⠃⠐⠦⠎⠥⠍
-233,𒃩,73961,𒃩,120E9,CUNEIFORM SIGN GA2 TIMES TAK4,⠛⠁⠼⠃⠐⠦⠞⠁⠅⠼⠙
-234,𒃪,73962,𒃪,120EA,CUNEIFORM SIGN GA2 TIMES U,⠛⠁⠼⠃⠐⠦⠥
-235,𒃫,73963,𒃫,120EB,CUNEIFORM SIGN GA2 TIMES UD,⠛⠁⠼⠃⠐⠦⠥⠙
-236,𒃬,73964,𒃬,120EC,CUNEIFORM SIGN GA2 TIMES UD PLUS DU,⠛⠁⠼⠃⠐⠦⠥⠙⠐⠖⠙⠥
-237,𒃭,73965,𒃭,120ED,CUNEIFORM SIGN GA2 OVER GA2,⠛⠁⠼⠃⠐⠌⠛⠁⠼⠃
-238,𒃮,73966,𒃮,120EE,CUNEIFORM SIGN GABA,⠛⠁⠃⠁
-239,𒃯,73967,𒃯,120EF,CUNEIFORM SIGN GABA CROSSING GABA,⠛⠁⠃⠁⠈⠯⠛⠁⠃⠁
-240,𒃰,73968,𒃰,120F0,CUNEIFORM SIGN GAD,⠛⠁⠙
-241,𒃱,73969,𒃱,120F1,CUNEIFORM SIGN GAD OVER GAD GAR OVER GAR,⠛⠁⠙⠐⠌⠛⠁⠙ ⠛⠁⠗⠐⠌⠛⠁⠗
-242,𒃲,73970,𒃲,120F2,CUNEIFORM SIGN GAL,⠛⠁⠇
-243,𒃳,73971,𒃳,120F3,CUNEIFORM SIGN GAL GAD OVER GAD GAR OVER GAR,⠛⠁⠇ ⠛⠁⠙⠐⠌⠛⠁⠙ ⠛⠁⠗⠐⠌⠛⠁⠗
-244,𒃴,73972,𒃴,120F4,CUNEIFORM SIGN GALAM,⠛⠁⠇⠁⠍
-245,𒃵,73973,𒃵,120F5,CUNEIFORM SIGN GAM,⠛⠁⠍
-246,𒃶,73974,𒃶,120F6,CUNEIFORM SIGN GAN,⠛⠁⠝
-247,𒃷,73975,𒃷,120F7,CUNEIFORM SIGN GAN2,⠛⠁⠝⠼⠃
-248,𒃸,73976,𒃸,120F8,CUNEIFORM SIGN GAN2 TENU,⠛⠁⠝⠼⠃ ⠞⠑⠝⠥
-249,𒃹,73977,𒃹,120F9,CUNEIFORM SIGN GAN2 OVER GAN2,⠛⠁⠝⠼⠃⠐⠌⠛⠁⠝⠼⠃
-250,𒃺,73978,𒃺,120FA,CUNEIFORM SIGN GAN2 CROSSING GAN2,⠛⠁⠝⠼⠃⠈⠯⠛⠁⠝⠼⠃
-251,𒃻,73979,𒃻,120FB,CUNEIFORM SIGN GAR,⠛⠁⠗
-252,𒃼,73980,𒃼,120FC,CUNEIFORM SIGN GAR3,⠛⠁⠗⠼⠉
-253,𒃽,73981,𒃽,120FD,CUNEIFORM SIGN GASHAN,⠛⠁⠎⠓⠁⠝
-254,𒃾,73982,𒃾,120FE,CUNEIFORM SIGN GESHTIN,⠛⠑⠎⠓⠞⠊⠝
-255,𒃿,73983,𒃿,120FF,CUNEIFORM SIGN GESHTIN TIMES KUR,⠛⠑⠎⠓⠞⠊⠝⠐⠦⠅⠥⠗
-256,𒄀,73984,𒄀,12100,CUNEIFORM SIGN GI,⠛⠊
-257,𒄁,73985,𒄁,12101,CUNEIFORM SIGN GI TIMES E,⠛⠊⠐⠦⠑
-258,𒄂,73986,𒄂,12102,CUNEIFORM SIGN GI TIMES U,⠛⠊⠐⠦⠥
-259,𒄃,73987,𒄃,12103,CUNEIFORM SIGN GI CROSSING GI,⠛⠊⠈⠯⠛⠊
-260,𒄄,73988,𒄄,12104,CUNEIFORM SIGN GI4,⠛⠊⠼⠙
-261,𒄅,73989,𒄅,12105,CUNEIFORM SIGN GI4 OVER GI4,⠛⠊⠼⠙⠐⠌⠛⠊⠼⠙
-262,𒄆,73990,𒄆,12106,CUNEIFORM SIGN GI4 CROSSING GI4,⠛⠊⠼⠙⠈⠯⠛⠊⠼⠙
-263,𒄇,73991,𒄇,12107,CUNEIFORM SIGN GIDIM,⠛⠊⠙⠊⠍
-264,𒄈,73992,𒄈,12108,CUNEIFORM SIGN GIR2,⠛⠊⠗⠼⠃
-265,𒄉,73993,𒄉,12109,CUNEIFORM SIGN GIR2 GUNU,⠛⠊⠗⠼⠃ ⠛⠥⠝⠥
-266,𒄊,73994,𒄊,1210A,CUNEIFORM SIGN GIR3,⠛⠊⠗⠼⠉
-267,𒄋,73995,𒄋,1210B,CUNEIFORM SIGN GIR3 TIMES A PLUS IGI,⠛⠊⠗⠼⠉⠐⠦⠁⠐⠖⠊⠛⠊
-268,𒄌,73996,𒄌,1210C,CUNEIFORM SIGN GIR3 TIMES GAN2 TENU,⠛⠊⠗⠼⠉⠐⠦⠛⠁⠝⠼⠃ ⠞⠑⠝⠥
-269,𒄍,73997,𒄍,1210D,CUNEIFORM SIGN GIR3 TIMES IGI,⠛⠊⠗⠼⠉⠐⠦⠊⠛⠊
-270,𒄎,73998,𒄎,1210E,CUNEIFORM SIGN GIR3 TIMES LU PLUS IGI,⠛⠊⠗⠼⠉⠐⠦⠇⠥⠐⠖⠊⠛⠊
-271,𒄏,73999,𒄏,1210F,CUNEIFORM SIGN GIR3 TIMES PA,⠛⠊⠗⠼⠉⠐⠦⠏⠁
-272,𒄐,74000,𒄐,12110,CUNEIFORM SIGN GISAL,⠛⠊⠎⠁⠇
-273,𒄑,74001,𒄑,12111,CUNEIFORM SIGN GISH,⠛⠊⠎⠓
-274,𒄒,74002,𒄒,12112,CUNEIFORM SIGN GISH CROSSING GISH,⠛⠊⠎⠓⠈⠯⠛⠊⠎⠓
-275,𒄓,74003,𒄓,12113,CUNEIFORM SIGN GISH TIMES BAD,⠛⠊⠎⠓⠐⠦⠃⠁⠙
-276,𒄔,74004,𒄔,12114,CUNEIFORM SIGN GISH TIMES TAK4,⠛⠊⠎⠓⠐⠦⠞⠁⠅⠼⠙
-277,𒄕,74005,𒄕,12115,CUNEIFORM SIGN GISH TENU,⠛⠊⠎⠓ ⠞⠑⠝⠥
-278,𒄖,74006,𒄖,12116,CUNEIFORM SIGN GU,⠛⠥
-279,𒄗,74007,𒄗,12117,CUNEIFORM SIGN GU CROSSING GU,⠛⠥⠈⠯⠛⠥
-280,𒄘,74008,𒄘,12118,CUNEIFORM SIGN GU2,⠛⠥⠼⠃
-281,𒄙,74009,𒄙,12119,CUNEIFORM SIGN GU2 TIMES KAK,⠛⠥⠼⠃⠐⠦⠅⠁⠅
-282,𒄚,74010,𒄚,1211A,CUNEIFORM SIGN GU2 TIMES KAK TIMES IGI GUNU,⠛⠥⠼⠃⠐⠦⠅⠁⠅⠐⠦⠊⠛⠊ ⠛⠥⠝⠥
-283,𒄛,74011,𒄛,1211B,CUNEIFORM SIGN GU2 TIMES NUN,⠛⠥⠼⠃⠐⠦⠝⠥⠝
-284,𒄜,74012,𒄜,1211C,CUNEIFORM SIGN GU2 TIMES SAL PLUS TUG2,⠛⠥⠼⠃⠐⠦⠎⠁⠇⠐⠖⠞⠥⠛⠼⠃
-285,𒄝,74013,𒄝,1211D,CUNEIFORM SIGN GU2 GUNU,⠛⠥⠼⠃ ⠛⠥⠝⠥
-286,𒄞,74014,𒄞,1211E,CUNEIFORM SIGN GUD,⠛⠥⠙
-287,𒄟,74015,𒄟,1211F,CUNEIFORM SIGN GUD TIMES A PLUS KUR,⠛⠥⠙⠐⠦⠁⠐⠖⠅⠥⠗
-288,𒄠,74016,𒄠,12120,CUNEIFORM SIGN GUD TIMES KUR,⠛⠥⠙⠐⠦⠅⠥⠗
-289,𒄡,74017,𒄡,12121,CUNEIFORM SIGN GUD OVER GUD LUGAL,⠛⠥⠙⠐⠌⠛⠥⠙ ⠇⠥⠛⠁⠇
-290,𒄢,74018,𒄢,12122,CUNEIFORM SIGN GUL,⠛⠥⠇
-291,𒄣,74019,𒄣,12123,CUNEIFORM SIGN GUM,⠛⠥⠍
-292,𒄤,74020,𒄤,12124,CUNEIFORM SIGN GUM TIMES SHE,⠛⠥⠍⠐⠦⠎⠓⠑
-293,𒄥,74021,𒄥,12125,CUNEIFORM SIGN GUR,⠛⠥⠗
-294,𒄦,74022,𒄦,12126,CUNEIFORM SIGN GUR7,⠛⠥⠗⠼⠛
-295,𒄧,74023,𒄧,12127,CUNEIFORM SIGN GURUN,⠛⠥⠗⠥⠝
-296,𒄨,74024,𒄨,12128,CUNEIFORM SIGN GURUSH,⠛⠥⠗⠥⠎⠓
-297,𒄩,74025,𒄩,12129,CUNEIFORM SIGN HA,⠓⠁
-298,𒄪,74026,𒄪,1212A,CUNEIFORM SIGN HA TENU,⠓⠁ ⠞⠑⠝⠥
-299,𒄫,74027,𒄫,1212B,CUNEIFORM SIGN HA GUNU,⠓⠁ ⠛⠥⠝⠥
-300,𒄬,74028,𒄬,1212C,CUNEIFORM SIGN HAL,⠓⠁⠇
-301,𒄭,74029,𒄭,1212D,CUNEIFORM SIGN HI,⠓⠊
-302,𒄮,74030,𒄮,1212E,CUNEIFORM SIGN HI TIMES ASH,⠓⠊⠐⠦⠁⠎⠓
-303,𒄯,74031,𒄯,1212F,CUNEIFORM SIGN HI TIMES ASH2,⠓⠊⠐⠦⠁⠎⠓⠼⠃
-304,𒄰,74032,𒄰,12130,CUNEIFORM SIGN HI TIMES BAD,⠓⠊⠐⠦⠃⠁⠙
-305,𒄱,74033,𒄱,12131,CUNEIFORM SIGN HI TIMES DISH,⠓⠊⠐⠦⠙⠊⠎⠓
-306,𒄲,74034,𒄲,12132,CUNEIFORM SIGN HI TIMES GAD,⠓⠊⠐⠦⠛⠁⠙
-307,𒄳,74035,𒄳,12133,CUNEIFORM SIGN HI TIMES KIN,⠓⠊⠐⠦⠅⠊⠝
-308,𒄴,74036,𒄴,12134,CUNEIFORM SIGN HI TIMES NUN,⠓⠊⠐⠦⠝⠥⠝
-309,𒄵,74037,𒄵,12135,CUNEIFORM SIGN HI TIMES SHE,⠓⠊⠐⠦⠎⠓⠑
-310,𒄶,74038,𒄶,12136,CUNEIFORM SIGN HI TIMES U,⠓⠊⠐⠦⠥
-311,𒄷,74039,𒄷,12137,CUNEIFORM SIGN HU,⠓⠥
-312,𒄸,74040,𒄸,12138,CUNEIFORM SIGN HUB2,⠓⠥⠃⠼⠃
-313,𒄹,74041,𒄹,12139,CUNEIFORM SIGN HUB2 TIMES AN,⠓⠥⠃⠼⠃⠐⠦⠁⠝
-314,𒄺,74042,𒄺,1213A,CUNEIFORM SIGN HUB2 TIMES HAL,⠓⠥⠃⠼⠃⠐⠦⠓⠁⠇
-315,𒄻,74043,𒄻,1213B,CUNEIFORM SIGN HUB2 TIMES KASKAL,⠓⠥⠃⠼⠃⠐⠦⠅⠁⠎⠅⠁⠇
-316,𒄼,74044,𒄼,1213C,CUNEIFORM SIGN HUB2 TIMES LISH,⠓⠥⠃⠼⠃⠐⠦⠇⠊⠎⠓
-317,𒄽,74045,𒄽,1213D,CUNEIFORM SIGN HUB2 TIMES UD,⠓⠥⠃⠼⠃⠐⠦⠥⠙
-318,𒄾,74046,𒄾,1213E,CUNEIFORM SIGN HUL2,⠓⠥⠇⠼⠃
-319,𒄿,74047,𒄿,1213F,CUNEIFORM SIGN I,⠊
-320,𒅀,74048,𒅀,12140,CUNEIFORM SIGN I A,⠊ ⠁
-321,𒅁,74049,𒅁,12141,CUNEIFORM SIGN IB,⠊⠃
-322,𒅂,74050,𒅂,12142,CUNEIFORM SIGN IDIM,⠊⠙⠊⠍
-323,𒅃,74051,𒅃,12143,CUNEIFORM SIGN IDIM OVER IDIM BUR,⠊⠙⠊⠍⠐⠌⠊⠙⠊⠍ ⠃⠥⠗
-324,𒅄,74052,𒅄,12144,CUNEIFORM SIGN IDIM OVER IDIM SQUARED,⠊⠙⠊⠍⠐⠌⠊⠙⠊⠍⠔⠼⠃
-325,𒅅,74053,𒅅,12145,CUNEIFORM SIGN IG,⠊⠛
-326,𒅆,74054,𒅆,12146,CUNEIFORM SIGN IGI,⠊⠛⠊
-327,𒅇,74055,𒅇,12147,CUNEIFORM SIGN IGI DIB,⠊⠛⠊ ⠙⠊⠃
-328,𒅈,74056,𒅈,12148,CUNEIFORM SIGN IGI RI,⠊⠛⠊ ⠗⠊
-329,𒅉,74057,𒅉,12149,CUNEIFORM SIGN IGI OVER IGI SHIR OVER SHIR UD OVER UD,⠊⠛⠊⠐⠌⠊⠛⠊ ⠎⠓⠊⠗⠐⠌⠎⠓⠊⠗ ⠥⠙⠐⠌⠥⠙
-330,𒅊,74058,𒅊,1214A,CUNEIFORM SIGN IGI GUNU,⠊⠛⠊ ⠛⠥⠝⠥
-331,𒅋,74059,𒅋,1214B,CUNEIFORM SIGN IL,⠊⠇
-332,𒅌,74060,𒅌,1214C,CUNEIFORM SIGN IL TIMES GAN2 TENU,⠊⠇⠐⠦⠛⠁⠝⠼⠃ ⠞⠑⠝⠥
-333,𒅍,74061,𒅍,1214D,CUNEIFORM SIGN IL2,⠊⠇⠼⠃
-334,𒅎,74062,𒅎,1214E,CUNEIFORM SIGN IM,⠊⠍
-335,𒅏,74063,𒅏,1214F,CUNEIFORM SIGN IM TIMES TAK4,⠊⠍⠐⠦⠞⠁⠅⠼⠙
-336,𒅐,74064,𒅐,12150,CUNEIFORM SIGN IM CROSSING IM,⠊⠍⠈⠯⠊⠍
-337,𒅑,74065,𒅑,12151,CUNEIFORM SIGN IM OPPOSING IM,⠊⠍⠈⠎⠊⠍
-338,𒅒,74066,𒅒,12152,CUNEIFORM SIGN IM SQUARED,⠊⠍⠔⠼⠃
-339,𒅓,74067,𒅓,12153,CUNEIFORM SIGN IMIN,⠊⠍⠊⠝
-340,𒅔,74068,𒅔,12154,CUNEIFORM SIGN IN,⠊⠝
-341,𒅕,74069,𒅕,12155,CUNEIFORM SIGN IR,⠊⠗
-342,𒅖,74070,𒅖,12156,CUNEIFORM SIGN ISH,⠊⠎⠓
-343,𒅗,74071,𒅗,12157,CUNEIFORM SIGN KA,⠅⠁
-344,𒅘,74072,𒅘,12158,CUNEIFORM SIGN KA TIMES A,⠅⠁⠐⠦⠁
-345,𒅙,74073,𒅙,12159,CUNEIFORM SIGN KA TIMES AD,⠅⠁⠐⠦⠁⠙
-346,𒅚,74074,𒅚,1215A,CUNEIFORM SIGN KA TIMES AD PLUS KU3,⠅⠁⠐⠦⠁⠙⠐⠖⠅⠥⠼⠉
-347,𒅛,74075,𒅛,1215B,CUNEIFORM SIGN KA TIMES ASH2,⠅⠁⠐⠦⠁⠎⠓⠼⠃
-348,𒅜,74076,𒅜,1215C,CUNEIFORM SIGN KA TIMES BAD,⠅⠁⠐⠦⠃⠁⠙
-349,𒅝,74077,𒅝,1215D,CUNEIFORM SIGN KA TIMES BALAG,⠅⠁⠐⠦⠃⠁⠇⠁⠛
-350,𒅞,74078,𒅞,1215E,CUNEIFORM SIGN KA TIMES BAR,⠅⠁⠐⠦⠃⠁⠗
-351,𒅟,74079,𒅟,1215F,CUNEIFORM SIGN KA TIMES BI,⠅⠁⠐⠦⠃⠊
-352,𒅠,74080,𒅠,12160,CUNEIFORM SIGN KA TIMES ERIN2,⠅⠁⠐⠦⠑⠗⠊⠝⠼⠃
-353,𒅡,74081,𒅡,12161,CUNEIFORM SIGN KA TIMES ESH2,⠅⠁⠐⠦⠑⠎⠓⠼⠃
-354,𒅢,74082,𒅢,12162,CUNEIFORM SIGN KA TIMES GA,⠅⠁⠐⠦⠛⠁
-355,𒅣,74083,𒅣,12163,CUNEIFORM SIGN KA TIMES GAL,⠅⠁⠐⠦⠛⠁⠇
-356,𒅤,74084,𒅤,12164,CUNEIFORM SIGN KA TIMES GAN2 TENU,⠅⠁⠐⠦⠛⠁⠝⠼⠃ ⠞⠑⠝⠥
-357,𒅥,74085,𒅥,12165,CUNEIFORM SIGN KA TIMES GAR,⠅⠁⠐⠦⠛⠁⠗
-358,𒅦,74086,𒅦,12166,CUNEIFORM SIGN KA TIMES GAR PLUS SHA3 PLUS A,⠅⠁⠐⠦⠛⠁⠗⠐⠖⠎⠓⠁⠼⠉⠐⠖⠁
-359,𒅧,74087,𒅧,12167,CUNEIFORM SIGN KA TIMES GI,⠅⠁⠐⠦⠛⠊
-360,𒅨,74088,𒅨,12168,CUNEIFORM SIGN KA TIMES GIR2,⠅⠁⠐⠦⠛⠊⠗⠼⠃
-361,𒅩,74089,𒅩,12169,CUNEIFORM SIGN KA TIMES GISH PLUS SAR,⠅⠁⠐⠦⠛⠊⠎⠓⠐⠖⠎⠁⠗
-362,𒅪,74090,𒅪,1216A,CUNEIFORM SIGN KA TIMES GISH CROSSING GISH,⠅⠁⠐⠦⠛⠊⠎⠓⠈⠯⠛⠊⠎⠓
-363,𒅫,74091,𒅫,1216B,CUNEIFORM SIGN KA TIMES GU,⠅⠁⠐⠦⠛⠥
-364,𒅬,74092,𒅬,1216C,CUNEIFORM SIGN KA TIMES GUR7,⠅⠁⠐⠦⠛⠥⠗⠼⠛
-365,𒅭,74093,𒅭,1216D,CUNEIFORM SIGN KA TIMES IGI,⠅⠁⠐⠦⠊⠛⠊
-366,𒅮,74094,𒅮,1216E,CUNEIFORM SIGN KA TIMES IM,⠅⠁⠐⠦⠊⠍
-367,𒅯,74095,𒅯,1216F,CUNEIFORM SIGN KA TIMES KAK,⠅⠁⠐⠦⠅⠁⠅
-368,𒅰,74096,𒅰,12170,CUNEIFORM SIGN KA TIMES KI,⠅⠁⠐⠦⠅⠊
-369,𒅱,74097,𒅱,12171,CUNEIFORM SIGN KA TIMES KID,⠅⠁⠐⠦⠅⠊⠙
-370,𒅲,74098,𒅲,12172,CUNEIFORM SIGN KA TIMES LI,⠅⠁⠐⠦⠇⠊
-371,𒅳,74099,𒅳,12173,CUNEIFORM SIGN KA TIMES LU,⠅⠁⠐⠦⠇⠥
-372,𒅴,74100,𒅴,12174,CUNEIFORM SIGN KA TIMES ME,⠅⠁⠐⠦⠍⠑
-373,𒅵,74101,𒅵,12175,CUNEIFORM SIGN KA TIMES ME PLUS DU,⠅⠁⠐⠦⠍⠑⠐⠖⠙⠥
-374,𒅶,74102,𒅶,12176,CUNEIFORM SIGN KA TIMES ME PLUS GI,⠅⠁⠐⠦⠍⠑⠐⠖⠛⠊
-375,𒅷,74103,𒅷,12177,CUNEIFORM SIGN KA TIMES ME PLUS TE,⠅⠁⠐⠦⠍⠑⠐⠖⠞⠑
-376,𒅸,74104,𒅸,12178,CUNEIFORM SIGN KA TIMES MI,⠅⠁⠐⠦⠍⠊
-377,𒅹,74105,𒅹,12179,CUNEIFORM SIGN KA TIMES MI PLUS NUNUZ,⠅⠁⠐⠦⠍⠊⠐⠖⠝⠥⠝⠥
-378,𒅺,74106,𒅺,1217A,CUNEIFORM SIGN KA TIMES NE,⠅⠁⠐⠦⠝⠑
-379,𒅻,74107,𒅻,1217B,CUNEIFORM SIGN KA TIMES NUN,⠅⠁⠐⠦⠝⠥⠝
-380,𒅼,74108,𒅼,1217C,CUNEIFORM SIGN KA TIMES PI,⠅⠁⠐⠦⠏⠊
-381,𒅽,74109,𒅽,1217D,CUNEIFORM SIGN KA TIMES RU,⠅⠁⠐⠦⠗⠥
-382,𒅾,74110,𒅾,1217E,CUNEIFORM SIGN KA TIMES SA,⠅⠁⠐⠦⠎⠁
-383,𒅿,74111,𒅿,1217F,CUNEIFORM SIGN KA TIMES SAR,⠅⠁⠐⠦⠎⠁⠗
-384,𒆀,74112,𒆀,12180,CUNEIFORM SIGN KA TIMES SHA,⠅⠁⠐⠦⠎⠓⠁
-385,𒆁,74113,𒆁,12181,CUNEIFORM SIGN KA TIMES SHE,⠅⠁⠐⠦⠎⠓⠑
-386,𒆂,74114,𒆂,12182,CUNEIFORM SIGN KA TIMES SHID,⠅⠁⠐⠦⠎⠓⠊⠙
-387,𒆃,74115,𒆃,12183,CUNEIFORM SIGN KA TIMES SHU,⠅⠁⠐⠦⠎⠓⠥
-388,𒆄,74116,𒆄,12184,CUNEIFORM SIGN KA TIMES SIG,⠅⠁⠐⠦⠎⠊⠛
-389,𒆅,74117,𒆅,12185,CUNEIFORM SIGN KA TIMES SUHUR,⠅⠁⠐⠦⠎⠥⠓⠥⠗
-390,𒆆,74118,𒆆,12186,CUNEIFORM SIGN KA TIMES TAR,⠅⠁⠐⠦⠞⠁⠗
-391,𒆇,74119,𒆇,12187,CUNEIFORM SIGN KA TIMES U,⠅⠁⠐⠦⠥
-392,𒆈,74120,𒆈,12188,CUNEIFORM SIGN KA TIMES U2,⠅⠁⠐⠦⠥⠼⠃
-393,𒆉,74121,𒆉,12189,CUNEIFORM SIGN KA TIMES UD,⠅⠁⠐⠦⠥⠙
-394,𒆊,74122,𒆊,1218A,CUNEIFORM SIGN KA TIMES UMUM TIMES PA,⠅⠁⠐⠦⠥⠍⠥⠍⠐⠦⠏⠁
-395,𒆋,74123,𒆋,1218B,CUNEIFORM SIGN KA TIMES USH,⠅⠁⠐⠦⠥⠎⠓
-396,𒆌,74124,𒆌,1218C,CUNEIFORM SIGN KA TIMES ZI,⠅⠁⠐⠦⠵⠊
-397,𒆍,74125,𒆍,1218D,CUNEIFORM SIGN KA2,⠅⠁⠼⠃
-398,𒆎,74126,𒆎,1218E,CUNEIFORM SIGN KA2 CROSSING KA2,⠅⠁⠼⠃⠈⠯⠅⠁⠼⠃
-399,𒆏,74127,𒆏,1218F,CUNEIFORM SIGN KAB,⠅⠁⠃
-400,𒆐,74128,𒆐,12190,CUNEIFORM SIGN KAD2,⠅⠁⠙⠼⠃
-401,𒆑,74129,𒆑,12191,CUNEIFORM SIGN KAD3,⠅⠁⠙⠼⠉
-402,𒆒,74130,𒆒,12192,CUNEIFORM SIGN KAD4,⠅⠁⠙⠼⠙
-403,𒆓,74131,𒆓,12193,CUNEIFORM SIGN KAD5,⠅⠁⠙⠼⠑
-404,𒆔,74132,𒆔,12194,CUNEIFORM SIGN KAD5 OVER KAD5,⠅⠁⠙⠼⠑⠐⠌⠅⠁⠙⠼⠑
-405,𒆕,74133,𒆕,12195,CUNEIFORM SIGN KAK,⠅⠁⠅
-406,𒆖,74134,𒆖,12196,CUNEIFORM SIGN KAK TIMES IGI GUNU,⠅⠁⠅⠐⠦⠊⠛⠊ ⠛⠥⠝⠥
-407,𒆗,74135,𒆗,12197,CUNEIFORM SIGN KAL,⠅⠁⠇
-408,𒆘,74136,𒆘,12198,CUNEIFORM SIGN KAL TIMES BAD,⠅⠁⠇⠐⠦⠃⠁⠙
-409,𒆙,74137,𒆙,12199,CUNEIFORM SIGN KAL CROSSING KAL,⠅⠁⠇⠈⠯⠅⠁⠇
-410,𒆚,74138,𒆚,1219A,CUNEIFORM SIGN KAM2,⠅⠁⠍⠼⠃
-411,𒆛,74139,𒆛,1219B,CUNEIFORM SIGN KAM4,⠅⠁⠍⠼⠙
-412,𒆜,74140,𒆜,1219C,CUNEIFORM SIGN KASKAL,⠅⠁⠎⠅⠁⠇
-413,𒆝,74141,𒆝,1219D,CUNEIFORM SIGN KASKAL LAGAB TIMES U OVER LAGAB TIMES U,⠅⠁⠎⠅⠁⠇ ⠇⠁⠛⠁⠃⠐⠦⠥⠐⠌⠇⠁⠛⠁⠃⠐⠦⠥
-414,𒆞,74142,𒆞,1219E,CUNEIFORM SIGN KASKAL OVER KASKAL LAGAB TIMES U OVER LAGAB TIMES U,⠅⠁⠎⠅⠁⠇⠐⠌⠅⠁⠎⠅⠁⠇ ⠇⠁⠛⠁⠃⠐⠦⠥⠐⠌⠇⠁⠛⠁⠃⠐⠦⠥
-415,𒆟,74143,𒆟,1219F,CUNEIFORM SIGN KESH2,⠅⠑⠎⠓⠼⠃
-416,𒆠,74144,𒆠,121A0,CUNEIFORM SIGN KI,⠅⠊
-417,𒆡,74145,𒆡,121A1,CUNEIFORM SIGN KI TIMES BAD,⠅⠊⠐⠦⠃⠁⠙
-418,𒆢,74146,𒆢,121A2,CUNEIFORM SIGN KI TIMES U,⠅⠊⠐⠦⠥
-419,𒆣,74147,𒆣,121A3,CUNEIFORM SIGN KI TIMES UD,⠅⠊⠐⠦⠥⠙
-420,𒆤,74148,𒆤,121A4,CUNEIFORM SIGN KID,⠅⠊⠙
-421,𒆥,74149,𒆥,121A5,CUNEIFORM SIGN KIN,⠅⠊⠝
-422,𒆦,74150,𒆦,121A6,CUNEIFORM SIGN KISAL,⠅⠊⠎⠁⠇
-423,𒆧,74151,𒆧,121A7,CUNEIFORM SIGN KISH,⠅⠊⠎⠓
-424,𒆨,74152,𒆨,121A8,CUNEIFORM SIGN KISIM5,⠅⠊⠎⠊⠍⠼⠑
-425,𒆩,74153,𒆩,121A9,CUNEIFORM SIGN KISIM5 OVER KISIM5,⠅⠊⠎⠊⠍⠼⠑⠐⠌⠅⠊⠎⠊⠍⠼⠑
-426,𒆪,74154,𒆪,121AA,CUNEIFORM SIGN KU,⠅⠥
-427,𒆫,74155,𒆫,121AB,CUNEIFORM SIGN KU OVER HI TIMES ASH2 KU OVER HI TIMES ASH2,⠅⠥⠐⠌⠓⠊⠐⠦⠁⠎⠓⠼⠃ ⠅⠥⠐⠌⠓⠊⠐⠦⠁⠎⠓⠼⠃
-428,𒆬,74156,𒆬,121AC,CUNEIFORM SIGN KU3,⠅⠥⠼⠉
-429,𒆭,74157,𒆭,121AD,CUNEIFORM SIGN KU4,⠅⠥⠼⠙
-430,𒆮,74158,𒆮,121AE,CUNEIFORM SIGN KU4 VARIANT FORM,⠅⠥⠼⠙ ⠧⠁⠗⠊⠁⠝⠞ ⠋⠕⠗⠍
-431,𒆯,74159,𒆯,121AF,CUNEIFORM SIGN KU7,⠅⠥⠼⠛
-432,𒆰,74160,𒆰,121B0,CUNEIFORM SIGN KUL,⠅⠥⠇
-433,𒆱,74161,𒆱,121B1,CUNEIFORM SIGN KUL GUNU,⠅⠥⠇ ⠛⠥⠝⠥
-434,𒆲,74162,𒆲,121B2,CUNEIFORM SIGN KUN,⠅⠥⠝
-435,𒆳,74163,𒆳,121B3,CUNEIFORM SIGN KUR,⠅⠥⠗
-436,𒆴,74164,𒆴,121B4,CUNEIFORM SIGN KUR OPPOSING KUR,⠅⠥⠗⠈⠎⠅⠥⠗
-437,𒆵,74165,𒆵,121B5,CUNEIFORM SIGN KUSHU2,⠅⠥⠎⠓⠥⠼⠃
-438,𒆶,74166,𒆶,121B6,CUNEIFORM SIGN KWU318,⠅⠺⠥⠼⠉⠼⠁⠼⠓
-439,𒆷,74167,𒆷,121B7,CUNEIFORM SIGN LA,⠇⠁
-440,𒆸,74168,𒆸,121B8,CUNEIFORM SIGN LAGAB,⠇⠁⠛⠁⠃
-441,𒆹,74169,𒆹,121B9,CUNEIFORM SIGN LAGAB TIMES A,⠇⠁⠛⠁⠃⠐⠦⠁
-442,𒆺,74170,𒆺,121BA,CUNEIFORM SIGN LAGAB TIMES A PLUS DA PLUS HA,⠇⠁⠛⠁⠃⠐⠦⠁⠐⠖⠙⠁⠐⠖⠓⠁
-443,𒆻,74171,𒆻,121BB,CUNEIFORM SIGN LAGAB TIMES A PLUS GAR,⠇⠁⠛⠁⠃⠐⠦⠁⠐⠖⠛⠁⠗
-444,𒆼,74172,𒆼,121BC,CUNEIFORM SIGN LAGAB TIMES A PLUS LAL,⠇⠁⠛⠁⠃⠐⠦⠁⠐⠖⠇⠁⠇
-445,𒆽,74173,𒆽,121BD,CUNEIFORM SIGN LAGAB TIMES AL,⠇⠁⠛⠁⠃⠐⠦⠁⠇
-446,𒆾,74174,𒆾,121BE,CUNEIFORM SIGN LAGAB TIMES AN,⠇⠁⠛⠁⠃⠐⠦⠁⠝
-447,𒆿,74175,𒆿,121BF,CUNEIFORM SIGN LAGAB TIMES ASH ZIDA TENU,⠇⠁⠛⠁⠃⠐⠦⠁⠎⠓ ⠵⠊⠙⠁ ⠞⠑⠝⠥
-448,𒇀,74176,𒇀,121C0,CUNEIFORM SIGN LAGAB TIMES BAD,⠇⠁⠛⠁⠃⠐⠦⠃⠁⠙
-449,𒇁,74177,𒇁,121C1,CUNEIFORM SIGN LAGAB TIMES BI,⠇⠁⠛⠁⠃⠐⠦⠃⠊
-450,𒇂,74178,𒇂,121C2,CUNEIFORM SIGN LAGAB TIMES DAR,⠇⠁⠛⠁⠃⠐⠦⠙⠁⠗
-451,𒇃,74179,𒇃,121C3,CUNEIFORM SIGN LAGAB TIMES EN,⠇⠁⠛⠁⠃⠐⠦⠑⠝
-452,𒇄,74180,𒇄,121C4,CUNEIFORM SIGN LAGAB TIMES GA,⠇⠁⠛⠁⠃⠐⠦⠛⠁
-453,𒇅,74181,𒇅,121C5,CUNEIFORM SIGN LAGAB TIMES GAR,⠇⠁⠛⠁⠃⠐⠦⠛⠁⠗
-454,𒇆,74182,𒇆,121C6,CUNEIFORM SIGN LAGAB TIMES GUD,⠇⠁⠛⠁⠃⠐⠦⠛⠥⠙
-455,𒇇,74183,𒇇,121C7,CUNEIFORM SIGN LAGAB TIMES GUD PLUS GUD,⠇⠁⠛⠁⠃⠐⠦⠛⠥⠙⠐⠖⠛⠥⠙
-456,𒇈,74184,𒇈,121C8,CUNEIFORM SIGN LAGAB TIMES HA,⠇⠁⠛⠁⠃⠐⠦⠓⠁
-457,𒇉,74185,𒇉,121C9,CUNEIFORM SIGN LAGAB TIMES HAL,⠇⠁⠛⠁⠃⠐⠦⠓⠁⠇
-458,𒇊,74186,𒇊,121CA,CUNEIFORM SIGN LAGAB TIMES HI TIMES NUN,⠇⠁⠛⠁⠃⠐⠦⠓⠊⠐⠦⠝⠥⠝
-459,𒇋,74187,𒇋,121CB,CUNEIFORM SIGN LAGAB TIMES IGI GUNU,⠇⠁⠛⠁⠃⠐⠦⠊⠛⠊ ⠛⠥⠝⠥
-460,𒇌,74188,𒇌,121CC,CUNEIFORM SIGN LAGAB TIMES IM,⠇⠁⠛⠁⠃⠐⠦⠊⠍
-461,𒇍,74189,𒇍,121CD,CUNEIFORM SIGN LAGAB TIMES IM PLUS HA,⠇⠁⠛⠁⠃⠐⠦⠊⠍⠐⠖⠓⠁
-462,𒇎,74190,𒇎,121CE,CUNEIFORM SIGN LAGAB TIMES IM PLUS LU,⠇⠁⠛⠁⠃⠐⠦⠊⠍⠐⠖⠇⠥
-463,𒇏,74191,𒇏,121CF,CUNEIFORM SIGN LAGAB TIMES KI,⠇⠁⠛⠁⠃⠐⠦⠅⠊
-464,𒇐,74192,𒇐,121D0,CUNEIFORM SIGN LAGAB TIMES KIN,⠇⠁⠛⠁⠃⠐⠦⠅⠊⠝
-465,𒇑,74193,𒇑,121D1,CUNEIFORM SIGN LAGAB TIMES KU3,⠇⠁⠛⠁⠃⠐⠦⠅⠥⠼⠉
-466,𒇒,74194,𒇒,121D2,CUNEIFORM SIGN LAGAB TIMES KUL,⠇⠁⠛⠁⠃⠐⠦⠅⠥⠇
-467,𒇓,74195,𒇓,121D3,CUNEIFORM SIGN LAGAB TIMES KUL PLUS HI PLUS A,⠇⠁⠛⠁⠃⠐⠦⠅⠥⠇⠐⠖⠓⠊⠐⠖⠁
-468,𒇔,74196,𒇔,121D4,CUNEIFORM SIGN LAGAB TIMES LAGAB,⠇⠁⠛⠁⠃⠐⠦⠇⠁⠛⠁⠃
-469,𒇕,74197,𒇕,121D5,CUNEIFORM SIGN LAGAB TIMES LISH,⠇⠁⠛⠁⠃⠐⠦⠇⠊⠎⠓
-470,𒇖,74198,𒇖,121D6,CUNEIFORM SIGN LAGAB TIMES LU,⠇⠁⠛⠁⠃⠐⠦⠇⠥
-471,𒇗,74199,𒇗,121D7,CUNEIFORM SIGN LAGAB TIMES LUL,⠇⠁⠛⠁⠃⠐⠦⠇⠥⠇
-472,𒇘,74200,𒇘,121D8,CUNEIFORM SIGN LAGAB TIMES ME,⠇⠁⠛⠁⠃⠐⠦⠍⠑
-473,𒇙,74201,𒇙,121D9,CUNEIFORM SIGN LAGAB TIMES ME PLUS EN,⠇⠁⠛⠁⠃⠐⠦⠍⠑⠐⠖⠑⠝
-474,𒇚,74202,𒇚,121DA,CUNEIFORM SIGN LAGAB TIMES MUSH,⠇⠁⠛⠁⠃⠐⠦⠍⠥⠎⠓
-475,𒇛,74203,𒇛,121DB,CUNEIFORM SIGN LAGAB TIMES NE,⠇⠁⠛⠁⠃⠐⠦⠝⠑
-476,𒇜,74204,𒇜,121DC,CUNEIFORM SIGN LAGAB TIMES SHE PLUS SUM,⠇⠁⠛⠁⠃⠐⠦⠎⠓⠑⠐⠖⠎⠥⠍
-477,𒇝,74205,𒇝,121DD,CUNEIFORM SIGN LAGAB TIMES SHITA PLUS GISH PLUS ERIN2,⠇⠁⠛⠁⠃⠐⠦⠎⠓⠊⠞⠁⠐⠖⠛⠊⠎⠓⠐⠖⠑⠗⠊⠝⠼⠃
-478,𒇞,74206,𒇞,121DE,CUNEIFORM SIGN LAGAB TIMES SHITA PLUS GISH TENU,⠇⠁⠛⠁⠃⠐⠦⠎⠓⠊⠞⠁⠐⠖⠛⠊⠎⠓ ⠞⠑⠝⠥
-479,𒇟,74207,𒇟,121DF,CUNEIFORM SIGN LAGAB TIMES SHU2,⠇⠁⠛⠁⠃⠐⠦⠎⠓⠥⠼⠃
-480,𒇠,74208,𒇠,121E0,CUNEIFORM SIGN LAGAB TIMES SHU2 PLUS SHU2,⠇⠁⠛⠁⠃⠐⠦⠎⠓⠥⠼⠃⠐⠖⠎⠓⠥⠼⠃
-481,𒇡,74209,𒇡,121E1,CUNEIFORM SIGN LAGAB TIMES SUM,⠇⠁⠛⠁⠃⠐⠦⠎⠥⠍
-482,𒇢,74210,𒇢,121E2,CUNEIFORM SIGN LAGAB TIMES TAG,⠇⠁⠛⠁⠃⠐⠦⠞⠁⠛
-483,𒇣,74211,𒇣,121E3,CUNEIFORM SIGN LAGAB TIMES TAK4,⠇⠁⠛⠁⠃⠐⠦⠞⠁⠅⠼⠙
-484,𒇤,74212,𒇤,121E4,CUNEIFORM SIGN LAGAB TIMES TE PLUS A PLUS SU PLUS NA,⠇⠁⠛⠁⠃⠐⠦⠞⠑⠐⠖⠁⠐⠖⠎⠥⠐⠖⠝⠁
-485,𒇥,74213,𒇥,121E5,CUNEIFORM SIGN LAGAB TIMES U,⠇⠁⠛⠁⠃⠐⠦⠥
-486,𒇦,74214,𒇦,121E6,CUNEIFORM SIGN LAGAB TIMES U PLUS A,⠇⠁⠛⠁⠃⠐⠦⠥⠐⠖⠁
-487,𒇧,74215,𒇧,121E7,CUNEIFORM SIGN LAGAB TIMES U PLUS U PLUS U,⠇⠁⠛⠁⠃⠐⠦⠥⠐⠖⠥⠐⠖⠥
-488,𒇨,74216,𒇨,121E8,CUNEIFORM SIGN LAGAB TIMES U2 PLUS ASH,⠇⠁⠛⠁⠃⠐⠦⠥⠼⠃⠐⠖⠁⠎⠓
-489,𒇩,74217,𒇩,121E9,CUNEIFORM SIGN LAGAB TIMES UD,⠇⠁⠛⠁⠃⠐⠦⠥⠙
-490,𒇪,74218,𒇪,121EA,CUNEIFORM SIGN LAGAB TIMES USH,⠇⠁⠛⠁⠃⠐⠦⠥⠎⠓
-491,𒇫,74219,𒇫,121EB,CUNEIFORM SIGN LAGAB SQUARED,⠇⠁⠛⠁⠃⠔⠼⠃
-492,𒇬,74220,𒇬,121EC,CUNEIFORM SIGN LAGAR,⠇⠁⠛⠁⠗
-493,𒇭,74221,𒇭,121ED,CUNEIFORM SIGN LAGAR TIMES SHE,⠇⠁⠛⠁⠗⠐⠦⠎⠓⠑
-494,𒇮,74222,𒇮,121EE,CUNEIFORM SIGN LAGAR TIMES SHE PLUS SUM,⠇⠁⠛⠁⠗⠐⠦⠎⠓⠑⠐⠖⠎⠥⠍
-495,𒇯,74223,𒇯,121EF,CUNEIFORM SIGN LAGAR GUNU,⠇⠁⠛⠁⠗ ⠛⠥⠝⠥
-496,𒇰,74224,𒇰,121F0,CUNEIFORM SIGN LAGAR GUNU OVER LAGAR GUNU SHE,⠇⠁⠛⠁⠗ ⠛⠥⠝⠥⠐⠌⠇⠁⠛⠁⠗ ⠛⠥⠝⠥ ⠎⠓⠑
-497,𒇱,74225,𒇱,121F1,CUNEIFORM SIGN LAHSHU,⠇⠁⠓⠎⠓⠥
-498,𒇲,74226,𒇲,121F2,CUNEIFORM SIGN LAL,⠇⠁⠇
-499,𒇳,74227,𒇳,121F3,CUNEIFORM SIGN LAL TIMES LAL,⠇⠁⠇⠐⠦⠇⠁⠇
-500,𒇴,74228,𒇴,121F4,CUNEIFORM SIGN LAM,⠇⠁⠍
-501,𒇵,74229,𒇵,121F5,CUNEIFORM SIGN LAM TIMES KUR,⠇⠁⠍⠐⠦⠅⠥⠗
-502,𒇶,74230,𒇶,121F6,CUNEIFORM SIGN LAM TIMES KUR PLUS RU,⠇⠁⠍⠐⠦⠅⠥⠗⠐⠖⠗⠥
-503,𒇷,74231,𒇷,121F7,CUNEIFORM SIGN LI,⠇⠊
-504,𒇸,74232,𒇸,121F8,CUNEIFORM SIGN LIL,⠇⠊⠇
-505,𒇹,74233,𒇹,121F9,CUNEIFORM SIGN LIMMU2,⠇⠊⠍⠍⠥⠼⠃
-506,𒇺,74234,𒇺,121FA,CUNEIFORM SIGN LISH,⠇⠊⠎⠓
-507,𒇻,74235,𒇻,121FB,CUNEIFORM SIGN LU,⠇⠥
-508,𒇼,74236,𒇼,121FC,CUNEIFORM SIGN LU TIMES BAD,⠇⠥⠐⠦⠃⠁⠙
-509,𒇽,74237,𒇽,121FD,CUNEIFORM SIGN LU2,⠇⠥⠼⠃
-510,𒇾,74238,𒇾,121FE,CUNEIFORM SIGN LU2 TIMES AL,⠇⠥⠼⠃⠐⠦⠁⠇
-511,𒇿,74239,𒇿,121FF,CUNEIFORM SIGN LU2 TIMES BAD,⠇⠥⠼⠃⠐⠦⠃⠁⠙
-512,𒈀,74240,𒈀,12200,CUNEIFORM SIGN LU2 TIMES ESH2,⠇⠥⠼⠃⠐⠦⠑⠎⠓⠼⠃
-513,𒈁,74241,𒈁,12201,CUNEIFORM SIGN LU2 TIMES ESH2 TENU,⠇⠥⠼⠃⠐⠦⠑⠎⠓⠼⠃ ⠞⠑⠝⠥
-514,𒈂,74242,𒈂,12202,CUNEIFORM SIGN LU2 TIMES GAN2 TENU,⠇⠥⠼⠃⠐⠦⠛⠁⠝⠼⠃ ⠞⠑⠝⠥
-515,𒈃,74243,𒈃,12203,CUNEIFORM SIGN LU2 TIMES HI TIMES BAD,⠇⠥⠼⠃⠐⠦⠓⠊⠐⠦⠃⠁⠙
-516,𒈄,74244,𒈄,12204,CUNEIFORM SIGN LU2 TIMES IM,⠇⠥⠼⠃⠐⠦⠊⠍
-517,𒈅,74245,𒈅,12205,CUNEIFORM SIGN LU2 TIMES KAD2,⠇⠥⠼⠃⠐⠦⠅⠁⠙⠼⠃
-518,𒈆,74246,𒈆,12206,CUNEIFORM SIGN LU2 TIMES KAD3,⠇⠥⠼⠃⠐⠦⠅⠁⠙⠼⠉
-519,𒈇,74247,𒈇,12207,CUNEIFORM SIGN LU2 TIMES KAD3 PLUS ASH,⠇⠥⠼⠃⠐⠦⠅⠁⠙⠼⠉⠐⠖⠁⠎⠓
-520,𒈈,74248,𒈈,12208,CUNEIFORM SIGN LU2 TIMES KI,⠇⠥⠼⠃⠐⠦⠅⠊
-521,𒈉,74249,𒈉,12209,CUNEIFORM SIGN LU2 TIMES LA PLUS ASH,⠇⠥⠼⠃⠐⠦⠇⠁⠐⠖⠁⠎⠓
-522,𒈊,74250,𒈊,1220A,CUNEIFORM SIGN LU2 TIMES LAGAB,⠇⠥⠼⠃⠐⠦⠇⠁⠛⠁⠃
-523,𒈋,74251,𒈋,1220B,CUNEIFORM SIGN LU2 TIMES ME PLUS EN,⠇⠥⠼⠃⠐⠦⠍⠑⠐⠖⠑⠝
-524,𒈌,74252,𒈌,1220C,CUNEIFORM SIGN LU2 TIMES NE,⠇⠥⠼⠃⠐⠦⠝⠑
-525,𒈍,74253,𒈍,1220D,CUNEIFORM SIGN LU2 TIMES NU,⠇⠥⠼⠃⠐⠦⠝⠥
-526,𒈎,74254,𒈎,1220E,CUNEIFORM SIGN LU2 TIMES SI PLUS ASH,⠇⠥⠼⠃⠐⠦⠎⠊⠐⠖⠁⠎⠓
-527,𒈏,74255,𒈏,1220F,CUNEIFORM SIGN LU2 TIMES SIK2 PLUS BU,⠇⠥⠼⠃⠐⠦⠎⠊⠅⠼⠃⠐⠖⠃⠥
-528,𒈐,74256,𒈐,12210,CUNEIFORM SIGN LU2 TIMES TUG2,⠇⠥⠼⠃⠐⠦⠞⠥⠛⠼⠃
-529,𒈑,74257,𒈑,12211,CUNEIFORM SIGN LU2 TENU,⠇⠥⠼⠃ ⠞⠑⠝⠥
-530,𒈒,74258,𒈒,12212,CUNEIFORM SIGN LU2 CROSSING LU2,⠇⠥⠼⠃⠈⠯⠇⠥⠼⠃
-531,𒈓,74259,𒈓,12213,CUNEIFORM SIGN LU2 OPPOSING LU2,⠇⠥⠼⠃⠈⠎⠇⠥⠼⠃
-532,𒈔,74260,𒈔,12214,CUNEIFORM SIGN LU2 SQUARED,⠇⠥⠼⠃⠔⠼⠃
-533,𒈕,74261,𒈕,12215,CUNEIFORM SIGN LU2 SHESHIG,⠇⠥⠼⠃ ⠎⠓⠑⠎⠓⠊⠛
-534,𒈖,74262,𒈖,12216,CUNEIFORM SIGN LU3,⠇⠥⠼⠉
-535,𒈗,74263,𒈗,12217,CUNEIFORM SIGN LUGAL,⠇⠥⠛⠁⠇
-536,𒈘,74264,𒈘,12218,CUNEIFORM SIGN LUGAL OVER LUGAL,⠇⠥⠛⠁⠇⠐⠌⠇⠥⠛⠁⠇
-537,𒈙,74265,𒈙,12219,CUNEIFORM SIGN LUGAL OPPOSING LUGAL,⠇⠥⠛⠁⠇⠈⠎⠇⠥⠛⠁⠇
-538,𒈚,74266,𒈚,1221A,CUNEIFORM SIGN LUGAL SHESHIG,⠇⠥⠛⠁⠇ ⠎⠓⠑⠎⠓⠊⠛
-539,𒈛,74267,𒈛,1221B,CUNEIFORM SIGN LUH,⠇⠥⠓
-540,𒈜,74268,𒈜,1221C,CUNEIFORM SIGN LUL,⠇⠥⠇
-541,𒈝,74269,𒈝,1221D,CUNEIFORM SIGN LUM,⠇⠥⠍
-542,𒈞,74270,𒈞,1221E,CUNEIFORM SIGN LUM OVER LUM,⠇⠥⠍⠐⠌⠇⠥⠍
-543,𒈟,74271,𒈟,1221F,CUNEIFORM SIGN LUM OVER LUM GAR OVER GAR,⠇⠥⠍⠐⠌⠇⠥⠍ ⠛⠁⠗⠐⠌⠛⠁⠗
-544,𒈠,74272,𒈠,12220,CUNEIFORM SIGN MA,⠍⠁
-545,𒈡,74273,𒈡,12221,CUNEIFORM SIGN MA TIMES TAK4,⠍⠁⠐⠦⠞⠁⠅⠼⠙
-546,𒈢,74274,𒈢,12222,CUNEIFORM SIGN MA GUNU,⠍⠁ ⠛⠥⠝⠥
-547,𒈣,74275,𒈣,12223,CUNEIFORM SIGN MA2,⠍⠁⠼⠃
-548,𒈤,74276,𒈤,12224,CUNEIFORM SIGN MAH,⠍⠁⠓
-549,𒈥,74277,𒈥,12225,CUNEIFORM SIGN MAR,⠍⠁⠗
-550,𒈦,74278,𒈦,12226,CUNEIFORM SIGN MASH,⠍⠁⠎⠓
-551,𒈧,74279,𒈧,12227,CUNEIFORM SIGN MASH2,⠍⠁⠎⠓⠼⠃
-552,𒈨,74280,𒈨,12228,CUNEIFORM SIGN ME,⠍⠑
-553,𒈩,74281,𒈩,12229,CUNEIFORM SIGN MES,⠍⠑⠎
-554,𒈪,74282,𒈪,1222A,CUNEIFORM SIGN MI,⠍⠊
-555,𒈫,74283,𒈫,1222B,CUNEIFORM SIGN MIN,⠍⠊⠝
-556,𒈬,74284,𒈬,1222C,CUNEIFORM SIGN MU,⠍⠥
-557,𒈭,74285,𒈭,1222D,CUNEIFORM SIGN MU OVER MU,⠍⠥⠐⠌⠍⠥
-558,𒈮,74286,𒈮,1222E,CUNEIFORM SIGN MUG,⠍⠥⠛
-559,𒈯,74287,𒈯,1222F,CUNEIFORM SIGN MUG GUNU,⠍⠥⠛ ⠛⠥⠝⠥
-560,𒈰,74288,𒈰,12230,CUNEIFORM SIGN MUNSUB,⠍⠥⠝⠎⠥⠃
-561,𒈱,74289,𒈱,12231,CUNEIFORM SIGN MURGU2,⠍⠥⠗⠛⠥⠼⠃
-562,𒈲,74290,𒈲,12232,CUNEIFORM SIGN MUSH,⠍⠥⠎⠓
-563,𒈳,74291,𒈳,12233,CUNEIFORM SIGN MUSH TIMES A,⠍⠥⠎⠓⠐⠦⠁
-564,𒈴,74292,𒈴,12234,CUNEIFORM SIGN MUSH TIMES KUR,⠍⠥⠎⠓⠐⠦⠅⠥⠗
-565,𒈵,74293,𒈵,12235,CUNEIFORM SIGN MUSH TIMES ZA,⠍⠥⠎⠓⠐⠦⠵⠁
-566,𒈶,74294,𒈶,12236,CUNEIFORM SIGN MUSH OVER MUSH,⠍⠥⠎⠓⠐⠌⠍⠥⠎⠓
-567,𒈷,74295,𒈷,12237,CUNEIFORM SIGN MUSH OVER MUSH TIMES A PLUS NA,⠍⠥⠎⠓⠐⠌⠍⠥⠎⠓⠐⠦⠁⠐⠖⠝⠁
-568,𒈸,74296,𒈸,12238,CUNEIFORM SIGN MUSH CROSSING MUSH,⠍⠥⠎⠓⠈⠯⠍⠥⠎⠓
-569,𒈹,74297,𒈹,12239,CUNEIFORM SIGN MUSH3,⠍⠥⠎⠓⠼⠉
-570,𒈺,74298,𒈺,1223A,CUNEIFORM SIGN MUSH3 TIMES A,⠍⠥⠎⠓⠼⠉⠐⠦⠁
-571,𒈻,74299,𒈻,1223B,CUNEIFORM SIGN MUSH3 TIMES A PLUS DI,⠍⠥⠎⠓⠼⠉⠐⠦⠁⠐⠖⠙⠊
-572,𒈼,74300,𒈼,1223C,CUNEIFORM SIGN MUSH3 TIMES DI,⠍⠥⠎⠓⠼⠉⠐⠦⠙⠊
-573,𒈽,74301,𒈽,1223D,CUNEIFORM SIGN MUSH3 GUNU,⠍⠥⠎⠓⠼⠉ ⠛⠥⠝⠥
-574,𒈾,74302,𒈾,1223E,CUNEIFORM SIGN NA,⠝⠁
-575,𒈿,74303,𒈿,1223F,CUNEIFORM SIGN NA2,⠝⠁⠼⠃
-576,𒉀,74304,𒉀,12240,CUNEIFORM SIGN NAGA,⠝⠁⠛⠁
-577,𒉁,74305,𒉁,12241,CUNEIFORM SIGN NAGA INVERTED,⠝⠁⠛⠁ ⠊⠝⠧⠑⠗⠞⠑⠙
-578,𒉂,74306,𒉂,12242,CUNEIFORM SIGN NAGA TIMES SHU TENU,⠝⠁⠛⠁⠐⠦⠎⠓⠥ ⠞⠑⠝⠥
-579,𒉃,74307,𒉃,12243,CUNEIFORM SIGN NAGA OPPOSING NAGA,⠝⠁⠛⠁⠈⠎⠝⠁⠛⠁
-580,𒉄,74308,𒉄,12244,CUNEIFORM SIGN NAGAR,⠝⠁⠛⠁⠗
-581,𒉅,74309,𒉅,12245,CUNEIFORM SIGN NAM NUTILLU,⠝⠁⠍ ⠝⠥⠞⠊⠇⠇⠥
-582,𒉆,74310,𒉆,12246,CUNEIFORM SIGN NAM,⠝⠁⠍
-583,𒉇,74311,𒉇,12247,CUNEIFORM SIGN NAM2,⠝⠁⠍⠼⠃
-584,𒉈,74312,𒉈,12248,CUNEIFORM SIGN NE,⠝⠑
-585,𒉉,74313,𒉉,12249,CUNEIFORM SIGN NE TIMES A,⠝⠑⠐⠦⠁
-586,𒉊,74314,𒉊,1224A,CUNEIFORM SIGN NE TIMES UD,⠝⠑⠐⠦⠥⠙
-587,𒉋,74315,𒉋,1224B,CUNEIFORM SIGN NE SHESHIG,⠝⠑ ⠎⠓⠑⠎⠓⠊⠛
-588,𒉌,74316,𒉌,1224C,CUNEIFORM SIGN NI,⠝⠊
-589,𒉍,74317,𒉍,1224D,CUNEIFORM SIGN NI TIMES E,⠝⠊⠐⠦⠑
-590,𒉎,74318,𒉎,1224E,CUNEIFORM SIGN NI2,⠝⠊⠼⠃
-591,𒉏,74319,𒉏,1224F,CUNEIFORM SIGN NIM,⠝⠊⠍
-592,𒉐,74320,𒉐,12250,CUNEIFORM SIGN NIM TIMES GAN2 TENU,⠝⠊⠍⠐⠦⠛⠁⠝⠼⠃ ⠞⠑⠝⠥
-593,𒉑,74321,𒉑,12251,CUNEIFORM SIGN NIM TIMES GAR PLUS GAN2 TENU,⠝⠊⠍⠐⠦⠛⠁⠗⠐⠖⠛⠁⠝⠼⠃ ⠞⠑⠝⠥
-594,𒉒,74322,𒉒,12252,CUNEIFORM SIGN NINDA2,⠝⠊⠝⠙⠁⠼⠃
-595,𒉓,74323,𒉓,12253,CUNEIFORM SIGN NINDA2 TIMES AN,⠝⠊⠝⠙⠁⠼⠃⠐⠦⠁⠝
-596,𒉔,74324,𒉔,12254,CUNEIFORM SIGN NINDA2 TIMES ASH,⠝⠊⠝⠙⠁⠼⠃⠐⠦⠁⠎⠓
-597,𒉕,74325,𒉕,12255,CUNEIFORM SIGN NINDA2 TIMES ASH PLUS ASH,⠝⠊⠝⠙⠁⠼⠃⠐⠦⠁⠎⠓⠐⠖⠁⠎⠓
-598,𒉖,74326,𒉖,12256,CUNEIFORM SIGN NINDA2 TIMES GUD,⠝⠊⠝⠙⠁⠼⠃⠐⠦⠛⠥⠙
-599,𒉗,74327,𒉗,12257,CUNEIFORM SIGN NINDA2 TIMES ME PLUS GAN2 TENU,⠝⠊⠝⠙⠁⠼⠃⠐⠦⠍⠑⠐⠖⠛⠁⠝⠼⠃ ⠞⠑⠝⠥
-600,𒉘,74328,𒉘,12258,CUNEIFORM SIGN NINDA2 TIMES NE,⠝⠊⠝⠙⠁⠼⠃⠐⠦⠝⠑
-601,𒉙,74329,𒉙,12259,CUNEIFORM SIGN NINDA2 TIMES NUN,⠝⠊⠝⠙⠁⠼⠃⠐⠦⠝⠥⠝
-602,𒉚,74330,𒉚,1225A,CUNEIFORM SIGN NINDA2 TIMES SHE,⠝⠊⠝⠙⠁⠼⠃⠐⠦⠎⠓⠑
-603,𒉛,74331,𒉛,1225B,CUNEIFORM SIGN NINDA2 TIMES SHE PLUS A AN,⠝⠊⠝⠙⠁⠼⠃⠐⠦⠎⠓⠑⠐⠖⠁ ⠁⠝
-604,𒉜,74332,𒉜,1225C,CUNEIFORM SIGN NINDA2 TIMES SHE PLUS ASH,⠝⠊⠝⠙⠁⠼⠃⠐⠦⠎⠓⠑⠐⠖⠁⠎⠓
-605,𒉝,74333,𒉝,1225D,CUNEIFORM SIGN NINDA2 TIMES SHE PLUS ASH PLUS ASH,⠝⠊⠝⠙⠁⠼⠃⠐⠦⠎⠓⠑⠐⠖⠁⠎⠓⠐⠖⠁⠎⠓
-606,𒉞,74334,𒉞,1225E,CUNEIFORM SIGN NINDA2 TIMES U2 PLUS ASH,⠝⠊⠝⠙⠁⠼⠃⠐⠦⠥⠼⠃⠐⠖⠁⠎⠓
-607,𒉟,74335,𒉟,1225F,CUNEIFORM SIGN NINDA2 TIMES USH,⠝⠊⠝⠙⠁⠼⠃⠐⠦⠥⠎⠓
-608,𒉠,74336,𒉠,12260,CUNEIFORM SIGN NISAG,⠝⠊⠎⠁⠛
-609,𒉡,74337,𒉡,12261,CUNEIFORM SIGN NU,⠝⠥
-610,𒉢,74338,𒉢,12262,CUNEIFORM SIGN NU11,⠝⠥⠼⠁⠼⠁
-611,𒉣,74339,𒉣,12263,CUNEIFORM SIGN NUN,⠝⠥⠝
-612,𒉤,74340,𒉤,12264,CUNEIFORM SIGN NUN LAGAR TIMES GAR,⠝⠥⠝ ⠇⠁⠛⠁⠗⠐⠦⠛⠁⠗
-613,𒉥,74341,𒉥,12265,CUNEIFORM SIGN NUN LAGAR TIMES MASH,⠝⠥⠝ ⠇⠁⠛⠁⠗⠐⠦⠍⠁⠎⠓
-614,𒉦,74342,𒉦,12266,CUNEIFORM SIGN NUN LAGAR TIMES SAL,⠝⠥⠝ ⠇⠁⠛⠁⠗⠐⠦⠎⠁⠇
-615,𒉧,74343,𒉧,12267,CUNEIFORM SIGN NUN LAGAR TIMES SAL OVER NUN LAGAR TIMES SAL,⠝⠥⠝ ⠇⠁⠛⠁⠗⠐⠦⠎⠁⠇⠐⠌⠝⠥⠝ ⠇⠁⠛⠁⠗⠐⠦⠎⠁⠇
-616,𒉨,74344,𒉨,12268,CUNEIFORM SIGN NUN LAGAR TIMES USH,⠝⠥⠝ ⠇⠁⠛⠁⠗⠐⠦⠥⠎⠓
-617,𒉩,74345,𒉩,12269,CUNEIFORM SIGN NUN TENU,⠝⠥⠝ ⠞⠑⠝⠥
-618,𒉪,74346,𒉪,1226A,CUNEIFORM SIGN NUN OVER NUN,⠝⠥⠝⠐⠌⠝⠥⠝
-619,𒉫,74347,𒉫,1226B,CUNEIFORM SIGN NUN CROSSING NUN,⠝⠥⠝⠈⠯⠝⠥⠝
-620,𒉬,74348,𒉬,1226C,CUNEIFORM SIGN NUN CROSSING NUN LAGAR OVER LAGAR,⠝⠥⠝⠈⠯⠝⠥⠝ ⠇⠁⠛⠁⠗⠐⠌⠇⠁⠛⠁⠗
-621,𒉭,74349,𒉭,1226D,CUNEIFORM SIGN NUNUZ,⠝⠥⠝⠥
-622,𒉮,74350,𒉮,1226E,CUNEIFORM SIGN NUNUZ AB2 TIMES ASHGAB,⠝⠥⠝⠥⠵ ⠁⠃⠼⠃⠐⠦⠁⠎⠓⠛⠁⠃
-623,𒉯,74351,𒉯,1226F,CUNEIFORM SIGN NUNUZ AB2 TIMES BI,⠝⠥⠝⠥⠵ ⠁⠃⠼⠃⠐⠦⠃⠊
-624,𒉰,74352,𒉰,12270,CUNEIFORM SIGN NUNUZ AB2 TIMES DUG,⠝⠥⠝⠥⠵ ⠁⠃⠼⠃⠐⠦⠙⠥⠛
-625,𒉱,74353,𒉱,12271,CUNEIFORM SIGN NUNUZ AB2 TIMES GUD,⠝⠥⠝⠥⠵ ⠁⠃⠼⠃⠐⠦⠛⠥⠙
-626,𒉲,74354,𒉲,12272,CUNEIFORM SIGN NUNUZ AB2 TIMES IGI GUNU,⠝⠥⠝⠥⠵ ⠁⠃⠼⠃⠐⠦⠊⠛⠊ ⠛⠥⠝⠥
-627,𒉳,74355,𒉳,12273,CUNEIFORM SIGN NUNUZ AB2 TIMES KAD3,⠝⠥⠝⠥⠵ ⠁⠃⠼⠃⠐⠦⠅⠁⠙⠼⠉
-628,𒉴,74356,𒉴,12274,CUNEIFORM SIGN NUNUZ AB2 TIMES LA,⠝⠥⠝⠥⠵ ⠁⠃⠼⠃⠐⠦⠇⠁
-629,𒉵,74357,𒉵,12275,CUNEIFORM SIGN NUNUZ AB2 TIMES NE,⠝⠥⠝⠥⠵ ⠁⠃⠼⠃⠐⠦⠝⠑
-630,𒉶,74358,𒉶,12276,CUNEIFORM SIGN NUNUZ AB2 TIMES SILA3,⠝⠥⠝⠥⠵ ⠁⠃⠼⠃⠐⠦⠎⠊⠇⠁⠼⠉
-631,𒉷,74359,𒉷,12277,CUNEIFORM SIGN NUNUZ AB2 TIMES U2,⠝⠥⠝⠥⠵ ⠁⠃⠼⠃⠐⠦⠥⠼⠃
-632,𒉸,74360,𒉸,12278,CUNEIFORM SIGN NUNUZ KISIM5 TIMES BI,⠝⠥⠝⠥⠵ ⠅⠊⠎⠊⠍⠼⠑⠐⠦⠃⠊
-633,𒉹,74361,𒉹,12279,CUNEIFORM SIGN NUNUZ KISIM5 TIMES BI U,⠝⠥⠝⠥⠵ ⠅⠊⠎⠊⠍⠼⠑⠐⠦⠃⠊ ⠥
-634,𒉺,74362,𒉺,1227A,CUNEIFORM SIGN PA,⠏⠁
-635,𒉻,74363,𒉻,1227B,CUNEIFORM SIGN PAD,⠏⠁⠙
-636,𒉼,74364,𒉼,1227C,CUNEIFORM SIGN PAN,⠏⠁⠝
-637,𒉽,74365,𒉽,1227D,CUNEIFORM SIGN PAP,⠏⠁⠏
-638,𒉾,74366,𒉾,1227E,CUNEIFORM SIGN PESH2,⠏⠑⠎⠓⠼⠃
-639,𒉿,74367,𒉿,1227F,CUNEIFORM SIGN PI,⠏⠊
-640,𒊀,74368,𒊀,12280,CUNEIFORM SIGN PI TIMES A,⠏⠊⠐⠦⠁
-641,𒊁,74369,𒊁,12281,CUNEIFORM SIGN PI TIMES AB,⠏⠊⠐⠦⠁⠃
-642,𒊂,74370,𒊂,12282,CUNEIFORM SIGN PI TIMES BI,⠏⠊⠐⠦⠃⠊
-643,𒊃,74371,𒊃,12283,CUNEIFORM SIGN PI TIMES BU,⠏⠊⠐⠦⠃⠥
-644,𒊄,74372,𒊄,12284,CUNEIFORM SIGN PI TIMES E,⠏⠊⠐⠦⠑
-645,𒊅,74373,𒊅,12285,CUNEIFORM SIGN PI TIMES I,⠏⠊⠐⠦⠊
-646,𒊆,74374,𒊆,12286,CUNEIFORM SIGN PI TIMES IB,⠏⠊⠐⠦⠊⠃
-647,𒊇,74375,𒊇,12287,CUNEIFORM SIGN PI TIMES U,⠏⠊⠐⠦⠥
-648,𒊈,74376,𒊈,12288,CUNEIFORM SIGN PI TIMES U2,⠏⠊⠐⠦⠥⠼⠃
-649,𒊉,74377,𒊉,12289,CUNEIFORM SIGN PI CROSSING PI,⠏⠊⠈⠯⠏⠊
-650,𒊊,74378,𒊊,1228A,CUNEIFORM SIGN PIRIG,⠏⠊⠗⠊⠛
-651,𒊋,74379,𒊋,1228B,CUNEIFORM SIGN PIRIG TIMES KAL,⠏⠊⠗⠊⠛⠐⠦⠅⠁⠇
-652,𒊌,74380,𒊌,1228C,CUNEIFORM SIGN PIRIG TIMES UD,⠏⠊⠗⠊⠛⠐⠦⠥⠙
-653,𒊍,74381,𒊍,1228D,CUNEIFORM SIGN PIRIG TIMES ZA,⠏⠊⠗⠊⠛⠐⠦⠵⠁
-654,𒊎,74382,𒊎,1228E,CUNEIFORM SIGN PIRIG OPPOSING PIRIG,⠏⠊⠗⠊⠛⠈⠎⠏⠊⠗⠊⠛
-655,𒊏,74383,𒊏,1228F,CUNEIFORM SIGN RA,⠗⠁
-656,𒊐,74384,𒊐,12290,CUNEIFORM SIGN RAB,⠗⠁⠃
-657,𒊑,74385,𒊑,12291,CUNEIFORM SIGN RI,⠗⠊
-658,𒊒,74386,𒊒,12292,CUNEIFORM SIGN RU,⠗⠥
-659,𒊓,74387,𒊓,12293,CUNEIFORM SIGN SA,⠎⠁
-660,𒊔,74388,𒊔,12294,CUNEIFORM SIGN SAG NUTILLU,⠎⠁⠛ ⠝⠥⠞⠊⠇⠇⠥
-661,𒊕,74389,𒊕,12295,CUNEIFORM SIGN SAG,⠎⠁⠛
-662,𒊖,74390,𒊖,12296,CUNEIFORM SIGN SAG TIMES A,⠎⠁⠛⠐⠦⠁
-663,𒊗,74391,𒊗,12297,CUNEIFORM SIGN SAG TIMES DU,⠎⠁⠛⠐⠦⠙⠥
-664,𒊘,74392,𒊘,12298,CUNEIFORM SIGN SAG TIMES DUB,⠎⠁⠛⠐⠦⠙⠥⠃
-665,𒊙,74393,𒊙,12299,CUNEIFORM SIGN SAG TIMES HA,⠎⠁⠛⠐⠦⠓⠁
-666,𒊚,74394,𒊚,1229A,CUNEIFORM SIGN SAG TIMES KAK,⠎⠁⠛⠐⠦⠅⠁⠅
-667,𒊛,74395,𒊛,1229B,CUNEIFORM SIGN SAG TIMES KUR,⠎⠁⠛⠐⠦⠅⠥⠗
-668,𒊜,74396,𒊜,1229C,CUNEIFORM SIGN SAG TIMES LUM,⠎⠁⠛⠐⠦⠇⠥⠍
-669,𒊝,74397,𒊝,1229D,CUNEIFORM SIGN SAG TIMES MI,⠎⠁⠛⠐⠦⠍⠊
-670,𒊞,74398,𒊞,1229E,CUNEIFORM SIGN SAG TIMES NUN,⠎⠁⠛⠐⠦⠝⠥⠝
-671,𒊟,74399,𒊟,1229F,CUNEIFORM SIGN SAG TIMES SAL,⠎⠁⠛⠐⠦⠎⠁⠇
-672,𒊠,74400,𒊠,122A0,CUNEIFORM SIGN SAG TIMES SHID,⠎⠁⠛⠐⠦⠎⠓⠊⠙
-673,𒊡,74401,𒊡,122A1,CUNEIFORM SIGN SAG TIMES TAB,⠎⠁⠛⠐⠦⠞⠁⠃
-674,𒊢,74402,𒊢,122A2,CUNEIFORM SIGN SAG TIMES U2,⠎⠁⠛⠐⠦⠥⠼⠃
-675,𒊣,74403,𒊣,122A3,CUNEIFORM SIGN SAG TIMES UB,⠎⠁⠛⠐⠦⠥⠃
-676,𒊤,74404,𒊤,122A4,CUNEIFORM SIGN SAG TIMES UM,⠎⠁⠛⠐⠦⠥⠍
-677,𒊥,74405,𒊥,122A5,CUNEIFORM SIGN SAG TIMES UR,⠎⠁⠛⠐⠦⠥⠗
-678,𒊦,74406,𒊦,122A6,CUNEIFORM SIGN SAG TIMES USH,⠎⠁⠛⠐⠦⠥⠎⠓
-679,𒊧,74407,𒊧,122A7,CUNEIFORM SIGN SAG OVER SAG,⠎⠁⠛⠐⠌⠎⠁⠛
-680,𒊨,74408,𒊨,122A8,CUNEIFORM SIGN SAG GUNU,⠎⠁⠛ ⠛⠥⠝⠥
-681,𒊩,74409,𒊩,122A9,CUNEIFORM SIGN SAL,⠎⠁⠇
-682,𒊪,74410,𒊪,122AA,CUNEIFORM SIGN SAL LAGAB TIMES ASH2,⠎⠁⠇ ⠇⠁⠛⠁⠃⠐⠦⠁⠎⠓⠼⠃
-683,𒊫,74411,𒊫,122AB,CUNEIFORM SIGN SANGA2,⠎⠁⠝⠛⠁⠼⠃
-684,𒊬,74412,𒊬,122AC,CUNEIFORM SIGN SAR,⠎⠁⠗
-685,𒊭,74413,𒊭,122AD,CUNEIFORM SIGN SHA,⠎⠓⠁
-686,𒊮,74414,𒊮,122AE,CUNEIFORM SIGN SHA3,⠎⠓⠁⠼⠉
-687,𒊯,74415,𒊯,122AF,CUNEIFORM SIGN SHA3 TIMES A,⠎⠓⠁⠼⠉⠐⠦⠁
-688,𒊰,74416,𒊰,122B0,CUNEIFORM SIGN SHA3 TIMES BAD,⠎⠓⠁⠼⠉⠐⠦⠃⠁⠙
-689,𒊱,74417,𒊱,122B1,CUNEIFORM SIGN SHA3 TIMES GISH,⠎⠓⠁⠼⠉⠐⠦⠛⠊⠎⠓
-690,𒊲,74418,𒊲,122B2,CUNEIFORM SIGN SHA3 TIMES NE,⠎⠓⠁⠼⠉⠐⠦⠝⠑
-691,𒊳,74419,𒊳,122B3,CUNEIFORM SIGN SHA3 TIMES SHU2,⠎⠓⠁⠼⠉⠐⠦⠎⠓⠥⠼⠃
-692,𒊴,74420,𒊴,122B4,CUNEIFORM SIGN SHA3 TIMES TUR,⠎⠓⠁⠼⠉⠐⠦⠞⠥⠗
-693,𒊵,74421,𒊵,122B5,CUNEIFORM SIGN SHA3 TIMES U,⠎⠓⠁⠼⠉⠐⠦⠥
-694,𒊶,74422,𒊶,122B6,CUNEIFORM SIGN SHA3 TIMES U PLUS A,⠎⠓⠁⠼⠉⠐⠦⠥⠐⠖⠁
-695,𒊷,74423,𒊷,122B7,CUNEIFORM SIGN SHA6,⠎⠓⠁⠼⠋
-696,𒊸,74424,𒊸,122B8,CUNEIFORM SIGN SHAB6,⠎⠓⠁⠃⠼⠋
-697,𒊹,74425,𒊹,122B9,CUNEIFORM SIGN SHAR2,⠎⠓⠁⠗⠼⠃
-698,𒊺,74426,𒊺,122BA,CUNEIFORM SIGN SHE,⠎⠓⠑
-699,𒊻,74427,𒊻,122BB,CUNEIFORM SIGN SHE HU,⠎⠓⠑ ⠓⠥
-700,𒊼,74428,𒊼,122BC,CUNEIFORM SIGN SHE OVER SHE GAD OVER GAD GAR OVER GAR,⠎⠓⠑⠐⠌⠎⠓⠑ ⠛⠁⠙⠐⠌⠛⠁⠙ ⠛⠁⠗⠐⠌⠛⠁⠗
-701,𒊽,74429,𒊽,122BD,CUNEIFORM SIGN SHE OVER SHE TAB OVER TAB GAR OVER GAR,⠎⠓⠑⠐⠌⠎⠓⠑ ⠞⠁⠃⠐⠌⠞⠁⠃ ⠛⠁⠗⠐⠌⠛⠁⠗
-702,𒊾,74430,𒊾,122BE,CUNEIFORM SIGN SHEG9,⠎⠓⠑⠛⠼⠊
-703,𒊿,74431,𒊿,122BF,CUNEIFORM SIGN SHEN,⠎⠓⠑⠝
-704,𒋀,74432,𒋀,122C0,CUNEIFORM SIGN SHESH,⠎⠓⠑⠎⠓
-705,𒋁,74433,𒋁,122C1,CUNEIFORM SIGN SHESH2,⠎⠓⠑⠎⠓⠼⠃
-706,𒋂,74434,𒋂,122C2,CUNEIFORM SIGN SHESHLAM,⠎⠓⠑⠎⠓⠇⠁⠍
-707,𒋃,74435,𒋃,122C3,CUNEIFORM SIGN SHID,⠎⠓⠊⠙
-708,𒋄,74436,𒋄,122C4,CUNEIFORM SIGN SHID TIMES A,⠎⠓⠊⠙⠐⠦⠁
-709,𒋅,74437,𒋅,122C5,CUNEIFORM SIGN SHID TIMES IM,⠎⠓⠊⠙⠐⠦⠊⠍
-710,𒋆,74438,𒋆,122C6,CUNEIFORM SIGN SHIM,⠎⠓⠊⠍
-711,𒋇,74439,𒋇,122C7,CUNEIFORM SIGN SHIM TIMES A,⠎⠓⠊⠍⠐⠦⠁
-712,𒋈,74440,𒋈,122C8,CUNEIFORM SIGN SHIM TIMES BAL,⠎⠓⠊⠍⠐⠦⠃⠁⠇
-713,𒋉,74441,𒋉,122C9,CUNEIFORM SIGN SHIM TIMES BULUG,⠎⠓⠊⠍⠐⠦⠃⠥⠇⠥⠛
-714,𒋊,74442,𒋊,122CA,CUNEIFORM SIGN SHIM TIMES DIN,⠎⠓⠊⠍⠐⠦⠙⠊⠝
-715,𒋋,74443,𒋋,122CB,CUNEIFORM SIGN SHIM TIMES GAR,⠎⠓⠊⠍⠐⠦⠛⠁⠗
-716,𒋌,74444,𒋌,122CC,CUNEIFORM SIGN SHIM TIMES IGI,⠎⠓⠊⠍⠐⠦⠊⠛⠊
-717,𒋍,74445,𒋍,122CD,CUNEIFORM SIGN SHIM TIMES IGI GUNU,⠎⠓⠊⠍⠐⠦⠊⠛⠊ ⠛⠥⠝⠥
-718,𒋎,74446,𒋎,122CE,CUNEIFORM SIGN SHIM TIMES KUSHU2,⠎⠓⠊⠍⠐⠦⠅⠥⠎⠓⠥⠼⠃
-719,𒋏,74447,𒋏,122CF,CUNEIFORM SIGN SHIM TIMES LUL,⠎⠓⠊⠍⠐⠦⠇⠥⠇
-720,𒋐,74448,𒋐,122D0,CUNEIFORM SIGN SHIM TIMES MUG,⠎⠓⠊⠍⠐⠦⠍⠥⠛
-721,𒋑,74449,𒋑,122D1,CUNEIFORM SIGN SHIM TIMES SAL,⠎⠓⠊⠍⠐⠦⠎⠁⠇
-722,𒋒,74450,𒋒,122D2,CUNEIFORM SIGN SHINIG,⠎⠓⠊⠝⠊⠛
-723,𒋓,74451,𒋓,122D3,CUNEIFORM SIGN SHIR,⠎⠓⠊⠗
-724,𒋔,74452,𒋔,122D4,CUNEIFORM SIGN SHIR TENU,⠎⠓⠊⠗ ⠞⠑⠝⠥
-725,𒋕,74453,𒋕,122D5,CUNEIFORM SIGN SHIR OVER SHIR BUR OVER BUR,⠎⠓⠊⠗⠐⠌⠎⠓⠊⠗ ⠃⠥⠗⠐⠌⠃⠥⠗
-726,𒋖,74454,𒋖,122D6,CUNEIFORM SIGN SHITA,⠎⠓⠊⠞⠁
-727,𒋗,74455,𒋗,122D7,CUNEIFORM SIGN SHU,⠎⠓⠥
-728,𒋘,74456,𒋘,122D8,CUNEIFORM SIGN SHU OVER INVERTED SHU,⠎⠓⠥⠐⠌⠊⠝⠧⠑⠗⠞⠑⠙ ⠎⠓⠥
-729,𒋙,74457,𒋙,122D9,CUNEIFORM SIGN SHU2,⠎⠓⠥⠼⠃
-730,𒋚,74458,𒋚,122DA,CUNEIFORM SIGN SHUBUR,⠎⠓⠥⠃⠥⠗
-731,𒋛,74459,𒋛,122DB,CUNEIFORM SIGN SI,⠎⠊
-732,𒋜,74460,𒋜,122DC,CUNEIFORM SIGN SI GUNU,⠎⠊ ⠛⠥⠝⠥
-733,𒋝,74461,𒋝,122DD,CUNEIFORM SIGN SIG,⠎⠊⠛
-734,𒋞,74462,𒋞,122DE,CUNEIFORM SIGN SIG4,⠎⠊⠛⠼⠙
-735,𒋟,74463,𒋟,122DF,CUNEIFORM SIGN SIG4 OVER SIG4 SHU2,⠎⠊⠛⠼⠙⠐⠌⠎⠊⠛⠼⠙ ⠎⠓⠥⠼⠃
-736,𒋠,74464,𒋠,122E0,CUNEIFORM SIGN SIK2,⠎⠊⠅⠼⠃
-737,𒋡,74465,𒋡,122E1,CUNEIFORM SIGN SILA3,⠎⠊⠇⠁⠼⠉
-738,𒋢,74466,𒋢,122E2,CUNEIFORM SIGN SU,⠎⠥
-739,𒋣,74467,𒋣,122E3,CUNEIFORM SIGN SU OVER SU,⠎⠥⠐⠌⠎⠥
-740,𒋤,74468,𒋤,122E4,CUNEIFORM SIGN SUD,⠎⠥⠙
-741,𒋥,74469,𒋥,122E5,CUNEIFORM SIGN SUD2,⠎⠥⠙⠼⠃
-742,𒋦,74470,𒋦,122E6,CUNEIFORM SIGN SUHUR,⠎⠥⠓⠥⠗
-743,𒋧,74471,𒋧,122E7,CUNEIFORM SIGN SUM,⠎⠥⠍
-744,𒋨,74472,𒋨,122E8,CUNEIFORM SIGN SUMASH,⠎⠥⠍⠁⠎⠓
-745,𒋩,74473,𒋩,122E9,CUNEIFORM SIGN SUR,⠎⠥⠗
-746,𒋪,74474,𒋪,122EA,CUNEIFORM SIGN SUR9,⠎⠥⠗⠼⠊
-747,𒋫,74475,𒋫,122EB,CUNEIFORM SIGN TA,⠞⠁
-748,𒋬,74476,𒋬,122EC,CUNEIFORM SIGN TA ASTERISK,⠞⠁⠐⠦
-749,𒋭,74477,𒋭,122ED,CUNEIFORM SIGN TA TIMES HI,⠞⠁⠐⠦⠓⠊
-750,𒋮,74478,𒋮,122EE,CUNEIFORM SIGN TA TIMES MI,⠞⠁⠐⠦⠍⠊
-751,𒋯,74479,𒋯,122EF,CUNEIFORM SIGN TA GUNU,⠞⠁ ⠛⠥⠝⠥
-752,𒋰,74480,𒋰,122F0,CUNEIFORM SIGN TAB,⠞⠁⠃
-753,𒋱,74481,𒋱,122F1,CUNEIFORM SIGN TAB OVER TAB NI OVER NI DISH OVER DISH,⠞⠁⠃⠐⠌⠞⠁⠃ ⠝⠊⠐⠌⠝⠊ ⠙⠊⠎⠓⠐⠌⠙⠊⠎⠓
-754,𒋲,74482,𒋲,122F2,CUNEIFORM SIGN TAB SQUARED,⠞⠁⠃⠔⠼⠃
-755,𒋳,74483,𒋳,122F3,CUNEIFORM SIGN TAG,⠞⠁⠛
-756,𒋴,74484,𒋴,122F4,CUNEIFORM SIGN TAG TIMES BI,⠞⠁⠛⠐⠦⠃⠊
-757,𒋵,74485,𒋵,122F5,CUNEIFORM SIGN TAG TIMES GUD,⠞⠁⠛⠐⠦⠛⠥⠙
-758,𒋶,74486,𒋶,122F6,CUNEIFORM SIGN TAG TIMES SHE,⠞⠁⠛⠐⠦⠎⠓⠑
-759,𒋷,74487,𒋷,122F7,CUNEIFORM SIGN TAG TIMES SHU,⠞⠁⠛⠐⠦⠎⠓⠥
-760,𒋸,74488,𒋸,122F8,CUNEIFORM SIGN TAG TIMES TUG2,⠞⠁⠛⠐⠦⠞⠥⠛⠼⠃
-761,𒋹,74489,𒋹,122F9,CUNEIFORM SIGN TAG TIMES UD,⠞⠁⠛⠐⠦⠥⠙
-762,𒋺,74490,𒋺,122FA,CUNEIFORM SIGN TAK4,⠞⠁⠅⠼⠙
-763,𒋻,74491,𒋻,122FB,CUNEIFORM SIGN TAR,⠞⠁⠗
-764,𒋼,74492,𒋼,122FC,CUNEIFORM SIGN TE,⠞⠑
-765,𒋽,74493,𒋽,122FD,CUNEIFORM SIGN TE GUNU,⠞⠑ ⠛⠥⠝⠥
-766,𒋾,74494,𒋾,122FE,CUNEIFORM SIGN TI,⠞⠊
-767,𒋿,74495,𒋿,122FF,CUNEIFORM SIGN TI TENU,⠞⠊ ⠞⠑⠝⠥
-768,𒌀,74496,𒌀,12300,CUNEIFORM SIGN TIL,⠞⠊⠇
-769,𒌁,74497,𒌁,12301,CUNEIFORM SIGN TIR,⠞⠊⠗
-770,𒌂,74498,𒌂,12302,CUNEIFORM SIGN TIR TIMES TAK4,⠞⠊⠗⠐⠦⠞⠁⠅⠼⠙
-771,𒌃,74499,𒌃,12303,CUNEIFORM SIGN TIR OVER TIR,⠞⠊⠗⠐⠌⠞⠊⠗
-772,𒌄,74500,𒌄,12304,CUNEIFORM SIGN TIR OVER TIR GAD OVER GAD GAR OVER GAR,⠞⠊⠗⠐⠌⠞⠊⠗ ⠛⠁⠙⠐⠌⠛⠁⠙ ⠛⠁⠗⠐⠌⠛⠁⠗
-773,𒌅,74501,𒌅,12305,CUNEIFORM SIGN TU,⠞⠥
-774,𒌆,74502,𒌆,12306,CUNEIFORM SIGN TUG2,⠞⠥⠛⠼⠃
-775,𒌇,74503,𒌇,12307,CUNEIFORM SIGN TUK,⠞⠥⠅
-776,𒌈,74504,𒌈,12308,CUNEIFORM SIGN TUM,⠞⠥⠍
-777,𒌉,74505,𒌉,12309,CUNEIFORM SIGN TUR,⠞⠥⠗
-778,𒌊,74506,𒌊,1230A,CUNEIFORM SIGN TUR OVER TUR ZA OVER ZA,⠞⠥⠗⠐⠌⠞⠥⠗ ⠵⠁⠐⠌⠵⠁
-779,𒌋,74507,𒌋,1230B,CUNEIFORM SIGN U,⠥
-780,𒌌,74508,𒌌,1230C,CUNEIFORM SIGN U GUD,⠥ ⠛⠥⠙
-781,𒌍,74509,𒌍,1230D,CUNEIFORM SIGN U U U,⠥ ⠥ ⠥
-782,𒌎,74510,𒌎,1230E,CUNEIFORM SIGN U OVER U PA OVER PA GAR OVER GAR,⠥⠐⠌⠥ ⠏⠁⠐⠌⠏⠁ ⠛⠁⠗⠐⠌⠛⠁⠗
-783,𒌏,74511,𒌏,1230F,CUNEIFORM SIGN U OVER U SUR OVER SUR,⠥⠐⠌⠥ ⠎⠥⠗⠐⠌⠎⠥⠗
-784,𒌐,74512,𒌐,12310,CUNEIFORM SIGN U OVER U U REVERSED OVER U REVERSED,⠥⠐⠌⠥ ⠥⠈⠯⠈⠣⠐⠌⠥⠈⠯⠈⠣
-785,𒌑,74513,𒌑,12311,CUNEIFORM SIGN U2,⠥⠼⠃
-786,𒌒,74514,𒌒,12312,CUNEIFORM SIGN UB,⠥⠃
-787,𒌓,74515,𒌓,12313,CUNEIFORM SIGN UD,⠥⠙
-788,𒌔,74516,𒌔,12314,CUNEIFORM SIGN UD KUSHU2,⠥⠙ ⠅⠥⠎⠓⠥⠼⠃
-789,𒌕,74517,𒌕,12315,CUNEIFORM SIGN UD TIMES BAD,⠥⠙⠐⠦⠃⠁⠙
-790,𒌖,74518,𒌖,12316,CUNEIFORM SIGN UD TIMES MI,⠥⠙⠐⠦⠍⠊
-791,𒌗,74519,𒌗,12317,CUNEIFORM SIGN UD TIMES U PLUS U PLUS U,⠥⠙⠐⠦⠥⠐⠖⠥⠐⠖⠥
-792,𒌘,74520,𒌘,12318,CUNEIFORM SIGN UD TIMES U PLUS U PLUS U GUNU,⠥⠙⠐⠦⠥⠐⠖⠥⠐⠖⠥ ⠛⠥⠝⠥
-793,𒌙,74521,𒌙,12319,CUNEIFORM SIGN UD GUNU,⠥⠙ ⠛⠥⠝⠥
-794,𒌚,74522,𒌚,1231A,CUNEIFORM SIGN UD SHESHIG,⠥⠙ ⠎⠓⠑⠎⠓⠊⠛
-795,𒌛,74523,𒌛,1231B,CUNEIFORM SIGN UD SHESHIG TIMES BAD,⠥⠙ ⠎⠓⠑⠎⠓⠊⠛⠐⠦⠃⠁⠙
-796,𒌜,74524,𒌜,1231C,CUNEIFORM SIGN UDUG,⠥⠙⠥⠛
-797,𒌝,74525,𒌝,1231D,CUNEIFORM SIGN UM,⠥⠍
-798,𒌞,74526,𒌞,1231E,CUNEIFORM SIGN UM TIMES LAGAB,⠥⠍⠐⠦⠇⠁⠛⠁⠃
-799,𒌟,74527,𒌟,1231F,CUNEIFORM SIGN UM TIMES ME PLUS DA,⠥⠍⠐⠦⠍⠑⠐⠖⠙⠁
-800,𒌠,74528,𒌠,12320,CUNEIFORM SIGN UM TIMES SHA3,⠥⠍⠐⠦⠎⠓⠁⠼⠉
-801,𒌡,74529,𒌡,12321,CUNEIFORM SIGN UM TIMES U,⠥⠍⠐⠦⠥
-802,𒌢,74530,𒌢,12322,CUNEIFORM SIGN UMBIN,⠥⠍⠃⠊⠝
-803,𒌣,74531,𒌣,12323,CUNEIFORM SIGN UMUM,⠥⠍⠥⠍
-804,𒌤,74532,𒌤,12324,CUNEIFORM SIGN UMUM TIMES KASKAL,⠥⠍⠥⠍⠐⠦⠅⠁⠎⠅⠁⠇
-805,𒌥,74533,𒌥,12325,CUNEIFORM SIGN UMUM TIMES PA,⠥⠍⠥⠍⠐⠦⠏⠁
-806,𒌦,74534,𒌦,12326,CUNEIFORM SIGN UN,⠥⠝
-807,𒌧,74535,𒌧,12327,CUNEIFORM SIGN UN GUNU,⠥⠝ ⠛⠥⠝⠥
-808,𒌨,74536,𒌨,12328,CUNEIFORM SIGN UR,⠥⠗
-809,𒌩,74537,𒌩,12329,CUNEIFORM SIGN UR CROSSING UR,⠥⠗⠈⠯⠥⠗
-810,𒌪,74538,𒌪,1232A,CUNEIFORM SIGN UR SHESHIG,⠥⠗ ⠎⠓⠑⠎⠓⠊⠛
-811,𒌫,74539,𒌫,1232B,CUNEIFORM SIGN UR2,⠥⠗⠼⠃
-812,𒌬,74540,𒌬,1232C,CUNEIFORM SIGN UR2 TIMES A PLUS HA,⠥⠗⠼⠃⠐⠦⠁⠐⠖⠓⠁
-813,𒌭,74541,𒌭,1232D,CUNEIFORM SIGN UR2 TIMES A PLUS NA,⠥⠗⠼⠃⠐⠦⠁⠐⠖⠝⠁
-814,𒌮,74542,𒌮,1232E,CUNEIFORM SIGN UR2 TIMES AL,⠥⠗⠼⠃⠐⠦⠁⠇
-815,𒌯,74543,𒌯,1232F,CUNEIFORM SIGN UR2 TIMES HA,⠥⠗⠼⠃⠐⠦⠓⠁
-816,𒌰,74544,𒌰,12330,CUNEIFORM SIGN UR2 TIMES NUN,⠥⠗⠼⠃⠐⠦⠝⠥⠝
-817,𒌱,74545,𒌱,12331,CUNEIFORM SIGN UR2 TIMES U2,⠥⠗⠼⠃⠐⠦⠥⠼⠃
-818,𒌲,74546,𒌲,12332,CUNEIFORM SIGN UR2 TIMES U2 PLUS ASH,⠥⠗⠼⠃⠐⠦⠥⠼⠃⠐⠖⠁⠎⠓
-819,𒌳,74547,𒌳,12333,CUNEIFORM SIGN UR2 TIMES U2 PLUS BI,⠥⠗⠼⠃⠐⠦⠥⠼⠃⠐⠖⠃⠊
-820,𒌴,74548,𒌴,12334,CUNEIFORM SIGN UR4,⠥⠗⠼⠙
-821,𒌵,74549,𒌵,12335,CUNEIFORM SIGN URI,⠥⠗⠊
-822,𒌶,74550,𒌶,12336,CUNEIFORM SIGN URI3,⠥⠗⠊⠼⠉
-823,𒌷,74551,𒌷,12337,CUNEIFORM SIGN URU,⠥⠗⠥
-824,𒌸,74552,𒌸,12338,CUNEIFORM SIGN URU TIMES A,⠥⠗⠥⠐⠦⠁
-825,𒌹,74553,𒌹,12339,CUNEIFORM SIGN URU TIMES ASHGAB,⠥⠗⠥⠐⠦⠁⠎⠓⠛⠁⠃
-826,𒌺,74554,𒌺,1233A,CUNEIFORM SIGN URU TIMES BAR,⠥⠗⠥⠐⠦⠃⠁⠗
-827,𒌻,74555,𒌻,1233B,CUNEIFORM SIGN URU TIMES DUN,⠥⠗⠥⠐⠦⠙⠥⠝
-828,𒌼,74556,𒌼,1233C,CUNEIFORM SIGN URU TIMES GA,⠥⠗⠥⠐⠦⠛⠁
-829,𒌽,74557,𒌽,1233D,CUNEIFORM SIGN URU TIMES GAL,⠥⠗⠥⠐⠦⠛⠁⠇
-830,𒌾,74558,𒌾,1233E,CUNEIFORM SIGN URU TIMES GAN2 TENU,⠥⠗⠥⠐⠦⠛⠁⠝⠼⠃ ⠞⠑⠝⠥
-831,𒌿,74559,𒌿,1233F,CUNEIFORM SIGN URU TIMES GAR,⠥⠗⠥⠐⠦⠛⠁⠗
-832,𒍀,74560,𒍀,12340,CUNEIFORM SIGN URU TIMES GU,⠥⠗⠥⠐⠦⠛⠥
-833,𒍁,74561,𒍁,12341,CUNEIFORM SIGN URU TIMES HA,⠥⠗⠥⠐⠦⠓⠁
-834,𒍂,74562,𒍂,12342,CUNEIFORM SIGN URU TIMES IGI,⠥⠗⠥⠐⠦⠊⠛⠊
-835,𒍃,74563,𒍃,12343,CUNEIFORM SIGN URU TIMES IM,⠥⠗⠥⠐⠦⠊⠍
-836,𒍄,74564,𒍄,12344,CUNEIFORM SIGN URU TIMES ISH,⠥⠗⠥⠐⠦⠊⠎⠓
-837,𒍅,74565,𒍅,12345,CUNEIFORM SIGN URU TIMES KI,⠥⠗⠥⠐⠦⠅⠊
-838,𒍆,74566,𒍆,12346,CUNEIFORM SIGN URU TIMES LUM,⠥⠗⠥⠐⠦⠇⠥⠍
-839,𒍇,74567,𒍇,12347,CUNEIFORM SIGN URU TIMES MIN,⠥⠗⠥⠐⠦⠍⠊⠝
-840,𒍈,74568,𒍈,12348,CUNEIFORM SIGN URU TIMES PA,⠥⠗⠥⠐⠦⠏⠁
-841,𒍉,74569,𒍉,12349,CUNEIFORM SIGN URU TIMES SHE,⠥⠗⠥⠐⠦⠎⠓⠑
-842,𒍊,74570,𒍊,1234A,CUNEIFORM SIGN URU TIMES SIG4,⠥⠗⠥⠐⠦⠎⠊⠛⠼⠙
-843,𒍋,74571,𒍋,1234B,CUNEIFORM SIGN URU TIMES TU,⠥⠗⠥⠐⠦⠞⠥
-844,𒍌,74572,𒍌,1234C,CUNEIFORM SIGN URU TIMES U PLUS GUD,⠥⠗⠥⠐⠦⠥⠐⠖⠛⠥⠙
-845,𒍍,74573,𒍍,1234D,CUNEIFORM SIGN URU TIMES UD,⠥⠗⠥⠐⠦⠥⠙
-846,𒍎,74574,𒍎,1234E,CUNEIFORM SIGN URU TIMES URUDA,⠥⠗⠥⠐⠦⠥⠗⠥⠙⠁
-847,𒍏,74575,𒍏,1234F,CUNEIFORM SIGN URUDA,⠥⠗⠥⠙⠁
-848,𒍐,74576,𒍐,12350,CUNEIFORM SIGN URUDA TIMES U,⠥⠗⠥⠙⠁⠐⠦⠥
-849,𒍑,74577,𒍑,12351,CUNEIFORM SIGN USH,⠥⠎⠓
-850,𒍒,74578,𒍒,12352,CUNEIFORM SIGN USH TIMES A,⠥⠎⠓⠐⠦⠁
-851,𒍓,74579,𒍓,12353,CUNEIFORM SIGN USH TIMES KU,⠥⠎⠓⠐⠦⠅⠥
-852,𒍔,74580,𒍔,12354,CUNEIFORM SIGN USH TIMES KUR,⠥⠎⠓⠐⠦⠅⠥⠗
-853,𒍕,74581,𒍕,12355,CUNEIFORM SIGN USH TIMES TAK4,⠥⠎⠓⠐⠦⠞⠁⠅⠼⠙
-854,𒍖,74582,𒍖,12356,CUNEIFORM SIGN USHX,⠥⠎⠓⠭
-855,𒍗,74583,𒍗,12357,CUNEIFORM SIGN USH2,⠥⠎⠓⠼⠃
-856,𒍘,74584,𒍘,12358,CUNEIFORM SIGN USHUMX,⠥⠎⠓⠥⠍⠭
-857,𒍙,74585,𒍙,12359,CUNEIFORM SIGN UTUKI,⠥⠞⠥⠅⠊
-858,𒍚,74586,𒍚,1235A,CUNEIFORM SIGN UZ3,⠥⠵⠼⠉
-859,𒍛,74587,𒍛,1235B,CUNEIFORM SIGN UZ3 TIMES KASKAL,⠥⠵⠼⠉⠐⠦⠅⠁⠎⠅⠁⠇
-860,𒍜,74588,𒍜,1235C,CUNEIFORM SIGN UZU,⠥⠵⠥
-861,𒍝,74589,𒍝,1235D,CUNEIFORM SIGN ZA,⠵⠁
-862,𒍞,74590,𒍞,1235E,CUNEIFORM SIGN ZA TENU,⠵⠁ ⠞⠑⠝⠥
-863,𒍟,74591,𒍟,1235F,CUNEIFORM SIGN ZA SQUARED TIMES KUR,⠵⠁⠔⠼⠃⠐⠦⠅⠥⠗
-864,𒍠,74592,𒍠,12360,CUNEIFORM SIGN ZAG,⠵⠁⠛
-865,𒍡,74593,𒍡,12361,CUNEIFORM SIGN ZAMX,⠵⠁⠍⠭
-866,𒍢,74594,𒍢,12362,CUNEIFORM SIGN ZE2,⠵⠑⠼⠃
-867,𒍣,74595,𒍣,12363,CUNEIFORM SIGN ZI,⠵⠊
-868,𒍤,74596,𒍤,12364,CUNEIFORM SIGN ZI OVER ZI,⠵⠊⠐⠌⠵⠊
-869,𒍥,74597,𒍥,12365,CUNEIFORM SIGN ZI3,⠵⠊⠼⠉
-870,𒍦,74598,𒍦,12366,CUNEIFORM SIGN ZIB,⠵⠊⠃
-871,𒍧,74599,𒍧,12367,CUNEIFORM SIGN ZIB KABA TENU,⠵⠊⠃ ⠅⠁⠃⠁ ⠞⠑⠝⠥
-872,𒍨,74600,𒍨,12368,CUNEIFORM SIGN ZIG,⠵⠊⠛
-873,𒍩,74601,𒍩,12369,CUNEIFORM SIGN ZIZ2,⠵⠊⠵⠼⠃
-874,𒍪,74602,𒍪,1236A,CUNEIFORM SIGN ZU,⠵⠥
-875,𒍫,74603,𒍫,1236B,CUNEIFORM SIGN ZU5,⠵⠥⠼⠑
-876,𒍬,74604,𒍬,1236C,CUNEIFORM SIGN ZU5 TIMES A,⠵⠥⠼⠑⠐⠦⠁
-877,𒍭,74605,𒍭,1236D,CUNEIFORM SIGN ZUBUR,⠵⠥⠃⠥⠗
-878,𒍮,74606,𒍮,1236E,CUNEIFORM SIGN ZUM,⠵⠥⠍
-879,𒍯,74607,𒍯,1236F,CUNEIFORM SIGN KAP ELAMITE,⠅⠁⠏ ⠑⠇⠁⠍⠊⠞⠑
-880,𒍰,74608,𒍰,12370,CUNEIFORM SIGN AB TIMES NUN,⠁⠃⠐⠦⠝⠥⠝
-881,𒍱,74609,𒍱,12371,CUNEIFORM SIGN AB2 TIMES A,⠁⠃⠼⠃⠐⠦⠁
-882,𒍲,74610,𒍲,12372,CUNEIFORM SIGN AMAR TIMES KUG,⠁⠍⠁⠗⠐⠦⠅⠥⠛
-883,𒍳,74611,𒍳,12373,CUNEIFORM SIGN DAG KISIM5 TIMES U2 PLUS MASH,⠙⠁⠛ ⠅⠊⠎⠊⠍⠼⠑⠐⠦⠥⠼⠃⠐⠖⠍⠁⠎⠓
-884,𒍴,74612,𒍴,12374,CUNEIFORM SIGN DAG3,⠙⠁⠛⠼⠉
-885,𒍵,74613,𒍵,12375,CUNEIFORM SIGN DISH PLUS SHU,⠙⠊⠎⠓⠐⠖⠎⠓⠥
-886,𒍶,74614,𒍶,12376,CUNEIFORM SIGN DUB TIMES SHE,⠙⠥⠃⠐⠦⠎⠓⠑
-887,𒍷,74615,𒍷,12377,CUNEIFORM SIGN EZEN TIMES GUD,⠑⠵⠑⠝⠐⠦⠛⠥⠙
-888,𒍸,74616,𒍸,12378,CUNEIFORM SIGN EZEN TIMES SHE,⠑⠵⠑⠝⠐⠦⠎⠓⠑
-889,𒍹,74617,𒍹,12379,CUNEIFORM SIGN GA2 TIMES AN PLUS KAK PLUS A,⠛⠁⠼⠃⠐⠦⠁⠝⠐⠖⠅⠁⠅⠐⠖⠁
-890,𒍺,74618,𒍺,1237A,CUNEIFORM SIGN GA2 TIMES ASH2,⠛⠁⠼⠃⠐⠦⠁⠎⠓⠼⠃
-891,𒍻,74619,𒍻,1237B,CUNEIFORM SIGN GE22,⠛⠑⠼⠃⠼⠃
-892,𒍼,74620,𒍼,1237C,CUNEIFORM SIGN GIG,⠛⠊⠛
-893,𒍽,74621,𒍽,1237D,CUNEIFORM SIGN HUSH,⠓⠥⠎⠓
-894,𒍾,74622,𒍾,1237E,CUNEIFORM SIGN KA TIMES ANSHE,⠅⠁⠐⠦⠁⠝⠎⠓⠑
-895,𒍿,74623,𒍿,1237F,CUNEIFORM SIGN KA TIMES ASH3,⠅⠁⠐⠦⠁⠎⠓⠼⠉
-896,𒎀,74624,𒎀,12380,CUNEIFORM SIGN KA TIMES GISH,⠅⠁⠐⠦⠛⠊⠎⠓
-897,𒎁,74625,𒎁,12381,CUNEIFORM SIGN KA TIMES GUD,⠅⠁⠐⠦⠛⠥⠙
-898,𒎂,74626,𒎂,12382,CUNEIFORM SIGN KA TIMES HI TIMES ASH2,⠅⠁⠐⠦⠓⠊⠐⠦⠁⠎⠓⠼⠃
-899,𒎃,74627,𒎃,12383,CUNEIFORM SIGN KA TIMES LUM,⠅⠁⠐⠦⠇⠥⠍
-900,𒎄,74628,𒎄,12384,CUNEIFORM SIGN KA TIMES PA,⠅⠁⠐⠦⠏⠁
-901,𒎅,74629,𒎅,12385,CUNEIFORM SIGN KA TIMES SHUL,⠅⠁⠐⠦⠎⠓⠥⠇
-902,𒎆,74630,𒎆,12386,CUNEIFORM SIGN KA TIMES TU,⠅⠁⠐⠦⠞⠥
-903,𒎇,74631,𒎇,12387,CUNEIFORM SIGN KA TIMES UR2,⠅⠁⠐⠦⠥⠗⠼⠃
-904,𒎈,74632,𒎈,12388,CUNEIFORM SIGN LAGAB TIMES GI,⠇⠁⠛⠁⠃⠐⠦⠛⠊
-905,𒎉,74633,𒎉,12389,CUNEIFORM SIGN LU2 SHESHIG TIMES BAD,⠇⠥⠼⠃ ⠎⠓⠑⠎⠓⠊⠛⠐⠦⠃⠁⠙
-906,𒎊,74634,𒎊,1238A,CUNEIFORM SIGN LU2 TIMES ESH2 PLUS LAL,⠇⠥⠼⠃⠐⠦⠑⠎⠓⠼⠃⠐⠖⠇⠁⠇
-907,𒎋,74635,𒎋,1238B,CUNEIFORM SIGN LU2 TIMES SHU,⠇⠥⠼⠃⠐⠦⠎⠓⠥
-908,𒎌,74636,𒎌,1238C,CUNEIFORM SIGN MESH,⠍⠑⠎⠓
-909,𒎍,74637,𒎍,1238D,CUNEIFORM SIGN MUSH3 TIMES ZA,⠍⠥⠎⠓⠼⠉⠐⠦⠵⠁
-910,𒎎,74638,𒎎,1238E,CUNEIFORM SIGN NA4,⠝⠁⠼⠙
-911,𒎏,74639,𒎏,1238F,CUNEIFORM SIGN NIN,⠝⠊⠝
-912,𒎐,74640,𒎐,12390,CUNEIFORM SIGN NIN9,⠝⠊⠝⠼⠊
-913,𒎑,74641,𒎑,12391,CUNEIFORM SIGN NINDA2 TIMES BAL,⠝⠊⠝⠙⠁⠼⠃⠐⠦⠃⠁⠇
-914,𒎒,74642,𒎒,12392,CUNEIFORM SIGN NINDA2 TIMES GI,⠝⠊⠝⠙⠁⠼⠃⠐⠦⠛⠊
-915,𒎓,74643,𒎓,12393,CUNEIFORM SIGN NU11 ROTATED NINETY DEGREES,⠝⠥⠼⠁⠼⠁⠨⠴
-916,𒎔,74644,𒎔,12394,CUNEIFORM SIGN PESH2 ASTERISK,⠏⠑⠎⠓⠼⠃⠐⠦
-917,𒎕,74645,𒎕,12395,CUNEIFORM SIGN PIR2,⠏⠊⠗⠼⠃
-918,𒎖,74646,𒎖,12396,CUNEIFORM SIGN SAG TIMES IGI GUNU,⠎⠁⠛⠐⠦⠊⠛⠊ ⠛⠥⠝⠥
-919,𒎗,74647,𒎗,12397,CUNEIFORM SIGN TI2,⠞⠊⠼⠃
-920,𒎘,74648,𒎘,12398,CUNEIFORM SIGN UM TIMES ME,⠥⠍⠐⠦⠍⠑
-921,𒎙,74649,𒎙,12399,CUNEIFORM SIGN U,⠥
+Character(decimal),Decimal,Character(hex),Hex,Name,Braille
+𒀀,73728,𒀀,12000,CUNEIFORM SIGN A,⠁
+𒀁,73729,𒀁,12001,CUNEIFORM SIGN A TIMES A,⠁⠐⠦⠁
+𒀂,73730,𒀂,12002,CUNEIFORM SIGN A TIMES BAD,⠁⠐⠦⠃⠁⠙
+𒀃,73731,𒀃,12003,CUNEIFORM SIGN A TIMES GAN2 TENU,⠁⠐⠦⠛⠁⠝⠼⠃ ⠞⠑⠝⠥
+𒀄,73732,𒀄,12004,CUNEIFORM SIGN A TIMES HA,⠁⠐⠦⠓⠁
+𒀅,73733,𒀅,12005,CUNEIFORM SIGN A TIMES IGI,⠁⠐⠦⠊⠛⠊
+𒀆,73734,𒀆,12006,CUNEIFORM SIGN A TIMES LAGAR GUNU,⠁⠐⠦⠇⠁⠛⠁⠗ ⠛⠥⠝⠥
+𒀇,73735,𒀇,12007,CUNEIFORM SIGN A TIMES MUSH,⠁⠐⠦⠍⠥⠎⠓
+𒀈,73736,𒀈,12008,CUNEIFORM SIGN A TIMES SAG,⠁⠐⠦⠎⠁⠛
+𒀉,73737,𒀉,12009,CUNEIFORM SIGN A2,⠁⠼⠃
+𒀊,73738,𒀊,1200A,CUNEIFORM SIGN AB,⠁⠃
+𒀋,73739,𒀋,1200B,CUNEIFORM SIGN AB TIMES ASH2,⠁⠃⠐⠦⠁⠎⠓⠼⠃
+𒀌,73740,𒀌,1200C,CUNEIFORM SIGN AB TIMES DUN3 GUNU,⠁⠃⠐⠦⠙⠥⠝⠼⠉ ⠛⠥⠝⠥
+𒀍,73741,𒀍,1200D,CUNEIFORM SIGN AB TIMES GAL,⠁⠃⠐⠦⠛⠁⠇
+𒀎,73742,𒀎,1200E,CUNEIFORM SIGN AB TIMES GAN2 TENU,⠁⠃⠐⠦⠛⠁⠝⠼⠃ ⠞⠑⠝⠥
+𒀏,73743,𒀏,1200F,CUNEIFORM SIGN AB TIMES HA,⠁⠃⠐⠦⠓⠁
+𒀐,73744,𒀐,12010,CUNEIFORM SIGN AB TIMES IGI GUNU,⠁⠃⠐⠦⠊⠛⠊ ⠛⠥⠝⠥
+𒀑,73745,𒀑,12011,CUNEIFORM SIGN AB TIMES IMIN,⠁⠃⠐⠦⠊⠍⠊⠝
+𒀒,73746,𒀒,12012,CUNEIFORM SIGN AB TIMES LAGAB,⠁⠃⠐⠦⠇⠁⠛⠁⠃
+𒀓,73747,𒀓,12013,CUNEIFORM SIGN AB TIMES SHESH,⠁⠃⠐⠦⠎⠓⠑⠎⠓
+𒀔,73748,𒀔,12014,CUNEIFORM SIGN AB TIMES U PLUS U PLUS U,⠁⠃⠐⠦⠥⠐⠖⠥⠐⠖⠥
+𒀕,73749,𒀕,12015,CUNEIFORM SIGN AB GUNU,⠁⠃ ⠛⠥⠝⠥
+𒀖,73750,𒀖,12016,CUNEIFORM SIGN AB2,⠁⠃⠼⠃
+𒀗,73751,𒀗,12017,CUNEIFORM SIGN AB2 TIMES BALAG,⠁⠃⠼⠃⠐⠦⠃⠁⠇⠁⠛
+𒀘,73752,𒀘,12018,CUNEIFORM SIGN AB2 TIMES GAN2 TENU,⠁⠃⠼⠃⠐⠦⠛⠁⠝⠼⠃ ⠞⠑⠝⠥
+𒀙,73753,𒀙,12019,CUNEIFORM SIGN AB2 TIMES ME PLUS EN,⠁⠃⠼⠃⠐⠦⠍⠑⠐⠖⠑⠝
+𒀚,73754,𒀚,1201A,CUNEIFORM SIGN AB2 TIMES SHA3,⠁⠃⠼⠃⠐⠦⠎⠓⠁⠼⠉
+𒀛,73755,𒀛,1201B,CUNEIFORM SIGN AB2 TIMES TAK4,⠁⠃⠼⠃⠐⠦⠞⠁⠅⠼⠙
+𒀜,73756,𒀜,1201C,CUNEIFORM SIGN AD,⠁⠙
+𒀝,73757,𒀝,1201D,CUNEIFORM SIGN AK,⠁⠅
+𒀞,73758,𒀞,1201E,CUNEIFORM SIGN AK TIMES ERIN2,⠁⠅⠐⠦⠑⠗⠊⠝⠼⠃
+𒀟,73759,𒀟,1201F,CUNEIFORM SIGN AK TIMES SHITA PLUS GISH,⠁⠅⠐⠦⠎⠓⠊⠞⠁⠐⠖⠛⠊⠎⠓
+𒀠,73760,𒀠,12020,CUNEIFORM SIGN AL,⠁⠇
+𒀡,73761,𒀡,12021,CUNEIFORM SIGN AL TIMES AL,⠁⠇⠐⠦⠁⠇
+𒀢,73762,𒀢,12022,CUNEIFORM SIGN AL TIMES DIM2,⠁⠇⠐⠦⠙⠊⠍⠼⠃
+𒀣,73763,𒀣,12023,CUNEIFORM SIGN AL TIMES GISH,⠁⠇⠐⠦⠛⠊⠎⠓
+𒀤,73764,𒀤,12024,CUNEIFORM SIGN AL TIMES HA,⠁⠇⠐⠦⠓⠁
+𒀥,73765,𒀥,12025,CUNEIFORM SIGN AL TIMES KAD3,⠁⠇⠐⠦⠅⠁⠙⠼⠉
+𒀦,73766,𒀦,12026,CUNEIFORM SIGN AL TIMES KI,⠁⠇⠐⠦⠅⠊
+𒀧,73767,𒀧,12027,CUNEIFORM SIGN AL TIMES SHE,⠁⠇⠐⠦⠎⠓⠑
+𒀨,73768,𒀨,12028,CUNEIFORM SIGN AL TIMES USH,⠁⠇⠐⠦⠥⠎⠓
+𒀩,73769,𒀩,12029,CUNEIFORM SIGN ALAN,⠁⠇⠁⠝
+𒀪,73770,𒀪,1202A,CUNEIFORM SIGN ALEPH,⠁⠇⠑⠏⠓
+𒀫,73771,𒀫,1202B,CUNEIFORM SIGN AMAR,⠁⠍⠁⠗
+𒀬,73772,𒀬,1202C,CUNEIFORM SIGN AMAR TIMES SHE,⠁⠍⠁⠗⠐⠦⠎⠓⠑
+𒀭,73773,𒀭,1202D,CUNEIFORM SIGN AN,⠁⠝
+𒀮,73774,𒀮,1202E,CUNEIFORM SIGN AN OVER AN,⠁⠝⠐⠌⠁⠝
+𒀯,73775,𒀯,1202F,CUNEIFORM SIGN AN THREE TIMES,⠁⠝⠔⠼⠉
+𒀰,73776,𒀰,12030,CUNEIFORM SIGN AN PLUS NAGA OPPOSING AN PLUS NAGA,⠁⠝⠐⠖⠝⠁⠛⠁⠈⠎⠁⠝⠐⠖⠝⠁⠛⠁
+𒀱,73777,𒀱,12031,CUNEIFORM SIGN AN PLUS NAGA SQUARED,⠁⠝⠐⠖⠝⠁⠛⠁⠔⠼⠃
+𒀲,73778,𒀲,12032,CUNEIFORM SIGN ANSHE,⠁⠝⠎⠓⠑
+𒀳,73779,𒀳,12033,CUNEIFORM SIGN APIN,⠁⠏⠊⠝
+𒀴,73780,𒀴,12034,CUNEIFORM SIGN ARAD,⠁⠗⠁⠙
+𒀵,73781,𒀵,12035,CUNEIFORM SIGN ARAD TIMES KUR,⠁⠗⠁⠙⠐⠦⠅⠥⠗
+𒀶,73782,𒀶,12036,CUNEIFORM SIGN ARKAB,⠁⠗⠅⠁⠃
+𒀷,73783,𒀷,12037,CUNEIFORM SIGN ASAL2,⠁⠎⠁⠇⠼⠃
+𒀸,73784,𒀸,12038,CUNEIFORM SIGN ASH,⠁⠎⠓
+𒀹,73785,𒀹,12039,CUNEIFORM SIGN ASH ZIDA TENU,⠁⠎⠓ ⠵⠊⠙⠁ ⠞⠑⠝⠥
+𒀺,73786,𒀺,1203A,CUNEIFORM SIGN ASH KABA TENU,⠁⠎⠓ ⠅⠁⠃⠁ ⠞⠑⠝⠥
+𒀻,73787,𒀻,1203B,CUNEIFORM SIGN ASH OVER ASH TUG2 OVER TUG2 TUG2 OVER TUG2 PAP,⠁⠎⠓⠐⠌⠁⠎⠓ ⠞⠥⠛⠼⠃⠐⠌⠞⠥⠛⠼⠃ ⠞⠥⠛⠼⠃⠐⠌⠞⠥⠛⠼⠃ ⠏⠁⠏
+𒀼,73788,𒀼,1203C,CUNEIFORM SIGN ASH OVER ASH OVER ASH,⠁⠎⠓⠐⠌⠁⠎⠓⠐⠌⠁⠎⠓
+𒀽,73789,𒀽,1203D,CUNEIFORM SIGN ASH OVER ASH OVER ASH CROSSING ASH OVER ASH OVER ASH,⠁⠎⠓⠐⠌⠁⠎⠓⠐⠌⠁⠎⠓⠈⠯⠁⠎⠓⠐⠌⠁⠎⠓⠐⠌⠁⠎⠓
+𒀾,73790,𒀾,1203E,CUNEIFORM SIGN ASH2,⠁⠎⠓⠼⠃
+𒀿,73791,𒀿,1203F,CUNEIFORM SIGN ASHGAB,⠁⠎⠓⠛⠁⠃
+𒁀,73792,𒁀,12040,CUNEIFORM SIGN BA,⠃⠁
+𒁁,73793,𒁁,12041,CUNEIFORM SIGN BAD,⠃⠁⠙
+𒁂,73794,𒁂,12042,CUNEIFORM SIGN BAG3,⠃⠁⠛⠼⠉
+𒁃,73795,𒁃,12043,CUNEIFORM SIGN BAHAR2,⠃⠁⠓⠁⠗⠼⠃
+𒁄,73796,𒁄,12044,CUNEIFORM SIGN BAL,⠃⠁⠇
+𒁅,73797,𒁅,12045,CUNEIFORM SIGN BAL OVER BAL,⠃⠁⠇⠐⠌⠃⠁⠇
+𒁆,73798,𒁆,12046,CUNEIFORM SIGN BALAG,⠃⠁⠇⠁⠛
+𒁇,73799,𒁇,12047,CUNEIFORM SIGN BAR,⠃⠁⠗
+𒁈,73800,𒁈,12048,CUNEIFORM SIGN BARA2,⠃⠁⠗⠁⠼⠃
+𒁉,73801,𒁉,12049,CUNEIFORM SIGN BI,⠃⠊
+𒁊,73802,𒁊,1204A,CUNEIFORM SIGN BI TIMES A,⠃⠊⠐⠦⠁
+𒁋,73803,𒁋,1204B,CUNEIFORM SIGN BI TIMES GAR,⠃⠊⠐⠦⠛⠁⠗
+𒁌,73804,𒁌,1204C,CUNEIFORM SIGN BI TIMES IGI GUNU,⠃⠊⠐⠦⠊⠛⠊ ⠛⠥⠝⠥
+𒁍,73805,𒁍,1204D,CUNEIFORM SIGN BU,⠃⠥
+𒁎,73806,𒁎,1204E,CUNEIFORM SIGN BU OVER BU AB,⠃⠥⠐⠌⠃⠥ ⠁⠃
+𒁏,73807,𒁏,1204F,CUNEIFORM SIGN BU OVER BU UN,⠃⠥⠐⠌⠃⠥ ⠥⠝
+𒁐,73808,𒁐,12050,CUNEIFORM SIGN BU CROSSING BU,⠃⠥⠈⠯⠃⠥
+𒁑,73809,𒁑,12051,CUNEIFORM SIGN BULUG,⠃⠥⠇⠥⠛
+𒁒,73810,𒁒,12052,CUNEIFORM SIGN BULUG OVER BULUG,⠃⠥⠇⠥⠛⠐⠌⠃⠥⠇⠥⠛
+𒁓,73811,𒁓,12053,CUNEIFORM SIGN BUR,⠃⠥⠗
+𒁔,73812,𒁔,12054,CUNEIFORM SIGN BUR2,⠃⠥⠗⠼⠃
+𒁕,73813,𒁕,12055,CUNEIFORM SIGN DA,⠙⠁
+𒁖,73814,𒁖,12056,CUNEIFORM SIGN DAG,⠙⠁⠛
+𒁗,73815,𒁗,12057,CUNEIFORM SIGN DAG KISIM5 TIMES A PLUS MASH,⠙⠁⠛ ⠅⠊⠎⠊⠍⠼⠑⠐⠦⠁⠐⠖⠍⠁⠎⠓
+𒁘,73816,𒁘,12058,CUNEIFORM SIGN DAG KISIM5 TIMES AMAR,⠙⠁⠛ ⠅⠊⠎⠊⠍⠼⠑⠐⠦⠁⠍⠁⠗
+𒁙,73817,𒁙,12059,CUNEIFORM SIGN DAG KISIM5 TIMES BALAG,⠙⠁⠛ ⠅⠊⠎⠊⠍⠼⠑⠐⠦⠃⠁⠇⠁⠛
+𒁚,73818,𒁚,1205A,CUNEIFORM SIGN DAG KISIM5 TIMES BI,⠙⠁⠛ ⠅⠊⠎⠊⠍⠼⠑⠐⠦⠃⠊
+𒁛,73819,𒁛,1205B,CUNEIFORM SIGN DAG KISIM5 TIMES GA,⠙⠁⠛ ⠅⠊⠎⠊⠍⠼⠑⠐⠦⠛⠁
+𒁜,73820,𒁜,1205C,CUNEIFORM SIGN DAG KISIM5 TIMES GA PLUS MASH,⠙⠁⠛ ⠅⠊⠎⠊⠍⠼⠑⠐⠦⠛⠁⠐⠖⠍⠁⠎⠓
+𒁝,73821,𒁝,1205D,CUNEIFORM SIGN DAG KISIM5 TIMES GI,⠙⠁⠛ ⠅⠊⠎⠊⠍⠼⠑⠐⠦⠛⠊
+𒁞,73822,𒁞,1205E,CUNEIFORM SIGN DAG KISIM5 TIMES GIR2,⠙⠁⠛ ⠅⠊⠎⠊⠍⠼⠑⠐⠦⠛⠊⠗⠼⠃
+𒁟,73823,𒁟,1205F,CUNEIFORM SIGN DAG KISIM5 TIMES GUD,⠙⠁⠛ ⠅⠊⠎⠊⠍⠼⠑⠐⠦⠛⠥⠙
+𒁠,73824,𒁠,12060,CUNEIFORM SIGN DAG KISIM5 TIMES HA,⠙⠁⠛ ⠅⠊⠎⠊⠍⠼⠑⠐⠦⠓⠁
+𒁡,73825,𒁡,12061,CUNEIFORM SIGN DAG KISIM5 TIMES IR,⠙⠁⠛ ⠅⠊⠎⠊⠍⠼⠑⠐⠦⠊⠗
+𒁢,73826,𒁢,12062,CUNEIFORM SIGN DAG KISIM5 TIMES IR PLUS LU,⠙⠁⠛ ⠅⠊⠎⠊⠍⠼⠑⠐⠦⠊⠗⠐⠖⠇⠥
+𒁣,73827,𒁣,12063,CUNEIFORM SIGN DAG KISIM5 TIMES KAK,⠙⠁⠛ ⠅⠊⠎⠊⠍⠼⠑⠐⠦⠅⠁⠅
+𒁤,73828,𒁤,12064,CUNEIFORM SIGN DAG KISIM5 TIMES LA,⠙⠁⠛ ⠅⠊⠎⠊⠍⠼⠑⠐⠦⠇⠁
+𒁥,73829,𒁥,12065,CUNEIFORM SIGN DAG KISIM5 TIMES LU,⠙⠁⠛ ⠅⠊⠎⠊⠍⠼⠑⠐⠦⠇⠥
+𒁦,73830,𒁦,12066,CUNEIFORM SIGN DAG KISIM5 TIMES LU PLUS MASH2,⠙⠁⠛ ⠅⠊⠎⠊⠍⠼⠑⠐⠦⠇⠥⠐⠖⠍⠁⠎⠓⠼⠃
+𒁧,73831,𒁧,12067,CUNEIFORM SIGN DAG KISIM5 TIMES LUM,⠙⠁⠛ ⠅⠊⠎⠊⠍⠼⠑⠐⠦⠇⠥⠍
+𒁨,73832,𒁨,12068,CUNEIFORM SIGN DAG KISIM5 TIMES NE,⠙⠁⠛ ⠅⠊⠎⠊⠍⠼⠑⠐⠦⠝⠑
+𒁩,73833,𒁩,12069,CUNEIFORM SIGN DAG KISIM5 TIMES PAP PLUS PAP,⠙⠁⠛ ⠅⠊⠎⠊⠍⠼⠑⠐⠦⠏⠁⠏⠐⠖⠏⠁⠏
+𒁪,73834,𒁪,1206A,CUNEIFORM SIGN DAG KISIM5 TIMES SI,⠙⠁⠛ ⠅⠊⠎⠊⠍⠼⠑⠐⠦⠎⠊
+𒁫,73835,𒁫,1206B,CUNEIFORM SIGN DAG KISIM5 TIMES TAK4,⠙⠁⠛ ⠅⠊⠎⠊⠍⠼⠑⠐⠦⠞⠁⠅⠼⠙
+𒁬,73836,𒁬,1206C,CUNEIFORM SIGN DAG KISIM5 TIMES U2 PLUS GIR2,⠙⠁⠛ ⠅⠊⠎⠊⠍⠼⠑⠐⠦⠥⠼⠃⠐⠖⠛⠊⠗⠼⠃
+𒁭,73837,𒁭,1206D,CUNEIFORM SIGN DAG KISIM5 TIMES USH,⠙⠁⠛ ⠅⠊⠎⠊⠍⠼⠑⠐⠦⠥⠎⠓
+𒁮,73838,𒁮,1206E,CUNEIFORM SIGN DAM,⠙⠁⠍
+𒁯,73839,𒁯,1206F,CUNEIFORM SIGN DAR,⠙⠁⠗
+𒁰,73840,𒁰,12070,CUNEIFORM SIGN DARA3,⠙⠁⠗⠁⠼⠉
+𒁱,73841,𒁱,12071,CUNEIFORM SIGN DARA4,⠙⠁⠗⠁⠼⠙
+𒁲,73842,𒁲,12072,CUNEIFORM SIGN DI,⠙⠊
+𒁳,73843,𒁳,12073,CUNEIFORM SIGN DIB,⠙⠊⠃
+𒁴,73844,𒁴,12074,CUNEIFORM SIGN DIM,⠙⠊⠍
+𒁵,73845,𒁵,12075,CUNEIFORM SIGN DIM TIMES SHE,⠙⠊⠍⠐⠦⠎⠓⠑
+𒁶,73846,𒁶,12076,CUNEIFORM SIGN DIM2,⠙⠊⠍⠼⠃
+𒁷,73847,𒁷,12077,CUNEIFORM SIGN DIN,⠙⠊⠝
+𒁸,73848,𒁸,12078,CUNEIFORM SIGN DIN KASKAL U GUNU DISH,⠙⠊⠝ ⠅⠁⠎⠅⠁⠇ ⠥ ⠛⠥⠝⠥ ⠙⠊⠎⠓
+𒁹,73849,𒁹,12079,CUNEIFORM SIGN DISH,⠙⠊⠎⠓
+𒁺,73850,𒁺,1207A,CUNEIFORM SIGN DU,⠙⠥
+𒁻,73851,𒁻,1207B,CUNEIFORM SIGN DU OVER DU,⠙⠥⠐⠌⠙⠥
+𒁼,73852,𒁼,1207C,CUNEIFORM SIGN DU GUNU,⠙⠥ ⠛⠥⠝⠥
+𒁽,73853,𒁽,1207D,CUNEIFORM SIGN DU SHESHIG,⠙⠥ ⠎⠓⠑⠎⠓⠊⠛
+𒁾,73854,𒁾,1207E,CUNEIFORM SIGN DUB,⠙⠥⠃
+𒁿,73855,𒁿,1207F,CUNEIFORM SIGN DUB TIMES ESH2,⠙⠥⠃⠐⠦⠑⠎⠓⠼⠃
+𒂀,73856,𒂀,12080,CUNEIFORM SIGN DUB2,⠙⠥⠃⠼⠃
+𒂁,73857,𒂁,12081,CUNEIFORM SIGN DUG,⠙⠥⠛
+𒂂,73858,𒂂,12082,CUNEIFORM SIGN DUGUD,⠙⠥⠛⠥⠙
+𒂃,73859,𒂃,12083,CUNEIFORM SIGN DUH,⠙⠥⠓
+𒂄,73860,𒂄,12084,CUNEIFORM SIGN DUN,⠙⠥⠝
+𒂅,73861,𒂅,12085,CUNEIFORM SIGN DUN3,⠙⠥⠝⠼⠉
+𒂆,73862,𒂆,12086,CUNEIFORM SIGN DUN3 GUNU,⠙⠥⠝⠼⠉ ⠛⠥⠝⠥
+𒂇,73863,𒂇,12087,CUNEIFORM SIGN DUN3 GUNU GUNU,⠙⠥⠝⠼⠉ ⠛⠥⠝⠥ ⠛⠥⠝⠥
+𒂈,73864,𒂈,12088,CUNEIFORM SIGN DUN4,⠙⠥⠝⠼⠙
+𒂉,73865,𒂉,12089,CUNEIFORM SIGN DUR2,⠙⠥⠗⠼⠃
+𒂊,73866,𒂊,1208A,CUNEIFORM SIGN E,⠑
+𒂋,73867,𒂋,1208B,CUNEIFORM SIGN E TIMES PAP,⠑⠐⠦⠏⠁⠏
+𒂌,73868,𒂌,1208C,CUNEIFORM SIGN E OVER E NUN OVER NUN,⠑⠐⠌⠑ ⠝⠥⠝⠐⠌⠝⠥⠝
+𒂍,73869,𒂍,1208D,CUNEIFORM SIGN E2,⠑⠼⠃
+𒂎,73870,𒂎,1208E,CUNEIFORM SIGN E2 TIMES A PLUS HA PLUS DA,⠑⠼⠃⠐⠦⠁⠐⠖⠓⠁⠐⠖⠙⠁
+𒂏,73871,𒂏,1208F,CUNEIFORM SIGN E2 TIMES GAR,⠑⠼⠃⠐⠦⠛⠁⠗
+𒂐,73872,𒂐,12090,CUNEIFORM SIGN E2 TIMES MI,⠑⠼⠃⠐⠦⠍⠊
+𒂑,73873,𒂑,12091,CUNEIFORM SIGN E2 TIMES SAL,⠑⠼⠃⠐⠦⠎⠁⠇
+𒂒,73874,𒂒,12092,CUNEIFORM SIGN E2 TIMES SHE,⠑⠼⠃⠐⠦⠎⠓⠑
+𒂓,73875,𒂓,12093,CUNEIFORM SIGN E2 TIMES U,⠑⠼⠃⠐⠦⠥
+𒂔,73876,𒂔,12094,CUNEIFORM SIGN EDIN,⠑⠙⠊⠝
+𒂕,73877,𒂕,12095,CUNEIFORM SIGN EGIR,⠑⠛⠊⠗
+𒂖,73878,𒂖,12096,CUNEIFORM SIGN EL,⠑⠇
+𒂗,73879,𒂗,12097,CUNEIFORM SIGN EN,⠑⠝
+𒂘,73880,𒂘,12098,CUNEIFORM SIGN EN TIMES GAN2,⠑⠝⠐⠦⠛⠁⠝⠼⠃
+𒂙,73881,𒂙,12099,CUNEIFORM SIGN EN TIMES GAN2 TENU,⠑⠝⠐⠦⠛⠁⠝⠼⠃ ⠞⠑⠝⠥
+𒂚,73882,𒂚,1209A,CUNEIFORM SIGN EN TIMES ME,⠑⠝⠐⠦⠍⠑
+𒂛,73883,𒂛,1209B,CUNEIFORM SIGN EN CROSSING EN,⠑⠝⠈⠯⠑⠝
+𒂜,73884,𒂜,1209C,CUNEIFORM SIGN EN OPPOSING EN,⠑⠝⠈⠎⠑⠝
+𒂝,73885,𒂝,1209D,CUNEIFORM SIGN EN SQUARED,⠑⠝⠔⠼⠃
+𒂞,73886,𒂞,1209E,CUNEIFORM SIGN EREN,⠑⠗⠑⠝
+𒂟,73887,𒂟,1209F,CUNEIFORM SIGN ERIN2,⠑⠗⠊⠝⠼⠃
+𒂠,73888,𒂠,120A0,CUNEIFORM SIGN ESH2,⠑⠎⠓⠼⠃
+𒂡,73889,𒂡,120A1,CUNEIFORM SIGN EZEN,⠑⠵⠑⠝
+𒂢,73890,𒂢,120A2,CUNEIFORM SIGN EZEN TIMES A,⠑⠵⠑⠝⠐⠦⠁
+𒂣,73891,𒂣,120A3,CUNEIFORM SIGN EZEN TIMES A PLUS LAL,⠑⠵⠑⠝⠐⠦⠁⠐⠖⠇⠁⠇
+𒂤,73892,𒂤,120A4,CUNEIFORM SIGN EZEN TIMES A PLUS LAL TIMES LAL,⠑⠵⠑⠝⠐⠦⠁⠐⠖⠇⠁⠇⠐⠦⠇⠁⠇
+𒂥,73893,𒂥,120A5,CUNEIFORM SIGN EZEN TIMES AN,⠑⠵⠑⠝⠐⠦⠁⠝
+𒂦,73894,𒂦,120A6,CUNEIFORM SIGN EZEN TIMES BAD,⠑⠵⠑⠝⠐⠦⠃⠁⠙
+𒂧,73895,𒂧,120A7,CUNEIFORM SIGN EZEN TIMES DUN3 GUNU,⠑⠵⠑⠝⠐⠦⠙⠥⠝⠼⠉ ⠛⠥⠝⠥
+𒂨,73896,𒂨,120A8,CUNEIFORM SIGN EZEN TIMES DUN3 GUNU GUNU,⠑⠵⠑⠝⠐⠦⠙⠥⠝⠼⠉ ⠛⠥⠝⠥ ⠛⠥⠝⠥
+𒂩,73897,𒂩,120A9,CUNEIFORM SIGN EZEN TIMES HA,⠑⠵⠑⠝⠐⠦⠓⠁
+𒂪,73898,𒂪,120AA,CUNEIFORM SIGN EZEN TIMES HA GUNU,⠑⠵⠑⠝⠐⠦⠓⠁ ⠛⠥⠝⠥
+𒂫,73899,𒂫,120AB,CUNEIFORM SIGN EZEN TIMES IGI GUNU,⠑⠵⠑⠝⠐⠦⠊⠛⠊ ⠛⠥⠝⠥
+𒂬,73900,𒂬,120AC,CUNEIFORM SIGN EZEN TIMES KASKAL,⠑⠵⠑⠝⠐⠦⠅⠁⠎⠅⠁⠇
+𒂭,73901,𒂭,120AD,CUNEIFORM SIGN EZEN TIMES KASKAL SQUARED,⠑⠵⠑⠝⠐⠦⠅⠁⠎⠅⠁⠇⠔⠼⠃
+𒂮,73902,𒂮,120AE,CUNEIFORM SIGN EZEN TIMES KU3,⠑⠵⠑⠝⠐⠦⠅⠥⠼⠉
+𒂯,73903,𒂯,120AF,CUNEIFORM SIGN EZEN TIMES LA,⠑⠵⠑⠝⠐⠦⠇⠁
+𒂰,73904,𒂰,120B0,CUNEIFORM SIGN EZEN TIMES LAL TIMES LAL,⠑⠵⠑⠝⠐⠦⠇⠁⠇⠐⠦⠇⠁⠇
+𒂱,73905,𒂱,120B1,CUNEIFORM SIGN EZEN TIMES LI,⠑⠵⠑⠝⠐⠦⠇⠊
+𒂲,73906,𒂲,120B2,CUNEIFORM SIGN EZEN TIMES LU,⠑⠵⠑⠝⠐⠦⠇⠥
+𒂳,73907,𒂳,120B3,CUNEIFORM SIGN EZEN TIMES U2,⠑⠵⠑⠝⠐⠦⠥⠼⠃
+𒂴,73908,𒂴,120B4,CUNEIFORM SIGN EZEN TIMES UD,⠑⠵⠑⠝⠐⠦⠥⠙
+𒂵,73909,𒂵,120B5,CUNEIFORM SIGN GA,⠛⠁
+𒂶,73910,𒂶,120B6,CUNEIFORM SIGN GA GUNU,⠛⠁ ⠛⠥⠝⠥
+𒂷,73911,𒂷,120B7,CUNEIFORM SIGN GA2,⠛⠁⠼⠃
+𒂸,73912,𒂸,120B8,CUNEIFORM SIGN GA2 TIMES A PLUS DA PLUS HA,⠛⠁⠼⠃⠐⠦⠁⠐⠖⠙⠁⠐⠖⠓⠁
+𒂹,73913,𒂹,120B9,CUNEIFORM SIGN GA2 TIMES A PLUS HA,⠛⠁⠼⠃⠐⠦⠁⠐⠖⠓⠁
+𒂺,73914,𒂺,120BA,CUNEIFORM SIGN GA2 TIMES A PLUS IGI,⠛⠁⠼⠃⠐⠦⠁⠐⠖⠊⠛⠊
+𒂻,73915,𒂻,120BB,CUNEIFORM SIGN GA2 TIMES AB2 TENU PLUS TAB,⠛⠁⠼⠃⠐⠦⠁⠃⠼⠃ ⠞⠑⠝⠥⠐⠖⠞⠁⠃
+𒂼,73916,𒂼,120BC,CUNEIFORM SIGN GA2 TIMES AN,⠛⠁⠼⠃⠐⠦⠁⠝
+𒂽,73917,𒂽,120BD,CUNEIFORM SIGN GA2 TIMES ASH,⠛⠁⠼⠃⠐⠦⠁⠎⠓
+𒂾,73918,𒂾,120BE,CUNEIFORM SIGN GA2 TIMES ASH2 PLUS GAL,⠛⠁⠼⠃⠐⠦⠁⠎⠓⠼⠃⠐⠖⠛⠁⠇
+𒂿,73919,𒂿,120BF,CUNEIFORM SIGN GA2 TIMES BAD,⠛⠁⠼⠃⠐⠦⠃⠁⠙
+𒃀,73920,𒃀,120C0,CUNEIFORM SIGN GA2 TIMES BAR PLUS RA,⠛⠁⠼⠃⠐⠦⠃⠁⠗⠐⠖⠗⠁
+𒃁,73921,𒃁,120C1,CUNEIFORM SIGN GA2 TIMES BUR,⠛⠁⠼⠃⠐⠦⠃⠥⠗
+𒃂,73922,𒃂,120C2,CUNEIFORM SIGN GA2 TIMES BUR PLUS RA,⠛⠁⠼⠃⠐⠦⠃⠥⠗⠐⠖⠗⠁
+𒃃,73923,𒃃,120C3,CUNEIFORM SIGN GA2 TIMES DA,⠛⠁⠼⠃⠐⠦⠙⠁
+𒃄,73924,𒃄,120C4,CUNEIFORM SIGN GA2 TIMES DI,⠛⠁⠼⠃⠐⠦⠙⠊
+𒃅,73925,𒃅,120C5,CUNEIFORM SIGN GA2 TIMES DIM TIMES SHE,⠛⠁⠼⠃⠐⠦⠙⠊⠍⠐⠦⠎⠓⠑
+𒃆,73926,𒃆,120C6,CUNEIFORM SIGN GA2 TIMES DUB,⠛⠁⠼⠃⠐⠦⠙⠥⠃
+𒃇,73927,𒃇,120C7,CUNEIFORM SIGN GA2 TIMES EL,⠛⠁⠼⠃⠐⠦⠑⠇
+𒃈,73928,𒃈,120C8,CUNEIFORM SIGN GA2 TIMES EL PLUS LA,⠛⠁⠼⠃⠐⠦⠑⠇⠐⠖⠇⠁
+𒃉,73929,𒃉,120C9,CUNEIFORM SIGN GA2 TIMES EN,⠛⠁⠼⠃⠐⠦⠑⠝
+𒃊,73930,𒃊,120CA,CUNEIFORM SIGN GA2 TIMES EN TIMES GAN2 TENU,⠛⠁⠼⠃⠐⠦⠑⠝⠐⠦⠛⠁⠝⠼⠃ ⠞⠑⠝⠥
+𒃋,73931,𒃋,120CB,CUNEIFORM SIGN GA2 TIMES GAN2 TENU,⠛⠁⠼⠃⠐⠦⠛⠁⠝⠼⠃ ⠞⠑⠝⠥
+𒃌,73932,𒃌,120CC,CUNEIFORM SIGN GA2 TIMES GAR,⠛⠁⠼⠃⠐⠦⠛⠁⠗
+𒃍,73933,𒃍,120CD,CUNEIFORM SIGN GA2 TIMES GI,⠛⠁⠼⠃⠐⠦⠛⠊
+𒃎,73934,𒃎,120CE,CUNEIFORM SIGN GA2 TIMES GI4,⠛⠁⠼⠃⠐⠦⠛⠊⠼⠙
+𒃏,73935,𒃏,120CF,CUNEIFORM SIGN GA2 TIMES GI4 PLUS A,⠛⠁⠼⠃⠐⠦⠛⠊⠼⠙⠐⠖⠁
+𒃐,73936,𒃐,120D0,CUNEIFORM SIGN GA2 TIMES GIR2 PLUS SU,⠛⠁⠼⠃⠐⠦⠛⠊⠗⠼⠃⠐⠖⠎⠥
+𒃑,73937,𒃑,120D1,CUNEIFORM SIGN GA2 TIMES HA PLUS LU PLUS ESH2,⠛⠁⠼⠃⠐⠦⠓⠁⠐⠖⠇⠥⠐⠖⠑⠎⠓⠼⠃
+𒃒,73938,𒃒,120D2,CUNEIFORM SIGN GA2 TIMES HAL,⠛⠁⠼⠃⠐⠦⠓⠁⠇
+𒃓,73939,𒃓,120D3,CUNEIFORM SIGN GA2 TIMES HAL PLUS LA,⠛⠁⠼⠃⠐⠦⠓⠁⠇⠐⠖⠇⠁
+𒃔,73940,𒃔,120D4,CUNEIFORM SIGN GA2 TIMES HI PLUS LI,⠛⠁⠼⠃⠐⠦⠓⠊⠐⠖⠇⠊
+𒃕,73941,𒃕,120D5,CUNEIFORM SIGN GA2 TIMES HUB2,⠛⠁⠼⠃⠐⠦⠓⠥⠃⠼⠃
+𒃖,73942,𒃖,120D6,CUNEIFORM SIGN GA2 TIMES IGI GUNU,⠛⠁⠼⠃⠐⠦⠊⠛⠊ ⠛⠥⠝⠥
+𒃗,73943,𒃗,120D7,CUNEIFORM SIGN GA2 TIMES ISH PLUS HU PLUS ASH,⠛⠁⠼⠃⠐⠦⠊⠎⠓⠐⠖⠓⠥⠐⠖⠁⠎⠓
+𒃘,73944,𒃘,120D8,CUNEIFORM SIGN GA2 TIMES KAK,⠛⠁⠼⠃⠐⠦⠅⠁⠅
+𒃙,73945,𒃙,120D9,CUNEIFORM SIGN GA2 TIMES KASKAL,⠛⠁⠼⠃⠐⠦⠅⠁⠎⠅⠁⠇
+𒃚,73946,𒃚,120DA,CUNEIFORM SIGN GA2 TIMES KID,⠛⠁⠼⠃⠐⠦⠅⠊⠙
+𒃛,73947,𒃛,120DB,CUNEIFORM SIGN GA2 TIMES KID PLUS LAL,⠛⠁⠼⠃⠐⠦⠅⠊⠙⠐⠖⠇⠁⠇
+𒃜,73948,𒃜,120DC,CUNEIFORM SIGN GA2 TIMES KU3 PLUS AN,⠛⠁⠼⠃⠐⠦⠅⠥⠼⠉⠐⠖⠁⠝
+𒃝,73949,𒃝,120DD,CUNEIFORM SIGN GA2 TIMES LA,⠛⠁⠼⠃⠐⠦⠇⠁
+𒃞,73950,𒃞,120DE,CUNEIFORM SIGN GA2 TIMES ME PLUS EN,⠛⠁⠼⠃⠐⠦⠍⠑⠐⠖⠑⠝
+𒃟,73951,𒃟,120DF,CUNEIFORM SIGN GA2 TIMES MI,⠛⠁⠼⠃⠐⠦⠍⠊
+𒃠,73952,𒃠,120,CUNEIFORM SIGN GA2 TIMES NUN,⠛⠁⠼⠃⠐⠦⠝⠥⠝
+𒃡,73953,𒃡,1200,CUNEIFORM SIGN GA2 TIMES NUN OVER NUN,⠛⠁⠼⠃⠐⠦⠝⠥⠝⠐⠌⠝⠥⠝
+𒃢,73954,𒃢,12000,CUNEIFORM SIGN GA2 TIMES PA,⠛⠁⠼⠃⠐⠦⠏⠁
+𒃣,73955,𒃣,120000,CUNEIFORM SIGN GA2 TIMES SAL,⠛⠁⠼⠃⠐⠦⠎⠁⠇
+𒃤,73956,𒃤,1200000,CUNEIFORM SIGN GA2 TIMES SAR,⠛⠁⠼⠃⠐⠦⠎⠁⠗
+𒃥,73957,𒃥,12000000,CUNEIFORM SIGN GA2 TIMES SHE,⠛⠁⠼⠃⠐⠦⠎⠓⠑
+𒃦,73958,𒃦,120000000,CUNEIFORM SIGN GA2 TIMES SHE PLUS TUR,⠛⠁⠼⠃⠐⠦⠎⠓⠑⠐⠖⠞⠥⠗
+𒃧,73959,𒃧,1200000000,CUNEIFORM SIGN GA2 TIMES SHID,⠛⠁⠼⠃⠐⠦⠎⠓⠊⠙
+𒃨,73960,𒃨,12000000000,CUNEIFORM SIGN GA2 TIMES SUM,⠛⠁⠼⠃⠐⠦⠎⠥⠍
+𒃩,73961,𒃩,120000000000,CUNEIFORM SIGN GA2 TIMES TAK4,⠛⠁⠼⠃⠐⠦⠞⠁⠅⠼⠙
+𒃪,73962,𒃪,120EA,CUNEIFORM SIGN GA2 TIMES U,⠛⠁⠼⠃⠐⠦⠥
+𒃫,73963,𒃫,120EB,CUNEIFORM SIGN GA2 TIMES UD,⠛⠁⠼⠃⠐⠦⠥⠙
+𒃬,73964,𒃬,120EC,CUNEIFORM SIGN GA2 TIMES UD PLUS DU,⠛⠁⠼⠃⠐⠦⠥⠙⠐⠖⠙⠥
+𒃭,73965,𒃭,120ED,CUNEIFORM SIGN GA2 OVER GA2,⠛⠁⠼⠃⠐⠌⠛⠁⠼⠃
+𒃮,73966,𒃮,120EE,CUNEIFORM SIGN GABA,⠛⠁⠃⠁
+𒃯,73967,𒃯,120EF,CUNEIFORM SIGN GABA CROSSING GABA,⠛⠁⠃⠁⠈⠯⠛⠁⠃⠁
+𒃰,73968,𒃰,120F0,CUNEIFORM SIGN GAD,⠛⠁⠙
+𒃱,73969,𒃱,120F1,CUNEIFORM SIGN GAD OVER GAD GAR OVER GAR,⠛⠁⠙⠐⠌⠛⠁⠙ ⠛⠁⠗⠐⠌⠛⠁⠗
+𒃲,73970,𒃲,120F2,CUNEIFORM SIGN GAL,⠛⠁⠇
+𒃳,73971,𒃳,120F3,CUNEIFORM SIGN GAL GAD OVER GAD GAR OVER GAR,⠛⠁⠇ ⠛⠁⠙⠐⠌⠛⠁⠙ ⠛⠁⠗⠐⠌⠛⠁⠗
+𒃴,73972,𒃴,120F4,CUNEIFORM SIGN GALAM,⠛⠁⠇⠁⠍
+𒃵,73973,𒃵,120F5,CUNEIFORM SIGN GAM,⠛⠁⠍
+𒃶,73974,𒃶,120F6,CUNEIFORM SIGN GAN,⠛⠁⠝
+𒃷,73975,𒃷,120F7,CUNEIFORM SIGN GAN2,⠛⠁⠝⠼⠃
+𒃸,73976,𒃸,120F8,CUNEIFORM SIGN GAN2 TENU,⠛⠁⠝⠼⠃ ⠞⠑⠝⠥
+𒃹,73977,𒃹,120F9,CUNEIFORM SIGN GAN2 OVER GAN2,⠛⠁⠝⠼⠃⠐⠌⠛⠁⠝⠼⠃
+𒃺,73978,𒃺,120FA,CUNEIFORM SIGN GAN2 CROSSING GAN2,⠛⠁⠝⠼⠃⠈⠯⠛⠁⠝⠼⠃
+𒃻,73979,𒃻,120FB,CUNEIFORM SIGN GAR,⠛⠁⠗
+𒃼,73980,𒃼,120FC,CUNEIFORM SIGN GAR3,⠛⠁⠗⠼⠉
+𒃽,73981,𒃽,120FD,CUNEIFORM SIGN GASHAN,⠛⠁⠎⠓⠁⠝
+𒃾,73982,𒃾,120FE,CUNEIFORM SIGN GESHTIN,⠛⠑⠎⠓⠞⠊⠝
+𒃿,73983,𒃿,120FF,CUNEIFORM SIGN GESHTIN TIMES KUR,⠛⠑⠎⠓⠞⠊⠝⠐⠦⠅⠥⠗
+𒄀,73984,𒄀,12100,CUNEIFORM SIGN GI,⠛⠊
+𒄁,73985,𒄁,12101,CUNEIFORM SIGN GI TIMES E,⠛⠊⠐⠦⠑
+𒄂,73986,𒄂,12102,CUNEIFORM SIGN GI TIMES U,⠛⠊⠐⠦⠥
+𒄃,73987,𒄃,12103,CUNEIFORM SIGN GI CROSSING GI,⠛⠊⠈⠯⠛⠊
+𒄄,73988,𒄄,12104,CUNEIFORM SIGN GI4,⠛⠊⠼⠙
+𒄅,73989,𒄅,12105,CUNEIFORM SIGN GI4 OVER GI4,⠛⠊⠼⠙⠐⠌⠛⠊⠼⠙
+𒄆,73990,𒄆,12106,CUNEIFORM SIGN GI4 CROSSING GI4,⠛⠊⠼⠙⠈⠯⠛⠊⠼⠙
+𒄇,73991,𒄇,12107,CUNEIFORM SIGN GIDIM,⠛⠊⠙⠊⠍
+𒄈,73992,𒄈,12108,CUNEIFORM SIGN GIR2,⠛⠊⠗⠼⠃
+𒄉,73993,𒄉,12109,CUNEIFORM SIGN GIR2 GUNU,⠛⠊⠗⠼⠃ ⠛⠥⠝⠥
+𒄊,73994,𒄊,1210A,CUNEIFORM SIGN GIR3,⠛⠊⠗⠼⠉
+𒄋,73995,𒄋,1210B,CUNEIFORM SIGN GIR3 TIMES A PLUS IGI,⠛⠊⠗⠼⠉⠐⠦⠁⠐⠖⠊⠛⠊
+𒄌,73996,𒄌,1210C,CUNEIFORM SIGN GIR3 TIMES GAN2 TENU,⠛⠊⠗⠼⠉⠐⠦⠛⠁⠝⠼⠃ ⠞⠑⠝⠥
+𒄍,73997,𒄍,1210D,CUNEIFORM SIGN GIR3 TIMES IGI,⠛⠊⠗⠼⠉⠐⠦⠊⠛⠊
+𒄎,73998,𒄎,1210E,CUNEIFORM SIGN GIR3 TIMES LU PLUS IGI,⠛⠊⠗⠼⠉⠐⠦⠇⠥⠐⠖⠊⠛⠊
+𒄏,73999,𒄏,1210F,CUNEIFORM SIGN GIR3 TIMES PA,⠛⠊⠗⠼⠉⠐⠦⠏⠁
+𒄐,74000,𒄐,12110,CUNEIFORM SIGN GISAL,⠛⠊⠎⠁⠇
+𒄑,74001,𒄑,12111,CUNEIFORM SIGN GISH,⠛⠊⠎⠓
+𒄒,74002,𒄒,12112,CUNEIFORM SIGN GISH CROSSING GISH,⠛⠊⠎⠓⠈⠯⠛⠊⠎⠓
+𒄓,74003,𒄓,12113,CUNEIFORM SIGN GISH TIMES BAD,⠛⠊⠎⠓⠐⠦⠃⠁⠙
+𒄔,74004,𒄔,12114,CUNEIFORM SIGN GISH TIMES TAK4,⠛⠊⠎⠓⠐⠦⠞⠁⠅⠼⠙
+𒄕,74005,𒄕,12115,CUNEIFORM SIGN GISH TENU,⠛⠊⠎⠓ ⠞⠑⠝⠥
+𒄖,74006,𒄖,12116,CUNEIFORM SIGN GU,⠛⠥
+𒄗,74007,𒄗,12117,CUNEIFORM SIGN GU CROSSING GU,⠛⠥⠈⠯⠛⠥
+𒄘,74008,𒄘,12118,CUNEIFORM SIGN GU2,⠛⠥⠼⠃
+𒄙,74009,𒄙,12119,CUNEIFORM SIGN GU2 TIMES KAK,⠛⠥⠼⠃⠐⠦⠅⠁⠅
+𒄚,74010,𒄚,1211A,CUNEIFORM SIGN GU2 TIMES KAK TIMES IGI GUNU,⠛⠥⠼⠃⠐⠦⠅⠁⠅⠐⠦⠊⠛⠊ ⠛⠥⠝⠥
+𒄛,74011,𒄛,1211B,CUNEIFORM SIGN GU2 TIMES NUN,⠛⠥⠼⠃⠐⠦⠝⠥⠝
+𒄜,74012,𒄜,1211C,CUNEIFORM SIGN GU2 TIMES SAL PLUS TUG2,⠛⠥⠼⠃⠐⠦⠎⠁⠇⠐⠖⠞⠥⠛⠼⠃
+𒄝,74013,𒄝,1211D,CUNEIFORM SIGN GU2 GUNU,⠛⠥⠼⠃ ⠛⠥⠝⠥
+𒄞,74014,𒄞,1211E,CUNEIFORM SIGN GUD,⠛⠥⠙
+𒄟,74015,𒄟,1211F,CUNEIFORM SIGN GUD TIMES A PLUS KUR,⠛⠥⠙⠐⠦⠁⠐⠖⠅⠥⠗
+𒄠,74016,𒄠,12120,CUNEIFORM SIGN GUD TIMES KUR,⠛⠥⠙⠐⠦⠅⠥⠗
+𒄡,74017,𒄡,12121,CUNEIFORM SIGN GUD OVER GUD LUGAL,⠛⠥⠙⠐⠌⠛⠥⠙ ⠇⠥⠛⠁⠇
+𒄢,74018,𒄢,12122,CUNEIFORM SIGN GUL,⠛⠥⠇
+𒄣,74019,𒄣,12123,CUNEIFORM SIGN GUM,⠛⠥⠍
+𒄤,74020,𒄤,12124,CUNEIFORM SIGN GUM TIMES SHE,⠛⠥⠍⠐⠦⠎⠓⠑
+𒄥,74021,𒄥,12125,CUNEIFORM SIGN GUR,⠛⠥⠗
+𒄦,74022,𒄦,12126,CUNEIFORM SIGN GUR7,⠛⠥⠗⠼⠛
+𒄧,74023,𒄧,12127,CUNEIFORM SIGN GURUN,⠛⠥⠗⠥⠝
+𒄨,74024,𒄨,12128,CUNEIFORM SIGN GURUSH,⠛⠥⠗⠥⠎⠓
+𒄩,74025,𒄩,12129,CUNEIFORM SIGN HA,⠓⠁
+𒄪,74026,𒄪,1212A,CUNEIFORM SIGN HA TENU,⠓⠁ ⠞⠑⠝⠥
+𒄫,74027,𒄫,1212B,CUNEIFORM SIGN HA GUNU,⠓⠁ ⠛⠥⠝⠥
+𒄬,74028,𒄬,1212C,CUNEIFORM SIGN HAL,⠓⠁⠇
+𒄭,74029,𒄭,1212D,CUNEIFORM SIGN HI,⠓⠊
+𒄮,74030,𒄮,1212E,CUNEIFORM SIGN HI TIMES ASH,⠓⠊⠐⠦⠁⠎⠓
+𒄯,74031,𒄯,1212F,CUNEIFORM SIGN HI TIMES ASH2,⠓⠊⠐⠦⠁⠎⠓⠼⠃
+𒄰,74032,𒄰,12130,CUNEIFORM SIGN HI TIMES BAD,⠓⠊⠐⠦⠃⠁⠙
+𒄱,74033,𒄱,12131,CUNEIFORM SIGN HI TIMES DISH,⠓⠊⠐⠦⠙⠊⠎⠓
+𒄲,74034,𒄲,12132,CUNEIFORM SIGN HI TIMES GAD,⠓⠊⠐⠦⠛⠁⠙
+𒄳,74035,𒄳,12133,CUNEIFORM SIGN HI TIMES KIN,⠓⠊⠐⠦⠅⠊⠝
+𒄴,74036,𒄴,12134,CUNEIFORM SIGN HI TIMES NUN,⠓⠊⠐⠦⠝⠥⠝
+𒄵,74037,𒄵,12135,CUNEIFORM SIGN HI TIMES SHE,⠓⠊⠐⠦⠎⠓⠑
+𒄶,74038,𒄶,12136,CUNEIFORM SIGN HI TIMES U,⠓⠊⠐⠦⠥
+𒄷,74039,𒄷,12137,CUNEIFORM SIGN HU,⠓⠥
+𒄸,74040,𒄸,12138,CUNEIFORM SIGN HUB2,⠓⠥⠃⠼⠃
+𒄹,74041,𒄹,12139,CUNEIFORM SIGN HUB2 TIMES AN,⠓⠥⠃⠼⠃⠐⠦⠁⠝
+𒄺,74042,𒄺,1213A,CUNEIFORM SIGN HUB2 TIMES HAL,⠓⠥⠃⠼⠃⠐⠦⠓⠁⠇
+𒄻,74043,𒄻,1213B,CUNEIFORM SIGN HUB2 TIMES KASKAL,⠓⠥⠃⠼⠃⠐⠦⠅⠁⠎⠅⠁⠇
+𒄼,74044,𒄼,1213C,CUNEIFORM SIGN HUB2 TIMES LISH,⠓⠥⠃⠼⠃⠐⠦⠇⠊⠎⠓
+𒄽,74045,𒄽,1213D,CUNEIFORM SIGN HUB2 TIMES UD,⠓⠥⠃⠼⠃⠐⠦⠥⠙
+𒄾,74046,𒄾,1213E,CUNEIFORM SIGN HUL2,⠓⠥⠇⠼⠃
+𒄿,74047,𒄿,1213F,CUNEIFORM SIGN I,⠊
+𒅀,74048,𒅀,12140,CUNEIFORM SIGN I A,⠊ ⠁
+𒅁,74049,𒅁,12141,CUNEIFORM SIGN IB,⠊⠃
+𒅂,74050,𒅂,12142,CUNEIFORM SIGN IDIM,⠊⠙⠊⠍
+𒅃,74051,𒅃,12143,CUNEIFORM SIGN IDIM OVER IDIM BUR,⠊⠙⠊⠍⠐⠌⠊⠙⠊⠍ ⠃⠥⠗
+𒅄,74052,𒅄,12144,CUNEIFORM SIGN IDIM OVER IDIM SQUARED,⠊⠙⠊⠍⠐⠌⠊⠙⠊⠍⠔⠼⠃
+𒅅,74053,𒅅,12145,CUNEIFORM SIGN IG,⠊⠛
+𒅆,74054,𒅆,12146,CUNEIFORM SIGN IGI,⠊⠛⠊
+𒅇,74055,𒅇,12147,CUNEIFORM SIGN IGI DIB,⠊⠛⠊ ⠙⠊⠃
+𒅈,74056,𒅈,12148,CUNEIFORM SIGN IGI RI,⠊⠛⠊ ⠗⠊
+𒅉,74057,𒅉,12149,CUNEIFORM SIGN IGI OVER IGI SHIR OVER SHIR UD OVER UD,⠊⠛⠊⠐⠌⠊⠛⠊ ⠎⠓⠊⠗⠐⠌⠎⠓⠊⠗ ⠥⠙⠐⠌⠥⠙
+𒅊,74058,𒅊,1214A,CUNEIFORM SIGN IGI GUNU,⠊⠛⠊ ⠛⠥⠝⠥
+𒅋,74059,𒅋,1214B,CUNEIFORM SIGN IL,⠊⠇
+𒅌,74060,𒅌,1214C,CUNEIFORM SIGN IL TIMES GAN2 TENU,⠊⠇⠐⠦⠛⠁⠝⠼⠃ ⠞⠑⠝⠥
+𒅍,74061,𒅍,1214D,CUNEIFORM SIGN IL2,⠊⠇⠼⠃
+𒅎,74062,𒅎,1214E,CUNEIFORM SIGN IM,⠊⠍
+𒅏,74063,𒅏,1214F,CUNEIFORM SIGN IM TIMES TAK4,⠊⠍⠐⠦⠞⠁⠅⠼⠙
+𒅐,74064,𒅐,12150,CUNEIFORM SIGN IM CROSSING IM,⠊⠍⠈⠯⠊⠍
+𒅑,74065,𒅑,12151,CUNEIFORM SIGN IM OPPOSING IM,⠊⠍⠈⠎⠊⠍
+𒅒,74066,𒅒,12152,CUNEIFORM SIGN IM SQUARED,⠊⠍⠔⠼⠃
+𒅓,74067,𒅓,12153,CUNEIFORM SIGN IMIN,⠊⠍⠊⠝
+𒅔,74068,𒅔,12154,CUNEIFORM SIGN IN,⠊⠝
+𒅕,74069,𒅕,12155,CUNEIFORM SIGN IR,⠊⠗
+𒅖,74070,𒅖,12156,CUNEIFORM SIGN ISH,⠊⠎⠓
+𒅗,74071,𒅗,12157,CUNEIFORM SIGN KA,⠅⠁
+𒅘,74072,𒅘,12158,CUNEIFORM SIGN KA TIMES A,⠅⠁⠐⠦⠁
+𒅙,74073,𒅙,12159,CUNEIFORM SIGN KA TIMES AD,⠅⠁⠐⠦⠁⠙
+𒅚,74074,𒅚,1215A,CUNEIFORM SIGN KA TIMES AD PLUS KU3,⠅⠁⠐⠦⠁⠙⠐⠖⠅⠥⠼⠉
+𒅛,74075,𒅛,1215B,CUNEIFORM SIGN KA TIMES ASH2,⠅⠁⠐⠦⠁⠎⠓⠼⠃
+𒅜,74076,𒅜,1215C,CUNEIFORM SIGN KA TIMES BAD,⠅⠁⠐⠦⠃⠁⠙
+𒅝,74077,𒅝,1215D,CUNEIFORM SIGN KA TIMES BALAG,⠅⠁⠐⠦⠃⠁⠇⠁⠛
+𒅞,74078,𒅞,1215E,CUNEIFORM SIGN KA TIMES BAR,⠅⠁⠐⠦⠃⠁⠗
+𒅟,74079,𒅟,1215F,CUNEIFORM SIGN KA TIMES BI,⠅⠁⠐⠦⠃⠊
+𒅠,74080,𒅠,12160,CUNEIFORM SIGN KA TIMES ERIN2,⠅⠁⠐⠦⠑⠗⠊⠝⠼⠃
+𒅡,74081,𒅡,12161,CUNEIFORM SIGN KA TIMES ESH2,⠅⠁⠐⠦⠑⠎⠓⠼⠃
+𒅢,74082,𒅢,12162,CUNEIFORM SIGN KA TIMES GA,⠅⠁⠐⠦⠛⠁
+𒅣,74083,𒅣,12163,CUNEIFORM SIGN KA TIMES GAL,⠅⠁⠐⠦⠛⠁⠇
+𒅤,74084,𒅤,12164,CUNEIFORM SIGN KA TIMES GAN2 TENU,⠅⠁⠐⠦⠛⠁⠝⠼⠃ ⠞⠑⠝⠥
+𒅥,74085,𒅥,12165,CUNEIFORM SIGN KA TIMES GAR,⠅⠁⠐⠦⠛⠁⠗
+𒅦,74086,𒅦,12166,CUNEIFORM SIGN KA TIMES GAR PLUS SHA3 PLUS A,⠅⠁⠐⠦⠛⠁⠗⠐⠖⠎⠓⠁⠼⠉⠐⠖⠁
+𒅧,74087,𒅧,12167,CUNEIFORM SIGN KA TIMES GI,⠅⠁⠐⠦⠛⠊
+𒅨,74088,𒅨,12168,CUNEIFORM SIGN KA TIMES GIR2,⠅⠁⠐⠦⠛⠊⠗⠼⠃
+𒅩,74089,𒅩,12169,CUNEIFORM SIGN KA TIMES GISH PLUS SAR,⠅⠁⠐⠦⠛⠊⠎⠓⠐⠖⠎⠁⠗
+𒅪,74090,𒅪,1216A,CUNEIFORM SIGN KA TIMES GISH CROSSING GISH,⠅⠁⠐⠦⠛⠊⠎⠓⠈⠯⠛⠊⠎⠓
+𒅫,74091,𒅫,1216B,CUNEIFORM SIGN KA TIMES GU,⠅⠁⠐⠦⠛⠥
+𒅬,74092,𒅬,1216C,CUNEIFORM SIGN KA TIMES GUR7,⠅⠁⠐⠦⠛⠥⠗⠼⠛
+𒅭,74093,𒅭,1216D,CUNEIFORM SIGN KA TIMES IGI,⠅⠁⠐⠦⠊⠛⠊
+𒅮,74094,𒅮,1216E,CUNEIFORM SIGN KA TIMES IM,⠅⠁⠐⠦⠊⠍
+𒅯,74095,𒅯,1216F,CUNEIFORM SIGN KA TIMES KAK,⠅⠁⠐⠦⠅⠁⠅
+𒅰,74096,𒅰,12170,CUNEIFORM SIGN KA TIMES KI,⠅⠁⠐⠦⠅⠊
+𒅱,74097,𒅱,12171,CUNEIFORM SIGN KA TIMES KID,⠅⠁⠐⠦⠅⠊⠙
+𒅲,74098,𒅲,12172,CUNEIFORM SIGN KA TIMES LI,⠅⠁⠐⠦⠇⠊
+𒅳,74099,𒅳,12173,CUNEIFORM SIGN KA TIMES LU,⠅⠁⠐⠦⠇⠥
+𒅴,74100,𒅴,12174,CUNEIFORM SIGN KA TIMES ME,⠅⠁⠐⠦⠍⠑
+𒅵,74101,𒅵,12175,CUNEIFORM SIGN KA TIMES ME PLUS DU,⠅⠁⠐⠦⠍⠑⠐⠖⠙⠥
+𒅶,74102,𒅶,12176,CUNEIFORM SIGN KA TIMES ME PLUS GI,⠅⠁⠐⠦⠍⠑⠐⠖⠛⠊
+𒅷,74103,𒅷,12177,CUNEIFORM SIGN KA TIMES ME PLUS TE,⠅⠁⠐⠦⠍⠑⠐⠖⠞⠑
+𒅸,74104,𒅸,12178,CUNEIFORM SIGN KA TIMES MI,⠅⠁⠐⠦⠍⠊
+𒅹,74105,𒅹,12179,CUNEIFORM SIGN KA TIMES MI PLUS NUNUZ,⠅⠁⠐⠦⠍⠊⠐⠖⠝⠥⠝⠥
+𒅺,74106,𒅺,1217A,CUNEIFORM SIGN KA TIMES NE,⠅⠁⠐⠦⠝⠑
+𒅻,74107,𒅻,1217B,CUNEIFORM SIGN KA TIMES NUN,⠅⠁⠐⠦⠝⠥⠝
+𒅼,74108,𒅼,1217C,CUNEIFORM SIGN KA TIMES PI,⠅⠁⠐⠦⠏⠊
+𒅽,74109,𒅽,1217D,CUNEIFORM SIGN KA TIMES RU,⠅⠁⠐⠦⠗⠥
+𒅾,74110,𒅾,1217E,CUNEIFORM SIGN KA TIMES SA,⠅⠁⠐⠦⠎⠁
+𒅿,74111,𒅿,1217F,CUNEIFORM SIGN KA TIMES SAR,⠅⠁⠐⠦⠎⠁⠗
+𒆀,74112,𒆀,12180,CUNEIFORM SIGN KA TIMES SHA,⠅⠁⠐⠦⠎⠓⠁
+𒆁,74113,𒆁,12181,CUNEIFORM SIGN KA TIMES SHE,⠅⠁⠐⠦⠎⠓⠑
+𒆂,74114,𒆂,12182,CUNEIFORM SIGN KA TIMES SHID,⠅⠁⠐⠦⠎⠓⠊⠙
+𒆃,74115,𒆃,12183,CUNEIFORM SIGN KA TIMES SHU,⠅⠁⠐⠦⠎⠓⠥
+𒆄,74116,𒆄,12184,CUNEIFORM SIGN KA TIMES SIG,⠅⠁⠐⠦⠎⠊⠛
+𒆅,74117,𒆅,12185,CUNEIFORM SIGN KA TIMES SUHUR,⠅⠁⠐⠦⠎⠥⠓⠥⠗
+𒆆,74118,𒆆,12186,CUNEIFORM SIGN KA TIMES TAR,⠅⠁⠐⠦⠞⠁⠗
+𒆇,74119,𒆇,12187,CUNEIFORM SIGN KA TIMES U,⠅⠁⠐⠦⠥
+𒆈,74120,𒆈,12188,CUNEIFORM SIGN KA TIMES U2,⠅⠁⠐⠦⠥⠼⠃
+𒆉,74121,𒆉,12189,CUNEIFORM SIGN KA TIMES UD,⠅⠁⠐⠦⠥⠙
+𒆊,74122,𒆊,1218A,CUNEIFORM SIGN KA TIMES UMUM TIMES PA,⠅⠁⠐⠦⠥⠍⠥⠍⠐⠦⠏⠁
+𒆋,74123,𒆋,1218B,CUNEIFORM SIGN KA TIMES USH,⠅⠁⠐⠦⠥⠎⠓
+𒆌,74124,𒆌,1218C,CUNEIFORM SIGN KA TIMES ZI,⠅⠁⠐⠦⠵⠊
+𒆍,74125,𒆍,1218D,CUNEIFORM SIGN KA2,⠅⠁⠼⠃
+𒆎,74126,𒆎,1218E,CUNEIFORM SIGN KA2 CROSSING KA2,⠅⠁⠼⠃⠈⠯⠅⠁⠼⠃
+𒆏,74127,𒆏,1218F,CUNEIFORM SIGN KAB,⠅⠁⠃
+𒆐,74128,𒆐,12190,CUNEIFORM SIGN KAD2,⠅⠁⠙⠼⠃
+𒆑,74129,𒆑,12191,CUNEIFORM SIGN KAD3,⠅⠁⠙⠼⠉
+𒆒,74130,𒆒,12192,CUNEIFORM SIGN KAD4,⠅⠁⠙⠼⠙
+𒆓,74131,𒆓,12193,CUNEIFORM SIGN KAD5,⠅⠁⠙⠼⠑
+𒆔,74132,𒆔,12194,CUNEIFORM SIGN KAD5 OVER KAD5,⠅⠁⠙⠼⠑⠐⠌⠅⠁⠙⠼⠑
+𒆕,74133,𒆕,12195,CUNEIFORM SIGN KAK,⠅⠁⠅
+𒆖,74134,𒆖,12196,CUNEIFORM SIGN KAK TIMES IGI GUNU,⠅⠁⠅⠐⠦⠊⠛⠊ ⠛⠥⠝⠥
+𒆗,74135,𒆗,12197,CUNEIFORM SIGN KAL,⠅⠁⠇
+𒆘,74136,𒆘,12198,CUNEIFORM SIGN KAL TIMES BAD,⠅⠁⠇⠐⠦⠃⠁⠙
+𒆙,74137,𒆙,12199,CUNEIFORM SIGN KAL CROSSING KAL,⠅⠁⠇⠈⠯⠅⠁⠇
+𒆚,74138,𒆚,1219A,CUNEIFORM SIGN KAM2,⠅⠁⠍⠼⠃
+𒆛,74139,𒆛,1219B,CUNEIFORM SIGN KAM4,⠅⠁⠍⠼⠙
+𒆜,74140,𒆜,1219C,CUNEIFORM SIGN KASKAL,⠅⠁⠎⠅⠁⠇
+𒆝,74141,𒆝,1219D,CUNEIFORM SIGN KASKAL LAGAB TIMES U OVER LAGAB TIMES U,⠅⠁⠎⠅⠁⠇ ⠇⠁⠛⠁⠃⠐⠦⠥⠐⠌⠇⠁⠛⠁⠃⠐⠦⠥
+𒆞,74142,𒆞,1219E,CUNEIFORM SIGN KASKAL OVER KASKAL LAGAB TIMES U OVER LAGAB TIMES U,⠅⠁⠎⠅⠁⠇⠐⠌⠅⠁⠎⠅⠁⠇ ⠇⠁⠛⠁⠃⠐⠦⠥⠐⠌⠇⠁⠛⠁⠃⠐⠦⠥
+𒆟,74143,𒆟,1219F,CUNEIFORM SIGN KESH2,⠅⠑⠎⠓⠼⠃
+𒆠,74144,𒆠,121A0,CUNEIFORM SIGN KI,⠅⠊
+𒆡,74145,𒆡,121A1,CUNEIFORM SIGN KI TIMES BAD,⠅⠊⠐⠦⠃⠁⠙
+𒆢,74146,𒆢,121A2,CUNEIFORM SIGN KI TIMES U,⠅⠊⠐⠦⠥
+𒆣,74147,𒆣,121A3,CUNEIFORM SIGN KI TIMES UD,⠅⠊⠐⠦⠥⠙
+𒆤,74148,𒆤,121A4,CUNEIFORM SIGN KID,⠅⠊⠙
+𒆥,74149,𒆥,121A5,CUNEIFORM SIGN KIN,⠅⠊⠝
+𒆦,74150,𒆦,121A6,CUNEIFORM SIGN KISAL,⠅⠊⠎⠁⠇
+𒆧,74151,𒆧,121A7,CUNEIFORM SIGN KISH,⠅⠊⠎⠓
+𒆨,74152,𒆨,121A8,CUNEIFORM SIGN KISIM5,⠅⠊⠎⠊⠍⠼⠑
+𒆩,74153,𒆩,121A9,CUNEIFORM SIGN KISIM5 OVER KISIM5,⠅⠊⠎⠊⠍⠼⠑⠐⠌⠅⠊⠎⠊⠍⠼⠑
+𒆪,74154,𒆪,121AA,CUNEIFORM SIGN KU,⠅⠥
+𒆫,74155,𒆫,121AB,CUNEIFORM SIGN KU OVER HI TIMES ASH2 KU OVER HI TIMES ASH2,⠅⠥⠐⠌⠓⠊⠐⠦⠁⠎⠓⠼⠃ ⠅⠥⠐⠌⠓⠊⠐⠦⠁⠎⠓⠼⠃
+𒆬,74156,𒆬,121AC,CUNEIFORM SIGN KU3,⠅⠥⠼⠉
+𒆭,74157,𒆭,121AD,CUNEIFORM SIGN KU4,⠅⠥⠼⠙
+𒆮,74158,𒆮,121AE,CUNEIFORM SIGN KU4 VARIANT FORM,⠅⠥⠼⠙ ⠧⠁⠗⠊⠁⠝⠞ ⠋⠕⠗⠍
+𒆯,74159,𒆯,121AF,CUNEIFORM SIGN KU7,⠅⠥⠼⠛
+𒆰,74160,𒆰,121B0,CUNEIFORM SIGN KUL,⠅⠥⠇
+𒆱,74161,𒆱,121B1,CUNEIFORM SIGN KUL GUNU,⠅⠥⠇ ⠛⠥⠝⠥
+𒆲,74162,𒆲,121B2,CUNEIFORM SIGN KUN,⠅⠥⠝
+𒆳,74163,𒆳,121B3,CUNEIFORM SIGN KUR,⠅⠥⠗
+𒆴,74164,𒆴,121B4,CUNEIFORM SIGN KUR OPPOSING KUR,⠅⠥⠗⠈⠎⠅⠥⠗
+𒆵,74165,𒆵,121B5,CUNEIFORM SIGN KUSHU2,⠅⠥⠎⠓⠥⠼⠃
+𒆶,74166,𒆶,121B6,CUNEIFORM SIGN KWU318,⠅⠺⠥⠼⠉⠼⠁⠼⠓
+𒆷,74167,𒆷,121B7,CUNEIFORM SIGN LA,⠇⠁
+𒆸,74168,𒆸,121B8,CUNEIFORM SIGN LAGAB,⠇⠁⠛⠁⠃
+𒆹,74169,𒆹,121B9,CUNEIFORM SIGN LAGAB TIMES A,⠇⠁⠛⠁⠃⠐⠦⠁
+𒆺,74170,𒆺,121BA,CUNEIFORM SIGN LAGAB TIMES A PLUS DA PLUS HA,⠇⠁⠛⠁⠃⠐⠦⠁⠐⠖⠙⠁⠐⠖⠓⠁
+𒆻,74171,𒆻,121BB,CUNEIFORM SIGN LAGAB TIMES A PLUS GAR,⠇⠁⠛⠁⠃⠐⠦⠁⠐⠖⠛⠁⠗
+𒆼,74172,𒆼,121BC,CUNEIFORM SIGN LAGAB TIMES A PLUS LAL,⠇⠁⠛⠁⠃⠐⠦⠁⠐⠖⠇⠁⠇
+𒆽,74173,𒆽,121BD,CUNEIFORM SIGN LAGAB TIMES AL,⠇⠁⠛⠁⠃⠐⠦⠁⠇
+𒆾,74174,𒆾,121BE,CUNEIFORM SIGN LAGAB TIMES AN,⠇⠁⠛⠁⠃⠐⠦⠁⠝
+𒆿,74175,𒆿,121BF,CUNEIFORM SIGN LAGAB TIMES ASH ZIDA TENU,⠇⠁⠛⠁⠃⠐⠦⠁⠎⠓ ⠵⠊⠙⠁ ⠞⠑⠝⠥
+𒇀,74176,𒇀,121C0,CUNEIFORM SIGN LAGAB TIMES BAD,⠇⠁⠛⠁⠃⠐⠦⠃⠁⠙
+𒇁,74177,𒇁,121C1,CUNEIFORM SIGN LAGAB TIMES BI,⠇⠁⠛⠁⠃⠐⠦⠃⠊
+𒇂,74178,𒇂,121C2,CUNEIFORM SIGN LAGAB TIMES DAR,⠇⠁⠛⠁⠃⠐⠦⠙⠁⠗
+𒇃,74179,𒇃,121C3,CUNEIFORM SIGN LAGAB TIMES EN,⠇⠁⠛⠁⠃⠐⠦⠑⠝
+𒇄,74180,𒇄,121C4,CUNEIFORM SIGN LAGAB TIMES GA,⠇⠁⠛⠁⠃⠐⠦⠛⠁
+𒇅,74181,𒇅,121C5,CUNEIFORM SIGN LAGAB TIMES GAR,⠇⠁⠛⠁⠃⠐⠦⠛⠁⠗
+𒇆,74182,𒇆,121C6,CUNEIFORM SIGN LAGAB TIMES GUD,⠇⠁⠛⠁⠃⠐⠦⠛⠥⠙
+𒇇,74183,𒇇,121C7,CUNEIFORM SIGN LAGAB TIMES GUD PLUS GUD,⠇⠁⠛⠁⠃⠐⠦⠛⠥⠙⠐⠖⠛⠥⠙
+𒇈,74184,𒇈,121C8,CUNEIFORM SIGN LAGAB TIMES HA,⠇⠁⠛⠁⠃⠐⠦⠓⠁
+𒇉,74185,𒇉,121C9,CUNEIFORM SIGN LAGAB TIMES HAL,⠇⠁⠛⠁⠃⠐⠦⠓⠁⠇
+𒇊,74186,𒇊,121CA,CUNEIFORM SIGN LAGAB TIMES HI TIMES NUN,⠇⠁⠛⠁⠃⠐⠦⠓⠊⠐⠦⠝⠥⠝
+𒇋,74187,𒇋,121CB,CUNEIFORM SIGN LAGAB TIMES IGI GUNU,⠇⠁⠛⠁⠃⠐⠦⠊⠛⠊ ⠛⠥⠝⠥
+𒇌,74188,𒇌,121CC,CUNEIFORM SIGN LAGAB TIMES IM,⠇⠁⠛⠁⠃⠐⠦⠊⠍
+𒇍,74189,𒇍,121CD,CUNEIFORM SIGN LAGAB TIMES IM PLUS HA,⠇⠁⠛⠁⠃⠐⠦⠊⠍⠐⠖⠓⠁
+𒇎,74190,𒇎,121CE,CUNEIFORM SIGN LAGAB TIMES IM PLUS LU,⠇⠁⠛⠁⠃⠐⠦⠊⠍⠐⠖⠇⠥
+𒇏,74191,𒇏,121CF,CUNEIFORM SIGN LAGAB TIMES KI,⠇⠁⠛⠁⠃⠐⠦⠅⠊
+𒇐,74192,𒇐,121D0,CUNEIFORM SIGN LAGAB TIMES KIN,⠇⠁⠛⠁⠃⠐⠦⠅⠊⠝
+𒇑,74193,𒇑,121D1,CUNEIFORM SIGN LAGAB TIMES KU3,⠇⠁⠛⠁⠃⠐⠦⠅⠥⠼⠉
+𒇒,74194,𒇒,121D2,CUNEIFORM SIGN LAGAB TIMES KUL,⠇⠁⠛⠁⠃⠐⠦⠅⠥⠇
+𒇓,74195,𒇓,121D3,CUNEIFORM SIGN LAGAB TIMES KUL PLUS HI PLUS A,⠇⠁⠛⠁⠃⠐⠦⠅⠥⠇⠐⠖⠓⠊⠐⠖⠁
+𒇔,74196,𒇔,121D4,CUNEIFORM SIGN LAGAB TIMES LAGAB,⠇⠁⠛⠁⠃⠐⠦⠇⠁⠛⠁⠃
+𒇕,74197,𒇕,121D5,CUNEIFORM SIGN LAGAB TIMES LISH,⠇⠁⠛⠁⠃⠐⠦⠇⠊⠎⠓
+𒇖,74198,𒇖,121D6,CUNEIFORM SIGN LAGAB TIMES LU,⠇⠁⠛⠁⠃⠐⠦⠇⠥
+𒇗,74199,𒇗,121D7,CUNEIFORM SIGN LAGAB TIMES LUL,⠇⠁⠛⠁⠃⠐⠦⠇⠥⠇
+𒇘,74200,𒇘,121D8,CUNEIFORM SIGN LAGAB TIMES ME,⠇⠁⠛⠁⠃⠐⠦⠍⠑
+𒇙,74201,𒇙,121D9,CUNEIFORM SIGN LAGAB TIMES ME PLUS EN,⠇⠁⠛⠁⠃⠐⠦⠍⠑⠐⠖⠑⠝
+𒇚,74202,𒇚,121DA,CUNEIFORM SIGN LAGAB TIMES MUSH,⠇⠁⠛⠁⠃⠐⠦⠍⠥⠎⠓
+𒇛,74203,𒇛,121DB,CUNEIFORM SIGN LAGAB TIMES NE,⠇⠁⠛⠁⠃⠐⠦⠝⠑
+𒇜,74204,𒇜,121DC,CUNEIFORM SIGN LAGAB TIMES SHE PLUS SUM,⠇⠁⠛⠁⠃⠐⠦⠎⠓⠑⠐⠖⠎⠥⠍
+𒇝,74205,𒇝,121DD,CUNEIFORM SIGN LAGAB TIMES SHITA PLUS GISH PLUS ERIN2,⠇⠁⠛⠁⠃⠐⠦⠎⠓⠊⠞⠁⠐⠖⠛⠊⠎⠓⠐⠖⠑⠗⠊⠝⠼⠃
+𒇞,74206,𒇞,121DE,CUNEIFORM SIGN LAGAB TIMES SHITA PLUS GISH TENU,⠇⠁⠛⠁⠃⠐⠦⠎⠓⠊⠞⠁⠐⠖⠛⠊⠎⠓ ⠞⠑⠝⠥
+𒇟,74207,𒇟,121DF,CUNEIFORM SIGN LAGAB TIMES SHU2,⠇⠁⠛⠁⠃⠐⠦⠎⠓⠥⠼⠃
+𒇠,74208,𒇠,121,CUNEIFORM SIGN LAGAB TIMES SHU2 PLUS SHU2,⠇⠁⠛⠁⠃⠐⠦⠎⠓⠥⠼⠃⠐⠖⠎⠓⠥⠼⠃
+𒇡,74209,𒇡,1210,CUNEIFORM SIGN LAGAB TIMES SUM,⠇⠁⠛⠁⠃⠐⠦⠎⠥⠍
+𒇢,74210,𒇢,12100,CUNEIFORM SIGN LAGAB TIMES TAG,⠇⠁⠛⠁⠃⠐⠦⠞⠁⠛
+𒇣,74211,𒇣,121000,CUNEIFORM SIGN LAGAB TIMES TAK4,⠇⠁⠛⠁⠃⠐⠦⠞⠁⠅⠼⠙
+𒇤,74212,𒇤,1210000,CUNEIFORM SIGN LAGAB TIMES TE PLUS A PLUS SU PLUS NA,⠇⠁⠛⠁⠃⠐⠦⠞⠑⠐⠖⠁⠐⠖⠎⠥⠐⠖⠝⠁
+𒇥,74213,𒇥,12100000,CUNEIFORM SIGN LAGAB TIMES U,⠇⠁⠛⠁⠃⠐⠦⠥
+𒇦,74214,𒇦,121000000,CUNEIFORM SIGN LAGAB TIMES U PLUS A,⠇⠁⠛⠁⠃⠐⠦⠥⠐⠖⠁
+𒇧,74215,𒇧,1210000000,CUNEIFORM SIGN LAGAB TIMES U PLUS U PLUS U,⠇⠁⠛⠁⠃⠐⠦⠥⠐⠖⠥⠐⠖⠥
+𒇨,74216,𒇨,12100000000,CUNEIFORM SIGN LAGAB TIMES U2 PLUS ASH,⠇⠁⠛⠁⠃⠐⠦⠥⠼⠃⠐⠖⠁⠎⠓
+𒇩,74217,𒇩,121000000000,CUNEIFORM SIGN LAGAB TIMES UD,⠇⠁⠛⠁⠃⠐⠦⠥⠙
+𒇪,74218,𒇪,121EA,CUNEIFORM SIGN LAGAB TIMES USH,⠇⠁⠛⠁⠃⠐⠦⠥⠎⠓
+𒇫,74219,𒇫,121EB,CUNEIFORM SIGN LAGAB SQUARED,⠇⠁⠛⠁⠃⠔⠼⠃
+𒇬,74220,𒇬,121EC,CUNEIFORM SIGN LAGAR,⠇⠁⠛⠁⠗
+𒇭,74221,𒇭,121ED,CUNEIFORM SIGN LAGAR TIMES SHE,⠇⠁⠛⠁⠗⠐⠦⠎⠓⠑
+𒇮,74222,𒇮,121EE,CUNEIFORM SIGN LAGAR TIMES SHE PLUS SUM,⠇⠁⠛⠁⠗⠐⠦⠎⠓⠑⠐⠖⠎⠥⠍
+𒇯,74223,𒇯,121EF,CUNEIFORM SIGN LAGAR GUNU,⠇⠁⠛⠁⠗ ⠛⠥⠝⠥
+𒇰,74224,𒇰,121F0,CUNEIFORM SIGN LAGAR GUNU OVER LAGAR GUNU SHE,⠇⠁⠛⠁⠗ ⠛⠥⠝⠥⠐⠌⠇⠁⠛⠁⠗ ⠛⠥⠝⠥ ⠎⠓⠑
+𒇱,74225,𒇱,121F1,CUNEIFORM SIGN LAHSHU,⠇⠁⠓⠎⠓⠥
+𒇲,74226,𒇲,121F2,CUNEIFORM SIGN LAL,⠇⠁⠇
+𒇳,74227,𒇳,121F3,CUNEIFORM SIGN LAL TIMES LAL,⠇⠁⠇⠐⠦⠇⠁⠇
+𒇴,74228,𒇴,121F4,CUNEIFORM SIGN LAM,⠇⠁⠍
+𒇵,74229,𒇵,121F5,CUNEIFORM SIGN LAM TIMES KUR,⠇⠁⠍⠐⠦⠅⠥⠗
+𒇶,74230,𒇶,121F6,CUNEIFORM SIGN LAM TIMES KUR PLUS RU,⠇⠁⠍⠐⠦⠅⠥⠗⠐⠖⠗⠥
+𒇷,74231,𒇷,121F7,CUNEIFORM SIGN LI,⠇⠊
+𒇸,74232,𒇸,121F8,CUNEIFORM SIGN LIL,⠇⠊⠇
+𒇹,74233,𒇹,121F9,CUNEIFORM SIGN LIMMU2,⠇⠊⠍⠍⠥⠼⠃
+𒇺,74234,𒇺,121FA,CUNEIFORM SIGN LISH,⠇⠊⠎⠓
+𒇻,74235,𒇻,121FB,CUNEIFORM SIGN LU,⠇⠥
+𒇼,74236,𒇼,121FC,CUNEIFORM SIGN LU TIMES BAD,⠇⠥⠐⠦⠃⠁⠙
+𒇽,74237,𒇽,121FD,CUNEIFORM SIGN LU2,⠇⠥⠼⠃
+𒇾,74238,𒇾,121FE,CUNEIFORM SIGN LU2 TIMES AL,⠇⠥⠼⠃⠐⠦⠁⠇
+𒇿,74239,𒇿,121FF,CUNEIFORM SIGN LU2 TIMES BAD,⠇⠥⠼⠃⠐⠦⠃⠁⠙
+𒈀,74240,𒈀,12200,CUNEIFORM SIGN LU2 TIMES ESH2,⠇⠥⠼⠃⠐⠦⠑⠎⠓⠼⠃
+𒈁,74241,𒈁,12201,CUNEIFORM SIGN LU2 TIMES ESH2 TENU,⠇⠥⠼⠃⠐⠦⠑⠎⠓⠼⠃ ⠞⠑⠝⠥
+𒈂,74242,𒈂,12202,CUNEIFORM SIGN LU2 TIMES GAN2 TENU,⠇⠥⠼⠃⠐⠦⠛⠁⠝⠼⠃ ⠞⠑⠝⠥
+𒈃,74243,𒈃,12203,CUNEIFORM SIGN LU2 TIMES HI TIMES BAD,⠇⠥⠼⠃⠐⠦⠓⠊⠐⠦⠃⠁⠙
+𒈄,74244,𒈄,12204,CUNEIFORM SIGN LU2 TIMES IM,⠇⠥⠼⠃⠐⠦⠊⠍
+𒈅,74245,𒈅,12205,CUNEIFORM SIGN LU2 TIMES KAD2,⠇⠥⠼⠃⠐⠦⠅⠁⠙⠼⠃
+𒈆,74246,𒈆,12206,CUNEIFORM SIGN LU2 TIMES KAD3,⠇⠥⠼⠃⠐⠦⠅⠁⠙⠼⠉
+𒈇,74247,𒈇,12207,CUNEIFORM SIGN LU2 TIMES KAD3 PLUS ASH,⠇⠥⠼⠃⠐⠦⠅⠁⠙⠼⠉⠐⠖⠁⠎⠓
+𒈈,74248,𒈈,12208,CUNEIFORM SIGN LU2 TIMES KI,⠇⠥⠼⠃⠐⠦⠅⠊
+𒈉,74249,𒈉,12209,CUNEIFORM SIGN LU2 TIMES LA PLUS ASH,⠇⠥⠼⠃⠐⠦⠇⠁⠐⠖⠁⠎⠓
+𒈊,74250,𒈊,1220A,CUNEIFORM SIGN LU2 TIMES LAGAB,⠇⠥⠼⠃⠐⠦⠇⠁⠛⠁⠃
+𒈋,74251,𒈋,1220B,CUNEIFORM SIGN LU2 TIMES ME PLUS EN,⠇⠥⠼⠃⠐⠦⠍⠑⠐⠖⠑⠝
+𒈌,74252,𒈌,1220C,CUNEIFORM SIGN LU2 TIMES NE,⠇⠥⠼⠃⠐⠦⠝⠑
+𒈍,74253,𒈍,1220D,CUNEIFORM SIGN LU2 TIMES NU,⠇⠥⠼⠃⠐⠦⠝⠥
+𒈎,74254,𒈎,1220E,CUNEIFORM SIGN LU2 TIMES SI PLUS ASH,⠇⠥⠼⠃⠐⠦⠎⠊⠐⠖⠁⠎⠓
+𒈏,74255,𒈏,1220F,CUNEIFORM SIGN LU2 TIMES SIK2 PLUS BU,⠇⠥⠼⠃⠐⠦⠎⠊⠅⠼⠃⠐⠖⠃⠥
+𒈐,74256,𒈐,12210,CUNEIFORM SIGN LU2 TIMES TUG2,⠇⠥⠼⠃⠐⠦⠞⠥⠛⠼⠃
+𒈑,74257,𒈑,12211,CUNEIFORM SIGN LU2 TENU,⠇⠥⠼⠃ ⠞⠑⠝⠥
+𒈒,74258,𒈒,12212,CUNEIFORM SIGN LU2 CROSSING LU2,⠇⠥⠼⠃⠈⠯⠇⠥⠼⠃
+𒈓,74259,𒈓,12213,CUNEIFORM SIGN LU2 OPPOSING LU2,⠇⠥⠼⠃⠈⠎⠇⠥⠼⠃
+𒈔,74260,𒈔,12214,CUNEIFORM SIGN LU2 SQUARED,⠇⠥⠼⠃⠔⠼⠃
+𒈕,74261,𒈕,12215,CUNEIFORM SIGN LU2 SHESHIG,⠇⠥⠼⠃ ⠎⠓⠑⠎⠓⠊⠛
+𒈖,74262,𒈖,12216,CUNEIFORM SIGN LU3,⠇⠥⠼⠉
+𒈗,74263,𒈗,12217,CUNEIFORM SIGN LUGAL,⠇⠥⠛⠁⠇
+𒈘,74264,𒈘,12218,CUNEIFORM SIGN LUGAL OVER LUGAL,⠇⠥⠛⠁⠇⠐⠌⠇⠥⠛⠁⠇
+𒈙,74265,𒈙,12219,CUNEIFORM SIGN LUGAL OPPOSING LUGAL,⠇⠥⠛⠁⠇⠈⠎⠇⠥⠛⠁⠇
+𒈚,74266,𒈚,1221A,CUNEIFORM SIGN LUGAL SHESHIG,⠇⠥⠛⠁⠇ ⠎⠓⠑⠎⠓⠊⠛
+𒈛,74267,𒈛,1221B,CUNEIFORM SIGN LUH,⠇⠥⠓
+𒈜,74268,𒈜,1221C,CUNEIFORM SIGN LUL,⠇⠥⠇
+𒈝,74269,𒈝,1221D,CUNEIFORM SIGN LUM,⠇⠥⠍
+𒈞,74270,𒈞,1221E,CUNEIFORM SIGN LUM OVER LUM,⠇⠥⠍⠐⠌⠇⠥⠍
+𒈟,74271,𒈟,1221F,CUNEIFORM SIGN LUM OVER LUM GAR OVER GAR,⠇⠥⠍⠐⠌⠇⠥⠍ ⠛⠁⠗⠐⠌⠛⠁⠗
+𒈠,74272,𒈠,12220,CUNEIFORM SIGN MA,⠍⠁
+𒈡,74273,𒈡,12221,CUNEIFORM SIGN MA TIMES TAK4,⠍⠁⠐⠦⠞⠁⠅⠼⠙
+𒈢,74274,𒈢,12222,CUNEIFORM SIGN MA GUNU,⠍⠁ ⠛⠥⠝⠥
+𒈣,74275,𒈣,12223,CUNEIFORM SIGN MA2,⠍⠁⠼⠃
+𒈤,74276,𒈤,12224,CUNEIFORM SIGN MAH,⠍⠁⠓
+𒈥,74277,𒈥,12225,CUNEIFORM SIGN MAR,⠍⠁⠗
+𒈦,74278,𒈦,12226,CUNEIFORM SIGN MASH,⠍⠁⠎⠓
+𒈧,74279,𒈧,12227,CUNEIFORM SIGN MASH2,⠍⠁⠎⠓⠼⠃
+𒈨,74280,𒈨,12228,CUNEIFORM SIGN ME,⠍⠑
+𒈩,74281,𒈩,12229,CUNEIFORM SIGN MES,⠍⠑⠎
+𒈪,74282,𒈪,1222A,CUNEIFORM SIGN MI,⠍⠊
+𒈫,74283,𒈫,1222B,CUNEIFORM SIGN MIN,⠍⠊⠝
+𒈬,74284,𒈬,1222C,CUNEIFORM SIGN MU,⠍⠥
+𒈭,74285,𒈭,1222D,CUNEIFORM SIGN MU OVER MU,⠍⠥⠐⠌⠍⠥
+𒈮,74286,𒈮,1222E,CUNEIFORM SIGN MUG,⠍⠥⠛
+𒈯,74287,𒈯,1222F,CUNEIFORM SIGN MUG GUNU,⠍⠥⠛ ⠛⠥⠝⠥
+𒈰,74288,𒈰,12230,CUNEIFORM SIGN MUNSUB,⠍⠥⠝⠎⠥⠃
+𒈱,74289,𒈱,12231,CUNEIFORM SIGN MURGU2,⠍⠥⠗⠛⠥⠼⠃
+𒈲,74290,𒈲,12232,CUNEIFORM SIGN MUSH,⠍⠥⠎⠓
+𒈳,74291,𒈳,12233,CUNEIFORM SIGN MUSH TIMES A,⠍⠥⠎⠓⠐⠦⠁
+𒈴,74292,𒈴,12234,CUNEIFORM SIGN MUSH TIMES KUR,⠍⠥⠎⠓⠐⠦⠅⠥⠗
+𒈵,74293,𒈵,12235,CUNEIFORM SIGN MUSH TIMES ZA,⠍⠥⠎⠓⠐⠦⠵⠁
+𒈶,74294,𒈶,12236,CUNEIFORM SIGN MUSH OVER MUSH,⠍⠥⠎⠓⠐⠌⠍⠥⠎⠓
+𒈷,74295,𒈷,12237,CUNEIFORM SIGN MUSH OVER MUSH TIMES A PLUS NA,⠍⠥⠎⠓⠐⠌⠍⠥⠎⠓⠐⠦⠁⠐⠖⠝⠁
+𒈸,74296,𒈸,12238,CUNEIFORM SIGN MUSH CROSSING MUSH,⠍⠥⠎⠓⠈⠯⠍⠥⠎⠓
+𒈹,74297,𒈹,12239,CUNEIFORM SIGN MUSH3,⠍⠥⠎⠓⠼⠉
+𒈺,74298,𒈺,1223A,CUNEIFORM SIGN MUSH3 TIMES A,⠍⠥⠎⠓⠼⠉⠐⠦⠁
+𒈻,74299,𒈻,1223B,CUNEIFORM SIGN MUSH3 TIMES A PLUS DI,⠍⠥⠎⠓⠼⠉⠐⠦⠁⠐⠖⠙⠊
+𒈼,74300,𒈼,1223C,CUNEIFORM SIGN MUSH3 TIMES DI,⠍⠥⠎⠓⠼⠉⠐⠦⠙⠊
+𒈽,74301,𒈽,1223D,CUNEIFORM SIGN MUSH3 GUNU,⠍⠥⠎⠓⠼⠉ ⠛⠥⠝⠥
+𒈾,74302,𒈾,1223E,CUNEIFORM SIGN NA,⠝⠁
+𒈿,74303,𒈿,1223F,CUNEIFORM SIGN NA2,⠝⠁⠼⠃
+𒉀,74304,𒉀,12240,CUNEIFORM SIGN NAGA,⠝⠁⠛⠁
+𒉁,74305,𒉁,12241,CUNEIFORM SIGN NAGA INVERTED,⠝⠁⠛⠁ ⠊⠝⠧⠑⠗⠞⠑⠙
+𒉂,74306,𒉂,12242,CUNEIFORM SIGN NAGA TIMES SHU TENU,⠝⠁⠛⠁⠐⠦⠎⠓⠥ ⠞⠑⠝⠥
+𒉃,74307,𒉃,12243,CUNEIFORM SIGN NAGA OPPOSING NAGA,⠝⠁⠛⠁⠈⠎⠝⠁⠛⠁
+𒉄,74308,𒉄,12244,CUNEIFORM SIGN NAGAR,⠝⠁⠛⠁⠗
+𒉅,74309,𒉅,12245,CUNEIFORM SIGN NAM NUTILLU,⠝⠁⠍ ⠝⠥⠞⠊⠇⠇⠥
+𒉆,74310,𒉆,12246,CUNEIFORM SIGN NAM,⠝⠁⠍
+𒉇,74311,𒉇,12247,CUNEIFORM SIGN NAM2,⠝⠁⠍⠼⠃
+𒉈,74312,𒉈,12248,CUNEIFORM SIGN NE,⠝⠑
+𒉉,74313,𒉉,12249,CUNEIFORM SIGN NE TIMES A,⠝⠑⠐⠦⠁
+𒉊,74314,𒉊,1224A,CUNEIFORM SIGN NE TIMES UD,⠝⠑⠐⠦⠥⠙
+𒉋,74315,𒉋,1224B,CUNEIFORM SIGN NE SHESHIG,⠝⠑ ⠎⠓⠑⠎⠓⠊⠛
+𒉌,74316,𒉌,1224C,CUNEIFORM SIGN NI,⠝⠊
+𒉍,74317,𒉍,1224D,CUNEIFORM SIGN NI TIMES E,⠝⠊⠐⠦⠑
+𒉎,74318,𒉎,1224E,CUNEIFORM SIGN NI2,⠝⠊⠼⠃
+𒉏,74319,𒉏,1224F,CUNEIFORM SIGN NIM,⠝⠊⠍
+𒉐,74320,𒉐,12250,CUNEIFORM SIGN NIM TIMES GAN2 TENU,⠝⠊⠍⠐⠦⠛⠁⠝⠼⠃ ⠞⠑⠝⠥
+𒉑,74321,𒉑,12251,CUNEIFORM SIGN NIM TIMES GAR PLUS GAN2 TENU,⠝⠊⠍⠐⠦⠛⠁⠗⠐⠖⠛⠁⠝⠼⠃ ⠞⠑⠝⠥
+𒉒,74322,𒉒,12252,CUNEIFORM SIGN NINDA2,⠝⠊⠝⠙⠁⠼⠃
+𒉓,74323,𒉓,12253,CUNEIFORM SIGN NINDA2 TIMES AN,⠝⠊⠝⠙⠁⠼⠃⠐⠦⠁⠝
+𒉔,74324,𒉔,12254,CUNEIFORM SIGN NINDA2 TIMES ASH,⠝⠊⠝⠙⠁⠼⠃⠐⠦⠁⠎⠓
+𒉕,74325,𒉕,12255,CUNEIFORM SIGN NINDA2 TIMES ASH PLUS ASH,⠝⠊⠝⠙⠁⠼⠃⠐⠦⠁⠎⠓⠐⠖⠁⠎⠓
+𒉖,74326,𒉖,12256,CUNEIFORM SIGN NINDA2 TIMES GUD,⠝⠊⠝⠙⠁⠼⠃⠐⠦⠛⠥⠙
+𒉗,74327,𒉗,12257,CUNEIFORM SIGN NINDA2 TIMES ME PLUS GAN2 TENU,⠝⠊⠝⠙⠁⠼⠃⠐⠦⠍⠑⠐⠖⠛⠁⠝⠼⠃ ⠞⠑⠝⠥
+𒉘,74328,𒉘,12258,CUNEIFORM SIGN NINDA2 TIMES NE,⠝⠊⠝⠙⠁⠼⠃⠐⠦⠝⠑
+𒉙,74329,𒉙,12259,CUNEIFORM SIGN NINDA2 TIMES NUN,⠝⠊⠝⠙⠁⠼⠃⠐⠦⠝⠥⠝
+𒉚,74330,𒉚,1225A,CUNEIFORM SIGN NINDA2 TIMES SHE,⠝⠊⠝⠙⠁⠼⠃⠐⠦⠎⠓⠑
+𒉛,74331,𒉛,1225B,CUNEIFORM SIGN NINDA2 TIMES SHE PLUS A AN,⠝⠊⠝⠙⠁⠼⠃⠐⠦⠎⠓⠑⠐⠖⠁ ⠁⠝
+𒉜,74332,𒉜,1225C,CUNEIFORM SIGN NINDA2 TIMES SHE PLUS ASH,⠝⠊⠝⠙⠁⠼⠃⠐⠦⠎⠓⠑⠐⠖⠁⠎⠓
+𒉝,74333,𒉝,1225D,CUNEIFORM SIGN NINDA2 TIMES SHE PLUS ASH PLUS ASH,⠝⠊⠝⠙⠁⠼⠃⠐⠦⠎⠓⠑⠐⠖⠁⠎⠓⠐⠖⠁⠎⠓
+𒉞,74334,𒉞,1225E,CUNEIFORM SIGN NINDA2 TIMES U2 PLUS ASH,⠝⠊⠝⠙⠁⠼⠃⠐⠦⠥⠼⠃⠐⠖⠁⠎⠓
+𒉟,74335,𒉟,1225F,CUNEIFORM SIGN NINDA2 TIMES USH,⠝⠊⠝⠙⠁⠼⠃⠐⠦⠥⠎⠓
+𒉠,74336,𒉠,12260,CUNEIFORM SIGN NISAG,⠝⠊⠎⠁⠛
+𒉡,74337,𒉡,12261,CUNEIFORM SIGN NU,⠝⠥
+𒉢,74338,𒉢,12262,CUNEIFORM SIGN NU11,⠝⠥⠼⠁⠼⠁
+𒉣,74339,𒉣,12263,CUNEIFORM SIGN NUN,⠝⠥⠝
+𒉤,74340,𒉤,12264,CUNEIFORM SIGN NUN LAGAR TIMES GAR,⠝⠥⠝ ⠇⠁⠛⠁⠗⠐⠦⠛⠁⠗
+𒉥,74341,𒉥,12265,CUNEIFORM SIGN NUN LAGAR TIMES MASH,⠝⠥⠝ ⠇⠁⠛⠁⠗⠐⠦⠍⠁⠎⠓
+𒉦,74342,𒉦,12266,CUNEIFORM SIGN NUN LAGAR TIMES SAL,⠝⠥⠝ ⠇⠁⠛⠁⠗⠐⠦⠎⠁⠇
+𒉧,74343,𒉧,12267,CUNEIFORM SIGN NUN LAGAR TIMES SAL OVER NUN LAGAR TIMES SAL,⠝⠥⠝ ⠇⠁⠛⠁⠗⠐⠦⠎⠁⠇⠐⠌⠝⠥⠝ ⠇⠁⠛⠁⠗⠐⠦⠎⠁⠇
+𒉨,74344,𒉨,12268,CUNEIFORM SIGN NUN LAGAR TIMES USH,⠝⠥⠝ ⠇⠁⠛⠁⠗⠐⠦⠥⠎⠓
+𒉩,74345,𒉩,12269,CUNEIFORM SIGN NUN TENU,⠝⠥⠝ ⠞⠑⠝⠥
+𒉪,74346,𒉪,1226A,CUNEIFORM SIGN NUN OVER NUN,⠝⠥⠝⠐⠌⠝⠥⠝
+𒉫,74347,𒉫,1226B,CUNEIFORM SIGN NUN CROSSING NUN,⠝⠥⠝⠈⠯⠝⠥⠝
+𒉬,74348,𒉬,1226C,CUNEIFORM SIGN NUN CROSSING NUN LAGAR OVER LAGAR,⠝⠥⠝⠈⠯⠝⠥⠝ ⠇⠁⠛⠁⠗⠐⠌⠇⠁⠛⠁⠗
+𒉭,74349,𒉭,1226D,CUNEIFORM SIGN NUNUZ,⠝⠥⠝⠥
+𒉮,74350,𒉮,1226E,CUNEIFORM SIGN NUNUZ AB2 TIMES ASHGAB,⠝⠥⠝⠥⠵ ⠁⠃⠼⠃⠐⠦⠁⠎⠓⠛⠁⠃
+𒉯,74351,𒉯,1226F,CUNEIFORM SIGN NUNUZ AB2 TIMES BI,⠝⠥⠝⠥⠵ ⠁⠃⠼⠃⠐⠦⠃⠊
+𒉰,74352,𒉰,12270,CUNEIFORM SIGN NUNUZ AB2 TIMES DUG,⠝⠥⠝⠥⠵ ⠁⠃⠼⠃⠐⠦⠙⠥⠛
+𒉱,74353,𒉱,12271,CUNEIFORM SIGN NUNUZ AB2 TIMES GUD,⠝⠥⠝⠥⠵ ⠁⠃⠼⠃⠐⠦⠛⠥⠙
+𒉲,74354,𒉲,12272,CUNEIFORM SIGN NUNUZ AB2 TIMES IGI GUNU,⠝⠥⠝⠥⠵ ⠁⠃⠼⠃⠐⠦⠊⠛⠊ ⠛⠥⠝⠥
+𒉳,74355,𒉳,12273,CUNEIFORM SIGN NUNUZ AB2 TIMES KAD3,⠝⠥⠝⠥⠵ ⠁⠃⠼⠃⠐⠦⠅⠁⠙⠼⠉
+𒉴,74356,𒉴,12274,CUNEIFORM SIGN NUNUZ AB2 TIMES LA,⠝⠥⠝⠥⠵ ⠁⠃⠼⠃⠐⠦⠇⠁
+𒉵,74357,𒉵,12275,CUNEIFORM SIGN NUNUZ AB2 TIMES NE,⠝⠥⠝⠥⠵ ⠁⠃⠼⠃⠐⠦⠝⠑
+𒉶,74358,𒉶,12276,CUNEIFORM SIGN NUNUZ AB2 TIMES SILA3,⠝⠥⠝⠥⠵ ⠁⠃⠼⠃⠐⠦⠎⠊⠇⠁⠼⠉
+𒉷,74359,𒉷,12277,CUNEIFORM SIGN NUNUZ AB2 TIMES U2,⠝⠥⠝⠥⠵ ⠁⠃⠼⠃⠐⠦⠥⠼⠃
+𒉸,74360,𒉸,12278,CUNEIFORM SIGN NUNUZ KISIM5 TIMES BI,⠝⠥⠝⠥⠵ ⠅⠊⠎⠊⠍⠼⠑⠐⠦⠃⠊
+𒉹,74361,𒉹,12279,CUNEIFORM SIGN NUNUZ KISIM5 TIMES BI U,⠝⠥⠝⠥⠵ ⠅⠊⠎⠊⠍⠼⠑⠐⠦⠃⠊ ⠥
+𒉺,74362,𒉺,1227A,CUNEIFORM SIGN PA,⠏⠁
+𒉻,74363,𒉻,1227B,CUNEIFORM SIGN PAD,⠏⠁⠙
+𒉼,74364,𒉼,1227C,CUNEIFORM SIGN PAN,⠏⠁⠝
+𒉽,74365,𒉽,1227D,CUNEIFORM SIGN PAP,⠏⠁⠏
+𒉾,74366,𒉾,1227E,CUNEIFORM SIGN PESH2,⠏⠑⠎⠓⠼⠃
+𒉿,74367,𒉿,1227F,CUNEIFORM SIGN PI,⠏⠊
+𒊀,74368,𒊀,12280,CUNEIFORM SIGN PI TIMES A,⠏⠊⠐⠦⠁
+𒊁,74369,𒊁,12281,CUNEIFORM SIGN PI TIMES AB,⠏⠊⠐⠦⠁⠃
+𒊂,74370,𒊂,12282,CUNEIFORM SIGN PI TIMES BI,⠏⠊⠐⠦⠃⠊
+𒊃,74371,𒊃,12283,CUNEIFORM SIGN PI TIMES BU,⠏⠊⠐⠦⠃⠥
+𒊄,74372,𒊄,12284,CUNEIFORM SIGN PI TIMES E,⠏⠊⠐⠦⠑
+𒊅,74373,𒊅,12285,CUNEIFORM SIGN PI TIMES I,⠏⠊⠐⠦⠊
+𒊆,74374,𒊆,12286,CUNEIFORM SIGN PI TIMES IB,⠏⠊⠐⠦⠊⠃
+𒊇,74375,𒊇,12287,CUNEIFORM SIGN PI TIMES U,⠏⠊⠐⠦⠥
+𒊈,74376,𒊈,12288,CUNEIFORM SIGN PI TIMES U2,⠏⠊⠐⠦⠥⠼⠃
+𒊉,74377,𒊉,12289,CUNEIFORM SIGN PI CROSSING PI,⠏⠊⠈⠯⠏⠊
+𒊊,74378,𒊊,1228A,CUNEIFORM SIGN PIRIG,⠏⠊⠗⠊⠛
+𒊋,74379,𒊋,1228B,CUNEIFORM SIGN PIRIG TIMES KAL,⠏⠊⠗⠊⠛⠐⠦⠅⠁⠇
+𒊌,74380,𒊌,1228C,CUNEIFORM SIGN PIRIG TIMES UD,⠏⠊⠗⠊⠛⠐⠦⠥⠙
+𒊍,74381,𒊍,1228D,CUNEIFORM SIGN PIRIG TIMES ZA,⠏⠊⠗⠊⠛⠐⠦⠵⠁
+𒊎,74382,𒊎,1228E,CUNEIFORM SIGN PIRIG OPPOSING PIRIG,⠏⠊⠗⠊⠛⠈⠎⠏⠊⠗⠊⠛
+𒊏,74383,𒊏,1228F,CUNEIFORM SIGN RA,⠗⠁
+𒊐,74384,𒊐,12290,CUNEIFORM SIGN RAB,⠗⠁⠃
+𒊑,74385,𒊑,12291,CUNEIFORM SIGN RI,⠗⠊
+𒊒,74386,𒊒,12292,CUNEIFORM SIGN RU,⠗⠥
+𒊓,74387,𒊓,12293,CUNEIFORM SIGN SA,⠎⠁
+𒊔,74388,𒊔,12294,CUNEIFORM SIGN SAG NUTILLU,⠎⠁⠛ ⠝⠥⠞⠊⠇⠇⠥
+𒊕,74389,𒊕,12295,CUNEIFORM SIGN SAG,⠎⠁⠛
+𒊖,74390,𒊖,12296,CUNEIFORM SIGN SAG TIMES A,⠎⠁⠛⠐⠦⠁
+𒊗,74391,𒊗,12297,CUNEIFORM SIGN SAG TIMES DU,⠎⠁⠛⠐⠦⠙⠥
+𒊘,74392,𒊘,12298,CUNEIFORM SIGN SAG TIMES DUB,⠎⠁⠛⠐⠦⠙⠥⠃
+𒊙,74393,𒊙,12299,CUNEIFORM SIGN SAG TIMES HA,⠎⠁⠛⠐⠦⠓⠁
+𒊚,74394,𒊚,1229A,CUNEIFORM SIGN SAG TIMES KAK,⠎⠁⠛⠐⠦⠅⠁⠅
+𒊛,74395,𒊛,1229B,CUNEIFORM SIGN SAG TIMES KUR,⠎⠁⠛⠐⠦⠅⠥⠗
+𒊜,74396,𒊜,1229C,CUNEIFORM SIGN SAG TIMES LUM,⠎⠁⠛⠐⠦⠇⠥⠍
+𒊝,74397,𒊝,1229D,CUNEIFORM SIGN SAG TIMES MI,⠎⠁⠛⠐⠦⠍⠊
+𒊞,74398,𒊞,1229E,CUNEIFORM SIGN SAG TIMES NUN,⠎⠁⠛⠐⠦⠝⠥⠝
+𒊟,74399,𒊟,1229F,CUNEIFORM SIGN SAG TIMES SAL,⠎⠁⠛⠐⠦⠎⠁⠇
+𒊠,74400,𒊠,122A0,CUNEIFORM SIGN SAG TIMES SHID,⠎⠁⠛⠐⠦⠎⠓⠊⠙
+𒊡,74401,𒊡,122A1,CUNEIFORM SIGN SAG TIMES TAB,⠎⠁⠛⠐⠦⠞⠁⠃
+𒊢,74402,𒊢,122A2,CUNEIFORM SIGN SAG TIMES U2,⠎⠁⠛⠐⠦⠥⠼⠃
+𒊣,74403,𒊣,122A3,CUNEIFORM SIGN SAG TIMES UB,⠎⠁⠛⠐⠦⠥⠃
+𒊤,74404,𒊤,122A4,CUNEIFORM SIGN SAG TIMES UM,⠎⠁⠛⠐⠦⠥⠍
+𒊥,74405,𒊥,122A5,CUNEIFORM SIGN SAG TIMES UR,⠎⠁⠛⠐⠦⠥⠗
+𒊦,74406,𒊦,122A6,CUNEIFORM SIGN SAG TIMES USH,⠎⠁⠛⠐⠦⠥⠎⠓
+𒊧,74407,𒊧,122A7,CUNEIFORM SIGN SAG OVER SAG,⠎⠁⠛⠐⠌⠎⠁⠛
+𒊨,74408,𒊨,122A8,CUNEIFORM SIGN SAG GUNU,⠎⠁⠛ ⠛⠥⠝⠥
+𒊩,74409,𒊩,122A9,CUNEIFORM SIGN SAL,⠎⠁⠇
+𒊪,74410,𒊪,122AA,CUNEIFORM SIGN SAL LAGAB TIMES ASH2,⠎⠁⠇ ⠇⠁⠛⠁⠃⠐⠦⠁⠎⠓⠼⠃
+𒊫,74411,𒊫,122AB,CUNEIFORM SIGN SANGA2,⠎⠁⠝⠛⠁⠼⠃
+𒊬,74412,𒊬,122AC,CUNEIFORM SIGN SAR,⠎⠁⠗
+𒊭,74413,𒊭,122AD,CUNEIFORM SIGN SHA,⠎⠓⠁
+𒊮,74414,𒊮,122AE,CUNEIFORM SIGN SHA3,⠎⠓⠁⠼⠉
+𒊯,74415,𒊯,122AF,CUNEIFORM SIGN SHA3 TIMES A,⠎⠓⠁⠼⠉⠐⠦⠁
+𒊰,74416,𒊰,122B0,CUNEIFORM SIGN SHA3 TIMES BAD,⠎⠓⠁⠼⠉⠐⠦⠃⠁⠙
+𒊱,74417,𒊱,122B1,CUNEIFORM SIGN SHA3 TIMES GISH,⠎⠓⠁⠼⠉⠐⠦⠛⠊⠎⠓
+𒊲,74418,𒊲,122B2,CUNEIFORM SIGN SHA3 TIMES NE,⠎⠓⠁⠼⠉⠐⠦⠝⠑
+𒊳,74419,𒊳,122B3,CUNEIFORM SIGN SHA3 TIMES SHU2,⠎⠓⠁⠼⠉⠐⠦⠎⠓⠥⠼⠃
+𒊴,74420,𒊴,122B4,CUNEIFORM SIGN SHA3 TIMES TUR,⠎⠓⠁⠼⠉⠐⠦⠞⠥⠗
+𒊵,74421,𒊵,122B5,CUNEIFORM SIGN SHA3 TIMES U,⠎⠓⠁⠼⠉⠐⠦⠥
+𒊶,74422,𒊶,122B6,CUNEIFORM SIGN SHA3 TIMES U PLUS A,⠎⠓⠁⠼⠉⠐⠦⠥⠐⠖⠁
+𒊷,74423,𒊷,122B7,CUNEIFORM SIGN SHA6,⠎⠓⠁⠼⠋
+𒊸,74424,𒊸,122B8,CUNEIFORM SIGN SHAB6,⠎⠓⠁⠃⠼⠋
+𒊹,74425,𒊹,122B9,CUNEIFORM SIGN SHAR2,⠎⠓⠁⠗⠼⠃
+𒊺,74426,𒊺,122BA,CUNEIFORM SIGN SHE,⠎⠓⠑
+𒊻,74427,𒊻,122BB,CUNEIFORM SIGN SHE HU,⠎⠓⠑ ⠓⠥
+𒊼,74428,𒊼,122BC,CUNEIFORM SIGN SHE OVER SHE GAD OVER GAD GAR OVER GAR,⠎⠓⠑⠐⠌⠎⠓⠑ ⠛⠁⠙⠐⠌⠛⠁⠙ ⠛⠁⠗⠐⠌⠛⠁⠗
+𒊽,74429,𒊽,122BD,CUNEIFORM SIGN SHE OVER SHE TAB OVER TAB GAR OVER GAR,⠎⠓⠑⠐⠌⠎⠓⠑ ⠞⠁⠃⠐⠌⠞⠁⠃ ⠛⠁⠗⠐⠌⠛⠁⠗
+𒊾,74430,𒊾,122BE,CUNEIFORM SIGN SHEG9,⠎⠓⠑⠛⠼⠊
+𒊿,74431,𒊿,122BF,CUNEIFORM SIGN SHEN,⠎⠓⠑⠝
+𒋀,74432,𒋀,122C0,CUNEIFORM SIGN SHESH,⠎⠓⠑⠎⠓
+𒋁,74433,𒋁,122C1,CUNEIFORM SIGN SHESH2,⠎⠓⠑⠎⠓⠼⠃
+𒋂,74434,𒋂,122C2,CUNEIFORM SIGN SHESHLAM,⠎⠓⠑⠎⠓⠇⠁⠍
+𒋃,74435,𒋃,122C3,CUNEIFORM SIGN SHID,⠎⠓⠊⠙
+𒋄,74436,𒋄,122C4,CUNEIFORM SIGN SHID TIMES A,⠎⠓⠊⠙⠐⠦⠁
+𒋅,74437,𒋅,122C5,CUNEIFORM SIGN SHID TIMES IM,⠎⠓⠊⠙⠐⠦⠊⠍
+𒋆,74438,𒋆,122C6,CUNEIFORM SIGN SHIM,⠎⠓⠊⠍
+𒋇,74439,𒋇,122C7,CUNEIFORM SIGN SHIM TIMES A,⠎⠓⠊⠍⠐⠦⠁
+𒋈,74440,𒋈,122C8,CUNEIFORM SIGN SHIM TIMES BAL,⠎⠓⠊⠍⠐⠦⠃⠁⠇
+𒋉,74441,𒋉,122C9,CUNEIFORM SIGN SHIM TIMES BULUG,⠎⠓⠊⠍⠐⠦⠃⠥⠇⠥⠛
+𒋊,74442,𒋊,122CA,CUNEIFORM SIGN SHIM TIMES DIN,⠎⠓⠊⠍⠐⠦⠙⠊⠝
+𒋋,74443,𒋋,122CB,CUNEIFORM SIGN SHIM TIMES GAR,⠎⠓⠊⠍⠐⠦⠛⠁⠗
+𒋌,74444,𒋌,122CC,CUNEIFORM SIGN SHIM TIMES IGI,⠎⠓⠊⠍⠐⠦⠊⠛⠊
+𒋍,74445,𒋍,122CD,CUNEIFORM SIGN SHIM TIMES IGI GUNU,⠎⠓⠊⠍⠐⠦⠊⠛⠊ ⠛⠥⠝⠥
+𒋎,74446,𒋎,122CE,CUNEIFORM SIGN SHIM TIMES KUSHU2,⠎⠓⠊⠍⠐⠦⠅⠥⠎⠓⠥⠼⠃
+𒋏,74447,𒋏,122CF,CUNEIFORM SIGN SHIM TIMES LUL,⠎⠓⠊⠍⠐⠦⠇⠥⠇
+𒋐,74448,𒋐,122D0,CUNEIFORM SIGN SHIM TIMES MUG,⠎⠓⠊⠍⠐⠦⠍⠥⠛
+𒋑,74449,𒋑,122D1,CUNEIFORM SIGN SHIM TIMES SAL,⠎⠓⠊⠍⠐⠦⠎⠁⠇
+𒋒,74450,𒋒,122D2,CUNEIFORM SIGN SHINIG,⠎⠓⠊⠝⠊⠛
+𒋓,74451,𒋓,122D3,CUNEIFORM SIGN SHIR,⠎⠓⠊⠗
+𒋔,74452,𒋔,122D4,CUNEIFORM SIGN SHIR TENU,⠎⠓⠊⠗ ⠞⠑⠝⠥
+𒋕,74453,𒋕,122D5,CUNEIFORM SIGN SHIR OVER SHIR BUR OVER BUR,⠎⠓⠊⠗⠐⠌⠎⠓⠊⠗ ⠃⠥⠗⠐⠌⠃⠥⠗
+𒋖,74454,𒋖,122D6,CUNEIFORM SIGN SHITA,⠎⠓⠊⠞⠁
+𒋗,74455,𒋗,122D7,CUNEIFORM SIGN SHU,⠎⠓⠥
+𒋘,74456,𒋘,122D8,CUNEIFORM SIGN SHU OVER INVERTED SHU,⠎⠓⠥⠐⠌⠊⠝⠧⠑⠗⠞⠑⠙ ⠎⠓⠥
+𒋙,74457,𒋙,122D9,CUNEIFORM SIGN SHU2,⠎⠓⠥⠼⠃
+𒋚,74458,𒋚,122DA,CUNEIFORM SIGN SHUBUR,⠎⠓⠥⠃⠥⠗
+𒋛,74459,𒋛,122DB,CUNEIFORM SIGN SI,⠎⠊
+𒋜,74460,𒋜,122DC,CUNEIFORM SIGN SI GUNU,⠎⠊ ⠛⠥⠝⠥
+𒋝,74461,𒋝,122DD,CUNEIFORM SIGN SIG,⠎⠊⠛
+𒋞,74462,𒋞,122DE,CUNEIFORM SIGN SIG4,⠎⠊⠛⠼⠙
+𒋟,74463,𒋟,122DF,CUNEIFORM SIGN SIG4 OVER SIG4 SHU2,⠎⠊⠛⠼⠙⠐⠌⠎⠊⠛⠼⠙ ⠎⠓⠥⠼⠃
+𒋠,74464,𒋠,122,CUNEIFORM SIGN SIK2,⠎⠊⠅⠼⠃
+𒋡,74465,𒋡,1220,CUNEIFORM SIGN SILA3,⠎⠊⠇⠁⠼⠉
+𒋢,74466,𒋢,12200,CUNEIFORM SIGN SU,⠎⠥
+𒋣,74467,𒋣,122000,CUNEIFORM SIGN SU OVER SU,⠎⠥⠐⠌⠎⠥
+𒋤,74468,𒋤,1220000,CUNEIFORM SIGN SUD,⠎⠥⠙
+𒋥,74469,𒋥,12200000,CUNEIFORM SIGN SUD2,⠎⠥⠙⠼⠃
+𒋦,74470,𒋦,122000000,CUNEIFORM SIGN SUHUR,⠎⠥⠓⠥⠗
+𒋧,74471,𒋧,1220000000,CUNEIFORM SIGN SUM,⠎⠥⠍
+𒋨,74472,𒋨,12200000000,CUNEIFORM SIGN SUMASH,⠎⠥⠍⠁⠎⠓
+𒋩,74473,𒋩,122000000000,CUNEIFORM SIGN SUR,⠎⠥⠗
+𒋪,74474,𒋪,122EA,CUNEIFORM SIGN SUR9,⠎⠥⠗⠼⠊
+𒋫,74475,𒋫,122EB,CUNEIFORM SIGN TA,⠞⠁
+𒋬,74476,𒋬,122EC,CUNEIFORM SIGN TA ASTERISK,⠞⠁⠐⠦
+𒋭,74477,𒋭,122ED,CUNEIFORM SIGN TA TIMES HI,⠞⠁⠐⠦⠓⠊
+𒋮,74478,𒋮,122EE,CUNEIFORM SIGN TA TIMES MI,⠞⠁⠐⠦⠍⠊
+𒋯,74479,𒋯,122EF,CUNEIFORM SIGN TA GUNU,⠞⠁ ⠛⠥⠝⠥
+𒋰,74480,𒋰,122F0,CUNEIFORM SIGN TAB,⠞⠁⠃
+𒋱,74481,𒋱,122F1,CUNEIFORM SIGN TAB OVER TAB NI OVER NI DISH OVER DISH,⠞⠁⠃⠐⠌⠞⠁⠃ ⠝⠊⠐⠌⠝⠊ ⠙⠊⠎⠓⠐⠌⠙⠊⠎⠓
+𒋲,74482,𒋲,122F2,CUNEIFORM SIGN TAB SQUARED,⠞⠁⠃⠔⠼⠃
+𒋳,74483,𒋳,122F3,CUNEIFORM SIGN TAG,⠞⠁⠛
+𒋴,74484,𒋴,122F4,CUNEIFORM SIGN TAG TIMES BI,⠞⠁⠛⠐⠦⠃⠊
+𒋵,74485,𒋵,122F5,CUNEIFORM SIGN TAG TIMES GUD,⠞⠁⠛⠐⠦⠛⠥⠙
+𒋶,74486,𒋶,122F6,CUNEIFORM SIGN TAG TIMES SHE,⠞⠁⠛⠐⠦⠎⠓⠑
+𒋷,74487,𒋷,122F7,CUNEIFORM SIGN TAG TIMES SHU,⠞⠁⠛⠐⠦⠎⠓⠥
+𒋸,74488,𒋸,122F8,CUNEIFORM SIGN TAG TIMES TUG2,⠞⠁⠛⠐⠦⠞⠥⠛⠼⠃
+𒋹,74489,𒋹,122F9,CUNEIFORM SIGN TAG TIMES UD,⠞⠁⠛⠐⠦⠥⠙
+𒋺,74490,𒋺,122FA,CUNEIFORM SIGN TAK4,⠞⠁⠅⠼⠙
+𒋻,74491,𒋻,122FB,CUNEIFORM SIGN TAR,⠞⠁⠗
+𒋼,74492,𒋼,122FC,CUNEIFORM SIGN TE,⠞⠑
+𒋽,74493,𒋽,122FD,CUNEIFORM SIGN TE GUNU,⠞⠑ ⠛⠥⠝⠥
+𒋾,74494,𒋾,122FE,CUNEIFORM SIGN TI,⠞⠊
+𒋿,74495,𒋿,122FF,CUNEIFORM SIGN TI TENU,⠞⠊ ⠞⠑⠝⠥
+𒌀,74496,𒌀,12300,CUNEIFORM SIGN TIL,⠞⠊⠇
+𒌁,74497,𒌁,12301,CUNEIFORM SIGN TIR,⠞⠊⠗
+𒌂,74498,𒌂,12302,CUNEIFORM SIGN TIR TIMES TAK4,⠞⠊⠗⠐⠦⠞⠁⠅⠼⠙
+𒌃,74499,𒌃,12303,CUNEIFORM SIGN TIR OVER TIR,⠞⠊⠗⠐⠌⠞⠊⠗
+𒌄,74500,𒌄,12304,CUNEIFORM SIGN TIR OVER TIR GAD OVER GAD GAR OVER GAR,⠞⠊⠗⠐⠌⠞⠊⠗ ⠛⠁⠙⠐⠌⠛⠁⠙ ⠛⠁⠗⠐⠌⠛⠁⠗
+𒌅,74501,𒌅,12305,CUNEIFORM SIGN TU,⠞⠥
+𒌆,74502,𒌆,12306,CUNEIFORM SIGN TUG2,⠞⠥⠛⠼⠃
+𒌇,74503,𒌇,12307,CUNEIFORM SIGN TUK,⠞⠥⠅
+𒌈,74504,𒌈,12308,CUNEIFORM SIGN TUM,⠞⠥⠍
+𒌉,74505,𒌉,12309,CUNEIFORM SIGN TUR,⠞⠥⠗
+𒌊,74506,𒌊,1230A,CUNEIFORM SIGN TUR OVER TUR ZA OVER ZA,⠞⠥⠗⠐⠌⠞⠥⠗ ⠵⠁⠐⠌⠵⠁
+𒌋,74507,𒌋,1230B,CUNEIFORM SIGN U,⠥
+𒌌,74508,𒌌,1230C,CUNEIFORM SIGN U GUD,⠥ ⠛⠥⠙
+𒌍,74509,𒌍,1230D,CUNEIFORM SIGN U U U,⠥ ⠥ ⠥
+𒌎,74510,𒌎,1230E,CUNEIFORM SIGN U OVER U PA OVER PA GAR OVER GAR,⠥⠐⠌⠥ ⠏⠁⠐⠌⠏⠁ ⠛⠁⠗⠐⠌⠛⠁⠗
+𒌏,74511,𒌏,1230F,CUNEIFORM SIGN U OVER U SUR OVER SUR,⠥⠐⠌⠥ ⠎⠥⠗⠐⠌⠎⠥⠗
+𒌐,74512,𒌐,12310,CUNEIFORM SIGN U OVER U U REVERSED OVER U REVERSED,⠥⠐⠌⠥ ⠥⠈⠯⠈⠣⠐⠌⠥⠈⠯⠈⠣
+𒌑,74513,𒌑,12311,CUNEIFORM SIGN U2,⠥⠼⠃
+𒌒,74514,𒌒,12312,CUNEIFORM SIGN UB,⠥⠃
+𒌓,74515,𒌓,12313,CUNEIFORM SIGN UD,⠥⠙
+𒌔,74516,𒌔,12314,CUNEIFORM SIGN UD KUSHU2,⠥⠙ ⠅⠥⠎⠓⠥⠼⠃
+𒌕,74517,𒌕,12315,CUNEIFORM SIGN UD TIMES BAD,⠥⠙⠐⠦⠃⠁⠙
+𒌖,74518,𒌖,12316,CUNEIFORM SIGN UD TIMES MI,⠥⠙⠐⠦⠍⠊
+𒌗,74519,𒌗,12317,CUNEIFORM SIGN UD TIMES U PLUS U PLUS U,⠥⠙⠐⠦⠥⠐⠖⠥⠐⠖⠥
+𒌘,74520,𒌘,12318,CUNEIFORM SIGN UD TIMES U PLUS U PLUS U GUNU,⠥⠙⠐⠦⠥⠐⠖⠥⠐⠖⠥ ⠛⠥⠝⠥
+𒌙,74521,𒌙,12319,CUNEIFORM SIGN UD GUNU,⠥⠙ ⠛⠥⠝⠥
+𒌚,74522,𒌚,1231A,CUNEIFORM SIGN UD SHESHIG,⠥⠙ ⠎⠓⠑⠎⠓⠊⠛
+𒌛,74523,𒌛,1231B,CUNEIFORM SIGN UD SHESHIG TIMES BAD,⠥⠙ ⠎⠓⠑⠎⠓⠊⠛⠐⠦⠃⠁⠙
+𒌜,74524,𒌜,1231C,CUNEIFORM SIGN UDUG,⠥⠙⠥⠛
+𒌝,74525,𒌝,1231D,CUNEIFORM SIGN UM,⠥⠍
+𒌞,74526,𒌞,1231E,CUNEIFORM SIGN UM TIMES LAGAB,⠥⠍⠐⠦⠇⠁⠛⠁⠃
+𒌟,74527,𒌟,1231F,CUNEIFORM SIGN UM TIMES ME PLUS DA,⠥⠍⠐⠦⠍⠑⠐⠖⠙⠁
+𒌠,74528,𒌠,12320,CUNEIFORM SIGN UM TIMES SHA3,⠥⠍⠐⠦⠎⠓⠁⠼⠉
+𒌡,74529,𒌡,12321,CUNEIFORM SIGN UM TIMES U,⠥⠍⠐⠦⠥
+𒌢,74530,𒌢,12322,CUNEIFORM SIGN UMBIN,⠥⠍⠃⠊⠝
+𒌣,74531,𒌣,12323,CUNEIFORM SIGN UMUM,⠥⠍⠥⠍
+𒌤,74532,𒌤,12324,CUNEIFORM SIGN UMUM TIMES KASKAL,⠥⠍⠥⠍⠐⠦⠅⠁⠎⠅⠁⠇
+𒌥,74533,𒌥,12325,CUNEIFORM SIGN UMUM TIMES PA,⠥⠍⠥⠍⠐⠦⠏⠁
+𒌦,74534,𒌦,12326,CUNEIFORM SIGN UN,⠥⠝
+𒌧,74535,𒌧,12327,CUNEIFORM SIGN UN GUNU,⠥⠝ ⠛⠥⠝⠥
+𒌨,74536,𒌨,12328,CUNEIFORM SIGN UR,⠥⠗
+𒌩,74537,𒌩,12329,CUNEIFORM SIGN UR CROSSING UR,⠥⠗⠈⠯⠥⠗
+𒌪,74538,𒌪,1232A,CUNEIFORM SIGN UR SHESHIG,⠥⠗ ⠎⠓⠑⠎⠓⠊⠛
+𒌫,74539,𒌫,1232B,CUNEIFORM SIGN UR2,⠥⠗⠼⠃
+𒌬,74540,𒌬,1232C,CUNEIFORM SIGN UR2 TIMES A PLUS HA,⠥⠗⠼⠃⠐⠦⠁⠐⠖⠓⠁
+𒌭,74541,𒌭,1232D,CUNEIFORM SIGN UR2 TIMES A PLUS NA,⠥⠗⠼⠃⠐⠦⠁⠐⠖⠝⠁
+𒌮,74542,𒌮,1232E,CUNEIFORM SIGN UR2 TIMES AL,⠥⠗⠼⠃⠐⠦⠁⠇
+𒌯,74543,𒌯,1232F,CUNEIFORM SIGN UR2 TIMES HA,⠥⠗⠼⠃⠐⠦⠓⠁
+𒌰,74544,𒌰,12330,CUNEIFORM SIGN UR2 TIMES NUN,⠥⠗⠼⠃⠐⠦⠝⠥⠝
+𒌱,74545,𒌱,12331,CUNEIFORM SIGN UR2 TIMES U2,⠥⠗⠼⠃⠐⠦⠥⠼⠃
+𒌲,74546,𒌲,12332,CUNEIFORM SIGN UR2 TIMES U2 PLUS ASH,⠥⠗⠼⠃⠐⠦⠥⠼⠃⠐⠖⠁⠎⠓
+𒌳,74547,𒌳,12333,CUNEIFORM SIGN UR2 TIMES U2 PLUS BI,⠥⠗⠼⠃⠐⠦⠥⠼⠃⠐⠖⠃⠊
+𒌴,74548,𒌴,12334,CUNEIFORM SIGN UR4,⠥⠗⠼⠙
+𒌵,74549,𒌵,12335,CUNEIFORM SIGN URI,⠥⠗⠊
+𒌶,74550,𒌶,12336,CUNEIFORM SIGN URI3,⠥⠗⠊⠼⠉
+𒌷,74551,𒌷,12337,CUNEIFORM SIGN URU,⠥⠗⠥
+𒌸,74552,𒌸,12338,CUNEIFORM SIGN URU TIMES A,⠥⠗⠥⠐⠦⠁
+𒌹,74553,𒌹,12339,CUNEIFORM SIGN URU TIMES ASHGAB,⠥⠗⠥⠐⠦⠁⠎⠓⠛⠁⠃
+𒌺,74554,𒌺,1233A,CUNEIFORM SIGN URU TIMES BAR,⠥⠗⠥⠐⠦⠃⠁⠗
+𒌻,74555,𒌻,1233B,CUNEIFORM SIGN URU TIMES DUN,⠥⠗⠥⠐⠦⠙⠥⠝
+𒌼,74556,𒌼,1233C,CUNEIFORM SIGN URU TIMES GA,⠥⠗⠥⠐⠦⠛⠁
+𒌽,74557,𒌽,1233D,CUNEIFORM SIGN URU TIMES GAL,⠥⠗⠥⠐⠦⠛⠁⠇
+𒌾,74558,𒌾,1233E,CUNEIFORM SIGN URU TIMES GAN2 TENU,⠥⠗⠥⠐⠦⠛⠁⠝⠼⠃ ⠞⠑⠝⠥
+𒌿,74559,𒌿,1233F,CUNEIFORM SIGN URU TIMES GAR,⠥⠗⠥⠐⠦⠛⠁⠗
+𒍀,74560,𒍀,12340,CUNEIFORM SIGN URU TIMES GU,⠥⠗⠥⠐⠦⠛⠥
+𒍁,74561,𒍁,12341,CUNEIFORM SIGN URU TIMES HA,⠥⠗⠥⠐⠦⠓⠁
+𒍂,74562,𒍂,12342,CUNEIFORM SIGN URU TIMES IGI,⠥⠗⠥⠐⠦⠊⠛⠊
+𒍃,74563,𒍃,12343,CUNEIFORM SIGN URU TIMES IM,⠥⠗⠥⠐⠦⠊⠍
+𒍄,74564,𒍄,12344,CUNEIFORM SIGN URU TIMES ISH,⠥⠗⠥⠐⠦⠊⠎⠓
+𒍅,74565,𒍅,12345,CUNEIFORM SIGN URU TIMES KI,⠥⠗⠥⠐⠦⠅⠊
+𒍆,74566,𒍆,12346,CUNEIFORM SIGN URU TIMES LUM,⠥⠗⠥⠐⠦⠇⠥⠍
+𒍇,74567,𒍇,12347,CUNEIFORM SIGN URU TIMES MIN,⠥⠗⠥⠐⠦⠍⠊⠝
+𒍈,74568,𒍈,12348,CUNEIFORM SIGN URU TIMES PA,⠥⠗⠥⠐⠦⠏⠁
+𒍉,74569,𒍉,12349,CUNEIFORM SIGN URU TIMES SHE,⠥⠗⠥⠐⠦⠎⠓⠑
+𒍊,74570,𒍊,1234A,CUNEIFORM SIGN URU TIMES SIG4,⠥⠗⠥⠐⠦⠎⠊⠛⠼⠙
+𒍋,74571,𒍋,1234B,CUNEIFORM SIGN URU TIMES TU,⠥⠗⠥⠐⠦⠞⠥
+𒍌,74572,𒍌,1234C,CUNEIFORM SIGN URU TIMES U PLUS GUD,⠥⠗⠥⠐⠦⠥⠐⠖⠛⠥⠙
+𒍍,74573,𒍍,1234D,CUNEIFORM SIGN URU TIMES UD,⠥⠗⠥⠐⠦⠥⠙
+𒍎,74574,𒍎,1234E,CUNEIFORM SIGN URU TIMES URUDA,⠥⠗⠥⠐⠦⠥⠗⠥⠙⠁
+𒍏,74575,𒍏,1234F,CUNEIFORM SIGN URUDA,⠥⠗⠥⠙⠁
+𒍐,74576,𒍐,12350,CUNEIFORM SIGN URUDA TIMES U,⠥⠗⠥⠙⠁⠐⠦⠥
+𒍑,74577,𒍑,12351,CUNEIFORM SIGN USH,⠥⠎⠓
+𒍒,74578,𒍒,12352,CUNEIFORM SIGN USH TIMES A,⠥⠎⠓⠐⠦⠁
+𒍓,74579,𒍓,12353,CUNEIFORM SIGN USH TIMES KU,⠥⠎⠓⠐⠦⠅⠥
+𒍔,74580,𒍔,12354,CUNEIFORM SIGN USH TIMES KUR,⠥⠎⠓⠐⠦⠅⠥⠗
+𒍕,74581,𒍕,12355,CUNEIFORM SIGN USH TIMES TAK4,⠥⠎⠓⠐⠦⠞⠁⠅⠼⠙
+𒍖,74582,𒍖,12356,CUNEIFORM SIGN USHX,⠥⠎⠓⠭
+𒍗,74583,𒍗,12357,CUNEIFORM SIGN USH2,⠥⠎⠓⠼⠃
+𒍘,74584,𒍘,12358,CUNEIFORM SIGN USHUMX,⠥⠎⠓⠥⠍⠭
+𒍙,74585,𒍙,12359,CUNEIFORM SIGN UTUKI,⠥⠞⠥⠅⠊
+𒍚,74586,𒍚,1235A,CUNEIFORM SIGN UZ3,⠥⠵⠼⠉
+𒍛,74587,𒍛,1235B,CUNEIFORM SIGN UZ3 TIMES KASKAL,⠥⠵⠼⠉⠐⠦⠅⠁⠎⠅⠁⠇
+𒍜,74588,𒍜,1235C,CUNEIFORM SIGN UZU,⠥⠵⠥
+𒍝,74589,𒍝,1235D,CUNEIFORM SIGN ZA,⠵⠁
+𒍞,74590,𒍞,1235E,CUNEIFORM SIGN ZA TENU,⠵⠁ ⠞⠑⠝⠥
+𒍟,74591,𒍟,1235F,CUNEIFORM SIGN ZA SQUARED TIMES KUR,⠵⠁⠔⠼⠃⠐⠦⠅⠥⠗
+𒍠,74592,𒍠,12360,CUNEIFORM SIGN ZAG,⠵⠁⠛
+𒍡,74593,𒍡,12361,CUNEIFORM SIGN ZAMX,⠵⠁⠍⠭
+𒍢,74594,𒍢,12362,CUNEIFORM SIGN ZE2,⠵⠑⠼⠃
+𒍣,74595,𒍣,12363,CUNEIFORM SIGN ZI,⠵⠊
+𒍤,74596,𒍤,12364,CUNEIFORM SIGN ZI OVER ZI,⠵⠊⠐⠌⠵⠊
+𒍥,74597,𒍥,12365,CUNEIFORM SIGN ZI3,⠵⠊⠼⠉
+𒍦,74598,𒍦,12366,CUNEIFORM SIGN ZIB,⠵⠊⠃
+𒍧,74599,𒍧,12367,CUNEIFORM SIGN ZIB KABA TENU,⠵⠊⠃ ⠅⠁⠃⠁ ⠞⠑⠝⠥
+𒍨,74600,𒍨,12368,CUNEIFORM SIGN ZIG,⠵⠊⠛
+𒍩,74601,𒍩,12369,CUNEIFORM SIGN ZIZ2,⠵⠊⠵⠼⠃
+𒍪,74602,𒍪,1236A,CUNEIFORM SIGN ZU,⠵⠥
+𒍫,74603,𒍫,1236B,CUNEIFORM SIGN ZU5,⠵⠥⠼⠑
+𒍬,74604,𒍬,1236C,CUNEIFORM SIGN ZU5 TIMES A,⠵⠥⠼⠑⠐⠦⠁
+𒍭,74605,𒍭,1236D,CUNEIFORM SIGN ZUBUR,⠵⠥⠃⠥⠗
+𒍮,74606,𒍮,1236E,CUNEIFORM SIGN ZUM,⠵⠥⠍
+𒍯,74607,𒍯,1236F,CUNEIFORM SIGN KAP ELAMITE,⠅⠁⠏ ⠑⠇⠁⠍⠊⠞⠑
+𒍰,74608,𒍰,12370,CUNEIFORM SIGN AB TIMES NUN,⠁⠃⠐⠦⠝⠥⠝
+𒍱,74609,𒍱,12371,CUNEIFORM SIGN AB2 TIMES A,⠁⠃⠼⠃⠐⠦⠁
+𒍲,74610,𒍲,12372,CUNEIFORM SIGN AMAR TIMES KUG,⠁⠍⠁⠗⠐⠦⠅⠥⠛
+𒍳,74611,𒍳,12373,CUNEIFORM SIGN DAG KISIM5 TIMES U2 PLUS MASH,⠙⠁⠛ ⠅⠊⠎⠊⠍⠼⠑⠐⠦⠥⠼⠃⠐⠖⠍⠁⠎⠓
+𒍴,74612,𒍴,12374,CUNEIFORM SIGN DAG3,⠙⠁⠛⠼⠉
+𒍵,74613,𒍵,12375,CUNEIFORM SIGN DISH PLUS SHU,⠙⠊⠎⠓⠐⠖⠎⠓⠥
+𒍶,74614,𒍶,12376,CUNEIFORM SIGN DUB TIMES SHE,⠙⠥⠃⠐⠦⠎⠓⠑
+𒍷,74615,𒍷,12377,CUNEIFORM SIGN EZEN TIMES GUD,⠑⠵⠑⠝⠐⠦⠛⠥⠙
+𒍸,74616,𒍸,12378,CUNEIFORM SIGN EZEN TIMES SHE,⠑⠵⠑⠝⠐⠦⠎⠓⠑
+𒍹,74617,𒍹,12379,CUNEIFORM SIGN GA2 TIMES AN PLUS KAK PLUS A,⠛⠁⠼⠃⠐⠦⠁⠝⠐⠖⠅⠁⠅⠐⠖⠁
+𒍺,74618,𒍺,1237A,CUNEIFORM SIGN GA2 TIMES ASH2,⠛⠁⠼⠃⠐⠦⠁⠎⠓⠼⠃
+𒍻,74619,𒍻,1237B,CUNEIFORM SIGN GE22,⠛⠑⠼⠃⠼⠃
+𒍼,74620,𒍼,1237C,CUNEIFORM SIGN GIG,⠛⠊⠛
+𒍽,74621,𒍽,1237D,CUNEIFORM SIGN HUSH,⠓⠥⠎⠓
+𒍾,74622,𒍾,1237E,CUNEIFORM SIGN KA TIMES ANSHE,⠅⠁⠐⠦⠁⠝⠎⠓⠑
+𒍿,74623,𒍿,1237F,CUNEIFORM SIGN KA TIMES ASH3,⠅⠁⠐⠦⠁⠎⠓⠼⠉
+𒎀,74624,𒎀,12380,CUNEIFORM SIGN KA TIMES GISH,⠅⠁⠐⠦⠛⠊⠎⠓
+𒎁,74625,𒎁,12381,CUNEIFORM SIGN KA TIMES GUD,⠅⠁⠐⠦⠛⠥⠙
+𒎂,74626,𒎂,12382,CUNEIFORM SIGN KA TIMES HI TIMES ASH2,⠅⠁⠐⠦⠓⠊⠐⠦⠁⠎⠓⠼⠃
+𒎃,74627,𒎃,12383,CUNEIFORM SIGN KA TIMES LUM,⠅⠁⠐⠦⠇⠥⠍
+𒎄,74628,𒎄,12384,CUNEIFORM SIGN KA TIMES PA,⠅⠁⠐⠦⠏⠁
+𒎅,74629,𒎅,12385,CUNEIFORM SIGN KA TIMES SHUL,⠅⠁⠐⠦⠎⠓⠥⠇
+𒎆,74630,𒎆,12386,CUNEIFORM SIGN KA TIMES TU,⠅⠁⠐⠦⠞⠥
+𒎇,74631,𒎇,12387,CUNEIFORM SIGN KA TIMES UR2,⠅⠁⠐⠦⠥⠗⠼⠃
+𒎈,74632,𒎈,12388,CUNEIFORM SIGN LAGAB TIMES GI,⠇⠁⠛⠁⠃⠐⠦⠛⠊
+𒎉,74633,𒎉,12389,CUNEIFORM SIGN LU2 SHESHIG TIMES BAD,⠇⠥⠼⠃ ⠎⠓⠑⠎⠓⠊⠛⠐⠦⠃⠁⠙
+𒎊,74634,𒎊,1238A,CUNEIFORM SIGN LU2 TIMES ESH2 PLUS LAL,⠇⠥⠼⠃⠐⠦⠑⠎⠓⠼⠃⠐⠖⠇⠁⠇
+𒎋,74635,𒎋,1238B,CUNEIFORM SIGN LU2 TIMES SHU,⠇⠥⠼⠃⠐⠦⠎⠓⠥
+𒎌,74636,𒎌,1238C,CUNEIFORM SIGN MESH,⠍⠑⠎⠓
+𒎍,74637,𒎍,1238D,CUNEIFORM SIGN MUSH3 TIMES ZA,⠍⠥⠎⠓⠼⠉⠐⠦⠵⠁
+𒎎,74638,𒎎,1238E,CUNEIFORM SIGN NA4,⠝⠁⠼⠙
+𒎏,74639,𒎏,1238F,CUNEIFORM SIGN NIN,⠝⠊⠝
+𒎐,74640,𒎐,12390,CUNEIFORM SIGN NIN9,⠝⠊⠝⠼⠊
+𒎑,74641,𒎑,12391,CUNEIFORM SIGN NINDA2 TIMES BAL,⠝⠊⠝⠙⠁⠼⠃⠐⠦⠃⠁⠇
+𒎒,74642,𒎒,12392,CUNEIFORM SIGN NINDA2 TIMES GI,⠝⠊⠝⠙⠁⠼⠃⠐⠦⠛⠊
+𒎓,74643,𒎓,12393,CUNEIFORM SIGN NU11 ROTATED NINETY DEGREES,⠝⠥⠼⠁⠼⠁⠨⠴
+𒎔,74644,𒎔,12394,CUNEIFORM SIGN PESH2 ASTERISK,⠏⠑⠎⠓⠼⠃⠐⠦
+𒎕,74645,𒎕,12395,CUNEIFORM SIGN PIR2,⠏⠊⠗⠼⠃
+𒎖,74646,𒎖,12396,CUNEIFORM SIGN SAG TIMES IGI GUNU,⠎⠁⠛⠐⠦⠊⠛⠊ ⠛⠥⠝⠥
+𒎗,74647,𒎗,12397,CUNEIFORM SIGN TI2,⠞⠊⠼⠃
+𒎘,74648,𒎘,12398,CUNEIFORM SIGN UM TIMES ME,⠥⠍⠐⠦⠍⠑
+𒎙,74649,𒎙,12399,CUNEIFORM SIGN U,⠥
