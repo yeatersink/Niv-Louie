@@ -355,7 +355,7 @@ Unicode,Character,Name,Braille
 03C0,π,pi,p
 03C1+0314,ῥ,rho with dasia,hr
 03C1,ρ,rho,r
-03C2+',ς,final sigma space,s
+03C2+',ς,final sigma,s
 "03C2+',","ς,",final sigma comma,s1
 03C2+'.,ς.,final sigma period,s4
 03C2+0387,ς·,final sigma teleia,s2
@@ -520,3 +520,53 @@ Unicode,Character,Name,Braille
 03FD,Ͻ,CAPITAL REVERSED LUNATE SIGMA SYMBOL,.**
 03FE,Ͼ,CAPITAL DOTTED LUNATE SIGMA SYMBOL,**
 03FF,Ͽ,CAPITAL REVERSED DOTTED LUNATE SIGMA SYMBOL,**
+
+0391,Α,Capitol Alpha,⠠⠁
+03B1,03B1,alpha,⠁
+0392,Β,Capitol Beta,⠠⠃
+03B2,β,beta,⠨⠔
+0393,Γ,Capitol Gamma,⠠⠛
+03B3,γ,gamma,⠛
+0394,Δ,Capitol Delta,⠠⠙
+03B4,δ,delta,⠙
+0395,Ε,Capitol Epsilon,⠠⠑
+03B5,ε,Epsilon,⠑
+0396,Ζ,Capitol Zeta,
+03B6,ζ,Zeta,
+0397,Η,Capitol Eta,
+03B7,η,Eta,
+0398,Θ,Capitol Theta,
+03B8,θ,Theta,
+0399,Ι,Capitol Iota,
+03B9,ι,Iota,
+039A,Κ,Capitol Kappa,
+03BA,κ,kappa,
+039B,Λ,Capitol Lambda,
+03BB,λ,Lambda,
+039C,Μ,Capitol Mu,
+03BC,μ,”mu,
+039D,Ν,Capitol Nu,
+03BD,ν,nu,
+039E,Ξ,Capital Xi,
+03BE,ξ,Xi,
+039F,Ο,Capitol Omicron,
+03BF,ο,Omicron,
+03A0,Π,Capitol Pi,
+03C0,π,Pi,
+03A1,Ρ,Capitil rho,
+03C1,ρ,Rho,
+03A3,Σ,Capitol Sigma,
+03C3,σ,sigma,
+03C2,ς,Final Sigma,
+03A4,Τ,Capital Tau,
+03C4,τ,tau,
+03A5,Υ,Capitol Upsilon,
+03C5,υ,Upsilon,
+03A6,Φ,Capitol Fi,
+03C6,φ,Fi,
+03A7,Χ,Capitol Chi,
+03C7,χ,Chi,
+03A8,Ψ,Capitol Psi,
+03C8,ψ,Psi,
+03A9,Ω,Capitol Omega,
+03C9,ω,Omega,
