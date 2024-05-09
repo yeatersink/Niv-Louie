@@ -1,151 +1,151 @@
-,Character,Name,Braille
-0,á,A WITH ACUTE,⠘⠌⠁
-1,é,E WITH ACUTE,⠘⠌⠑
-2,í,I WITH ACUTE,⠘⠌⠊
-3,ú,U WITH ACUTE,⠘⠌⠥
-4,Á,CAPITAL A WITH ACUTE,⠠⠘⠌⠁
-5,É,CAPITAL E WITH ACUTE,⠠⠘⠌⠑
-6,Í,CAPITAL I WITH ACUTE,⠠⠘⠌⠊
-7,Ú,CAPITAL U WITH ACUTE,⠠⠘⠌⠥
-8,ś,S WITH ACUTE,⠘⠌⠎
-9,Ś,CAPITAL S WITH ACUTE,⠠⠘⠌⠎
-10,à,A WITH GRAVE,⠘⠡⠁
-11,è,E WITH GRAVE,⠘⠡⠑
-12,ì,I WITH GRAVE,⠘⠡⠊
-13,ù,U WITH GRAVE,⠘⠡⠥
-14,À,CAPITAL A WITH GRAVE,⠠⠘⠡⠁
-15,È,CAPITAL E WITH GRAVE,⠠⠘⠡⠑
-16,Ì,CAPITAL I WITH GRAVE,⠠⠘⠡⠊
-17,Ù,CAPITAL U WITH GRAVE,⠠⠘⠡⠥
-18,ā,A WITH MACRON,⠈⠤⠁
-19,ē,E WITH MACRON,⠈⠤⠑
-20,ī,I WITH MACRON,⠈⠤⠊
-21,ū,U WITH MACRON,⠈⠤⠥
-22,Ā,CAPITAL A WITH MACRON,⠠⠈⠤⠁
-23,Ē,CAPITAL E WITH MACRON,⠠⠈⠤⠑
-24,Ī,CAPITAL I WITH MACRON,⠠⠈⠤⠊
-25,Ū,CAPITAL U WITH MACRON,⠠⠈⠤⠥
-26,â,A WITH CIRCUMFLEX,⠘⠩⠁
-27,ê,E WITH CIRCUMFLEX,⠘⠩⠑
-28,î,I WITH CIRCUMFLEX,⠘⠩⠊
-29,û,U WITH CIRCUMFLEX,⠘⠩⠥
-30,Â,CAPITAL A WITH CIRCUMFLEX,⠠⠘⠩⠁
-31,Ê,CAPITAL E WITH CIRCUMFLEX,⠠⠘⠩⠑
-32,Î,CAPITAL I WITH CIRCUMFLEX,⠠⠘⠩⠊
-33,Û,CAPITAL U WITH CIRCUMFLEX,⠠⠘⠩⠥
-34,š,S WITH CARON,⠩
-35,Š,CAPITAL S WITH CARON,⠠⠩
-36,ṣ,S WITH DOT BELOW,⠐⠎
-37,Ṣ,CAPITAL S WITH DOT BELOW,⠠⠐⠎
-38,ṭ,T WITH DOT BELOW,⠐⠞
-39,Ṭ,CAPITAL T WITH DOT BELOW,⠠⠐⠞
-40,ḫ,H WITH BREVE BELOW,⠡
-41,Ḫ,CAPITAL H WITH BREVE BELOW,⠠⠡
-42,ŋ,ENG,⠐⠚
-43,Ŋ,CAPITAL ENG,⠠⠐⠚
-44,×,MULTIPLICATION SIGN,⠐⠦
-45,ʾ,RIGHT HALF RING,⠫
-46,ʿ,LEFT HALF RING,⠐⠫
-47,₁,SUBSCRIPT ONE,⠢⠼⠁
-48,₂,SUBSCRIPT TWO,⠢⠼⠃
-49,₃,SUBSCRIPT THREE,⠢⠼⠉
-50,₄,SUBSCRIPT FOUR,⠢⠼⠙
-51,₅,SUBSCRIPT FIVE,⠢⠼⠑
-52,₆,SUBSCRIPT SIX,⠢⠼⠋
-53,₇,SUBSCRIPT SEVEN,⠢⠼⠛
-54,₈,SUBSCRIPT EIGHT,⠢⠼⠓
-55,₉,SUBSCRIPT NINE,⠢⠼⠊
-56,ₓ,SUBSCRIPT SMALL X,⠢⠭
-57,⸢,TOP LEFT HALF BRACKET,⠨⠣
-58,⸣,TOP RIGHT HALF BRACKET,⠨⠜
-59,⸤,BOTTOM LEFT HALF BRACKET,⠨⠣
-60,⸥,BOTTOM RIGHT HALF BRACKET,⠨⠜
-61,ʳ,SMALL R,⠗
-62,ḏ,D with line below,⠰⠙
-63,Ḏ,Capitol D with line below,⠠⠰⠙
-64,ẓ,Z with Dot Below,⠐⠵
-65,Ẓ,Capital Z with Dot Below,⠠⠐⠵
-66,ǵ,G with Acute,⠘⠌⠛
-67,Ǵ,Capitol G with ACUTE,⠠⠘⠌⠛
-68,ṯ,T with Line Below,⠹
-69,Ṯ,Capital T with Line Below,⠠⠹
-70,a,a,⠁
-71,A,A,⠠⠁
-72,b,B,⠠⠃
-73,c,c,⠉
-74,C,C,⠠⠉
-75,d,d,⠙
-76,D,D,⠠⠙
-77,e,e,⠑
-78,E,E,⠠⠑
-79,f,f,⠋
-80,F,F,⠠⠋
-81,g,,⠛
-82,G,G,⠠⠛
-83,h,h,⠓
-84,H,H,⠠⠓
-85,i,i,⠊
-86,I,I,⠠⠊
-87,j,j,⠚
-88,J,J,⠠⠚
-89,k,k,⠅
-90,K,K,⠠⠅
-91,l,l,⠇
-92,L,L,⠠⠇
-93,m,m,⠍
-94,M,M,⠠⠍
-95,n,N,⠝
-96,N,N,⠠⠝
-97,o,o,⠕
-98,O,O,⠠⠕
-99,p,p,⠏
-100,P,P,⠠⠏
-101,q,q,⠟
-102,Q,Q,⠠⠟
-103,r,r,⠗
-104,,,⠠⠗
-105,s,,⠎
-106,S,S,⠠⠎
-107,t,t,⠞
-108,T,T,⠠⠞
-109,u,u,⠥
-110,U,U,⠠⠥
-111,V,V,⠠⠧
-112,v,v,⠧
-113,W,W,⠠⠺
-114,w,w,⠺
-115,X,X,⠠⠭
-116,x,x,⠭
-117,Y,Y,⠠⠽
-118,y,y,⠽
-119,z,z,⠵
-120,Z,Z,⠠⠵
-121, ,, 
-122,1,1,⠁
-123,2,2,⠃
-124,3,3,⠉
-125,4,4,⠙
-126,5,5,⠑
-127,6,6,⠋
-128,7,7,⠛
-129,8,8,⠓
-130,9,9,⠊
-131,0,0,⠚
-132,*,*,⠐⠦
-133,+,+,⠐⠖
-134,/,/,⠐⠌
-135,_,_,⠢
-136,^,^,⠔
-137,<,<,⠈⠣
-138,>,>,⠈⠜
-139,#,#,⠼
-140,$,$,⠈⠎
-141,&,&,⠈⠯
-142,%,%,⠨⠴
-143,-,-,⠤
-144,;,;,⠆
-145,:,:,⠒
-146,',',⠄
-147,.,.,⠲
-148,?,?,⠰⠦
-149,!,!,⠖
+Character,Name,Braille
+á,A WITH ACUTE,⠘⠌⠁
+é,E WITH ACUTE,⠘⠌⠑
+í,I WITH ACUTE,⠘⠌⠊
+ú,U WITH ACUTE,⠘⠌⠥
+Á,CAPITAL A WITH ACUTE,⠠⠘⠌⠁
+É,CAPITAL E WITH ACUTE,⠠⠘⠌⠑
+Í,CAPITAL I WITH ACUTE,⠠⠘⠌⠊
+Ú,CAPITAL U WITH ACUTE,⠠⠘⠌⠥
+ś,S WITH ACUTE,⠘⠌⠎
+Ś,CAPITAL S WITH ACUTE,⠠⠘⠌⠎
+à,A WITH GRAVE,⠘⠡⠁
+è,E WITH GRAVE,⠘⠡⠑
+ì,I WITH GRAVE,⠘⠡⠊
+ù,U WITH GRAVE,⠘⠡⠥
+À,CAPITAL A WITH GRAVE,⠠⠘⠡⠁
+È,CAPITAL E WITH GRAVE,⠠⠘⠡⠑
+Ì,CAPITAL I WITH GRAVE,⠠⠘⠡⠊
+Ù,CAPITAL U WITH GRAVE,⠠⠘⠡⠥
+ā,A WITH MACRON,⠈⠤⠁
+ē,E WITH MACRON,⠈⠤⠑
+ī,I WITH MACRON,⠈⠤⠊
+ū,U WITH MACRON,⠈⠤⠥
+Ā,CAPITAL A WITH MACRON,⠠⠈⠤⠁
+Ē,CAPITAL E WITH MACRON,⠠⠈⠤⠑
+Ī,CAPITAL I WITH MACRON,⠠⠈⠤⠊
+Ū,CAPITAL U WITH MACRON,⠠⠈⠤⠥
+â,A WITH CIRCUMFLEX,⠘⠩⠁
+ê,E WITH CIRCUMFLEX,⠘⠩⠑
+î,I WITH CIRCUMFLEX,⠘⠩⠊
+û,U WITH CIRCUMFLEX,⠘⠩⠥
+Â,CAPITAL A WITH CIRCUMFLEX,⠠⠘⠩⠁
+Ê,CAPITAL E WITH CIRCUMFLEX,⠠⠘⠩⠑
+Î,CAPITAL I WITH CIRCUMFLEX,⠠⠘⠩⠊
+Û,CAPITAL U WITH CIRCUMFLEX,⠠⠘⠩⠥
+š,S WITH CARON,⠩
+Š,CAPITAL S WITH CARON,⠠⠩
+ṣ,S WITH DOT BELOW,⠐⠎
+Ṣ,CAPITAL S WITH DOT BELOW,⠠⠐⠎
+ṭ,T WITH DOT BELOW,⠐⠞
+Ṭ,CAPITAL T WITH DOT BELOW,⠠⠐⠞
+ḫ,H WITH BREVE BELOW,⠡
+Ḫ,CAPITAL H WITH BREVE BELOW,⠠⠡
+ŋ,ENG,⠐⠚
+Ŋ,CAPITAL ENG,⠠⠐⠚
+×,MULTIPLICATION SIGN,⠐⠦
+ʾ,RIGHT HALF RING,⠫
+ʿ,LEFT HALF RING,⠐⠫
+₁,SUBSCRIPT ONE,⠢⠼⠁
+₂,SUBSCRIPT TWO,⠢⠼⠃
+₃,SUBSCRIPT THREE,⠢⠼⠉
+₄,SUBSCRIPT FOUR,⠢⠼⠙
+₅,SUBSCRIPT FIVE,⠢⠼⠑
+₆,SUBSCRIPT SIX,⠢⠼⠋
+₇,SUBSCRIPT SEVEN,⠢⠼⠛
+₈,SUBSCRIPT EIGHT,⠢⠼⠓
+₉,SUBSCRIPT NINE,⠢⠼⠊
+ₓ,SUBSCRIPT SMALL X,⠢⠭
+⸢,TOP LEFT HALF BRACKET,⠨⠣
+⸣,TOP RIGHT HALF BRACKET,⠨⠜
+⸤,BOTTOM LEFT HALF BRACKET,⠨⠣
+⸥,BOTTOM RIGHT HALF BRACKET,⠨⠜
+ʳ,SMALL R,⠗
+ḏ,D with line below,⠰⠙
+Ḏ,Capitol D with line below,⠠⠰⠙
+ẓ,Z with Dot Below,⠐⠵
+Ẓ,Capital Z with Dot Below,⠠⠐⠵
+ǵ,G with Acute,⠘⠌⠛
+Ǵ,Capitol G with ACUTE,⠠⠘⠌⠛
+ṯ,T with Line Below,⠹
+Ṯ,Capital T with Line Below,⠠⠹
+a,a,⠁
+A,A,⠠⠁
+b,B,⠠⠃
+c,c,⠉
+C,C,⠠⠉
+d,d,⠙
+D,D,⠠⠙
+e,e,⠑
+E,E,⠠⠑
+f,f,⠋
+F,F,⠠⠋
+g,,⠛
+G,G,⠠⠛
+h,h,⠓
+H,H,⠠⠓
+i,i,⠊
+I,I,⠠⠊
+j,j,⠚
+J,J,⠠⠚
+k,k,⠅
+K,K,⠠⠅
+l,l,⠇
+L,L,⠠⠇
+m,m,⠍
+M,M,⠠⠍
+n,N,⠝
+N,N,⠠⠝
+o,o,⠕
+O,O,⠠⠕
+p,p,⠏
+P,P,⠠⠏
+q,q,⠟
+Q,Q,⠠⠟
+r,r,⠗
+,,⠠⠗
+s,,⠎
+S,S,⠠⠎
+t,t,⠞
+T,T,⠠⠞
+u,u,⠥
+U,U,⠠⠥
+V,V,⠠⠧
+v,v,⠧
+W,W,⠠⠺
+w,w,⠺
+X,X,⠠⠭
+x,x,⠭
+Y,Y,⠠⠽
+y,y,⠽
+z,z,⠵
+Z,Z,⠠⠵
+ ,, 
+1,1,⠁
+2,2,⠃
+3,3,⠉
+4,4,⠙
+5,5,⠑
+6,6,⠋
+7,7,⠛
+8,8,⠓
+9,9,⠊
+0,0,⠚
+*,*,⠐⠦
++,+,⠐⠖
+/,/,⠐⠌
+_,_,⠢
+^,^,⠔
+<,<,⠈⠣
+>,>,⠈⠜
+#,#,⠼
+$,$,⠈⠎
+&,&,⠈⠯
+%,%,⠨⠴
+-,-,⠤
+;,;,⠆
+:,:,⠒
+',',⠄
+.,.,⠲
+?,?,⠰⠦
+!,!,⠖
