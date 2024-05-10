@@ -51,3 +51,47 @@ def format_names(name,language_option):
                 name=name.replace(phrase,"").strip()
     #returns the name without the unwanted characters
     return name
+
+def regenerate_chars(language_option):
+    """
+    
+    This function regenerates the characters in the language file to the correct characters using the change_characters function
+    
+    Parameters:
+    language_option (int): The index of the language that the user has chosen
+    
+    """
+    print("Regenerating characters")
+    #the language source file is read in to pandas
+    language_file=pd.read_csv("languages/source/"+languages[language_option]["name"]+".csv")
+    #the characters are changed to the correct characters
+    language_file[languages[language_option]["char_column"]]=language_file["Hex"].apply(change_characters)
+    #the file is saved to the source folder
+    language_file.to_csv("languages/source/"+languages[language_option]["name"]+".csv",index=False)
+    print("Characters regenerated")
+
+def change_characters(hex):
+    """
+    This function changes the hex characters to the correct characters
+    
+    Parameters:
+    hex (str): The hex character that is to be changed
+    
+    Returns:
+    str: The correct character
+    
+    """
+    
+    new_char=""
+        #checks if the hex character contains a plus sign as this indicates that there are multiple characters
+    if "+" in hex:
+        #splits the hex character into a list of characters and loops through the characters
+        for char in hex.split("+"):
+            #converts the hex character to a character and adds it to the new character
+            new_char+=chr(int(char,16))
+    else:
+        #converts the hex character to a character
+        new_char=chr(int(hex,16))
+    #returns the new character
+    return new_char
+
