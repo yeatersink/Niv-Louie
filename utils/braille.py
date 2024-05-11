@@ -5,7 +5,7 @@ import json
 #The languages variable is imported from the languages file
 from utils.languages_file import languages
 
-def add_braille(language_option):
+def create_braille_table(language_option):
     print("creating table for lib louis")
     #The language file is read in to pandas
     braille=pd.read_csv("languages/filtered_"+languages[language_option]["name"]+".csv")
@@ -60,7 +60,7 @@ braille_object=json.load(braille_file)
 braille_numbers_file=open("utils/braille_to_numbers.json",encoding="utf8")
 braille_numbers_object=json.load(braille_numbers_file)
 
-def get_braille(text):
+def get_braille_from_text(text):
     """
     This function converts text characters to braille characters
 
@@ -135,7 +135,7 @@ def braille_to_numbers(text):
     #returns the braille variable
     return braille
 
-def create_tests(language_option):
+def create_braille_tests(language_option):
     """
     This function creates the braille tests for Lib Louis
     
@@ -195,14 +195,21 @@ tests:
     #The test yaml file is closed to prevent memory leaks
     test_yaml.close()
 
-def get_braille_in_source(language_option):
-        print ("converting text to braille")
+def get_braille_from_text_in_source(language_option):
+    """
+    This function converts the text characters to braille characters in the source language file
+    
+    Parameters:
+    language_option (int): The index of the language that the user has chosen
+    
+    """
+    print ("converting text to braille")
     #the language source file is read in to pandas
     language_file=pd.read_csv("languages/source/"+languages[language_option]["name"]+".csv")
     #selects the braille column
     braille_column=language_file[languages[language_option]["braille_column"]]
     #applies the get_braille function to the braille column to convert the text to braille
-    new_braille_column=braille_column.apply(get_braille)
+    new_braille_column=braille_column.apply(get_braille_from_text)
     #the braille column is replaced with the new braille column
     language_file["Braille"]=new_braille_column
     #the file is saved to the source folder

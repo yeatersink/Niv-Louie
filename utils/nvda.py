@@ -3,7 +3,7 @@ import pandas as pd
 #The languages variable is imported from the languages file
 from utils.languages_file import languages
 
-def add_chars(language_option):
+def add_characters_to_nvda(language_option):
     """
 
         This function adds the characters from the language file to the NVDA symbols file

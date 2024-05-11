@@ -3,7 +3,7 @@ import pandas as pd
 #The languages dictionary is imported from the languages.py file
 from utils.languages_file import languages
 
-def create_csv(language_option):
+def create_filtered_csv(language_option):
     """
     This function creates a filtered csv file that only contains the characters, names, and braille codes for the language    
     
@@ -52,7 +52,7 @@ def format_names(name,language_option):
     #returns the name without the unwanted characters
     return name
 
-def regenerate_chars(language_option):
+def regenerate_characters_using_hex(language_option):
     """
     
     This function regenerates the characters in the language file to the correct characters using the change_characters function
@@ -65,12 +65,12 @@ def regenerate_chars(language_option):
     #the language source file is read in to pandas
     language_file=pd.read_csv("languages/source/"+languages[language_option]["name"]+".csv")
     #the characters are changed to the correct characters
-    language_file[languages[language_option]["char_column"]]=language_file["Hex"].apply(change_characters)
+    language_file[languages[language_option]["char_column"]]=language_file["Hex"].apply(generate_characters)
     #the file is saved to the source folder
     language_file.to_csv("languages/source/"+languages[language_option]["name"]+".csv",index=False)
     print("Characters regenerated")
 
-def change_characters(hex):
+def generate_characters(hex):
     """
     This function changes the hex characters to the correct characters
     
