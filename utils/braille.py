@@ -111,7 +111,7 @@ def get_braille_from_text(text):
             #checks if the character is in the braille numbers object
             if char not in braille_numbers_object:
                 #adds the new braille character to the braille variable
-                braille+=braille_object[char.lower()]
+                braille+=braille_object[char]
             else:
                 #adds the character to the braille variable
                 braille+=char
