@@ -1,3 +1,4 @@
+import warnings
 #Pandas is used for reading the   csv files
 import pandas as pd
 #json is used for reading the json files
@@ -13,6 +14,7 @@ def create_braille_table(language_option):
     braille_table=open("braille/"+languages[language_option]["language_code"]+".tbl","w",encoding="utf8")
     #The braille column is converted to numbers
     braille[languages[language_option]["braille_column"]]=braille[languages[language_option]["braille_column"]].apply(braille_to_numbers)
+
     #The braille table is written to with the information for the language that is required for lib louis
     braille_table.write("""
 # liblouis: """+languages[language_option]["name"]+""" Grade 1 table
@@ -46,8 +48,12 @@ def create_braille_table(language_option):
 """+languages[language_option]["language_information"]+languages[language_option]["contributors"])
     #This loop goes through each row in the braille file and writes the braille code and the number to the braille table
     for index, row in braille.iterrows():
-        new_line="letter "+str(row[languages[language_option]["char_column"]])+" "+str(row[languages[language_option]["braille_column"]])+"\n"
-        braille_table.write(new_line)
+        if len(row[languages[language_option]["braille_column"]]) > 0:
+            new_line="letter "+str(row[languages[language_option]["char_column"]])+" "+str(row[languages[language_option]["braille_column"]])+"\n"
+            braille_table.write(new_line)
+        else:
+            warnings.warn("this line was missing it's braille. This may be a mistake in your table. Character: "+row[languages[language_option]["char_column"]])
+
         #The braille table is closed to prevent memory leaks
     braille_table.close()
 
@@ -74,42 +80,45 @@ def get_braille_from_text(text):
 
     #The braille variable is initialized as an empty string
     braille=""
-    #The text is checked to see if it contains any numbers
-    if any(char.isdigit() for char in text):
-        new_text=""
-        #The text is looped
-        for index,char in enumerate(text):
-            #checks if the character is a number
-            if char.isdigit():
-                #adds a number sign to the character
-                new_text+="#"+char
-            else:
-                #adds the character to the new text
-                new_text+=char
-        #the text is replaced with the new text
-        text=new_text
-    #The text is checked to see if it contains any special characters
-    if "[q~^]"*3 in text:
-        text=text.replace("[q~^]"*3,"^#3")
-    if "[q~^]"*2 in text:
-        text=text.replace("[q~^]"*2,"^#2")
-    if "[q~" in text:
-        text=text.replace("[q~","")
-    if "]" in text:
-        text=text.replace("]","")
-    print(text)
+    if str(text) != "nan":
+        #The text is checked to see if it contains any numbers
+        if any(char.isdigit() for char in text):
+            new_text=""
+            #The text is looped
+            for index,char in enumerate(text):
+                #checks if the character is a number
+                if char.isdigit():
+                    #adds a number sign to the character
+                    new_text+=""+char
+                else:
+                    #adds the character to the new text
+                    new_text+=char
+            #the text is replaced with the new text
+            text=new_text
+        #The text is checked to see if it contains any special characters
+        if "[q~^]"*3 in text:
+            text=text.replace("[q~^]"*3,"^#3")
+        if "[q~^]"*2 in text:
+            text=text.replace("[q~^]"*2,"^#2")
+        if "[q~" in text:
+            text=text.replace("[q~","")
+        if "]" in text:
+            text=text.replace("]","")
+        print(text)
 
-    #The text is looped through
-    for char in text:
-        #checks if the character is in the braille numbers object
-        if char not in braille_numbers_object:
-            #adds the new braille character to the braille variable
-            braille+=braille_object[char.lower()]
-        else:
-            #adds the character to the braille variable
-            braille+=char
-    #returns the braille variable
-    return braille
+        #The text is looped through
+        for char in text:
+            #checks if the character is in the braille numbers object
+            if char not in braille_numbers_object:
+                #adds the new braille character to the braille variable
+                braille+=braille_object[char.lower()]
+            else:
+                #adds the character to the braille variable
+                braille+=char
+        #returns the braille variable
+        return braille
+    else:
+        return "nan"
 
 def braille_to_numbers(text):
     """
@@ -124,16 +133,19 @@ def braille_to_numbers(text):
     """
 
     braille=""
-    print(text)
-    #loops through each character in the text
-    for char in text:
-        #converts the braille character to a number
-        braille+=braille_numbers_object[char.lower()]+"-"
+    if str(text) != "nan":
+        print(text)
+        #loops through each character in the text
+        for char in text:
+            #converts the braille character to a number
+            braille+=braille_numbers_object[char.lower()]+"-"
         #removes the last - from the braille variable
-    if braille[-1]=="-":
-        braille=braille[:-1]
-    #returns the braille variable
-    return braille
+        if braille[-1]=="-":
+            braille=braille[:-1]
+        #returns the braille variable
+        return braille
+    else:
+        return ""
 
 def create_braille_tests(language_option):
     """
