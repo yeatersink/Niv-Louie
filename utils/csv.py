@@ -40,6 +40,7 @@ def format_names(name,language_option):
     str: The name of the character without unwanted characters
     
     """
+    print(name)
 
     #checks if the name contains any of the unwanted characters
     if len(languages[language_option]["replace"]) > 0:

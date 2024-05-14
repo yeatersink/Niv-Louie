@@ -10,9 +10,9 @@ Character,Name,Braille
 ֶ,segol,⠑
 ַ,patah,⠉
 ָ,qamats,⠣
-ֹ,holam,⠕
+ֹ,holam,⠪
 ֺ,holam haser for vav,⠐⠪
-ֻ,qubuts,⠐⠖
+ֻ,qubuts,⠬
 ּ,dagesh,⠐
 ֽ,meteg,⠡
 ־,maqaf,⠤
@@ -28,10 +28,10 @@ Character,Name,Braille
 ׳,geresh,⠸⠣
 ״,gershayim,⠸
 א,alef,⠁
-בּ,bet,⠃
-ב,bet with dagesh,⠧
-ג,gimsel,⠛
-דּ,dalest with dagesh,⠐⠙
+בּ,bet with dagesh,⠃
+ב,bet ,⠧
+ג,gimel,⠛
+דּ,dalet with dagesh,⠐⠙
 ד,dalet,⠙
 הּ,1hey - isolated,⠓
 ה,hey,⠓
@@ -44,7 +44,7 @@ Character,Name,Braille
 יּ,yod with dagesh,⠐⠚
 י,yod,⠚
 ך,final kaf,⠅
-כּ,kav,⠅
+כּ,kaf,⠅
 כ,"kaf""",⠅
 כּ,KAF WITH DAGESH,⠡
 לּ,lamed with dagesh,⠐⠇

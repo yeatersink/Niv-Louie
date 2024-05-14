@@ -1,7 +1,7 @@
 Unicode,Character,Name,Braille
-384,΄,tonos,nan
-385,΅,dialytika and oxia,nan
-387,·,greek semi-colon,nan
+384,΄,tonos,
+385,΅,dialytika and oxia,
+387,·,greek semi-colon,
 0390+03C9+0345,ΐῳ,iota omega with dialytika and oxia,⠺⠔
 0390+03C9,ΐω,iota omega with dialytika and oxia,⠺
 390,ΐ,iota with dialytika and oxia isolated,
@@ -13,7 +13,7 @@ Unicode,Character,Name,Braille
 03AE,ή,eta with oxia,⠿
 03AF+03C9+0345,ίῳ,iota omega with oxia,⠺⠔
 03AF+0345,ίͅ,iota with oxia,⠔
-03AF,ί,iota with oxia,
+03AF,ί,iota with oxia,⠔
 03B0+03C9+0345,ΰῳ,upsilon omega with dialytika and oxia,⠳⠺⠔
 03B0+03C9,ΰω,upsilon omega with dialytika and oxia,⠳⠺
 03B0,ΰ,upsilon with dialytika and oxia isolated,⠳
@@ -57,6 +57,7 @@ Unicode,Character,Name,Braille
 03B1+03B9+0313+0301,αἴ,alpha iota with psili and oxia,⠴⠁⠿
 03B1+03B9+0313+0342+0345,αἶͅ,alpha iota with psili and perispomeni,⠴⠁⠩⠔
 03B1+03B9+0313+0342,αἶ,alpha iota with psili and perispomeni,⠴⠁⠩
+1F3E,ἶ,Capital Iota with Psili and Perispomeni,⠠⠴⠩
 03B1+03B9+0313+0345,αἰͅ,alpha iota with psili,⠴⠁⠊⠔
 03B1+03B9+0313,αἰ,alpha iota with psili,⠴⠁⠊
 03B1+03B9+0314+0300+0345,αἳͅ,alpha iota with dasia and varia,⠓⠁⠌⠔
@@ -119,6 +120,7 @@ Unicode,Character,Name,Braille
 03B4,δ,delta,⠙
 03B5+0300+0345,ὲͅ,epsilon with varia,⠉⠔
 03B5+0300,ὲ,epsilon with varia,⠉
+1F72,ὲ,epsilon with varia,⠉
 03B5+0301+0345,έͅ,epsilon with oxia,⠫⠔
 03B5+0301,έ,epsilon with oxia,⠫
 03B5+0313+0300+0345,ἒͅ,epsilon with psili and varia,⠴⠉⠔
@@ -210,6 +212,7 @@ Unicode,Character,Name,Braille
 03B6,ζ,zeta,⠵
 03B7+0300+0345,ῂ,eta with varia,⠮⠔
 03B7+0300,ὴ,eta with varia,⠮
+1F74,ὴ,eta with varia,⠮
 03B7+0301+0345,ῄ,eta with oxia,⠿⠔
 03B7+0301,ή,eta with oxia,⠿
 03B7+0313+0300+0345,ᾒ,eta with psili and varia,⠴⠮⠔
@@ -363,7 +366,8 @@ Unicode,Character,Name,Braille
 03C3,σ,sigma,⠎
 03C4,τ,tau,⠞
 03C5+0300+0345,ὺͅ,upsilon with varia,⠾⠔
-03C5+0300,ὺ,upsilon with varia,⠾
+03C5+0300,ὺ,upsilon with varia,⠾⠔
+1F7A,ὺ,upsilon with varia,⠾⠔
 03C5+0301+0345,ύͅ,upsilon with oxia,⠳⠔
 03C5+0301,ύ,upsilon with oxia,⠳
 03C5+0313+0300+0345,ὒͅ,upsilon with psili and varia,⠴⠾⠔
@@ -467,15 +471,16 @@ Unicode,Character,Name,Braille
 03CB,ϋ,upsilon with dialytika isolated,⠥
 03CC+0345,όͅ,omnichron with oxia,⠪⠔
 03CC,ό,omicron with oxia,⠪
+1FF8,ὸ,omicron with Varia,⠪⠔
 03CD+0345,ύͅ,upsilon with oxia,⠳⠔
 03CD,ύ,upsilon with oxia,⠳
 03CE+0345,ῴ,omega with oxia,⠚⠔
 03CE,ώ,omega with oxia,⠚
-03CF,Ϗ,CAPITAL KAI SYMBOL,nan
-03D0,ϐ,BETA SYMBOL,nan
-03D1,ϑ,THETA SYMBOL,nan
-03D2,ϒ,UPSILON WITH HOOK SYMBOL,nan
-03D3,ϓ,UPSILON WITH ACUTE AND HOOK SYMBOL,nan
+03CF,Ϗ,CAPITAL KAI SYMBOL,
+03D0,ϐ,BETA SYMBOL,
+03D1,ϑ,THETA SYMBOL,
+03D2,ϒ,UPSILON WITH HOOK SYMBOL,
+03D3,ϓ,UPSILON WITH ACUTE AND HOOK SYMBOL,
 03D4,ϔ,UPSILON WITH DIAERESIS AND HOOK SYMBOL,⠥
 03D5,ϕ,PHI SYMBOL,⠋
 03D6,ϖ,PI SYMBOL,⠏
@@ -545,3 +550,33 @@ Unicode,Character,Name,Braille
 03A7,Χ,Capitol Chi,⠠⠯
 03A8,Ψ,Capitol Psi,⠠⠽
 03A9,Ω,Capitol Omega,⠠⠺
+1F08,ἀ,Capital Alpha with Psili,⠠⠴⠁
+2E06,⸆,raised interpolation marker,⠗⠍
+1F0C,ἄ,Capital Alpha with Psili and Oxia,⠠⠴⠜
+,*,star,⠡
+,+,plus,⠬
+,/,slash,⠌
+,\\,back slash,⠳
+,=,equals,⠿
+,_,line,⠢
+,^,carrot,⠘
+,<,less,⠣
+,>,greater,⠜
+,[,left bracket,⠪
+,],right bracket,⠻
+,(,left paren,⠷
+,),right paren,⠾
+,#,number,⠸
+,$,dollar,⠫
+,&,and,⠯
+,%,percent,⠩
+,-,dash,⠤
+,!,bang,⠮
+,:,colon,⠱
+,;,semi,⠰
+,?,question,⠹
+,.,dot,⠲
+,',tick,⠄
+,",",comma,⠂
+,"""",quote,⠠⠶
+, , , 

@@ -1,20 +1,20 @@
-Critical Symbols in the Text<o:p></o:p>
-Unicode<o:p></o:p>,Chr<o:p></o:p>,Braille<o:p></o:p>,Description<o:p></o:p>
-U+2713<o:p></o:p>,✓<o:p></o:p>,[<o:p></o:p>,This sign marks the end of omitted text. It pairs with 274F.<o:p></o:p>
-U+2714<o:p></o:p>,✔<o:p></o:p>,(<o:p></o:p>,"See 2715. Centered dots and superscript numerals distinguish between multiple occurrences of the same kind of variant within a single unit of the apparatus. The first such instance has no dot or superscript. The second has a dot. The third has a superscripted 1; the fourth, a superscripted 2; etc.<o:p></o:p>"
-U+2715<o:p></o:p>,✕<o:p></o:p>,r<o:p></o:p>,"The words following in the text are replaced with other words by the witnesses cited. Sign 2716 marks the end of the replaced text. Frequently this involves the transposition of words. To the extent the words are identical with those in the text, they are indicated by italic numerals corresponding to their position in the printed text (cf. Mt 27,51).<o:p></o:p>"
-U+2716<o:p></o:p>,✖<o:p></o:p>,w<o:p></o:p>,"This sign marks the end of the replaced text, the counterpart to 2715.<o:p></o:p>"
-U+2717<o:p></o:p>,✗<o:p></o:p>,i<o:p></o:p>,"This sign marks the location where one or more words, or sometimes a whole verse, is inserted by the witnesses cited.<o:p></o:p>"
-U+2718<o:p></o:p>,✘<o:p></o:p>,9<o:p></o:p>,Centered dots and superscript numerals distinguish between multiple occurrences of the same kind of variant within a single unit of the apparatus. Corresponds to 2717.<o:p></o:p>
-U+2719<o:p></o:p>,✙<o:p></o:p>,)<o:p></o:p>,"This sign marks the end of the replaced text, the counterpart to 2714.<o:p></o:p>"
-U+2741<o:p></o:p>,❁<o:p></o:p>,lxx<o:p></o:p>,Reference to Septuagint. This symbol indicates that a variant suggests a parallel expression in the Septuagint text.<o:p></o:p>
-U+274D<o:p></o:p>,❍<o:p></o:p>,o<o:p></o:p>,The (one) word following in the text is omitted by the witnesses cited.<o:p></o:p>
-U+274F<o:p></o:p>,❏<o:p></o:p>,o<o:p></o:p>,"The words, clauses, or sentences following in the text are omitted by the witnesses cited. Sign 2713 marks the end of the omitted text.<o:p></o:p>"
-U+2750<o:p></o:p>,❐<o:p></o:p>,r<o:p></o:p>,The (one) word following in the text is replaced with one or more words by the witnesses cited.<o:p></o:p>
-U+2751<o:p></o:p>,❑<o:p></o:p>,q<o:p></o:p>,Centered dots and superscript numerals distinguish between multiple occurrences of the same kind of variant within a single unit of the apparatus. Corresponds to 2750.<o:p></o:p>
-U+2758<o:p></o:p>,❘<o:p></o:p>,\<o:p></o:p>,A solid vertical line separates the instances of variation from each other within a single verse or section of the apparatus.<o:p></o:p>
-U+2759<o:p></o:p>,❙<o:p></o:p>,t<o:p></o:p>,"A broken vertical line separates the various alternative readings from each other within a single instance of variation. These readings taken together comprise a group of readings, or a variation unit.<o:p></o:p>"
-U+275A<o:p></o:p>,❚<o:p></o:p>,c<o:p></o:p>,A raised colon indicates a variant form of punctuation.<o:p></o:p>
-U+2765<o:p></o:p>,❥<o:p></o:p>,><o:p> </o:p>,Centered dots and superscript numerals distinguish between multiple occurrences of the same kind of variant within a single unit of the apparatus. Corresponds to 2766.<o:p></o:p>
-U+2766<o:p></o:p>,❦<o:p></o:p>,<<o:p> </o:p>,"The words following in the text are transposed by the witnesses cited. Sign 2767 in the text marks the end of the portion of text transposed. The sequence of the transposed words is indicated when necessary by italic numerals corresponding to the position of the words in the printed text (cf. Mt 16,13).<o:p></o:p>"
-U+2767<o:p></o:p>,❧<o:p></o:p>,:<o:p></o:p>,This sign marks the end of the portion of text transposed. Corresponds to 2766.<o:p></o:p>
+Critical Symbols in the Text,
+Unicode,Chr,Braille,Description
+U+2713,✓,[,This sign marks the end of omitted text. It pairs with 274F.,
+U+2714,✔,(,"See 2715. Centered dots and superscript numerals distinguish between multiple occurrences of the same kind of variant within a single unit of the apparatus. The first such instance has no dot or superscript. The second has a dot. The third has a superscripted 1; the fourth, a superscripted 2; etc.,"
+U+2715,✕,r,"The words following in the text are replaced with other words by the witnesses cited. Sign 2716 marks the end of the replaced text. Frequently this involves the transposition of words. To the extent the words are identical with those in the text, they are indicated by italic numerals corresponding to their position in the printed text (cf. Mt 27,51).,"
+U+2716,✖,w,"This sign marks the end of the replaced text, the counterpart to 2715.,"
+U+2717,✗,i,"This sign marks the location where one or more words, or sometimes a whole verse, is inserted by the witnesses cited.,"
+U+2718,✘,9,Centered dots and superscript numerals distinguish between multiple occurrences of the same kind of variant within a single unit of the apparatus. Corresponds to 2717.,
+U+2719,✙,),"This sign marks the end of the replaced text, the counterpart to 2714.,"
+U+2741,❁,lxx,Reference to Septuagint. This symbol indicates that a variant suggests a parallel expression in the Septuagint text.,
+U+274D,❍,o,The (one) word following in the text is omitted by the witnesses cited.,
+U+274F,❏,o,"The words, clauses, or sentences following in the text are omitted by the witnesses cited. Sign 2713 marks the end of the omitted text.,"
+U+2750,❐,r,The (one) word following in the text is replaced with one or more words by the witnesses cited.,
+U+2751,❑,q,Centered dots and superscript numerals distinguish between multiple occurrences of the same kind of variant within a single unit of the apparatus. Corresponds to 2750.,
+U+2758,❘,\,A solid vertical line separates the instances of variation from each other within a single verse or section of the apparatus.,
+U+2759,❙,t,"A broken vertical line separates the various alternative readings from each other within a single instance of variation. These readings taken together comprise a group of readings, or a variation unit.,"
+U+275A,❚,c,A raised colon indicates a variant form of punctuation.,
+U+2765,❥,><o:p> </o:p>,Centered dots and superscript numerals distinguish between multiple occurrences of the same kind of variant within a single unit of the apparatus. Corresponds to 2766.,
+U+2766,❦,<<o:p> </o:p>,"The words following in the text are transposed by the witnesses cited. Sign 2767 in the text marks the end of the portion of text transposed. The sequence of the transposed words is indicated when necessary by italic numerals corresponding to the position of the words in the printed text (cf. Mt 16,13).,"
+U+2767,❧,:,This sign marks the end of the portion of text transposed. Corresponds to 2766.,

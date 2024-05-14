@@ -1,1 +1,144 @@
-URL,Text
+Char,Unicode,Name,Braille
+ጀ,U+1300D+BE30,ja,j5
+ጁ,U+1301D+BE31,ju,ju
+ጂ,U+1302D+BE32,ji,ji
+ጃ,U+1303D+BE33,   jaa,ja
+ጄ,U+1304D+BE34,   jee,je
+?,U+1305D+BE35,   je,8
+ጆ,U+1306D+BE36,   jo,jo
+ጇ,U+1307D+BE37,   jwa,x
+ገ,U+1308D+BE38,   ga,g5
+ጉ,U+1309D+BE39,   gu,gu
+ጊ,U+130aD+BE3A,           gi,gi
+ጋ,U+130bD+BE3B,gaa,ga
+ጌ,U+130c +BE3C,gee,ge
+ግ,U+130d +BE3D,ge,g
+ጎ,U+130e +BE3E,go,go
+ጏ,U+130f +BE3F,goa,gx
+ጐ,U+1310 +BE40,gwa,gw5
+ጒ,U+1312 +BE42,gwi,gwi
+ጓ,U+1313 +BE43,gwaa,gx
+ጔ,U+1314 +BE44,gwee,gwe
+ጕ,U+1315 +BE45,gwe,gwu
+ጘ,U+1318 +BE48,gga,g5
+ጙ,U+1319 +BE49,ggu,gu
+ጚ,U+131a +BE4A,ggi,gi
+ጛ,U+131b +BE4B,ggaa,ga
+ጜ,U+131c +BE4C,ggee,ge
+ጝ,U+131d +BE4D,gge,gg
+ጞ,U+131e +BE4E,ggo,ggo
+ጟ,U+131f +BE4Fsyllable ggwaa,ggwa
+ጠ,U+1320 +BE50,tha,)5
+ጡ,U+1321 +BE51,thu,(u
+ጢ,U+1322 +BE52,thi,)i
+ጣ,U+1323 +BE53,thaa,)a
+ጤ,U+1324 +BE54,thee,)e
+ጥ,U+1325 +BE55,the,)
+ጦ,U+1326 +BE56,tho,)o
+ጧ,U+1327 +BE57,thwa,)x
+ጨ,U+1328 +BE58,cha,c5
+ጩ,U+1329 +BE59,chu,cu
+ጪ,U+132a +BE5A,chi,ci
+ጫ,U+132b +BE5B,chaa,ca
+ጬ,U+132c +BE5C,chee,ce
+ጭ,U+132d +BE5D,che,c
+ጮ,U+132e +BE5E,cho,co
+ጯ,U+132f +BE5F,chwa,cx
+ጰ,U+1330 +BE60,pha,65
+ጱ,U+1331 +BE61,phu,6u
+ጲ,U+1332 +BE62,phi,6i
+ጳ,U+1333 +BE63,phaa,6a
+ጴ,U+1334 +BE64,phee,6e
+ጵ,U+1335 +BE65,phe,61
+ጶ,U+1336 +BE66,pho,6o
+ጷ,U+1337 +BE67,phwa,6x
+ጸ,U+1338 +BE68,tsa,!5
+ጹ,U+1339 +BE69,tsu,!u
+ጺ,U+133a +BE6A,tsi,!i
+ጻ,U+133b +BE6B,tsaa,!a
+ጼ,U+133c +BE6C,tsee,!e
+ጽ,U+133d +BE6D,tse,!
+ጾ,U+133e +BE6E,tso,!o
+ጿ,U+133f +BE6F,tswa,!x
+ፀ,U+1340 +BE70,tza,&5
+ፁ,U+1341 +BE71,tzu,&u
+ፂ,U+1342 +BE72,tzi,&i
+ፃ,U+1343 +BE73,tzaa,&a
+ፄ,U+1344 +BE74,tzee,&e
+?,U+1345 +BE75,tze,8
+ፆ,U+1346 +BE76,tzo,&0
+ፇ,U+1347 +BE77,tzoa,&x
+ፈ,U+1348 +BE78,fa,f5
+ፉ,U+1349 +BE79,fu,fu
+ፊ,U+134a +BE7A,fi,fi
+ፋ,U+134b +BE7B,faa,fa
+ፌ,U+134c +BE7C,fee,fe
+ፍ,U+134d +BE7D,fe,f
+ፎ,U+134e +BE7E,fo,fo
+ፏ,U+134f +BE7F,fwa,fx
+ፐ,U+1350 +BE80,pa,p5
+ፑ,U+1351 +BE81,pu,pu
+ፒ,U+1352 +BE82,pi,pi
+ፓ,U+1353 +BE83,paa,pa
+ፔ,U+1354 +BE84,pee,p
+ፕ,U+1355 +BE85,pe,po
+ፖ,U+1356 +BE86,po,py
+ፗ,U+1357 +BE87,pwa,ry5
+ፘ,U+1358 +BE88,rya,my5
+ፙ,U+1359 +BE89,mya,fy5
+ፚ,U+135a +BE8A,fya,#
+፟,U+135f +BE8F,combining gemination mark,
+፠,U+1360 +BE90,section mark,:
+፡,U+1361 +BE91,wordspace, ,
+።,U+1362 +BE92,full stop,4
+፣,U+1363 +BE93,comma,a
+፤,U+1364 +BE94,semicolon,.2
+፥,U+1365 +BE95,colon,.3
+፦,U+1366 +BE96,preface colon,:
+፧,U+1367 +BE97,question mark,8
+፨,U+1368 +BE98,paragraph separator,7:
+፩,U+1369 +BE99,one,=a
+፪,U+136a +BE9A,two,=b
+፫,U+136b +BE9B,three,=c
+፬,U+136c +BE2C,four,=d
+፭,U+136d +BE9D,five,=e
+፮,U+136e +BE9E,six,=f
+፯,U+136f +BE9F,seven,=g
+፰,U+1370 +BEA0,eight,=h
+፱,U+1371 +BEA1,nine,=i
+፲,U+1372 +BEA2,ten,=aj
+፳,U+1373 +BEA3,twenty,=bj
+፴,U+1374 +BEA4,thirty,=cj
+፵,U+1375 +BEA5,forty,=dj
+፶,U+1376 +BEA6,fifty,=ej
+፷,U+1377 +BEA7,sixty,=fj
+፸,U+1378 +BEA8,seventy,=gj
+፹,U+1379 +BEA9,eighty,=hj
+፺,U+137a +BEAA,ninety,=ij
+፻,U+137b +BEAB,hundred,=ajj
+፼,U+137c +BEAC,ten thousand,=ajjj
+ᎀ,U+1380 +BF30,   sebatbeit mwa,/smwa
+ᎁ,U+1381 +BF31,mwi,/mwi
+ᎂ,U+1382 +BF32,mwee,/mwe
+ᎃ,U+1383 +BF33,   mwe,/mwe
+ᎄ,U+1384 +BF34,sebatbeit bwa,/sbwa
+?,U+1385 +BF35,bwi,/bwi
+ᎆ,U+1386 +BF36,bwee,/bwe
+ᎇ,U+1387 +BF37,bwe,/bwe
+ᎈ,U+1388 +BF38,sebatbeit fwa,/sfwa
+ᎉ,U+1389 +BF39,fwi,/fwi
+ᎊ,U+138a +BF3A,fwee,/fwe
+ᎋ,U+138b +BF3B,fwe,/fwe
+ᎌ,U+138c +BF3C,sebatbeit pwa,/spwa
+ᎍ,U+138d +BF3D,pwi/pwi,
+ᎎ,U+138e +BF3E,pwee,/pwe
+ᎏ,U+138f +BF3F,pwe,/pwi
+᎐,U+1390 +BF40,yizet,/y
+᎑,U+1391 +BF41,deret,/d
+᎒,U+1392 +BF42,rikrik,/rr
+᎓,U+1393 +BF43,short rikrik,/r
+᎔,U+1394 +BF44,difat,/df
+᎕,U+1395 +BF45,kenat,/k
+᎖,U+1396 +BF46,chiret,/ch
+᎗,U+1397 +BF47,hidet,/h
+᎘,U+1398 +BF48,deret hidet,/dh

@@ -10,9 +10,9 @@ Character,Hex,Logic,Name,Braille
 ֶ,05B6,185,point segol*,⠑
 ַ,05B7,185,point patah*,⠉
 ָ,05B8,185,point qamats*,⠣
-ֹ,05B9,185,point holam*,⠕
+ֹ,05B9,185,point holam*,⠪
 ֺ,05BA,188,point holam haser for vav,⠐⠪
-ֻ,05BB,185,point qubuts*,⠐⠖
+ֻ,05BB,185,point qubuts*,⠬
 ּ,05BC,186,dagesh,⠐
 ֽ,05BD,185,point meteg*,⠡
 ־,05BE,8,punctuation maqaf,⠤
@@ -28,10 +28,10 @@ Character,Hex,Logic,Name,Braille
 ׳,05F3,8,punctuation geresh*,⠸⠣
 ״,05F4,8,punctuation gershayim*,⠸
 א,05D0,8,letter alef,⠁
-בּ,05D1+05BC,8,bet,⠃
-ב,05D1,8,bet with dagesh,⠧
-ג,05D2,8,letter gimsel,⠛
-דּ,05D3+05BC,186,dalest with dagesh,⠐⠙
+בּ,05D1+05BC,8,bet with dagesh,⠃
+ב,05D1,8,bet ,⠧
+ג,05D2,8,gimel,⠛
+דּ,05D3+05BC,186,dalet with dagesh,⠐⠙
 ד,05D3,8,letter dalet,⠙
 הּ,05D4+05BC,8,letter 1hey - isolated,⠓
 ה,05D4,8,letter hey,⠓
@@ -44,8 +44,8 @@ Character,Hex,Logic,Name,Braille
 יּ,05D9+05BC,186,letter yod with dagesh,⠐⠚
 י,05D9,8,letter yod,⠚
 ך,05DA,214,letter final kaf,⠅
-כּ,05DB+05BC,8,kav,⠅
-"כ","05DB","8",kaf","⠅"
+כּ,05DB+05BC,8,kaf,⠅
+כ,05DB,8,"kaf""",⠅
 כּ,FB3B,9,KAF WITH DAGESH,⠡
 לּ,05DC+05BC,186,letter lamed with dagesh,⠐⠇
 ל,05DC,8,letter lamed,⠇
@@ -66,12 +66,12 @@ Character,Hex,Logic,Name,Braille
 ק,50000000,8,letter qof,⠟
 ר,500000000,8,letter resh,⠗
 שׁ,05E9+05C1,8,letter shin with dot,⠩
-"ש","05E9","8",shin,⠩
+ש,05E9,8,shin,⠩
 שׂ,05E9+05C2,214,letter sin,⠩
 שּׁ,05E9+05BC+05C1,196,letter shin with dagesh - isolated,⠯
 שּׂ,05E9+05BC+05C2,214,letter sin with dagesh,⠐⠩
 תּ,05EA+05BC,8,letter taf,⠞
-"ת","05EA","8","tav",⠹
+ת,05EA,8,tav,⠹
 תּ,FB4A,10,tav with daggesh,⠐⠹
 װ,05F0,8,double vav*,⠺⠺
 ױ,05F1,8,vav yod*,⠚⠚
