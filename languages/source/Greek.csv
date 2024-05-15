@@ -553,6 +553,7 @@ Unicode,Character,Name,Braille
 1F08,ἀ,Capital Alpha with Psili,⠠⠴⠁
 2E06,⸆,raised interpolation marker,⠗⠍
 1F0C,ἄ,Capital Alpha with Psili and Oxia,⠠⠴⠜
+1F76,ὶ,Iota with Varia,⠌
 ,*,star,⠡
 ,+,plus,⠬
 ,/,slash,⠌
@@ -580,3 +581,13 @@ Unicode,Character,Name,Braille
 ,",",comma,⠂
 ,"""",quote,⠠⠶
 , , , 
+,1,1,⠁
+,2,2,⠃
+,3,3,⠉
+,4,4,⠙
+,5,5,⠑
+,6,6,⠋
+,7,7,⠛
+,8,8,⠓
+,9,9,⠊
+,0,0,⠚

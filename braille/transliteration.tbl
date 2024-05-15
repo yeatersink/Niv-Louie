@@ -28,7 +28,7 @@
 # liblouis  comes with ABSOLUTELY NO WARRANTY.
 
 
-#for more information on the Transliteration table, please go to:
+#This transliteration table provides support for the transliteration of all Cuneiform languages. For more information on the Transliteration table, please go to:
 #http://oracc.ub.uni-muenchen.de/doc/help/languages/ugaritic/index.html
 #The standard for Transliteration has been set by the academic community represented by ORACC. The braille code for transliteration follows the standard set by ORACC. The braille code for transliteration is represented in braille as the name for the sign in the transliteration table. Thus, if the sign is a "a," then the braille code for this sign would be a.
 

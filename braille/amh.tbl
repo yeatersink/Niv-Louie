@@ -1,0 +1,175 @@
+
+# liblouis: Amharic Grade 1 table
+#
+# ------------
+#-name: Amharic grade 1
+#-index-name: Amharic uncontracted
+#-display-name: Amharic uncontracted braille as used in the study of Amharic .
+#
+#+language:amh
+#+type:literary
+#+contraction:no
+#+grade:1
+#+system:amh
+
+# This file is free software; you can redistribute it and/or
+# modify it under the terms of the GNU Lesser General Public
+# License as published by the Free Software Foundation; either
+# version 2.1 of the License, or (at your option) any later version.
+
+# This file is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+# Lesser General Public License for more details.
+
+# You should have received a copy of the GNU Lesser General Public
+# License along with this file; if not, write to the Free Software
+# Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA
+# liblouis  comes with ABSOLUTELY NO WARRANTY.
+
+
+#for more information on braille in the Amharic language, please read this paper.
+#https://www.researchgate.net/publication/303773888_RECOGNITION_OF_AMHARIC_BRAILLE
+#The standard for Amharic has been set by the community mentioned above. 
+
+# Authors and Contributors to Braille Code:
+# Maintained by Matityahu Yeshurun and Paul Geoghegan
+letter ጀ 245-26
+letter ጁ 245-136
+letter ጂ 245-24
+letter ጃ 245-1
+letter ጄ 245-15
+letter ? 236
+letter ጆ 245-135
+letter ጇ 1346
+letter ገ 1245-26
+letter ጉ 1245-136
+letter ጊ 1245-24
+letter ጋ 1245-1
+letter ጌ 1245-15
+letter ግ 1245
+letter ጎ 1245-135
+letter ጏ 1245-1346
+letter ጐ 1245-2456-26
+letter ጒ 1245-2456-24
+letter ጓ 1245-1346
+letter ጔ 1245-2456-15
+letter ጕ 1245-2456-136
+letter ጘ 1245-26
+letter ጙ 1245-136
+letter ጚ 1245-24
+letter ጛ 1245-1
+letter ጜ 1245-15
+letter ጝ 1245-1245
+letter ጞ 1245-1245-135
+letter ጠ 23456-26
+letter ጡ 12356-136
+letter ጢ 23456-24
+letter ጣ 23456-1
+letter ጤ 23456-15
+letter ጥ 23456
+letter ጦ 23456-135
+letter ጧ 23456-1346
+letter ጨ 14-26
+letter ጩ 14-136
+letter ጪ 14-24
+letter ጫ 14-1
+letter ጬ 14-15
+letter ጭ 14
+letter ጮ 14-135
+letter ጯ 14-1346
+letter ጰ 235-26
+letter ጱ 235-136
+letter ጲ 235-24
+letter ጳ 235-1
+letter ጴ 235-15
+letter ጵ 235-2
+letter ጶ 235-135
+letter ጷ 235-1346
+letter ጸ 2346-26
+letter ጹ 2346-136
+letter ጺ 2346-24
+letter ጻ 2346-1
+letter ጼ 2346-15
+letter ጽ 2346
+letter ጾ 2346-135
+letter ጿ 2346-1346
+letter ፀ 12346-26
+letter ፁ 12346-136
+letter ፂ 12346-24
+letter ፃ 12346-1
+letter ፄ 12346-15
+letter ፆ 12346-356
+letter ፇ 12346-1346
+letter ፈ 124-26
+letter ፉ 124-136
+letter ፊ 124-24
+letter ፋ 124-1
+letter ፌ 124-15
+letter ፍ 124
+letter ፎ 124-135
+letter ፏ 124-1346
+letter ፐ 1234-26
+letter ፑ 1234-136
+letter ፒ 1234-24
+letter ፓ 1234-1
+letter ፔ 1234
+letter ፕ 1234-135
+letter ፖ 1234-13456
+letter ፗ 1235-13456-26
+letter ፘ 134-13456-26
+letter ፙ 124-13456-26
+letter ፚ 456
+letter ፠ 156
+letter ፡ 0
+letter ። 256
+letter ፣ 1
+letter ፤ 256
+letter ፥ 256-25
+letter ፦ 156
+letter ፧ 236
+letter ፨ 2356-156
+letter ፩ 123456-1
+letter ፪ 123456-12
+letter ፫ 123456-14
+letter ፬ 123456-145
+letter ፭ 123456-15
+letter ፮ 123456-124
+letter ፯ 123456-1245
+letter ፰ 123456-125
+letter ፱ 123456-24
+letter ፲ 123456-1-245
+letter ፳ 123456-12-245
+letter ፴ 123456-14-245
+letter ፵ 123456-145-245
+letter ፶ 123456-15-245
+letter ፷ 123456-124-245
+letter ፸ 123456-1245-245
+letter ፹ 123456-125-245
+letter ፺ 123456-24-245
+letter ፻ 123456-1-245-245
+letter ፼ 123456-1-245-245-245
+letter ᎀ 34-234-134-2456-1
+letter ᎁ 34-134-2456-24
+letter ᎂ 34-134-2456-15
+letter ᎃ 34-134-2456-15
+letter ᎄ 34-234-12-2456-1
+letter ᎆ 34-12-2456-15
+letter ᎇ 34-12-2456-15
+letter ᎈ 34-234-124-2456-1
+letter ᎉ 34-124-2456-24
+letter ᎊ 34-124-2456-15
+letter ᎋ 34-124-2456-15
+letter ᎌ 34-234-1234-2456-1
+letter ᎎ 34-1234-2456-15
+letter ᎏ 34-1234-2456-24
+letter ᎐ 34-13456
+letter ᎑ 34-145
+letter ᎒ 34-1235-1235
+letter ᎓ 34-1235
+letter ᎔ 34-145-124
+letter ᎕ 34-13
+letter ᎖ 34-14-125
+letter ᎗ 34-125
+letter ᎘ 34-145-125
+letter \s 0

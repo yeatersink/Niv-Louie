@@ -1,0 +1,143 @@
+Char,Name,Braille
+ጀ,ja,⠚⠢
+ጁ,ju,⠚⠥
+ጂ,ji,⠚⠊
+ጃ,   jaa,⠚⠁
+ጄ,   jee,⠚⠑
+?,   je,⠦
+ጆ,   jo,⠚⠕
+ጇ,   jwa,⠭
+ገ,   ga,⠛⠢
+ጉ,   gu,⠛⠥
+ጊ,           gi,⠛⠊
+ጋ,gaa,⠛⠁
+ጌ,gee,⠛⠑
+ግ,ge,⠛
+ጎ,go,⠛⠕
+ጏ,goa,⠛⠭
+ጐ,gwa,⠛⠺⠢
+ጒ,gwi,⠛⠺⠊
+ጓ,gwaa,⠛⠭
+ጔ,gwee,⠛⠺⠑
+ጕ,gwe,⠛⠺⠥
+ጘ,gga,⠛⠢
+ጙ,ggu,⠛⠥
+ጚ,ggi,⠛⠊
+ጛ,ggaa,⠛⠁
+ጜ,ggee,⠛⠑
+ጝ,gge,⠛⠛
+ጞ,ggo,⠛⠛⠕
+ጟ,ggwa,
+ጠ,tha,⠾⠢
+ጡ,thu,⠷⠥
+ጢ,thi,⠾⠊
+ጣ,thaa,⠾⠁
+ጤ,thee,⠾⠑
+ጥ,the,⠾
+ጦ,tho,⠾⠕
+ጧ,thwa,⠾⠭
+ጨ,cha,⠉⠢
+ጩ,chu,⠉⠥
+ጪ,chi,⠉⠊
+ጫ,chaa,⠉⠁
+ጬ,chee,⠉⠑
+ጭ,che,⠉
+ጮ,cho,⠉⠕
+ጯ,chwa,⠉⠭
+ጰ,pha,⠖⠢
+ጱ,phu,⠖⠥
+ጲ,phi,⠖⠊
+ጳ,phaa,⠖⠁
+ጴ,phee,⠖⠑
+ጵ,phe,⠖⠂
+ጶ,pho,⠖⠕
+ጷ,phwa,⠖⠭
+ጸ,tsa,⠮⠢
+ጹ,tsu,⠮⠥
+ጺ,tsi,⠮⠊
+ጻ,tsaa,⠮⠁
+ጼ,tsee,⠮⠑
+ጽ,tse,⠮
+ጾ,tso,⠮⠕
+ጿ,tswa,⠮⠭
+ፀ,tza,⠯⠢
+ፁ,tzu,⠯⠥
+ፂ,tzi,⠯⠊
+ፃ,tzaa,⠯⠁
+ፄ,tzee,⠯⠑
+ፆ,tzo,⠯⠴
+ፇ,tzoa,⠯⠭
+ፈ,fa,⠋⠢
+ፉ,fu,⠋⠥
+ፊ,fi,⠋⠊
+ፋ,faa,⠋⠁
+ፌ,fee,⠋⠑
+ፍ,fe,⠋
+ፎ,fo,⠋⠕
+ፏ,fwa,⠋⠭
+ፐ,pa,⠏⠢
+ፑ,pu,⠏⠥
+ፒ,pi,⠏⠊
+ፓ,paa,⠏⠁
+ፔ,pee,⠏
+ፕ,pe,⠏⠕
+ፖ,po,⠏⠽
+ፗ,pwa,⠗⠽⠢
+ፘ,rya,⠍⠽⠢
+ፙ,mya,⠋⠽⠢
+ፚ,fya,⠸
+፟,combining gemination mark,
+፠,section mark,⠱
+፡,wordspace, 
+።,full stop,⠲
+፣,comma,⠁
+፤,semicolon,⠲
+፥,colon,⠲⠒
+፦,preface colon,⠱
+፧,question mark,⠦
+፨,paragraph separator,⠶⠱
+፩,one,⠿⠁
+፪,two,⠿⠃
+፫,three,⠿⠉
+፬,four,⠿⠙
+፭,five,⠿⠑
+፮,six,⠿⠋
+፯,seven,⠿⠛
+፰,eight,⠿⠓
+፱,nine,⠿⠊
+፲,ten,⠿⠁⠚
+፳,twenty,⠿⠃⠚
+፴,thirty,⠿⠉⠚
+፵,forty,⠿⠙⠚
+፶,fifty,⠿⠑⠚
+፷,sixty,⠿⠋⠚
+፸,seventy,⠿⠛⠚
+፹,eighty,⠿⠓⠚
+፺,ninety,⠿⠊⠚
+፻,hundred,⠿⠁⠚⠚
+፼,ten thousand,⠿⠁⠚⠚⠚
+ᎀ,   sebatbeit mwa,⠌⠎⠍⠺⠁
+ᎁ,mwi,⠌⠍⠺⠊
+ᎂ,mwee,⠌⠍⠺⠑
+ᎃ,   mwe,⠌⠍⠺⠑
+ᎄ,sebatbeit bwa,⠌⠎⠃⠺⠁
+ᎆ,bwee,⠌⠃⠺⠑
+ᎇ,bwe,⠌⠃⠺⠑
+ᎈ,sebatbeit fwa,⠌⠎⠋⠺⠁
+ᎉ,fwi,⠌⠋⠺⠊
+ᎊ,fwee,⠌⠋⠺⠑
+ᎋ,fwe,⠌⠋⠺⠑
+ᎌ,sebatbeit pwa,⠌⠎⠏⠺⠁
+ᎍ,pwi/pwi,
+ᎎ,pwee,⠌⠏⠺⠑
+ᎏ,pwe,⠌⠏⠺⠊
+᎐,yizet,⠌⠽
+᎑,deret,⠌⠙
+᎒,rikrik,⠌⠗⠗
+᎓,short rikrik,⠌⠗
+᎔,difat,⠌⠙⠋
+᎕,kenat,⠌⠅
+᎖,chiret,⠌⠉⠓
+᎗,hidet,⠌⠓
+᎘,deret hidet,⠌⠙⠓
+ , , 

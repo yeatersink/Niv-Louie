@@ -540,6 +540,7 @@ Character,Name,Braille
 ἀ,Capital Alpha with Psili,⠠⠴⠁
 ⸆,raised interpolation marker,⠗⠍
 ἄ,Capital Alpha with Psili and Oxia,⠠⠴⠜
+ὶ,Iota with Varia,⠌
 *,star,⠡
 +,plus,⠬
 /,slash,⠌
@@ -567,3 +568,13 @@ $,dollar,⠫
 ",",comma,⠂
 """",quote,⠠⠶
  , , 
+1,1,⠁
+2,2,⠃
+3,3,⠉
+4,4,⠙
+5,5,⠑
+6,6,⠋
+7,7,⠛
+8,8,⠓
+9,9,⠊
+0,0,⠚

@@ -20,14 +20,24 @@ languages=[
 """},
     
 
-{"name":"Ethiopic","language_code":"ethi","name_column":"Name","char_column":"Character(decimal)","braille_column":"Braille","replace":["CUNEIFORM SIGN"],"language_information":"""
-#for more information on the Ethiopic language, please go to:
-#
-#The standard for Ethiopic has been set by the academic community. 
+{"name":"Amharic","language_code":"amh","name_column":"Name","char_column":"Char","braille_column":"Braille","replace":["CUNEIFORM SIGN"],"language_information":"""
+#for more information on braille in the Amharic language, please read this paper.
+#https://www.researchgate.net/publication/303773888_RECOGNITION_OF_AMHARIC_BRAILLE
+#The standard for Amharic has been set by the community mentioned above. 
+""","contributors":"""
 # Authors and Contributors to Braille Code:
 # Maintained by Matityahu Yeshurun and Paul Geoghegan
 """},
     
+        {"name":"Criticle-Apparatus-NT","language_code":"Criticle-Apparatus-NT","name_column":"Name","char_column":"Char","braille_column":"Braille","replace":["CUNEIFORM SIGN"],"language_information":"""
+#for more information on the Criticle Apparatus , please check out this link:
+#https://biblequestions.info/2020/10/24/what-do-the-sigla-in-a-new-testament-apparatus-mean-ubs-edition/
+#The standard for the Criticle Apparatus has been set by the community mentioned above. 
+""","contributors":"""
+# Authors and Contributors to Braille Code:
+# Maintained by Matityahu Yeshurun and Paul Geoghegan
+"""},
+
         {"name":"Greek","language_code":"grc-koine","name_column":"Name","char_column":"Character","braille_column":"Braille","replace":["CUNEIFORM SIGN"],"language_information":"""
 #for more information on the Koine Greek language, please go to:
 #https://www.koinegreek.com/
@@ -55,7 +65,7 @@ languages=[
 # Maintained by Matityahu Yeshurun and Paul Geoghegan
 """},    
         {"name":"Transliteration","language_code":"transliteration","name_column":"Name","char_column":"Character","braille_column":"Braille","replace":[],"language_information":"""
-#for more information on the Transliteration table, please go to:
+#This transliteration table provides support for the transliteration of all Cuneiform languages. For more information on the Transliteration table, please go to:
 #http://oracc.ub.uni-muenchen.de/doc/help/languages/ugaritic/index.html
 #The standard for Transliteration has been set by the academic community represented by ORACC. The braille code for transliteration follows the standard set by ORACC. The braille code for transliteration is represented in braille as the name for the sign in the transliteration table. Thus, if the sign is a "a," then the braille code for this sign would be a.
 ""","contributors":"""
