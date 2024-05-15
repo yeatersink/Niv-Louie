@@ -28,11 +28,11 @@
 # liblouis  comes with ABSOLUTELY NO WARRANTY.
 
 
-#for more information on the Hebrew language, please go to:
+# This table represents Classical or Biblical Hebrew. This table is different from a modern Hebrew table because this table provides support for the points, vowels and cantillation marks. Modern Hebrew tables do not provide this support. for more information on biblical Hebrew , please go to:
 #https://mechon-mamre.org/index.htm
 #The standard for Hebrew has been set by the community represented by Jewish studies. The braille code for Hebrew follows the standard set by HIJS. The braille code for Hebrew is represented in braille as the name for the sign in Hebrew. Thus, if the Hebrew sign is a "Bet," then the braille code for this sign would be bet represented by early forms of Hebrew braille.
 
-#This project is overseen by Ariel University and supervised by Dr. Shai Gordin 
+# Authors and Contributors to Braille Code:
 # Maintained by Matityahu Yeshurun and Paul Geoghegan
 letter ְ 3
 letter ֱ 26
@@ -45,9 +45,9 @@ letter ֵ 34
 letter ֶ 15
 letter ַ 14
 letter ָ 126
-letter ֹ 135
+letter ֹ 246
 letter ֺ 5-246
-letter ֻ 5-235
+letter ֻ 346
 letter ּ 5
 letter ֽ 16
 letter ־ 36
@@ -142,3 +142,4 @@ letter ֬ 46-24
 letter ֭ 46-24
 letter ֮ 46-1356
 letter ֯ 456-134
+letter \s 0

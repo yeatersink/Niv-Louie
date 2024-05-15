@@ -30,9 +30,9 @@
 
 #for more information on the Transliteration table, please go to:
 #http://oracc.ub.uni-muenchen.de/doc/help/languages/ugaritic/index.html
-#The standard for Transliteration has been set by the academic community represented by ORACC. The braille code for transliteration follows the standard set by ORACC. The braille code for transliteration is represented in braille as the name for the sign in the transliteation table. Thus, if the sign is a "a," then the braille code for this sign would be a.
+#The standard for Transliteration has been set by the academic community represented by ORACC. The braille code for transliteration follows the standard set by ORACC. The braille code for transliteration is represented in braille as the name for the sign in the transliteration table. Thus, if the sign is a "a," then the braille code for this sign would be a.
 
-#This project is overseen by Ariel University and supervised by Dr. Shai Gordin
+# Authors and Contributors to Braille Code:
 # Maintained by Matityahu Yeshurun and Paul Geoghegan
 letter á 45-34-1
 letter é 45-34-15
@@ -155,7 +155,7 @@ letter Y 6-13456
 letter y 13456
 letter z 1356
 letter Z 6-1356
-letter   0
+letter \s 0
 letter 1 1
 letter 2 12
 letter 3 14

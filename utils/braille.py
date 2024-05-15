@@ -49,7 +49,12 @@ def create_braille_table(language_option):
     #This loop goes through each row in the braille file and writes the braille code and the number to the braille table
     for index, row in braille.iterrows():
         if len(row[languages[language_option]["braille_column"]]) > 0:
-            new_line="letter "+str(row[languages[language_option]["char_column"]])+" "+str(row[languages[language_option]["braille_column"]])+"\n"
+            new_line=""
+            if  str(row[languages[language_option]["char_column"]]).isspace():
+                print("space Found")
+                new_line="letter \\s "+str(row[languages[language_option]["braille_column"]])+"\n"
+            else:
+                new_line="letter "+str(row[languages[language_option]["char_column"]])+" "+str(row[languages[language_option]["braille_column"]])+"\n"
             braille_table.write(new_line)
         else:
             warnings.warn("this line was missing it's braille. This may be a mistake in your table. Character: "+row[languages[language_option]["char_column"]])

@@ -18,9 +18,9 @@
 
 display: unicode.dis
 table:
-  language: ug
+  language: uga
   grade: 1
-  __assert-match: ug.tbl
+  __assert-match: uga.tbl
 flags: { testmode: forward }
 tests:
   # Ugaritic

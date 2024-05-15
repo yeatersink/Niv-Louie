@@ -32,7 +32,7 @@
 #https://oracc.museum.upenn.edu/dcclt/signlists/signlists/
 #The standard for Akkadian has been set by the academic community represented by ORACC. The braille code for Akkadian follows the standard set by ORACC. The braille code for Akkadian is represented in braille as the name for the sign in Akkadian. Thus, if the Akkadian sign is a "Lum," then the braille code for this sign would be lum.
 
-#This project is overseen by Ariel University and supervised by Dr. Shai Gordin
+# Authors and Contributors to Braille Code:
 # Maintained by Matityahu Yeshurun and Paul Geoghegan
 letter 𒀀 1
 letter 𒀁 1-16-1
@@ -956,3 +956,4 @@ letter 𒎖 234-1-1245-16-24-1245-24-0-1245-136-1345-136
 letter 𒎗 2345-24
 letter 𒎘 136-134-16-134-15
 letter 𒎙 136
+letter \s 0

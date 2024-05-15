@@ -6,11 +6,11 @@
 #-index-name: Ugaritic uncontracted
 #-display-name: Ugaritic uncontracted braille as used in the study of Ugaritic .
 #
-#+language:ug
+#+language:uga
 #+type:literary
 #+contraction:no
 #+grade:1
-#+system:ug
+#+system:uga
 
 # This file is free software; you can redistribute it and/or
 # modify it under the terms of the GNU Lesser General Public
@@ -32,7 +32,7 @@
 #https://oracc.museum.upenn.edu/aemw/ugarit/corpus
 #The standard for Ugaritic has been set by the academic community represented by ORACC. The braille code for Ugaritic follows the standard set by ORACC. The braille code for Ugaritic is represented in braille as the name for the sign in Ugaritic. Thus, if the Ugaritic sign is a "Alepha," then the braille code for this sign would be a.
 
-#This project is overseen by Ariel University and supervised by Dr. Shai Gordin
+# Authors and Contributors to Braille Code:
 # Maintained by Matityahu Yeshurun and Paul Geoghegan
 letter 𐎀 1
 letter 𐎁 12
@@ -65,4 +65,4 @@ letter 𐎛 24
 letter 𐎜 136
 letter 𐎝 234-1256
 letter 𐎟 36
-letter   0
+letter \s 0
