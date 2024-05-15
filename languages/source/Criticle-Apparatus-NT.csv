@@ -1,19 +1,19 @@
-`Unicode,Char,Braille,Description,Name
-U+2713,✓,⠪,This sign marks the end of omitted text. It pairs with 274F.,Check mark Ends Omission
-U+2714,✔,⠷,"See 2715. Centered dots and superscript numerals distinguish between multiple occurrences of the same kind of variant within a single unit of the apparatus. The first such instance has no dot or superscript. The second has a dot. The third has a superscripted 1; the fourth, a superscripted 2; etc.",Check Mark Distinguishes Same kind of Varient 
-U+2715,✕,⠗,"The words following in the text are replaced with other words by the witnesses cited. Sign 2716 marks the end of the replaced text. Frequently this involves the transposition of words. To the extent the words are identical with those in the text, they are indicated by italic numerals corresponding to their position in the printed text (cf. Mt 27,51).",Mark beginning of Replacement
-U+2716,✖,⠺,"This sign marks the end of the replaced text, the counterpart to 2715.",Mark Ends of Replacement
-U+2717,✗,⠊,"This sign marks the location where one or more words, or sometimes a whole verse, is inserted by the witnesses cited.",Mark for  Insertion
-U+2718,✘,⠔,Centered dots and superscript numerals distinguish between multiple occurrences of the same kind of variant within a single unit of the apparatus. Corresponds to 2717.,Marks Varients with in Apparatus
-fU+2719,✙,⠾,"This sign marks the end of the replaced text, the counterpart to 2714.",  Marks end of Replaced text
-U+2741,❁,⠇⠭⠭,Reference to Septuagint. This symbol indicates that a variant suggests a parallel expression in the Septuagint text.,Reference to LXX
-U+274D,❍,⠕,The (one) word following in the text is omitted by the witnesses cited.,Marks Omitted Word
-U+274F,❏,⠕,"The words, clauses, or sentences following in the text are omitted by the witnesses cited. Sign 2713 marks the end of the omitted text.",Marks End of Omited word
-U+2750,❐,⠗,The (one) word following in the text is replaced with one or more words by the witnesses cited.,Marks Replaced Word
-U+2751,❑,⠟,Centered dots and superscript numerals distinguish between multiple occurrences of the same kind of variant within a single unit of the apparatus. Corresponds to 2750.,Mark that Distinguishes between Varient
-U+2758,❘,⠳,A solid vertical line separates the instances of variation from each other within a single verse or section of the apparatus.,Mark that separates variations
-U+2759,❙,⠞,"A broken vertical line separates the various alternative readings from each other within a single instance of variation. These readings taken together comprise a group of readings, or a variation unit.",Mark that indicates Alternative readings
-U+275A,❚,⠉,A raised colon indicates a variant form of punctuation.,Mark indicates varrnt punctuation
-U+2765,❥,⠜⠣⠕⠱⠏⠜ ⠣⠌⠕⠱⠏⠜,Centered dots and superscript numerals distinguish between multiple occurrences of the same kind of variant within a single unit of the apparatus. Corresponds to 2766.,Marks distinguishes between varient
-U+2766,❦,⠣⠣⠕⠱⠏⠜ ⠣⠌⠕⠱⠏⠜,"The words following in the text are transposed by the witnesses cited. Sign 2767 in gthe text marks the end of the portion of text transposed. The sequence of the transposed words is indicated when necessary by italic numerals corresponding to the position of the words in the printed text (cf. Mt 16,13).",Marks beginning of transposition
-U+2767,❧,⠱,This sign marks the end of the portion of text transposed. Corresponds to 2766.,Check Marks end of transposition
+`Unicode,Char,Name,Braille
+U+2713,✓,Check mark Ends Omission,⠪
+U+2714,✔,Check Mark Distinguishes Same kind of Varient ,⠷
+U+2715,✕,Mark beginning of Replacement,⠗
+U+2716,✖,Mark Ends of Replacement,⠺
+U+2717,✗,Mark for  Insertion,⠊
+U+2718,✘,Marks Varients with in Apparatus,⠔
+fU+2719,✙,  Marks end of Replaced text,⠾
+U+2741,❁,Reference to LXX,⠇⠭⠭
+U+274D,❍,Marks Omitted Word,⠕
+U+274F,❏,Marks End of Omited word,⠕
+U+2750,❐,Marks Replaced Word,⠗
+U+2751,❑,Mark that Distinguishes between Varient,⠟
+U+2758,❘,Mark that separates variations,⠳
+U+2759,❙,Mark that indicates Alternative readings,⠞
+U+275A,❚,Mark indicates varrnt punctuation,⠉
+U+2765,❥,Marks distinguishes between varient,⠜⠣⠕⠱⠏⠜ ⠣⠌⠕⠱⠏⠜
+U+2766,❦,Marks beginning of transposition,⠣⠣⠕⠱⠏⠜ ⠣⠌⠕⠱⠏⠜
+U+2767,❧,Check Marks end of transposition,⠱

@@ -525,15 +525,15 @@ Unicode,Character,Name,Braille
 03FD,Ͻ,CAPITAL REVERSED LUNATE SIGMA SYMBOL,⠲⠡⠡
 03FE,Ͼ,CAPITAL DOTTED LUNATE SIGMA SYMBOL,⠡⠡
 03FF,Ͽ,CAPITAL REVERSED DOTTED LUNATE SIGMA SYMBOL,⠡⠡
-0391,Α,Capitol Alpha,⠠⠁
-0392,Β,Capitol Beta,⠠⠃
-0393,Γ,Capitol Gamma,⠠⠛
-0394,Δ,Capitol Delta,⠠⠙
-0395,Ε,Capitol Epsilon,⠠⠑
-0396,Ζ,Capitol Zeta,⠠⠵
-0397,Η,Capitol Eta,⠠⠱
-0398,Θ,Capitol Theta,⠠⠹
-0399,Ι,Capitol Iota,⠠⠊
+391,Α,Capitol Alpha,⠠⠁
+392,Β,Capitol Beta,⠠⠃
+393,Γ,Capitol Gamma,⠠⠛
+394,Δ,Capitol Delta,⠠⠙
+395,Ε,Capitol Epsilon,⠠⠑
+396,Ζ,Capitol Zeta,⠠⠵
+397,Η,Capitol Eta,⠠⠱
+398,Θ,Capitol Theta,⠠⠹
+399,Ι,Capitol Iota,⠠⠊
 039A,Κ,Capitol Kappa,⠠⠅
 039B,Λ,Capitol Lambda,⠠⠇
 039C,Μ,Capitol Mu,⠠⠍
@@ -551,43 +551,61 @@ Unicode,Character,Name,Braille
 03A8,Ψ,Capitol Psi,⠠⠽
 03A9,Ω,Capitol Omega,⠠⠺
 1F08,ἀ,Capital Alpha with Psili,⠠⠴⠁
-2E06,⸆,raised interpolation marker,⠗⠍
+2000000,⸆,raised interpolation marker,⠗⠍
 1F0C,ἄ,Capital Alpha with Psili and Oxia,⠠⠴⠜
 1F76,ὶ,Iota with Varia,⠌
-,*,star,⠡
-,+,plus,⠬
-,/,slash,⠌
-,\\,back slash,⠳
-,=,equals,⠿
-,_,line,⠢
-,^,carrot,⠘
-,<,less,⠣
-,>,greater,⠜
-,[,left bracket,⠪
-,],right bracket,⠻
-,(,left paren,⠷
-,),right paren,⠾
-,#,number,⠸
-,$,dollar,⠫
-,&,and,⠯
-,%,percent,⠩
-,-,dash,⠤
-,!,bang,⠮
-,:,colon,⠱
-,;,semi,⠰
-,?,question,⠹
-,.,dot,⠲
-,',tick,⠄
-,",",comma,⠂
-,"""",quote,⠠⠶
-, , , 
-,1,1,⠁
-,2,2,⠃
-,3,3,⠉
-,4,4,⠙
-,5,5,⠑
-,6,6,⠋
-,7,7,⠛
-,8,8,⠓
-,9,9,⠊
-,0,0,⠚
+2713,✓,Check mark Ends Omission,⠪
+2714,✔,Check Mark Distinguishes Same kind of Varient ,⠷
+2715,✕,Mark beginning of Replacement,⠗
+2716,✖,Mark Ends of Replacement,⠺
+2717,✗,Mark for  Insertion,⠊
+2718,✘,Marks Varients with in Apparatus,⠔
+2719,✙,  Marks end of Replaced text,⠾
+2741,❁,Reference to LXX,⠇⠭⠭
+274D,❍,Marks Omitted Word,⠕
+274F,❏,Marks End of Omited word,⠕
+2750,❐,Marks Replaced Word,⠗
+2751,❑,Mark that Distinguishes between Varient,⠟
+2758,❘,Mark that separates variations,⠳
+2759,❙,Mark that indicates Alternative readings,⠞
+275A,❚,Mark indicates varrnt punctuation,⠉
+2765,❥,Marks distinguishes between varient,⠜⠣⠕⠱⠏⠜ ⠣⠌⠕⠱⠏⠜
+2766,❦,Marks beginning of transposition,⠣⠣⠕⠱⠏⠜ ⠣⠌⠕⠱⠏⠜
+2767,❧,Check Marks end of transposition,⠱
+,*,star,⠡,
+,+,plus,⠬,
+,/,slash,⠌,
+,\\,back slash,⠳,
+,=,equals,⠿,
+,_,line,⠢,
+,^,carrot,⠘,
+,<,less,⠣,
+,>,greater,⠜,
+,[,left bracket,⠪,
+,],right bracket,⠻,
+,(,left paren,⠷,
+,),right paren,⠾,
+,#,number,⠸,
+,$,dollar,⠫,
+,&,and,⠯,
+,%,percent,⠩,
+,-,dash,⠤,
+,!,bang,⠮,
+,:,colon,⠱,
+,,,semi,⠰
+,?,question,⠹,
+,.,dot,⠲,
+,',tick,⠄,
+,",",comma,⠂,
+,"""",quote,⠠⠶,
+, , , ,
+,1,1,⠁,
+,2,2,⠃,
+,3,3,⠉,
+,4,4,⠙,
+,5,5,⠑,
+,6,6,⠋,
+,7,7,⠛,
+,8,8,⠓,
+,9,9,⠊,
+,0,0,⠚,
