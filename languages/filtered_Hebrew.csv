@@ -2,7 +2,6 @@ Character,Hex,Name,Braille
 תּ,FB4A,tav with daggesh,⠐⠹
 כּ,FB3B,KAF with dadgesh ,⠅
 בּ,FB31,Bet with dadgesh,⠃
-05DB+05BC,8,⠅,
 ֙,599,pashta,⠨⠌
 ֘,598,zarqa,⠨⠙
 ֗,597,revia,⠨⠗
@@ -22,8 +21,6 @@ Character,Hex,Name,Braille
 ע,500,ayin,⠫
 ס,50,samekh,⠎
 נ,5,nun,⠝
-וּ05BC+05D5,201,⠥,
-וּ05BC+05D5+05B0,201,⠥⠄,
 ״,05F4,gershayim,⠸
 ׳,05F3,geresh,⠸⠣
 ײ,05F2,double yod,⠚⠚
@@ -44,7 +41,7 @@ Character,Hex,Name,Braille
 ם,05DD,final mem,⠍
 לּ,05DC+05BC,lamed with dagesh,⠐⠇
 ל,05DC,lamed,⠇
-כ,05DB+05BC+05B0,kaf with dadgesh sheva,⠅⠄
+כ,05DB+05BC,kaf with dadgesh,⠅
 ך,05DA,final kaf,⠡
 יּ,05D9+05BC,yod with dagesh,⠐⠚
 י,05D9,yod,⠚
@@ -54,7 +51,7 @@ Character,Hex,Name,Braille
 וּ,05D5+05BC,shuruq,⠥
 וֹ,05D5+05B9,holam-vav,⠪
 ו,05D5,vav,⠺
-הּ,05D4+05BC,1hey - isolated,⠓
+הּ,05D4+05BC,hey - isolated,⠓
 ה,05D4,hey,⠓
 דּ,05D3+05BC,dalet with dagesh,⠐⠙
 ד,05D3,dalet,⠙
