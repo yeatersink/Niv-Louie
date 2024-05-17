@@ -648,64 +648,64 @@ U+1F0x
 ἂ,Alpha acute with smooth breather,0>
 ἃ,Alphah acute with rough breather,h>
 ἄ,Alpha grave with smooth breather,0)
-ἅ
-ἆ
-ἇ
-Ἀ
-Ἁ
-Ἂ
-Ἃ
-Ἄ
-Ἅ
-Ἆ
-Ἇ
+ἅ,Alpha grave with rough breather,h)
+ἆ,Alpha circumflex with smooth breather,0*
+ἇ,Alpha circumflex with rough breather,h*
+Ἀ,Capital Alpha with smooth breather,⠨0a
+Ἁ,Capital Alpha with rough breather,⠨ha
+Ἂ,Capital Alpha acute with smooth breather,⠨0>
+Ἃ,Capital Alpha with rough breather,⠨h>
+Ἄ,Capital Alpha grave with Smooth breather,⠨0)
+Ἅ,Capital Alpha with grave with rough breather,⠨h)
+Ἆ,Capital Alpha circumflex with smooth breather,⠨0*
+Ἇ,Capital Alpha circumflex with rough breather,⠨h*
 U+1F1x
-ἐ
-ἑ
-ἒ
-ἓ
-ἔ
-ἕ  
-Ἐ
-Ἑ
-Ἒ
-Ἓ
-Ἔ
-Ἕ  
+ἐ,Epsilon with smooth breather,0e
+ἑ,Epsilon with rough breather,he
+ἒ,Epsilon grave with xmooth breather,0c
+ἓ,Epsilon grave with rough breather,hc
+ἔ,Epsilon acute with smooth breather,0$
+ἕ,Epsilon acute with rough breather,h$
+Ἐ,CAPITAL Epsilon with cmooth breather,⠨0e
+Ἑ,CAPITAL Epsilon with rough breather,⠨he
+Ἒ,CAPITAL Epsilon grave with smooth breather,⠨0c
+Ἓ,CAPITAL Epsilon grave with rough breather,⠨hc
+Ἔ,Cpaital Epsilon acute with smooth breather,⠨0$
+Ἕ,Capital Epsilon acute with rough breather,⠨h$
 U+1F2x
-ἠ
-ἡ
-ἢ
-ἣ
-ἤ
-ἥ
-ἦ
-ἧ
-Ἠ
-Ἡ
-Ἢ
-Ἣ
-Ἤ
-Ἥ
-Ἦ
-Ἧ
+ἠ,Eta with smooth breather,0⠱
+ἡ,Eta with rough breather,h⠱
+ἢ,Eta grave with smooth breather,0⠮
+ἣ,Eta grave with rough breather,h⠮
+ἤ,Eta acute with smooth breather,0⠿
+ἥ,Eta acute with rough breather,h⠿
+ἦ,Eta circumflex with smooth breather,0⠜
+ἧ,Eta circumflex with rough breather,h⠜
+Ἠ,Capital Eta with smooth breather,⠨0⠱
+Ἡ,Capital Eta with rough breather,⠨h⠱
+Ἢ,Capital Eta grave with smooth breather,⠨0⠮
+Ἣ,CAPITAL Eta with rough breather,⠨h⠮
+Ἤ,Capital Eta acute with smooth breather,⠨0
+Ἥ,Capital Eta acute with rough breather,⠨h⠿
+Ἦ,Capital Eta circumflex with smooth breather,⠨0<
+Ἧ,Capital Eta circumflex with rough breather,⠨0<
 U+1F3x
-ἰ
-ἱ
-ἲ
-ἳ
-ἴ
-ἵ
-ἶ
-ἷ
-Ἰ
-Ἱ
-Ἲ
-Ἳ
-Ἴ
-Ἵ
-Ἶ
-Ἷ
+ἰ,Iota with smooth breather,0i
+ἱ,Iota with rough breather,hi
+ἲ,Iota grave with smooth breather,0⠌
+ἳ,Iota grave with rough breather,h⠌
+ἴ,Iota acute with smooth breather,0⠻
+ἵ,Iota acute with rough breather,h⠻
+ἶ,Iota circumflex with smooth breather,0⠩
+ἷ,Iota circumflex with rough breather,h⠩
+Ἰ,Capital Iota with smooth breather,⠨0i
+Ἱ,Capital Iota with rough breather,⠨hi
+Ἲ,Capital Iota grave with smooth breather,⠨0⠌
+Ἳ,Capital Iota grave with rough breather,⠨h⠌
+Ἴ,Capital Iota acute with smooth breather,⠨0⠻
+Ἵ,Capital Iota with rough breather,⠨h⠻
+Ἶ,Capital Iota circumflex with smooth breather,⠨0⠩
+Ἷ,Capital Iota circumflex with rough breather,⠨h⠩
 U+1F4x
 ὀ
 ὁ
