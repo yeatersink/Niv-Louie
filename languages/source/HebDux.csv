@@ -148,3 +148,100 @@
 "֭","05AD","8","accent dehi","",""
 "֮","05AE","8","accent zinor","",""
 "֯","05AF","8","mark masora circle","",""
+
+✔,U+2714,,Check Mark Distinguishes Same kind of Varient,⠷
+✕,U+2715,,Mark beginning of Replacement,⠗
+✖,U+2716,,Mark Ends of Replacement,⠺
+✗,U+2717,,Mark for  Insertion,⠊
+✘,U+2718,,Marks Varients with in Apparatus,⠔
+✙,fU+2719,,  Marks end of Replaced text,⠾
+❁,U+2741,,Reference to LXX,⠇⠭⠭
+❍,U+274D,,Marks Omitted Word,⠕
+❏,U+274F,,Marks End of Omited word,⠕
+❐,U+2750,,Marks Replaced Word,⠗
+❑,U+2751,,Mark that Distinguishes between Varient,⠟
+❘,U+2758,,Mark that separates variations,⠳
+❙,U+2759,,Mark that indicates Alternative readings,⠞
+❚,U+275A,,Mark indicates varrnt punctuation,⠉
+❥,U+2765,,Marks distinguishes between varient,⠜⠣⠕⠱⠏⠜ ⠣⠌⠕⠱⠏⠜
+❦,U+2766,,Marks beginning of transposition,⠣⠣⠕⠱⠏⠜ ⠣⠌⠕⠱⠏⠜
+❧,U+2767,,Check Marks end of transposition,⠱
+a,,,a,⠁
+A,,,A,⠠⠁
+b,,,B,⠠⠃
+c,,,c,⠉
+C,,,C,⠠⠉
+d,,,d,⠙
+D,,,D,⠠⠙
+e,,,e,⠑
+E,,,E,⠠⠑
+f,,,f,⠋
+F,,,F,⠠⠋
+g,,,g,⠛
+G,,,G,⠠⠛
+h,,,h,⠓
+H,,,H,⠠⠓
+i,,,i,⠊
+I,,,I,⠠⠊
+j,,,j,⠚
+J,,,J,⠠⠚
+k,,,k,⠅
+K,,,K,⠠⠅
+l,,,l,⠇
+L,,,L,⠠⠇
+m,,,m,⠍
+M,,,M,⠠⠍
+n,,,N,⠝
+N,,,N,⠠⠝
+o,,,o,⠕
+O,,,O,⠠⠕
+p,,,p,⠏
+P,,,P,⠠⠏
+q,,,q,⠟
+Q,,,Q,⠠⠟
+r,,,r,⠗
+R,,,R,⠠⠗
+s,,,s,⠎
+S,,,S,⠠⠎
+t,,,t,⠞
+T,,,T,⠠⠞
+u,,,u,⠥
+U,,,U,⠠⠥
+V,,,V,⠠⠧
+v,,,v,⠧
+W,,,W,⠠⠺
+w,,,w,⠺
+X,,,X,⠠⠭
+x,,,x,⠭
+Y,,,Y,⠠⠽
+y,,,y,⠽
+z,,,z,⠵
+Z,,,Z,⠠⠵
+1,,,1,⠁
+2,,,2,⠃
+3,,,3,⠉
+4,,,4,⠙
+5,,,5,⠑
+6,,,6,⠋
+7,,,7,⠛
+8,,,8,⠓
+9,,,9,⠊
+0,,,0,⠚
+*,,,*,⠐⠦
++,,,+,⠐⠖
+/,,,/,⠐⠌
+_,,,_,⠢
+^,,,^,⠔
+<,,,<,⠈⠣
+>,,,>,⠈⠜
+#,,,#,⠼
+$,,,$,⠈⠎
+&,,,&,⠈⠯
+%,,,%,⠨⠴
+-,,,-,⠤
+:,,,:,⠒
+',,,',⠄
+.,,,.,⠲
+?,,,?,⠰⠦
+!,,,!,⠖
+ ,,, , 

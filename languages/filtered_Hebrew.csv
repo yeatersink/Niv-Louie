@@ -1,24 +1,8 @@
 Character,Hex,Name,Braille
-✙,fU+2719,  Marks end of Replaced text,⠾
-❧,U+2767,Check Marks end of transposition,⠱
-❦,U+2766,Marks beginning of transposition,⠣⠣⠕⠱⠏⠜ ⠣⠌⠕⠱⠏⠜
-❥,U+2765,Marks distinguishes between varient,⠜⠣⠕⠱⠏⠜ ⠣⠌⠕⠱⠏⠜
-❚,U+275A,Mark indicates varrnt,⠉
-❙,U+2759,Mark that indicates Alternative readings,⠞
-❘,U+2758,Mark that separates variations,⠳
-❑,U+2751,Mark that Distinguishes between Varient,⠟
-❐,U+2750,Marks Replaced Word,⠗
-❏,U+274F,Marks End of Omited word,⠕
-❍,U+274D,Marks Omitted Word,⠕
-❁,U+2741,Reference to LXX,⠇⠭⠭
-✘,U+2718,Marks Varients with in Apparatus,⠔
-✗,U+2717,Mark for  Insertion,⠊
-✖,U+2716,Mark Ends of Replacement,⠺
-✕,U+2715,Mark beginning of Replacement,⠗
-✔,U+2714,Check Mark Distinguishes Same kind of Varient,⠷
-✓,U+2713,Check  Ends Omission,⠪
 תּ,FB4A,tav with daggesh,⠐⠹
-כּ,FB3B,KAF WITH DAGESH,⠅
+כּ,FB3B,KAF with dadgesh ,⠅
+בּ,FB31,Bet with dadgesh,⠃
+05DB+05BC,8,⠅,
 ֙,599,pashta,⠨⠌
 ֘,598,zarqa,⠨⠙
 ֗,597,revia,⠨⠗
@@ -39,12 +23,13 @@ Character,Hex,Name,Braille
 ס,50,samekh,⠎
 נ,5,nun,⠝
 וּ05BC+05D5,201,⠥,
+וּ05BC+05D5+05B0,201,⠥⠄,
 ״,05F4,gershayim,⠸
 ׳,05F3,geresh,⠸⠣
 ײ,05F2,double yod,⠚⠚
 ױ,05F1,vav yod,⠚⠚
-װ,05F0,double vav,⠺⠺
-תּ,05EA+05BC,taf,⠞
+װ,05F0,double vav,⠺⠺ 
+תּ,05EA+05BC,tav with dadgesh,⠞
 ת,05EA,tav,⠹
 שׂ,05E9+05C2,sin,⠩
 שׁ,05E9+05C1,shin with dot,⠩
@@ -59,9 +44,8 @@ Character,Hex,Name,Braille
 ם,05DD,final mem,⠍
 לּ,05DC+05BC,lamed with dagesh,⠐⠇
 ל,05DC,lamed,⠇
-כּ,05DB+05BC,kaf,⠡
-כ,05DB,"kaf""",⠡
-ך,05DA,final kaf,⠅
+כ,05DB+05BC+05B0,kaf with dadgesh sheva,⠅⠄
+ך,05DA,final kaf,⠡
 יּ,05D9+05BC,yod with dagesh,⠐⠚
 י,05D9,yod,⠚
 ט,05D8,tet,⠞
@@ -76,7 +60,6 @@ Character,Hex,Name,Braille
 ד,05D3,dalet,⠙
 ג,05D2,gimel,⠛
 בּ,05D1+05BC,bet with dagesh,⠃
-בְּ,05D1+05B0+05BC,Bet with dadgesh sheva,⠃⠄
 ב,05D1,bet,⠧
 א,05D0,alef,⠁
 ׇ,05C7,qamats qatan,⠣
@@ -127,82 +110,3 @@ Character,Hex,Name,Braille
 ֜,059C,geresh,⠨⠁
 ֛,059B,tevir,⠨⠧
 ֚,059A,yetiv,⠨⠚
-a,,a,⠁
-A,,A,⠠⠁
-b,,B,⠠⠃
-c,,c,⠉
-C,,C,⠠⠉
-d,,d,⠙
-D,,D,⠠⠙
-e,,e,⠑
-E,,E,⠠⠑
-f,,f,⠋
-F,,F,⠠⠋
-g,,g,⠛
-G,,G,⠠⠛
-h,,h,⠓
-H,,H,⠠⠓
-i,,i,⠊
-I,,I,⠠⠊
-j,,j,⠚
-J,,J,⠠⠚
-k,,k,⠅
-K,,K,⠠⠅
-l,,l,⠇
-L,,L,⠠⠇
-m,,m,⠍
-M,,M,⠠⠍
-n,,N,⠝
-N,,N,⠠⠝
-o,,o,⠕
-O,,O,⠠⠕
-p,,p,⠏
-P,,P,⠠⠏
-q,,q,⠟
-Q,,Q,⠠⠟
-r,,r,⠗
-R,,R,⠠⠗
-s,,s,⠎
-S,,S,⠠⠎
-t,,t,⠞
-T,,T,⠠⠞
-u,,u,⠥
-U,,U,⠠⠥
-V,,V,⠠⠧
-v,,v,⠧
-W,,W,⠠⠺
-w,,w,⠺
-X,,X,⠠⠭
-x,,x,⠭
-Y,,Y,⠠⠽
-y,,y,⠽
-z,,z,⠵
-Z,,Z,⠠⠵
-1,,1,⠁
-2,,2,⠃
-3,,3,⠉
-4,,4,⠙
-5,,5,⠑
-6,,6,⠋
-7,,7,⠛
-8,,8,⠓
-9,,9,⠊
-0,,0,⠚
-*,,,⠐⠦
-+,,+,⠐⠖
-/,,/,⠐⠌
-_,,_,⠢
-^,,^,⠔
-<,,<,⠈⠣
->,,>,⠈⠜
-#,,#,⠼
-$,,$,⠈⠎
-&,,&,⠈⠯
-%,,%,⠨⠴
--,,-,⠤
-:,,:,⠒
-',,',⠄
-.,,.,⠲
-?,,?,⠰⠦
-!,,!,⠖
- ,, , 
