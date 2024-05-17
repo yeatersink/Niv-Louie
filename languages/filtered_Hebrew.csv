@@ -1,110 +1,112 @@
-Character,Name,Braille
-ְ,sheva,⠄
-ֱ,hataf segol,⠢
-ֲ,hataf patah,⠒
-ֳ,hataf qamats,⠜
-ִי,hiriq-yod,⠔
-ִ,hiriq,⠊
-ֵי,tsere-yod,⠼
-ֵ,tsere,⠌
-ֶ,segol,⠑
-ַ,patah,⠉
-ָ,qamats,⠣
-ֹ,holam,⠪
-ֺ,holam haser for vav,⠐⠪
-ֻ,qubuts,⠬
-ּ,dagesh,⠐
-ֽ,meteg,⠡
-־,maqaf,⠤
-"“◌ֿ""",rafe,⠂
-׀,paseq,⠸⠸⠏⠏
-ׁ,shin dot,⠈
-ׂ,sin dot,⠘
-׃,sof pasuq,⠲
-ׄ,upper dot,⠈
-ׅ,lower dot,⠘
-׆,nun hafukha,⠸⠝
-ׇ,qamats qatan,⠣
-׳,geresh,⠸⠣
-״,gershayim,⠸
-א,alef,⠁
-בּ,bet with dagesh,⠃
-ב,bet ,⠧
-ג,gimel,⠛
-דּ,dalet with dagesh,⠐⠙
-ד,dalet,⠙
-הּ,1hey - isolated,⠓
-ה,hey,⠓
-וֹ,holam-vav,⠪
-וּ,shuruq,⠥
-ו,vav,⠺
-ז,zayin,⠵
-ח,het,⠭
-ט,tet,⠞
-יּ,yod with dagesh,⠐⠚
-י,yod,⠚
-ך,final kaf,⠅
-כּ,kaf,⠅
-כ,"kaf""",⠅
-כּ,KAF WITH DAGESH,⠡
-לּ,lamed with dagesh,⠐⠇
-ל,lamed,⠇
-ם,final mem,⠍
-מּ,mem with dagesh,⠐⠍
-מ,mem,⠍
-ן,final nun,⠝
-נּ,nun with dagesh,⠐⠝
-נ,nun,⠝
-ס,samekh,⠎
-ע,ayin,⠫
-ף,final pe,⠋
-פּ,pe with dagesh,⠐⠏
-פ,Pe ,⠏
-ץ,final tsadi,⠮
-צ,tsadi,⠮
-קּ,qof with dagesh,⠐⠟
-ק,qof,⠟
-ר,resh,⠗
-שׁ,shin with dot,⠩
-ש,shin,⠩
-שׂ,sin,⠩
-שּׁ,shin with dagesh - isolated,⠯
-שּׂ,sin with dagesh,⠐⠩
-תּ,taf,⠞
-ת,tav,⠹
-תּ,tav with daggesh,⠐⠹
-װ,double vav,⠺⠺
-ױ,vav yod,⠚⠚
-ײ,double yod,⠚⠚
-֑,atnokta,⠆
-֒,segol - isolated,⠨⠎
-֓,shalshelet,⠨⠩
-֔,zaqef qatan,⠂
-֕,zaqef gadol,⠨⠛
-֖,tipeha,⠨⠞
-֗,revia,⠨⠗
-֘,zarqa,⠨⠙
-֙,pashta,⠨⠌
-֚,yetiv,⠨⠚
-֛,tevir,⠨⠧
-֜,geresh,⠨⠁
-֝,geresh muqdam,⠨⠡
-֞,gershayim,⠨⠃
-֟,qarney para,⠨⠝
-֠,telisha gedola,⠨⠶
-֡,pazer,⠨⠦
-֢,atnah hafukh,⠨⠆
-֣,munah,⠨⠥
-֤,mahapakh,⠨⠓
-֥,merkha,⠨⠍
-֦,merkha kefula,⠨⠅
-֧,darga,⠨⠙
-֨,qadma,⠨⠏
-֩,telisha qetana,⠨⠟
-֪,yerah ben yomo,⠨⠽
-֫,ole,⠨⠕
-֬,iluy,⠨⠊
-֭,dehi,⠨⠊
-֮,zinor,⠨⠵
-֯,masora circle,⠸⠍
- , , 
+Character,Hex,Name,Braille
+תּ,FB4A,tav with daggesh,⠐⠹
+כּ,FB3B,KAF WITH DAGESH,⠡
+֙,599,pashta,⠨⠌
+֘,598,zarqa,⠨⠙
+֗,597,revia,⠨⠗
+֖,596,tipeha,⠨⠞
+֕,595,zaqef gadol,⠨⠛
+֔,594,zaqef qatan,⠂
+֓,593,shalshelet,⠨⠩
+֒,592,segol - isolated,⠨⠎
+֑,591,atnokta,⠆
+ר,500000000,resh,⠗
+ק,50000000,qof,⠟
+צ,5000000,tsadi,⠮
+ץ,500000,final tsadi,⠮
+פ,50000,Pe ,⠏
+ף,5000,final pe,⠋
+ע,500,ayin,⠫
+ס,50,samekh,⠎
+נ,5,nun,⠝
+וּ05BC+05D5,201,⠥,
+״,05F4,gershayim,⠸
+׳,05F3,geresh,⠸⠣
+ײ,05F2,double yod,⠚⠚
+ױ,05F1,vav yod,⠚⠚
+װ,05F0,double vav,⠺⠺
+תּ,05EA+05BC,taf,⠞
+ת,05EA,tav,⠹
+שׂ,05E9+05C2,sin,⠩
+שׁ,05E9+05C1,shin with dot,⠩
+שּׂ,05E9+05BC+05C2,sin with dagesh,⠐⠩
+שּׁ,05E9+05BC+05C1,shin with dagesh - isolated,⠯
+ש,05E9,shin,⠩
+קּ,05E7+05BC,qof with dagesh,⠐⠟
+פּ,05E4+05BC,pe with dagesh,⠐⠏
+נּ,05E0+05BC,nun with dagesh,⠐⠝
+ן,05DF,final nun,⠝
+מּ,05DE+05BC,mem with dagesh,⠐⠍
+מ,05DE,mem,⠍
+ם,05DD,final mem,⠍
+לּ,05DC+05BC,lamed with dagesh,⠐⠇
+ל,05DC,lamed,⠇
+כּ,05DB+05BC,kaf,⠅
+כ,05DB,"kaf""",⠅
+ך,05DA,final kaf,⠅
+יּ,05D9+05BC,yod with dagesh,⠐⠚
+י,05D9,yod,⠚
+ט,05D8,tet,⠞
+ח,05D7,het,⠭
+ז,05D6,zayin,⠵
+וּ,05D5+05BC,shuruq,⠥
+וֹ,05D5+05B9,holam-vav,⠪
+ו,05D5,vav,⠺
+הּ,05D4+05BC,1hey - isolated,⠓
+ה,05D4,hey,⠓
+דּ,05D3+05BC,dalet with dagesh,⠐⠙
+ד,05D3,dalet,⠙
+ג,05D2,gimel,⠛
+בּ,05D1+05BC,bet with dagesh,⠃
+בְּ,05D1+05B0+05BC,Bet with dadgesh sheva,⠃⠄
+ב,05D1,bet ,⠧
+א,05D0,alef,⠁
+ׇ,05C7,qamats qatan,⠣
+׆,05C6,nun hafukha,⠸⠝
+ׅ,05C5,lower dot,⠘
+ׄ,05C4,upper dot,⠈
+׃,05C3,sof pasuq,⠲
+ׂ,05C2,sin dot,⠘
+ׁ,05C1,shin dot,⠈
+׀,05C0,paseq,⠸⠸⠏⠏
+◌ֿ,05BF,rafe,⠂
+־,05BE,maqaf,⠤
+ֽ,05BD,meteg,⠡
+ּ,05BC,dagesh,⠐
+ֻ,05BB,qubuts,⠬
+ֺ,05BA,holam haser for vav,⠐⠪
+ֹ,05B9,holam,⠪
+ָ,05B8,qamats,⠣
+ַ,05B7,patah,⠉
+ֶ,05B6,segol,⠑
+ֵי,05B5+05D9,tsere-yod,⠼
+ֵ,05B5,tsere,⠌
+ִי,05B4+05D9,hiriq-yod,⠔
+ִ,05B4,hiriq,⠊
+ֳ,05B3,hataf qamats,⠜
+ֲ,05B2,hataf patah,⠒
+ֱ,05B1,hataf segol,⠢
+ְ,05B0,sheva,⠄
+֯,05AF,masora circle,⠸⠍
+֮,05AE,zinor,⠨⠵
+֭,05AD,dehi,⠨⠊
+֬,05AC,iluy,⠨⠊
+֫,05AB,ole,⠨⠕
+֪,05AA,yerah ben yomo,⠨⠽
+֩,05A9,telisha qetana,⠨⠟
+֨,05A8,qadma,⠨⠏
+֧,05A7,darga,⠨⠙
+֦,05A6,merkha kefula,⠨⠅
+֥,05A5,merkha,⠨⠍
+֤,05A4,mahapakh,⠨⠓
+֣,05A3,munah,⠨⠥
+֢,05A2,atnah hafukh,⠨⠆
+֡,05A1,pazer,⠨⠦
+֠,05A0,telisha gedola,⠨⠶
+֟,059F,qarney para,⠨⠝
+֞,059E,gershayim,⠨⠃
+֝,059D,geresh muqdam,⠨⠡
+֜,059C,geresh,⠨⠁
+֛,059B,tevir,⠨⠧
+֚,059A,yetiv,⠨⠚
+ ,, , 

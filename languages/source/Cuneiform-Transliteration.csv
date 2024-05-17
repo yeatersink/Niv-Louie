@@ -1,4 +1,4 @@
-Character,Unicode,Name,Braille
+Character,Hex,Name,Braille
 á,00E1,A WITH ACUTE,⠘⠌⠁
 é,00E9,E WITH ACUTE,⠘⠌⠑
 í,00ED,I WITH ACUTE,⠘⠌⠊
@@ -103,8 +103,8 @@ P,,P,⠠⠏
 q,,q,⠟
 Q,,Q,⠠⠟
 r,,r,⠗
-,,,⠠⠗
-s,,,⠎
+R,,R,⠠⠗
+s,,s,⠎
 S,,S,⠠⠎
 t,,t,⠞
 T,,T,⠠⠞

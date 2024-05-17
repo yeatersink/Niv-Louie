@@ -63,8 +63,9 @@ languages=[
 ""","contributors":"""
 # Authors and Contributors to Braille Code:
 # Maintained by Matityahu Yeshurun and Paul Geoghegan
-"""},    
-        {"name":"Transliteration","language_code":"transliteration","name_column":"Name","char_column":"Character","braille_column":"Braille","replace":[],"language_information":"""
+"""},    \
+
+        {"name":"Cuneiform-Transliteration","language_code":"Cuneiform-transliteration","name_column":"Name","char_column":"Character","braille_column":"Braille","replace":[],"language_information":"""
 #This transliteration table provides support for the transliteration of all Cuneiform languages. For more information on the Transliteration table, please go to:
 #http://oracc.ub.uni-muenchen.de/doc/help/languages/ugaritic/index.html
 #The standard for Transliteration has been set by the academic community represented by ORACC. The braille code for transliteration follows the standard set by ORACC. The braille code for transliteration is represented in braille as the name for the sign in the transliteration table. Thus, if the sign is a "a," then the braille code for this sign would be a.

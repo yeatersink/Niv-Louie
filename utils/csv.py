@@ -15,7 +15,7 @@ def create_filtered_csv(language_option):
     #The language file is read in to pandas
     language_file=pd.read_csv("languages/source/"+languages[language_option]["name"]+".csv")
     #selects the columns that are needed for the filtered csv file
-    filtered_language=language_file[[languages[language_option]["char_column"],languages[language_option]["name_column"],languages[language_option]["braille_column"]]].copy()
+    filtered_language=language_file[[languages[language_option]["char_column"],"Hex",languages[language_option]["name_column"],languages[language_option]["braille_column"]]].copy()
     #Gets the name column
     name_column=filtered_language[[languages[language_option]["name_column"]]].copy()
     #applies the format_names function to the name column to remove any unwanted characters
@@ -24,6 +24,7 @@ def create_filtered_csv(language_option):
     filtered_language[languages[language_option]["name_column"]]=new_name_column
     #removes any duplicates from the filtered language data frame
     filtered_language.drop_duplicates(inplace=True,subset=[languages[language_option]["char_column"]])
+    filtered_language = filtered_language.sort_values("Hex",ascending=False)
     #saves the filtered language file to the languages folder
     filtered_language.to_csv("languages/filtered_"+languages[language_option]["name"]+".csv",index=False)
     print("Spreadsheet Generated")

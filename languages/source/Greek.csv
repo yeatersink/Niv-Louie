@@ -1,4 +1,4 @@
-Unicode,Character,Name,Braille
+Hex,Character,Name,Braille
 384,΄,tonos,
 385,΅,dialytika and oxia,
 387,·,greek semi-colon,
@@ -96,16 +96,16 @@ Unicode,Character,Name,Braille
 03B1+03C5+0342,αῦ,alpha upsilon with perispomeni,⠁⠧
 03B1+03C5+0345,αυͅ,alpha upsilon,⠁⠥⠔
 03B1+03C5,αυ,alpha upsilon,⠁⠥
-03B1+03CA+0300+0345,αῒͅ,alpha and iota with varia and dialytika,⠁⠌⠔
-03B1+03CA+0300,αῒ,alpha and iota with varia and dialytika,⠁⠌
+03B1+03CA+0300+0345,αῒͅ,alpha and iota with Graveand dialytika,⠁⠌⠔
+03B1+03CA+0300,αῒ,alpha and iota with Graveand dialytika,⠁⠌
 03B1+03CA+0301+0345,αΐͅ,alpha and iota with oxia and dialytika,⠁⠔
 03B1+03CA+0301,αΐ,alpha and iota with oxia and dialytika,⠁
 03B1+03CA+0342+0345,αῗͅ,alpha and iota with perispomeni and dialytika,⠁⠩⠔
 03B1+03CA+0342,αῗ,alpha and iota with perispomeni and dialytika,⠁⠩
 03B1+03CA+0345,αϊͅ,alpha and iota with dialytikaa,⠁⠊⠔
 03B1+03CA,αϊ,alpha and iota with dialytikaa,⠁⠊
-03B1+03CB+0300+0345,αῢͅ,alpha and upsilon with varia and dialytika,⠁⠾⠔
-03B1+03CB+0300,αῢ,alpha and upsilon with varia and dialytika,⠁⠾
+03B1+03CB+0300+0345,αῢͅ,alpha and upsilon with Graveand dialytika,⠁⠾⠔
+03B1+03CB+0300,αῢ,alpha and upsilon with Graveand dialytika,⠁⠾
 03B1+03CB+0301+0345,αΰͅ,alpha and upsilon with oxia and dialytika,⠁⠳⠔
 03B1+03CB+0301,αΰ,alpha and upsilon with oxia and dialytika,⠁⠳
 03B1+03CB+0342+0345,αῧͅ,alpha and upsilon with perispomeni and dialytika,⠁⠧⠔
@@ -190,16 +190,16 @@ Unicode,Character,Name,Braille
 03B5+03C5+0342,εύ,epsilon upsilon,⠑⠧
 03B5+03C5+0345,ευͅ,epsilon upsilon,⠑⠥⠔
 03B5+03C5,ευ,epsilon upsilon,⠑⠥
-03B5+03CA+0300+0345,εῒͅ,epsilon and iota with varia and dialytika,⠑⠌⠔
-03B5+03CA+0300,εῒ,epsilon and iota with varia and dialytika,⠑⠌
+03B5+03CA+0300+0345,εῒͅ,epsilon and iota with Graveand dialytika,⠑⠌⠔
+03B5+03CA+0300,εῒ,epsilon and iota with Graveand dialytika,⠑⠌
 03B5+03CA+0301+0345,εΐͅ,epsilon and iota with oxia and dialytika,⠑⠔
 03B5+03CA+0301,εΐ,epsilon and iota with oxia and dialytika,⠑
 03B5+03CA+0342+0345,εῗͅ,epsilon and iota with perispomeni and dialytika,⠑⠩⠔
 03B5+03CA+0342,εῗ,epsilon and iota with perispomeni and dialytika,⠑⠩
 03B5+03CA+0345,εϊͅ,epsilon and iota with dialytikaa,⠑⠊⠔
 03B5+03CA,εϊ,epsilon and iota with dialytikaa,⠑⠊
-03B5+03CB+0300+0345,εῢͅ,epsilon and upsilon with varia and dialytika,⠑⠾⠔
-03B5+03CB+0300,εῢ,epsilon and upsilon with varia and dialytika,⠑⠾
+03B5+03CB+0300+0345,εῢͅ,epsilon and upsilon with Graveand dialytika,⠑⠾⠔
+03B5+03CB+0300,εῢ,epsilon and upsilon with Graveand dialytika,⠑⠾
 03B5+03CB+0301+0345,εΰͅ,epsilon and upsilon with oxia and dialytika,⠑⠳⠔
 03B5+03CB+0301,εΰ,epsilon and upsilon with oxia and dialytika,⠑⠳
 03B5+03CB+0342+0345,εῧͅ,epsilon and upsilon with perispomeni and dialytika,⠑⠧⠔
@@ -336,16 +336,16 @@ Unicode,Character,Name,Braille
 03BF+03C5+0342,οῦ,omnichron upsilon with perispomeni,⠕⠧
 03BF+03C5+0345,ουͅ,omnichron upsilon,⠕⠥⠔
 03BF+03C5,ου,omnichron upsilon,⠕⠥
-03BF+03CA+0300+0345,οῒͅ,omnichron and iota with varia and dialytika,⠕⠌⠔
-03BF+03CA+0300,οῒ,omnichron and iota with varia and dialytika,⠕⠌
+03BF+03CA+0300+0345,οῒͅ,omnichron and iota with Graveand dialytika,⠕⠌⠔
+03BF+03CA+0300,οῒ,omnichron and iota with Graveand dialytika,⠕⠌
 03BF+03CA+0301+0345,οΐͅ,omnichron and iota with oxia and dialytika,⠕⠔
 03BF+03CA+0301,οΐ,omnichron and iota with oxia and dialytika,⠕
 03BF+03CA+0342+0345,οῗͅ,omnichron and iota with perispomeni and dialytika,⠕⠩⠔
 03BF+03CA+0342,οῗ,omnichron and iota with perispomeni and dialytika,⠕⠩
 03BF+03CA+0345,οϊͅ,omnichron and iota with dialytikaa,⠕⠊⠔
 03BF+03CA,οϊ,omnichron and iota with dialytikaa,⠕⠊
-03BF+03CB+0300+0345,οῢͅ,omnichron and upsilon with varia and dialytika,⠕⠾⠔
-03BF+03CB+0300,οῢ,omnichron and upsilon with varia and dialytika,⠕⠾
+03BF+03CB+0300+0345,οῢͅ,omnichron and upsilon with Graveand dialytika,⠕⠾⠔
+03BF+03CB+0300,οῢ,omnichron and upsilon with Graveand dialytika,⠕⠾
 03BF+03CB+0301+0345,οΰͅ,omnichron and upsilon with oxia and dialytika,⠕⠳⠔
 03BF+03CB+0301,οΰ,omnichron and upsilon with oxia and dialytika,⠕⠳
 03BF+03CB+0342+0345,οῧͅ,omnichron and upsilon with perispomeni and dialytika,⠕⠧⠔
@@ -417,8 +417,8 @@ Unicode,Character,Name,Braille
 03C5+03b9+0342,υε͂,upsilon iota,⠥⠩
 03C5+03b9+0345,υεͅ,upsilon iota,⠥⠊⠔
 03C5+03b9,υε,upsilon iota,⠥⠊
-03C5+03CA+0300+0345,υῒͅ,upsilon and iota with varia and dialytika,⠥⠌⠔
-03C5+03CA+0300,υῒ,upsilon and iota with varia and dialytika,⠥⠌
+03C5+03CA+0300+0345,υῒͅ,upsilon and iota with Graveand dialytika,⠥⠌⠔
+03C5+03CA+0300,υῒ,upsilon and iota with Graveand dialytika,⠥⠌
 03C5+03CA+0301+0345,υΐͅ,upsilon and iota with oxia and dialytika,⠥⠔
 03C5+03CA+0301,υΐ,upsilon and iota with oxia and dialytika,⠥
 03C5+03CA+0342+0345,υῗͅ,upsilon and iota with perispomeni and dialytika,⠥⠩⠔
@@ -453,16 +453,16 @@ Unicode,Character,Name,Braille
 03C9+0342,ῶ,omega with perispomeni,⠸
 03C9+0345,ῳ,omega,⠺⠔
 03C9,ω,omega,⠺
-03CA+0300+0345,ῒͅ,iota with dialytika and varia isolated,⠌⠔
-03CA+0300,ῒ,iota with dialytika and varia isolated,⠌
+03CA+0300+0345,ῒͅ,iota with dialytika and Graveisolated,⠌⠔
+03CA+0300,ῒ,iota with dialytika and Graveisolated,⠌
 03CA+0301+0345,ΐͅ,iota with dialytika and oxia isolated,⠔
 03CA+0301,ΐ,iota with dialytika and oxia isolated,
 03CA+0342+0345,ῗͅ,iota with dialytika and perispomenia isolated,⠩⠔
 03CA+0342,ῗ,iota with dialytika and perispomenia isolated,⠩
 03CA+0345,ϊͅ,iota with dialytikaa isolated,⠊⠔
 03CA,ϊ,iota with dialytikaa isolated,⠊
-03CB+0300+0345,ῢͅ,upsilon with dialytika and varia isolated,⠾⠔
-03CB+0300,ῢ,upsilon with dialytika and varia isolated,⠾
+03CB+0300+0345,ῢͅ,upsilon with dialytika and Graveisolated,⠾⠔
+03CB+0300,ῢ,upsilon with dialytika and Graveisolated,⠾
 03CB+0301+0345,ΰͅ,upsilon with dialytika and oxia isolated,⠳⠔
 03CB+0301,ΰ,upsilon with dialytika and oxia isolated,⠳
 03CB+0342+0345,ῧͅ,upsilon with dialytika and perispomenia isolated,⠧⠔
@@ -572,40 +572,324 @@ Unicode,Character,Name,Braille
 2765,❥,Marks distinguishes between varient,⠜⠣⠕⠱⠏⠜ ⠣⠌⠕⠱⠏⠜
 2766,❦,Marks beginning of transposition,⠣⠣⠕⠱⠏⠜ ⠣⠌⠕⠱⠏⠜
 2767,❧,Check Marks end of transposition,⠱
-,*,star,⠡,
-,+,plus,⠬,
-,/,slash,⠌,
-,\\,back slash,⠳,
-,=,equals,⠿,
-,_,line,⠢,
-,^,carrot,⠘,
-,<,less,⠣,
-,>,greater,⠜,
-,[,left bracket,⠪,
-,],right bracket,⠻,
-,(,left paren,⠷,
-,),right paren,⠾,
-,#,number,⠸,
-,$,dollar,⠫,
-,&,and,⠯,
-,%,percent,⠩,
-,-,dash,⠤,
-,!,bang,⠮,
-,:,colon,⠱,
-,,,semi,⠰
-,?,question,⠹,
-,.,dot,⠲,
-,',tick,⠄,
-,",",comma,⠂,
-,"""",quote,⠠⠶,
-, , , ,
-,1,1,⠁,
-,2,2,⠃,
-,3,3,⠉,
-,4,4,⠙,
-,5,5,⠑,
-,6,6,⠋,
-,7,7,⠛,
-,8,8,⠓,
-,9,9,⠊,
-,0,0,⠚,
+,*,star,⠡
+,+,plus,⠬
+,/,slash,⠌
+,\\,back slash,⠳
+,=,equals,⠿
+,_,line,⠢
+,^,carrot,⠘
+,<,less,⠣
+,>,greater,⠜
+,[,left bracket,⠪
+,],right bracket,⠻
+,(,left paren,⠷
+,),right paren,⠾
+,#,number,⠸
+,$,dollar,⠫
+,&,and,⠯
+,%,percent,⠩
+,-,dash,⠤
+,!,bang,⠮
+,:,colon,⠱
+,;,semi,⠰
+,?,question,⠹
+,.,dot,⠲
+,',tick,⠄
+,",",comma,⠂
+,"""",quote,⠠⠶
+, , , 
+,1,1,⠁
+,2,2,⠃
+,3,3,⠉
+,4,4,⠙
+,5,5,⠑
+,6,6,⠋
+,7,7,⠛
+,8,8,⠓
+,9,9,⠊
+,0,0,⠚
+2E02,⸂,Left Substitution Bracket,⠪
+1F10,ἐ,Epsilon with Psili,⠴
+1FF7,ῷ,Omega with Perispomeni and Ypogegrammeni,⠸⠔
+1FE6,ῦ,Upsilon with Perispomeni,⠧
+1F74,ὴ,Eta with Varia,⠮
+1FC6,ῆ,Eta with Perispomeni,⠣
+1F26,ἦ,Eta with Psili and Perispomeni,⠴⠣
+2E00,⸀,Right Angle Substitution Marker,⠻
+2E01,⸁,Right Angle Dotted Substitution Marker,⠻
+2E03,⸃,Right Substitution Bracket,⠻
+1F78,ὸ,Omicron with Varia,⠪⠔
+1F50,ὐ,Upsilon with Psili,⠴⠥
+2E06,⸆,Raised Interpolation Marker,⠿⠿
+1F04,ἄ, alpha with Psili,⠴⠁
+1F10,ἐ,Epsilon with Psili,⠴
+03BF,ο,Omicron,⠕
+
+
+777
+grave/varia+0300,a→(,e→c,:→!,i→/,o→+,u→),w→q
+acute/oxia +0301,a→>,e→$,:→=,i→],o→[,u→\,w→j
+circum/perispomeni +0342,a→*,,:→<,i→%,,u→v,w→#
+Accent,Effect
+smooth/psili +0313,0v (v=vowel)
+rough/dasia +0314,hv (v=vowel)
+Accent,Effect
+subscript/ypogegramei +0345,add 9
+Accent,Effect
+dialytika,2 (between vowels)
+
+Greek vowels
+
+
+U+1F0x
+ἀ,Alpha with smooth breather,0a
+ἁ,Alpha with rough breather,ha
+ἂ,Alpha acute with smooth breather,0>
+ἃ,Alphah acute with rough breather,h>
+ἄ,Alpha grave with smooth breather,0)
+ἅ
+ἆ
+ἇ
+Ἀ
+Ἁ
+Ἂ
+Ἃ
+Ἄ
+Ἅ
+Ἆ
+Ἇ
+U+1F1x
+ἐ
+ἑ
+ἒ
+ἓ
+ἔ
+ἕ  
+Ἐ
+Ἑ
+Ἒ
+Ἓ
+Ἔ
+Ἕ  
+U+1F2x
+ἠ
+ἡ
+ἢ
+ἣ
+ἤ
+ἥ
+ἦ
+ἧ
+Ἠ
+Ἡ
+Ἢ
+Ἣ
+Ἤ
+Ἥ
+Ἦ
+Ἧ
+U+1F3x
+ἰ
+ἱ
+ἲ
+ἳ
+ἴ
+ἵ
+ἶ
+ἷ
+Ἰ
+Ἱ
+Ἲ
+Ἳ
+Ἴ
+Ἵ
+Ἶ
+Ἷ
+U+1F4x
+ὀ
+ὁ
+ὂ
+ὃ
+ὄ
+ὅ  
+Ὀ
+Ὁ
+Ὂ
+Ὃ
+Ὄ
+Ὅ  
+U+1F5x
+ὐ
+ὑ
+ὒ
+ὓ
+ὔ
+ὕ
+ὖ
+ὗ 
+Ὑ 
+Ὓ 
+Ὕ 
+Ὗ
+U+1F6x
+ὠ
+ὡ
+ὢ
+ὣ
+ὤ
+ὥ
+ὦ
+ὧ
+Ὠ
+Ὡ
+Ὢ
+Ὣ
+Ὤ
+Ὥ
+Ὦ
+Ὧ
+U+1F7x
+ὰ
+ά
+ὲ
+έ
+ὴ
+ή
+ὶ
+ί
+ὸ
+ό
+ὺ
+ύ
+ὼ
+ώ  
+U+1F8x
+ᾀ
+ᾁ
+ᾂ
+ᾃ
+ᾄ
+ᾅ
+ᾆ
+ᾇ
+ᾈ
+ᾉ
+ᾊ
+ᾋ
+ᾌ
+ᾍ
+ᾎ
+ᾏ
+U+1F9x
+ᾐ
+ᾑ
+ᾒ
+ᾓ
+ᾔ
+ᾕ
+ᾖ
+ᾗ
+ᾘ
+ᾙ
+ᾚ
+ᾛ
+ᾜ
+ᾝ
+ᾞ
+ᾟ
+U+1FAx
+ᾠ
+ᾡ
+ᾢ
+ᾣ
+ᾤ
+ᾥ
+ᾦ
+ᾧ
+ᾨ
+ᾩ
+ᾪ
+ᾫ
+ᾬ
+ᾭ
+ᾮ
+ᾯ
+U+1FBx
+ᾰ
+ᾱ
+ᾲ
+ᾳ
+ᾴ 
+ᾶ
+ᾷ
+Ᾰ
+Ᾱ
+Ὰ
+Ά
+ᾼ
+᾽
+ι
+᾿
+U+1FCx
+῀
+῁
+ῂ
+ῃ
+ῄ 
+ῆ
+ῇ
+Ὲ
+Έ
+Ὴ
+Ή
+ῌ
+῍
+῎
+῏
+U+1FDx
+ῐ
+ῑ
+ῒ
+ΐ  
+ῖ
+ῗ
+Ῐ
+Ῑ
+Ὶ
+Ί 
+῝
+῞
+῟
+U+1FEx
+ῠ
+ῡ
+ῢ
+ΰ
+ῤ
+ῥ
+ῦ
+ῧ
+Ῠ
+Ῡ
+Ὺ
+Ύ
+Ῥ
+῭
+΅
+`
+U+1FFx  
+ῲ
+ῳ
+ῴ 
+ῶ
+ῷ
+Ὸ
+Ό
+Ὼ
+Ώ
+ῼ
+´
+῾ 
+
+

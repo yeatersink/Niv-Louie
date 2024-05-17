@@ -16,7 +16,7 @@ Character,Hex,Logic,Name,Braille
 ּ,05BC,186,dagesh,⠐
 ֽ,05BD,185,point meteg*,⠡
 ־,05BE,8,punctuation maqaf,⠤
-"“◌ֿ""",05BF,8,rafe*,⠂
+◌ֿ,05BF,8,rafe*,⠂
 ׀,05C0,8,punctuation paseq*,⠸⠸⠏⠏
 ׁ,05C1,8,shin dot*,⠈
 ׂ,05C2,8,sin dot*,⠘
@@ -29,6 +29,7 @@ Character,Hex,Logic,Name,Braille
 ״,05F4,8,punctuation gershayim*,⠸
 א,05D0,8,letter alef,⠁
 בּ,05D1+05BC,8,bet with dagesh,⠃
+בְּ,05D1+05B0+05BC,200,Bet with dadgesh sheva,⠃⠄
 ב,05D1,8,bet ,⠧
 ג,05D2,8,gimel,⠛
 דּ,05D3+05BC,186,dalet with dagesh,⠐⠙
@@ -37,6 +38,7 @@ Character,Hex,Logic,Name,Braille
 ה,05D4,8,letter hey,⠓
 וֹ,05D5+05B9,201,holam-vav*,⠪
 וּ,05D5+05BC,201,shuruq,⠥
+וּ05BC+05D5,201,shuruq,⠥
 ו,05D5,8,vav,⠺
 ז,05D6,8,zayin,⠵
 ח,05D7,8,letter het,⠭

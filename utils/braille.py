@@ -197,15 +197,14 @@ tests:
 """)
     #This loop goes through each row in the test csv file
     for index,row in test_csv.iterrows():
-        braille_test=""
+        braille_test=row["Text"]
         #This loop goes through each character in the text
-        for char in row["Text"]:
-            print("Test Char: ",char)
-            #finds the braille code for the character
-            temp_row=language_file.loc[language_file[languages[language_option]["char_column"]]== char].values[0]
-            print(temp_row[-1],"\n")
-            #adds the braille code to the braille test
-            braille_test+=temp_row[-1]
+        for index,language_row in language_file.iterrows():
+            if language_row[languages[language_option]["char_column"]] in braille_test and language_row[languages[language_option]["braille_column"]] != "nan":
+                print("Found: ",language_row[languages[language_option]["char_column"]]," : ",language_row[languages[language_option]["braille_column"]])
+                braille_test=braille_test.replace(language_row[languages[language_option]["char_column"]],language_row[languages[language_option]["braille_column"]])
+            else:
+                print("Not Found: ",language_row[languages[language_option]["char_column"]]," : ",language_row[languages[language_option]["braille_column"]])
         print(row["Text"]+": "+braille_test)
         #writes the braille test to the test yaml file
         test_yaml.write('  - ["'+row["Text"]+'", "'+braille_test+'"]\n')
