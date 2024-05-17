@@ -1,6 +1,24 @@
 Character,Hex,Name,Braille
+✙,fU+2719,  Marks end of Replaced text,⠾
+❧,U+2767,Check Marks end of transposition,⠱
+❦,U+2766,Marks beginning of transposition,⠣⠣⠕⠱⠏⠜ ⠣⠌⠕⠱⠏⠜
+❥,U+2765,Marks distinguishes between varient,⠜⠣⠕⠱⠏⠜ ⠣⠌⠕⠱⠏⠜
+❚,U+275A,Mark indicates varrnt,⠉
+❙,U+2759,Mark that indicates Alternative readings,⠞
+❘,U+2758,Mark that separates variations,⠳
+❑,U+2751,Mark that Distinguishes between Varient,⠟
+❐,U+2750,Marks Replaced Word,⠗
+❏,U+274F,Marks End of Omited word,⠕
+❍,U+274D,Marks Omitted Word,⠕
+❁,U+2741,Reference to LXX,⠇⠭⠭
+✘,U+2718,Marks Varients with in Apparatus,⠔
+✗,U+2717,Mark for  Insertion,⠊
+✖,U+2716,Mark Ends of Replacement,⠺
+✕,U+2715,Mark beginning of Replacement,⠗
+✔,U+2714,Check Mark Distinguishes Same kind of Varient,⠷
+✓,U+2713,Check  Ends Omission,⠪
 תּ,FB4A,tav with daggesh,⠐⠹
-כּ,FB3B,KAF WITH DAGESH,⠡
+כּ,FB3B,KAF WITH DAGESH,⠅
 ֙,599,pashta,⠨⠌
 ֘,598,zarqa,⠨⠙
 ֗,597,revia,⠨⠗
@@ -10,11 +28,12 @@ Character,Hex,Name,Braille
 ֓,593,shalshelet,⠨⠩
 ֒,592,segol - isolated,⠨⠎
 ֑,591,atnokta,⠆
+ש,5000000000,shin,⠩
 ר,500000000,resh,⠗
 ק,50000000,qof,⠟
 צ,5000000,tsadi,⠮
 ץ,500000,final tsadi,⠮
-פ,50000,Pe ,⠏
+פ,50000,Pe,⠏
 ף,5000,final pe,⠋
 ע,500,ayin,⠫
 ס,50,samekh,⠎
@@ -31,7 +50,6 @@ Character,Hex,Name,Braille
 שׁ,05E9+05C1,shin with dot,⠩
 שּׂ,05E9+05BC+05C2,sin with dagesh,⠐⠩
 שּׁ,05E9+05BC+05C1,shin with dagesh - isolated,⠯
-ש,05E9,shin,⠩
 קּ,05E7+05BC,qof with dagesh,⠐⠟
 פּ,05E4+05BC,pe with dagesh,⠐⠏
 נּ,05E0+05BC,nun with dagesh,⠐⠝
@@ -41,8 +59,8 @@ Character,Hex,Name,Braille
 ם,05DD,final mem,⠍
 לּ,05DC+05BC,lamed with dagesh,⠐⠇
 ל,05DC,lamed,⠇
-כּ,05DB+05BC,kaf,⠅
-כ,05DB,"kaf""",⠅
+כּ,05DB+05BC,kaf,⠡
+כ,05DB,"kaf""",⠡
 ך,05DA,final kaf,⠅
 יּ,05D9+05BC,yod with dagesh,⠐⠚
 י,05D9,yod,⠚
@@ -59,7 +77,7 @@ Character,Hex,Name,Braille
 ג,05D2,gimel,⠛
 בּ,05D1+05BC,bet with dagesh,⠃
 בְּ,05D1+05B0+05BC,Bet with dadgesh sheva,⠃⠄
-ב,05D1,bet ,⠧
+ב,05D1,bet,⠧
 א,05D0,alef,⠁
 ׇ,05C7,qamats qatan,⠣
 ׆,05C6,nun hafukha,⠸⠝
@@ -68,7 +86,7 @@ Character,Hex,Name,Braille
 ׃,05C3,sof pasuq,⠲
 ׂ,05C2,sin dot,⠘
 ׁ,05C1,shin dot,⠈
-׀,05C0,paseq,⠸⠸⠏⠏
+׀,05C0,paseq,⠸
 ◌ֿ,05BF,rafe,⠂
 ־,05BE,maqaf,⠤
 ֽ,05BD,meteg,⠡
@@ -109,4 +127,82 @@ Character,Hex,Name,Braille
 ֜,059C,geresh,⠨⠁
 ֛,059B,tevir,⠨⠧
 ֚,059A,yetiv,⠨⠚
+a,,a,⠁
+A,,A,⠠⠁
+b,,B,⠠⠃
+c,,c,⠉
+C,,C,⠠⠉
+d,,d,⠙
+D,,D,⠠⠙
+e,,e,⠑
+E,,E,⠠⠑
+f,,f,⠋
+F,,F,⠠⠋
+g,,g,⠛
+G,,G,⠠⠛
+h,,h,⠓
+H,,H,⠠⠓
+i,,i,⠊
+I,,I,⠠⠊
+j,,j,⠚
+J,,J,⠠⠚
+k,,k,⠅
+K,,K,⠠⠅
+l,,l,⠇
+L,,L,⠠⠇
+m,,m,⠍
+M,,M,⠠⠍
+n,,N,⠝
+N,,N,⠠⠝
+o,,o,⠕
+O,,O,⠠⠕
+p,,p,⠏
+P,,P,⠠⠏
+q,,q,⠟
+Q,,Q,⠠⠟
+r,,r,⠗
+R,,R,⠠⠗
+s,,s,⠎
+S,,S,⠠⠎
+t,,t,⠞
+T,,T,⠠⠞
+u,,u,⠥
+U,,U,⠠⠥
+V,,V,⠠⠧
+v,,v,⠧
+W,,W,⠠⠺
+w,,w,⠺
+X,,X,⠠⠭
+x,,x,⠭
+Y,,Y,⠠⠽
+y,,y,⠽
+z,,z,⠵
+Z,,Z,⠠⠵
+1,,1,⠁
+2,,2,⠃
+3,,3,⠉
+4,,4,⠙
+5,,5,⠑
+6,,6,⠋
+7,,7,⠛
+8,,8,⠓
+9,,9,⠊
+0,,0,⠚
+*,,,⠐⠦
++,,+,⠐⠖
+/,,/,⠐⠌
+_,,_,⠢
+^,,^,⠔
+<,,<,⠈⠣
+>,,>,⠈⠜
+#,,#,⠼
+$,,$,⠈⠎
+&,,&,⠈⠯
+%,,%,⠨⠴
+-,,-,⠤
+:,,:,⠒
+',,',⠄
+.,,.,⠲
+?,,?,⠰⠦
+!,,!,⠖
  ,, , 
