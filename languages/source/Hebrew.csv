@@ -14,7 +14,7 @@ Character,Hex,Logic,Name,Braille
 ֺ,05BA,188,point holam haser for vav,⠐⠪
 ֻ,05BB,185,point qubuts*,⠬
 ּ,05BC,186,dagesh,⠐
-ֽ,05BD,185,point meteg*,⠡
+ֽ,05BD,185,point meteg*,⠈
 ־,05BE,8,punctuation maqaf,⠤
 ◌ֿ,05BF,8,rafe*,⠂
 ׀,05C0,8,punctuation paseq*,⠸
@@ -29,13 +29,14 @@ Character,Hex,Logic,Name,Braille
 ״,05F4,8,punctuation gershayim*,⠸
 א,05D0,8,letter alef,⠁
 בּ,05D1+05BC,08,bet with dagesh,⠃
+ב,05BC+05D1+05B0,08,bet with dagesh sheva,⠃⠄
 בּ,FB31,03,Bet with dadgesh,⠃
-בּ,FB31+05B0,03,Bet with dadgeshsheva,⠃⠄
-בּ,05D1+05B0+05BC0,08,bet with dagesh sheva,⠃⠄
+בְּ,05D1+05B0+05BC,08,bet with dagesh sheva,⠃⠄
+בּ,05B0+FB31,03,Bet with dadgeshsheva,⠃⠄
 ב,05D1,8,bet,⠧
 ג,05D2,8,gimel,⠛
 דּ,05D3+05BC,186,dalet with dagesh,⠐⠙
-דּ,05D3+05BC+05B0,186,dalet with dagesh sheva,⠐⠙ ⠄
+דּ,05D3+05BC+05B0,186,dalet with dagesh sheva,⠐⠙⠄
 ד,05D3,8,letter dalet,⠙
 הּ,05D4+05BC,8,hey - isolated,⠓
 ה,05D4,8,letter hey,⠓
@@ -48,7 +49,7 @@ Character,Hex,Logic,Name,Braille
 ח,05D7,8,letter het,⠭
 ט,05D8,8,letter tet,⠞
 יּ,05D9+05BC,186,letter yod with dagesh,⠐⠚
-יּ,05D9+05BC+05B0,186,letter yod with dagesh,⠐⠚a
+יּ,05D9+05BC+05B0,186,letter yod with dagesh,⠐⠚⠄
 י,05D9,8,letter yod,⠚
 ך,05DA,214,letter final kaf,⠡
 כ,05DB+05BC,8,kaf with dadgesh,⠅
@@ -65,7 +66,7 @@ Character,Hex,Logic,Name,Braille
 מ,05DE,8,letter mem,⠍
 ן,05DF,8,letter final nun,⠝
 נּ,05E0+05BC,186,letter nun with dagesh,⠐⠝
-נּ,05E0+05BC+05B0,186,letter nun with  shevadagesh,⠐⠝⠄
+נּ,05E0+05BC+05B0,186,letter nun with  dagesh sheva,⠐⠝⠄
 נ,5,8,letter nun,⠝
 ס,50,8,letter samekh,⠎
 ע,500,8,letter ayin,⠫
@@ -80,12 +81,13 @@ Character,Hex,Logic,Name,Braille
 ק,50000000,8,letter qof,⠟
 ר,500000000,8,letter resh,⠗
 שׁ,05E9+05C1,8,letter shin with dot,⠩
+שְׁ,05E9+05B0+05C1,912, Shin with dot and sheva,⠩⠄
 ש,5000000000,8,shin,⠩
-שׂ,05E9+05C2,214,letter sin,⠩
-שּׁ,05E9+05BC+05C1,196,letter shin with dagesh - isolated,⠯
-שּׁ,05E9+05BC+05C1+05B0,196,letter shin with dagesh sheva- isolated,⠯⠄
-שּׂ,05E9+05BC+05C2,214,letter sin with dagesh,⠐⠩
-שּׂ,05E9+05BC+05C2+05B0,214,letter sin with dagesh sheva,⠐⠩⠄
+שׂ,05E9+05C2,214,letter sin,⠱
+שּׁ,05E9+05BC+05C1,196,letter shin with dagesh - isolated,⠩⠄
+שּׁ,05E9+05BC+05C1+05B0,196,letter shin with dagesh sheva- isolated,⠩⠄
+שּׂ,05E9+05BC+05C2,214,letter sin with dagesh,⠐⠱
+שּׂ,05E9+05BC+05C2+05B0,214,letter sin with dagesh sheva,⠐⠱⠄
 תּ,05EA+05BC,8,letter tav with dadgesh,⠞
 תּ,05EA+05BC+05B0,8,letter tav with dadgesh sheva,⠞⠄
 ת,05EA,8,tav,⠹

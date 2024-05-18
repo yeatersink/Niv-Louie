@@ -32,6 +32,7 @@ Character,Hex,Name,Braille
 שׁ,05E9+05C1,shin with dot,⠩
 שּׂ,05E9+05BC+05C2,sin with dagesh,⠐⠩
 שּׁ,05E9+05BC+05C1,shin with dagesh - isolated,⠯
+שְׁ,05E9+05B0+05C1, Shin with dot and sheva,⠩⠄
 קּ,05E7+05BC,qof with dagesh,⠐⠟
 פּ,05E4+05BC,pe with dagesh,⠐⠏
 נּ,05E0+05BC,nun with dagesh,⠐⠝
@@ -57,6 +58,7 @@ Character,Hex,Name,Braille
 ד,05D3,dalet,⠙
 ג,05D2,gimel,⠛
 בּ,05D1+05BC,bet with dagesh,⠃
+בְּ,05D1+05B0+05BC,  bet with dagesh sheva,⠃⠄
 ב,05D1,bet,⠧
 א,05D0,alef,⠁
 ׇ,05C7,qamats qatan,⠣
@@ -70,6 +72,7 @@ Character,Hex,Name,Braille
 ◌ֿ,05BF,rafe,⠂
 ־,05BE,maqaf,⠤
 ֽ,05BD,meteg,⠡
+ב ,05BC+05D1+05B0,bet with dagesh sheva,⠃⠄
 ּ,05BC,dagesh,⠐
 ֻ,05BB,qubuts,⠬
 ֺ,05BA,holam haser for vav,⠐⠪
