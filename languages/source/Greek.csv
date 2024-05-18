@@ -707,144 +707,145 @@ U+1F3x
 Ἶ,Capital Iota circumflex with smooth breather,⠨0⠩
 Ἷ,Capital Iota circumflex with rough breather,⠨h⠩
 U+1F4x
-ὀ
-ὁ
-ὂ
-ὃ
-ὄ
-ὅ  
-Ὀ
-Ὁ
-Ὂ
-Ὃ
-Ὄ
-Ὅ  
+ὀ,Omicron with smooth breather,0o
+ὁ,Omicron with rough breather,ho
+ὂ,Omicron grave with smooth breather,0⠬
+ὃ,Omicron grave with rough breather,h⠬
+ὄ,Omicron acute with smooth breather,0⠪
+ὅ,Omicron acute with rough breather,h⠪
+Ὀ,CAPITAL Omicron with smooth breather,⠨0o
+Ὁ,Capital Omicron with rough breather,⠨ho
+Ὂ,Capital Omicron grave with smooth breather,⠨0⠬
+Ὃ,Capital Omicron grave with rough breather,⠨h⠬
+Ὄ,Capital acute with smooth breather,⠨0⠪
+Ὅ,Capital Omicron acute with rough breather,⠨h⠪
 U+1F5x
-ὐ
-ὑ
-ὒ
-ὓ
-ὔ
-ὕ
-ὖ
-ὗ 
-Ὑ 
-Ὓ 
-Ὕ 
-Ὗ
+ὐ,Upsilon with smooth breather,0u
+ὑ,Upsilon with rough breather,hu
+ὒ,Upsilon grave with smooth breather,0⠾
+ὓ,Upsilon grave with rough breather,h⠾
+ὔ,Upsilon acute with smooth breather,0⠳
+ὕ,Upsilon acute with rough breather,h⠳
+ὖ,UPSILON circumflex with smooth breather,0v
+ὗ,Upsilon circumflex with rough breather,hv
+Ὑ,CAPITAL UPSILON with rough breather,⠨hu
+Ὓ,Capital UPSILON grave with rough breather,⠨h⠻
+Ὕ,Capital UPSILON acute with rough breather,⠨h⠳
+Ὗ,Capital UPSILON circumflex with rough breather,⠨hv
 U+1F6x
-ὠ
-ὡ
-ὢ
-ὣ
-ὤ
-ὥ
-ὦ
-ὧ
-Ὠ
-Ὡ
-Ὢ
-Ὣ
-Ὤ
-Ὥ
-Ὦ
-Ὧ
+ὠ,Omega with smooth breather,0w
+ὡ,Omega with rough breather,hw
+ὢ,Omega grave with smooth breather,0q
+ὣ,Omega with rough breather,hq
+ὤ,Omega acute with smooth breather,0j
+ὥ,Omega acute with rough breather,hj
+ὦ,Omega circumflex with smooth breather,0⠼
+ὧ,Omega circumflex with rough breather,h⠼
+Ὠ,Capital Omega with smooth breather,⠨0w
+Ὡ,Capital Omega with rough breather,⠨hw
+Ὢ,CAPITAL omega grave with smooth breather,⠨0q
+Ὣ,CAPITAL Omega with rough breather,⠨hq
+Ὤ,Capital omega acute with smooth breather,⠨0j
+Ὥ,Capital Omega acute with rough breather,⠨hj
+Ὦ,Capital Omega circumflex with smooth breather,⠨0⠼
+Ὧ,CAPITAL omega circumflex with rough breather,⠨h⠼
+888
 U+1F7x
-ὰ
-ά
-ὲ
-έ
-ὴ
-ή
-ὶ
-ί
-ὸ
-ό
-ὺ
-ύ
-ὼ
-ώ  
+ὰ,Alpha with acute,⠷
+ά,,⠜
+ὲ,,c
+έ,,⠫
+ὴ,,⠮
+ή,,⠿
+ὶ,,⠌
+ί,,⠻
+ὸ,,⠬
+ό,,⠪
+ὺ,,⠾
+ύ,,⠳
+ὼ,,⠟
+ώ,,j
 U+1F8x
-ᾀ
-ᾁ
-ᾂ
-ᾃ
-ᾄ
-ᾅ
-ᾆ
-ᾇ
-ᾈ
-ᾉ
-ᾊ
-ᾋ
-ᾌ
-ᾍ
-ᾎ
-ᾏ
+ᾀ,,0a9
+ᾁ,,ha9
+ᾂ,,0⠷9
+ᾃ,,h⠷9
+ᾄ,,0⠜9
+ᾅ,,h⠜9
+ᾆ,,0⠡9
+ᾇ,,h⠡9
+ᾈ,,⠨0a9
+ᾉ,,⠨ha9
+ᾊ,,⠨0⠷9
+ᾋ,,⠨h⠷9
+ᾌ,,⠨0⠙9
+ᾍ,,⠨h⠙9
+ᾎ,,⠨0⠡9
+ᾏ⠨h⠡9
 U+1F9x
-ᾐ
-ᾑ
-ᾒ
-ᾓ
-ᾔ
-ᾕ
-ᾖ
-ᾗ
-ᾘ
-ᾙ
-ᾚ
-ᾛ
-ᾜ
-ᾝ
-ᾞ
-ᾟ
+ᾐ,,0⠱9
+ᾑ,,h⠱9
+ᾒ,,0⠹9
+ᾓ,,h⠹9
+ᾔ,,0⠿9
+ᾕ,,h⠿9
+ᾖ,,0⠣9
+ᾗ,,h⠣9
+ᾘ,,⠨0⠱9
+ᾙ,,⠨h⠱9
+ᾚ,,⠨0⠹9
+ᾛ,,⠨h⠹9
+ᾜ,,⠨0⠿9
+ᾝ,,⠨h⠿9
+ᾞ,,⠨0⠣9
+ᾟ,,⠨h⠣9
 U+1FAx
-ᾠ
-ᾡ
-ᾢ
-ᾣ
-ᾤ
-ᾥ
-ᾦ
-ᾧ
-ᾨ
-ᾩ
-ᾪ
-ᾫ
-ᾬ
-ᾭ
-ᾮ
-ᾯ
+ᾠ,,0w9
+ᾡ,,hw9
+ᾢ,,0q9
+ᾣ,,hq9
+ᾤ,,0j9
+ᾥ,,hj9
+ᾦ,,0⠼9
+ᾧ,,h⠼9
+ᾨ,,⠨0w9
+ᾩ,,⠨hw9
+ᾪ,,⠨0q9
+ᾫ,,⠨hq9
+ᾬ,,⠨0j9
+ᾭ,,⠨hj9
+ᾮ,,⠨0⠼9
+ᾯ,,⠨0⠼9
 U+1FBx
-ᾰ
-ᾱ
-ᾲ
-ᾳ
-ᾴ 
-ᾶ
-ᾷ
-Ᾰ
-Ᾱ
-Ὰ
-Ά
-ᾼ
-᾽
-ι
-᾿
+ᾰ,,aa
+ᾱ,,a1
+ᾲ,,⠷9
+ᾳ,,a9
+ᾴ,,⠜9⠌
+ᾶ,,⠡
+ᾷ,,⠡9
+Ᾰ,,⠨a
+Ᾱ,,⠨a1
+Ὰ,,⠨⠷
+Ά,,⠨⠜
+ᾼ,,⠨a9
+᾽,,⠄
+ι,,i
+᾿,,⠄
 U+1FCx
-῀
-῁
-ῂ
-ῃ
-ῄ 
-ῆ
-ῇ
-Ὲ
-Έ
-Ὴ
-Ή
-ῌ
-῍
+῀,,⠮9
+῁,,⠱9
+ῂ,,⠿9⠌
+ῃ,,⠣
+ῄ,,⠣9
+ῆ,,⠨c
+ῇ,,⠨⠫
+Ὲ,,⠨⠮
+Έ,,⠨⠿
+Ὴ,,⠨⠱9
+Ή,,⠄
+ῌ,,⠄
+῍,,⠄
 ῎
 ῏
 U+1FDx
@@ -891,5 +892,3 @@ U+1FFx
 ῼ
 ´
 ῾ 
-
-
