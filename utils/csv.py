@@ -22,8 +22,6 @@ def create_filtered_csv(language_option):
     new_name_column=name_column[languages[language_option]["name_column"]].apply(format_names,args=(language_option,))
     #replaces the name column with the new name column
     filtered_language[languages[language_option]["name_column"]]=new_name_column
-    #removes any duplicates from the filtered language data frame
-    filtered_language.drop_duplicates(inplace=True,subset=[languages[language_option]["char_column"]])
     filtered_language = filtered_language.sort_values(by=["Hex"],key=lambda x:x.str.len(),ascending=False)
     #saves the filtered language file to the languages folder
     filtered_language.to_csv("languages/filtered_"+languages[language_option]["name"]+".csv",index=False)

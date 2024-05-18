@@ -66,22 +66,22 @@ Character,Hex,Logic,Name,Braille
 ן,05DF,8,letter final nun,⠝
 נּ,05E0+05BC,186,letter nun with dagesh,⠐⠝
 נּ,05E0+05BC+05B0,186,letter nun with  dagesh sheva,⠐⠝⠄
-נ,5,8,letter nun,⠝
-ס,50,8,letter samekh,⠎
-ע,500,8,letter ayin,⠫
-ף,5000,8,letter final pe,⠋
+נ,05E0,8,letter nun,⠝
+ס,05E1,8,letter samekh,⠎
+ע,05E2,8,letter ayin,⠫
+ף,05E3,8,letter final pe,⠋
 פּ,05E4+05BC,8,pe with dagesh,⠐⠏
 פּ,05E4+05BC+05B0,8,pe with dagesh sheva,⠐⠏⠄
-פ,50000,214,Pe,⠏
-ץ,500000,8,letter final tsadi,⠮
-צ,5000000,8,letter tsadi,⠮
+פ,05E4,214,Pe,⠏
+ץ,05E5,8,letter final tsadi,⠮
+צ,05E6,8,letter tsadi,⠮
 קּ,05E7+05BC,186,letter qof with dagesh,⠐⠟
 קּ,05E7+05BC+05B0,186,letter qof with dagesh sv,⠐⠟⠄
-ק,50000000,8,letter qof,⠟
-ר,500000000,8,letter resh,⠗
+ק,05E7,8,letter qof,⠟
+ר,05E8,8,letter resh,⠗
 שׁ,05E9+05C1,8,letter shin with dot,⠩
 שְׁ,05E9+05B0+05C1,912, Shin with dot and sheva,⠩⠄
-ש,5000000000,8,shin,⠩
+ש,05E9,8,shin,⠩
 שׂ,05E9+05C2,214,letter sin,⠱
 שּׁ,05E9+05BC+05C1,196,letter shin with dagesh - isolated,⠩⠄
 שּׁ,05E9+05BC+05C1+05B0,196,letter shin with dagesh sheva- isolated,⠩⠄
