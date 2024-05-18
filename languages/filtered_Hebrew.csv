@@ -1,94 +1,33 @@
 Character,Hex,Name,Braille
-תּ,FB4A,tav with daggesh,⠐⠹
-כּ,FB3B,KAF with dadgesh ,⠅
-בּ,FB31,Bet with dadgesh,⠃
-֙,599,pashta,⠨⠌
-֘,598,zarqa,⠨⠙
-֗,597,revia,⠨⠗
-֖,596,tipeha,⠨⠞
-֕,595,zaqef gadol,⠨⠛
-֔,594,zaqef qatan,⠂
-֓,593,shalshelet,⠨⠩
-֒,592,segol - isolated,⠨⠎
-֑,591,atnokta,⠆
+ב,05D1+05B0+05BC,bet with dagesh sheva,⠃⠄
+שְׁ,05E9+05B0+05C1, Shin with dot and sheva,⠩⠄
+שּׂ,05E9+05BC+05C2,sin with dagesh,⠐⠱
+שּׁ,05E9+05BC+05C1,shin with dagesh - isolated,⠩⠄
 ש,5000000000,shin,⠩
+כ,05DB+05BC,kaf with dadgesh,⠅
 ר,500000000,resh,⠗
+יּ,05D9+05BC,yod with dagesh,⠐⠚
+שׁ,05E9+05C1,shin with dot,⠩
+קּ,05E7+05BC,qof with dagesh,⠐⠟
+בּ,05D1+05BC,bet with dagesh,⠃
+שׂ,05E9+05C2,sin,⠱
+וּ,05D5+05BC,shuruq,⠥
+וֹ,05D5+05B9,holam-vav,⠪
+לּ,05DC+05BC,lamed with dagesh,⠐⠇
+הּ,05D4+05BC,hey - isolated,⠓
+מּ,05DE+05BC,mem with dagesh,⠐⠍
+דּ,05D3+05BC,dalet with dagesh,⠐⠙
+תּ,05EA+05BC,tav with dadgesh,⠞
+נּ,05E0+05BC,nun with dagesh,⠐⠝
+פּ,05E4+05BC,pe with dagesh,⠐⠏
+ִי,05B4+05D9,hiriq-yod,⠔
+ֵי,05B5+05D9,tsere-yod,⠼
 ק,50000000,qof,⠟
 צ,5000000,tsadi,⠮
 ץ,500000,final tsadi,⠮
 פ,50000,Pe,⠏
-ף,5000,final pe,⠋
-ע,500,ayin,⠫
-ס,50,samekh,⠎
-נ,5,nun,⠝
-״,05F4,gershayim,⠸
-׳,05F3,geresh,⠸⠣
-ײ,05F2,double yod,⠚⠚
-ױ,05F1,vav yod,⠚⠚
-װ,05F0,double vav,⠺⠺ 
-תּ,05EA+05BC,tav with dadgesh,⠞
-ת,05EA,tav,⠹
-שׂ,05E9+05C2,sin,⠩
-שׁ,05E9+05C1,shin with dot,⠩
-שּׂ,05E9+05BC+05C2,sin with dagesh,⠐⠩
-שּׁ,05E9+05BC+05C1,shin with dagesh - isolated,⠯
-שְׁ,05E9+05B0+05C1, Shin with dot and sheva,⠩⠄
-קּ,05E7+05BC,qof with dagesh,⠐⠟
-פּ,05E4+05BC,pe with dagesh,⠐⠏
-נּ,05E0+05BC,nun with dagesh,⠐⠝
-ן,05DF,final nun,⠝
-מּ,05DE+05BC,mem with dagesh,⠐⠍
-מ,05DE,mem,⠍
-ם,05DD,final mem,⠍
-לּ,05DC+05BC,lamed with dagesh,⠐⠇
-ל,05DC,lamed,⠇
-כ,05DB+05BC,kaf with dadgesh,⠅
-ך,05DA,final kaf,⠡
-יּ,05D9+05BC,yod with dagesh,⠐⠚
-י,05D9,yod,⠚
-ט,05D8,tet,⠞
-ח,05D7,het,⠭
-ז,05D6,zayin,⠵
-וּ,05D5+05BC,shuruq,⠥
-וֹ,05D5+05B9,holam-vav,⠪
-ו,05D5,vav,⠺
-הּ,05D4+05BC,hey - isolated,⠓
-ה,05D4,hey,⠓
-דּ,05D3+05BC,dalet with dagesh,⠐⠙
-ד,05D3,dalet,⠙
-ג,05D2,gimel,⠛
-בּ,05D1+05BC,bet with dagesh,⠃
-בְּ,05D1+05B0+05BC,  bet with dagesh sheva,⠃⠄
-ב,05D1,bet,⠧
-א,05D0,alef,⠁
-ׇ,05C7,qamats qatan,⠣
-׆,05C6,nun hafukha,⠸⠝
-ׅ,05C5,lower dot,⠘
-ׄ,05C4,upper dot,⠈
-׃,05C3,sof pasuq,⠲
-ׂ,05C2,sin dot,⠘
-ׁ,05C1,shin dot,⠈
-׀,05C0,paseq,⠸
-◌ֿ,05BF,rafe,⠂
-־,05BE,maqaf,⠤
-ֽ,05BD,meteg,⠡
-ב ,05BC+05D1+05B0,bet with dagesh sheva,⠃⠄
-ּ,05BC,dagesh,⠐
-ֻ,05BB,qubuts,⠬
-ֺ,05BA,holam haser for vav,⠐⠪
-ֹ,05B9,holam,⠪
-ָ,05B8,qamats,⠣
-ַ,05B7,patah,⠉
-ֶ,05B6,segol,⠑
-ֵי,05B5+05D9,tsere-yod,⠼
-ֵ,05B5,tsere,⠌
-ִי,05B4+05D9,hiriq-yod,⠔
-ִ,05B4,hiriq,⠊
-ֳ,05B3,hataf qamats,⠜
-ֲ,05B2,hataf patah,⠒
-ֱ,05B1,hataf segol,⠢
-ְ,05B0,sheva,⠄
-֯,05AF,masora circle,⠸⠍
+֝,059D,geresh muqdam,⠨⠡
+֦,05A6,merkha kefula,⠨⠅
 ֮,05AE,zinor,⠨⠵
 ֭,05AD,dehi,⠨⠊
 ֬,05AC,iluy,⠨⠊
@@ -97,16 +36,75 @@ Character,Hex,Name,Braille
 ֩,05A9,telisha qetana,⠨⠟
 ֨,05A8,qadma,⠨⠏
 ֧,05A7,darga,⠨⠙
-֦,05A6,merkha kefula,⠨⠅
 ֥,05A5,merkha,⠨⠍
+֜,059C,geresh,⠨⠁
 ֤,05A4,mahapakh,⠨⠓
 ֣,05A3,munah,⠨⠥
 ֢,05A2,atnah hafukh,⠨⠆
 ֡,05A1,pazer,⠨⠦
 ֠,05A0,telisha gedola,⠨⠶
+ת,05EA,tav,⠹
 ֟,059F,qarney para,⠨⠝
 ֞,059E,gershayim,⠨⠃
-֝,059D,geresh muqdam,⠨⠡
-֜,059C,geresh,⠨⠁
-֛,059B,tevir,⠨⠧
+תּ,FB4A,tav with daggesh,⠐⠹
+ף,5000,final pe,⠋
+ױ,05F1,vav yod,⠚⠚
+ײ,05F2,double yod,⠚⠚
 ֚,059A,yetiv,⠨⠚
+֛,059B,tevir,⠨⠧
+װ,05F0,double vav,⠺⠺ 
+ְ,05B0,sheva,⠄
+֯,05AF,masora circle,⠸⠍
+ֻ,05BB,qubuts,⠬
+ֳ,05B3,hataf qamats,⠜
+ִ,05B4,hiriq,⠊
+ֵ,05B5,tsere,⠌
+ֶ,05B6,segol,⠑
+ַ,05B7,patah,⠉
+ָ,05B8,qamats,⠣
+ֹ,05B9,holam,⠪
+ֺ,05BA,holam haser for vav,⠐⠪
+׆,05C6,nun hafukha,⠸⠝
+ּ,05BC,dagesh,⠐
+ׅ,05C5,lower dot,⠘
+ׄ,05C4,upper dot,⠈
+׃,05C3,sof pasuq,⠲
+ׂ,05C2,sin dot,⠘
+ׁ,05C1,shin dot,⠈
+׀,05C0,paseq,⠸
+◌ֿ,05BF,rafe,⠂
+־,05BE,maqaf,⠤
+ׇ,05C7,qamats qatan,⠣
+׳,05F3,geresh,⠸⠣
+״,05F4,gershayim,⠸
+א,05D0,alef,⠁
+ֲ,05B2,hataf patah,⠒
+ֱ,05B1,hataf segol,⠢
+ן,05DF,final nun,⠝
+מ,05DE,mem,⠍
+ם,05DD,final mem,⠍
+ל,05DC,lamed,⠇
+כּ,FB3B,KAF with dadgesh ,⠅
+ך,05DA,final kaf,⠡
+י,05D9,yod,⠚
+ט,05D8,tet,⠞
+ח,05D7,het,⠭
+ז,05D6,zayin,⠵
+ו,05D5,vav,⠺
+ה,05D4,hey,⠓
+ד,05D3,dalet,⠙
+ג,05D2,gimel,⠛
+בּ,FB31,Bet with dadgesh,⠃
+ֽ,05BD,meteg,⠈
+֕,595,zaqef gadol,⠨⠛
+֙,599,pashta,⠨⠌
+֘,598,zarqa,⠨⠙
+֗,597,revia,⠨⠗
+֖,596,tipeha,⠨⠞
+֔,594,zaqef qatan,⠂
+֓,593,shalshelet,⠨⠩
+֒,592,segol - isolated,⠨⠎
+֑,591,atnokta,⠆
+ע,500,ayin,⠫
+ס,50,samekh,⠎
+נ,5,nun,⠝

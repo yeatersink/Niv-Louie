@@ -29,10 +29,9 @@ Character,Hex,Logic,Name,Braille
 ״,05F4,8,punctuation gershayim*,⠸
 א,05D0,8,letter alef,⠁
 בּ,05D1+05BC,08,bet with dagesh,⠃
-ב,05BC+05D1+05B0,08,bet with dagesh sheva,⠃⠄
+ב,05D1+05B0+05BC,08,bet with dagesh sheva,⠃⠄
 בּ,FB31,03,Bet with dadgesh,⠃
-בְּ,05D1+05B0+05BC,08,bet with dagesh sheva,⠃⠄
-בּ,05B0+FB31,03,Bet with dadgeshsheva,⠃⠄
+בּ,FB31+05B0,03,Bet with dadgesh sheva,⠃⠄
 ב,05D1,8,bet,⠧
 ג,05D2,8,gimel,⠛
 דּ,05D3+05BC,186,dalet with dagesh,⠐⠙
