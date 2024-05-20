@@ -1,21 +1,20 @@
 
-# liblouis: Ugaritic Grade 1 table
+# liblouis: Ugaritic
 #
 # ------------
-#-name: Ugaritic grade 1
 #-index-name: Ugaritic uncontracted
-#-display-name: Ugaritic uncontracted braille as used in the study of Ugaritic .
+#-display-name: Ugaritic uncontracted
 #
 #+language:uga
 #+type:literary
 #+contraction:no
-#+grade:1
-#+system:uga
+#+system:uga-oracc
 
+#-license: lgpl-3.0
 # This file is free software; you can redistribute it and/or
 # modify it under the terms of the GNU Lesser General Public
 # License as published by the Free Software Foundation; either
-# version 2.1 of the License, or (at your option) any later version.
+# version 3.0 of the License, or (at your option) any later version.
 
 # This file is distributed in the hope that it will be useful,
 # but WITHOUT ANY WARRANTY; without even the implied warranty of
@@ -32,8 +31,8 @@
 #https://oracc.museum.upenn.edu/aemw/ugarit/corpus
 #The standard for Ugaritic has been set by the academic community represented by ORACC. The braille code for Ugaritic follows the standard set by ORACC. The braille code for Ugaritic is represented in braille as the name for the sign in Ugaritic. Thus, if the Ugaritic sign is a "Alepha," then the braille code for this sign would be a.
 
-# Authors and Contributors to Braille Code:
-# Maintained by Matityahu Yeshurun and Paul Geoghegan
+#This braille code was developed by: Sarah LaRose,Ray McAllester, and Matthew Yeater .
+#-maintainers: Paul Geoghegan <contact@envisionly.tech> and Matityhau Yeshurun <yeatersink@gmail.com>
 letter 𐎀 1
 letter 𐎁 12
 letter 𐎂 1245

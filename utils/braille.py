@@ -17,7 +17,7 @@ def create_braille_table(language_option):
 
     #The braille table is written to with the information for the language that is required for lib louis
     braille_table.write("""
-# liblouis: """+languages[language_option]["name"]+""" Grade 1 table
+# liblouis: """+languages[language_option]["name"]+"""
 #
 # ------------
 #-index-name: """+languages[language_option]["name"]+""" uncontracted
@@ -26,12 +26,13 @@ def create_braille_table(language_option):
 #+language:"""+languages[language_option]["language_code"]+"""
 #+type:literary
 #+contraction:no
-#+system:"""+languages[language_option]["language_code"]+"""
+#+system:"""+languages[language_option]["language_system_code"]+"""
 
+#-license: lgpl-3.0
 # This file is free software; you can redistribute it and/or
 # modify it under the terms of the GNU Lesser General Public
 # License as published by the Free Software Foundation; either
-# version 2.1 of the License, or (at your option) any later version.
+# version 3.0 of the License, or (at your option) any later version.
 
 # This file is distributed in the hope that it will be useful,
 # but WITHOUT ANY WARRANTY; without even the implied warranty of
