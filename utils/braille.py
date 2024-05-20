@@ -20,14 +20,12 @@ def create_braille_table(language_option):
 # liblouis: """+languages[language_option]["name"]+""" Grade 1 table
 #
 # ------------
-#-name: """+languages[language_option]["name"]+""" grade 1
 #-index-name: """+languages[language_option]["name"]+""" uncontracted
-#-display-name: """+languages[language_option]["name"]+""" uncontracted braille as used in the study of """+languages[language_option]["name"]+""" .
+#-display-name: """+languages[language_option]["name"]+""" uncontracted
 #
 #+language:"""+languages[language_option]["language_code"]+"""
 #+type:literary
 #+contraction:no
-#+grade:1
 #+system:"""+languages[language_option]["language_code"]+"""
 
 # This file is free software; you can redistribute it and/or

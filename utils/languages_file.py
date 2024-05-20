@@ -49,7 +49,14 @@ languages=[
 ""","contributors":"""
 # Maintained by Matityahu Yeshurun and Paul Geoghegan
 """},
-        {"name":"Syriac","language_code":"syc","name_column":"Name","char_column":"Character","braille_column":"Braille","replace":[]},
+{"name":"Syriac","language_code":"syc","name_column":"Name","char_column":"Character","braille_column":"Braille","replace":[],"language_information":"""
+#This table provides support for ʾEsṭrangēlā, Maḏnḥāyā and Serṭā Syriac also known as  Old, Eastern and Western Syriac. 
+#For more information, please see: 
+#https://en.wikipedia.org/wiki/Syriac_language
+""","contributors":"""
+#This braille code was developed by: Sarah LaRose,Ray McAllester, and Matthew Yeater .
+#Maintained by Paul Geoghegan and Matityhau Yeshurun
+"""},
 {"name":"Sumero-Akkadian","language_code":"akk-sumero","name_column":"Borger Translitteration","char_column":"Character","braille_column":"Braille","replace":["CUNEIFORM SIGN"],"language_information":"""
 #for more information on the Akkadian language, please go to:
 #https://oracc.museum.upenn.edu/dcclt/signlists/signlists/
