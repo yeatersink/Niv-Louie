@@ -1,152 +1,152 @@
-Character,Hex,Name,Braille
-á,00E1,A WITH ACUTE,⠘⠌⠁
-é,00E9,E WITH ACUTE,⠘⠌⠑
-í,00ED,I WITH ACUTE,⠘⠌⠊
-ú,00FA,U WITH ACUTE,⠘⠌⠥
-Á,00C1,CAPITAL A WITH ACUTE,⠠⠘⠌⠁
-É,00C9,CAPITAL E WITH ACUTE,⠠⠘⠌⠑
-Í,00CD,CAPITAL I WITH ACUTE,⠠⠘⠌⠊
-Ú,00DA,CAPITAL U WITH ACUTE,⠠⠘⠌⠥
-ś,015B,S WITH ACUTE,⠘⠌⠎
-Ś,015A,CAPITAL S WITH ACUTE,⠠⠘⠌⠎
-à,00E0,A WITH GRAVE,⠘⠡⠁
-è,00E8,E WITH GRAVE,⠘⠡⠑
-ì,00EC,I WITH GRAVE,⠘⠡⠊
-ù,00F9,U WITH GRAVE,⠘⠡⠥
-À,00C0,CAPITAL A WITH GRAVE,⠠⠘⠡⠁
-È,00C8,CAPITAL E WITH GRAVE,⠠⠘⠡⠑
-Ì,00CC,CAPITAL I WITH GRAVE,⠠⠘⠡⠊
-Ù,00D9,CAPITAL U WITH GRAVE,⠠⠘⠡⠥
-ā,0101,A WITH MACRON,⠈⠤⠁
-ē,0113,E WITH MACRON,⠈⠤⠑
-ī,012B,I WITH MACRON,⠈⠤⠊
-ū,016B,U WITH MACRON,⠈⠤⠥
-Ā,0100,CAPITAL A WITH MACRON,⠠⠈⠤⠁
-Ē,0112,CAPITAL E WITH MACRON,⠠⠈⠤⠑
-Ī,012A,CAPITAL I WITH MACRON,⠠⠈⠤⠊
-Ū,016A,CAPITAL U WITH MACRON,⠠⠈⠤⠥
-â,00E2,A WITH CIRCUMFLEX,⠘⠩⠁
-ê,00EA,E WITH CIRCUMFLEX,⠘⠩⠑
-î,00EE,I WITH CIRCUMFLEX,⠘⠩⠊
-û,00FB,U WITH CIRCUMFLEX,⠘⠩⠥
-Â,00C2,CAPITAL A WITH CIRCUMFLEX,⠠⠘⠩⠁
-Ê,00CA,CAPITAL E WITH CIRCUMFLEX,⠠⠘⠩⠑
-Î,00CE,CAPITAL I WITH CIRCUMFLEX,⠠⠘⠩⠊
-Û,00DB,CAPITAL U WITH CIRCUMFLEX,⠠⠘⠩⠥
-š,0161,S WITH CARON,⠩
-Š,0160,CAPITAL S WITH CARON,⠠⠩
-ṣ,1E63,S WITH DOT BELOW,⠐⠎
-Ṣ,1E62,CAPITAL S WITH DOT BELOW,⠠⠐⠎
-ṭ,1E6D,T WITH DOT BELOW,⠐⠞
-Ṭ,1E6C,CAPITAL T WITH DOT BELOW,⠠⠐⠞
-ḫ,1E2B,H WITH BREVE BELOW,⠡
-Ḫ,1E2A,CAPITAL H WITH BREVE BELOW,⠠⠡
-ŋ,014B,ENG,⠐⠚
-Ŋ,014A,CAPITAL ENG,⠠⠐⠚
-×,00D7,MULTIPLICATION SIGN,⠐⠦
-ʾ,02BE,RIGHT HALF RING,⠫
-ʿ,02BF,LEFT HALF RING,⠐⠫
-₁,2081,SUBSCRIPT ONE,⠢⠼⠁
-₂,2082,SUBSCRIPT TWO,⠢⠼⠃
-₃,2083,SUBSCRIPT THREE,⠢⠼⠉
-₄,2084,SUBSCRIPT FOUR,⠢⠼⠙
-₅,2085,SUBSCRIPT FIVE,⠢⠼⠑
-₆,2086,SUBSCRIPT SIX,⠢⠼⠋
-₇,2087,SUBSCRIPT SEVEN,⠢⠼⠛
-₈,2088,SUBSCRIPT EIGHT,⠢⠼⠓
-₉,2089,SUBSCRIPT NINE,⠢⠼⠊
-ₓ,2093,SUBSCRIPT SMALL X,⠢⠭
-⸢,2E22,TOP LEFT HALF BRACKET,⠨⠣
-⸣,2E23,TOP RIGHT HALF BRACKET,⠨⠜
-⸤,2E24,BOTTOM LEFT HALF BRACKET,⠨⠣
-⸥,2E25,BOTTOM RIGHT HALF BRACKET,⠨⠜
-ʳ,02B3,SMALL R,⠗
-ḏ,1E0F,D with line below,⠰⠙
-Ḏ,1E0E,Capitol D with line below,⠠⠰⠙
-ᵈ,1D48,subscript D,⠨⠙
-ẓ,1E93,Z with Dot Below,⠐⠵
-Ẓ,1E92,Capital Z with Dot Below,⠠⠐⠵
-ǵ,01F5,G with Acute,⠘⠌⠛
-Ǵ,01F4,Capitol G with ACUTE,⠠⠘⠌⠛
-ṯ,1E6F,T with Line Below,⠹
-Ṯ,1E6E,Capital T with Line Below,⠠⠹
-a,,a,⠁
-A,,A,⠠⠁
-b,,B,⠠⠃
-c,,c,⠉
-C,,C,⠠⠉
-d,,d,⠙
-D,,D,⠠⠙
-e,,e,⠑
-E,,E,⠠⠑
-f,,f,⠋
-F,,F,⠠⠋
-g,,,⠛
-G,,G,⠠⠛
-h,,h,⠓
-H,,H,⠠⠓
-i,,i,⠊
-I,,I,⠠⠊
-j,,j,⠚
-J,,J,⠠⠚
-k,,k,⠅
-K,,K,⠠⠅
-l,,l,⠇
-L,,L,⠠⠇
-m,,m,⠍
-M,,M,⠠⠍
-n,,N,⠝
-N,,N,⠠⠝
-o,,o,⠕
-O,,O,⠠⠕
-p,,p,⠏
-P,,P,⠠⠏
-q,,q,⠟
-Q,,Q,⠠⠟
-r,,r,⠗
-R,,R,⠠⠗
-s,,s,⠎
-S,,S,⠠⠎
-t,,t,⠞
-T,,T,⠠⠞
-u,,u,⠥
-U,,U,⠠⠥
-V,,V,⠠⠧
-v,,v,⠧
-W,,W,⠠⠺
-w,,w,⠺
-X,,X,⠠⠭
-x,,x,⠭
-Y,,Y,⠠⠽
-y,,y,⠽
-z,,z,⠵
-Z,,Z,⠠⠵
- ,,, 
-1,,1,⠂
-2,,2,⠆
-3,,3,⠒
-4,,4,⠲
-5,,5,⠢
-6,,6,⠖
-7,,7,⠶
-8,,8,⠦
-9,,9,⠔
-0,,0,⠴
-*,,*,⠐⠦
-+,,+,⠐⠖
-/,,/,⠐⠌
-_,,_,⠢
-^,,^,⠔
-<,,<,⠈⠣
->,,>,⠈⠜
-#,,#,⠼
-$,,$,⠈⠎
-&,,&,⠈⠯
-%,,%,⠨⠴
--,,-,⠤
-;,,;,⠆
-:,,:,⠒
-',,',⠄
-.,,.,⠲
-?,,?,⠰⠦
-!,,!,⠖
+Character,Hex,Type,Name,Braille,
+á,0,letter,A WITH ACUTE,⠘⠌⠁,
+é,0,letter,E WITH ACUTE,⠘⠌⠑,
+í,00ED,letter,I WITH ACUTE,⠘⠌⠊,
+ú,00FA,letter,U WITH ACUTE,⠘⠌⠥,
+Á,00C1,letter,CAPITAL A WITH ACUTE,⠠⠘⠌⠁,
+É,00C9,letter,CAPITAL E WITH ACUTE,⠠⠘⠌⠑,
+Í,00CD,letter,CAPITAL I WITH ACUTE,⠠⠘⠌⠊,
+Ú,00DA,letter,CAPITAL U WITH ACUTE,⠠⠘⠌⠥,
+ś,015B,letter,S WITH ACUTE,⠘⠌⠎,
+Ś,015A,letter,CAPITAL S WITH ACUTE,⠠⠘⠌⠎,
+à,0,letter,A WITH GRAVE,⠘⠡⠁,
+è,0,letter,E WITH GRAVE,⠘⠡⠑,
+ì,00EC,letter,I WITH GRAVE,⠘⠡⠊,
+ù,00F9,letter,U WITH GRAVE,⠘⠡⠥,
+À,00C0,letter,CAPITAL A WITH GRAVE,⠠⠘⠡⠁,
+È,00C8,letter,CAPITAL E WITH GRAVE,⠠⠘⠡⠑,
+Ì,00CC,letter,CAPITAL I WITH GRAVE,⠠⠘⠡⠊,
+Ù,00D9,letter,CAPITAL U WITH GRAVE,⠠⠘⠡⠥,
+ā,101,letter,A WITH MACRON,⠈⠤⠁,
+ē,113,letter,E WITH MACRON,⠈⠤⠑,
+ī,012B,letter,I WITH MACRON,⠈⠤⠊,
+ū,016B,letter,U WITH MACRON,⠈⠤⠥,
+Ā,100,letter,CAPITAL A WITH MACRON,⠠⠈⠤⠁,
+Ē,112,letter,CAPITAL E WITH MACRON,⠠⠈⠤⠑,
+Ī,012A,letter,CAPITAL I WITH MACRON,⠠⠈⠤⠊,
+Ū,016A,letter,CAPITAL U WITH MACRON,⠠⠈⠤⠥,
+â,0,letter,A WITH CIRCUMFLEX,⠘⠩⠁,
+ê,00EA,letter,E WITH CIRCUMFLEX,⠘⠩⠑,
+î,00EE,letter,I WITH CIRCUMFLEX,⠘⠩⠊,
+û,00FB,letter,U WITH CIRCUMFLEX,⠘⠩⠥,
+Â,00C2,letter,CAPITAL A WITH CIRCUMFLEX,⠠⠘⠩⠁,
+Ê,00CA,letter,CAPITAL E WITH CIRCUMFLEX,⠠⠘⠩⠑,
+Î,00CE,letter,CAPITAL I WITH CIRCUMFLEX,⠠⠘⠩⠊,
+Û,00DB,letter,CAPITAL U WITH CIRCUMFLEX,⠠⠘⠩⠥,
+š,161,letter,S WITH CARON,⠩,
+Š,160,letter,CAPITAL S WITH CARON,⠠⠩,
+ṣ,1E+063,letter,S WITH DOT BELOW,⠐⠎,
+Ṣ,1E+062,letter,CAPITAL S WITH DOT BELOW,⠠⠐⠎,
+ṭ,1E6D,letter,T WITH DOT BELOW,⠐⠞,
+Ṭ,1E6C,letter,CAPITAL T WITH DOT BELOW,⠠⠐⠞,
+ḫ,1E2B,letter,H WITH BREVE BELOW,⠡,
+Ḫ,1E2A,letter,CAPITAL H WITH BREVE BELOW,⠠⠡,
+ŋ,014B,letter,ENG,⠐⠚,
+Ŋ,014A,letter,CAPITAL ENG,⠠⠐⠚,
+×,00D7,letter,MULTIPLICATION SIGN,⠐⠦,
+ʾ,02BE,letter,RIGHT HALF RING,⠫,
+ʿ,02BF,letter,LEFT HALF RING,⠐⠫,
+₁,2081,letter,SUBSCRIPT ONE,⠢⠼⠁,
+₂,2082,letter,SUBSCRIPT TWO,⠢⠼⠃,
+₃,2083,letter,SUBSCRIPT THREE,⠢⠼⠉,
+₄,2084,letter,SUBSCRIPT FOUR,⠢⠼⠙,
+₅,2085,letter,SUBSCRIPT FIVE,⠢⠼⠑,
+₆,2086,letter,SUBSCRIPT SIX,⠢⠼⠋,
+₇,2087,letter,SUBSCRIPT SEVEN,⠢⠼⠛,
+₈,2088,letter,SUBSCRIPT EIGHT,⠢⠼⠓,
+₉,2089,letter,SUBSCRIPT NINE,⠢⠼⠊,
+ₓ,2093,letter,SUBSCRIPT SMALL X,⠢⠭,
+⸢,2E+022,letter,TOP LEFT HALF BRACKET,⠨⠣,
+⸣,2E+023,letter,TOP RIGHT HALF BRACKET,⠨⠜,
+⸤,2E+024,letter,BOTTOM LEFT HALF BRACKET,⠨⠣,
+⸥,2E+025,letter,BOTTOM RIGHT HALF BRACKET,⠨⠜,
+ʳ,02B3,letter,SMALL R,⠗,
+ḏ,1E0F,letter,D with line below,⠰⠙,
+Ḏ,1E0E,letter,Capitol D with line below,⠠⠰⠙,
+ᵈ,1D48,letter,subscript D,⠨⠙,
+ẓ,1E+093,letter,Z with Dot Below,⠐⠵,
+Ẓ,1E+092,letter,Capital Z with Dot Below,⠠⠐⠵,
+ǵ,01F5,letter,G with Acute,⠘⠌⠛,
+Ǵ,01F4,letter,Capitol G with ACUTE,⠠⠘⠌⠛,
+ṯ,1E6F,letter,T with Line Below,⠹,
+Ṯ,1E6E,letter,Capital T with Line Below,⠠⠹,
+a,,letter,a,⠁,
+A,,letter,A,⠠⠁,
+b,,letter,B,⠠⠃,
+c,,letter,c,⠉,
+C,,letter,C,⠠⠉,
+d,,letter,d,⠙,
+D,,letter,D,⠠⠙,
+e,,letter,e,⠑,
+E,,letter,E,⠠⠑,
+f,,letter,f,⠋,
+F,,letter,F,⠠⠋,
+g,,letter,,⠛,
+G,,letter,G,⠠⠛,
+h,,letter,h,⠓,
+H,,letter,H,⠠⠓,
+i,,letter,i,⠊,
+I,,letter,I,⠠⠊,
+j,,letter,j,⠚,
+J,,letter,J,⠠⠚,
+k,,letter,k,⠅,
+K,,letter,K,⠠⠅,
+l,,letter,l,⠇,
+L,,letter,L,⠠⠇,
+m,,letter,m,⠍,
+M,,letter,M,⠠⠍,
+n,,letter,N,⠝,
+N,,letter,N,⠠⠝,
+o,,letter,o,⠕,
+O,,letter,O,⠠⠕,
+p,,letter,p,⠏,
+P,,letter,P,⠠⠏,
+q,,letter,q,⠟,
+Q,,letter,Q,⠠⠟,
+r,,letter,r,⠗,
+R,,letter,R,⠠⠗,
+s,,letter,s,⠎,
+S,,letter,S,⠠⠎,
+t,,letter,t,⠞,
+T,,letter,T,⠠⠞,
+u,,letter,u,⠥,
+U,,letter,U,⠠⠥,
+V,,letter,V,⠠⠧,
+v,,letter,v,⠧,
+W,,letter,W,⠠⠺,
+w,,letter,w,⠺,
+X,,letter,X,⠠⠭,
+x,,letter,x,⠭,
+Y,,letter,Y,⠠⠽,
+y,,letter,y,⠽,
+z,,letter,z,⠵,
+Z,,letter,Z,⠠⠵,
+ ,,letter,, ,
+1,,letter,1,⠂,
+2,,letter,2,⠆,
+3,,letter,3,⠒,
+4,,letter,4,⠲,
+5,,letter,5,⠢,
+6,,letter,6,⠖,
+7,,letter,7,⠶,
+8,,letter,8,⠦,
+9,,letter,9,⠔,
+0,,letter,0,⠴,
+*,,letter,*,⠐⠦,
++,,letter,+,⠐⠖,
+/,,letter,/,⠐⠌,
+_,,letter,_,⠢,
+^,,letter,^,⠔,
+<,,letter,<,⠈⠣,
+>,,letter,>,⠈⠜,
+#,,letter,#,⠼,
+$,,letter,$,⠈⠎,
+&,,letter,&,⠈⠯,
+%,,letter,%,⠨⠴,
+-,,letter,-,⠤,
+,,letter,,,⠆
+:,,letter,:,⠒,
+',,letter,',⠄,
+.,,letter,.,⠲,
+?,,letter,?,⠰⠦,
+!,,letter,!,⠖,
