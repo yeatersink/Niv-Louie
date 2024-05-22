@@ -1,17 +1,17 @@
 
-# liblouis: Hebrew Grade 1 table
+# liblouis: Hebrew
 #
 # ------------
-#-name: Hebrew grade 1
 #-index-name: Hebrew uncontracted
-#-display-name: Hebrew uncontracted braille as used in the study of Hebrew .
+#-display-name: Hebrew uncontracted
 #
 #+language:heb
 #+type:literary
 #+contraction:no
-#+grade:1
 #+system:heb
+#+dots:6
 
+#-license: lgpl-2.1
 # This file is free software; you can redistribute it and/or
 # modify it under the terms of the GNU Lesser General Public
 # License as published by the Free Software Foundation; either
@@ -28,12 +28,14 @@
 # liblouis  comes with ABSOLUTELY NO WARRANTY.
 
 
-# This table represents Classical or Biblical Hebrew. This table is different from a modern Hebrew table because this table provides support for the points, vowels, cantillation marks, and for the criticle apparatus for the BHS.This table only departs from the above mentioned standards, when an innovative braille code is required to represent symbols in the Criticle apparatus and cantillation marks, that have never had braille assigned to them before. Modern Hebrew tables do not provide this support. for more information on how the standard for  Biblical Hebrew was developed, please see to the following links::
+#The first Hebrew Braille table hosted on Lib Louis was developed by the Library for the Blind and the Ministry of Education in Israel. That  table is based on the IHBC which was developed in the mid-1930’s. Please see World Braille usage 3rd edition, p. 74. 
+#However, Classical or Biblical Hebrew, which is used in the Hebrew Bible and other liturgical literature, contains cantillation marks that are not supported by the Hebrew table mentioned above. This table seeks to provide access to these accents. This table is   also based upon the tables mentioned above.  This table only departs from it where the accents are concerned. With this table, the user will have access to the accents and Masorah in BHS and BHS Quinta. For more information about the IHBC and How it was developed:
 #https://en.wikipedia.org/wiki/Hebrew_Braille#:~:text=The%20International%20Hebrew%20Braille%20Code
 #also see: 
 #https://huc.edu/library_blog/learning-about-hebrew-braille/#:~:text=The%20Code%20created%20by%20Brevis,books%20written%20in%20Hebrew%20Braille.
 
-# Maintained by Matityahu Yeshurun and Paul Geoghegan
+#-maintainer: Paul Geoghegan <contact@envisionly.tech>
+#-maintainer: Matityhau Yeshurun <yeatersink@gmail.com>
 letter שְּׁ 146-3
 letter שְּׂ 5-156-3
 letter פְּ 5-1234-3

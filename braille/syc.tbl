@@ -1,17 +1,16 @@
 
-# liblouis: Syriac Grade 1 table
+# liblouis: Syriac
 #
 # ------------
-#-name: Syriac grade 1
 #-index-name: Syriac uncontracted
-#-display-name: Syriac uncontracted braille as used in the study of Syriac .
+#-display-name: Syriac uncontracted
 #
 #+language:syc
 #+type:literary
 #+contraction:no
-#+grade:1
 #+system:syc
 
+#-license: lgpl-2.1
 # This file is free software; you can redistribute it and/or
 # modify it under the terms of the GNU Lesser General Public
 # License as published by the Free Software Foundation; either
@@ -32,8 +31,8 @@
 #For more information, please see: 
 #https://en.wikipedia.org/wiki/Syriac_language
 
-#This braille code was developed by: Sarah LaRose,Ray McAllester, and Matthew Yeater .
-#Maintained by Paul Geoghegan and Matityhau Yeshurun
+#This braille code was developed by a group of both blind and sighted scholars in an academic setting.
+#-maintainers: Paul Geoghegan <contact@envisionly.tech> and Matityhau Yeshurun <yeatersink@gmail.com>
 letter ܪ݂ 1235-3
 letter ܫ݂ 146-3
 letter ܖ݂ 26-145-3
@@ -172,3 +171,4 @@ letter ܚ 1346
 letter ܙ 1356
 letter ܘ 2456
 letter ̈ 456-23
+letter \s 0

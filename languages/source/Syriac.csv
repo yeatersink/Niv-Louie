@@ -119,7 +119,7 @@ Character,Hex,Name,Braille
 ܼ,073C,HBASA-Esasa DOTTED,⠢
 ܽ,073D,ESASA ABOVE,⠥
 ܾ,073E,ESASA BELOW,⠧
-ܿ,073F,Rwaha ,⠕
+ܿ,073F,Rwaha,⠕
 ݀,0740,FEMININE DOT,⠐⠋
 ݁,0741,QUSHSHAYA,⠂
 ݂,0742,RUKKAKHA,⠄
@@ -137,3 +137,4 @@ Character,Hex,Name,Braille
 ̱,̱̱0331,Macron Below,⠸⠃
 ̄̄̄,0304,macron above,⠸⠁
 ̈,0308, Combining Diaeresis.,⠸⠆
+ ,, , 

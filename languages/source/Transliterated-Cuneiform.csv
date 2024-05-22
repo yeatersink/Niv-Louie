@@ -63,6 +63,7 @@ Character,Hex,Name,Braille
 ʳ,02B3,SMALL R,⠗
 ḏ,1E0F,D with line below,⠰⠙
 Ḏ,1E0E,Capitol D with line below,⠠⠰⠙
+ᵈ,1D48,subscript D,⠨⠙
 ẓ,1E93,Z with Dot Below,⠐⠵
 Ẓ,1E92,Capital Z with Dot Below,⠠⠐⠵
 ǵ,01F5,G with Acute,⠘⠌⠛
@@ -121,16 +122,16 @@ y,,y,⠽
 z,,z,⠵
 Z,,Z,⠠⠵
  ,,, 
-1,,1,⠁
-2,,2,⠃
-3,,3,⠉
-4,,4,⠙
-5,,5,⠑
-6,,6,⠋
-7,,7,⠛
-8,,8,⠓
-9,,9,⠊
-0,,0,⠚
+1,,1,⠂
+2,,2,⠆
+3,,3,⠒
+4,,4,⠲
+5,,5,⠢
+6,,6,⠖
+7,,7,⠶
+8,,8,⠦
+9,,9,⠔
+0,,0,⠴
 *,,*,⠐⠦
 +,,+,⠐⠖
 /,,/,⠐⠌

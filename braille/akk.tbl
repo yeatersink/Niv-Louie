@@ -1,17 +1,17 @@
 
-# liblouis: Akkadian Grade 1 table
+# liblouis: Akkadian
 #
 # ------------
-#-name: Akkadian grade 1
 #-index-name: Akkadian uncontracted
-#-display-name: Akkadian uncontracted braille as used in the study of Akkadian .
+#-display-name: Akkadian uncontracted
 #
 #+language:akk
 #+type:literary
 #+contraction:no
-#+grade:1
-#+system:akk
+#+system:akk-oracc
+#+dots:6
 
+#-license: lgpl-2.1
 # This file is free software; you can redistribute it and/or
 # modify it under the terms of the GNU Lesser General Public
 # License as published by the Free Software Foundation; either
@@ -28,12 +28,14 @@
 # liblouis  comes with ABSOLUTELY NO WARRANTY.
 
 
+#Cuneiform, generally known as Akkadian, is a writing system that was used through several stages of development, from the 31st century BC down to the second century AD, and preserves documents in several languages which span from Sumerian to Greek.  
+#There is no braille standard set for these languages or this writing system. Thus, this table is extremely innovative, but does provide access to nearly all of the Cuneiform signs that are currently offered in Unicode.  This table represents the names of the American  system and is different than the German (Borger) system. 
 #for more information on the Akkadian language, please go to:
 #https://oracc.museum.upenn.edu/dcclt/signlists/signlists/
-#The standard for Akkadian has been set by the academic community represented by ORACC. The braille code for Akkadian follows the standard set by ORACC. The braille code for Akkadian is represented in braille as the name for the sign in Akkadian. Thus, if the Akkadian sign is a "Lum," then the braille code for this sign would be lum.
 
-# Authors and Contributors to Braille Code:
-# Maintained by Matityahu Yeshurun and Paul Geoghegan
+#This braille code was developed by a group of both blind and sighted scholars in an academic setting.
+#-maintainer: Paul Geoghegan <contact@envisionly.tech>
+#-maintainer: Matityhau Yeshurun <yeatersink@gmail.com>
 letter 𒀀 1
 letter 𒀁 1-16-1
 letter 𒀂 1-16-12-1-145

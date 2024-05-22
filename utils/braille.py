@@ -27,12 +27,13 @@ def create_braille_table(language_option):
 #+type:literary
 #+contraction:no
 #+system:"""+languages[language_option]["language_system_code"]+"""
+#+dots:6
 
-#-license: lgpl-3.0
+#-license: lgpl-2.1
 # This file is free software; you can redistribute it and/or
 # modify it under the terms of the GNU Lesser General Public
 # License as published by the Free Software Foundation; either
-# version 3.0 of the License, or (at your option) any later version.
+# version 2.1 of the License, or (at your option) any later version.
 
 # This file is distributed in the hope that it will be useful,
 # but WITHOUT ANY WARRANTY; without even the implied warranty of

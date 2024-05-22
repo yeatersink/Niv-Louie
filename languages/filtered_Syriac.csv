@@ -83,7 +83,7 @@ Character,Hex,Name,Braille
 ݁,0741,QUSHSHAYA,⠂
 ܳ,0733,Zqapha ABOVE,⠜
 ݀,0740,FEMININE DOT,⠐⠋
-ܿ,073F,Rwaha ,⠕
+ܿ,073F,Rwaha,⠕
 ܾ,073E,ESASA BELOW,⠧
 ܽ,073D,ESASA ABOVE,⠥
 ܼ,073C,HBASA-Esasa DOTTED,⠢
@@ -137,3 +137,4 @@ Character,Hex,Name,Braille
 ܙ,0719,ZAIN,⠵
 ܘ,0718,WAW,⠺
 ̈,0308, Combining Diaeresis.,⠸⠆
+ ,, , 
