@@ -47,15 +47,19 @@ def create_braille_table(language_option):
 
 """+languages[language_option]["language_information"]+languages[language_option]["contributors"])
     braille=braille.sort_values(["Type",languages[language_option]["char_column"]])
+    previous_char=""
     #This loop goes through each row in the braille file and writes the braille code and the number to the braille table
     for index, row in braille.iterrows():
+        if row["Type"] != previous_char:
+            braille_table.write("\n# "+str(row["Type"])+" op code characters\n")
+            previous_char=row["Type"]
         if len(row[languages[language_option]["braille_column"]]) > 0:
             new_line=""
             if  str(row[languages[language_option]["char_column"]]).isspace():
                 print("space Found")
-                new_line=row["Type"]+" \\s "+str(row[languages[language_option]["braille_column"]])+"\n"
+                new_line=row["Type"]+" \\s "+str(row[languages[language_option]["braille_column"]])+"  # space\n"
             else:
-                new_line=row["Type"]+" "+str(row[languages[language_option]["char_column"]])+" "+str(row[languages[language_option]["braille_column"]])+"\n"
+                new_line=row["Type"]+" "+str(row[languages[language_option]["char_column"]])+" "+str(row[languages[language_option]["braille_column"]])+"  # "+str(row[languages[language_option]["name_column"]])+"\n"
             braille_table.write(new_line)
         else:
             warnings.warn("this line was missing it's braille. This may be a mistake in your table. Character: "+row[languages[language_option]["char_column"]])
