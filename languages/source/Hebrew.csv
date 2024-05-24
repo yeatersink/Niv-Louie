@@ -10,23 +10,23 @@ Character,Hex,Logic,Type,Name,Braille
 ֶ,05B6,185,letter,point segol*,⠑
 ַ,05B7,185,letter,point patah*,⠉
 ָ,05B8,185,letter,point qamats*,⠣
-ֹ,05B9,185,letter,point holam*,⠪
-ֺ,05BA,188,letter,point holam haser for vav,⠐⠪
+ֹ,05B9,185,letter,holam Malay *,⠕
+ֺ,05BA,188,letter,point holam haser ,⠪
 ֻ,05BB,185,letter,point qubuts*,⠬
 ּ,05BC,186,letter,dagesh,⠐
 ֽ,05BD,185,letter,point meteg*,⠈
-־,05BE,8,letter,punctuation maqaf,⠤
-ֿ,05BF,8,letter,rafe*,⠂
-׀,05C0,8,letter,punctuation paseq*,⠸
-ׁ,05C1,8,letter,shin dot*,⠈
-ׂ,05C2,8,letter,sin dot*,⠘
-׃,05C3,8,letter,punctuation sof pasuq*,⠲
-ׄ,05C4,8,letter,mark upper dot*,⠈
-ׅ,05C5,8,letter,mark lower dot*,⠘
+־,05BE,8,punctuation,maqaf,⠤
+ֿ,05BF,8,letter,rafe*,⠘
+׀,05C0,8,punctuation,punctuation paseq*,⠸
+ׁ,05C1,8,letter,shin dot*,⠸⠈
+ׂ,05C2,8,letter,sin dot*,⠸⠘
+׃,05C3,8,punctuation,sof pasuq*,⠲
+ׄ,05C4,8,letter,mark upper dot*,⠸⠐
+ׅ,05C5,8,letter,mark lower dot*,⠸⠰
 ׆,05C6,8,letter,punctuation nun hafukha,⠸⠝
 ׇ,05C7,8,letter,point qamats qatan*,⠣
 ׳,05F3,8,letter,punctuation geresh*,⠸⠣
-״,05F4,8,letter,punctuation gershayim*,⠸
+״,05F4,8,punctuation,punctuation gershayim*,⠸
 א,05D0,8,letter,letter alef,⠁
 בּ,05D1+05BC,8,letter,bet with dagesh,⠃
 בְּ,05D1+05B0+05BC,8,letter,bet with dagesh sheva,⠃⠄
@@ -39,7 +39,7 @@ Character,Hex,Logic,Type,Name,Braille
 ד,05D3,8,letter,letter dalet,⠙
 הּ,05D4+05BC,8,letter,hey - isolated,⠓
 ה,05D4,8,letter,letter hey,⠓
-וֹ,05D5+05B9,201,letter,holam-vav*,⠪
+וֹ,05D5+05B9,201,always,holam-vav*,⠕
 וּ,05D5+05BC,201,letter,shuruq,⠥
 ּו,05BC+05D5,201,letter,shuruq,⠥
 ּוְ,05BC+05D5+05B0,201,letter,shuruq sheva,⠥⠄
@@ -81,22 +81,18 @@ Character,Hex,Logic,Type,Name,Braille
 ר,500000000,8,letter,letter resh,⠗
 שׁ,05E9+05C1,8,letter,letter shin with dot,⠩
 שְׁ,05E9+05B0+05C1,912,letter, Shin with dot and sheva,⠩⠄
-ש,5000000000,8,letter,shin,⠩
 שׂ,05E9+05C2,214,letter,letter sin,⠱
-שּׁ,05E9+05BC+05C1,196,letter,letter shin with dagesh - isolated,⠩⠄
-שְּׁ,05E9+05BC+05C1+05B0,196,letter,letter shin with dagesh sheva- isolated,⠩⠄
-שּׂ,05E9+05BC+05C2,214,letter,letter sin with dagesh,⠐⠱
-שְּׂ,05E9+05BC+05C2+05B0,214,letter,letter sin with dagesh sheva,⠐⠱⠄
 שְׂ,05E9+05B0+05C2,45,letter, Sin sheva,⠱⠄
 תּ,05EA+05BC,8,letter,letter tav with dadgesh,⠞
 תְּ,05EA+05BC+05B0,8,letter,letter tav with dadgesh sheva,⠞⠄
 ת,05EA,8,letter,tav,⠹
 תּ,FB4A,10,letter,tav with daggesh,⠐⠹
 תְּ,FB4A+05B0,10,letter,tav with daggesh sheva,⠐⠹⠄
-װ,05F0,8,letter,double vav*,⠺⠺ 
-ױ,05F1,8,letter,vav yod*,⠚⠚
+װ,05F0,8,letter,double vav*,⠺⠺
+ױ,05F1,8,letter,vav yod*,⠺⠚
 ײ,05F2,8,letter,double yod*,⠚⠚
-֑,591,8,letter,atnokta,⠆
+ײַ,FB1F,08,letter, Double Yod with patah,⠚⠚⠉
+֑,591,8,punctuation,atnokta,⠆
 ֒,592,8,letter,accent segol* - isolated,⠨⠎
 ֓,593,8,letter,accent shalshelet,⠨⠩
 ֔,594,8,letter,accent zaqef qatan,⠂
@@ -127,99 +123,100 @@ Character,Hex,Logic,Type,Name,Braille
 ֭,05AD,8,letter,accent dehi,⠨⠊
 ֮,05AE,8,letter,accent zinor,⠨⠵
 ֯,05AF,8,letter,mark masora circle,⠸⠍
-✔,U+2714,,letter,Check Mark Distinguishes Same kind of Varient,⠷
-✕,U+2715,,letter,Mark beginning of Replacement,⠗
-✖,U+2716,,letter,Mark Ends of Replacement,⠺
-✗,U+2717,,letter,Mark for  Insertion,⠊
-✘,U+2718,,letter,Marks Varients with in Apparatus,⠔
-✙,fU+2719,,letter,  Marks end of Replaced text,⠾
-❁,U+2741,,letter,Reference to LXX,⠇⠭⠭
-❍,U+274D,,letter,Marks Omitted Word,⠕
-❏,U+274F,,letter,Marks End of Omited word,⠕
-❐,U+2750,,letter,Marks Replaced Word,⠗
-❑,U+2751,,letter,Mark that Distinguishes between Varient,⠟
-❘,U+2758,,letter,Mark that separates variations,⠳
-❙,U+2759,,letter,Mark that indicates Alternative readings,⠞
-❚,U+275A,,letter,Mark indicates varrnt punctuation,⠉
-❥,U+2765,,letter,Marks distinguishes between varient,⠜⠣⠕⠱⠏⠜ ⠣⠌⠕⠱⠏⠜
-❦,U+2766,,letter,Marks beginning of transposition,⠣⠣⠕⠱⠏⠜ ⠣⠌⠕⠱⠏⠜
-❧,U+2767,,letter,Check Marks end of transposition,⠱
-a,,,letter,a,⠁
-A,,,letter,A,⠠⠁
-b,,,letter,B,⠠⠃
-c,,,letter,c,⠉
-C,,,letter,C,⠠⠉
-d,,,letter,d,⠙
-D,,,letter,D,⠠⠙
-e,,,letter,e,⠑
-E,,,letter,E,⠠⠑
-f,,,letter,f,⠋
-F,,,letter,F,⠠⠋
-g,,,letter,g,⠛
-G,,,letter,G,⠠⠛
-h,,,letter,h,⠓
-H,,,letter,H,⠠⠓
-i,,,letter,i,⠊
-I,,,letter,I,⠠⠊
-j,,,letter,j,⠚
-J,,,letter,J,⠠⠚
-k,,,letter,k,⠅
-K,,,letter,K,⠠⠅
-l,,,letter,l,⠇
-L,,,letter,L,⠠⠇
-m,,,letter,m,⠍
-M,,,letter,M,⠠⠍
-n,,,letter,N,⠝
-N,,,letter,N,⠠⠝
-o,,,letter,o,⠕
-O,,,letter,O,⠠⠕
-p,,,letter,p,⠏
-P,,,letter,P,⠠⠏
-q,,,letter,q,⠟
-Q,,,letter,Q,⠠⠟
-r,,,letter,r,⠗
-R,,,letter,R,⠠⠗
-s,,,letter,s,⠎
-S,,,letter,S,⠠⠎
-t,,,letter,t,⠞
-T,,,letter,T,⠠⠞
-u,,,letter,u,⠥
-U,,,letter,U,⠠⠥
-V,,,letter,V,⠠⠧
-v,,,letter,v,⠧
-W,,,letter,W,⠠⠺
-w,,,letter,w,⠺
-X,,,letter,X,⠠⠭
-x,,,letter,x,⠭
-Y,,,letter,Y,⠠⠽
-y,,,letter,y,⠽
-z,,,letter,z,⠵
-Z,,,letter,Z,⠠⠵
-1,,,letter,1,⠁
-2,,,letter,2,⠃
-3,,,letter,3,⠉
-4,,,letter,4,⠙
-5,,,letter,5,⠑
-6,,,letter,6,⠋
-7,,,letter,7,⠛
-8,,,letter,8,⠓
-9,,,letter,9,⠊
-0,,,letter,0,⠚
-*,,,letter,*,⠐⠦
-+,,,letter,+,⠐⠖
-/,,,letter,/,⠐⠌
-_,,,letter,_,⠢
-^,,,letter,^,⠔
-<,,,letter,<,⠈⠣
->,,,letter,>,⠈⠜
-#,,,letter,#,⠼
-$,,,letter,$,⠈⠎
-&,,,letter,&,⠈⠯
-%,,,letter,%,⠨⠴
--,,,letter,-,⠤
-:,,,letter,:,⠒
-',,,letter,',⠄
-.,,,letter,.,⠲
-?,,,letter,?,⠰⠦
-!,,,letter,!,⠖
- ,,,letter, , 
+✔,U+2714,,sign,Check Mark Distinguishes Same kind of Varient,⠷
+✕,U+2715,,sign,Mark beginning of Replacement,⠗
+✖,U+2716,,sign,Mark Ends of Replacement,⠺
+✗,U+2717,,sign,Mark for  Insertion,⠊
+✘,U+2718,,sign,Marks Varients with in Apparatus,⠔
+✙,fU+2719,,sign,  Marks end of Replaced text,⠾⠠
+❁,U+2741,,sign,Reference to LXX,⠇⠭⠭
+❍,U+274D,,sign,Marks Omitted Word,⠕
+❏,U+274F,,sign,Marks End of Omited word,⠕⠠
+❐,U+2750,,sign,Marks Replaced Word,⠗
+❑,U+2751,,sign,Mark that Distinguishes between Varient,⠟
+❘,U+2758,,sign,Mark that separates variations,⠳
+❙,U+2759,,sign,Mark that indicates Alternative readings,⠞
+❚,U+275A,,sign,Mark indicates varrnt punctuation,⠉
+❥,U+2765,,sign,Marks distinguishes between varient,⠡⠠
+❦,U+2766,,sign,Marks beginning of transposition,⠠⠱
+❧,U+2767,,sign,Check Marks end of transposition,⠱⠠
+a,,,lowercase,a,⠁
+A,,,uppercase,A,⠠⠁
+b,,,lowercase,b,⠃
+B,,,uppercase,B,⠠⠃
+c,,,lowercase,c,⠉
+C,,,uppercase,C,⠠⠉
+d,,,lowercase,d,⠙
+D,,,uppercase,D,⠠⠙
+e,,,lowercase,e,⠑
+E,,,uppercase,E,⠠⠑
+f,,,lowercase,f,⠋
+F,,,uppercase,F,⠠⠋
+g,,,lowercase,g,⠛
+G,,,uppercase,G,⠠⠛
+h,,,lowercase,h,⠓
+H,,,uppercase,H,⠠⠓
+i,,,lowercase,i,⠊
+I,,,uppercase,I,⠠⠊
+j,,,lowercase,j,⠚
+J,,,uppercase,J,⠠⠚
+k,,,lowercase,k,⠅
+K,,,uppercase,K,⠠⠅
+l,,,lowercase,l,⠇
+L,,,uppercase,L,⠠⠇
+m,,,lowercase,m,⠍
+M,,,uppercase,M,⠠⠍
+n,,,lowercase,N,⠝
+N,,,uppercase,N,⠠⠝
+o,,,lowercase,o,⠕
+O,,,uppercase,O,⠠⠕
+p,,,lowercase,p,⠏
+P,,,uppercase,P,⠠⠏
+q,,,lowercase,q,⠟
+Q,,,uppercase,Q,⠠⠟
+r,,,lowercase,r,⠗
+R,,,uppercase,R,⠠⠗
+s,,,lowercase,s,⠎
+S,,,uppercase,S,⠠⠎
+t,,,lowercase,t,⠞
+T,,,uppercase,T,⠠⠞
+u,,,lowercase,u,⠥
+U,,,uppercase,U,⠠⠥
+V,,,uppercase,V,⠠⠧
+v,,,lowercase,v,⠧
+W,,,uppercase,W,⠠⠺
+w,,,lowercase,w,⠺
+X,,,uppercase,X,⠠⠭
+x,,,lowercase,x,⠭
+Y,,,uppercase,Y,⠠⠽
+y,,,lowercase,y,⠽
+z,,,lowercase,z,⠵
+Z,,,uppercase,Z,⠠⠵
+1,,,digit,1,⠁
+2,,,digit,2,⠃
+3,,,digit,3,⠉
+4,,,digit,4,⠙
+5,,,digit,5,⠑
+6,,,digit,6,⠋
+7,,,digit,7,⠛
+8,,,digit,8,⠓
+9,,,digit,9,⠊
+0,,,digit,0,⠚
+*,,,sign,*,⠐⠦
++,,,sign,+,⠐⠖
+/,,,sign,/,⠐⠌
+_,,,sign,_,⠢
+^,,,sign,^,⠔
+<,,,sign,<,⠈⠣
+>,,,sign,>,⠈⠜
+#,,,sign,#,⠼
+$,,,sign,$,⠈⠎
+&,,,sign,&,⠈⠯
+%,,,sign,%,⠨⠴
+-,,,punctuation,-,⠤
+:,,,punctuation,:,⠒
+',,,punctuation,',⠄
+.,,,punctuation,.,⠲
+?,,,punctuation,?,⠰⠦
+!,,,punctuation,!,⠖
+ ,,,space, , 

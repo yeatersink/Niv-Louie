@@ -15,7 +15,7 @@ def create_filtered_csv(language_option):
     #The language file is read in to pandas
     language_file=pd.read_csv("languages/source/"+languages[language_option]["name"]+".csv")
     #selects the columns that are needed for the filtered csv file
-    filtered_language=language_file[[languages[language_option]["char_column"],"Hex",languages[language_option]["name_column"],languages[language_option]["braille_column"]]].copy()
+    filtered_language=language_file[[languages[language_option]["char_column"],"Hex","Type",languages[language_option]["name_column"],languages[language_option]["braille_column"]]].copy()
     #Gets the name column
     name_column=filtered_language[[languages[language_option]["name_column"]]].copy()
     #applies the format_names function to the name column to remove any unwanted characters

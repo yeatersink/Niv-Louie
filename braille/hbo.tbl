@@ -1,0 +1,259 @@
+
+# liblouis: Hebrew
+#
+# ------------
+#-index-name: Hebrew uncontracted
+#-display-name: Hebrew uncontracted
+#
+#+language:hbo
+#+type:literary
+#+contraction:no
+#+system:hbo
+#+dots:6
+
+#-license: lgpl-2.1
+# This file is free software; you can redistribute it and/or
+# modify it under the terms of the GNU Lesser General Public
+# License as published by the Free Software Foundation; either
+# version 2.1 of the License, or (at your option) any later version.
+
+# This file is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+# Lesser General Public License for more details.
+
+# You should have received a copy of the GNU Lesser General Public
+# License along with this file; if not, write to the Free Software
+# Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA
+# liblouis  comes with ABSOLUTELY NO WARRANTY.
+
+
+#The first Hebrew Braille table hosted on Lib Louis was developed by the Library for the Blind and the Ministry of Education in Israel. That  table is based on the IHBC which was developed in the mid-1930’s. Please see World Braille usage 3rd edition, p. 74. 
+#However, Classical or Biblical Hebrew, which is used in the Hebrew Bible and other liturgical literature, contains cantillation marks that are not supported by the Hebrew table mentioned above. This table seeks to provide access to these accents. This table is   also based upon the tables mentioned above.  This table only departs from it where the accents are concerned. With this table, the user will have access to the accents and Masorah in BHS and BHS Quinta. For more information about the IHBC and How it was developed:
+#https://en.wikipedia.org/wiki/Hebrew_Braille#:~:text=The%20International%20Hebrew%20Braille%20Code
+#also see: 
+#https://huc.edu/library_blog/learning-about-hebrew-braille/#:~:text=The%20Code%20created%20by%20Brevis,books%20written%20in%20Hebrew%20Braille.
+
+#-maintainer: Paul Geoghegan <contact@envisionly.tech>
+#-maintainer: Matityhau Yeshurun <yeatersink@gmail.com>
+always וֹ 135
+digit 0 245
+digit 1 1
+digit 2 12
+digit 3 14
+digit 4 145
+digit 5 15
+digit 6 124
+digit 7 1245
+digit 8 125
+digit 9 24
+letter ֒ 46-234
+letter ֓ 46-146
+letter ֔ 2
+letter ֕ 46-1245
+letter ֖ 46-2345
+letter ֗ 46-1235
+letter ֘ 46-145
+letter ֙ 46-34
+letter ֚ 46-245
+letter ֛ 46-1236
+letter ֜ 46-1
+letter ֝ 46-16
+letter ֞ 46-12
+letter ֟ 46-1345
+letter ֠ 46-2356
+letter ֡ 46-236
+letter ֢ 46-23
+letter ֣ 46-136
+letter ֤ 46-125
+letter ֥ 46-134
+letter ֦ 46-13
+letter ֧ 46-145
+letter ֨ 46-1234
+letter ֩ 46-12345
+letter ֪ 46-13456
+letter ֫ 46-135
+letter ֬ 46-24
+letter ֭ 46-24
+letter ֮ 46-1356
+letter ֯ 456-134
+letter ְ 3
+letter ֱ 26
+letter ֲ 25
+letter ֳ 345
+letter ִ 24
+letter ִי 35
+letter ֵ 34
+letter ֵי 3456
+letter ֶ 15
+letter ַ 14
+letter ָ 126
+letter ֹ 135
+letter ֺ 246
+letter ֻ 346
+letter ּ 5
+letter ּו 136
+letter ּוְ 136-3
+letter ֽ 4
+letter ֿ 45
+letter ׁ 456-4
+letter ׂ 456-45
+letter ׄ 456-5
+letter ׅ 456-56
+letter ׆ 456-1345
+letter ׇ 126
+letter א 1
+letter ב 1236
+letter בְּ 12-3
+letter בּ 12
+letter ג 1245
+letter ד 145
+letter דּ 5-145
+letter דְּ 5-145-3
+letter ה 125
+letter הּ 125
+letter ו 2456
+letter וּ 136
+letter ז 1356
+letter ח 1346
+letter ט 2345
+letter י 245
+letter יּ 5-245
+letter יְּ 5-245-3
+letter ך 16
+letter כ 16
+letter כּ 13
+letter כְּ 13-3
+letter ל 123
+letter לּ 5-123
+letter לְּ 5-123-3
+letter ם 134
+letter מ 134
+letter מּ 5-134
+letter מְּ 5-134-3
+letter ן 1345
+letter נ 1345
+letter נּ 5-1345
+letter נְּ 5-1345-3
+letter ס 234
+letter ע 1246
+letter ף 124
+letter פ 1234
+letter פּ 5-1234
+letter פְּ 5-1234-3
+letter ץ 2346
+letter צ 2346
+letter ק 12345
+letter קּ 5-12345
+letter קְּ 5-12345-3
+letter ר 1235
+letter שְׁ 146-3
+letter שְׂ 156-3
+letter שׁ 146
+letter שׂ 156
+letter ת 1456
+letter תּ 2345
+letter תְּ 2345-3
+letter װ 2456-2456
+letter ױ 2456-245
+letter ײ 245-245
+letter ׳ 456-126
+letter ײַ 245-245-14
+letter בּ 12
+letter בְּ 12-3
+letter כּ 13
+letter כְּ 13-3
+letter תּ 5-1456
+letter תְּ 5-1456-3
+lowercase a 1
+lowercase b 12
+lowercase c 14
+lowercase d 145
+lowercase e 15
+lowercase f 124
+lowercase g 1245
+lowercase h 125
+lowercase i 24
+lowercase j 245
+lowercase k 13
+lowercase l 123
+lowercase m 134
+lowercase n 1345
+lowercase o 135
+lowercase p 1234
+lowercase q 12345
+lowercase r 1235
+lowercase s 234
+lowercase t 2345
+lowercase u 136
+lowercase v 1236
+lowercase w 2456
+lowercase x 1346
+lowercase y 13456
+lowercase z 1356
+punctuation ! 235
+punctuation ' 3
+punctuation - 36
+punctuation . 256
+punctuation : 25
+punctuation ? 56-236
+punctuation ֑ 23
+punctuation ־ 36
+punctuation ׀ 456
+punctuation ׃ 256
+punctuation ״ 456
+sign # 3456
+sign $ 4-234
+sign % 46-356
+sign & 4-12346
+sign * 5-236
+sign + 5-235
+sign / 5-34
+sign < 4-126
+sign > 4-345
+sign ^ 35
+sign _ 26
+sign ✔ 12356
+sign ✕ 1235
+sign ✖ 2456
+sign ✗ 24
+sign ✘ 35
+sign ✙ 23456-6
+sign ❁ 123-1346-1346
+sign ❍ 135
+sign ❏ 135-6
+sign ❐ 1235
+sign ❑ 12345
+sign ❘ 1256
+sign ❙ 2345
+sign ❚ 14
+sign ❥ 16-6
+sign ❦ 6-156
+sign ❧ 156-6
+space \s 0
+uppercase A 6-1
+uppercase B 6-12
+uppercase C 6-14
+uppercase D 6-145
+uppercase E 6-15
+uppercase F 6-124
+uppercase G 6-1245
+uppercase H 6-125
+uppercase I 6-24
+uppercase J 6-245
+uppercase K 6-13
+uppercase L 6-123
+uppercase M 6-134
+uppercase N 6-1345
+uppercase O 6-135
+uppercase P 6-1234
+uppercase Q 6-12345
+uppercase R 6-1235
+uppercase S 6-234
+uppercase T 6-2345
+uppercase U 6-136
+uppercase V 6-1236
+uppercase W 6-2456
+uppercase X 6-1346
+uppercase Y 6-13456
+uppercase Z 6-1356

@@ -1,19 +1,19 @@
 Character,Hex,Type,Name,Braille
-܀,700,letter,END OF PARAGRAPH,⠲⠏
-܁,701,letter,SUPRALINEAR FULL STOP,⠖
-܂,702,letter,SUBLINEAR FULL STOP,⠲
-܃,703,letter,SUPRALINEAR COLON,⠲⠉
-܄,704,letter,SUBLINEAR COLON,⠲⠤
-܅,705,letter,HORIZONTAL COLON,⠴⠲⠒
-܆,706,letter,COLON SKEWED LEFT,⠦
-܇,707,letter,COLON SKEWED RIGHT,⠴
-܈,708,letter,SUPRALINEAR COLON SKEWED LEFT,⠲⠱
-܉,709,letter,SUBLINEAR COLON SKEWED RIGHT,⠲⠎
-܊,070A,letter,CONTRACTION,⠲⠄
-܋,070B,letter,HARKLEAN OBELUS,⠲⠕
-܌,070C,letter,HARKLEAN METOBELUS,⠲⠍
-܍,070D,letter,HARKLEAN ASTERISCUS,⠴⠲⠔
-܏,070F,letter,ABBREVIATION MARK,⠲⠁
+܀,700,punctuation,END OF PARAGRAPH,⠲⠏
+܁,701,punctuation,SUPRALINEAR FULL STOP,⠖
+܂,702,punctuation,SUBLINEAR FULL STOP,⠲
+܃,703,punctuation,SUPRALINEAR COLON,⠲⠉
+܄,704,punctuation,SUBLINEAR COLON,⠲⠤
+܅,705,punctuation,HORIZONTAL COLON,⠴⠲⠒
+܆,706,punctuation,COLON SKEWED LEFT,⠦
+܇,707,punctuation,COLON SKEWED RIGHT,⠴
+܈,708,punctuation,SUPRALINEAR COLON SKEWED LEFT,⠲⠱
+܉,709,punctuation,SUBLINEAR COLON SKEWED RIGHT,⠲⠎
+܊,070A,punctuation,CONTRACTION,⠲⠄
+܋,070B,punctuation,HARKLEAN OBELUS,⠲⠕
+܌,070C,punctuation,HARKLEAN METOBELUS,⠲⠍
+܍,070D,punctuation,HARKLEAN ASTERISCUS,⠴⠲⠔
+܏,070F,punctuation,ABBREVIATION MARK,⠲⠁
 ܐ݁,0710+0741,letter,ALAPH and QUSHSHAYA,⠁⠂
 ܐ݂,0710+0742,letter,ALAPH and RUKKAKHA,⠁⠄
 ܐ,710,letter,ALAPH,⠁
@@ -116,7 +116,7 @@ Character,Hex,Type,Name,Braille
 ܹ,739,letter,DOTTED ZLAMA ANGULAR,⠸
 ܺ,073A,letter,Hbasa ABOVE,⠊
 ܻ,073B,letter,Hbasa  BELOW,⠔
-ܼ,073C,letter,HBASA-Esasa DOTTED,⠢
+ܼ,073C,letter,Hbasa-Esasa DOTTED,⠢
 ܽ,073D,letter,ESASA ABOVE,⠥
 ܾ,073E,letter,ESASA BELOW,⠧
 ܿ,073F,letter,Rwaha,⠕
@@ -137,4 +137,4 @@ Character,Hex,Type,Name,Braille
 ̱,̱̱0331,letter,Macron Below,⠸⠃
 ̄̄̄,304,letter,macron above,⠸⠁
 ̈,308,letter, Combining Diaeresis.,⠸⠆
- ,,letter, , 
+ ,,space, , 

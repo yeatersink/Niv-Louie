@@ -5,7 +5,7 @@ U+2715,✕,letter,Mark beginning of Replacement,⠗
 U+2716,✖,letter,Mark Ends of Replacement,⠺
 U+2717,✗,letter,Mark for  Insertion,⠊
 U+2718,✘,letter,Marks Varients with in Apparatus,⠔
-fU+2719,✙,letter,  Marks end of Replaced text,⠾
+fU+2719,✙,letter,  Marks end of Replaced text,⠾⠱
 U+2741,❁,letter,Reference to LXX,⠇⠭⠭
 U+274D,❍,letter,Marks Omitted Word,⠕
 U+274F,❏,letter,Marks End of Omited word,⠕
@@ -13,7 +13,9 @@ U+2750,❐,letter,Marks Replaced Word,⠗
 U+2751,❑,letter,Mark that Distinguishes between Varient,⠟
 U+2758,❘,letter,Mark that separates variations,⠳
 U+2759,❙,letter,Mark that indicates Alternative readings,⠞
+U+2767,❧,letter,Check Marks end of transposition,⠱⠠
 U+275A,❚,letter,Mark indicates varrnt punctuation,⠉
-U+2765,❥,letter,Marks distinguishes between varient,⠜⠣⠕⠱⠏⠜ ⠣⠌⠕⠱⠏⠜
-U+2766,❦,letter,Marks beginning of transposition,⠣⠣⠕⠱⠏⠜ ⠣⠌⠕⠱⠏⠜
-U+2767,❧,letter,Check Marks end of transposition,⠱
+U+2767,❧,letter,Check Marks end of transposition,⠱⠠
+U+2765,❥,letter,Marks distinguishes between varient,⠡⠠
+U+2766,❦,letter,Marks beginning of transposition,⠠⠱
+U+2767,❧,letter,Check Marks end of transposition,⠱⠠

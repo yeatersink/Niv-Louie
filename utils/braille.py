@@ -46,15 +46,16 @@ def create_braille_table(language_option):
 # liblouis  comes with ABSOLUTELY NO WARRANTY.
 
 """+languages[language_option]["language_information"]+languages[language_option]["contributors"])
+    braille=braille.sort_values(["Type",languages[language_option]["char_column"]])
     #This loop goes through each row in the braille file and writes the braille code and the number to the braille table
     for index, row in braille.iterrows():
         if len(row[languages[language_option]["braille_column"]]) > 0:
             new_line=""
             if  str(row[languages[language_option]["char_column"]]).isspace():
                 print("space Found")
-                new_line="letter \\s "+str(row[languages[language_option]["braille_column"]])+"\n"
+                new_line=row["Type"]+" \\s "+str(row[languages[language_option]["braille_column"]])+"\n"
             else:
-                new_line="letter "+str(row[languages[language_option]["char_column"]])+" "+str(row[languages[language_option]["braille_column"]])+"\n"
+                new_line=row["Type"]+" "+str(row[languages[language_option]["char_column"]])+" "+str(row[languages[language_option]["braille_column"]])+"\n"
             braille_table.write(new_line)
         else:
             warnings.warn("this line was missing it's braille. This may be a mistake in your table. Character: "+row[languages[language_option]["char_column"]])
@@ -170,26 +171,15 @@ def create_braille_tests(language_option):
     #The test yaml file is written to with the information that is required for the test for Lib Louis
     test_yaml.write("""
 # Yaml Test For """+languages[language_option]["name"]+"""
-#
-# This file is free software; you can redistribute it and/or
-# modify it under the terms of the GNU Lesser General Public
-# License as published by the Free Software Foundation; either
-# version 2.1 of the License, or (at your option) any later version.
 
-# This file is distributed in the hope that it will be useful,
-# but WITHOUT ANY WARRANTY; without even the implied warranty of
-# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
-# Lesser General Public License for more details.
-
-# You should have received a copy of the GNU Lesser General Public
-# License along with this file; if not, write to the Free Software
-# Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA
-# liblouis  comes with ABSOLUTELY NO WARRANTY.
+# Copying and distribution of this file, with or without modification,
+# are permitted in any medium without royalty provided the copyright
+# notice and this notice are preserved. This file is offered as-is,
+# without any warranty.
 
 display: unicode.dis
 table:
   language: """+languages[language_option]["language_code"]+"""
-  grade: 1
   __assert-match: """+languages[language_option]["language_code"]+""".tbl
 flags: { testmode: forward }
 tests:
