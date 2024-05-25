@@ -1,207 +1,146 @@
 Character,Hex,Type,Name,Braille
-שְׂ,05E9+05B0+05C2,letter, Sin sheva,⠱⠄
-תְּ,05EA+05BC+05B0,letter,tav with dadgesh sheva,⠞⠄
-דְּ,05D3+05BC+05B0,letter,dalet with dagesh sheva,⠐⠙⠄
-ּוְ,05BC+05D5+05B0,letter,shuruq sheva,⠥⠄
-יְּ,05D9+05BC+05B0,letter,yod with dagesh,⠐⠚⠄
-כְּ,05DB+05BC+05B0,letter,kaf with dadgesh sheva,⠅⠄
-לְּ,05DC+05BC+05B0,letter,lamed with dagesh sheva,⠐⠇⠄
-מְּ,05DE+05BC+05B0,letter,mem with dagesh sheva,⠐⠍⠄
-נְּ,05E0+05BC+05B0,letter,nun with  dagesh sheva,⠐⠝⠄
-בְּ,05D1+05B0+05BC,letter,bet with dagesh sheva,⠃⠄
-פְּ,05E4+05BC+05B0,letter,pe with dagesh sheva,⠐⠏⠄
-קְּ,05E7+05BC+05B0,letter,qof with dagesh sv,⠐⠟⠄
-שְׁ,05E9+05B0+05C1,letter, Shin with dot and sheva,⠩⠄
-פּ,05E4+05BC,letter,pe with dagesh,⠐⠏
-יּ,05D9+05BC,letter,yod with dagesh,⠐⠚
-דּ,05D3+05BC,letter,dalet with dagesh,⠐⠙
-שׂ,05E9+05C2,letter,sin,⠱
+כְּ,05DB+05BC+05B0,always,kaf with dagesh sheva,⠅⠄
+דְּ,05D3+05BC+05B0,always,dalet with dagesh sheva,⠐⠙⠄
+שְׁ,05E9+05B0+05C1,always, Shin with dot and sheva,⠩⠄
+בְּ,05D1+05B0+05BC,always,bet with dagesh sheva,⠃⠄
+לְּ,05DC+05BC+05B0,always,lamed with dagesh sheva,⠐⠇⠄
+יְּ,05D9+05BC+05B0,always,Yod with dagesh sheva,⠐⠚⠄
+שְׂ,05E9+05B0+05C2,always, Sin sheva,⠱⠄
+קְּ,05E7+05BC+05B0,always,qof with dagesh sheva,⠐⠟⠄
+מְּ,05DE+05BC+05B0,always,mem with dagesh sheva,⠐⠍⠄
+תְּ,05EA+05BC+05B0,always,tav with dagesh sheva,⠞⠄
+נְּ,05E0+05BC+05B0,always,nun with  dagesh sheva,⠐⠝⠄
+ּוְ,05BC+05D5+05B0,always,shuruq sheva,⠥⠄
+פְּ,05E4+05BC+05B0,always,pe with dagesh sheva,⠐⠏⠄
+בְּ,FB31+05B0,always,Bet with dagesh sheva,⠃⠄
+קּ,05E7+05BC,always,qof with dagesh,⠐⠟
+דּ,05D3+05BC,always,dalet with dagesh,⠐⠙
+וּ,05D5+05BC,always,shuruq,⠥
 הּ,05D4+05BC,letter,hey - isolated,⠓
-וֹ,05D5+05B9,always,holam-vav,⠕
-וּ,05D5+05BC,letter,shuruq,⠥
-תּ,05EA+05BC,letter,tav with dadgesh,⠞
-כּ,05DB+05BC,letter,kaf with dadgesh,⠅
-שׁ,05E9+05C1,letter,shin with dot,⠩
-תְּ,FB4A+05B0,letter,tav with daggesh sheva,⠐⠹⠄
+וֹ,05D5+05B9,always,holam-vav,⠪
+כְּ,FB3B+05B0,always,KAF with dagesh  sheva,⠅⠄
+ּו,05BC+05D5,always,shuruq,⠥
+נּ,05E0+05BC,always,nun with dagesh,⠐⠝
+מּ,05DE+05BC,always,mem with dagesh,⠐⠍
+יּ,05D9+05BC,always,Yod with dagesh,⠐⠚
+לּ,05DC+05BC,always,lamed with dagesh,⠐⠇
+כּ,05DB+05BC,always,kaf with dagesh,⠅
+בּ,05D1+05BC,always,bet with dagesh,⠃
+פּ,05E4+05BC,always,pe with dagesh,⠐⠏
 ר,500000000,letter,resh,⠗
-כְּ,FB3B+05B0,letter,KAF with dadgesh  sheva,⠅⠄
-לּ,05DC+05BC,letter,lamed with dagesh,⠐⠇
-בְּ,FB31+05B0,letter,Bet with dadgesh sheva,⠃⠄
-קּ,05E7+05BC,letter,qof with dagesh,⠐⠟
-נּ,05E0+05BC,letter,nun with dagesh,⠐⠝
-מּ,05DE+05BC,letter,mem with dagesh,⠐⠍
-ּו,05BC+05D5,letter,shuruq,⠥
-בּ,05D1+05BC,letter,bet with dagesh,⠃
-ִי,05B4+05D9,letter,hiriq-yod,⠔
-ֵי,05B5+05D9,letter,tsere-yod,⠼
+שׁ,05E9+05C1,always,shin with dot,⠩
+שׂ,05E9+05C2,always,sin,⠱
+תּ,05EA+05BC,always,tav with dagesh,⠞
+תְּ,FB4A+05B0,always,tav with daggesh sheva,⠐⠹⠄
+ִי,05B4+05D9,always,hiriq-yod,⠔
+ֵי,05B5+05D9,always,tsere-yod,⠼
 ק,50000000,letter,qof,⠟
-צ,5000000,letter,tsadi,⠮
 ✙,fU+2719,sign,  Marks end of Replaced text,⠾⠠
-❑,U+2751,sign,Mark that Distinguishes between Varient,⠟
-✘,U+2718,sign,Marks Varients with in Apparatus,⠔
-❁,U+2741,sign,Reference to LXX,⠇⠭⠭
-❍,U+274D,sign,Marks Omitted Word,⠕
-❏,U+274F,sign,Marks End of Omited word,⠕⠠
-❐,U+2750,sign,Marks Replaced Word,⠗
-✗,U+2717,sign,Mark for  Insertion,⠊
-❘,U+2758,sign,Mark that separates variations,⠳
-ץ,500000,letter,final tsadi,⠮
-✕,U+2715,sign,Mark beginning of Replacement,⠗
-❙,U+2759,sign,Mark that indicates Alternative readings,⠞
-❚,U+275A,sign,Mark indicates varrnt,⠉
-❥,U+2765,sign,Marks distinguishes between varient,⠡⠠
-❦,U+2766,sign,Marks beginning of transposition,⠠⠱
+צ,5000000,letter,tsadi,⠮
 ✖,U+2716,sign,Mark Ends of Replacement,⠺
-❧,U+2767,sign,Check Marks end of transposition,⠱⠠
+❘,U+2758,sign,Mark that separates variations,⠳
+❦,U+2766,sign,Marks beginning of transposition,⠠⠱
+❥,U+2765,sign,Marks distinguishes between varient,⠡⠠
 ✔,U+2714,sign,Check Mark Distinguishes Same kind of Varient,⠷
+❚,U+275A,sign,Mark indicates varrnt,⠉
+❙,U+2759,sign,Mark that indicates Alternative readings,⠞
+❑,U+2751,sign,Mark that Distinguishes between Varient,⠟
+ץ,500000,letter,final tsadi,⠮
+❐,U+2750,sign,Marks Replaced Word,⠗
+❏,U+274F,sign,Marks End of Omited word,⠕⠠
+❍,U+274D,sign,Marks Omitted Word,⠕
+✕,U+2715,sign,Mark beginning of Replacement,⠗
+✘,U+2718,sign,Marks Varients with in Apparatus,⠔
+✗,U+2717,sign,Mark for  Insertion,⠊
+❁,U+2741,sign,Reference to LXX,⠇⠭⠭
+❧,U+2767,sign,Check Marks end of transposition,⠱⠠
 פ,50000,letter,Pe,⠏
-֛,059B,letter,tevir,⠨⠧
-֟,059F,letter,qarney para,⠨⠝
+כּ,FB3B,always,KAF with dagesh ,⠅
 ֤,05A4,letter,mahapakh,⠨⠓
-֧,05A7,letter,darga,⠨⠙
-֣,05A3,letter,munah,⠨⠥
-֨,05A8,letter,qadma,⠨⠏
-֢,05A2,letter,atnah hafukh,⠨⠆
-֩,05A9,letter,telisha qetana,⠨⠟
-֪,05AA,letter,yerah ben yomo,⠨⠽
 ֫,05AB,letter,ole,⠨⠕
-֬,05AC,letter,iluy,⠨⠊
+֪,05AA,letter,yerah ben yomo,⠨⠽
+֩,05A9,letter,telisha qetana,⠨⠟
+֨,05A8,letter,qadma,⠨⠏
+֧,05A7,letter,darga,⠨⠙
+֦,05A6,letter,merkha kefula,⠨⠅
+֥,05A5,letter,merkha,⠨⠍
+֣,05A3,letter,munah,⠨⠥
+֭,05AD,letter,dehi,⠨⠊
+֢,05A2,letter,atnah hafukh,⠨⠆
 ֡,05A1,letter,pazer,⠨⠦
 ֠,05A0,letter,telisha gedola,⠨⠶
-ת,05EA,letter,tav,⠹
-֚,059A,letter,yetiv,⠨⠚
-תּ,FB4A,letter,tav with daggesh,⠐⠹
+֟,059F,letter,qarney para,⠨⠝
 ֞,059E,letter,gershayim,⠨⠃
-֭,05AD,letter,dehi,⠨⠊
-֮,05AE,letter,zinor,⠨⠵
-װ,05F0,letter,double vav,⠺⠺
-ױ,05F1,letter,vav yod,⠺⠚
 ֝,059D,letter,geresh muqdam,⠨⠡
 ֜,059C,letter,geresh,⠨⠁
-ײ,05F2,letter,double yod,⠚⠚
-ײַ,FB1F,letter, Double Yod with patah,⠚⠚⠉
-֥,05A5,letter,merkha,⠨⠍
+֛,059B,letter,tevir,⠨⠧
+֬,05AC,letter,iluy,⠨⠊
+֮,05AE,letter,zinor,⠨⠵
+כ,05DB,letter,kaf,⠡
+ֹ,05B9,letter,holam Malay,⠸⠪
+ֲ,05B2,letter,hataf patah,⠒
+ֳ,05B3,letter,hataf qamats,⠜
+ִ,05B4,letter,hiriq,⠊
+ֵ,05B5,letter,tsere,⠌
+ֶ,05B6,letter,segol,⠑
+ַ,05B7,letter,patah,⠉
+ָ,05B8,letter,qamats,⠣
+ֺ,05BA,letter,holam haser,⠕
 ֯,05AF,letter,masora circle,⠸⠍
-֦,05A6,letter,merkha kefula,⠨⠅
-ְ,05B0,letter,sheva,⠄
-ֱ,05B1,letter,hataf segol,⠢
+ֻ,05BB,letter,qubuts,⠬
+ּ,05BC,letter,dagesh,⠐
+ֽ,05BD,letter,meteg,⠈
 ־,05BE,punctuation,maqaf,⠤
+ֿ,05BF,letter,rafe,⠘
+׀,05C0,punctuation,paseq,⠸
+ׁ,05C1,letter,shin dot,⠸⠈
+֚,059A,letter,yetiv,⠨⠚
+ְ,05B0,letter,sheva,⠄
 ״,05F4,punctuation,gershayim,⠸
+ׅ,05C5,letter,lower dot,⠸⠰
+ן,05DF,letter,final nun,⠝
+ף,5000,letter,final pe,⠋
+ֱ,05B1,letter,hataf segol,⠢
+ה,05D4,letter,hey,⠓
+ד,05D3,letter,dalet,⠙
+ג,05D2,letter,gimel,⠛
+ב,05D1,letter,bet,⠧
+בּ,FB31,always,Bet with dagesh,⠃
+א,05D0,letter,alef,⠁
+מ,05DE,letter,mem,⠍
+ש,05E9,letter,Shin,⠸⠩
 ׳,05F3,letter,geresh,⠸⠣
 ׇ,05C7,letter,qamats qatan,⠣
 ׆,05C6,letter,nun hafukha,⠸⠝
-ׅ,05C5,letter,lower dot,⠸⠰
 ׄ,05C4,letter,upper dot,⠸⠐
-׃,05C3,punctuation,sof pasuq,⠲
-ׂ,05C2,letter,sin dot,⠸⠘
-ׁ,05C1,letter,shin dot,⠸⠈
-׀,05C0,punctuation,paseq,⠸
-ֿ,05BF,letter,rafe,⠘
-ֽ,05BD,letter,meteg,⠈
-בּ,FB31,letter,Bet with dadgesh,⠃
-ּ,05BC,letter,dagesh,⠐
-ֻ,05BB,letter,qubuts,⠬
-ֺ,05BA,letter,holam haser,⠪
-ֹ,05B9,letter,holam Malay,⠕
-ָ,05B8,letter,qamats,⠣
-ַ,05B7,letter,patah,⠉
-ֶ,05B6,letter,segol,⠑
-ֵ,05B5,letter,tsere,⠌
-ִ,05B4,letter,hiriq,⠊
-ֳ,05B3,letter,hataf qamats,⠜
-ֲ,05B2,letter,hataf patah,⠒
-א,05D0,letter,alef,⠁
-ב,05D1,letter,bet,⠧
-ף,5000,letter,final pe,⠋
-כ,05DB,letter,kaf,⠡
-ל,05DC,letter,lamed,⠇
-ם,05DD,letter,final mem,⠍
-ג,05D2,letter,gimel,⠛
-מ,05DE,letter,mem,⠍
-ן,05DF,letter,final nun,⠝
-כּ,FB3B,letter,KAF with dadgesh ,⠅
-ך,05DA,letter,final kaf,⠡
-י,05D9,letter,yod,⠚
-ט,05D8,letter,tet,⠞
-ח,05D7,letter,het,⠭
-ז,05D6,letter,zayin,⠵
 ו,05D5,letter,vav,⠺
-ה,05D4,letter,hey,⠓
-ד,05D3,letter,dalet,⠙
-֒,592,letter,segol - isolated,⠨⠎
-֑,591,punctuation,atnokta,⠆
+׃,05C3,punctuation,sof pasuq,⠲
+ת,05EA,always,tav,⠹
+תּ,FB4A,always,tav with daggesh,⠐⠹
+ׂ,05C2,letter,sin dot,⠸⠘
+װ,05F0,letter,double vav,⠺⠺
+ױ,05F1,letter,vav yod,⠺⠚
+ײ,05F2,letter,double yod,⠚⠚
+ײַ,FB1F,letter, Double Yod with patah,⠚⠚⠉
+ח,05D7,letter,het,⠭
+ט,05D8,letter,tet,⠞
+ם,05DD,letter,final mem,⠍
+ל,05DC,letter,lamed,⠇
+י,05D9,letter,yod,⠚
+ך,05DA,letter,final kaf,⠡
+ז,05D6,letter,zayin,⠵
+֔,594,letter,zaqef qatan,⠂
 ע,500,letter,ayin,⠫
 ֓,593,letter,shalshelet,⠨⠩
-֔,594,letter,zaqef qatan,⠂
-֕,595,letter,zaqef gadol,⠨⠛
-֖,596,letter,tipeha,⠨⠞
-֘,598,letter,zarqa,⠨⠙
+֑,591,punctuation,atnokta,⠆
+֒,592,letter,segol - isolated,⠨⠎
 ֙,599,letter,pashta,⠨⠌
+֘,598,letter,zarqa,⠨⠙
 ֗,597,letter,revia,⠨⠗
+֖,596,letter,tipeha,⠨⠞
+֕,595,letter,zaqef gadol,⠨⠛
 ס,50,letter,samekh,⠎
 נ,5,letter,nun,⠝
-a,,lowercase,a,⠁
-A,,uppercase,A,⠠⠁
-b,,lowercase,b,⠃
-B,,uppercase,B,⠠⠃
-c,,lowercase,c,⠉
-C,,uppercase,C,⠠⠉
-d,,lowercase,d,⠙
-D,,uppercase,D,⠠⠙
-e,,lowercase,e,⠑
-E,,uppercase,E,⠠⠑
-f,,lowercase,f,⠋
-F,,uppercase,F,⠠⠋
-g,,lowercase,g,⠛
-G,,uppercase,G,⠠⠛
-h,,lowercase,h,⠓
-H,,uppercase,H,⠠⠓
-i,,lowercase,i,⠊
-I,,uppercase,I,⠠⠊
-j,,lowercase,j,⠚
-J,,uppercase,J,⠠⠚
-k,,lowercase,k,⠅
-K,,uppercase,K,⠠⠅
-l,,lowercase,l,⠇
-L,,uppercase,L,⠠⠇
-m,,lowercase,m,⠍
-M,,uppercase,M,⠠⠍
-n,,lowercase,N,⠝
-N,,uppercase,N,⠠⠝
-o,,lowercase,o,⠕
-O,,uppercase,O,⠠⠕
-p,,lowercase,p,⠏
-P,,uppercase,P,⠠⠏
-q,,lowercase,q,⠟
-Q,,uppercase,Q,⠠⠟
-r,,lowercase,r,⠗
-R,,uppercase,R,⠠⠗
-s,,lowercase,s,⠎
-S,,uppercase,S,⠠⠎
-t,,lowercase,t,⠞
-T,,uppercase,T,⠠⠞
-u,,lowercase,u,⠥
-U,,uppercase,U,⠠⠥
-V,,uppercase,V,⠠⠧
-v,,lowercase,v,⠧
-W,,uppercase,W,⠠⠺
-w,,lowercase,w,⠺
-X,,uppercase,X,⠠⠭
-x,,lowercase,x,⠭
-Y,,uppercase,Y,⠠⠽
-y,,lowercase,y,⠽
-z,,lowercase,z,⠵
-Z,,uppercase,Z,⠠⠵
-1,,digit,1,⠁
-2,,digit,2,⠃
-3,,digit,3,⠉
-4,,digit,4,⠙
-5,,digit,5,⠑
-6,,digit,6,⠋
-7,,digit,7,⠛
-8,,digit,8,⠓
-9,,digit,9,⠊
-0,,digit,0,⠚
 *,,sign,,⠐⠦
 +,,sign,+,⠐⠖
 /,,sign,/,⠐⠌
@@ -219,4 +158,3 @@ $,,sign,$,⠈⠎
 .,,punctuation,.,⠲
 ?,,punctuation,?,⠰⠦
 !,,punctuation,!,⠖
- ,,space, , 

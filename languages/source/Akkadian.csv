@@ -920,5 +920,5 @@ Character(decimal),Decimal,Character(hex),Hex,Type,Name,Braille
 𒎖,74646,𒎖,12396,letter,CUNEIFORM SIGN SAG TIMES IGI GUNU,⠎⠁⠛⠡⠊⠛⠊ ⠛⠥⠝⠥
 𒎗,74647,𒎗,12397,letter,CUNEIFORM SIGN TI2,⠞⠊
 𒎘,74648,𒎘,12398,letter,CUNEIFORM SIGN UM TIMES ME,⠥⠍⠡⠍⠑
-𒎙,74649,𒎙,12399,letter,CUNEIFORM SIGN U,⠥
+𒎙,74649,𒎙u,12399,letter,CUNEIFORM SIGN U U,⠥
 ,, ,,space, ,  

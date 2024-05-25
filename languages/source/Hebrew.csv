@@ -3,15 +3,15 @@ Character,Hex,Logic,Type,Name,Braille
 ֱ,05B1,188,letter,hataf segol,⠢
 ֲ,05B2,188,letter,hataf patah,⠒
 ֳ,05B3,185,letter,point hataf qamats*,⠜
-ִי,05B4+05D9,201,letter,point hiriq-yod,⠔
+ִי,05B4+05D9,201,always,point hiriq-yod,⠔
 ִ,05B4,188,letter,point hiriq*,⠊
-ֵי,05B5+05D9,188,letter,point tsere-yod*,⠼
+ֵי,05B5+05D9,188,always,point tsere-yod*,⠼
 ֵ,05B5,185,letter,point tsere*,⠌
 ֶ,05B6,185,letter,point segol*,⠑
 ַ,05B7,185,letter,point patah*,⠉
 ָ,05B8,185,letter,point qamats*,⠣
-ֹ,05B9,185,letter,holam Malay *,⠕
-ֺ,05BA,188,letter,point holam haser ,⠪
+ֹ,05B9,185,letter,holam Malay *,⠸⠪
+ֺ,05BA,188,letter,point holam haser ,⠕
 ֻ,05BB,185,letter,point qubuts*,⠬
 ּ,05BC,186,letter,dagesh,⠐
 ֽ,05BD,185,letter,point meteg*,⠈
@@ -28,66 +28,67 @@ Character,Hex,Logic,Type,Name,Braille
 ׳,05F3,8,letter,punctuation geresh*,⠸⠣
 ״,05F4,8,punctuation,punctuation gershayim*,⠸
 א,05D0,8,letter,letter alef,⠁
-בּ,05D1+05BC,8,letter,bet with dagesh,⠃
-בְּ,05D1+05B0+05BC,8,letter,bet with dagesh sheva,⠃⠄
-בּ,FB31,3,letter,Bet with dadgesh,⠃
-בְּ,FB31+05B0,3,letter,Bet with dadgesh sheva,⠃⠄
+בּ,05D1+05BC,8,always,bet with dagesh,⠃
+בְּ,05D1+05B0+05BC,8,always,bet with dagesh sheva,⠃⠄
+בּ,FB31,3,always,Bet with dagesh,⠃
+בְּ,FB31+05B0,3,always,Bet with dagesh sheva,⠃⠄
 ב,05D1,8,letter,bet,⠧
 ג,05D2,8,letter,gimel,⠛
-דּ,05D3+05BC,186,letter,dalet with dagesh,⠐⠙
-דְּ,05D3+05BC+05B0,186,letter,dalet with dagesh sheva,⠐⠙⠄
+דּ,05D3+05BC,186,always,dalet with dagesh,⠐⠙
+דְּ,05D3+05BC+05B0,186,always,dalet with dagesh sheva,⠐⠙⠄
 ד,05D3,8,letter,letter dalet,⠙
 הּ,05D4+05BC,8,letter,hey - isolated,⠓
 ה,05D4,8,letter,letter hey,⠓
-וֹ,05D5+05B9,201,always,holam-vav*,⠕
-וּ,05D5+05BC,201,letter,shuruq,⠥
-ּו,05BC+05D5,201,letter,shuruq,⠥
-ּוְ,05BC+05D5+05B0,201,letter,shuruq sheva,⠥⠄
+וֹ,05D5+05B9,201,always,holam-vav*,⠪
+וּ,05D5+05BC,201,always,shuruq,⠥
+ּו,05BC+05D5,201,always,shuruq,⠥
+ּוְ,05BC+05D5+05B0,201,always,shuruq sheva,⠥⠄
 ו,05D5,8,letter,vav,⠺
 ז,05D6,8,letter,zayin,⠵
 ח,05D7,8,letter,letter het,⠭
 ט,05D8,8,letter,letter tet,⠞
-יּ,05D9+05BC,186,letter,letter yod with dagesh,⠐⠚
-יְּ,05D9+05BC+05B0,186,letter,letter yod with dagesh,⠐⠚⠄
+יּ,05D9+05BC,186,always,Yod with dagesh,⠐⠚
+יְּ,05D9+05BC+05B0,186,always,Yod with dagesh sheva,⠐⠚⠄
 י,05D9,8,letter,letter yod,⠚
 ך,05DA,214,letter,letter final kaf,⠡
-כּ,05DB+05BC,8,letter,kaf with dadgesh,⠅
-כְּ,05DB+05BC+05B0,8,letter,kaf with dadgesh sheva,⠅⠄
+כּ,05DB+05BC,8,always,kaf with dagesh,⠅
+כְּ,05DB+05BC+05B0,8,always,kaf with dagesh sheva,⠅⠄
 כ,05DB,8,letter,kaf,⠡
-כּ,FB3B,9,letter,KAF with dadgesh ,⠅
-כְּ,FB3B+05B0,9,letter,KAF with dadgesh  sheva,⠅⠄
-לּ,05DC+05BC,186,letter,letter lamed with dagesh,⠐⠇
-לְּ,05DC+05BC+05B0,186,letter,letter lamed with dagesh sheva,⠐⠇⠄
+כּ,FB3B,9,always,KAF with dagesh ,⠅
+כְּ,FB3B+05B0,9,always,KAF with dagesh  sheva,⠅⠄
+לּ,05DC+05BC,186,always,letter lamed with dagesh,⠐⠇
+לְּ,05DC+05BC+05B0,186,always,letter lamed with dagesh sheva,⠐⠇⠄
 ל,05DC,8,letter,letter lamed,⠇
 ם,05DD,8,letter,letter final mem,⠍
-מּ,05DE+05BC,186,letter,letter mem with dagesh,⠐⠍
-מְּ,05DE+05BC+05B0,186,letter,letter mem with dagesh sheva,⠐⠍⠄
+מּ,05DE+05BC,186,always,letter mem with dagesh,⠐⠍
+מְּ,05DE+05BC+05B0,186,always,letter mem with dagesh sheva,⠐⠍⠄
 מ,05DE,8,letter,letter mem,⠍
 ן,05DF,8,letter,letter final nun,⠝
-נּ,05E0+05BC,186,letter,letter nun with dagesh,⠐⠝
-נְּ,05E0+05BC+05B0,186,letter,letter nun with  dagesh sheva,⠐⠝⠄
+נּ,05E0+05BC,186,always,letter nun with dagesh,⠐⠝
+נְּ,05E0+05BC+05B0,186,always,letter nun with  dagesh sheva,⠐⠝⠄
 נ,5,8,letter,letter nun,⠝
 ס,50,8,letter,letter samekh,⠎
 ע,500,8,letter,letter ayin,⠫
 ף,5000,8,letter,letter final pe,⠋
-פּ,05E4+05BC,8,letter,pe with dagesh,⠐⠏
-פְּ,05E4+05BC+05B0,8,letter,pe with dagesh sheva,⠐⠏⠄
+פּ,05E4+05BC,8,always,pe with dagesh,⠐⠏
+פְּ,05E4+05BC+05B0,8,always,pe with dagesh sheva,⠐⠏⠄
 פ,50000,214,letter,Pe,⠏
 ץ,500000,8,letter,letter final tsadi,⠮
 צ,5000000,8,letter,letter tsadi,⠮
-קּ,05E7+05BC,186,letter,letter qof with dagesh,⠐⠟
-קְּ,05E7+05BC+05B0,186,letter,letter qof with dagesh sv,⠐⠟⠄
+קּ,05E7+05BC,186,always,letter qof with dagesh,⠐⠟
+קְּ,05E7+05BC+05B0,186,always,letter qof with dagesh sheva,⠐⠟⠄
 ק,50000000,8,letter,letter qof,⠟
 ר,500000000,8,letter,letter resh,⠗
-שׁ,05E9+05C1,8,letter,letter shin with dot,⠩
-שְׁ,05E9+05B0+05C1,912,letter, Shin with dot and sheva,⠩⠄
-שׂ,05E9+05C2,214,letter,letter sin,⠱
-שְׂ,05E9+05B0+05C2,45,letter, Sin sheva,⠱⠄
-תּ,05EA+05BC,8,letter,letter tav with dadgesh,⠞
-תְּ,05EA+05BC+05B0,8,letter,letter tav with dadgesh sheva,⠞⠄
-ת,05EA,8,letter,tav,⠹
-תּ,FB4A,10,letter,tav with daggesh,⠐⠹
-תְּ,FB4A+05B0,10,letter,tav with daggesh sheva,⠐⠹⠄
+ש,05E9,09,letter,Shin,⠸⠩
+שׁ,05E9+05C1,8,always,letter shin with dot,⠩
+שְׁ,05E9+05B0+05C1,912,always, Shin with dot and sheva,⠩⠄
+שׂ,05E9+05C2,214,always,letter sin,⠱
+שְׂ,05E9+05B0+05C2,45,always, Sin sheva,⠱⠄
+תּ,05EA+05BC,8,always,letter tav with dagesh,⠞
+תְּ,05EA+05BC+05B0,8,always,letter tav with dagesh sheva,⠞⠄
+ת,05EA,8,always,tav,⠹
+תּ,FB4A,10,always,tav with daggesh,⠐⠹
+תְּ,FB4A+05B0,10,always,tav with daggesh sheva,⠐⠹⠄
 װ,05F0,8,letter,double vav*,⠺⠺
 ױ,05F1,8,letter,vav yod*,⠺⠚
 ײ,05F2,8,letter,double yod*,⠚⠚
@@ -140,68 +141,6 @@ Character,Hex,Logic,Type,Name,Braille
 ❥,U+2765,,sign,Marks distinguishes between varient,⠡⠠
 ❦,U+2766,,sign,Marks beginning of transposition,⠠⠱
 ❧,U+2767,,sign,Check Marks end of transposition,⠱⠠
-a,,,lowercase,a,⠁
-A,,,uppercase,A,⠠⠁
-b,,,lowercase,b,⠃
-B,,,uppercase,B,⠠⠃
-c,,,lowercase,c,⠉
-C,,,uppercase,C,⠠⠉
-d,,,lowercase,d,⠙
-D,,,uppercase,D,⠠⠙
-e,,,lowercase,e,⠑
-E,,,uppercase,E,⠠⠑
-f,,,lowercase,f,⠋
-F,,,uppercase,F,⠠⠋
-g,,,lowercase,g,⠛
-G,,,uppercase,G,⠠⠛
-h,,,lowercase,h,⠓
-H,,,uppercase,H,⠠⠓
-i,,,lowercase,i,⠊
-I,,,uppercase,I,⠠⠊
-j,,,lowercase,j,⠚
-J,,,uppercase,J,⠠⠚
-k,,,lowercase,k,⠅
-K,,,uppercase,K,⠠⠅
-l,,,lowercase,l,⠇
-L,,,uppercase,L,⠠⠇
-m,,,lowercase,m,⠍
-M,,,uppercase,M,⠠⠍
-n,,,lowercase,N,⠝
-N,,,uppercase,N,⠠⠝
-o,,,lowercase,o,⠕
-O,,,uppercase,O,⠠⠕
-p,,,lowercase,p,⠏
-P,,,uppercase,P,⠠⠏
-q,,,lowercase,q,⠟
-Q,,,uppercase,Q,⠠⠟
-r,,,lowercase,r,⠗
-R,,,uppercase,R,⠠⠗
-s,,,lowercase,s,⠎
-S,,,uppercase,S,⠠⠎
-t,,,lowercase,t,⠞
-T,,,uppercase,T,⠠⠞
-u,,,lowercase,u,⠥
-U,,,uppercase,U,⠠⠥
-V,,,uppercase,V,⠠⠧
-v,,,lowercase,v,⠧
-W,,,uppercase,W,⠠⠺
-w,,,lowercase,w,⠺
-X,,,uppercase,X,⠠⠭
-x,,,lowercase,x,⠭
-Y,,,uppercase,Y,⠠⠽
-y,,,lowercase,y,⠽
-z,,,lowercase,z,⠵
-Z,,,uppercase,Z,⠠⠵
-1,,,digit,1,⠁
-2,,,digit,2,⠃
-3,,,digit,3,⠉
-4,,,digit,4,⠙
-5,,,digit,5,⠑
-6,,,digit,6,⠋
-7,,,digit,7,⠛
-8,,,digit,8,⠓
-9,,,digit,9,⠊
-0,,,digit,0,⠚
 *,,,sign,*,⠐⠦
 +,,,sign,+,⠐⠖
 /,,,sign,/,⠐⠌
@@ -219,4 +158,4 @@ $,,,sign,$,⠈⠎
 .,,,punctuation,.,⠲
 ?,,,punctuation,?,⠰⠦
 !,,,punctuation,!,⠖
- ,,,space, , 
+ 

@@ -38,19 +38,43 @@
 #-maintainer: Matityhau Yeshurun <yeatersink@gmail.com>
 
 # always op code characters
-always וֹ 135  # holam-vav
-
-# digit op code characters
-digit 0 245  # 0
-digit 1 1  # 1
-digit 2 12  # 2
-digit 3 14  # 3
-digit 4 145  # 4
-digit 5 15  # 5
-digit 6 124  # 6
-digit 7 1245  # 7
-digit 8 125  # 8
-digit 9 24  # 9
+always ִי 35  # hiriq-yod
+always ֵי 3456  # tsere-yod
+always ּו 136  # shuruq
+always ּוְ 136-3  # shuruq sheva
+always בְּ 12-3  # bet with dagesh sheva
+always בּ 12  # bet with dagesh
+always דּ 5-145  # dalet with dagesh
+always דְּ 5-145-3  # dalet with dagesh sheva
+always וֹ 246  # holam-vav
+always וּ 136  # shuruq
+always יּ 5-245  # Yod with dagesh
+always יְּ 5-245-3  # Yod with dagesh sheva
+always כּ 13  # kaf with dagesh
+always כְּ 13-3  # kaf with dagesh sheva
+always לּ 5-123  # lamed with dagesh
+always לְּ 5-123-3  # lamed with dagesh sheva
+always מּ 5-134  # mem with dagesh
+always מְּ 5-134-3  # mem with dagesh sheva
+always נּ 5-1345  # nun with dagesh
+always נְּ 5-1345-3  # nun with  dagesh sheva
+always פּ 5-1234  # pe with dagesh
+always פְּ 5-1234-3  # pe with dagesh sheva
+always קּ 5-12345  # qof with dagesh
+always קְּ 5-12345-3  # qof with dagesh sheva
+always שְׁ 146-3  #  Shin with dot and sheva
+always שְׂ 156-3  #  Sin sheva
+always שׁ 146  # shin with dot
+always שׂ 156  # sin
+always ת 1456  # tav
+always תּ 2345  # tav with dagesh
+always תְּ 2345-3  # tav with dagesh sheva
+always בּ 12  # Bet with dagesh
+always בְּ 12-3  # Bet with dagesh sheva
+always כּ 13  # KAF with dagesh 
+always כְּ 13-3  # KAF with dagesh  sheva
+always תּ 5-1456  # tav with daggesh
+always תְּ 5-1456-3  # tav with daggesh sheva
 
 # letter op code characters
 letter ֒ 46-234  # segol - isolated
@@ -88,18 +112,14 @@ letter ֱ 26  # hataf segol
 letter ֲ 25  # hataf patah
 letter ֳ 345  # hataf qamats
 letter ִ 24  # hiriq
-letter ִי 35  # hiriq-yod
 letter ֵ 34  # tsere
-letter ֵי 3456  # tsere-yod
 letter ֶ 15  # segol
 letter ַ 14  # patah
 letter ָ 126  # qamats
-letter ֹ 135  # holam Malay
-letter ֺ 246  # holam haser
+letter ֹ 456-246  # holam Malay
+letter ֺ 135  # holam haser
 letter ֻ 346  # qubuts
 letter ּ 5  # dagesh
-letter ּו 136  # shuruq
-letter ּוְ 136-3  # shuruq sheva
 letter ֽ 4  # meteg
 letter ֿ 45  # rafe
 letter ׁ 456-4  # shin dot
@@ -110,95 +130,36 @@ letter ׆ 456-1345  # nun hafukha
 letter ׇ 126  # qamats qatan
 letter א 1  # alef
 letter ב 1236  # bet
-letter בְּ 12-3  # bet with dagesh sheva
-letter בּ 12  # bet with dagesh
 letter ג 1245  # gimel
 letter ד 145  # dalet
-letter דּ 5-145  # dalet with dagesh
-letter דְּ 5-145-3  # dalet with dagesh sheva
 letter ה 125  # hey
 letter הּ 125  # hey - isolated
 letter ו 2456  # vav
-letter וּ 136  # shuruq
 letter ז 1356  # zayin
 letter ח 1346  # het
 letter ט 2345  # tet
 letter י 245  # yod
-letter יּ 5-245  # yod with dagesh
-letter יְּ 5-245-3  # yod with dagesh
 letter ך 16  # final kaf
 letter כ 16  # kaf
-letter כּ 13  # kaf with dadgesh
-letter כְּ 13-3  # kaf with dadgesh sheva
 letter ל 123  # lamed
-letter לּ 5-123  # lamed with dagesh
-letter לְּ 5-123-3  # lamed with dagesh sheva
 letter ם 134  # final mem
 letter מ 134  # mem
-letter מּ 5-134  # mem with dagesh
-letter מְּ 5-134-3  # mem with dagesh sheva
 letter ן 1345  # final nun
 letter נ 1345  # nun
-letter נּ 5-1345  # nun with dagesh
-letter נְּ 5-1345-3  # nun with  dagesh sheva
 letter ס 234  # samekh
 letter ע 1246  # ayin
 letter ף 124  # final pe
 letter פ 1234  # Pe
-letter פּ 5-1234  # pe with dagesh
-letter פְּ 5-1234-3  # pe with dagesh sheva
 letter ץ 2346  # final tsadi
 letter צ 2346  # tsadi
 letter ק 12345  # qof
-letter קּ 5-12345  # qof with dagesh
-letter קְּ 5-12345-3  # qof with dagesh sv
 letter ר 1235  # resh
-letter שְׁ 146-3  #  Shin with dot and sheva
-letter שְׂ 156-3  #  Sin sheva
-letter שׁ 146  # shin with dot
-letter שׂ 156  # sin
-letter ת 1456  # tav
-letter תּ 2345  # tav with dadgesh
-letter תְּ 2345-3  # tav with dadgesh sheva
+letter ש 456-146  # Shin
 letter װ 2456-2456  # double vav
 letter ױ 2456-245  # vav yod
 letter ײ 245-245  # double yod
 letter ׳ 456-126  # geresh
 letter ײַ 245-245-14  #  Double Yod with patah
-letter בּ 12  # Bet with dadgesh
-letter בְּ 12-3  # Bet with dadgesh sheva
-letter כּ 13  # KAF with dadgesh 
-letter כְּ 13-3  # KAF with dadgesh  sheva
-letter תּ 5-1456  # tav with daggesh
-letter תְּ 5-1456-3  # tav with daggesh sheva
-
-# lowercase op code characters
-lowercase a 1  # a
-lowercase b 12  # b
-lowercase c 14  # c
-lowercase d 145  # d
-lowercase e 15  # e
-lowercase f 124  # f
-lowercase g 1245  # g
-lowercase h 125  # h
-lowercase i 24  # i
-lowercase j 245  # j
-lowercase k 13  # k
-lowercase l 123  # l
-lowercase m 134  # m
-lowercase n 1345  # N
-lowercase o 135  # o
-lowercase p 1234  # p
-lowercase q 12345  # q
-lowercase r 1235  # r
-lowercase s 234  # s
-lowercase t 2345  # t
-lowercase u 136  # u
-lowercase v 1236  # v
-lowercase w 2456  # w
-lowercase x 1346  # x
-lowercase y 13456  # y
-lowercase z 1356  # z
 
 # punctuation op code characters
 punctuation ! 235  # !
@@ -242,34 +203,6 @@ sign ❚ 14  # Mark indicates varrnt
 sign ❥ 16-6  # Marks distinguishes between varient
 sign ❦ 6-156  # Marks beginning of transposition
 sign ❧ 156-6  # Check Marks end of transposition
-
-# space op code characters
-space \s 0  # space
-
-# uppercase op code characters
-uppercase A 6-1  # A
-uppercase B 6-12  # B
-uppercase C 6-14  # C
-uppercase D 6-145  # D
-uppercase E 6-15  # E
-uppercase F 6-124  # F
-uppercase G 6-1245  # G
-uppercase H 6-125  # H
-uppercase I 6-24  # I
-uppercase J 6-245  # J
-uppercase K 6-13  # K
-uppercase L 6-123  # L
-uppercase M 6-134  # M
-uppercase N 6-1345  # N
-uppercase O 6-135  # O
-uppercase P 6-1234  # P
-uppercase Q 6-12345  # Q
-uppercase R 6-1235  # R
-uppercase S 6-234  # S
-uppercase T 6-2345  # T
-uppercase U 6-136  # U
-uppercase V 6-1236  # V
-uppercase W 6-2456  # W
-uppercase X 6-1346  # X
-uppercase Y 6-13456  # Y
-uppercase Z 6-1356  # Z
+include spaces.uti
+include litdigits6Dots.uti
+include latinLetterDef6Dots.uti

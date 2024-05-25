@@ -56,7 +56,7 @@ languages=[
 #-maintainer: Paul Geoghegan <contact@envisionly.tech>
 #-maintainer: Matityhau Yeshurun <yeatersink@gmail.com>
 """},
-        {"name":"Hebrew","language_code":"hbo","language_system_code":"hbo","name_column":"Name","char_column":"Character","braille_column":"Braille","replace":["point","punctuation","mark","letter","accent","*"],"language_information":"""
+        {"name":"Hebrew","language_code":"hbo","language_system_code":"hbo","name_column":"Name","char_column":"Character","braille_column":"Braille","replace":["point","punctuation","mark","letter","accent","*"],"included_braille_tables":["spaces.uti","litdigits6Dots.uti","latinLetterDef6Dots.uti"],"language_information":"""
 #The first Hebrew Braille table hosted on Lib Louis was developed by the Library for the Blind and the Ministry of Education in Israel. That  table is based on the IHBC which was developed in the mid-1930’s. Please see World Braille usage 3rd edition, p. 74. 
 #However, Classical or Biblical Hebrew, which is used in the Hebrew Bible and other liturgical literature, contains cantillation marks that are not supported by the Hebrew table mentioned above. This table seeks to provide access to these accents. This table is   also based upon the tables mentioned above.  This table only departs from it where the accents are concerned. With this table, the user will have access to the accents and Masorah in BHS and BHS Quinta. For more information about the IHBC and How it was developed:
 #https://en.wikipedia.org/wiki/Hebrew_Braille#:~:text=The%20International%20Hebrew%20Braille%20Code
@@ -75,7 +75,7 @@ languages=[
 #-maintainer: Paul Geoghegan <contact@envisionly.tech>
 #-maintainer: Matityhau Yeshurun <yeatersink@gmail.com>
 """},
-{"name":"Sumero-Akkadian","language_code":"akk-sumero","language_system_code":"akk-sumero-oracc","name_column":"Borger Translitteration","char_column":"Character","braille_column":"Braille","replace":["CUNEIFORM SIGN"],"language_information":"""
+{"name":"Sumero-Akkadian-broken","language_code":"akk-sumero","language_system_code":"akk-sumero-oracc","name_column":"Name","char_column":"Character","braille_column":"Braille","replace":["CUNEIFORM SIGN"],"language_information":"""
 #for more information on the Akkadian language, please go to:
 #https://oracc.museum.upenn.edu/dcclt/signlists/signlists/
 #The standard for Akkadian has been set by the academic community represented by ORACC. The braille code for Akkadian follows the standard set by ORACC. The braille code for Akkadian is represented in braille as the name for the sign in Akkadian. Thus, if the Akkadian sign is a "Lum," then the braille code for this sign would be lum.
