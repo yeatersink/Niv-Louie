@@ -17,7 +17,7 @@ Character,Hex,Type,Name,Braille
 דּ,05D3+05BC,letter,dalet with dagesh,⠐⠙
 שׂ,05E9+05C2,letter,sin,⠱
 הּ,05D4+05BC,letter,hey - isolated,⠓
-וֹ,05D5+05B9,always,holam-vav,⠕
+וֹ,05D5+05B9,always,holam-vav,⠪
 וּ,05D5+05BC,letter,shuruq,⠥
 תּ,05EA+05BC,letter,tav with dadgesh,⠞
 כּ,05DB+05BC,letter,kaf with dadgesh,⠅
@@ -32,8 +32,8 @@ Character,Hex,Type,Name,Braille
 מּ,05DE+05BC,letter,mem with dagesh,⠐⠍
 ּו,05BC+05D5,letter,shuruq,⠥
 בּ,05D1+05BC,letter,bet with dagesh,⠃
-ִי,05B4+05D9,letter,hiriq-yod,⠔
-ֵי,05B5+05D9,letter,tsere-yod,⠼
+ִי,05B4+05D9,always,hiriq-yod,⠔
+ֵי,05B5+05D9,always,tsere-yod,⠼
 ק,50000000,letter,qof,⠟
 צ,5000000,letter,tsadi,⠮
 ✙,fU+2719,sign,  Marks end of Replaced text,⠾⠠
@@ -101,8 +101,8 @@ Character,Hex,Type,Name,Braille
 בּ,FB31,letter,Bet with dadgesh,⠃
 ּ,05BC,letter,dagesh,⠐
 ֻ,05BB,letter,qubuts,⠬
-ֺ,05BA,letter,holam haser,⠪
-ֹ,05B9,letter,holam Malay,⠕
+ֺ,05BA,letter,holam haser,⠕
+ֹ,05B9,letter,holam Malay,⠸⠪
 ָ,05B8,letter,qamats,⠣
 ַ,05B7,letter,patah,⠉
 ֶ,05B6,letter,segol,⠑
