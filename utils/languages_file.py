@@ -10,7 +10,7 @@
 #language_information: a string that contains information about the language for Lib Louis
 #contributors: a string that contains information about the people who have contributed to the project
 languages=[
-    {"name":"Akkadian","language_code":"akk","language_system_code":"akk-oracc","name_column":"Name","char_column":"Character(decimal)","braille_column":"Braille","replace":["CUNEIFORM SIGN"],"language_information":"""
+    {"name":"Akkadian","language_code":"akk","language_system_code":"akk-oracc","name_column":"Name","char_column":"Character","braille_column":"Braille","replace":["CUNEIFORM SIGN"],"language_information":"""
 #Cuneiform, generally known as Akkadian, is a writing system that was used through several stages of development, from the 31st century BC down to the second century AD, and preserves documents in several languages which span from Sumerian to Greek.  
 #There is no braille standard set for these languages or this writing system. Thus, this table is extremely innovative, but does provide access to nearly all of the Cuneiform signs that are currently offered in Unicode.  This table represents the names of the American  system and is different than the German (Borger) system. 
 #for more information on the Akkadian language, please go to:
