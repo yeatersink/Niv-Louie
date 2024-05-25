@@ -38,9 +38,7 @@
 #-maintainer: Matityhau Yeshurun <yeatersink@gmail.com>
 
 # always op code characters
-always ִי 35  # hiriq-yod
-always ֵי 3456  # tsere-yod
-always וֹ 246  # holam-vav
+always וֹ 135  # holam-vav
 
 # digit op code characters
 digit 0 245  # 0
@@ -90,12 +88,14 @@ letter ֱ 26  # hataf segol
 letter ֲ 25  # hataf patah
 letter ֳ 345  # hataf qamats
 letter ִ 24  # hiriq
+letter ִי 35  # hiriq-yod
 letter ֵ 34  # tsere
+letter ֵי 3456  # tsere-yod
 letter ֶ 15  # segol
 letter ַ 14  # patah
 letter ָ 126  # qamats
-letter ֹ 456-246  # holam Malay
-letter ֺ 135  # holam haser
+letter ֹ 135  # holam Malay
+letter ֺ 246  # holam haser
 letter ֻ 346  # qubuts
 letter ּ 5  # dagesh
 letter ּו 136  # shuruq

@@ -3,15 +3,15 @@ Character,Hex,Logic,Type,Name,Braille
 ֱ,05B1,188,letter,hataf segol,⠢
 ֲ,05B2,188,letter,hataf patah,⠒
 ֳ,05B3,185,letter,point hataf qamats*,⠜
-ִי,05B4+05D9,201,always,point hiriq-yod,⠔
+ִי,05B4+05D9,201,letter,point hiriq-yod,⠔
 ִ,05B4,188,letter,point hiriq*,⠊
-ֵי,05B5+05D9,188,always,point tsere-yod*,⠼
+ֵי,05B5+05D9,188,letter,point tsere-yod*,⠼
 ֵ,05B5,185,letter,point tsere*,⠌
 ֶ,05B6,185,letter,point segol*,⠑
 ַ,05B7,185,letter,point patah*,⠉
 ָ,05B8,185,letter,point qamats*,⠣
-ֹ,05B9,185,letter,holam Malay *,⠸⠪
-ֺ,05BA,188,letter,point holam haser ,⠕
+ֹ,05B9,185,letter,holam Malay *,⠕
+ֺ,05BA,188,letter,point holam haser ,⠪
 ֻ,05BB,185,letter,point qubuts*,⠬
 ּ,05BC,186,letter,dagesh,⠐
 ֽ,05BD,185,letter,point meteg*,⠈
@@ -39,7 +39,7 @@ Character,Hex,Logic,Type,Name,Braille
 ד,05D3,8,letter,letter dalet,⠙
 הּ,05D4+05BC,8,letter,hey - isolated,⠓
 ה,05D4,8,letter,letter hey,⠓
-וֹ,05D5+05B9,201,always,holam-vav*,⠪
+וֹ,05D5+05B9,201,always,holam-vav*,⠕
 וּ,05D5+05BC,201,letter,shuruq,⠥
 ּו,05BC+05D5,201,letter,shuruq,⠥
 ּוְ,05BC+05D5+05B0,201,letter,shuruq sheva,⠥⠄
