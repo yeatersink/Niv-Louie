@@ -37,6 +37,8 @@
 #-maintainer: Paul Geoghegan <contact@envisionly.tech>
 #-maintainer: Matityhau Yeshurun <yeatersink@gmail.com>
 
+# Pe with rafe op code characters
+
 # always op code characters
 always ִי 35  # hiriq-yod
 always ֵי 3456  # tsere-yod
@@ -58,8 +60,8 @@ always מּ 5-134  # mem with dagesh
 always מְּ 5-134-3  # mem with dagesh sheva
 always נּ 5-1345  # nun with dagesh
 always נְּ 5-1345-3  # nun with  dagesh sheva
-always פּ 5-1234  # pe with dagesh
-always פְּ 5-1234-3  # pe with dagesh sheva
+always פּ 1234  # pe with dagesh
+always פְּ 1234-3  # pe with dagesh sheva
 always קּ 5-12345  # qof with dagesh
 always קְּ 5-12345-3  # qof with dagesh sheva
 always שְׁ 146-3  #  Shin with dot and sheva
@@ -67,14 +69,18 @@ always שְׂ 156-3  #  Sin sheva
 always שׁ 146  # shin with dot
 always שׂ 156  # sin
 always ת 1456  # tav
-always תּ 2345  # tav with dagesh
-always תְּ 2345-3  # tav with dagesh sheva
+always תּ 1256  # tav with dagesh
+always תְּ 1256-3  # tav with dagesh sheva
 always בּ 12  # Bet with dagesh
 always בְּ 12-3  # Bet with dagesh sheva
 always כּ 13  # KAF with dagesh 
 always כְּ 13-3  # KAF with dagesh  sheva
-always תּ 5-1456  # tav with daggesh
+always תּ 1256  # tav with daggesh
 always תְּ 5-1456-3  # tav with daggesh sheva
+
+# atnokta op code characters
+
+# bet with rafe op code characters
 
 # letter op code characters
 letter ֒ 46-234  # segol - isolated
@@ -84,7 +90,7 @@ letter ֕ 46-1245  # zaqef gadol
 letter ֖ 46-2345  # tipeha
 letter ֗ 46-1235  # revia
 letter ֘ 46-145  # zarqa
-letter ֙ 46-34  # pashta
+letter ֙0 46-34  # pashta
 letter ֚ 46-245  # yetiv
 letter ֛ 46-1236  # tevir
 letter ֜ 46-1  # geresh
@@ -149,36 +155,25 @@ letter נ 1345  # nun
 letter ס 234  # samekh
 letter ע 1246  # ayin
 letter ף 124  # final pe
-letter פ 1234  # Pe
+letter פ 124  # Pe
 letter ץ 2346  # final tsadi
 letter צ 2346  # tsadi
 letter ק 12345  # qof
 letter ר 1235  # resh
-letter ש 456-146  # Shin
+letter ש 146  # Shin
 letter װ 2456-2456  # double vav
 letter ױ 2456-245  # vav yod
 letter ײ 245-245  # double yod
-letter ׳ 456-126  # geresh
+letter ׳ 3  # geresh
 letter ײַ 245-245-14  #  Double Yod with patah
 
 # punctuation op code characters
-punctuation ! 235  # !
-punctuation ' 3  # '
-punctuation - 36  # -
-punctuation . 256  # .
-punctuation : 25  # :
-punctuation ? 56-236  # ?
-punctuation ֑ 23  # atnokta
 punctuation ־ 36  # maqaf
 punctuation ׀ 456  # paseq
 punctuation ׃ 256  # sof pasuq
-punctuation ״ 456  # gershayim
+punctuation ״ 456-356  # gershayim
 
 # sign op code characters
-sign # 3456  # #
-sign $ 4-234  # $
-sign % 46-356  # %
-sign & 4-12346  # &
 sign * 5-236  # nan
 sign + 5-235  # +
 sign / 5-34  # /
