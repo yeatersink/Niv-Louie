@@ -37,15 +37,14 @@
 #-maintainer: Paul Geoghegan <contact@envisionly.tech>
 #-maintainer: Matityhau Yeshurun <yeatersink@gmail.com>
 
-# Pe with rafe op code characters
-
 # always op code characters
 always ִי 35  # hiriq-yod
 always ֵי 3456  # tsere-yod
 always ּו 136  # shuruq
-always ּוְ 136-3  # shuruq sheva
+always ּוְ 136-3  # Vav with dagesh sheva
 always בְּ 12-3  # bet with dagesh sheva
 always בּ 12  # bet with dagesh
+always בֿ 1236  # bet with rafe
 always דּ 5-145  # dalet with dagesh
 always דְּ 5-145-3  # dalet with dagesh sheva
 always וֹ 246  # holam-vav
@@ -62,6 +61,7 @@ always נּ 5-1345  # nun with dagesh
 always נְּ 5-1345-3  # nun with  dagesh sheva
 always פּ 1234  # pe with dagesh
 always פְּ 1234-3  # pe with dagesh sheva
+always פֿ 124  # Pe with rafe
 always קּ 5-12345  # qof with dagesh
 always קְּ 5-12345-3  # qof with dagesh sheva
 always שְׁ 146-3  #  Shin with dot and sheva
@@ -78,10 +78,6 @@ always כְּ 13-3  # KAF with dagesh  sheva
 always תּ 1256  # tav with daggesh
 always תְּ 5-1456-3  # tav with daggesh sheva
 
-# atnokta op code characters
-
-# bet with rafe op code characters
-
 # letter op code characters
 letter ֒ 46-234  # segol - isolated
 letter ֓ 46-146  # shalshelet
@@ -90,7 +86,7 @@ letter ֕ 46-1245  # zaqef gadol
 letter ֖ 46-2345  # tipeha
 letter ֗ 46-1235  # revia
 letter ֘ 46-145  # zarqa
-letter ֙0 46-34  # pashta
+letter ֙ 46-34  # pashta
 letter ֚ 46-245  # yetiv
 letter ֛ 46-1236  # tevir
 letter ֜ 46-1  # geresh
@@ -165,39 +161,40 @@ letter װ 2456-2456  # double vav
 letter ױ 2456-245  # vav yod
 letter ײ 245-245  # double yod
 letter ׳ 3  # geresh
-letter ײַ 245-245-14  #  Double Yod with patah
+letter ײַ 245-245-14  # Double Yod with patah
 
 # punctuation op code characters
+punctuation ֑ 23  # atnokta
 punctuation ־ 36  # maqaf
 punctuation ׀ 456  # paseq
 punctuation ׃ 256  # sof pasuq
-punctuation ״ 456-356  # gershayim
+punctuation ״ 356  # gershayim
 
 # sign op code characters
-sign * 5-236  # nan
+sign * 5-35  # nan
 sign + 5-235  # +
 sign / 5-34  # /
 sign < 4-126  # <
 sign > 4-345  # >
-sign ^ 35  # ^
-sign _ 26  # _
+sign ^ 4-26  # ^
+sign _ 46-36  # _
 sign ✔ 12356  # Check Mark Distinguishes Same kind of Varient
 sign ✕ 1235  # Mark beginning of Replacement
 sign ✖ 2456  # Mark Ends of Replacement
 sign ✗ 24  # Mark for  Insertion
 sign ✘ 35  # Marks Varients with in Apparatus
-sign ✙ 23456-6  #   Marks end of Replaced text
+sign ✙ 23456  #   Marks end of Replaced text
 sign ❁ 123-1346-1346  # Reference to LXX
 sign ❍ 135  # Marks Omitted Word
-sign ❏ 135-6  # Marks End of Omited word
+sign ❏ 135-3  # Marks End of Omited word
 sign ❐ 1235  # Marks Replaced Word
 sign ❑ 12345  # Mark that Distinguishes between Varient
 sign ❘ 1256  # Mark that separates variations
 sign ❙ 2345  # Mark that indicates Alternative readings
 sign ❚ 14  # Mark indicates varrnt
-sign ❥ 16-6  # Marks distinguishes between varient
-sign ❦ 6-156  # Marks beginning of transposition
-sign ❧ 156-6  # Check Marks end of transposition
+sign ❥ 345  # Marks distinguishes between varient
+sign ❦ 126  # Marks beginning of transposition
+sign ❧ 156  # Check Marks end of transposition
 include spaces.uti
 include litdigits6Dots.uti
 include latinLetterDef6Dots.uti

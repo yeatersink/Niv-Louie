@@ -35,142 +35,148 @@
 #This braille code was developed by a group of both blind and sighted scholars in an academic setting.
 #-maintainer: Paul Geoghegan <contact@envisionly.tech>
 #-maintainer: Matityhau Yeshurun <yeatersink@gmail.com>
-letter ܜ݂ 26-2345-3
-letter ܠ݁ 123-2
-letter ܟ݁ 13-2
-letter ܞ݂ 26-245-3
-letter ܞ݁ 26-245-2
-letter ܝ݂ 245-3
-letter ܝ݁ 245-2
-letter ܜ݁ 26-2345-2
-letter ܛ݂ 2345-3
-letter ܛ݁ 2345-2
-letter ܚ݂ 1346-3
-letter ܚ݁ 1346-2
-letter ܨ݁ 2346-2
-letter ܙ݁ 1356-2
-letter ܘ݂ 2456-3
-letter ܘ݁ 2456-2
-letter ܗ̱ 125-12346
-letter ܟ݂ 13-3-3
-letter ܠ݂ 123-3
-letter ܗ݂ 125-3
-letter ܡ݁ 134-2
-letter ܧ݂ 26-1234-3
-letter ܧ݁ 26-1234-2
-letter ܦ݂ 1234-3
-letter ܦ݁ 1234-2
-letter ܩ݁ 12345-2
-letter ܥ݂ 1246-3
-letter ܥ݁ 1246-2
-letter ܩ݂ 12345-3
-letter ܤ݂ 26-234-3
-letter ܤ݁ 26-234-2
-letter ܣ݂ 234-3
-letter ܣ݁ 234-2
-letter ܢ݂ 1345-3
-letter ܢ݁ 1345-2
-letter ܡ݂ 134-3
-letter ܪ݁ 1235-2
-letter ܙ݂ 1356-3
-letter ܗ݁ 125-2
-letter ܓ݂ 1245-3
-letter ܐ݁ 1-2
-letter ܐ݂ 1-3
-letter ܑ݁ 26-1-2
-letter ܑ݂ 26-1-3
-letter ܪ݂ 1235-3
-letter ܬ݂ 1256-3
-letter ܒ݁ 12-2
-letter ܒ݂ 12-3
-letter ܬ݁ 1256-2
-letter ܓ݁ 1245-2
-letter ܨ݂ 2346-3
-letter ܕ݁ 145-2
-letter ܖ݂ 26-145-3
-letter ܔ݁ 26-1245-2
-letter ܔ݂ 26-1245-3
-letter ܖ݁ 26-145-2
-letter ܫ݂ 146-3
-letter ܕ݂ 145-3
-letter ̱ 456-12
-letter ܮ 26-2356
-letter ܺ 24
-punctuation ܋ 256-135
-punctuation ܊ 256-3
-letter ܭ 26
-letter ܛ 2345
-letter ݊ 256-1236
-punctuation ܍ 356-256-35
-letter ݍ 26-1356
-letter ݎ 26-13
-letter ݏ 26-124
-letter ܯ 26-256
-punctuation ܌ 256-134
-letter ܼ 26
-letter ܻ 35
-punctuation ܏ 256-1
-letter ܫ 146
-letter ܬ 1256
-letter ܽ 136
-letter ܿ 135
-letter ܪ 1235
-letter ܾ 1236
-letter ܞ 26-245
-letter ܚ 1346
-letter ܝ 245
-letter ܜ 26-2345
-letter ܟ 13
-letter ܵ 126
-letter ܴ 156
-punctuation ܀ 256-1234
-letter ܶ 15
-letter ݄ 356-256
-letter ̄̄̄ 456-1
-letter ݉ 256-146
-letter ݈ 256
-letter ݇ 256-45
-letter ݆ 356
-letter ݅ 256-125
-letter ݃ 256-12
-letter ܷ 26
-letter ݂ 3
-letter ݁ 2
-letter ݀ 5-124
-letter ܲ 14
-letter ܹ 456
-letter ܸ 34
-letter ܳ 345
-letter ܡ 134
-letter ܱ 16
-letter ܕ 145
-punctuation ܂ 256
-punctuation ܃ 256-14
-punctuation ܄ 256-36
-punctuation ܅ 356-256-25
-punctuation ܆ 236
-punctuation ܇ 356
-punctuation ܈ 256-156
-punctuation ܉ 256-234
-letter ܐ 1
-letter ܑ 26-1
-letter ܒ 12
-letter ܓ 1245
-letter ܔ 26-1245
-letter ܖ 26-145
-letter ܰ 12356
-letter ܗ 125
-letter ܘ 2456
-letter ܙ 1356
-letter ܠ 123
-punctuation ܁ 235
-letter ܢ 1345
-letter ܣ 234
-letter ܤ 26-234
-letter ܥ 1246
-letter ܦ 1234
-letter ܧ 26-1234
-letter ܨ 2346
-letter ܩ 12345
-letter ̈ 456-23
-space \s 0
+
+# letter op code characters
+letter ܐ 1  # ALAPH
+letter ܐ݁ 1-2  # ALAPH and QUSHSHAYA
+letter ܐ݂ 1-3  # ALAPH and RUKKAKHA
+letter ܑ 26-1  # SUPERSCRIPT ALAPH
+letter ܑ݁ 26-1-2  # SUPERSCRIPT ALAPH  and QUSHSHAYA
+letter ܑ݂ 26-1-3  # SUPERSCRIPT ALAPH  and RUKKAKHA
+letter ܒ 12  # BETH
+letter ܒ݁ 12-2  # BETH and QUSHSHAYA
+letter ܒ݂ 12-3  # BETH and RUKKAKHA
+letter ܓ 1245  # GAMAL
+letter ܓ݁ 1245-2  # GAMAL and QUSHSHAYA
+letter ܓ݂ 1245-3  # GAMAL and RUKKAKHA
+letter ܔ 26-1245  # GAMAL GARSHUNI
+letter ܔ݁ 26-1245-2  # GAMAL GARSHUNI and QUSHSHAYA
+letter ܔ݂ 26-1245-3  # GAMAL GARSHUNI and RUKKAKHA
+letter ܕ 145  # DALATH
+letter ܕ݁ 145-2  # DALATH and QUSHSHAYA
+letter ܕ݂ 145-3  # DALATH and RUKKAKHA
+letter ܖ 26-145  # DOTLESS DALATH RISH
+letter ܖ݁ 26-145-2  # DOTLESS DALATH RISH and QUSHSHAYA
+letter ܖ݂ 26-145-3  # DOTLESS DALATH RISH and RUKKAKHA
+letter ܗ 125  # HE
+letter ܗ̱ 125-12346  # HE with macron
+letter ܗ݁ 125-2  # HE and QUSHSHAYA
+letter ܗ݂ 125-3  # HE and RUKKAKHA
+letter ܘ 2456  # WAW
+letter ܘ݁ 2456-2  # WAW and QUSHSHAYA
+letter ܘ݂ 2456-3  # WAW and RUKKAKHA
+letter ܙ 1356  # ZAIN
+letter ܙ݁ 1356-2  # ZAIN and QUSHSHAYA
+letter ܙ݂ 1356-3  # ZAIN and RUKKAKHA
+letter ܚ 1346  # HETH
+letter ܚ݁ 1346-2  # HETH and QUSHSHAYA
+letter ܚ݂ 1346-3  # HETH and RUKKAKHA
+letter ܛ 2345  # TETH
+letter ܛ݁ 2345-2  # TETH and QUSHSHAYA
+letter ܛ݂ 2345-3  # TETH and RUKKAKHA
+letter ܜ 26-2345  # TETH GARSHUNI
+letter ܜ݁ 26-2345-2  # TETH GARSHUNI and QUSHSHAYA
+letter ܜ݂ 26-2345-3  # TETH GARSHUNI and RUKKAKHA
+letter ܝ 245  # YUDH
+letter ܝ݁ 245-2  # YUDH and QUSHSHAYA
+letter ܝ݂ 245-3  # YUDH and RUKKAKHA
+letter ܞ 245-125  # YUDH HE
+letter ܞ݁ 245-125-2  # YUDH HE and QUSHSHAYA
+letter ܞ݂ 245-125-3  # YUDH HE and RUKKAKHA
+letter ܟ 13  # KAPH
+letter ܟ݁ 13-2  # KAPH and QUSHSHAYA
+letter ܟ݂ 13-3-3  # KAPH and RUKKAKHA
+letter ܠ 123  # LAMADH
+letter ܠ݁ 123-2  # LAMADH and QUSHSHAYA
+letter ܠ݂ 123-3  # LAMADH and RUKKAKHA
+letter ܡ 134  # MIM
+letter ܡ݁ 134-2  # MIM and QUSHSHAYA
+letter ܡ݂ 134-3  # MIM and RUKKAKHA
+letter ܢ 1345  # NUN
+letter ܢ݁ 1345-2  # NUN and QUSHSHAYA
+letter ܢ݂ 1345-3  # NUN and RUKKAKHA
+letter ܣ 234  # SEMKATH
+letter ܣ݁ 234-2  # SEMKATH and QUSHSHAYA
+letter ܣ݂ 234-3  # SEMKATH and RUKKAKHA
+letter ܤ 26-234  # FINAL SEMKATH
+letter ܤ݁ 26-234-2  # FINAL SEMKATH and QUSHSHAYA
+letter ܤ݂ 26-234-3  # FINAL SEMKATH and RUKKAKHA
+letter ܥ 1246  # E
+letter ܥ݁ 1246-2  # E and QUSHSHAYA
+letter ܥ݂ 1246-3  # E and RUKKAKHA
+letter ܦ 1234  # PE
+letter ܦ݁ 1234-2  # PE and QUSHSHAYA
+letter ܦ݂ 1234-3  # PE and RUKKAKHA
+letter ܧ 26-1234  # REVERSED PE
+letter ܧ݁ 26-1234-2  # REVERSED PE and QUSHSHAYA
+letter ܧ݂ 26-1234-3  # REVERSED PE and RUKKAKHA
+letter ܨ 2346  # SADHE
+letter ܨ݁ 2346-2  # SADHE and QUSHSHAYA
+letter ܨ݂ 2346-3  # SADHE and RUKKAKHA
+letter ܩ 12345  # QAPH
+letter ܩ݁ 12345-2  # QAPH and QUSHSHAYA
+letter ܩ݂ 12345-3  # QAPH and RUKKAKHA
+letter ܪ 1235  # RISH
+letter ܪ݁ 1235-2  # RISH and QUSHSHAYA
+letter ܪ݂ 1235-3  # RISH and RUKKAKHA
+letter ܫ 146  # SHIN
+letter ܫ݂ 146-3  # SHIN and RUKKAKHA
+letter ܬ 1256  # TAW
+letter ܬ݁ 1256-2  # TAW and QUSHSHAYA
+letter ܬ݂ 1256-3  # TAW and RUKKAKHA
+letter ܭ 26  # PERSIAN BHETH
+letter ܮ 26-2356  # PERSIAN GHAMAL
+letter ܯ 26-256  # PERSIAN DHALATH
+letter ܰ 12356  # Pthaha ABOVE
+letter ܱ 16  # Pthaha BELOW
+letter ܲ 14  # Pthaha DOTTED
+letter ܳ 345  # Zqapha ABOVE
+letter ܴ 156  # Zqapha BELOW
+letter ܵ 126  # Zqapha DOTTED
+letter ܶ 15  # Rbasa ABOVE
+letter ܷ 26  # Rbasa BELOW
+letter ܸ 34  # DOTTED ZLAMA HORIZONTAL
+letter ܹ 456  # DOTTED ZLAMA ANGULAR
+letter ܺ 24  # Hbasa ABOVE
+letter ܻ 35  # Hbasa  BELOW
+letter ܼ 26  # Hbasa-Esasa DOTTED
+letter ܽ 136  # ESASA ABOVE
+letter ܾ 1236  # ESASA BELOW
+letter ܿ 135  # Rwaha
+letter ݀ 5-124  # FEMININE DOT
+letter ݁ 2  # QUSHSHAYA
+letter ݂ 3  # RUKKAKHA
+letter ݃ 256-12  # TWO VERTICAL DOTS ABOVE
+letter ݄ 356-256  # TWO VERTICAL DOTS BELOW
+letter ݅ 256-125  # THREE DOTS ABOVE
+letter ݆ 356  # THREE DOTS BELOW
+letter ݇ 256-45  # OBLIQUE LINE ABOVE
+letter ݈ 256  # OBLIQUE LINE BELOW
+letter ݉ 256-146  # MUSIC
+letter ݊ 256-1236  # BARREKH
+letter ݍ 26-1356  # SOGDIAN ZHAIN
+letter ݎ 26-13  # SOGDIAN KHAPH
+letter ݏ 26-124  # SOGDIAN FE
+
+# punctuation op code characters
+punctuation ̄ 45-4-36  # macron above
+punctuation ̈ 45-25  #  Combining Diaeresis.
+punctuation ̱ 45-4-36  # Macron Below
+punctuation ܀ 256-1234  # END OF PARAGRAPH
+punctuation ܁ 235  # SUPRALINEAR FULL STOP
+punctuation ܂ 256  # SUBLINEAR FULL STOP
+punctuation ܃ 256-14  # SUPRALINEAR COLON
+punctuation ܄ 256-36  # SUBLINEAR COLON
+punctuation ܅ 356-256-25  # HORIZONTAL COLON
+punctuation ܆ 236  # COLON SKEWED LEFT
+punctuation ܇ 356  # COLON SKEWED RIGHT
+punctuation ܈ 256-156  # SUPRALINEAR COLON SKEWED LEFT
+punctuation ܉ 256-234  # SUBLINEAR COLON SKEWED RIGHT
+punctuation ܊ 256-3  # CONTRACTION
+punctuation ܋ 256-135  # HARKLEAN OBELUS
+punctuation ܌ 256-134  # HARKLEAN METOBELUS
+punctuation ܍ 356-256-35  # HARKLEAN ASTERISCUS
+punctuation ܏ 256-1  # ABBREVIATION MARK
+include spaces.uti
+include litdigits6Dots.uti
+include latinLetterdef6Dots.uti

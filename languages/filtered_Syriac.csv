@@ -22,8 +22,8 @@ Character,Hex,Type,Name,Braille
 ܢ݁,0722+0741,letter,NUN and QUSHSHAYA,⠝⠂
 ܝ݁,071D+0741,letter,YUDH and QUSHSHAYA,⠚⠂
 ܝ݂,071D+0742,letter,YUDH and RUKKAKHA,⠚⠄
-ܞ݁,071E+0741,letter,YUDH HE and QUSHSHAYA,⠢⠚⠂
-ܞ݂,071E+0742,letter,YUDH HE and RUKKAKHA,⠢⠚⠄
+ܞ݁,071E+0741,letter,YUDH HE and QUSHSHAYA,⠚⠓⠂
+ܞ݂,071E+0742,letter,YUDH HE and RUKKAKHA,⠚⠓⠄
 ܡ݂,0721+0742,letter,MIM and RUKKAKHA,⠍⠄
 ܟ݁,071F+0741,letter,KAPH and QUSHSHAYA,⠅⠂
 ܟ݂,071F+0742,letter,KAPH and RUKKAKHA,⠅⠄⠄
@@ -68,8 +68,8 @@ Character,Hex,Type,Name,Braille
 ܀,0700,punctuation,END OF PARAGRAPH,⠲⠏
 ܳ,0733,letter,Zqapha ABOVE,⠜
 ݃,0743,letter,TWO VERTICAL DOTS ABOVE,⠲⠃
-̄,0304,letter,macron above,⠸⠁
-̱,0331,letter,Macron Below,⠸⠃
+̄,0304,punctuation,macron above,⠘⠈⠤
+̱,0331,punctuation,Macron Below,⠘⠈⠤
 ݏ,074F,letter,SOGDIAN FE,⠢⠋
 ݎ,074E,letter,SOGDIAN KHAPH,⠢⠅
 ݍ,074D,letter,SOGDIAN ZHAIN,⠢⠵
@@ -129,11 +129,11 @@ Character,Hex,Type,Name,Braille
 ܁,0701,punctuation,SUPRALINEAR FULL STOP,⠖
 ܠ,0720,letter,LAMADH,⠇
 ܟ,071F,letter,KAPH,⠅
-ܞ,071E,letter,YUDH HE,⠢⠚
+ܞ,071E,letter,YUDH HE,⠚⠓
 ܝ,071D,letter,YUDH,⠚
 ܜ,071C,letter,TETH GARSHUNI,⠢⠞
 ܛ,071B,letter,TETH,⠞
 ܚ,071A,letter,HETH,⠭
 ܙ,0719,letter,ZAIN,⠵
 ܘ,0718,letter,WAW,⠺
-̈,0308,letter, Combining Diaeresis.,⠸⠆
+̈,0308,punctuation, Combining Diaeresis.,⠘⠒

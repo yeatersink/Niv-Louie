@@ -134,6 +134,6 @@ Character,Hex,Type,Name,Braille
 ݍ,074D,letter,SOGDIAN ZHAIN,⠢⠵
 ݎ,074E,letter,SOGDIAN KHAPH,⠢⠅
 ݏ,074F,letter,SOGDIAN FE,⠢⠋
-̱,0331,letter,Macron Below,⠸⠃
-̄,0304,letter,macron above,⠸⠁
-̈,0308,letter, Combining Diaeresis.,⠸⠆
+̱,0331,punctuation,Macron Below,⠘⠈⠤
+̄,0304,punctuation,macron above,⠘⠈⠤
+̈,0308,punctuation, Combining Diaeresis.,⠘⠒
