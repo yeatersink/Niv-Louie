@@ -66,7 +66,7 @@ languages=[
 #-maintainer: Paul Geoghegan <contact@envisionly.tech>
 #-maintainer: Matityhau Yeshurun <yeatersink@gmail.com>
 """},
-{"name":"Syriac","language_code":"syc","language_system_code":"syc","name_column":"Name","char_column":"Character","braille_column":"Braille","replace":[],"language_information":"""
+{"name":"Syriac","language_code":"syc","language_system_code":"syc","name_column":"Name","char_column":"Character","braille_column":"Braille","replace":[],"included_braille_tables":["spaces.uti","litdigits6Dots.uti","latinLetterdef6Dots.uti"],"language_information":"""
 #This table provides support for ʾEsṭrangēlā, Maḏnḥāyā and Serṭā Syriac also known as  Old, Eastern and Western Syriac. 
 #For more information, please see: 
 #https://en.wikipedia.org/wiki/Syriac_language

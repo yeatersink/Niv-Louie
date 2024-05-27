@@ -33,7 +33,7 @@ Character,Hex,Logic,Type,Name,Braille
 בּ,FB31,3,always,Bet with dagesh,⠃
 בְּ,FB31+05B0,3,always,Bet with dagesh sheva,⠃⠄
 ב,05D1,8,letter,bet,⠧
-ב,05D1+05BF,009,bet with rafe,⠧
+בֿ,05D1+05BF,009,always,bet with rafe,⠧
 ג,05D2,8,letter,gimel,⠛
 דּ,05D3+05BC,186,always,dalet with dagesh,⠐⠙
 דְּ,05D3+05BC+05B0,186,always,dalet with dagesh sheva,⠐⠙⠄
@@ -74,7 +74,7 @@ Character,Hex,Logic,Type,Name,Braille
 פּ,05E4+05BC,8,always,pe with dagesh,⠏
 פְּ,05E4+05BC+05B0,8,always,pe with dagesh sheva,⠏⠄
 פ,05E4,214,letter,Pe,⠋
-פ,05E4+05BF,001,Pe with rafe,⠋
+פֿ,05E4+05BF,001,always,Pe with rafe,⠋
 ץ,05E5,8,letter,letter final tsadi,⠮
 צ,05E6,8,letter,letter tsadi,⠮
 קּ,05E7+05BC,186,always,letter qof with dagesh,⠐⠟
@@ -94,8 +94,8 @@ Character,Hex,Logic,Type,Name,Braille
 װ,05F0,8,letter,double vav*,⠺⠺
 ױ,05F1,8,letter,vav yod*,⠺⠚
 ײ,05F2,8,letter,double yod*,⠚⠚
-ײַ,FB1F,08,letter, Double Yod with patah,⠚⠚⠉
-֑,0591,punctuation,atnokta,⠆
+ײַ,FB1F,08,letter,Double Yod with patah,⠚⠚⠉
+֑,0591,8,punctuation,atnokta,⠆
 ֒,0592,8,letter,accent segol* - isolated,⠨⠎
 ֓,0593,8,letter,accent shalshelet,⠨⠩
 ֔,0594,8,letter,accent zaqef qatan,⠂
@@ -103,7 +103,7 @@ Character,Hex,Logic,Type,Name,Braille
 ֖,0596,8,letter,accent tipeha,⠨⠞
 ֗,0597,8,letter,accent revia,⠨⠗
 ֘,0598,8,letter,accent zarqa,⠨⠙
-֙0,599,8,letter,accent pashta,⠨⠌
+֙,0599,8,letter,accent pashta,⠨⠌
 ֚,059A,8,letter,accent yetiv,⠨⠚
 ֛,059B,8,letter,accent tevir,⠨⠧
 ֜,059C,8,letter,accent geresh,⠨⠁
@@ -126,23 +126,23 @@ Character,Hex,Logic,Type,Name,Braille
 ֭,05AD,8,letter,accent dehi,⠨⠊
 ֮,05AE,8,letter,accent zinor,⠨⠵
 ֯,05AF,8,letter,mark masora circle,⠸⠍
-✔,U+2714,,sign,Check Mark Distinguishes Same kind of Varient,⠷
-✕,U+2715,,sign,Mark beginning of Replacement,⠗
-✖,U+2716,,sign,Mark Ends of Replacement,⠺
-✗,U+2717,,sign,Mark for  Insertion,⠊
-✘,U+2718,,sign,Marks Varients with in Apparatus,⠔
-✙,fU+2719,,sign,  Marks end of Replaced text,⠾⠠
-❁,U+2741,,sign,Reference to LXX,⠇⠭⠭
-❍,U+274D,,sign,Marks Omitted Word,⠕
-❏,U+274F,,sign,Marks End of Omited word,⠕⠠
-❐,U+2750,,sign,Marks Replaced Word,⠗
-❑,U+2751,,sign,Mark that Distinguishes between Varient,⠟
-❘,U+2758,,sign,Mark that separates variations,⠳
-❙,U+2759,,sign,Mark that indicates Alternative readings,⠞
-❚,U+275A,,sign,Mark indicates varrnt punctuation,⠉
-❥,U+2765,,sign,Marks distinguishes between varient,⠡⠠
-❦,U+2766,,sign,Marks beginning of transposition,⠠⠱
-❧,U+2767,,sign,Check Marks end of transposition,⠱⠠
+✔,2714,,sign,Check Mark Distinguishes Same kind of Varient,⠷
+✕,2715,,sign,Mark beginning of Replacement,⠗
+✖,2716,,sign,Mark Ends of Replacement,⠺
+✗,2717,,sign,Mark for  Insertion,⠊
+✘,2718,,sign,Marks Varients with in Apparatus,⠔
+✙,2719,,sign,  Marks end of Replaced text,⠾⠠
+❁,2741,,sign,Reference to LXX,⠇⠭⠭
+❍,274D,,sign,Marks Omitted Word,⠕
+❏,274F,,sign,Marks End of Omited word,⠕⠠
+❐,2750,,sign,Marks Replaced Word,⠗
+❑,2751,,sign,Mark that Distinguishes between Varient,⠟
+❘,2758,,sign,Mark that separates variations,⠳
+❙,2759,,sign,Mark that indicates Alternative readings,⠞
+❚,275A,,sign,Mark indicates varrnt punctuation,⠉
+❥,2765,,sign,Marks distinguishes between varient,⠡⠠
+❦,2766,,sign,Marks beginning of transposition,⠠⠱
+❧,2767,,sign,Check Marks end of transposition,⠱⠠
 *,,,sign,*,⠐⠦
 +,,,sign,+,⠐⠖
 /,,,sign,/,⠐⠌
