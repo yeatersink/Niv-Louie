@@ -177,6 +177,9 @@ punctuation ܋ 256-135  # HARKLEAN OBELUS
 punctuation ܌ 256-134  # HARKLEAN METOBELUS
 punctuation ܍ 356-256-35  # HARKLEAN ASTERISCUS
 punctuation ܏ 256-1  # ABBREVIATION MARK
+
+# Include additional braille tables
 include spaces.uti
 include litdigits6Dots.uti
-include latinLetterdef6Dots.uti
+include latinLetterDef6Dots.uti
+include en-ueb-chardefs.uti

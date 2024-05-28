@@ -35,35 +35,47 @@
 #This braille code was developed by a group of both blind and sighted scholars in an academic setting.
 #-maintainer: Paul Geoghegan <contact@envisionly.tech>
 #-maintainer: Matityhau Yeshurun <yeatersink@gmail.com>
-letter 𐎀 1
-letter 𐎐 1345
-letter 𐎝 234-1256
-letter 𐎜 136
-letter 𐎛 24
-letter 𐎚 2345
-letter 𐎙 45-34-1245
-letter 𐎘 1456
-letter 𐎗 1235
-letter 𐎖 12345
-letter 𐎕 5-234
-letter 𐎔 1234
-letter 𐎓 1246
-letter 𐎒 12346
-letter 𐎑 5-1356
-letter 𐎏 56-145
-letter 𐎁 12
-letter 𐎎 134
-letter 𐎍 123
-letter 𐎌 146
-letter 𐎋 13
-letter 𐎊 13456
-letter 𐎉 5-2345
-letter 𐎈 1346
-letter 𐎇 1356
-letter 𐎆 2456
-letter 𐎅 125
-letter 𐎄 145
-letter 𐎃 16
-letter 𐎂 1245
-punctuation 𐎟 36
-space \s 0
+
+# letter op code characters
+letter 𐎀 1  # ALPA
+letter 𐎁 12  # BETA
+letter 𐎂 1245  # GAMLA
+letter 𐎃 16  # KHA
+letter 𐎄 145  # DELTA
+letter 𐎅 125  # HO
+letter 𐎆 2456  # WO
+letter 𐎇 1356  # ZETA
+letter 𐎈 1346  # HOTA
+letter 𐎉 5-2345  # TET
+letter 𐎊 13456  # YOD
+letter 𐎋 13  # KAF
+letter 𐎌 146  # SHIN
+letter 𐎍 123  # LAMDA
+letter 𐎎 134  # MEM
+letter 𐎏 56-145  # DHAL
+letter 𐎐 1345  # NUN
+letter 𐎑 5-1356  # ZU
+letter 𐎒 12346  # SAMKA
+letter 𐎓 1246  # AIN
+letter 𐎔 1234  # PU
+letter 𐎕 5-234  # SADE
+letter 𐎖 12345  # QOPA
+letter 𐎗 1235  # RASHA
+letter 𐎘 1456  # THANNA
+letter 𐎙 45-34-1245  # GHAIN
+letter 𐎚 2345  # TO
+letter 𐎛 24  # I
+letter 𐎜 136  # U
+letter 𐎝 234-1256  # SSU
+
+# punctuation op code characters
+punctuation 𐎟 36  # WORD DIVIDER
+
+# space op code characters
+space \s 0  # space
+
+# Include additional braille tables
+include spaces.uti
+include litdigits6Dots.uti
+include latinLetterDef6Dots.uti
+include en-ueb-chardefs.uti

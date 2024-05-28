@@ -10,7 +10,7 @@
 #language_information: a string that contains information about the language for Lib Louis
 #contributors: a string that contains information about the people who have contributed to the project
 languages=[
-    {"name":"Akkadian","language_code":"akk","language_system_code":"akk-oracc","name_column":"Name","char_column":"Character","braille_column":"Braille","replace":["CUNEIFORM SIGN","included_braille_tables":["spaces.uti","litdigits6Dots.uti","latinLetterDef6Dots.uti","en-ueb-chardefs.uti"],"language_information":"""
+    {"name":"Akkadian","language_code":"akk","language_system_code":"akk-oracc","name_column":"Name","char_column":"Character","braille_column":"Braille","replace":["CUNEIFORM SIGN"],"included_braille_tables":["spaces.uti","litdigits6Dots.uti","latinLetterDef6Dots.uti","en-ueb-chardefs.uti"],"language_information":"""
 #Cuneiform, generally known as Akkadian, is a writing system that was used through several stages of development, from the 31st century BC down to the second century AD, and preserves documents in several languages which span from Sumerian to Greek.  
 #There is no braille standard set for these languages or this writing system. Thus, this table is extremely innovative, but does provide access to nearly all of the Cuneiform signs that are currently offered in Unicode.  This table represents the names of the American  system and is different than the German (Borger) system. 
 #for more information on the Akkadian language, please go to:
@@ -67,7 +67,7 @@ languages=[
 #-maintainer: Paul Geoghegan <contact@envisionly.tech>
 #-maintainer: Matityhau Yeshurun <yeatersink@gmail.com>
 """},
-{"name":"Syriac","language_code":"syc","language_system_code":"syc","name_column":"Name","char_column":"Character","braille_column":"Braille","replace":[],"included_braille_tables":["spaces.uti","litdigits6Dots.uti","latinLetterdef6Dots.uti"],"language_information":"""
+{"name":"Syriac","language_code":"syc","language_system_code":"syc","name_column":"Name","char_column":"Character","braille_column":"Braille","replace":[],"included_braille_tables":["spaces.uti","litdigits6Dots.uti","latinLetterDef6Dots.uti","en-ueb-chardefs.uti"],"language_information":"""
 #This table provides support for ʾEsṭrangēlā, Maḏnḥāyā and Serṭā Syriac also known as  Old, Eastern and Western Syriac. 
 #For more information, please see: 
 #https://en.wikipedia.org/wiki/Syriac_language
@@ -85,7 +85,7 @@ languages=[
 #-maintainer: Paul Geoghegan <contact@envisionly.tech>
 #-maintainer: Matityhau Yeshurun <yeatersink@gmail.com>
 """},    \
-        {"name":"Ugaritic","language_code":"uga","language_system_code":"uga-oracc","name_column":"Name","char_column":"Character(decimal)","braille_column":"Braille","replace":["UGARITIC LETTER","UGARITIC "],"language_information":"""
+        {"name":"Ugaritic","language_code":"uga","language_system_code":"uga-oracc","name_column":"Name","char_column":"Character(decimal)","braille_column":"Braille","replace":["UGARITIC LETTER","UGARITIC "],"included_braille_tables":["spaces.uti","litdigits6Dots.uti","latinLetterDef6Dots.uti","en-ueb-chardefs.uti"],"language_information":"""
 #for more information on the Ugaritic language, please go to:
 #https://oracc.museum.upenn.edu/aemw/ugarit/corpus
 #The standard for Ugaritic has been set by the academic community represented by ORACC. The braille code for Ugaritic follows the standard set by ORACC. The braille code for Ugaritic is represented in braille as the name for the sign in Ugaritic. Thus, if the Ugaritic sign is a "Alepha," then the braille code for this sign would be a.

@@ -123,6 +123,8 @@ uppercase Ṯ 6-1456  # Capital T with Line Below
 uppercase Ẓ 6-5-1356  # Capital Z with Dot Below
 uppercase ꟳ 46-6-124  # Subscript Capitol f
 uppercase 󑴰 46  # Subscript Capitol d
+
+# Include additional braille tables
 include spaces.uti
 include litdigits6Dots.uti
 include latinLetterDef6Dots.uti

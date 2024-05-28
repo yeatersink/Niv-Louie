@@ -34,6 +34,7 @@
 #also see: 
 #https://huc.edu/library_blog/learning-about-hebrew-braille/#:~:text=The%20Code%20created%20by%20Brevis,books%20written%20in%20Hebrew%20Braille.
 
+#Special thank you to Ray McAllestor and Matthew Yeater for developing the braille for the cantillation. Also to Abby Howell for the suggestions to include support for Yiddish. Extra gratitude to Sarah LaRose, Eric Harvey, and Leonard de Ruijder for the helpful suggestions. 
 #-maintainer: Paul Geoghegan <contact@envisionly.tech>
 #-maintainer: Matityhau Yeshurun <yeatersink@gmail.com>
 
@@ -41,7 +42,7 @@
 always ִי 35  # hiriq-yod
 always ֵי 3456  # tsere-yod
 always ּו 136  # shuruq
-always ּוְ 136-3  # Vav with dagesh sheva
+always ּוְ 136-3  # Shuriq sheva
 always בְּ 12-3  # bet with dagesh sheva
 always בּ 12  # bet with dagesh
 always בֿ 1236  # bet with rafe
@@ -171,13 +172,6 @@ punctuation ׃ 256  # sof pasuq
 punctuation ״ 356  # gershayim
 
 # sign op code characters
-sign * 5-35  # nan
-sign + 5-235  # +
-sign / 5-34  # /
-sign < 4-126  # <
-sign > 4-345  # >
-sign ^ 4-26  # ^
-sign _ 46-36  # _
 sign ✔ 12356  # Check Mark Distinguishes Same kind of Varient
 sign ✕ 1235  # Mark beginning of Replacement
 sign ✖ 2456  # Mark Ends of Replacement
@@ -195,6 +189,9 @@ sign ❚ 14  # Mark indicates varrnt
 sign ❥ 345  # Marks distinguishes between varient
 sign ❦ 126  # Marks beginning of transposition
 sign ❧ 156  # Check Marks end of transposition
+
+# Include additional braille tables
 include spaces.uti
 include litdigits6Dots.uti
 include latinLetterDef6Dots.uti
+include en-ueb-chardefs.uti

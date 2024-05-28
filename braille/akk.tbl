@@ -961,5 +961,8 @@ letter 𒎗 2345-24  # TI2
 letter 𒎘 136-134-16-134-15  # UM TIMES ME
 letter 𒎙u 136  # U U
 
-# space op code characters
-space \s 0-0  # space
+# Include additional braille tables
+include spaces.uti
+include litdigits6Dots.uti
+include latinLetterDef6Dots.uti
+include en-ueb-chardefs.uti

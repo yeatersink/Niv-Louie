@@ -65,6 +65,7 @@ def create_braille_table(language_option):
             warnings.warn("this line was missing it's braille. This may be a mistake in your table. Character: "+row[languages[language_option]["char_column"]])
 
     if len(languages[language_option]["included_braille_tables"]) > 0:
+        braille_table.write("\n# Include additional braille tables\n")
         for table in languages[language_option]["included_braille_tables"]:
             braille_table.write("include "+table+"\n")
     #The braille table is closed to prevent memory leaks
