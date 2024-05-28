@@ -43,7 +43,7 @@ Character,Hex,Logic,Type,Name,Braille
 וֹ,05D5+05B9,201,always,holam-vav*,⠪
 וּ,05D5+05BC,201,always,shuruq,⠥
 ּו,05BC+05D5,201,always,shuruq,⠥
-ּוְ,05BC+05D5+05B0,201,always,Vav with dagesh sheva,⠥⠄
+ּוְ,05BC+05D5+05B0,201,always,Shuriq sheva,⠥⠄
 ו,05D5,8,letter,vav,⠺
 ז,05D6,8,letter,zayin,⠵
 ח,05D7,8,letter,letter het,⠭
@@ -143,10 +143,3 @@ Character,Hex,Logic,Type,Name,Braille
 ❥,2765,,sign,Marks distinguishes between varient,⠜
 ❦,2766,,sign,Marks beginning of transposition,⠣
 ❧,2767,,sign,Check Marks end of transposition,⠱
-*,,,sign,*,⠐⠔
-+,,,sign,+,⠐⠖
-/,,,sign,/,⠐⠌
-_,,,sign,_,⠨⠤
-^,,,sign,^,⠈⠢
-<,,,sign,<,⠈⠣
->,,,sign,>,⠈⠜

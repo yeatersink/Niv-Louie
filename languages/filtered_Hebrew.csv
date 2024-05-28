@@ -1,5 +1,5 @@
 Character,Hex,Type,Name,Braille
-ּוְ,05BC+05D5+05B0,always,Vav with dagesh sheva,⠥⠄
+ּוְ,05BC+05D5+05B0,always,Shuriq sheva,⠥⠄
 בְּ,05D1+05B0+05BC,always,bet with dagesh sheva,⠃⠄
 שְׂ,05E9+05B0+05C2,always, Sin sheva,⠱⠄
 שְׁ,05E9+05B0+05C1,always, Shin with dot and sheva,⠩⠄
@@ -143,10 +143,3 @@ Character,Hex,Type,Name,Braille
 ה,05D4,letter,hey,⠓
 ד,05D3,letter,dalet,⠙
 ❧,2767,sign,Check Marks end of transposition,⠱
-*,,sign,,⠐⠔
-+,,sign,+,⠐⠖
-/,,sign,/,⠐⠌
-_,,sign,_,⠨⠤
-^,,sign,^,⠈⠢
-<,,sign,<,⠈⠣
->,,sign,>,⠈⠜

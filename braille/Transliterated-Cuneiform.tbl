@@ -5,16 +5,7 @@
 #-index-name: Transliterated-Cuneiform uncontracted
 #-display-name: Transliterated-Cuneiform uncontracted
 #
-#+language: akk-Latn
-#+language: xhu-Latn
-#+language: uga-Latn
-#+language: peo-Latn
-#+language: sux-Latn
-#+language: xeb-Latn
-#+language: elx-Latn
-#+language: hit-Latn
-#+language: xur-Latn
-#+language: xlu-Latn
+#+language:Transliterated-Cuneiform
 #+type:literary
 #+contraction:no
 #+system:Transliterated-Cuneiform-oracc
@@ -44,154 +35,95 @@
 #This braille code was developed by a group of both blind and sighted scholars in an academic setting.
 #-maintainer: Paul Geoghegan <contact@envisionly.tech>
 #-maintainer: Matityhau Yeshurun <yeatersink@gmail.com>
-punctuation ⸤ 46-126
-uppercase Ẓ 6-5-1356
-lowercase ṣ 5-234
-uppercase Ṣ 6-5-234
-letter ẓ 5-1356
-punctuation ⸥ 46-345
-punctuation ⸣ 46-345
-punctuation ⸢ 46-126
-digit ₈ 26-3456-125
-digit ₉ 26-3456-24
-uppercase Û 6-45-146-136
-lowercase ḏ 56-145
-lowercase ʳ 1235
-lowercase ṭ 5-2345
-uppercase Ṭ 6-5-2345
-letter ₓ 26-1346
-lowercase ḫ 16
-uppercase Ḫ 6-16
-lowercase ŋ 5-245
-digit ₇ 26-3456-1245
-uppercase Ŋ 6-5-245
-math × 5-236
-uppercase Î 6-45-146-24
-letter ʿ 5-1246
-digit ₁ 26-3456-1
-digit ₂ 26-3456-12
-digit ₃ 26-3456-14
-digit ₄ 26-3456-145
-digit ₅ 26-3456-15
-digit ₆ 26-3456-124
-letter ʾ 1246
-uppercase Ṯ 6-1456
-uppercase Ê 6-45-146-15
-lowercase û 45-146-136
-lowercase í 45-34-24
-lowercase ú 45-34-136
-uppercase Á 6-45-34-1
-uppercase É 6-45-34-15
-uppercase Í 6-45-34-24
-uppercase Ú 6-45-34-136
-lowercase ś 45-34-234
-uppercase Ś 6-45-34-234
-lowercase ṯ 1456
-uppercase Ǵ 6-45-34-1245
-lowercase ì 45-16-24
-lowercase ù 45-16-136
-uppercase À 6-45-16-1
-uppercase È 6-45-16-15
-uppercase Ì 6-45-16-24
-uppercase Ù 6-45-16-136
-lowercase ǵ 45-34-1245
-lowercase ī 4-36-24
-lowercase ū 4-36-136
-lowercase ᵈ 46-145
-uppercase Ī 6-4-36-24
-uppercase Ū 6-4-36-136
-uppercase Ḏ 6-56-145
-lowercase ê 45-146-15
-lowercase î 45-146-24
-uppercase Â 6-45-146-1
-uppercase Š 6-146
-lowercase š 146
-uppercase Ē 6-4-36-15
-uppercase Ā 6-4-36-1
-lowercase ē 4-36-15
-lowercase ā 4-36-1
-lowercase é 45-34-15
-lowercase â 45-146-1
-lowercase è 45-16-15
-lowercase à 45-16-1
-lowercase á 45-34-1
-lowercase a 1
-uppercase A 6-1
-lowercase b 12
-uppercase B 6-12
-lowercase c 14
-uppercase C 6-14
-lowercase d 145
-uppercase D 6-145
-lowercase e 15
-uppercase E 6-15
-lowercase f 124
-uppercase F 6-124
-lowercase g 1245
-uppercase G 6-1245
-lowercase h 125
-uppercase H 6-125
-lowercase i 24
-uppercase I 6-24
-lowercase j 245
-uppercase J 6-245
-lowercase k 13
-uppercase K 6-13
-lowercase l 123
-uppercase L 6-123
-lowercase m 134
-uppercase M 6-134
-lowercase n 1345
-uppercase N 6-1345
-lowercase o 135
-uppercase O 6-135
-lowercase p 1234
-uppercase P 6-1234
-lowercase q 12345
-uppercase Q 6-12345
-lowercase r 1235
-uppercase R 6-1235
-lowercase s 234
-uppercase S 6-234
-lowercase t 2345
-uppercase T 6-2345
-lowercase u 136
-uppercase U 6-136
-uppercase V 6-1236
-lowercase v 1236
-uppercase W 6-2456
-lowercase w 2456
-uppercase X 6-1346
-lowercase x 1346
-uppercase Y 6-13456
-lowercase y 13456
-lowercase z 1356
-uppercase Z 6-1356
-digit 1 1
-digit 2 12
-digit 3 14
-digit 4 145
-digit 5 15
-digit 6 124
-digit 7 1245
-digit 8 125
-digit 9 24
-digit 0 245
-sign * 5-236
-sign + 5-235
-sign / 5-34
-sign _ 26
-sign ^ 35
-sign < 4-126
-sign > 4-345
-sign # 3456
-sign $ 4-234
-sign & 4-12346
-sign % 46-356
-punctuation - 36
-punctuation : 25
-punctuation ' 3
-punctuation . 256
-punctuation ? 56-236
-punctuation ! 235
-space \s 0
+
+# digit op code characters
+digit ₁ 26-3456-1  # SUBSCRIPT ONE
+digit ₂ 26-3456-12  # SUBSCRIPT TWO
+digit ₃ 26-3456-14  # SUBSCRIPT THREE
+digit ₄ 26-3456-145  # SUBSCRIPT FOUR
+digit ₅ 26-3456-15  # SUBSCRIPT FIVE
+digit ₆ 26-3456-124  # SUBSCRIPT SIX
+digit ₇ 26-3456-1245  # SUBSCRIPT SEVEN
+digit ₈ 26-3456-125  # SUBSCRIPT EIGHT
+digit ₉ 26-3456-24  # SUBSCRIPT NINE
+
+# letter op code characters
+letter ʾ 1246  # RIGHT HALF RING
+letter ʿ 5-1246  # LEFT HALF RING
+letter ẓ 5-1356  # Z with Dot Below
+letter ₓ 26-1346  # SUBSCRIPT SMALL X
+
+# lowercase op code characters
+lowercase à 45-16-1  # A WITH GRAVE
+lowercase á 45-34-1  # A WITH ACUTE
+lowercase â 45-146-1  # A WITH CIRCUMFLEX
+lowercase è 45-16-15  # E WITH GRAVE
+lowercase é 45-34-15  # E WITH ACUTE
+lowercase ê 45-146-15  # E WITH CIRCUMFLEX
+lowercase ì 45-16-24  # I WITH GRAVE
+lowercase í 45-34-24  # I WITH ACUTE
+lowercase î 45-146-24  # I WITH CIRCUMFLEX
+lowercase ù 45-16-136  # U WITH GRAVE
+lowercase ú 45-34-136  # U WITH ACUTE
+lowercase û 45-146-136  # U WITH CIRCUMFLEX
+lowercase ā 4-36-1  # A WITH MACRON
+lowercase ē 4-36-15  # E WITH MACRON
+lowercase ī 4-36-24  # I WITH MACRON
+lowercase ŋ 5-245  # ENG
+lowercase ś 45-34-234  # S WITH ACUTE
+lowercase š 146  # S WITH CARON
+lowercase ū 4-36-136  # U WITH MACRON
+lowercase ǵ 45-34-1245  # G with Acute
+lowercase ʳ 1235  # SMALL R
+lowercase ᵈ 46-145  # subscript D
+lowercase ᶠ 46-124  # Subscript f
+lowercase ḏ 56-145  # D with line below
+lowercase ḫ 16  # H WITH BREVE BELOW
+lowercase ṣ 5-234  # S WITH DOT BELOW
+lowercase ṭ 5-2345  # T WITH DOT BELOW
+lowercase ṯ 1456  # T with Line Below
+lowercase ₘ 46-134  # Subscript m
+
+# math op code characters
+math × 5-236  # MULTIPLICATION SIGN
+
+# punctuation op code characters
+punctuation ⸢ 46-126  # TOP LEFT HALF BRACKET
+punctuation ⸣ 46-345  # TOP RIGHT HALF BRACKET
+punctuation ⸤ 46-126  # BOTTOM LEFT HALF BRACKET
+punctuation ⸥ 46-345  # BOTTOM RIGHT HALF BRACKET
+
+# uppercase op code characters
+uppercase À 6-45-16-1  # CAPITAL A WITH GRAVE
+uppercase Á 6-45-34-1  # CAPITAL A WITH ACUTE
+uppercase Â 6-45-146-1  # CAPITAL A WITH CIRCUMFLEX
+uppercase È 6-45-16-15  # CAPITAL E WITH GRAVE
+uppercase É 6-45-34-15  # CAPITAL E WITH ACUTE
+uppercase Ê 6-45-146-15  # CAPITAL E WITH CIRCUMFLEX
+uppercase Ì 6-45-16-24  # CAPITAL I WITH GRAVE
+uppercase Í 6-45-34-24  # CAPITAL I WITH ACUTE
+uppercase Î 6-45-146-24  # CAPITAL I WITH CIRCUMFLEX
+uppercase Ù 6-45-16-136  # CAPITAL U WITH GRAVE
+uppercase Ú 6-45-34-136  # CAPITAL U WITH ACUTE
+uppercase Û 6-45-146-136  # CAPITAL U WITH CIRCUMFLEX
+uppercase Ā 6-4-36-1  # CAPITAL A WITH MACRON
+uppercase Ē 6-4-36-15  # CAPITAL E WITH MACRON
+uppercase Ī 6-4-36-24  # CAPITAL I WITH MACRON
+uppercase Ŋ 6-5-245  # CAPITAL ENG
+uppercase Ś 6-45-34-234  # CAPITAL S WITH ACUTE
+uppercase Š 6-146  # CAPITAL S WITH CARON
+uppercase Ū 6-4-36-136  # CAPITAL U WITH MACRON
+uppercase Ǵ 6-45-34-1245  # Capitol G with ACUTE
+uppercase ᴹ 46-6-134  # Subscript Capitol m
+uppercase Ḏ 6-56-145  # Capitol D with line below
+uppercase Ḫ 6-16  # CAPITAL H WITH BREVE BELOW
+uppercase Ṣ 6-5-234  # CAPITAL S WITH DOT BELOW
+uppercase Ṭ 6-5-2345  # CAPITAL T WITH DOT BELOW
+uppercase Ṯ 6-1456  # Capital T with Line Below
+uppercase Ẓ 6-5-1356  # Capital Z with Dot Below
+uppercase ꟳ 46-6-124  # Subscript Capitol f
+uppercase 󑴰 46  # Subscript Capitol d
+include spaces.uti
+include litdigits6Dots.uti
+include latinLetterDef6Dots.uti
+include en-ueb-chardefs.uti
