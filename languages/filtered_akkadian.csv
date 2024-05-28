@@ -1,4 +1,4 @@
-Character(decimal),Hex,Type,Name,Braille
+Character,Hex,Type,Name,Braille
 𒇩,121000000000,letter,LAGAB TIMES UD,⠇⠁⠛⠁⠃⠡⠥⠙
 𒋩,122000000000,letter,SUR,⠎⠥⠗
 𒃩,120000000000,letter,GA2 TIMES TAK4,⠛⠁⠡⠞⠁⠅⠲
@@ -910,7 +910,7 @@ Character(decimal),Hex,Type,Name,Braille
 𒄺,1213A,letter,HUB2 TIMES HAL,⠓⠥⠃⠡⠓⠁⠇
 𒄹,12139,letter,HUB2 TIMES AN,⠓⠥⠃⠡⠁⠝
 𒄸,12138,letter,HUB2,⠓⠥⠃
-𒎙,12399,letter,U,⠥
+𒎙u,12399,letter,U U,⠥
 𒄵,12135,letter,HI TIMES SHE,⠓⠊⠡⠩⠑
 𒄴,12134,letter,HI TIMES NUN,⠓⠊⠡⠝⠥⠝
 𒄳,12133,letter,HI TIMES KIN,⠓⠊⠡⠅⠊⠝
@@ -921,3 +921,4 @@ Character(decimal),Hex,Type,Name,Braille
 𒇠,121,letter,LAGAB TIMES SHU2 PLUS SHU2,⠇⠁⠛⠁⠃⠡⠩⠥⠬⠩⠥
 𒃠,120,letter,GA2 TIMES NUN,⠛⠁⠡⠝⠥⠝
 𒋠,122,letter,SIK2,⠎⠊⠅
+ ,,space, ,  

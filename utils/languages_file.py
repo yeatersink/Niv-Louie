@@ -10,13 +10,13 @@
 #language_information: a string that contains information about the language for Lib Louis
 #contributors: a string that contains information about the people who have contributed to the project
 languages=[
-    {"name":"Akkadian","language_code":"akk","language_system_code":"akk-oracc","name_column":"Name","char_column":"Character","braille_column":"Braille","replace":["CUNEIFORM SIGN"],"language_information":"""
+    {"name":"Akkadian","language_code":"akk","language_system_code":"akk-oracc","name_column":"Name","char_column":"Character","braille_column":"Braille","replace":["CUNEIFORM SIGN","included_braille_tables":["spaces.uti","litdigits6Dots.uti","latinLetterDef6Dots.uti","en-ueb-chardefs.uti"],"language_information":"""
 #Cuneiform, generally known as Akkadian, is a writing system that was used through several stages of development, from the 31st century BC down to the second century AD, and preserves documents in several languages which span from Sumerian to Greek.  
 #There is no braille standard set for these languages or this writing system. Thus, this table is extremely innovative, but does provide access to nearly all of the Cuneiform signs that are currently offered in Unicode.  This table represents the names of the American  system and is different than the German (Borger) system. 
 #for more information on the Akkadian language, please go to:
 #https://oracc.museum.upenn.edu/dcclt/signlists/signlists/
 ""","contributors":"""
-#This braille code was developed by a group of both blind and sighted scholars in an academic setting.
+#This braille code was developed by a group of both blind and sighted scholars in an academic setting. Special thank you to Louis Saenz,Inbal Baum, Shai Gordon for helping Matthew Yeater develop the braille code , and thank you to Ray McAllester, Sarah LaRose and Eric Harvey for their helpful contributions.  
 #-maintainer: Paul Geoghegan <contact@envisionly.tech>
 #-maintainer: Matityhau Yeshurun <yeatersink@gmail.com>
 """},
@@ -43,7 +43,7 @@ languages=[
 #This table is intended to provide support for the languages represented in the Cuneiform / Akkadian Writing system. This includes Sumerian, Hittite, Babylonian  Assyrian, Ugaritic and many others. Thus, the braille in this table reflects braille patterns commonly utilized in   other Semitic  languages such as Hebrew, Aramaic, and Syriac. For more information please see: 
 #http://oracc.ub.uni-muenchen.de/doc/help/languages/ugaritic/index.html
 ""","contributors":"""
-#This braille code was developed by a group of both blind and sighted scholars in an academic setting.
+#This braille code was developed by a group of both blind and sighted scholars in an academic setting. Special thank you to Inbal Baum for helping Matthew Yeaterand Ray McAllester develop this braille code. Special thank you to Sarah LaRose and Eric Harvey for their helpful suggestions.  
 #-maintainer: Paul Geoghegan <contact@envisionly.tech>
 #-maintainer: Matityhau Yeshurun <yeatersink@gmail.com>
 """},
@@ -63,6 +63,7 @@ languages=[
 #also see: 
 #https://huc.edu/library_blog/learning-about-hebrew-braille/#:~:text=The%20Code%20created%20by%20Brevis,books%20written%20in%20Hebrew%20Braille.
 ""","contributors":"""
+#Special thank you to Ray McAllestor and Matthew Yeater for developing the braille for the cantillation. Also to Abby Howell for the suggestions to include support for Yiddish. Extra gratitude to Sarah LaRose, Eric Harvey, and Leonard de Ruijder for the helpful suggestions. 
 #-maintainer: Paul Geoghegan <contact@envisionly.tech>
 #-maintainer: Matityhau Yeshurun <yeatersink@gmail.com>
 """},
@@ -71,7 +72,7 @@ languages=[
 #For more information, please see: 
 #https://en.wikipedia.org/wiki/Syriac_language
 ""","contributors":"""
-#This braille code was developed by a group of both blind and sighted scholars in an academic setting.
+#This braille code was developed by a group of both blind and sighted scholars in an academic setting. Special thank you to Paul Keim, Ray McAllestor, and Matthew Yeater for development of the braille code for this language.  Also thanks to Sarah LaRose for the suggestions while serving on the committee. 
 #-maintainer: Paul Geoghegan <contact@envisionly.tech>
 #-maintainer: Matityhau Yeshurun <yeatersink@gmail.com>
 """},

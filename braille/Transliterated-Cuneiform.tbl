@@ -32,7 +32,7 @@
 #This table is intended to provide support for the languages represented in the Cuneiform / Akkadian Writing system. This includes Sumerian, Hittite, Babylonian  Assyrian, Ugaritic and many others. Thus, the braille in this table reflects braille patterns commonly utilized in   other Semitic  languages such as Hebrew, Aramaic, and Syriac. For more information please see: 
 #http://oracc.ub.uni-muenchen.de/doc/help/languages/ugaritic/index.html
 
-#This braille code was developed by a group of both blind and sighted scholars in an academic setting.
+#This braille code was developed by a group of both blind and sighted scholars in an academic setting. Special thank you to Inbal Baum for helping Matthew Yeaterand Ray McAllester develop this braille code. Special thank you to Sarah LaRose and Eric Harvey for their helpful suggestions.  
 #-maintainer: Paul Geoghegan <contact@envisionly.tech>
 #-maintainer: Matityhau Yeshurun <yeatersink@gmail.com>
 

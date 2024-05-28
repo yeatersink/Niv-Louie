@@ -1,4 +1,4 @@
-Character(decimal),Decimal,Character(hex),Hex,Type,Name,Braille
+Character(decimal),Decimal,Character,Hex,Type,Name,Braille
 𒀀,73728,𒀀,12000,letter,CUNEIFORM SIGN A,⠁
 𒀁,73729,𒀁,12001,letter,CUNEIFORM SIGN A TIMES A,⠁⠡⠁
 𒀂,73730,𒀂,12002,letter,CUNEIFORM SIGN A TIMES BAD,⠁⠡⠃⠁⠙
@@ -921,4 +921,4 @@ Character(decimal),Decimal,Character(hex),Hex,Type,Name,Braille
 𒎗,74647,𒎗,12397,letter,CUNEIFORM SIGN TI2,⠞⠊
 𒎘,74648,𒎘,12398,letter,CUNEIFORM SIGN UM TIMES ME,⠥⠍⠡⠍⠑
 𒎙,74649,𒎙u,12399,letter,CUNEIFORM SIGN U U,⠥
-,, ,,space, ,  
+
