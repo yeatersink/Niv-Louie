@@ -1,89 +1,89 @@
 Character,Name,Hex,Logic,Type,Borger,Braille
-𒀸,ac,12038,1,letter,ac,ac
-𒀭,an,1202d,10,letter,an,an
-𒍤,numun2,12364,102,letter,numun2,numun2
-𒆸,Lagab,121b8,15,letter, Lagab,Lagab
-𒄃,gil,12103,105,letter,gil,gil
-𒋺,kid2,122fa,103,letter,kid2,kid2
-𒉫,Nun Crossing Nun,1226b,107,letter,Nun Crossing Nun,Nun Crossing Nun
-𒆐,kad2,12190,108,letter,kad2,kad2
-𒆑,kad3,12191,109,letter,kad3,kad3
-𒀸,accur,12038,11,letter,accur,accur
-𒋩,Sur,122000000000,106,letter,Sur,Sur
-𒈾,na,1223e,110,letter,na,na
-𒊒,ru,12292,111,letter,ru,ru
-𒉡,nu,12261,112,letter,nu,nu
-𒁁,bad,12041,113,letter,bad,bad
-𒋓,cir,122d3,115,letter,cir,cir
-𒆰,numun,121b0,117,letter,numun,numun
-𒋾,ti,122fe,118,letter,ti,ti
-𒁷,din,12077,119,letter,din,din
-𒈮,mug,1222e,12,letter,mug,mug
-𒈦,mac,12226,120,letter,mac,mac
-𒁇,bar,12047,120,letter,bar,bar
-𒑏,ban₂,1244f,120,letter,ban₂,ban₂
-𒈦𒃼,idigna,12226+120fc,124,letter,idigna,idigna
-𒄘,GU2',12118,112,letter,GU2',GU2'
-𒈦𒌋,gidim₂,12226+1230B,125,letter,gidim₂,gidim₂
-𒈦𒌋𒌋,maš-man,12226+1230B+1230B,126,letter,maš-man,maš-man
-𒀝,ag,1201D,127,letter,ag,ag
-𒀞,me3,1201e,129,letter,me3,me3
-𒈯,zadim,1222f,13,letter,zadim,zadim
-𒈧,mac2,12227,130,letter,mac2,mac2
-𒆲,kun,121b2,131,letter,kun,kun
-𒄷,hu,12137,132,letter,hu,hu
-𒄷𒋛,u5,12137+122db,133,letter,u5,u5
-𒉆,nam,12246,134,letter,nam,nam
-𒉆𒂟,buru5,12246+1209F,135,letter,buru5,buru5
-􀀇,buru5v,100007,135,letter,buru5v,buru5v
-𒅅,ig,12145,136,letter,ig,ig
-𒄷,mud,12137,137,letter,mud,mud
-Ĉ,Hi1212d,108,Hi ,letter,,Hi1212d
-𒄷,sa4,12137,138,letter,sa4,sa4
-𒈿,NA2 ,1223f,112,letter, NA2,NA2 
-𒋥,cita3,12200000,139,letter,cita3,cita3
-𒁀,ba,12040,14,letter,ba,ba
-𒍣,zi,12363,140,letter,zi,zi
-𒄀,gi,12100,141,letter,gi,gi
-𒊑,ri,12291,142,letter,ri,ri
-𒉣,nun,12263,143,letter,nun,nun
-𒉩,nun,12269,144,letter,nun,nun
-𒉣,tur3,12263,145,letter,tur3,tur3
-𒇬,Lagar,121ec,123,letter,Lagar,Lagar
-𒉥,immal,12265,146,letter,immal,immal
-𒉦,cilam,12266,147,letter,cilam,cilam
-𒆏,kab,1218f,148,letter,kab,kab
-𒍪,zu,1236a,15,letter,zu,zu
-𒄽,hub,1213d,150,letter,hub,hub
-𒋩,sur,122000000000,151,letter,sur,sur
-𒈽,muc2,1223d,152,letter,muc2,muc2
-𒈹,muc3,12239,153,letter,muc3,muc3
-𒈻,sed,1223b,155,letter,sed,sed
-𒃰,gad,120f0,157,letter,gad,gad
-𒃰,akkil,120f0,159,letter,akkil,akkil
-𒋺,Tak4,122fa,122,letter,Tak4,Tak4
-𒋛,SI',122db,125,letter,SI',SI'
-𒋢,su,12200,16,letter,su,su
-𒌢,umbin,12322,160,letter,umbin,umbin
-𒋒,cinig,122d2,162,letter,cinig,cinig
-𒃱,kinda,120f1,163,letter,kinda,kinda
-𒂗,en,12097,164,letter,en,en
-𒂘,buru14,12098,165,letter,buru14,buru14
-𒂙,En Times Gan2 Tenu,12099,123,letter,En Times Gan2 Tenu,En Times Gan2 Tenu
-𒁰,dar3,12070,166,letter,dar3,dar3
-𒁴,dim,12074,167,letter,dim,dim
-𒁵,mun,12075,168,letter,mun,mun
-𒁑,bulug,12051,169,letter,bulug,bulug
-𒊿,cen,122bf,17,letter,cen,cen
-𒋭,lal ,122ed,170,letter,lal3,lal 
-𒆯,ku7,121af,171,letter,ku7,ku7
-𒊓,sa,12293,172,letter,sa,sa
-𒀿,acgab,1203f,173,letter,acgab,acgab
-𒃷,gan2,120f7,174,letter,gan2,gan2
-𒃸,gan2,120f8,174,letter,gan2,gan2
-𒄘,gu2,12118,176,letter,gu2,gu2
-𒄛,usan,1211b,177,letter,usan,usan
-𒄙,dur,12119,178,letter,dur,dur
-𒄘,gun,12118,179,letter,gun,gun
-𒌦,Un,12326,111,letter,Un,Un
-𒀴,arad,12034,18,letter,arad,arad
+𒀸,ac,12038,1,letter,ac,⠁⠉
+𒀭,an,1202d,10,letter,an,⠁⠝
+𒍤,numun2,12364,102,letter,numun2,⠝⠥⠍⠥⠝
+𒆸,Lagab,121b8,15,letter, Lagab,⠠⠇⠁⠛⠁⠃
+𒄃,gil,12103,105,letter,gil,⠛⠊⠇
+𒋺,kid2,122fa,103,letter,kid2,⠅⠊⠙
+𒉫,Nun Crossing Nun,1226b,107,letter,Nun Crossing Nun,⠠⠝⠥⠝ ⠠⠉⠗⠕⠎⠎⠊⠝⠛ ⠠⠝⠥⠝
+𒆐,kad2,12190,108,letter,kad2,⠅⠁⠙
+𒆑,kad3,12191,109,letter,kad3,⠅⠁⠙⠒
+𒀸,accur,12038,11,letter,accur,⠁⠉⠉⠥⠗
+𒋩,Sur,122000000000,106,letter,Sur,⠠⠎⠥⠗
+𒈾,na,1223e,110,letter,na,⠝⠁
+𒊒,ru,12292,111,letter,ru,⠗⠥
+𒉡,nu,12261,112,letter,nu,⠝⠥
+𒁁,bad,12041,113,letter,bad,⠃⠁⠙
+𒋓,cir,122d3,115,letter,cir,⠉⠊⠗
+𒆰,numun,121b0,117,letter,numun,⠝⠥⠍⠥⠝
+𒋾,ti,122fe,118,letter,ti,⠞⠊
+𒁷,din,12077,119,letter,din,⠙⠊⠝
+𒈮,mug,1222e,12,letter,mug,⠍⠥⠛
+𒈦,mac,12226,120,letter,mac,⠍⠁⠉
+𒁇,bar,12047,120,letter,bar,⠃⠁⠗
+𒑏,ban₂,1244f,120,letter,ban₂,⠃⠁⠝
+𒈦𒃼,idigna,12226+120fc,124,always,idigna,⠊⠙⠊⠛⠝⠁
+𒄘,GU2',12118,112,letter,GU2',⠠⠛⠠⠥⠄
+𒈦𒌋,gidim₂,12226+1230B,125,always,gidim2,⠛⠊⠙⠊⠍
+𒈦𒌋𒌋,mash-man,12226+1230B+1230B,126,always,mash-man,⠍⠁⠎⠓⠤⠍⠁⠝
+𒀝,ag,1201D,127,letter,ag,⠁⠛
+𒀞,me3,1201e,129,letter,me3,⠍⠑⠒
+𒈯,zadim,1222f,13,letter,zadim,⠵⠁⠙⠊⠍
+𒈧,mac2,12227,130,letter,mac2,⠍⠁⠉
+𒆲,kun,121b2,131,letter,kun,⠅⠥⠝
+𒄷,hu,12137,132,letter,hu,⠓⠥
+𒄷𒋛,u5,12137+122db,133,always,u5,⠥⠢
+𒉆,nam,12246,134,letter,nam,⠝⠁⠍
+𒉆𒂟,buru5,12246+1209F,135,always,buru5,⠃⠥⠗⠥⠢
+􀀇,buru5v,100007,135,letter,buru5,⠃⠥⠗⠥⠢
+𒅅,ig,12145,136,letter,ig,⠊⠛
+𒄷,mud,12137,137,letter,mud,⠍⠥⠙
+Ĉ,Hi1212d,108,Hi ,letter,,⠠⠓⠊⠂⠂⠙
+𒄷,sa4,12137,138,letter,sa4,⠎⠁⠲
+𒈿,NA2 ,1223f,112,letter, NA2,⠠⠝⠠⠁ 
+𒋥,cita3,12200000,139,letter,cita3,⠉⠊⠞⠁⠒
+𒁀,ba,12040,14,letter,ba,⠃⠁
+𒍣,zi,12363,140,letter,zi,⠵⠊
+𒄀,gi,12100,141,letter,gi,⠛⠊
+𒊑,ri,12291,142,letter,ri,⠗⠊
+𒉣,nun,12263,143,letter,nun,⠝⠥⠝
+𒉩,nun,12269,144,letter,nun,⠝⠥⠝
+𒉣,tur3,12263,145,letter,tur3,⠞⠥⠗⠒
+𒇬,Lagar,121ec,123,letter,Lagar,⠠⠇⠁⠛⠁⠗
+𒉥,immal,12265,146,letter,immal,⠊⠍⠍⠁⠇
+𒉦,cilam,12266,147,letter,cilam,⠉⠊⠇⠁⠍
+𒆏,kab,1218f,148,letter,kab,⠅⠁⠃
+𒍪,zu,1236a,15,letter,zu,⠵⠥
+𒄽,hub,1213d,150,letter,hub,⠓⠥⠃
+𒋩,sur,122000000000,151,letter,sur,⠎⠥⠗
+𒈽,muc2,1223d,152,letter,muc2,⠍⠥⠉
+𒈹,muc3,12239,153,letter,muc3,⠍⠥⠉⠒
+𒈻,sed,1223b,155,letter,sed,⠎⠑⠙
+𒃰,gad,120f0,157,letter,gad,⠛⠁⠙
+𒃰,akkil,120f0,159,letter,akkil,⠁⠅⠅⠊⠇
+𒋺,Tak4,122fa,122,letter,Tak4,⠠⠞⠁⠅⠲
+𒋛,SI',122db,125,letter,SI,⠠⠎⠠⠊⠄
+𒋢,su,12200,16,letter,su,⠎⠥
+𒌢,umbin,12322,160,letter,umbin,⠥⠍⠃⠊⠝
+𒋒,cinig,122d2,162,letter,cinig,⠉⠊⠝⠊⠛
+𒃱,kinda,120f1,163,letter,kinda,⠅⠊⠝⠙⠁
+𒂗,en,12097,164,letter,en,⠑⠝
+𒂘,buru14,12098,165,letter,buru14,⠃⠥⠗⠥⠂⠲
+𒂙,En Times Gan2 Tenu,12099,123,letter,En Times Gan2 Tenu,⠠⠑⠝ ⠠⠞⠊⠍⠑⠎ ⠠⠛⠁⠝ ⠠⠞⠑⠝⠥
+𒁰,dar3,12070,166,letter,dar3,⠙⠁⠗⠒
+𒁴,dim,12074,167,letter,dim,⠙⠊⠍
+𒁵,mun,12075,168,letter,mun,⠍⠥⠝
+𒁑,bulug,12051,169,letter,bulug,⠃⠥⠇⠥⠛
+𒊿,cen,122bf,17,letter,cen,⠉⠑⠝
+𒋭,lal ,122ed,170,letter,lal3,⠇⠁⠇ 
+𒆯,ku7,121af,171,letter,ku7,⠅⠥⠶
+𒊓,sa,12293,172,letter,sa,⠎⠁
+𒀿,acgab,1203f,173,letter,acgab,⠁⠉⠛⠁⠃
+𒃷,gan2,120f7,174,letter,gan2,⠛⠁⠝
+𒃸,gan2,120f8,174,letter,gan2,⠛⠁⠝
+𒄘,gu2,12118,176,letter,gu2,⠛⠥
+𒄛,usan,1211b,177,letter,usan,⠥⠎⠁⠝
+𒄙,dur,12119,178,letter,dur,⠙⠥⠗
+𒄘,gun,12118,179,letter,gun,⠛⠥⠝
+𒌦,Un,12326,111,letter,Un,⠠⠥⠝
+𒀴,arad,12034,18,letter,arad,⠁⠗⠁⠙
