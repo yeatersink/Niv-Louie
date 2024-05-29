@@ -52,7 +52,7 @@ Character,Hex,AmericanTranslitteration,Logic,Type,Name,Braille
 𒀳,12033,APIN,238,letter,ÀBSIN,ÀBSIN
 𒀴,12034,ARAD,238,letter,ARAD,ARAD
 𒀵,12035,ARADxKUR,238,letter,ARADxKUR,ARADxKUR
-𒀶,12036,ARKAB,238,letter,NIG2 ,NIG2
+𒀶,12036,ARKAB,238,letter,NIG2,NIG2
 𒀷,12037,ASAL2,238,letter,ASAL2,ASAL2
 𒀸,12038,AŠ,238,letter,DILI,DILI
 𒀹,12039,AŠZIDAtenû,575,letter,DIŠtenû,DIŠtenu
@@ -206,7 +206,7 @@ Character,Hex,AmericanTranslitteration,Logic,Type,Name,Braille
 𒃍,120CD,GA2xGI,396,letter,GA2xGI,GA2xGI
 𒃎,120CE,GA2xGI4,412,letter,GA2xGI4,GA2xGI4
 𒃏,120CF,GA2xGI4+A,128,letter,GA2xGI4+A,GA2xGI4+A
-𒃐,∂∂120D0,GA2xGIR2+SU,391,letter,GA2xGIR2+SU,GA2xGIR2+SU
+𒃐,120D0,GA2xGIR2+SU,391,letter,GA2xGIR2+SU,GA2xGIR2+SU
 𒃑,120D1,GA2xḪA+LU+EŠ2,430,letter,GA2xḪA+LU+EŠ2,GA2xḪA+LU+EŠ2
 𒃒,120D2,GA2xḪAL,128,letter,GA2xḪAL,GA2xḪAL
 𒃓,120D3,GA2xḪAL+LA,390,letter,GA2xḪAL+LA,GA2xḪAL+LA
@@ -222,15 +222,15 @@ Character,Hex,AmericanTranslitteration,Logic,Type,Name,Braille
 𒃝,120DD,GA2xLA,128,letter,GA2xLA,GA2xLA
 𒃞,120DE,GA2xME+EN,427,letter,MEN,MEN
 𒃟,120DF,GA2xMI,424,letter,ITIMA,ITIMA
-𒃠,120,GA2xNUN,397,letter,GANUN,GANUN
-𒃡,1200,GA2xNUN/NUN,411,letter,UR3,UR3
+𒃠,120E0,GA2xNUN,397,letter,GANUN,GANUN
+𒃡,120E1,GA2xNUN/NUN,411,letter,UR3,UR3
 𒃢,12000,GA2xPA,408,letter,GAZI,GAZI
 𒃣,120000,GA2xSAL,432,letter,ARḪUŠ,ARḪUŠ
-𒃤,1200000,GA2xSAR,413,letter,GA2xSAR,GA2xSAR
-𒃥,12000000,GA2xŠE,418,letter,ESAG2,ESAG2
-𒃦,120000000,GA2xŠE+TUR,419,letter,GA2xŠE+TUR,GA2xŠE+TUR
-𒃧,1200000000,GA2xŠID,410,letter,GA2xŠID,GA2xŠID
-𒃨,12000000000,GA2xSUM,404,letter,GA2xSUM,GA2xSUM
+𒃤,120E4,GA2xSAR,413,letter,GA2xSAR,GA2xSAR
+𒃥,120E5,GA2xŠE,418,letter,ESAG2,ESAG2
+𒃦,120E6,GA2xŠE+TUR,419,letter,GA2xŠE+TUR,GA2xŠE+TUR
+𒃧,120E7,GA2xŠID,410,letter,GA2xŠID,GA2xŠID
+𒃨,120E8,GA2xSUM,404,letter,GA2xSUM,GA2xSUM
 𒃩,120E9,GA2xTAK4,394,letter,GA2xTAK4,GA2xTAK4
 𒃪,120EA,GA2xU,422,letter,GA2xU,GA2xU
 𒃫,120EB,GA2xUD,420,letter,GA2xUD,GA2xUD
@@ -425,7 +425,7 @@ Character,Hex,AmericanTranslitteration,Logic,Type,Name,Braille
 𒆨,121A8,KISIM5,687,letter,KISIM5,KISIM5
 𒆩,121A9,KISIM5/KISIM5,687v,letter,KISIM5/KISIM5,KISIM5/KISIM5
 𒆪,121AA,KU,808,letter,DÚR,DÚR
-𒆫,,KU/ḪIxAŠ2KU/ḪIxÁŠ,238,letter,KU/ḪIxAŠ2KU/ḪIxÁŠ,KU/ḪIxAŠ2KU/ḪIxÁŠ
+𒆫,121AB,KU/ḪIxAŠ2KU/ḪIxÁŠ,238,letter,KU/ḪIxAŠ2KU/ḪIxÁŠ,KU/ḪIxAŠ2KU/ḪIxÁŠ
 𒆬,121AC,KU3,745,letter,KUG,KUG
 𒆭,121AD,KU4,87,letter,KUR9,KUR9
 𒆮,121AE,KU4variantform,238,letter,KU4variantform,KU4variantform
@@ -478,15 +478,15 @@ Character,Hex,AmericanTranslitteration,Logic,Type,Name,Braille
 𒇝,121DD,LAGABxŠITA+GIŠ+ERIN2,238,letter,LAGABxŠITA+GIŠ+ERIN2,LAGABxŠITA+GIŠ+ERIN2
 𒇞,121DE,LAGABxŠITA+GIŠtenû,238,letter,LAGABxŠITA+GIŠtenû,LAGABxŠITA+GIŠtenû
 𒇟,121DF,LAGABxŠU2,802,letter,LAGABxŠU2,LAGABxŠU2
-𒇠,121,LAGABxŠU2+ŠU2,803,letter,LAGABxŠU2+ŠU2,LAGABxŠU2+ŠU2
-𒇡,1210,LAGABxSUM,767,letter,ZAR,ZAR
+𒇠,121E0,LAGABxŠU2+ŠU2,803,letter,LAGABxŠU2+ŠU2,LAGABxŠU2+ŠU2
+𒇡,121E1,LAGABxSUM,767,letter,ZAR,ZAR
 𒇢,12100,LAGABxTAG,238,letter,LAGABxTAG,LAGABxTAG
-𒇣,121000,LAGABxTAK4,759,letter,LAGABxTAK4,LAGABxTAK4
+𒇣,121E3,LAGABxTAK4,759,letter,LAGABxTAK4,LAGABxTAK4
 𒇤,1210000,LAGABxTE+A+SU+NA,128,letter,LAGABxTE+A+SU+NA,LAGABxTE+A+SU+NA
-𒇥,12100000,LAGABxU,786,letter,GÍGIR,GÍGIR
-𒇦,121000000,LAGABxU+A,787,letter,LAGABxU+A,LAGABxU+A
-𒇧,1210000000,LAGABxU+U+U,788,letter,BUL,BUL
-𒇨,12100000000,LAGABxU2+AŠ,774,letter,LAGABxU2+AŠ,LAGABxU2+AŠ
+𒇥,121E5,LAGABxU,786,letter,GÍGIR,GÍGIR
+𒇦,121E6,LAGABxU+A,787,letter,LAGABxU+A,LAGABxU+A
+𒇧,121E7,LAGABxU+U+U,788,letter,BUL,BUL
+𒇨,121E8,LAGABxU2+AŠ,774,letter,LAGABxU2+AŠ,LAGABxU2+AŠ
 𒇩,121E+11,LAGABxUD,783,letter,LAGABxUD,LAGABxUD
 𒇪,121EA,LAGABxUŠ,770,letter,LAGABxUŠ,LAGABxUŠ
 𒇫,121EB,LAGABsquared,805,letter,LAGABsquared,LAGABsquared
@@ -734,16 +734,16 @@ Character,Hex,AmericanTranslitteration,Logic,Type,Name,Braille
 𒋝,122DD,SIG,881,letter,SIG,SIG
 𒋞,122DE,SIG4,905,letter,MURGU,MURGU
 𒋟,122DF,SIG4/SIG4ŠU2,907,letter,SIG4/SIG4ŠU2,SIG4/SIG4ŠU2
-𒋠,122,SIK2,816,letter,SIG2,SIG2
-𒋡,1220,SILA3,99,letter,SILA3,SILA3
+𒋠,122E0,SIK2,816,letter,SIG2,SIG2
+𒋡,122E1,SILA3,99,letter,SILA3,SILA3
 𒋢,12200,SU,16,letter,KUŠ,KUŠ
-𒋣,122000,SU/SU,238,letter,SU/SU,SU/SU
-𒋤,1220000,SUD,584,letter,BUgunû,BUgunû
-𒋥,12200000,SUD2,139,letter,SUD2,SUD2
-𒋦,122000000,SUḪUR,646,letter,SUḪUR,SUḪUR
-𒋧,1220000000,SUM,292,letter,ŠUM2,ŠUM2
-𒋨,12200000000,SUMAŠ,323,letter,SUMAŠ,SUMAŠ
-𒋩,122E+11,SUR,151,letter,SUR,SUR
+𒋣,122E3,SU/SU,238,letter,SU/SU,SU/SU
+𒋤,122E4,SUD,584,letter,BUgunû,BUgunû
+𒋥,122E5,SUD2,139,letter,SUD2,SUD2
+𒋦,122E6,SUḪUR,646,letter,SUḪUR,SUḪUR
+𒋧,122E7,SUM,292,letter,ŠUM2,ŠUM2
+𒋨,122E8,SUMAŠ,323,letter,SUMAŠ,SUMAŠ
+𒋩,122E,SUR,151,letter,SUR,SUR
 𒋪,122EA,SUR9,205,letter,SUR9,SUR9
 𒋫,122EB,TA,248,letter,TA,TA
 ,122EC,TA,248v,letter,TA,TA
@@ -973,8 +973,7 @@ muc3,12239,muc3,153,letter,muc3,muc3
 sed,1223b,sed,155,letter,sed,sed
 gad,120f0,gad,157,letter,gad,gad
 Tak4,122fa,Tak4,122,letter,Tak4,Tak4
-120F0+122FA+12111,238,120F0+122FA+12111,always,akkil,akkil,akkil
-SI',122db,SI',125,letter,SI,SI
+SI,122db,SI,125,letter,SI,SI
 su,12200,su,16,letter,su,su
 umbin,12322,umbin,160,letter,umbin,umbin
 cinig,122d2,cinig,162,letter,cinig,cinig
