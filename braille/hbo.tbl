@@ -77,7 +77,7 @@ always בְּ 12-3  # Bet with dagesh sheva
 always כּ 13  # KAF with dagesh 
 always כְּ 13-3  # KAF with dagesh  sheva
 always תּ 1256  # tav with daggesh
-always תְּ 5-1456-3  # tav with daggesh sheva
+always תְּ 1256-3  # tav with daggesh sheva
 
 # letter op code characters
 letter ֒ 46-234  # segol - isolated

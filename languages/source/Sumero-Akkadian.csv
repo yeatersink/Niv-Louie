@@ -1,5 +1,4 @@
-
-Character,Unicode,American Translitteration,Logic,Borger,Braille
+Character,Hex,American Translitteration,Logic,Borger,Braille
 𒀀,12000,A,839,DU23
 𒀁,12001,A x A,845,EDURU
 𒀂[1],12002,A x BAD,840,AGAM
@@ -312,7 +311,7 @@ Character,Unicode,American Translitteration,Logic,Borger,Braille
 𒄶,12136,ḪI x U,653,DÚBUR
 𒄷,12137,ḪU,132,
 𒄸,12138,ḪUB2,149,TU11,
-𒄹,12139,ḪUB2x AN238,,
+𒄹,12139,ḪUB2x AN,238,
 𒄺,1213A,ḪUB2x ḪAL,238,
 𒄻,1213B,ḪUB2x KASKAL,238,
 𒄼,1213C,ḪUB2x LIŠ,238,

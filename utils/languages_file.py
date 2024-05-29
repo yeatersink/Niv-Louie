@@ -39,7 +39,17 @@ languages=[
 #-maintainer: Matityhau Yeshurun <yeatersink@gmail.com>
 """},
         {"name":"Transliterated-Cuneiform","language_code":"Transliterated-Cuneiform","language_system_code":"Transliterated-Cuneiform-oracc","name_column":"Name","char_column":"Character","braille_column":"Braille","replace":[],"included_braille_tables":["spaces.uti","litdigits6Dots.uti","latinLetterDef6Dots.uti","en-ueb-chardefs.uti"],"language_information":"""
-#Documents written in a writing system known as Cuneiform or Akkadian, are commonly preserved in clay, stone,  or even metal tablets.   When these tables are engaged academically, they are “transliterated” from their original Cuneiform, into Latin letters. Some of these letters have accents, dots, and lines associated with them. These are used to indicate specific sounds that are commonly made in Ancient Near Eastern  languages. This table provides braille support for the above mentioned languages that have been already transliterated into the latin characters mentioned above.
+#+language: akk-Latn
+#+language: xhu-Latn
+#+language: uga-Latn
+#+language: peo-Latn
+#+language: sux-Latn
+#+language: xeb-Latn
+#+language: elx-Latn
+#+language: hit-Latn
+#+language: xur-Latn
+#+language: xlu-Latn
+         #Documents written in a writing system known as Cuneiform or Akkadian, are commonly preserved in clay, stone,  or even metal tablets.   When these tables are engaged academically, they are “transliterated” from their original Cuneiform, into Latin letters. Some of these letters have accents, dots, and lines associated with them. These are used to indicate specific sounds that are commonly made in Ancient Near Eastern  languages. This table provides braille support for the above mentioned languages that have been already transliterated into the latin characters mentioned above.
 #This table is intended to provide support for the languages represented in the Cuneiform / Akkadian Writing system. This includes Sumerian, Hittite, Babylonian  Assyrian, Ugaritic and many others. Thus, the braille in this table reflects braille patterns commonly utilized in   other Semitic  languages such as Hebrew, Aramaic, and Syriac. For more information please see: 
 #http://oracc.ub.uni-muenchen.de/doc/help/languages/ugaritic/index.html
 ""","contributors":"""

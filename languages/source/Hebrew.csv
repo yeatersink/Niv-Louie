@@ -90,7 +90,7 @@ Character,Hex,Logic,Type,Name,Braille
 תְּ,05EA+05BC+05B0,8,always,letter tav with dagesh sheva,⠳⠄
 ת,05EA,8,always,tav,⠹
 תּ,FB4A,10,always,tav with daggesh,⠳
-תְּ,FB4A+05B0,10,always,tav with daggesh sheva,⠐⠹⠄
+תְּ,FB4A+05B0,10,always,tav with daggesh sheva,⠳⠄
 װ,05F0,8,letter,double vav*,⠺⠺
 ױ,05F1,8,letter,vav yod*,⠺⠚
 ײ,05F2,8,letter,double yod*,⠚⠚
