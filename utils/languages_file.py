@@ -86,7 +86,7 @@ languages=[
 #-maintainer: Paul Geoghegan <contact@envisionly.tech>
 #-maintainer: Matityhau Yeshurun <yeatersink@gmail.com>
 """},
-{"name":"Sumero-Akkadian-broken","language_code":"akk-sumero","language_system_code":"akk-sumero-oracc","name_column":"Name","char_column":"Character","braille_column":"Braille","replace":["CUNEIFORM SIGN"],"language_information":"""
+{"name":"Sumero-Akkadian","language_code":"akk-sumero","language_system_code":"akk-sumero-oracc","name_column":"Name","char_column":"Character","braille_column":"Braille","replace":["CUNEIFORM SIGN"],"language_information":"""
 #for more information on the Akkadian language, please go to:
 #https://oracc.museum.upenn.edu/dcclt/signlists/signlists/
 #The standard for Akkadian has been set by the academic community represented by ORACC. The braille code for Akkadian follows the standard set by ORACC. The braille code for Akkadian is represented in braille as the name for the sign in Akkadian. Thus, if the Akkadian sign is a "Lum," then the braille code for this sign would be lum.
