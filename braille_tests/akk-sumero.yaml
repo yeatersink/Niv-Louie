@@ -1,0 +1,24 @@
+
+# Yaml Test For Sumero-Akkadian
+
+# Copying and distribution of this file, with or without modification,
+# are permitted in any medium without royalty provided the copyright
+# notice and this notice are preserved. This file is offered as-is,
+# without any warranty.
+
+display: unicode.dis
+table:
+  language: akk-sumero
+  __assert-match: akk-sumero.tbl
+flags: { testmode: forward }
+tests:
+  # Sumero-Akkadian
+  - ["𒂍𒌑", "⠑⠆⠍⠁⠎⠓⠛⠊"]
+  - ["𒂗𒌑", "⠑⠝⠍⠁⠎⠓⠛⠊"]
+  - ["𒄑𒆪𒌑", "⠛⠑⠎⠓⠙⠥⠗⠍⠁⠎⠓⠛⠊"]
+  - ["𒀭𒌓", "⠁⠝⠁⠗⠆"]
+  - ["𒂍𒃲", "⠑⠆⠛⠁⠇"]
+  - ["𒁹𒀭𒊹𒁀", "⠝⠊⠛⠊⠙⠁⠁⠝⠎⠓⠁⠃⠖⠏⠕⠗⠗⠊⠙⠛⠑"]
+  - ["𒀀𒉿𒈝", "⠙⠥⠆⠏⠑⠎⠓⠆⠝⠁⠗"]
+  - ["𒆗𒉡", "⠁⠇⠁⠙⠆⠍⠥⠗⠥⠆"]
+  - ["𒃲𒌑", "⠛⠁⠇⠍⠁⠎⠓⠛⠊"]

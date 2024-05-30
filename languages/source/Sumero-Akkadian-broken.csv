@@ -1,37 +1,27 @@
 Character,Name,Hex,Logic,Type,Borger,Braille
 𒀸,ac,12038,1,letter,ac,⠁⠉
-𒀭,an,1202d,10,letter,an,⠁⠝
 𒍤𒆸,numun2,12364+121b8,238,always,numun2,⠝⠥⠍⠥⠝
 𒄃,gil,12103,105,letter,gil,⠛⠊⠇
 𒋺,kid2,122fa,103,letter,kid2,⠅⠊⠙
 𒉫,Nun Crossing Nun,1226b,107,letter,Nun Crossing Nun,⠠⠝⠥⠝ ⠠⠉⠗⠕⠎⠎⠊⠝⠛ ⠠⠝⠥⠝
-𒆐,kad2,12190,108,letter,kad2,⠅⠁⠙
-𒆑,kad3,12191,109,letter,kad3,⠅⠁⠙⠒
 𒀸𒋩,accur,12038+122e9,238,always,accur,⠁⠉⠉⠥⠗
 𒈾,na,1223e,110,letter,na,⠝⠁
-𒊒,ru,12292,111,letter,ru,⠗⠥
+𒊒,ru,12292,111,letter,ru,⠗⠥*
 𒉡,nu,12261,112,letter,nu,⠝⠥
-𒁁,bad,12041,113,letter,bad,⠃⠁⠙
 𒋓,cir,122d3,115,letter,cir,⠉⠊⠗
 𒆰,numun,121b0,117,letter,numun,⠝⠥⠍⠥⠝
 𒋾,ti,122fe,118,letter,ti,⠞⠊
 𒁷,din,12077,119,letter,din,⠙⠊⠝
-𒈮,mug,1222e,12,letter,mug,⠍⠥⠛
+𒈮,mug,1222e,12,letter,mug,⠍⠥⠛*
 𒈦,mac,12226,120,letter,mac,⠍⠁⠉
-𒁇,bar,12047,120,letter,bar,⠃⠁⠗
 𒑏,ban₂,1244f,120,letter,ban₂,⠃⠁⠝
 𒈦𒄘𒃼,idigna,12226+12118+120fc,120,always,idigna,⠊⠙⠊⠛⠝⠁
 𒈦𒌋,gidim₂,12226+1230B,125,always,gidim2,⠛⠊⠙⠊⠍
 𒈦𒌋𒌋,mash-man,12226+1230B+1230B,126,always,mash-man,⠍⠁⠎⠓⠤⠍⠁⠝
-𒀝,ag,1201D,127,letter,ag,⠁⠛
-𒀞,me3,1201e,129,letter,me3,⠍⠑⠒
 𒈯,zadim,1222f,13,letter,zadim,⠵⠁⠙⠊⠍
 𒈧,mac2,12227,130,letter,mac2,⠍⠁⠉
-𒆲,kun,121b2,131,letter,kun,⠅⠥⠝
-𒄷,hu,12137,132,letter,hu,⠓⠥
 𒄷𒋛,u5,12137+122db,133,always,u5,⠥⠢
 𒉆,nam,12246,134,letter,nam,⠝⠁⠍
-𒅅,ig,12145,136,letter,ig,⠊⠛
 𒄷𒄭,mud,12137+1212d,126,always,mud,⠍⠥⠙
 𒄷𒈿,sa4,12137+1223f,238,always,sa4,⠎⠁⠲
 𒁀,ba,12040,14,letter,ba,⠃⠁
@@ -49,30 +39,20 @@ Character,Name,Hex,Logic,Type,Borger,Braille
 𒈽,muc2,1223d,152,letter,muc2,⠍⠥⠉
 𒈹,muc3,12239,153,letter,muc3,⠍⠥⠉⠒
 𒈻,sed,1223b,155,letter,sed,⠎⠑⠙
-𒃰,gad,120f0,157,letter,gad,⠛⠁⠙
 𒋺,Tak4,122fa,122,letter,Tak4,⠠⠞⠁⠅⠲
 ȸ,120F0+122FA+12111,238,always,akkil,akkil,nan
-𒋛,SI',122db,125,letter,SI,⠠⠎⠠⠊⠄
+𒋛,SI,122db,125,letter,SI,⠠⠎⠠⠊⠄
 𒈀,su,12200,16,letter,su,⠎⠥
 𒌢,umbin,12322,160,letter,umbin,⠥⠍⠃⠊⠝
 𒋒,cinig,122d2,162,letter,cinig,⠉⠊⠝⠊⠛
 𒃱,kinda,120f1,163,letter,kinda,⠅⠊⠝⠙⠁
-𒂗,en,12097,164,letter,en,⠑⠝
 𒂘𒂙,buru14,12098+12099,165,always,buru14,⠃⠥⠗⠥⠂⠲
 𒁰,dar3,12070,166,letter,dar3,⠙⠁⠗⠒
-𒁴,dim,12074,167,letter,dim,⠙⠊⠍
-𒁵,mun,12075,168,letter,mun,⠍⠥⠝
-𒁑,bulug,12051,169,letter,bulug,⠃⠥⠇⠥⠛
 𒊿,cen,122bf,17,letter,cen,⠉⠑⠝
 𒋭,lal ,122ed,170,letter,lal3,⠇⠁⠇ 
-𒆯,ku7,121af,171,letter,ku7,⠅⠥⠶
 𒊓,sa,12293,172,letter,sa,⠎⠁
 𒀿,acgab,1203f,173,letter,acgab,⠁⠉⠛⠁⠃
-𒃷,gan2,120f7,174,letter,gan2,⠛⠁⠝
 𒃸,gan2,120f8,174,letter,gan2,⠛⠁⠝
-𒄘,gu2,12118,176,letter,gu2,⠛⠥
 𒄛,usan,1211b,177,letter,usan,⠥⠎⠁⠝
-𒄙,dur,12119,178,letter,dur,⠙⠥⠗
 𒄘,gun,12118,179,letter,gun,⠛⠥⠝
 𒌦,Un,12326,111,letter,Un,⠠⠥⠝
-𒀴,arad,12034,18,letter,arad,⠁⠗⠁⠙
