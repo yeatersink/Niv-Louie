@@ -224,7 +224,7 @@ Character,Hex,Logic,Type,Name,Braille
 𒃟,120DF,424,letter,ITIMA,ITIMA
 𒃠,120E0,397,letter,GANUN,GANUN
 𒃡,120E1,411,letter,UR3,UR3
-𒀀,120E2,408,letter,GAZI,GAZI
+𒃢,120E2,408,letter,GAZI,GAZI
 𒃣,120E3,432,letter,ARHUsh,ARHUsh
 𒃤,120E4,413,letter,GA2xSAR,GA2xSAR
 𒃥,120E5,418,letter,ESAG2,ESAG2
@@ -480,7 +480,7 @@ Character,Hex,Logic,Type,Name,Braille
 𒇟,121DF,802,letter,LAGABxshU2,LAGABxshU2
 𒇠,121E0,803,letter,LAGABxshU2+shU2,LAGABxshU2+shU2
 𒇡,121E1,767,letter,ZAR,ZAR
-𒄀,121E2,238,letter,LAGABxTAG,LAGABxTAG
+𒇢,121E2,238,letter,LAGABxTAG,LAGABxTAG
 𒇣,121E3,759,letter,LAGABxTAK4,LAGABxTAK4
 𒇤,121E4,128,letter,LAGABxTE+A+SU+NA,LAGABxTE+A+SU+NA
 𒇥,121E5,786,letter,GIGIR,GIGIR
@@ -735,7 +735,7 @@ Character,Hex,Logic,Type,Name,Braille
 𒋟,122DF,907,letter,MURGU,MURGU
 𒋠,122E0,816,letter,SIG4/SIG4shU2,SIG4/SIG4shU2
 𒋡,122E1,99,letter,SIG2,SIG2
-𒈀,122E2,16,letter,SILA3,SILA3
+𒋢,122E2,16,letter,SILA3,SILA3
 𒋣,122E3,238,letter,KUsh,KUsh
 𒋤,122E4,584,letter,SU/SU,SU/SU
 𒋥,122E5,139,letter,BUgunu,BUgunu

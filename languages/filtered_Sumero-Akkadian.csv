@@ -165,7 +165,7 @@ Character,Hex,Type,Name,Braille
 𒇟,121DF,letter,LAGABxshU2,LAGABxshU2
 𒇠,121E0,letter,LAGABxshU2+shU2,LAGABxshU2+shU2
 𒇡,121E1,letter,ZAR,ZAR
-𒄀,121E2,letter,LAGABxTAG,LAGABxTAG
+𒇢,121E2,letter,LAGABxTAG,LAGABxTAG
 𒇣,121E3,letter,LAGABxTAK4,LAGABxTAK4
 𒇤,121E4,letter,LAGABxTE+A+SU+NA,LAGABxTE+A+SU+NA
 𒇥,121E5,letter,GIGIR,GIGIR
@@ -361,7 +361,7 @@ Character,Hex,Type,Name,Braille
 𒋟,122DF,letter,MURGU,MURGU
 𒋠,122E0,letter,SIG4/SIG4shU2,SIG4/SIG4shU2
 𒋡,122E1,letter,SIG2,SIG2
-𒈀,122E2,letter,SILA3,SILA3
+𒋢,122E2,letter,SILA3,SILA3
 𒋣,122E3,letter,KUsh,KUsh
 𒋤,122E4,letter,SU/SU,SU/SU
 𒋥,122E5,letter,BUgunu,BUgunu
@@ -542,7 +542,7 @@ Character,Hex,Type,Name,Braille
 𒃟,120DF,letter,ITIMA,ITIMA
 𒃠,120E0,letter,GANUN,GANUN
 𒃡,120E1,letter,UR3,UR3
-𒀀,120E2,letter,GAZI,GAZI
+𒃢,120E2,letter,GAZI,GAZI
 𒃣,120E3,letter,ARHUsh,ARHUsh
 𒃤,120E4,letter,GA2xSAR,GA2xSAR
 𒃋,120CB,letter,GA2xGAN2tenu,GA2xGAN2tenu
