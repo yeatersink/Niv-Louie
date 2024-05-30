@@ -1,509 +1,506 @@
 Character,Hex,Type,Name,Braille
-idigna,12226+12118+120fc,always,idigna,idigna
-mash-man,12226+1230B+1230B,always,mash-man,mash-man
-𒃤,120E41200000,letter,GA2xSAR,GA2xSAR
-numun2,12364+121b8,always,numun2,numun2
-accur,12038+122e9,always,accur,accur
-gidim₂,12226+1230B,always,gidim2,gidim2
-u5,12137+122db,always,u5,u5
-mud,12137+1212d,always,mud,mud
-sa4,12137+1223f,always,sa4,sa4
-tur3,12263+121ec,always,tur3,tur3
-buru14,12098+12099,always,buru14,buru14
-𒇩,121E+11,letter,LAGABxUD,LAGABxUD
-𒇤,121E4,letter,LAGABxTE+A+SU+NA,LAGABxTE+A+SU+NA
-𒋩,122E+11,letter,SUR,SUR
-𒇣,121000,letter,LAGABxTAK4,LAGABxTAK4
-𒃣,120000,letter,ARḪUŠ,ARḪUŠ
-𒋣,122000,letter,SU/SU,SU/SU
-𒉽,1227D,letter,PAB,PAB
-𒊞,1229E,letter,SAGxNUN,SAGxNUN
-𒊖,12296,letter,SAGxA,SAGxA
-𒊗,12297,letter,SAGxDU,SAGxDU
-𒊘,12298,letter,SAGxDUB,SAGxDUB
-𒊙,12299,letter,SAGxḪA,SAGxḪA
-𒊚,1229A,letter,SAGxKAK,SAGxKAK
-𒉶,12276,letter,LAḪTAN2,LAḪTAN2
-𒉵,12275,letter,NUNUZAB2xNE,NUNUZAB2xNE
-𒉴,12274,letter,LAḪTAN,LAḪTAN
-𒊛,1229B,letter,SAGxKUR,SAGxKUR
-𒊜,1229C,letter,SAGxLUM,SAGxLUM
-𒊝,1229D,letter,SAGxMI,SAGxMI
-𒊠,122A0,letter,SAGxŠID,SAGxŠID
-𒊟,1229F,letter,SAGxSAL,SAGxSAL
-𒊡,122A1,letter,SAGxTAB,SAGxTAB
-𒊢,122A2,letter,SAGxU2,SAGxU2
-𒊣,122A3,letter,SAGxUB,SAGxUB
-𒊤,122A4,letter,SAGxUM,SAGxUM
-𒊥,122A5,letter,SAGxUR,SAGxUR
-𒊦,122A6,letter,SAGxUŠ,SAGxUŠ
-𒉳,12273,letter,NUNUZAB2xKAD3,NUNUZAB2xKAD3
-𒊧,122A7,letter,SAG/SAG,SAG/SAG
-𒊨,122A8,letter,DUL3,DUL3
-𒊩,122A9,letter,MI2,MI2
-𒊪,122AA,letter,SALLAGABxAŠ2,SALLAGABxAŠ2
-𒊫,122AB,letter,SANGA2,SANGA2
-𒊕,12295,letter,SAĜ,SAĜ
-𒊓,12293,letter,SA,SA
-𒊔,12294,letter,SAGNUTILLU,SAGNUTILLU
-𒊉,12289,letter,PIcrossingPI,PIcrossingPI
-𒉿,1227F,letter,TAL2,TAL2
-𒊀,12280,letter,PIxA,PIxA
-𒉼,1227C,letter,PAN,PAN
-𒉻,1227B,letter,ŠUK,ŠUK
-𒊁,12281,letter,PIxAB,PIxAB
-𒊂,12282,letter,PIxBI,PIxBI
-𒊃,12283,letter,PIxBU,PIxBU
-𒊄,12284,letter,PIxBU,PIxBU
-𒊅,12285,letter,PIxI,PIxI
-𒊆,12286,letter,PIxIB,PIxIB
-𒊇,12287,letter,PIxU,PIxU
-𒊈,12288,letter,PIxU2,PIxU2
-𒊊,1228A,letter,PIRIG,PIRIG
-𒉾,1227E,letter,PEŠ2,PEŠ2
-𒊋,1228B,letter,PIRIGxKAL,PIRIGxKAL
-𒊌,1228C,letter,UG,UG
-𒊍,1228D,letter,AZ,AZ
-𒉺,1227A,letter,GIDRU,GIDRU
+𒈦𒌋𒌋,12226+1230B+1230B,always,gidim2,gidim2
+𒈦𒄘𒃼,12226+12118+120fc,always,ban₂,ban₂
+𒀸𒋩,12038+122e9,always,kad3,kad3
+𒄷𒈿,12137+1223f,always,mud,mud
+𒉣𒇬,12263+121ec,always,nun,nun
+𒈦𒌋,12226+1230B,always,idigna,idigna
+𒄷𒋛,12137+122db,always,hu,hu
+𒄷𒄭,12137+1212d,always,ig,ig
+𒂘𒂙,12098+12099,always,kinda,kinda
+𒍤𒆸,12364+121b8,always,an,an
+𒊗,12297,letter,SAGxA,SAGxA
+𒊜,1229C,letter,SAGxKUR,SAGxKUR
+𒊙,12299,letter,SAGxDUB,SAGxDUB
+𒊖,12296,letter,SAĜ,SAĜ
+𒊚,1229A,letter,SAGxḪA,SAGxḪA
+𒊕,12295,letter,SAGNUTILLU,SAGNUTILLU
+𒊔,12294,letter,SA,SA
+𒊓,12293,letter,RU,RU
+𒊛,1229B,letter,SAGxKAK,SAGxKAK
+𒊘,12298,letter,SAGxDU,SAGxDU
+𒊟,1229F,letter,SAGxNUN,SAGxNUN
+𒊝,1229D,letter,SAGxLUM,SAGxLUM
+𒊞,1229E,letter,SAGxMI,SAGxMI
+𒊠,122A0,letter,SAGxSAL,SAGxSAL
+𒊡,122A1,letter,SAGxŠID,SAGxŠID
+𒊢,122A2,letter,SAGxTAB,SAGxTAB
+𒊣,122A3,letter,SAGxU2,SAGxU2
+𒊤,122A4,letter,SAGxUB,SAGxUB
+𒊥,122A5,letter,SAGxUM,SAGxUM
+𒊦,122A6,letter,SAGxUR,SAGxUR
+𒊧,122A7,letter,SAGxUŠ,SAGxUŠ
+𒊨,122A8,letter,SAG/SAG,SAG/SAG
+𒊩,122A9,letter,DUL3,DUL3
+𒊪,122AA,letter,MI2,MI2
+𒊒,12292,letter,DAL,DAL
+,12000,letter,DU23,DU23
+𒊫,122AB,letter,SALLAGABxAŠ2,SALLAGABxAŠ2
+𒉸,12278,letter,NUNUZAB2xU2,NUNUZAB2xU2
+𒉾,1227E,letter,PAB,PAB
+𒉽,1227D,letter,PAN,PAN
+𒉼,1227C,letter,ŠUK,ŠUK
+𒉻,1227B,letter,GIDRU,GIDRU
+𒉺,1227A,letter,MUD3,MUD3
 𒉹,12279,letter,MUD3,MUD3
-𒊬,122AC,letter,MU2,MU2
-𒊏,1228F,letter,RA,RA
-𒊐,12290,letter,RAB,RAB
-𒊑,12291,letter,DAL,DAL
-𒊒,12292,letter,RU,RU
-𒉸,12278,letter,MUD3,MUD3
-𒉷,12277,letter,NUNUZAB2xU2,NUNUZAB2xU2
-𒊎,1228E,letter,PIRIGopposingPIRIG,PIRIGopposingPIRIG
-𒊳,122B3,letter,ŠA3xŠU2,ŠA3xŠU2
-𒊭,122AD,letter,ŠA,ŠA
-𒋙,122D9,letter,ŠU2,ŠU2
-𒋍,122CD,letter,ŠIMxIGIgunû,ŠIMxIGIgunû
-𒋎,122CE,letter,ŠIMxKUŠU2,ŠIMxKUŠU2
-𒋏,122CF,letter,ŠIMxLUL,ŠIMxLUL
-𒋐,122D0,letter,ŠIMxMUG,ŠIMxMUG
-𒋑,122D1,letter,ŠIMxSAL,ŠIMxSAL
-𒋒,122D2,letter,ŠINIG,ŠINIG
-𒋓,122D3,letter,ŠIR,ŠIR
-𒋔,122D4,letter,ŠIRtenû,ŠIRtenû
-𒋕,122D5,letter,ŠIR/ŠIRBUR/BUR,ŠIR/ŠIRBUR/BUR
-𒋖,122D6,letter,GA2,GA2
-𒋗,122D7,letter,ŠU,ŠU
-𒋘,122D8,letter,ŠU/ŠU,ŠU/ŠU
-𒋚,122DA,letter,ŠUBUR,ŠUBUR
-𒋋,122CB,letter,ŠIMxGAR,ŠIMxGAR
-𒋛,122DB,letter,MA,MA
-𒋜,122DC,letter,SU4,SU4
-𒋝,122DD,letter,SIG,SIG
-𒋞,122DE,letter,MURGU,MURGU
-𒋟,122DF,letter,SIG4/SIG4ŠU2,SIG4/SIG4ŠU2
-𒋠,122E0,letter,SIG2,SIG2
-𒋡,122E1,letter,SILA3,SILA3
-𒋢,12200,letter,KUŠ,KUŠ
-𒋤,122E4,letter,BUgunû,BUgunû
-𒋥,122E5,letter,SUD2,SUD2
-𒋦,122E6,letter,SUḪUR,SUḪUR
-𒋧,122E7,letter,ŠUM2,ŠUM2
-𒋌,122CC,letter,ŠIMxIGI,ŠIMxIGI
-𒋊,122CA,letter,ŠIMxDIN,ŠIMxDIN
-𒊮,122AE,letter,ŠAG4,ŠAG4
-𒊻,122BB,letter,ŠEḪU,ŠEḪU
-𒊯,122AF,letter,PEŠ4,PEŠ4
-𒊰,122B0,letter,ŠA3xBAD,ŠA3xBAD
-𒊱,122B1,letter,ŠA3xGIŠ,ŠA3xGIŠ
-𒊲,122B2,letter,ŠA3xNE,ŠA3xNE
-𒉱,12271,letter,NUNUZAB2xGUD,NUNUZAB2xGUD
-𒊴,122B4,letter,ŠA3xTUR,ŠA3xTUR
-𒊵,122B5,letter,ŠA3xU,ŠA3xU
-𒊶,122B6,letter,BIR6,BIR6
-𒊷,122B7,letter,SAG9,SAG9
-𒊸,122B8,letter,ŠAB6,ŠAB6
-𒊹,122B9,letter,TI2,TI2
-𒊺,122BA,letter,ŠE,ŠE
-𒊼,122BC,letter,ŠE/ŠEGAD/GADGAR/GAR,ŠE/ŠEGAD/GADGAR/GAR
-𒋉,122C9,letter,ŠIMxBULUG,ŠIMxBULUG
-𒊽,122BD,letter,ŠE/ŠETAB/TABGAR/GAR,ŠE/ŠETAB/TABGAR/GAR
-𒊾,122BE,letter,ŠEG9,ŠEG9
-𒊿,122BF,letter,SUxA,SUxA
-𒋀,122C0,letter,URI3,URI3
-𒋁,122C1,letter,ŠEŠ2,ŠEŠ2
-𒋂,122C2,letter,ŠEŠLAM,ŠEŠLAM
-𒋃,122C3,letter,LAG,LAG
-𒋄,122C4,letter,UMBISAG2,UMBISAG2
-𒋅,122C5,letter,ŠIDxIM,ŠIDxIM
-𒋆,122C6,letter,ŠIM,ŠIM
-𒋇,122C7,letter,ŠIMxA,ŠIMxA
-𒋈,122C8,letter,ŠIMxBAL,ŠIMxBAL
-𒉲,12272,letter,NUNUZAB2xIGIgunû,NUNUZAB2xIGIgunû
-𒀀,12000,letter,DU23,DU23
-𒉰,12270,letter,NUNUZAB2xDUG,NUNUZAB2xDUG
-𒈳,12233,letter,MUŠxA,MUŠxA
-𒈗,12217,letter,LUGAL,LUGAL
-𒈘,12218,letter,DADRUM,DADRUM
-𒈙,12219,letter,LUGALopposingLUGAL,LUGALopposingLUGAL
-𒈚,1221A,letter,LUGALšešig,LUGALšešig
-𒈛,1221B,letter,LUḪ,LUḪ
-𒈜,1221C,letter,NAR,NAR
-𒈝,1221D,letter,ḪUM,ḪUM
-𒈞,1221E,letter,LUM/LUM,LUM/LUM
-𒈟,1221F,letter,LÙGUD,LÙGUD
-𒈠,12220,letter,MA,MA
-𒈡,12221,letter,MAxTAK4,MAxTAK4
-𒈢,12222,letter,ḪASḪUR,ḪASḪUR
-𒈣,12223,letter,MA2,MA2
-𒈤,12224,letter,MAH,MAH
-𒈥,12225,letter,MAR,MAR
-𒈦,12226,letter,MAŠ,MAŠ
-𒈧,12227,letter,MAŠ2,MAŠ2
-𒈨,12228,letter,ME,ME
-𒈩,12229,letter,RID,RID
-𒈪,1222A,letter,ĜI6,ĜI6
-𒈫,1222B,letter,MIN,MIN
-𒈬,1222C,letter,ĜU10,ĜU10
-𒈭,1222D,letter,TAḪ,TAḪ
-𒈮,1222E,letter,oakum,oakum
-𒈯,1222F,letter,ZADIM,ZADIM
-𒈰,12230,letter,MUNŠUB,MUNŠUB
-𒈱,12231,letter,MURGU2,MURGU2
-𒈖,12216,letter,GÚG,GÚG
-𒈕,12215,letter,DIM3,DIM3
-𒈔,12214,letter,LU2squared,LU2squared
-𒈅,12205,letter,LU2xKAD2,LU2xKAD2
-𒇹,121F9,letter,LIMMU2,LIMMU2
-𒇺,121FA,letter,DÍLIM,DÍLIM
-𒇻,121FB,letter,UDU,UDU
-𒇼,121FC,letter,ÀD,ÀD
-𒇽,121FD,letter,Person,Person
-𒇾,121FE,letter,LU2xAL,LU2xAL
-𒇿,121FF,letter,LU2xBAD,LU2xBAD
-𒈀,12200,letter,LU2xEŠ2,LU2xEŠ2
-𒈁,12201,letter,LU2xEŠ2tenû,LU2xEŠ2tenû
-𒈂,12202,letter,LU2xGAN2tenû,LU2xGAN2tenû
-𒈃,12203,letter,LU2xḪIxBAD,LU2xḪIxBAD
-𒈄,12204,letter,LU2xIM,LU2xIM
-𒈆,12206,letter,LU2xKAD3,LU2xKAD3
-𒈓,12213,letter,LU2opposingLU2,LU2opposingLU2
-𒈇,12207,letter,LU2xKAD3+AŠ,LU2xKAD3+AŠ
-𒈈,12208,letter,LU2xKI,LU2xKI
-𒈉,12209,letter,LU2xLA+AŠ,LU2xLA+AŠ
-𒈊,1220A,letter,LU2xLAGAB,LU2xLAGAB
-𒈋,1220B,letter,LU2xME+EN,LU2xME+EN
-𒈌,1220C,letter,DU14,DU14
-𒈍,1220D,letter,LU2xNU,LU2xNU
-𒈎,1220E,letter,LU2xSI+AŠ,LU2xSI+AŠ
-𒈏,1220F,letter,LU2xSIK2+BU,LU2xSIK2+BU
-𒈐,12210,letter,AZLAG7,AZLAG7
-𒈑,12211,letter,LU2tenû,LU2tenû
-𒈒,12212,letter,LU2crossingLU2,LU2crossingLU2
-𒈲,12232,letter,MUŠ,MUŠ
-𒈴,12234,letter,MUŠxKUR,MUŠxKUR
-𒉯,1226F,letter,MUD3,MUD3
-𒈵,12235,letter,MUŠxZA,MUŠxZA
-𒉔,12254,letter,NINDA2xAŠ,NINDA2xAŠ
-𒉕,12255,letter,NINDA2xAŠ+AŠ,NINDA2xAŠ+AŠ
-𒉖,12256,letter,NINDA2xGUD,NINDA2xGUD
-𒉗,12257,letter,NINDA2xME+GAN2tenû,NINDA2xME+GAN2tenû
-𒉘,12258,letter,ÁG,ÁG
-𒉙,12259,letter,AZU,AZU
-𒉚,1225A,letter,NINDA2xŠE,NINDA2xŠE
-𒉛,1225B,letter,ŠAM2,ŠAM2
-𒉜,1225C,letter,NINDA2xŠE+AŠ,NINDA2xŠE+AŠ
-𒉝,1225D,letter,NINDA2xŠE+AŠ+AŠ,NINDA2xŠE+AŠ+AŠ
-𒉞,1225E,letter,NINDA2xU2+AŠ,NINDA2xU2+AŠ
-𒉟,1225F,letter,NINDA2xUŠ,NINDA2xUŠ
-𒉠,12260,letter,MURU2,MURU2
-𒉡,12261,letter,NU,NU
-𒉢,12262,letter,ŠIR,ŠIR
-𒉣,12263,letter,eridu,eridu
-𒉤,12264,letter,NUNLAGARxGAR,NUNLAGARxGAR
-𒉥,12265,letter,NUNLAGARxMAŠ,NUNLAGARxMAŠ
-𒉦,12266,letter,NUNLAGARxSAL,NUNLAGARxSAL
-𒉧,12267,letter,NUNLAGARxSAL/NUNLAGARxSAL,NUNLAGARxSAL/NUNLAGARxSAL
-𒉨,12268,letter,NUNLAGARxUŠ,NUNLAGARxUŠ
-𒉩,12269,letter,NUNtenû,NUNtenû
-𒋨,122E8,letter,SUMAŠ,SUMAŠ
-𒉫,1226B,letter,NUNcrossingNUN,NUNcrossingNUN
-𒉬,1226C,letter,NUNcrossingNUNLAGAR/LAGAR,NUNcrossingNUNLAGAR/LAGAR
-𒉭,1226D,letter,NUNUZ,NUNUZ
-𒉮,1226E,letter,USAN3,USAN3
-𒉓,12253,letter,NINDA2xAN,NINDA2xAN
-𒉒,12252,letter,NINDA2,NINDA2
-𒉑,12251,letter,NIMxGAR+GAN2tenû,NIMxGAR+GAN2tenû
-𒉂,12242,letter,NAGAxŠUtenû,NAGAxŠUtenû
-𒈶,12236,letter,RI8,RI8
-𒈷,12237,letter,MUŠ/MUŠxA+NA,MUŠ/MUŠxA+NA
-𒈸,12238,letter,MUŠcrossingMUŠ,MUŠcrossingMUŠ
-𒈹,12239,letter,INANNA,INANNA
-𒈺,1223A,letter,MUŠ3xA,MUŠ3xA
-𒈻,1223B,letter,MUŠ3xA+DI,MUŠ3xA+DI
-𒈼,1223C,letter,MUŠ3xDI,MUŠ3xDI
-𒈽,1223D,letter,SUH,SUH
-𒈾,1223E,letter,Na,Na
-𒈿,1223F,letter,NU2,NU2
-𒉀,12240,letter,NISABA,NISABA
-𒉁Haya,12241,letter,ḪAYA238,ḪAYA238
-𒉃,12243,letter,NAGAopposingNAGA,NAGAopposingNAGA
-𒉐,12250,letter,NIMxGAN2tenû,NIMxGAN2tenû
-𒉄,12244,letter,ALLA,ALLA
-𒉅,12245,letter,NAMNUTILLU,NAMNUTILLU
-𒉆,12246,letter,NAM,NAM
-𒉇,12247,letter,NAM2,NAM2
-𒉈,12248,letter,BI2,BI2
-𒉉,12249,letter,NExA,NExA
-𒉊,1224A,letter,NExUD,NExUD
-𒉋,1224B,letter,BÍL,BÍL
-𒉌,1224C,letter,I3,I3
-𒉍,1224D,letter,NIxE,NIxE
-𒉎,1224E,letter,NI2,NI2
-𒉏,1224F,letter,NUM,NUM
-𒉪,1226A,letter,NIR,NIR
-𒋯,122EF,letter,TAgunû,TAgunû
-𒋪,122EA,letter,SUR9,SUR9
-kad2,12190,letter,kad2,kad2
-𒎃,12383,letter,KAxLUM,KAxLUM
-𒎄,12384,letter,KAxPA,KAxPA
-𒎅,12385,letter,KAxŠUL,KAxŠUL
-𒎆,12386,letter,KAxTU,KAxTU
-𒎇,12387,letter,KAxUR2,KAxUR2
-𒎈,12388,letter,LAGABxGI,LAGABxGI
-𒎉,12389,letter,LU2ŠEŠIGxBAD,LU2ŠEŠIGxBAD
-𒎊,1238A,letter,LU2xEŠ2+LAL,LU2xEŠ2+LAL
-𒎋,1238B,letter,LU2xŠU,LU2xŠU
-𒎌,1238C,letter,MEŠ,MEŠ
-𒎍,1238D,letter,MUŠ3xZA,MUŠ3xZA
-𒎎,1238E,letter,NA4,NA4
-𒎏,1238F,letter,NIN,NIN
-𒎐,12390,letter,NIN9,NIN9
-𒎑,12391,letter,NINDA2xBAL,NINDA2xBAL
-𒎒,12392,letter,NINDA2xGI,NINDA2xGI
-𒎓,12393,letter,NU11rotated90°,NU11rotated90°
-𒎔,12394,letter,PEŠ2,PEŠ2
-𒎕,12395,letter,PIR2,PIR2
-𒎖,12396,letter,SAGxIGIgunû,SAGxIGIgunû
-𒎗,12397,letter,TI2,TI2
-𒎘,12398,letter,UMxME,UMxME
-𒎙,12399,letter,UU,UU
-ac,12038,letter,ac,ac
-an,1202d,letter,an,an
-gil,12103,letter,gil,gil
-kid2,122fa,letter,kid2,kid2
-𒎂,12382,letter,KAxḪIxAŠ2,KAxḪIxAŠ2
-𒎁,12381,letter,KAxGUD,KAxGUD
-𒎀,12380,letter,KAxGIŠ,KAxGIŠ
-𒍲,12372,letter,AMARxKUG,AMARxKUG
-𒍦,12366,letter,ZIB,ZIB
-𒍧,12367,letter,ZIBKABAtenû,ZIBKABAtenû
-𒍨,12368,letter,ZIK,ZIK
-𒍩,12369,letter,ZIZ2,ZIZ2
-𒍪,1236A,letter,SU,SU
-𒍫,1236B,letter,ZU5,ZU5
-𒍬,1236C,letter,ZU5xA,ZU5xA
-𒍭,1236D,letter,ZUBUR,ZUBUR
-𒍮,1236E,letter,ZUM,ZUM
-𒍯,1236F,letter,KAPELAMITE,KAPELAMITE
-𒍰,12370,letter,ABxNUN,ABxNUN
-𒍱,12371,letter,AB2xA,AB2xA
-𒍳,12373,letter,DAGKISIM5xU2+MAŠ,DAGKISIM5xU2+MAŠ
-𒍿,1237F,letter,KAxAŠ3,KAxAŠ3
-𒍴,12374,letter,DAG3,DAG3
-𒍵,12375,letter,DIŠ+ŠU,DIŠ+ŠU
+𒉷,12277,letter,LAḪTAN2,LAḪTAN2
+𒊐,12290,letter,RA,RA
+𒉶,12276,letter,NUNUZAB2xNE,NUNUZAB2xNE
+𒉵,12275,letter,LAḪTAN,LAḪTAN
+𒉴,12274,letter,NUNUZAB2xKAD3,NUNUZAB2xKAD3
+𒉳,12273,letter,NUNUZAB2xIGIgunû,NUNUZAB2xIGIgunû
+𒉲,12272,letter,NUNUZAB2xGUD,NUNUZAB2xGUD
+𒉱,12271,letter,NUNUZAB2xDUG,NUNUZAB2xDUG
+𒉿,1227F,letter,PEŠ2,PEŠ2
+𒊀,12280,letter,TAL2,TAL2
+𒊁,12281,letter,PIxA,PIxA
+𒊂,12282,letter,PIxAB,PIxAB
+𒊃,12283,letter,PIxBI,PIxBI
+𒊄,12284,letter,PIxBU,PIxBU
+𒊅,12285,letter,PIxBU,PIxBU
+𒊆,12286,letter,PIxI,PIxI
+𒊇,12287,letter,PIxIB,PIxIB
+𒊈,12288,letter,PIxU,PIxU
+𒊉,12289,letter,PIxU2,PIxU2
+𒊊,1228A,letter,PIcrossingPI,PIcrossingPI
+𒊋,1228B,letter,PIRIG,PIRIG
+𒊌,1228C,letter,PIRIGxKAL,PIRIGxKAL
+𒊍,1228D,letter,UG,UG
+𒊎,1228E,letter,AZ,AZ
+𒊏,1228F,letter,PIRIGopposingPIRIG,PIRIGopposingPIRIG
+𒊑,12291,letter,RAB,RAB
+𒊯,122AF,letter,ŠAG4,ŠAG4
+𒊬,122AC,letter,SANGA2,SANGA2
+𒋋,122CB,letter,ŠIMxDIN,ŠIMxDIN
+𒋍,122CD,letter,ŠIMxIGI,ŠIMxIGI
+𒋎,122CE,letter,ŠIMxIGIgunû,ŠIMxIGIgunû
+𒋏,122CF,letter,ŠIMxKUŠU2,ŠIMxKUŠU2
+𒋐,122D0,letter,ŠIMxLUL,ŠIMxLUL
+𒋑,122D1,letter,ŠIMxMUG,ŠIMxMUG
+𒋒,122D2,letter,ŠIMxSAL,ŠIMxSAL
+𒋓,122D3,letter,ŠINIG,ŠINIG
+𒋔,122D4,letter,ŠIR,ŠIR
+𒋕,122D5,letter,ŠIRtenû,ŠIRtenû
+𒋖,122D6,letter,ŠIR/ŠIRBUR/BUR,ŠIR/ŠIRBUR/BUR
+𒋗,122D7,letter,GA2,GA2
+𒋘,122D8,letter,ŠU,ŠU
+𒋙,122D9,letter,ŠU/ŠU,ŠU/ŠU
+𒋚,122DA,letter,ŠU2,ŠU2
+𒋛,122DB,letter,ŠUBUR,ŠUBUR
+𒋜,122DC,letter,MA,MA
+𒋝,122DD,letter,SU4,SU4
+𒋞,122DE,letter,SIG,SIG
+𒋟,122DF,letter,MURGU,MURGU
+𒋠,122E0,letter,SIG4/SIG4ŠU2,SIG4/SIG4ŠU2
+𒋡,122E1,letter,SIG2,SIG2
+𒈀,12200,letter,SILA3,SILA3
+𒋣,122E3,letter,KUŠ,KUŠ
+𒋤,122E4,letter,SU/SU,SU/SU
+𒋥,122E5,letter,BUgunû,BUgunû
+𒋦,122E6,letter,SUD2,SUD2
+𒋧,122E7,letter,SUḪUR,SUḪUR
+𒋌,122CC,letter,ŠIMxGAR,ŠIMxGAR
+𒋊,122CA,letter,ŠIMxBULUG,ŠIMxBULUG
+𒊭,122AD,letter,MU2,MU2
+𒋉,122C9,letter,ŠIMxBAL,ŠIMxBAL
+𒊮,122AE,letter,ŠA,ŠA
+𒉯,1226F,letter,USAN3,USAN3
+𒊰,122B0,letter,PEŠ4,PEŠ4
+𒊱,122B1,letter,ŠA3xBAD,ŠA3xBAD
+𒊲,122B2,letter,ŠA3xGIŠ,ŠA3xGIŠ
+𒊳,122B3,letter,ŠA3xNE,ŠA3xNE
+𒊴,122B4,letter,ŠA3xŠU2,ŠA3xŠU2
+𒊵,122B5,letter,ŠA3xTUR,ŠA3xTUR
+𒊶,122B6,letter,ŠA3xU,ŠA3xU
+𒊷,122B7,letter,BIR6,BIR6
+𒊸,122B8,letter,SAG9,SAG9
+𒊹,122B9,letter,ŠAB6,ŠAB6
+𒊺,122BA,letter,TI2,TI2
+𒊻,122BB,letter,ŠE,ŠE
+𒊼,122BC,letter,ŠEḪU,ŠEḪU
+𒊽,122BD,letter,ŠE/ŠEGAD/GADGAR/GAR,ŠE/ŠEGAD/GADGAR/GAR
+𒊾,122BE,letter,ŠE/ŠETAB/TABGAR/GAR,ŠE/ŠETAB/TABGAR/GAR
+𒊿,122BF,letter,ŠEG9,ŠEG9
+𒋀,122C0,letter,SUxA,SUxA
+𒋁,122C1,letter,URI3,URI3
+𒋂,122C2,letter,ŠEŠ2,ŠEŠ2
+𒋃,122C3,letter,ŠEŠLAM,ŠEŠLAM
+𒋄,122C4,letter,LAG,LAG
+𒋅,122C5,letter,UMBISAG2,UMBISAG2
+𒋆,122C6,letter,ŠIDxIM,ŠIDxIM
+𒋇,122C7,letter,ŠIM,ŠIM
+𒋈,122C8,letter,ŠIMxA,ŠIMxA
+𒉰,12270,letter,MUD3,MUD3
+𒉪,1226A,letter,NUNtenû,NUNtenû
+𒉮,1226E,letter,NUNUZ,NUNUZ
+𒈱,12231,letter,MUNŠUB,MUNŠUB
+𒈕,12215,letter,LU2squared,LU2squared
+𒈖,12216,letter,DIM3,DIM3
+𒈗,12217,letter,GÚG,GÚG
+𒈘,12218,letter,LUGAL,LUGAL
+𒈙,12219,letter,DADRUM,DADRUM
+𒈚,1221A,letter,LUGALopposingLUGAL,LUGALopposingLUGAL
+𒈛,1221B,letter,LUGALšešig,LUGALšešig
+𒈜,1221C,letter,LUḪ,LUḪ
+𒈝,1221D,letter,NAR,NAR
+𒈞,1221E,letter,ḪUM,ḪUM
+𒈟,1221F,letter,LUM/LUM,LUM/LUM
+𒈠,12220,letter,LÙGUD,LÙGUD
+𒈡,12221,letter,MA,MA
+𒈢,12222,letter,MAxTAK4,MAxTAK4
+𒈣,12223,letter,ḪASḪUR,ḪASḪUR
+𒈤,12224,letter,MA2,MA2
+𒈥,12225,letter,MAH,MAH
+𒈦,12226,letter,MAR,MAR
+𒈧,12227,letter,MAŠ,MAŠ
+𒈨,12228,letter,MAŠ2,MAŠ2
+𒈩,12229,letter,ME,ME
+𒈪,1222A,letter,RID,RID
+𒈫,1222B,letter,ĜI6,ĜI6
+𒈬,1222C,letter,MIN,MIN
+𒈭,1222D,letter,ĜU10,ĜU10
+𒈮,1222E,letter,TAḪ,TAḪ
+𒈯,1222F,letter,oakum,oakum
+𒈔,12214,letter,LU2opposingLU2,LU2opposingLU2
+𒈓,12213,letter,LU2crossingLU2,LU2crossingLU2
+𒈒,12212,letter,LU2tenû,LU2tenû
+𒈃,12203,letter,LU2xGAN2tenû,LU2xGAN2tenû
+𒇷,121F7,letter,LAMxKUR+RU,LAMxKUR+RU
+𒇸,121F8,letter,LI,LI
+𒇹,121F9,letter,LIL,LIL
+𒇺,121FA,letter,LIMMU2,LIMMU2
+𒇻,121FB,letter,DÍLIM,DÍLIM
+𒇼,121FC,letter,UDU,UDU
+𒇽,121FD,letter,ÀD,ÀD
+𒇾,121FE,letter,Person,Person
+𒇿,121FF,letter,LU2xAL,LU2xAL
+𒈀,12200,letter,LU2xBAD,LU2xBAD
+𒈁,12201,letter,LU2xEŠ2,LU2xEŠ2
+𒈂,12202,letter,LU2xEŠ2tenû,LU2xEŠ2tenû
+𒈄,12204,letter,LU2xḪIxBAD,LU2xḪIxBAD
+𒈑,12211,letter,AZLAG7,AZLAG7
+𒈅,12205,letter,LU2xIM,LU2xIM
+𒈆,12206,letter,LU2xKAD2,LU2xKAD2
+𒈇,12207,letter,LU2xKAD3,LU2xKAD3
+𒈈,12208,letter,LU2xKAD3+AŠ,LU2xKAD3+AŠ
+𒈉,12209,letter,LU2xKI,LU2xKI
+𒈊,1220A,letter,LU2xLA+AŠ,LU2xLA+AŠ
+𒈋,1220B,letter,LU2xLAGAB,LU2xLAGAB
+𒈌,1220C,letter,LU2xME+EN,LU2xME+EN
+𒈍,1220D,letter,DU14,DU14
+𒈎,1220E,letter,LU2xNU,LU2xNU
+𒈏,1220F,letter,LU2xSI+AŠ,LU2xSI+AŠ
+𒈐,12210,letter,LU2xSIK2+BU,LU2xSIK2+BU
+𒈰,12230,letter,ZADIM,ZADIM
+𒈲,12232,letter,MURGU2,MURGU2
+𒉭,1226D,letter,NUNcrossingNUNLAGAR/LAGAR,NUNcrossingNUNLAGAR/LAGAR
+𒈳,12233,letter,MUŠ,MUŠ
+𒉒,12252,letter,NIMxGAR+GAN2tenû,NIMxGAR+GAN2tenû
+𒉓,12253,letter,NINDA2,NINDA2
+𒉔,12254,letter,NINDA2xAN,NINDA2xAN
+𒉕,12255,letter,NINDA2xAŠ,NINDA2xAŠ
+𒉖,12256,letter,NINDA2xAŠ+AŠ,NINDA2xAŠ+AŠ
+𒉗,12257,letter,NINDA2xGUD,NINDA2xGUD
+𒉘,12258,letter,NINDA2xME+GAN2tenû,NINDA2xME+GAN2tenû
+𒉙,12259,letter,ÁG,ÁG
+𒉚,1225A,letter,AZU,AZU
+𒉛,1225B,letter,NINDA2xŠE,NINDA2xŠE
+𒉜,1225C,letter,ŠAM2,ŠAM2
+𒉝,1225D,letter,NINDA2xŠE+AŠ,NINDA2xŠE+AŠ
+𒉞,1225E,letter,NINDA2xŠE+AŠ+AŠ,NINDA2xŠE+AŠ+AŠ
+𒉟,1225F,letter,NINDA2xU2+AŠ,NINDA2xU2+AŠ
+𒉠,12260,letter,NINDA2xUŠ,NINDA2xUŠ
+𒉡,12261,letter,MURU2,MURU2
+𒉢,12262,letter,NU,NU
+𒉣,12263,letter,ŠIR,ŠIR
+𒉤,12264,letter,eridu,eridu
+𒉥,12265,letter,NUNLAGARxGAR,NUNLAGARxGAR
+𒉦,12266,letter,NUNLAGARxMAŠ,NUNLAGARxMAŠ
+𒉧,12267,letter,NUNLAGARxSAL,NUNLAGARxSAL
+𒉨,12268,letter,NUNLAGARxSAL/NUNLAGARxSAL,NUNLAGARxSAL/NUNLAGARxSAL
+𒉩,12269,letter,NUNLAGARxUŠ,NUNLAGARxUŠ
+𒋩,122E9,letter,SUMAŠ,SUMAŠ
+𒉫,1226B,letter,NIR,NIR
+𒉬,1226C,letter,NUNcrossingNUN,NUNcrossingNUN
+𒉑,12251,letter,NIMxGAN2tenû,NIMxGAN2tenû
+𒉐,12250,letter,NUM,NUM
+𒉏,1224F,letter,NI2,NI2
+𒉀,12240,letter,NU2,NU2
+𒈴,12234,letter,MUŠxA,MUŠxA
+𒈵,12235,letter,MUŠxKUR,MUŠxKUR
+𒈶,12236,letter,MUŠxZA,MUŠxZA
+𒈷,12237,letter,RI8,RI8
+𒈸,12238,letter,MUŠ/MUŠxA+NA,MUŠ/MUŠxA+NA
+𒈹,12239,letter,MUŠcrossingMUŠ,MUŠcrossingMUŠ
+𒈺,1223A,letter,INANNA,INANNA
+𒈻,1223B,letter,MUŠ3xA,MUŠ3xA
+𒈼,1223C,letter,MUŠ3xA+DI,MUŠ3xA+DI
+𒈽,1223D,letter,MUŠ3xDI,MUŠ3xDI
+𒈾,1223E,letter,SUH,SUH
+𒈿,1223F,letter,Na,Na
+𒉁,12241,letter,NISABA,NISABA
+𒉎,1224E,letter,NIxE,NIxE
+𒉂,12242,letter,ḪAYA238,ḪAYA238
+𒉃,12243,letter,NAGAxŠUtenû,NAGAxŠUtenû
+𒉄,12244,letter,NAGAopposingNAGA,NAGAopposingNAGA
+𒉅,12245,letter,ALLA,ALLA
+𒉆,12246,letter,NAMNUTILLU,NAMNUTILLU
+𒉇,12247,letter,NAM,NAM
+𒉈,12248,letter,NAM2,NAM2
+𒉉,12249,letter,BI2,BI2
+𒉊,1224A,letter,NExA,NExA
+𒉋,1224B,letter,NExUD,NExUD
+𒉌,1224C,letter,BÍL,BÍL
+𒉍,1224D,letter,I3,I3
+𒋨,122E8,letter,ŠUM2,ŠUM2
+𒋯,122EF,letter,TAxMI,TAxMI
+𒋪,122EA,letter,SUR,SUR
+𒎂,12382,letter,KAxGUD,KAxGUD
+𒎄,12384,letter,KAxLUM,KAxLUM
+𒎅,12385,letter,KAxPA,KAxPA
+𒎆,12386,letter,KAxŠUL,KAxŠUL
+𒎇,12387,letter,KAxTU,KAxTU
+𒎈,12388,letter,KAxUR2,KAxUR2
+𒎉,12389,letter,LAGABxGI,LAGABxGI
+𒎊,1238A,letter,LU2ŠEŠIGxBAD,LU2ŠEŠIGxBAD
+𒎋,1238B,letter,LU2xEŠ2+LAL,LU2xEŠ2+LAL
+𒎌,1238C,letter,LU2xŠU,LU2xŠU
+𒎍,1238D,letter,MEŠ,MEŠ
+𒎎,1238E,letter,MUŠ3xZA,MUŠ3xZA
+𒎏,1238F,letter,NA4,NA4
+𒎐,12390,letter,NIN,NIN
+𒎑,12391,letter,NIN9,NIN9
+𒎒,12392,letter,NINDA2xBAL,NINDA2xBAL
+𒎓,12393,letter,NINDA2xGI,NINDA2xGI
+𒎔,12394,letter,NU11rotated90°,NU11rotated90°
+𒎕,12395,letter,PEŠ2,PEŠ2
+𒎖,12396,letter,PIR2,PIR2
+𒎗,12397,letter,SAGxIGIgunû,SAGxIGIgunû
+𒎘,12398,letter,TI2,TI2
+𒎙,12399,letter,UMxME,UMxME
+𒀸,12038,letter,UU,UU
+𒀭,1202d,letter,ac,ac
+𒄃,12103,letter,numun2,numun2
+𒋺,122fa,letter,gil,gil
+𒉫,1226b,letter,kid2,kid2
+𒎃,12383,letter,KAxḪIxAŠ2,KAxḪIxAŠ2
+𒎁,12381,letter,KAxGIŠ,KAxGIŠ
+𒋫,122EB,letter,SUR9,SUR9
+𒎀,12380,letter,KAxAŠ3,KAxAŠ3
+𒍦,12366,letter,ZI3,ZI3
+𒍧,12367,letter,ZIB,ZIB
+𒍨,12368,letter,ZIBKABAtenû,ZIBKABAtenû
+𒍩,12369,letter,ZIK,ZIK
+𒍪,1236A,letter,ZIZ2,ZIZ2
+𒍫,1236B,letter,SU,SU
+𒍬,1236C,letter,ZU5,ZU5
+𒍭,1236D,letter,ZU5xA,ZU5xA
+𒍮,1236E,letter,ZUBUR,ZUBUR
+𒍯,1236F,letter,ZUM,ZUM
+𒍰,12370,letter,KAPELAMITE,KAPELAMITE
+𒍱,12371,letter,ABxNUN,ABxNUN
+𒍲,12372,letter,AB2xA,AB2xA
+𒍳,12373,letter,AMARxKUG,AMARxKUG
+𒍴,12374,letter,DAGKISIM5xU2+MAŠ,DAGKISIM5xU2+MAŠ
+𒍵,12375,letter,DAG3,DAG3
+𒍶,12376,letter,DIŠ+ŠU,DIŠ+ŠU
 𒍶,12376,letter,DUBxŠE,DUBxŠE
-𒍶,12376,letter,DUBxŠE,DUBxŠE
-𒍷,12377,letter,EZENxGUD,EZENxGUD
-𒍸,12378,letter,EZENxŠE,EZENxŠE
-𒍹,12379,letter,GA2xAN+KAK+A,GA2xAN+KAK+A
-𒍺,1237A,letter,GA2xAŠ2,GA2xAŠ2
-𒍻,1237B,letter,GE22,GE22
-𒍼,1237C,letter,GIG,GIG
-𒍽,1237D,letter,ḪUŠ,ḪUŠ
-𒍾,1237E,letter,KAxANŠE,KAxANŠE
-NunCrossingNun,1226b,letter,NunCrossingNun,NunCrossingNun
-kad3,12191,letter,kad3,kad3
-𒍤,12364,letter,ZI/ZI,ZI/ZI
-na,1223e,letter,na,na
-muc2,1223d,letter,muc2,muc2
-muc3,12239,letter,muc3,muc3
-sed,1223b,letter,sed,sed
-gad,120f0,letter,gad,gad
-Tak4,122fa,letter,Tak4,Tak4
-SI',122db,letter,SI,SI
-su,12200,letter,su,su
-umbin,12322,letter,umbin,umbin
-cinig,122d2,letter,cinig,cinig
-kinda,120f1,letter,kinda,kinda
-en,12097,letter,en,en
-dar3,12070,letter,dar3,dar3
-dim,12074,letter,dim,dim
-mun,12075,letter,mun,mun
-bulug,12051,letter,bulug,bulug
-cen,122bf,letter,cen,cen
-lal,122ed,letter,lal3,lal3
-ku7,121af,letter,ku7,ku7
-sa,12293,letter,sa,sa
-acgab,1203f,letter,acgab,acgab
-gan2,120f7,letter,gan2,gan2
-gan2,120f8,letter,gan2,gan2
-gu2,12118,letter,gu2,gu2
-usan,1211b,letter,usan,usan
-dur,12119,letter,dur,dur
-gun,12118,letter,gun,gun
-Un,12326,letter,Un,Un
-hub,1213d,letter,hub,hub
-zu,1236a,letter,zu,zu
-kab,1218f,letter,kab,kab
-me3,1201e,letter,me3,me3
-ru,12292,letter,ru,ru
-nu,12261,letter,nu,nu
-bad,12041,letter,bad,bad
-cir,122d3,letter,cir,cir
-numun,121b0,letter,numun,numun
-ti,122fe,letter,ti,ti
-din,12077,letter,din,din
-mug,1222e,letter,mug,mug
-mac,12226,letter,mac,mac
-bar,12047,letter,bar,bar
-ban₂,1244f,letter,ban₂,ban₂
-ag,1201D,letter,ag,ag
-zadim,1222f,letter,zadim,zadim
-cilam,12266,letter,cilam,cilam
-mac2,12227,letter,mac2,mac2
-kun,121b2,letter,kun,kun
-hu,12137,letter,hu,hu
-nam,12246,letter,nam,nam
-ig,12145,letter,ig,ig
-ba,12040,letter,ba,ba
-zi,12363,letter,zi,zi
-gi,12100,letter,gi,gi
-ri,12291,letter,ri,ri
-nun,12263,letter,nun,nun
-nun,12269,letter,nun,nun
-immal,12265,letter,immal,immal
-𒍥,12365,letter,ZI3,ZI3
-𒍣,12363,letter,ZE1,ZE1
-𒋫,122EB,letter,TA,TA
-𒌦,12326,letter,KALAM,KALAM
-𒌊,1230A,letter,TUR/TURZA/ZA,TUR/TURZA/ZA
-𒌋,1230B,letter,BUR3,BUR3
-𒌌,1230C,letter,UL,UL
-𒌍,1230D,letter,EŠ,EŠ
-𒌎,1230E,letter,U/UPA/PAGAR/GAR,U/UPA/PAGAR/GAR
-𒌏,1230F,letter,U/USUR/SUR,U/USUR/SUR
-𒌐,12310,letter,MAŠGI,MAŠGI
-𒌑,12311,letter,U2,U2
-𒌒,12312,letter,AR2,AR2
-𒌓,12313,letter,BABBAR,BABBAR
-𒌔,12314,letter,UḪ2,UḪ2
-𒌕,12315,letter,UDxBAD,UDxBAD
-𒌖,12316,letter,ITIMA2,ITIMA2
-𒌗,12317,letter,DU16,DU16
-𒌘,12318,letter,UDxU+U+Ugunû,UDxU+U+Ugunû
-𒌙,12319,letter,UDgunû,UDgunû
-𒌚,1231A,letter,ITI,ITI
-𒌛,1231B,letter,UDšešigxBAD,UDšešigxBAD
-𒌜,1231C,letter,UDUG,UDUG
-𒌝,1231D,letter,UM,UM
-𒌞,1231E,letter,UMxLAGAB,UMxLAGAB
-𒌟,1231F,letter,UMxME+DA,UMxME+DA
-𒌠,12320,letter,UMxŠA3,UMxŠA3
-𒌡,12321,letter,UMxU,UMxU
-𒌢,12322,letter,UMBIN,UMBIN
-𒌣,12323,letter,DU19,DU19
-𒌤,12324,letter,DE2,DE2
-𒌉,12309,letter,DU13,DU13
-𒌈,12308,letter,DU4,DU4
-𒌇,12307,letter,DU12,DU12
-𒋸,122F8,letter,TAGxTUG2,TAGxTUG2
-,122EC,letter,TA,TA
-𒋭,122ED,letter,LAL3,LAL3
-𒋮,122EE,letter,TAxMI,TAxMI
-𒇷,121F7,letter,LI,LI
-𒋰,122F0,letter,TAB,TAB
-𒋱,122F1,letter,TAB/TABNI/NIDIŠ/DIŠ,TAB/TABNI/NIDIŠ/DIŠ
-𒋲,122F2,letter,TABSquared,TABSquared
-𒋳,122F3,letter,TAG,TAG
-𒋴,122F4,letter,TAGxBI,TAGxBI
-𒋵,122F5,letter,TAGxGUD,TAGxGUD
-𒋶,122F6,letter,TAGxŠE,TAGxŠE
-𒋷,122F7,letter,TAGxŠU,TAGxŠU
-𒋹,122F9,letter,TAGxUD,TAGxUD
-𒌆,12306,letter,NAM2,NAM2
-𒋺,122FA,letter,KID2,KID2
-𒋻,122FB,letter,TAR,TAR
-𒋼,122FC,letter,GAL5,GAL5
-𒋽,122FD,letter,URU5,URU5
-𒋾,122FE,letter,DÌ,DÌ
-𒋿,122FF,letter,TItenû,TItenû
-𒌀,12300,letter,TIL,TIL
-𒌁,12301,letter,TIR,TIR
-𒌂,12302,letter,TIRxTAK4,TIRxTAK4
-𒌃,12303,letter,NINNI5,NINNI5
-𒌄,12304,letter,TIR/TIRGAD/GADGAR/GAR,TIR/TIRGAD/GADGAR/GAR
-𒌅,12305,letter,DU2,DU2
-𒌥,12325,letter,UMUMxPA,UMUMxPA
-𒌧,12327,letter,UNgunû,UNgunû
-𒍢,12362,letter,ZI2,ZI2
-𒌨,12328,letter,HUL,HUL
-𒍇,12347,letter,ULU3,ULU3
-𒍈,12348,letter,URUxPA,URUxPA
-𒍉,12349,letter,URUxŠE,URUxŠE
-𒍊,1234A,letter,URUxSIG4,URUxSIG4
-𒍋,1234B,letter,URUxTU,URUxTU
-𒍌,1234C,letter,URUxU+GUD,URUxU+GUD
-𒍍,1234D,letter,URUxUD,URUxUD
-𒍎,1234E,letter,BANŠUR,BANŠUR
-𒍏,1234F,letter,URUDU,URUDU
-𒍐,12350,letter,URUDAxU,URUDAxU
-𒍑,12351,letter,NITA,NITA
-𒍒,12352,letter,UŠxA,UŠxA
-𒍓,12353,letter,UŠxKU,UŠxKU
-𒍔,12354,letter,UŠxKUR,UŠxKUR
-𒍕,12355,letter,UŠxTAK4,UŠxTAK4
-𒍖,12356,letter,Z,Z
-𒍗,12357,letter,MŪTU,MŪTU
-𒍘,12358,letter,UŠUMX,UŠUMX
-𒍙,12359,letter,UTUKI,UTUKI
-𒍚,1235A,letter,UZ3,UZ3
-𒍛,1235B,letter,UZ3xKASKAL,UZ3xKASKAL
-𒍜,1235C,letter,UZU,UZU
-𒍝,1235D,letter,ZA,ZA
-𒍞,1235E,letter,AS4,AS4
-𒍟,1235F,letter,ZAsquaredxKUR,ZAsquaredxKUR
-𒍠,12360,letter,ZA3,ZA3
-𒍡,12361,letter,ZAMX,ZAMX
-𒍆,12346,letter,URUxLUM,URUxLUM
-𒍅,12345,letter,URUxKI,URUxKI
-𒍄,12344,letter,URUxIŠ,URUxIŠ
-𒌵,12335,letter,BUR/BUR,BUR/BUR
-𒌩,12329,letter,URcrossingUR,URcrossingUR
-𒌪,1232A,letter,URšešig,URšešig
-𒌫,1232B,letter,UR2,UR2
-𒌬,1232C,letter,UR2xA+ḪA,UR2xA+ḪA
-𒌭,1232D,letter,UR2xA+NA,UR2xA+NA
-𒌮,1232E,letter,UR2xAL,UR2xAL
-𒌯,1232F,letter,UR2xḪA,UR2xḪA
-𒌰,12330,letter,UR2xNUN,UR2xNUN
-𒌱,12331,letter,UR2xU2,UR2xU2
-𒌲,12332,letter,UR2xU2+AŠ,UR2xU2+AŠ
-𒌳,12333,letter,UR2xU2+BI,UR2xU2+BI
-𒌴,12334,letter,UR4,UR4
-𒌶,12336,letter,URI3,URI3
-𒍃,12343,letter,URUxIM,URUxIM
-𒌷,12337,letter,RI2,RI2
-𒌸,12338,letter,URUxA,URUxA
-𒌹,12339,letter,URUxAŠGAB,URUxAŠGAB
-𒌺,1233A,letter,UKKIN,UKKIN
-𒌻,1233B,letter,URUxDUN,URUxDUN
-𒌼,1233C,letter,URUxGA,URUxGA
-𒌽,1233D,letter,URUxGAL,URUxGAL
-𒌾,1233E,letter,URUxGAN2tenû,URUxGAN2tenû
-𒌿,1233F,letter,URUxGAR,URUxGAR
-𒍀,12340,letter,URUxGU,URUxGU
-𒍁,12341,letter,URUxḪA,URUxḪA
-𒍂,12342,letter,URUxIGI,URUxIGI
-𒇸,121F8,letter,LIL,LIL
-𒇴,121F4,letter,BAfromGANBA,BAfromGANBA
-𒇶,121F6,letter,LAMxKUR+RU,LAMxKUR+RU
-𒂫,120AB,letter,EZENxIGIgunû,EZENxIGIgunû
-𒂞,1209E,letter,EREN,EREN
+𒍷,12377,letter,DUBxŠE,DUBxŠE
+𒍸,12378,letter,EZENxGUD,EZENxGUD
+𒍹,12379,letter,EZENxŠE,EZENxŠE
+𒍺,1237A,letter,GA2xAN+KAK+A,GA2xAN+KAK+A
+𒍻,1237B,letter,GA2xAŠ2,GA2xAŠ2
+𒍼,1237C,letter,GE22,GE22
+𒍽,1237D,letter,GIG,GIG
+𒍾,1237E,letter,ḪUŠ,ḪUŠ
+𒍿,1237F,letter,KAxANŠE,KAxANŠE
+𒆐,12190,letter,NunCrossingNun,NunCrossingNun
+𒆑,12191,letter,kad2,kad2
+𒈾,1223e,letter,accur,accur
+𒊒,12292,letter,na,na
+𒈹,12239,letter,muc2,muc2
+𒈻,1223b,letter,muc3,muc3
+𒃰,120f0,letter,sed,sed
+𒋺,122fa,letter,gad,gad
+𒋛,122db,letter,Tak4,Tak4
+𒈀,12200,letter,akkil,akkil
+𒌢,12322,letter,SI,SI
+𒋒,122d2,letter,su,su
+𒃱,120f1,letter,umbin,umbin
+𒂗,12097,letter,cinig,cinig
+𒁰,12070,letter,en,en
+𒁴,12074,letter,buru14,buru14
+𒁵,12075,letter,dar3,dar3
+𒁑,12051,letter,dim,dim
+𒊿,122bf,letter,mun,mun
+𒋭,122ed,letter,bulug,bulug
+𒆯,121af,letter,cen,cen
+𒊓,12293,letter,lal3,lal3
+𒀿,1203f,letter,ku7,ku7
+𒃷,120f7,letter,sa,sa
+𒃸,120f8,letter,acgab,acgab
+𒄘,12118,letter,gan2,gan2
+𒄛,1211b,letter,gan2,gan2
+𒄙,12119,letter,gu2,gu2
+𒄘,12118,letter,usan,usan
+𒌦,12326,letter,dur,dur
+𒀴,12034,letter,gun,gun
+𒈽,1223d,letter,hub,hub
+𒄽,1213d,letter,zu,zu
+𒍪,1236a,letter,kab,kab
+𒈯,1222f,letter,me3,me3
+𒉡,12261,letter,ru,ru
+𒁁,12041,letter,nu,nu
+𒋓,122d3,letter,bad,bad
+𒆰,121b0,letter,cir,cir
+𒋾,122fe,letter,numun,numun
+𒁷,12077,letter,ti,ti
+𒈮,1222e,letter,din,din
+𒈦,12226,letter,mug,mug
+𒁇,12047,letter,mac,mac
+𒑏,1244f,letter,bar,bar
+𒀝,1201D,letter,mash-man,mash-man
+𒀞,1201e,letter,ag,ag
+𒈧,12227,letter,zadim,zadim
+𒆏,1218f,letter,cilam,cilam
+𒆲,121b2,letter,mac2,mac2
+𒄷,12137,letter,kun,kun
+𒉆,12246,letter,u5,u5
+𒅅,12145,letter,nam,nam
+𒁀,12040,letter,sa4,sa4
+𒍣,12363,letter,ba,ba
+𒄀,12100,letter,zi,zi
+𒊑,12291,letter,gi,gi
+𒉣,12263,letter,ri,ri
+𒉩,12269,letter,nun,nun
+𒉥,12265,letter,tur3,tur3
+𒉦,12266,letter,immal,immal
+𒍥,12365,letter,ZI/ZI,ZI/ZI
+𒍤,12364,letter,ZE1,ZE1
+𒍣,12363,letter,ZI2,ZI2
+𒌦,12326,letter,UMUMxPA,UMUMxPA
+𒌊,1230A,letter,DU13,DU13
+𒌋,1230B,letter,TUR/TURZA/ZA,TUR/TURZA/ZA
+𒌌,1230C,letter,BUR3,BUR3
+𒌍,1230D,letter,UL,UL
+𒌎,1230E,letter,EŠ,EŠ
+𒌏,1230F,letter,U/UPA/PAGAR/GAR,U/UPA/PAGAR/GAR
+𒌐,12310,letter,U/USUR/SUR,U/USUR/SUR
+𒌑,12311,letter,MAŠGI,MAŠGI
+𒌒,12312,letter,U2,U2
+𒌓,12313,letter,AR2,AR2
+𒌔,12314,letter,BABBAR,BABBAR
+𒌕,12315,letter,UḪ2,UḪ2
+𒌖,12316,letter,UDxBAD,UDxBAD
+𒌗,12317,letter,ITIMA2,ITIMA2
+𒌘,12318,letter,DU16,DU16
+𒌙,12319,letter,UDxU+U+Ugunû,UDxU+U+Ugunû
+𒌚,1231A,letter,UDgunû,UDgunû
+𒌛,1231B,letter,ITI,ITI
+𒌜,1231C,letter,UDšešigxBAD,UDšešigxBAD
+𒌝,1231D,letter,UDUG,UDUG
+𒌞,1231E,letter,UM,UM
+𒌟,1231F,letter,UMxLAGAB,UMxLAGAB
+𒌠,12320,letter,UMxME+DA,UMxME+DA
+𒌡,12321,letter,UMxŠA3,UMxŠA3
+𒌢,12322,letter,UMxU,UMxU
+𒌣,12323,letter,UMBIN,UMBIN
+𒌤,12324,letter,DU19,DU19
+𒌉,12309,letter,DU4,DU4
+𒌈,12308,letter,DU12,DU12
+𒌇,12307,letter,NAM2,NAM2
+𒋸,122F8,letter,TAGxŠU,TAGxŠU
+𒋬,122EC,letter,TA,TA
+𒋭,122ED,letter,TA,TA
+𒋮,122EE,letter,LAL3,LAL3
+𒀁,12001,letter,EDURU,EDURU
+𒋰,122F0,letter,TAgunû,TAgunû
+𒋱,122F1,letter,TAB,TAB
+𒋲,122F2,letter,TAB/TABNI/NIDIŠ/DIŠ,TAB/TABNI/NIDIŠ/DIŠ
+𒋳,122F3,letter,TABSquared,TABSquared
+𒋴,122F4,letter,TAG,TAG
+𒋵,122F5,letter,TAGxBI,TAGxBI
+𒋶,122F6,letter,TAGxGUD,TAGxGUD
+𒋷,122F7,letter,TAGxŠE,TAGxŠE
+𒋹,122F9,letter,TAGxTUG2,TAGxTUG2
+𒌆,12306,letter,DU2,DU2
+𒋺,122FA,letter,TAGxUD,TAGxUD
+𒋻,122FB,letter,KID2,KID2
+𒋼,122FC,letter,TAR,TAR
+𒋽,122FD,letter,GAL5,GAL5
+𒋾,122FE,letter,URU5,URU5
+𒋿,122FF,letter,DÌ,DÌ
+𒌀,12300,letter,TItenû,TItenû
+𒌁,12301,letter,TIL,TIL
+𒌂,12302,letter,TIR,TIR
+𒌃,12303,letter,TIRxTAK4,TIRxTAK4
+𒌄,12304,letter,NINNI5,NINNI5
+𒌅,12305,letter,TIR/TIRGAD/GADGAR/GAR,TIR/TIRGAD/GADGAR/GAR
+𒌥,12325,letter,DE2,DE2
+𒌧,12327,letter,KALAM,KALAM
+𒍢,12362,letter,ZAMX,ZAMX
+𒌨,12328,letter,UNgunû,UNgunû
+𒍇,12347,letter,URUxLUM,URUxLUM
+𒍈,12348,letter,ULU3,ULU3
+𒍉,12349,letter,URUxPA,URUxPA
+𒍊,1234A,letter,URUxŠE,URUxŠE
+𒍋,1234B,letter,URUxSIG4,URUxSIG4
+𒍌,1234C,letter,URUxTU,URUxTU
+𒍍,1234D,letter,URUxU+GUD,URUxU+GUD
+𒍎,1234E,letter,URUxUD,URUxUD
+𒍏,1234F,letter,BANŠUR,BANŠUR
+𒍐,12350,letter,URUDU,URUDU
+𒍑,12351,letter,URUDAxU,URUDAxU
+𒍒,12352,letter,NITA,NITA
+𒍓,12353,letter,UŠxA,UŠxA
+𒍔,12354,letter,UŠxKU,UŠxKU
+𒍕,12355,letter,UŠxKUR,UŠxKUR
+𒍖,12356,letter,UŠxTAK4,UŠxTAK4
+𒍗,12357,letter,Z,Z
+𒍘,12358,letter,MŪTU,MŪTU
+𒍙,12359,letter,UŠUMX,UŠUMX
+𒍚,1235A,letter,UTUKI,UTUKI
+𒍛,1235B,letter,UZ3,UZ3
+𒍜,1235C,letter,UZ3xKASKAL,UZ3xKASKAL
+𒍝,1235D,letter,UZU,UZU
+𒍞,1235E,letter,ZA,ZA
+𒍟,1235F,letter,AS4,AS4
+𒍠,12360,letter,ZAsquaredxKUR,ZAsquaredxKUR
+𒍡,12361,letter,ZA3,ZA3
+𒍆,12346,letter,URUxKI,URUxKI
+𒍅,12345,letter,URUxIŠ,URUxIŠ
+𒍄,12344,letter,URUxIM,URUxIM
+𒌵,12335,letter,UR4,UR4
+𒌩,12329,letter,HUL,HUL
+𒌪,1232A,letter,URcrossingUR,URcrossingUR
+𒌫,1232B,letter,URšešig,URšešig
+𒌬,1232C,letter,UR2,UR2
+𒌭,1232D,letter,UR2xA+ḪA,UR2xA+ḪA
+𒌮,1232E,letter,UR2xA+NA,UR2xA+NA
+𒌯,1232F,letter,UR2xAL,UR2xAL
+𒌰,12330,letter,UR2xḪA,UR2xḪA
+𒌱,12331,letter,UR2xNUN,UR2xNUN
+𒌲,12332,letter,UR2xU2,UR2xU2
+𒌳,12333,letter,UR2xU2+AŠ,UR2xU2+AŠ
+𒌴,12334,letter,UR2xU2+BI,UR2xU2+BI
+𒌶,12336,letter,BUR/BUR,BUR/BUR
+𒍃,12343,letter,URUxIGI,URUxIGI
+𒌷,12337,letter,URI3,URI3
+𒌸,12338,letter,RI2,RI2
+𒌹,12339,letter,URUxA,URUxA
+𒌺,1233A,letter,URUxAŠGAB,URUxAŠGAB
+𒌻,1233B,letter,UKKIN,UKKIN
+𒌼,1233C,letter,URUxDUN,URUxDUN
+𒌽,1233D,letter,URUxGA,URUxGA
+𒌾,1233E,letter,URUxGAL,URUxGAL
+𒌿,1233F,letter,URUxGAN2tenû,URUxGAN2tenû
+𒍀,12340,letter,URUxGAR,URUxGAR
+𒍁,12341,letter,URUxGU,URUxGU
+𒍂,12342,letter,URUxḪA,URUxḪA
+𒇶,121F6,letter,EŠ22,EŠ22
+𒇵,121F5,letter,BAfromGANBA,BAfromGANBA
+𒇴,121F4,letter,LAL2,LAL2
+𒂬,120AC,letter,EZENxKASKAL,EZENxKASKAL
 𒂟,1209F,letter,ERIM,ERIM
 𒂠,120A0,letter,ŠE3,ŠE3
 𒂡,120A1,letter,IZIN,IZIN
@@ -516,9 +513,9 @@ immal,12265,letter,immal,immal
 𒂨,120A8,letter,EZENxDUN3gunûgunû,EZENxDUN3gunûgunû
 𒂩,120A9,letter,EZENxḪA,EZENxḪA
 𒂪,120AA,letter,EZENxḪAgunû,EZENxḪAgunû
-𒂬,120AC,letter,EZENxKASKAL,EZENxKASKAL
-𒇵,121F5,letter,EŠ22,EŠ22
+𒂫,120AB,letter,EZENxIGIgunû,EZENxIGIgunû
 𒂭,120AD,letter,EZENxKASKALsquared,EZENxKASKALsquared
+𒁾,1207E,letter,KIŠIB3,KIŠIB3
 𒂮,120AE,letter,EZENxKU3,EZENxKU3
 𒂯,120AF,letter,EZENxLA,EZENxLA
 𒂰,120B0,letter,EZENxLALxLAL,EZENxLALxLAL
@@ -531,11 +528,11 @@ immal,12265,letter,immal,immal
 𒂷,120B7,letter,GA2,GA2
 𒂸,120B8,letter,GA2xA+DA+ḪA,GA2xA+DA+ḪA
 𒂹,120B9,letter,GA2xA+ḪA,GA2xA+ḪA
+𒂺,120BA,letter,GA2xA+IGI,GA2xA+IGI
+𒂞,1209E,letter,EREN,EREN
 𒂝,1209D,letter,ENsquared,ENsquared
 𒂜,1209C,letter,ENopposingEN,ENopposingEN
 𒂛,1209B,letter,ENcrossingEN,ENcrossingEN
-𒂚,1209A,letter,ENxME,ENxME
-𒁿,1207F,letter,DUBxEŠ2,DUBxEŠ2
 𒂀,12080,letter,DUB2,DUB2
 𒂁,12081,letter,BIxA,BIxA
 𒂂,12082,letter,DUGUD,DUGUD
@@ -562,16 +559,18 @@ immal,12265,letter,immal,immal
 𒂗,12097,letter,EN,EN
 𒂘,12098,letter,BURU14,BURU14
 𒂙,12099,letter,ENxGAN2tenû,ENxGAN2tenû
-𒂺,120BA,letter,GA2xA+IGI,GA2xA+IGI
+𒂚,1209A,letter,ENxME,ENxME
 𒂻,120BB,letter,GA2xAB2tenû+TAB,GA2xAB2tenû+TAB
 𒂼,120BC,letter,AMA,AMA
-𒃛,120DB,letter,GA2xKID+LAL,GA2xKID+LAL
-𒃝,120DD,letter,GA2xLA,GA2xLA
+𒂽,120BD,letter,GA2xAŠ,GA2xAŠ
+𒃜,120DC,letter,GA2xKU3+AN,GA2xKU3+AN
 𒃞,120DE,letter,MEN,MEN
 𒃟,120DF,letter,ITIMA,ITIMA
 𒃠,120E0,letter,GANUN,GANUN
 𒃡,120E1,letter,UR3,UR3
-𒃢,12000,letter,GAZI,GAZI
+𒀀,12000,letter,GAZI,GAZI
+𒃣,120E3,letter,ARḪUŠ,ARḪUŠ
+𒃤,120E4,letter,GA2xSAR,GA2xSAR
 𒃥,120E5,letter,ESAG2,ESAG2
 𒃦,120E6,letter,GA2xŠE+TUR,GA2xŠE+TUR
 𒃧,120E7,letter,GA2xŠID,GA2xŠID
@@ -592,12 +591,10 @@ immal,12265,letter,immal,immal
 𒃶,120F6,letter,KAN,KAN
 𒃷,120F7,letter,GAN2,GAN2
 𒃸,120F8,letter,KAR2,KAR2
-𒃹,120F9,letter,GAN2/GAN2,GAN2/GAN2
-𒃜,120DC,letter,GA2xKU3+AN,GA2xKU3+AN
-𒃚,120DA,letter,GA2xKID,GA2xKID
-𒂽,120BD,letter,GA2xAŠ,GA2xAŠ
-𒃙,120D9,letter,GA2xKASKAL,GA2xKASKAL
+𒃝,120DD,letter,GA2xLA,GA2xLA
+𒃛,120DB,letter,GA2xKID+LAL,GA2xKID+LAL
 𒂾,120BE,letter,GA2xAŠ2+GAL,GA2xAŠ2+GAL
+𒃚,120DA,letter,GA2xKID,GA2xKID
 𒂿,120BF,letter,GA2xBAD,GA2xBAD
 𒃀,120C0,letter,GA2xBAR+RA,GA2xBAR+RA
 𒃁,120C1,letter,GA2xBUR,GA2xBUR
@@ -624,10 +621,11 @@ immal,12265,letter,immal,immal
 𒃖,120D6,letter,GA2xIGIgunû,GA2xIGIgunû
 𒃗,120D7,letter,GA2xIŠ+ḪU+AŠ,GA2xIŠ+ḪU+AŠ
 𒃘,120D8,letter,GA2xKAK,GA2xKAK
-𒁾,1207E,letter,KIŠIB3,KIŠIB3
+𒃙,120D9,letter,GA2xKASKAL,GA2xKASKAL
+𒁿,1207F,letter,DUBxEŠ2,DUBxEŠ2
 𒁽,1207D,letter,GIR5,GIR5
-𒁼,1207C,letter,GIR6,GIR6
-𒀟,1201F,letter,AKxŠITA+GIŠ,AKxŠITA+GIŠ
+𒇳,121F3,letter,LA2,LA2
+𒀯,1202F,letter,MUL,MUL
 𒀡,12021,letter,ALxAL,ALxAL
 𒀢,12022,letter,ALxDIM2,ALxDIM2
 𒀣,12023,letter,ALxGIŠ,ALxGIŠ
@@ -641,8 +639,8 @@ immal,12265,letter,immal,immal
 𒀬,1202C,letter,SISKUR,SISKUR
 𒀭,1202D,letter,AN,AN
 𒀮,1202E,letter,AN/AN,AN/AN
-𒀯,1202F,letter,MUL,MUL
 𒀰,12030,letter,AN+NAGAopposingAN+NAGA,AN+NAGAopposingAN+NAGA
+𒁼,1207C,letter,GIR6,GIR6
 𒀱,12031,letter,DNAGA,DNAGA
 𒀲,12032,letter,donkey,donkey
 𒀳,12033,letter,ÀBSIN,ÀBSIN
@@ -651,13 +649,14 @@ immal,12265,letter,immal,immal
 𒀶,12036,letter,NIG2,NIG2
 𒀷,12037,letter,ASAL2,ASAL2
 𒀸,12038,letter,DILI,DILI
-𒀹,12039,letter,DIŠtenû,DIŠtenu
+𒀹,12039,letter,DIŠtenû,DIŠtenû
 𒀺,1203A,letter,AŠKABAtenu,AŠKABAtenu
 𒀻,1203B,letter,AŠTUG2/TUG2,AŠTUG2/TUG2
 𒀼,1203C,letter,EŠ16,EŠ16
+𒀽,1203D,letter,ŠUŠUR2,ŠUŠUR2
 𒀠,12020,letter,AL,AL
+𒀟,1201F,letter,AKxŠITA+GIŠ,AKxŠITA+GIŠ
 𒀞,1201E,letter,ME3,ME3
-𒀾,1203E,letter,AŠ2,AŠ2
 𒀝,1201D,letter,AG,AG
 𒀂,12002,letter,AGAM,AGAM
 𒀃,12003,letter,AxGAN2tenû,AxGAN2tenû
@@ -686,11 +685,10 @@ immal,12265,letter,immal,immal
 𒀚,1201A,letter,LIBIŠ,LIBIŠ
 𒀛,1201B,letter,AB2xTAK4,AB2xTAK4
 𒀜,1201C,letter,ADDA,ADDA
-𒀽,1203D,letter,ŠUŠUR2,ŠUŠUR2
+𒀾,1203E,letter,AŠ2,AŠ2
 𒀿,1203F,letter,AŠGAB,AŠGAB
-𒁻,1207B,letter,RE7,RE7
-𒁞,1205E,letter,KIŠI8,KIŠI8
-𒁠,12060,letter,DAGKISIM5xḪA,DAGKISIM5xḪA
+𒁀,12040,letter,porridge,porridge
+𒁟,1205F,letter,UTUL5,UTUL5
 𒁡,12061,letter,UBUR3,UBUR3
 𒁢,12062,letter,UBUR4,UBUR4
 𒁣,12063,letter,DAGKISIM5xKAK,DAGKISIM5xKAK
@@ -717,11 +715,11 @@ immal,12265,letter,immal,immal
 𒁸,12078,letter,DINKASKALUgunûDIŠ,DINKASKALUgunûDIŠ
 𒁹,12079,letter,NIGIDA,NIGIDA
 𒁺,1207A,letter,du,du
-𒁟,1205F,letter,UTUL5,UTUL5
-𒁝,1205D,letter,DAGKISIM5xGI,DAGKISIM5xGI
-𒁀,12040,letter,porridge,porridge
-𒁜,1205C,letter,DAGKISIM5xGA+MAŠ,DAGKISIM5xGA+MAŠ
+𒁻,1207B,letter,RE7,RE7
+𒁠,12060,letter,DAGKISIM5xḪA,DAGKISIM5xḪA
+𒁞,1205E,letter,KIŠI8,KIŠI8
 𒁁,12041,letter,BAD,BAD
+𒁝,1205D,letter,DAGKISIM5xGI,DAGKISIM5xGI
 𒁂,12042,letter,BAG3,BAG3
 𒁃,12043,letter,BAḪAR2,BAḪAR2
 𒁄,12044,letter,BAL,BAL
@@ -748,10 +746,12 @@ immal,12265,letter,immal,immal
 𒁙,12059,letter,DAGKISIM5xBALAG,DAGKISIM5xBALAG
 𒁚,1205A,letter,DAGKISIM5xBI,DAGKISIM5xBI
 𒁛,1205B,letter,UBUR,UBUR
+𒁜,1205C,letter,DAGKISIM5xGA+MAŠ,DAGKISIM5xGA+MAŠ
+𒃹,120F9,letter,GAN2/GAN2,GAN2/GAN2
 𒃺,120FA,letter,GAN2crossingGAN2,GAN2crossingGAN2
 𒃻,120FB,letter,NINDA,NINDA
-𒃼,120FC,letter,GAR3,GAR3
-𒆗,12197,letter,ALAD2,ALAD2
+𒆥,121A5,letter,SAGA11,SAGA11
+𒆘,12198,letter,ALAD,ALAD
 𒆙,12199,letter,KALcrossingKAL,KALcrossingKAL
 𒆚,1219A,letter,KAM2,KAM2
 𒆛,1219B,letter,KAM4,KAM4
@@ -764,8 +764,8 @@ immal,12265,letter,immal,immal
 𒆢,121A2,letter,KIxU,KIxU
 𒆣,121A3,letter,KIxUD,KIxUD
 𒆤,121A4,letter,LÍL2,LÍL2
-𒆥,121A5,letter,SAGA11,SAGA11
 𒆦,121A6,letter,KISAL,KISAL
+𒃼,120FC,letter,GAR3,GAR3
 𒆧,121A7,letter,KIŠ,KIŠ
 𒆨,121A8,letter,KISIM5,KISIM5
 𒆩,121A9,letter,KISIM5/KISIM5,KISIM5/KISIM5
@@ -779,10 +779,11 @@ immal,12265,letter,immal,immal
 𒆱,121B1,letter,KULgunû,KULgunû
 𒆲,121B2,letter,KUN,KUN
 𒆳,121B3,letter,GIN3,GIN3
-𒆘,12198,letter,ALAD,ALAD
+𒆗,12197,letter,ALAD2,ALAD2
 𒆖,12196,letter,KAKxIGIgunû,KAKxIGIgunû
-𒆵,121B5,letter,KUŠU2,KUŠU2
 𒆕,12195,letter,GAG,GAG
+𒆔,12194,letter,KAD5/KAD5,KAD5/KAD5
+𒅹,12179,letter,KAxMI+NUNUZ,KAxMI+NUNUZ
 𒅺,1217A,letter,KAxNE,KAxNE
 𒅻,1217B,letter,NUNDUM,NUNDUM
 𒅼,1217C,letter,KAxPI,KAxPI
@@ -809,10 +810,9 @@ immal,12265,letter,immal,immal
 𒆑,12191,letter,KAD3,KAD3
 𒆒,12192,letter,KAD4,KAD4
 𒆓,12193,letter,KAD5,KAD5
-𒆔,12194,letter,KAD5/KAD5,KAD5/KAD5
 𒆴,121B4,letter,LAHMU,LAHMU
+𒆵,121B5,letter,KUŠU2,KUŠU2
 𒆶,121B6,letter,KWU318,KWU318
-𒃽,120FD,letter,Ugunû,Ugunû
 𒇕,121D5,letter,LAGABxLIŠ,LAGABxLIŠ
 𒇗,121D7,letter,LAGABxLUL,LAGABxLUL
 𒇘,121D8,letter,LAGABxME,LAGABxME
@@ -825,22 +825,22 @@ immal,12265,letter,immal,immal
 𒇟,121DF,letter,LAGABxŠU2,LAGABxŠU2
 𒇠,121E0,letter,LAGABxŠU2+ŠU2,LAGABxŠU2+ŠU2
 𒇡,121E1,letter,ZAR,ZAR
-𒇢,12100,letter,LAGABxTAG,LAGABxTAG
+𒄀,12100,letter,LAGABxTAG,LAGABxTAG
+𒇣,121E3,letter,LAGABxTAK4,LAGABxTAK4
+𒇤,121E4,letter,LAGABxTE+A+SU+NA,LAGABxTE+A+SU+NA
 𒇥,121E5,letter,GÍGIR,GÍGIR
 𒇦,121E6,letter,LAGABxU+A,LAGABxU+A
 𒇧,121E7,letter,BUL,BUL
 𒇨,121E8,letter,LAGABxU2+AŠ,LAGABxU2+AŠ
-𒇪,121EA,letter,LAGABxUŠ,LAGABxUŠ
-𒇫,121EB,letter,LAGABsquared,LAGABsquared
-𒇬,121EC,letter,LAGAR,LAGAR
-𒇭,121ED,letter,SU7,SU7
-𒇮,121EE,letter,LAGARxŠE+SUM,LAGARxŠE+SUM
-𒇯,121EF,letter,DU6,DU6
-𒇰,121F0,letter,LAGARgunû/LAGARgunûŠE,LAGARgunû/LAGARgunûŠE
-𒇱,121F1,letter,LAḪŠU,LAḪŠU
-𒇲,121F2,letter,LA2,LA2
-𒇳,121F3,letter,LAL2,LAL2
-𒀁,12001,letter,EDURU,EDURU
+𒇪,121EA,letter,LAGABxUD,LAGABxUD
+𒇫,121EB,letter,LAGABxUŠ,LAGABxUŠ
+𒇬,121EC,letter,LAGABsquared,LAGABsquared
+𒇭,121ED,letter,LAGAR,LAGAR
+𒇮,121EE,letter,SU7,SU7
+𒇯,121EF,letter,LAGARxŠE+SUM,LAGARxŠE+SUM
+𒇰,121F0,letter,DU6,DU6
+𒇱,121F1,letter,LAGARgunû/LAGARgunûŠE,LAGARgunû/LAGARgunûŠE
+𒇲,121F2,letter,LAḪŠU,LAḪŠU
 𒇖,121D6,letter,LAGABxLU,LAGABxLU
 𒇔,121D4,letter,NIĜIN,NIĜIN
 𒆷,121B7,letter,LA,LA
@@ -872,12 +872,13 @@ immal,12265,letter,immal,immal
 𒇐,121D0,letter,LAGABxKIN,LAGABxKIN
 𒇑,121D1,letter,GARIM,GARIM
 𒇒,121D2,letter,LAGABxKUL,LAGABxKUL
-𒅹,12179,letter,KAxMI+NUNUZ,KAxMI+NUNUZ
 𒅸,12178,letter,KAxMI,KAxMI
 𒅷,12177,letter,KAxME+TE,KAxME+TE
-𒄛,1211B,letter,GU2xNUN,GU2xNUN
+𒅶,12176,letter,KAxME+GI,KAxME+GI
+𒄚,1211A,letter,GU2xKAKxIGIgunû,GU2xKAKxIGIgunû
+𒄜,1211C,letter,GU2xSAL+TUG2,GU2xSAL+TUG2
 𒄝,1211D,letter,USAN2,USAN2
-𒄞,1211E,letter,GU4,GUD
+𒄞,1211E,letter,GU4,GU4
 𒄟,1211F,letter,GUDxA+KUR,GUDxA+KUR
 𒄠,12120,letter,ADAR2,ADAR2
 𒄡,12121,letter,BIŠEBA3,BIŠEBA3
@@ -894,7 +895,7 @@ immal,12265,letter,immal,immal
 𒄬,1212C,letter,AŠ,AŠ
 𒄭,1212D,letter,DU10,DU10
 𒄮,1212E,letter,SUR3,SUR3
-𒄯CVC,1212F,letter,ḪAR,ḪAR
+𒄯,1212F,letter,ḪAR,ḪAR
 𒄰,12130,letter,DU15,DU15
 𒄱,12131,letter,ŠÁRxDIŠ,ŠÁRxDIŠ
 𒄲,12132,letter,ŠÁRxGAD,ŠÁRxGAD
@@ -902,11 +903,11 @@ immal,12265,letter,immal,immal
 𒄴,12134,letter,AḪ,AḪ
 𒄵,12135,letter,BIR,BIR
 𒄶,12136,letter,DÚBUR,DÚBUR
-𒄷,12137,letter,ḪU,ḪU
-𒄜,1211C,letter,GU2xSAL+TUG2,GU2xSAL+TUG2
-𒄚,1211A,letter,GU2xKAKxIGIgunû,GU2xKAKxIGIgunû
-𒅶,12176,letter,KAxME+GI,KAxME+GI
+𒄛,1211B,letter,GU2xNUN,GU2xNUN
 𒄙,12119,letter,DUR,DUR
+𒄸,12138,letter,TU11,TU11
+𒄘,12118,letter,GU2,GU2
+𒃽,120FD,letter,Ugunû,Ugunû
 𒃾,120FE,letter,GEŠTIN,GEŠTIN
 𒃿,120FF,letter,GEŠTINxKUR,GEŠTINxKUR
 𒄀,12100,letter,GE,GE
@@ -933,11 +934,11 @@ immal,12265,letter,immal,immal
 𒄕,12115,letter,GUR17,GUR17
 𒄖,12116,letter,GU,GU
 𒄗,12117,letter,SÙḪ,SÙḪ
-𒄘,12118,letter,GU2,GU2
-𒄸,12138,letter,TU11,TU11
+𒄷,12137,letter,ḪU,ḪU
 𒄹,12139,letter,ḪUB2xAN,ḪUB2xAN
-𒄺,1213A,letter,ḪUB2xḪAL,ḪUB2xḪAL
-𒄻,1213B,letter,ḪUB2xKASKAL,ḪUB2xKASKAL
+𒅵,12175,letter,KAxME+DU,KAxME+DU
+𒅘,12158,letter,NAĜ,NAĜ
+𒅚,1215A,letter,KAxAD+KU3,KAxAD+KU3
 𒅛,1215B,letter,KAxAŠ2,KAxAŠ2
 𒅜,1215C,letter,UŠ11,UŠ11
 𒅝,1215D,letter,KAxBALAG,KAxBALAG
@@ -964,11 +965,11 @@ immal,12265,letter,immal,immal
 𒅲,12172,letter,KAxLI,KAxLI
 𒅳,12173,letter,KAxLU,KAxLU
 𒅴,12174,letter,EME,EME
-𒅵,12175,letter,KAxME+DU,KAxME+DU
-𒅚,1215A,letter,KAxAD+KU3,KAxAD+KU3
 𒅙,12159,letter,KAxAD,KAxAD
-𒅘,12158,letter,NAĜ,NAĜ
-𒅉,12149,letter,IGI/IGIŠIR/ŠIRUD/UD,IGI/IGIŠIR/ŠIRUD/UD
+𒅗,12157,letter,INIM,INIM
+𒄺,1213A,letter,ḪUB2xḪAL,ḪUB2xḪAL
+𒅖,12156,letter,IŠ,IŠ
+𒄻,1213B,letter,ḪUB2xKASKAL,ḪUB2xKASKAL
 𒄼,1213C,letter,ḪUB2xLIŠ,ḪUB2xLIŠ
 𒄽,1213D,letter,ḪUB2xUD,ḪUB2xUD
 𒄾,1213E,letter,HUL2,HUL2
@@ -982,8 +983,8 @@ immal,12265,letter,immal,immal
 𒅆,12146,letter,ŠI,ŠI
 𒅇,12147,letter,U3,U3
 𒅈,12148,letter,AR,AR
+𒅉,12149,letter,IGI/IGIŠIR/ŠIRUD/UD,IGI/IGIŠIR/ŠIRUD/UD
 𒅊,1214A,letter,SIG7,SIG7
-𒅗,12157,letter,INIM,INIM
 𒅋,1214B,letter,IL,IL
 𒅌,1214C,letter,ILxGAN2tenû,ILxGAN2tenû
 𒅍,1214D,letter,IL2,IL2
@@ -995,6 +996,4 @@ immal,12265,letter,immal,immal
 𒅓,12153,letter,IMIN,IMIN
 𒅔,12154,letter,IN,IN
 𒅕,12155,letter,GAGgunû,GAGgunû
-𒅖,12156,letter,IŠ,IŠ
-arad,12034,letter,arad,arad
-120F0+122FA+12111,238,akkil,akkil,akkil
+𒇩,121E9,letter,Un,Un
