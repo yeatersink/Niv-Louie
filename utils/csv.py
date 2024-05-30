@@ -2,6 +2,8 @@
 import pandas as pd
 #The languages dictionary is imported from the languages.py file
 from utils.languages_file import languages
+#Warnings is imported to display warnings to the user
+import warnings
 
 def create_filtered_csv(language_option):
     """
@@ -22,6 +24,11 @@ def create_filtered_csv(language_option):
     new_name_column=name_column[languages[language_option]["name_column"]].apply(format_names,args=(language_option,))
     #replaces the name column with the new name column
     filtered_language[languages[language_option]["name_column"]]=new_name_column
+        #Checks if there are duplicates in the language file
+    if filtered_language.duplicated(keep=False,subset=["Hex"]).sum() > 0:
+        #Displays a warning to the user
+        warnings.warn("There are duplicates in the language file")
+        print(filtered_language[filtered_language.duplicated(keep=False,subset=["Hex"])])
     filtered_language = filtered_language.sort_values(by=["Hex"],key=lambda x:x.str.len(),ascending=False)
     #saves the filtered language file to the languages folder
     filtered_language.to_csv("languages/filtered_"+languages[language_option]["name"]+".csv",index=False)
