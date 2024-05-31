@@ -224,15 +224,15 @@ Character(decimal),Decimal,Character,Hex,Type,Name,Braille
 𒃞,73950,𒃞,120DE,letter,CUNEIFORM SIGN GA2 TIMES ME PLUS EN,⠛⠁⠡⠍⠑⠬⠑⠝
 𒃟,73951,𒃟,120DF,letter,CUNEIFORM SIGN GA2 TIMES MI,⠛⠁⠡⠍⠊
 𒃠,73952,𒃠,120,letter,CUNEIFORM SIGN GA2 TIMES NUN,⠛⠁⠡⠝⠥⠝
-𒃡,73953,𒃡,1200,letter,CUNEIFORM SIGN GA2 TIMES NUN OVER NUN,⠛⠁⠡⠝⠥⠝⠌⠝⠥⠝
-𒃢,73954,𒃢,12000,letter,CUNEIFORM SIGN GA2 TIMES PA,⠛⠁⠡⠏⠁
-𒃣,73955,𒃣,120000,letter,CUNEIFORM SIGN GA2 TIMES SAL,⠛⠁⠡⠎⠁⠇
-𒃤,73956,𒃤,1200000,letter,CUNEIFORM SIGN GA2 TIMES SAR,⠛⠁⠡⠎⠜
-𒃥,73957,𒃥,12000000,letter,CUNEIFORM SIGN GA2 TIMES SHE,⠛⠁⠡⠩⠑
-𒃦,73958,𒃦,120000000,letter,CUNEIFORM SIGN GA2 TIMES SHE PLUS TUR,⠛⠁⠡⠩⠑⠬⠞⠥⠗
-𒃧,73959,𒃧,1200000000,letter,CUNEIFORM SIGN GA2 TIMES SHID,⠛⠁⠡⠩⠊⠙
-𒃨,73960,𒃨,12000000000,letter,CUNEIFORM SIGN GA2 TIMES SUM,⠛⠁⠡⠎⠥⠍
-𒃩,73961,𒃩,120000000000,letter,CUNEIFORM SIGN GA2 TIMES TAK4,⠛⠁⠡⠞⠁⠅⠲
+𒃡,73953,𒃡,120e1,letter,CUNEIFORM SIGN GA2 TIMES NUN OVER NUN,⠛⠁⠡⠝⠥⠝⠌⠝⠥⠝
+𒃢,73954,𒃢,120e2,letter,CUNEIFORM SIGN GA2 TIMES PA,⠛⠁⠡⠏⠁
+𒃣,73955,𒃣,120e3,letter,CUNEIFORM SIGN GA2 TIMES SAL,⠛⠁⠡⠎⠁⠇
+𒃤,73956,𒃤,120e4,letter,CUNEIFORM SIGN GA2 TIMES SAR,⠛⠁⠡⠎⠜
+𒃥,73957,𒃥,120e5,letter,CUNEIFORM SIGN GA2 TIMES SHE,⠛⠁⠡⠩⠑
+𒃦,73958,𒃦,120e6,letter,CUNEIFORM SIGN GA2 TIMES SHE PLUS TUR,⠛⠁⠡⠩⠑⠬⠞⠥⠗
+𒃧,73959,𒃧,120e7,letter,CUNEIFORM SIGN GA2 TIMES SHID,⠛⠁⠡⠩⠊⠙
+𒃨,73960,𒃨,120e8,letter,CUNEIFORM SIGN GA2 TIMES SUM,⠛⠁⠡⠎⠥⠍
+𒃩,73961,𒃩,120e9,letter,CUNEIFORM SIGN GA2 TIMES TAK4,⠛⠁⠡⠞⠁⠅⠲
 𒃪,73962,𒃪,120EA,letter,CUNEIFORM SIGN GA2 TIMES U,⠛⠁⠡⠥
 𒃫,73963,𒃫,120EB,letter,CUNEIFORM SIGN GA2 TIMES UD,⠛⠁⠡⠥⠙
 𒃬,73964,𒃬,120EC,letter,CUNEIFORM SIGN GA2 TIMES UD PLUS DU,⠛⠁⠡⠥⠙⠬⠙⠥
@@ -481,14 +481,14 @@ Character(decimal),Decimal,Character,Hex,Type,Name,Braille
 𒇟,74207,𒇟,121DF,letter,CUNEIFORM SIGN LAGAB TIMES SHU2,⠇⠁⠛⠁⠃⠡⠩⠥
 𒇠,74208,𒇠,121,letter,CUNEIFORM SIGN LAGAB TIMES SHU2 PLUS SHU2,⠇⠁⠛⠁⠃⠡⠩⠥⠬⠩⠥
 𒇡,74209,𒇡,1210,letter,CUNEIFORM SIGN LAGAB TIMES SUM,⠇⠁⠛⠁⠃⠡⠎⠥⠍
-𒇢,74210,𒇢,12100,letter,CUNEIFORM SIGN LAGAB TIMES TAG,⠇⠁⠛⠁⠃⠡⠞⠁⠛
-𒇣,74211,𒇣,121000,letter,CUNEIFORM SIGN LAGAB TIMES TAK4,⠇⠁⠛⠁⠃⠡⠞⠁⠅⠲
-𒇤,74212,𒇤,1210000,letter,CUNEIFORM SIGN LAGAB TIMES TE PLUS A PLUS SU PLUS NA,⠇⠁⠛⠁⠃⠡⠞⠑⠬⠁⠬⠎⠥⠬⠝⠁
-𒇥,74213,𒇥,12100000,letter,CUNEIFORM SIGN LAGAB TIMES U,⠇⠁⠛⠁⠃⠡⠥
-𒇦,74214,𒇦,121000000,letter,CUNEIFORM SIGN LAGAB TIMES U PLUS A,⠇⠁⠛⠁⠃⠡⠥⠬⠁
-𒇧,74215,𒇧,1210000000,letter,CUNEIFORM SIGN LAGAB TIMES U PLUS U PLUS U,⠇⠁⠛⠁⠃⠡⠥⠬⠥⠬⠥
-𒇨,74216,𒇨,12100000000,letter,CUNEIFORM SIGN LAGAB TIMES U2 PLUS ASH,⠇⠁⠛⠁⠃⠡⠥⠬⠁⠩
-𒇩,74217,𒇩,121000000000,letter,CUNEIFORM SIGN LAGAB TIMES UD,⠇⠁⠛⠁⠃⠡⠥⠙
+𒇢,74210,𒇢,121E2,letter,CUNEIFORM SIGN LAGAB TIMES TAG,⠇⠁⠛⠁⠃⠡⠞⠁⠛
+𒇣,74211,𒇣,121e3,letter,CUNEIFORM SIGN LAGAB TIMES TAK4,⠇⠁⠛⠁⠃⠡⠞⠁⠅⠲
+𒇤,74212,𒇤,121e4,letter,CUNEIFORM SIGN LAGAB TIMES TE PLUS A PLUS SU PLUS NA,⠇⠁⠛⠁⠃⠡⠞⠑⠬⠁⠬⠎⠥⠬⠝⠁
+𒇥,74213,𒇥,121e5,letter,CUNEIFORM SIGN LAGAB TIMES U,⠇⠁⠛⠁⠃⠡⠥
+𒇦,74214,𒇦,121e6,letter,CUNEIFORM SIGN LAGAB TIMES U PLUS A,⠇⠁⠛⠁⠃⠡⠥⠬⠁
+𒇧,74215,𒇧,121e7,letter,CUNEIFORM SIGN LAGAB TIMES U PLUS U PLUS U,⠇⠁⠛⠁⠃⠡⠥⠬⠥⠬⠥
+𒇨,74216,𒇨,121e8,letter,CUNEIFORM SIGN LAGAB TIMES U2 PLUS ASH,⠇⠁⠛⠁⠃⠡⠥⠬⠁⠩
+𒇩,74217,𒇩,121e9,letter,CUNEIFORM SIGN LAGAB TIMES UD,⠇⠁⠛⠁⠃⠡⠥⠙
 𒇪,74218,𒇪,121EA,letter,CUNEIFORM SIGN LAGAB TIMES USH,⠇⠁⠛⠁⠃⠡⠥⠩
 𒇫,74219,𒇫,121EB,letter,CUNEIFORM SIGN LAGAB SQUARED,⠇⠁⠛⠁⠃⠘⠸
 𒇬,74220,𒇬,121EC,letter,CUNEIFORM SIGN LAGAR,⠇⠁⠛⠜
@@ -737,14 +737,14 @@ Character(decimal),Decimal,Character,Hex,Type,Name,Braille
 𒋟,74463,𒋟,122DF,letter,CUNEIFORM SIGN SIG4 OVER SIG4 SHU2,⠎⠊⠛⠲⠌⠎⠊⠛⠲ ⠩⠥
 𒋠,74464,𒋠,122,letter,CUNEIFORM SIGN SIK2,⠎⠊⠅
 𒋡,74465,𒋡,1220,letter,CUNEIFORM SIGN SILA3,⠎⠊⠇⠁⠒
-𒋢,74466,𒋢,12200,letter,CUNEIFORM SIGN SU,⠎⠥
-𒋣,74467,𒋣,122000,letter,CUNEIFORM SIGN SU OVER SU,⠎⠥⠌⠎⠥
-𒋤,74468,𒋤,1220000,letter,CUNEIFORM SIGN SUD,⠎⠥⠙
-𒋥,74469,𒋥,12200000,letter,CUNEIFORM SIGN SUD2,⠎⠥⠙
-𒋦,74470,𒋦,122000000,letter,CUNEIFORM SIGN SUHUR,⠎⠥⠓⠥⠗
-𒋧,74471,𒋧,1220000000,letter,CUNEIFORM SIGN SUM,⠎⠥⠍
-𒋨,74472,𒋨,12200000000,letter,CUNEIFORM SIGN SUMASH,⠎⠥⠍⠁⠩
-𒋩,74473,𒋩,122000000000,letter,CUNEIFORM SIGN SUR,⠎⠥⠗
+𒋢,74466,𒋢,122E2,letter,CUNEIFORM SIGN SU,⠎⠥
+𒋣,74467,𒋣,122e3,letter,CUNEIFORM SIGN SU OVER SU,⠎⠥⠌⠎⠥
+𒋤,74468,𒋤,122e4,letter,CUNEIFORM SIGN SUD,⠎⠥⠙
+𒋥,74469,𒋥,122e5,letter,CUNEIFORM SIGN SUD2,⠎⠥⠙
+𒋦,74470,𒋦,122e6,letter,CUNEIFORM SIGN SUHUR,⠎⠥⠓⠥⠗
+𒋧,74471,𒋧,122e7,letter,CUNEIFORM SIGN SUM,⠎⠥⠍
+𒋨,74472,𒋨,122e8,letter,CUNEIFORM SIGN SUMASH,⠎⠥⠍⠁⠩
+𒋩,74473,𒋩,122e9,letter,CUNEIFORM SIGN SUR,⠎⠥⠗
 𒋪,74474,𒋪,122EA,letter,CUNEIFORM SIGN SUR9,⠎⠥⠗⠔
 𒋫,74475,𒋫,122EB,letter,CUNEIFORM SIGN TA,⠞⠁
 𒋬,74476,𒋬,122EC,letter,CUNEIFORM SIGN TA ASTERISK,⠞⠁⠡
@@ -920,5 +920,5 @@ Character(decimal),Decimal,Character,Hex,Type,Name,Braille
 𒎖,74646,𒎖,12396,letter,CUNEIFORM SIGN SAG TIMES IGI GUNU,⠎⠁⠛⠡⠊⠛⠊ ⠛⠥⠝⠥
 𒎗,74647,𒎗,12397,letter,CUNEIFORM SIGN TI2,⠞⠊
 𒎘,74648,𒎘,12398,letter,CUNEIFORM SIGN UM TIMES ME,⠥⠍⠡⠍⠑
-𒎙,74649,𒎙u,12399,letter,CUNEIFORM SIGN U U,⠥
+𒎙,74649,𒎙,12399,letter,CUNEIFORM SIGN UU,⠥⠥
 

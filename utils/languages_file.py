@@ -87,12 +87,12 @@ languages=[
 #-maintainer: Matityhau Yeshurun <yeatersink@gmail.com>
 """},
 {"name":"Sumero-Akkadian","language_code":"akk-sumero","language_system_code":"akk-sumero-oracc","name_column":"Name","char_column":"Character","braille_column":"Braille","replace":["CUNEIFORM SIGN"],"included_braille_tables":["spaces.uti","litdigits6Dots.uti","latinLetterDef6Dots.uti","en-ueb-chardefs.uti"],"language_information":"""
+#This is a braille table for Sumero Akkadian. The braille in this table reflects the names for the Cuneiform signs represented in the German/ Borgers system. This is different than the American system. If you are looking for the braille that represents the American system, please find the table here on Lib Louis that represents the American system. For more information on the differences between these systems, please see: 
+#https://en.wikipedia.org/wiki/Cuneiform_(Unicode_block)
 #for more information on the Akkadian language, please go to:
 #https://oracc.museum.upenn.edu/dcclt/signlists/signlists/
-#The braille in this table reflects the German/ Borgers system. This is different than the American system. Special thank you to Matthew Yeater, Louis Saenz and Shai Gordon for your help in developing the braille code for this system. 
 ""","contributors":"""
-#This braille code was developed by a group of both blind and sighted scholars in an academic setting.
-#-maintainer: Paul Geoghegan <contact@envisionly.tech>
+#This braille code was developed by a group of both blind and sighted scholars in an academic setting.Special thank you to Matthew Yeater, Louis Saenz and Shai Gordon for your help in making this work possible.
 #-maintainer: Matityhau Yeshurun <yeatersink@gmail.com>
 """},    \
         {"name":"Ugaritic","language_code":"uga","language_system_code":"uga-oracc","name_column":"Name","char_column":"Character(decimal)","braille_column":"Braille","replace":["UGARITIC LETTER","UGARITIC "],"included_braille_tables":["spaces.uti","litdigits6Dots.uti","latinLetterDef6Dots.uti","en-ueb-chardefs.uti"],"language_information":"""
