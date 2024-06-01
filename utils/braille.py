@@ -11,7 +11,7 @@ def create_braille_table(language_option):
     #The language file is read in to pandas
     braille=pd.read_csv("languages/filtered_"+languages[language_option]["name"]+".csv")
     #The braille table is opened in write mode to create the table
-    braille_table=open("braille/"+languages[language_option]["language_code"]+".uti","w",encoding="utf8")
+    braille_table=open("braille/"+languages[language_option]["language_code"]+".utb","w",encoding="utf8")
     #The braille column is converted to numbers
     braille[languages[language_option]["braille_column"]]=braille[languages[language_option]["braille_column"]].apply(braille_to_numbers)
 
@@ -204,7 +204,7 @@ def create_braille_tests(language_option):
     test_yaml.write("""
 table:
   language: """+languages[language_option]["language_code"]+"""
-  __assert-match: """+languages[language_option]["language_code"]+""".uti
+  __assert-match: """+languages[language_option]["language_code"]+""".utb
 flags: { testmode: forward }
 tests:
   # """+languages[language_option]["name"]+"""
