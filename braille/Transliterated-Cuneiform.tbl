@@ -5,7 +5,16 @@
 #-index-name: Transliterated-Cuneiform uncontracted
 #-display-name: Transliterated-Cuneiform uncontracted
 #
-#+language:Transliterated-Cuneiform
+#+language: akk-Latn
+#+language: xhu-Latn
+#+language: uga-Latn
+#+language: peo-Latn
+#+language: sux-Latn
+#+language: xeb-Latn
+#+language: elx-Latn
+#+language: hit-Latn
+#+language: xur-Latn
+#+language: xlu-Latn
 #+type:literary
 #+contraction:no
 #+system:Transliterated-Cuneiform-oracc

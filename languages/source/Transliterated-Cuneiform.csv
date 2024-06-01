@@ -1,6 +1,6 @@
 Character,Hex,Type,Name,Braille
-á,0,lowercase,A WITH ACUTE,⠘⠌⠁
-é,0,lowercase,E WITH ACUTE,⠘⠌⠑
+á,00E1,lowercase,A WITH ACUTE,⠘⠌⠁
+é,000E9,lowercase,E WITH ACUTE,⠘⠌⠑
 í,00ED,lowercase,I WITH ACUTE,⠘⠌⠊
 ú,00FA,lowercase,U WITH ACUTE,⠘⠌⠥
 Á,00C1,uppercase,CAPITAL A WITH ACUTE,⠠⠘⠌⠁
@@ -9,8 +9,8 @@ Character,Hex,Type,Name,Braille
 Ú,00DA,uppercase,CAPITAL U WITH ACUTE,⠠⠘⠌⠥
 ś,015B,lowercase,S WITH ACUTE,⠘⠌⠎
 Ś,015A,uppercase,CAPITAL S WITH ACUTE,⠠⠘⠌⠎
-à,0,lowercase,A WITH GRAVE,⠘⠡⠁
-è,0,lowercase,E WITH GRAVE,⠘⠡⠑
+à,00E0,lowercase,A WITH GRAVE,⠘⠡⠁
+è,00E8,lowercase,E WITH GRAVE,⠘⠡⠑
 ì,00EC,lowercase,I WITH GRAVE,⠘⠡⠊
 ù,00F9,lowercase,U WITH GRAVE,⠘⠡⠥
 À,00C0,uppercase,CAPITAL A WITH GRAVE,⠠⠘⠡⠁
@@ -25,7 +25,7 @@ Character,Hex,Type,Name,Braille
 Ē,112,uppercase,CAPITAL E WITH MACRON,⠠⠈⠤⠑
 Ī,012A,uppercase,CAPITAL I WITH MACRON,⠠⠈⠤⠊
 Ū,016A,uppercase,CAPITAL U WITH MACRON,⠠⠈⠤⠥
-â,0,lowercase,A WITH CIRCUMFLEX,⠘⠩⠁
+â,00E2,lowercase,A WITH CIRCUMFLEX,⠘⠩⠁
 ê,00EA,lowercase,E WITH CIRCUMFLEX,⠘⠩⠑
 î,00EE,lowercase,I WITH CIRCUMFLEX,⠘⠩⠊
 û,00FB,lowercase,U WITH CIRCUMFLEX,⠘⠩⠥
@@ -33,10 +33,10 @@ Character,Hex,Type,Name,Braille
 Ê,00CA,uppercase,CAPITAL E WITH CIRCUMFLEX,⠠⠘⠩⠑
 Î,00CE,uppercase,CAPITAL I WITH CIRCUMFLEX,⠠⠘⠩⠊
 Û,00DB,uppercase,CAPITAL U WITH CIRCUMFLEX,⠠⠘⠩⠥
-š,161,lowercase,S WITH CARON,⠩
+š,0161,lowercase,S WITH CARON,⠩
 Š,160,uppercase,CAPITAL S WITH CARON,⠠⠩
-ṣ,1E+063,lowercase,S WITH DOT BELOW,⠐⠎
-Ṣ,1E+062,uppercase,CAPITAL S WITH DOT BELOW,⠠⠐⠎
+ṣ,1E63,lowercase,S WITH DOT BELOW,⠐⠎
+Ṣ,1E62,uppercase,CAPITAL S WITH DOT BELOW,⠠⠐⠎
 ṭ,1E6D,lowercase,T WITH DOT BELOW,⠐⠞
 Ṭ,1E6C,uppercase,CAPITAL T WITH DOT BELOW,⠠⠐⠞
 ḫ,1E2B,lowercase,H WITH BREVE BELOW,⠡
@@ -56,17 +56,17 @@ Character,Hex,Type,Name,Braille
 ₈,2088,digit,SUBSCRIPT EIGHT,⠢⠼⠓
 ₉,2089,digit,SUBSCRIPT NINE,⠢⠼⠊
 ₓ,2093,letter,SUBSCRIPT SMALL X,⠢⠭
-⸢,2E+022,punctuation,TOP LEFT HALF BRACKET,⠨⠣
-⸣,2E+023,punctuation,TOP RIGHT HALF BRACKET,⠨⠜
-⸤,2E+024,punctuation,BOTTOM LEFT HALF BRACKET,⠨⠣
-⸥,2E+025,punctuation,BOTTOM RIGHT HALF BRACKET,⠨⠜
+⸢,2E22,punctuation,TOP LEFT HALF BRACKET,⠨⠣
+⸣,2E23,punctuation,TOP RIGHT HALF BRACKET,⠨⠜
+⸤,2E24,punctuation,BOTTOM LEFT HALF BRACKET,⠨⠣
+⸥,2E25,punctuation,BOTTOM RIGHT HALF BRACKET,⠨⠜
 ʳ,02B3,lowercase,SMALL R,⠗
 ḏ,1E0F,lowercase,D with line below,⠰⠙
 Ḏ,1E0E,uppercase,Capitol D with line below,⠠⠰⠙
 󑴰,1D30,uppercase,Subscript Capitol d,⠨
 ᵈ,1D48,lowercase,subscript D,⠨⠙
-ẓ,1E+093,letter,Z with Dot Below,⠐⠵
-Ẓ,1E+092,uppercase,Capital Z with Dot Below,⠠⠐⠵
+ẓ,1E93,letter,Z with Dot Below,⠐⠵
+Ẓ,1E92,uppercase,Capital Z with Dot Below,⠠⠐⠵
 ǵ,01F5,lowercase,G with Acute,⠘⠌⠛
 Ǵ,01F4,uppercase,Capitol G with ACUTE,⠠⠘⠌⠛
 ṯ,1E6F,lowercase,T with Line Below,⠹

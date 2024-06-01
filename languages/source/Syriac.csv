@@ -14,92 +14,92 @@ Character,Hex,Type,Name,Braille
 ܌,070C,punctuation,HARKLEAN METOBELUS,⠲⠍
 ܍,070D,punctuation,HARKLEAN ASTERISCUS,⠴⠲⠔
 ܏,070F,punctuation,ABBREVIATION MARK,⠲⠁
-ܐ݁,0710+0741,letter,ALAPH and QUSHSHAYA,⠁⠂
-ܐ݂,0710+0742,letter,ALAPH and RUKKAKHA,⠁⠄
-ܐ,0710,letter,ALAPH,⠁
-ܑ݁,0711+0741,letter,SUPERSCRIPT ALAPH  and QUSHSHAYA,⠢⠁⠂
-ܑ݂,0711+0742,letter,SUPERSCRIPT ALAPH  and RUKKAKHA,⠢⠁⠄
+ܐ݁,0710+0741,always,ALAPH and QUSHSHAYA,⠁⠂
+ܐ݂,0710+0742,always,ALAPH and RUKKAKHA,⠁⠄
+ܐ,0710,always,ALAPH,⠁
+ܑ݁,0711+0741,always,SUPERSCRIPT ALAPH  and QUSHSHAYA,⠢⠁⠂
+ܑ݂,0711+0742,always,SUPERSCRIPT ALAPH  and RUKKAKHA,⠢⠁⠄
 ܑ,0711,letter,SUPERSCRIPT ALAPH,⠢⠁
-ܒ݁,0712+0741,letter,BETH and QUSHSHAYA,⠃⠂
-ܒ݂,0712+0742,letter,BETH and RUKKAKHA,⠃⠄
+ܒ݁,0712+0741,always,BETH and QUSHSHAYA,⠃⠂
+ܒ݂,0712+0742,always,BETH and RUKKAKHA,⠃⠄
 ܒ,0712,letter,BETH,⠃
-ܓ݁,0713+0741,letter,GAMAL and QUSHSHAYA,⠛⠂
-ܓ݂,0713+0742,letter,GAMAL and RUKKAKHA,⠛⠄
+ܓ݁,0713+0741,always,GAMAL and QUSHSHAYA,⠛⠂
+ܓ݂,0713+0742,always,GAMAL and RUKKAKHA,⠛⠄
 ܓ,0713,letter,GAMAL,⠛
-ܔ݁,0714+0741,letter,GAMAL GARSHUNI and QUSHSHAYA,⠢⠛⠂
-ܔ݂,0714+0742,letter,GAMAL GARSHUNI and RUKKAKHA,⠢⠛⠄
+ܔ݁,0714+0741,always,GAMAL GARSHUNI and QUSHSHAYA,⠢⠛⠂
+ܔ݂,0714+0742,always,GAMAL GARSHUNI and RUKKAKHA,⠢⠛⠄
 ܔ,0714,letter,GAMAL GARSHUNI,⠢⠛
-ܕ݁,0715+0741,letter,DALATH and QUSHSHAYA,⠙⠂
-ܕ݂,0715+0742,letter,DALATH and RUKKAKHA,⠙⠄
+ܕ݁,0715+0741,always,DALATH and QUSHSHAYA,⠙⠂
+ܕ݂,0715+0742,always,DALATH and RUKKAKHA,⠙⠄
 ܕ,0715,letter,DALATH,⠙
-ܖ݁,0716+0741,letter,DOTLESS DALATH RISH and QUSHSHAYA,⠢⠙⠂
-ܖ݂,0716+0742,letter,DOTLESS DALATH RISH and RUKKAKHA,⠢⠙⠄
+ܖ݁,0716+0741,always,DOTLESS DALATH RISH and QUSHSHAYA,⠢⠙⠂
+ܖ݂,0716+0742,always,DOTLESS DALATH RISH and RUKKAKHA,⠢⠙⠄
 ܖ,0716,letter,DOTLESS DALATH RISH,⠢⠙
-ܗ݁,0717+0741,letter,HE and QUSHSHAYA,⠓⠂
-ܗ݂,0717+0742,letter,HE and RUKKAKHA,⠓⠄
+ܗ݁,0717+0741,always,HE and QUSHSHAYA,⠓⠂
+ܗ݂,0717+0742,always,HE and RUKKAKHA,⠓⠄
 ܗ,0717,letter,HE,⠓
-ܗ̱,0717+0331,letter,HE with macron,⠓⠯
-ܘ݁,0718+0741,letter,WAW and QUSHSHAYA,⠺⠂
-ܘ݂,0718+0742,letter,WAW and RUKKAKHA,⠺⠄
+ܗ̱,0717+0331,always,HE with macron,⠓⠯
+ܘ݁,0718+0741,always,WAW and QUSHSHAYA,⠺⠂
+ܘ݂,0718+0742,always,WAW and RUKKAKHA,⠺⠄
 ܘ,0718,letter,WAW,⠺
-ܙ݁,0719+0741,letter,ZAIN and QUSHSHAYA,⠵⠂
-ܙ݂,0719+0742,letter,ZAIN and RUKKAKHA,⠵⠄
+ܙ݁,0719+0741,always,ZAIN and QUSHSHAYA,⠵⠂
+ܙ݂,0719+0742,always,ZAIN and RUKKAKHA,⠵⠄
 ܙ,0719,letter,ZAIN,⠵
-ܚ݁,071A+0741,letter,HETH and QUSHSHAYA,⠭⠂
-ܚ݂,071A+0742,letter,HETH and RUKKAKHA,⠭⠄
+ܚ݁,071A+0741,always,HETH and QUSHSHAYA,⠭⠂
+ܚ݂,071A+0742,always,HETH and RUKKAKHA,⠭⠄
 ܚ,071A,letter,HETH,⠭
-ܛ݁,071B+0741,letter,TETH and QUSHSHAYA,⠞⠂
-ܛ݂,071B+0742,letter,TETH and RUKKAKHA,⠞⠄
+ܛ݁,071B+0741,always,TETH and QUSHSHAYA,⠞⠂
+ܛ݂,071B+0742,always,TETH and RUKKAKHA,⠞⠄
 ܛ,071B,letter,TETH,⠞
-ܜ݁,071C+0741,letter,TETH GARSHUNI and QUSHSHAYA,⠢⠞⠂
-ܜ݂,071C+0742,letter,TETH GARSHUNI and RUKKAKHA,⠢⠞⠄
+ܜ݁,071C+0741,always,TETH GARSHUNI and QUSHSHAYA,⠢⠞⠂
+ܜ݂,071C+0742,always,TETH GARSHUNI and RUKKAKHA,⠢⠞⠄
 ܜ,071C,letter,TETH GARSHUNI,⠢⠞
-ܝ݁,071D+0741,letter,YUDH and QUSHSHAYA,⠚⠂
-ܝ݂,071D+0742,letter,YUDH and RUKKAKHA,⠚⠄
+ܝ݁,071D+0741,always,YUDH and QUSHSHAYA,⠚⠂
+ܝ݂,071D+0742,always,YUDH and RUKKAKHA,⠚⠄
 ܝ,071D,letter,YUDH,⠚
-ܞ݁,071E+0741,letter,YUDH HE and QUSHSHAYA,⠚⠓⠂
-ܞ݂,071E+0742,letter,YUDH HE and RUKKAKHA,⠚⠓⠄
+ܞ݁,071E+0741,always,YUDH HE and QUSHSHAYA,⠚⠓⠂
+ܞ݂,071E+0742,always,YUDH HE and RUKKAKHA,⠚⠓⠄
 ܞ,071E,letter,YUDH HE,⠚⠓
-ܟ݁,071F+0741,letter,KAPH and QUSHSHAYA,⠅⠂
-ܟ݂,071F+0742,letter,KAPH and RUKKAKHA,⠅⠄⠄
+ܟ݁,071F+0741,always,KAPH and QUSHSHAYA,⠅⠂
+ܟ݂,071F+0742,always,KAPH and RUKKAKHA,⠅⠄⠄
 ܟ,071F,letter,KAPH,⠅
-ܠ݁,0720+0741,letter,LAMADH and QUSHSHAYA,⠇⠂
-ܠ݂,0720+0742,letter,LAMADH and RUKKAKHA,⠇⠄
+ܠ݁,0720+0741,always,LAMADH and QUSHSHAYA,⠇⠂
+ܠ݂,0720+0742,always,LAMADH and RUKKAKHA,⠇⠄
 ܠ,0720,letter,LAMADH,⠇
-ܡ݁,0721+0741,letter,MIM and QUSHSHAYA,⠍⠂
-ܡ݂,0721+0742,letter,MIM and RUKKAKHA,⠍⠄
+ܡ݁,0721+0741,always,MIM and QUSHSHAYA,⠍⠂
+ܡ݂,0721+0742,always,MIM and RUKKAKHA,⠍⠄
 ܡ,0721,letter,MIM,⠍
-ܢ݁,0722+0741,letter,NUN and QUSHSHAYA,⠝⠂
-ܢ݂,0722+0742,letter,NUN and RUKKAKHA,⠝⠄
+ܢ݁,0722+0741,always,NUN and QUSHSHAYA,⠝⠂
+ܢ݂,0722+0742,always,NUN and RUKKAKHA,⠝⠄
 ܢ,0722,letter,NUN,⠝
-ܣ݁,0723+0741,letter,SEMKATH and QUSHSHAYA,⠎⠂
-ܣ݂,0723+0742,letter,SEMKATH and RUKKAKHA,⠎⠄
+ܣ݁,0723+0741,always,SEMKATH and QUSHSHAYA,⠎⠂
+ܣ݂,0723+0742,always,SEMKATH and RUKKAKHA,⠎⠄
 ܣ,0723,letter,SEMKATH,⠎
-ܤ݁,0724+0741,letter,FINAL SEMKATH and QUSHSHAYA,⠢⠎⠂
-ܤ݂,0724+0742,letter,FINAL SEMKATH and RUKKAKHA,⠢⠎⠄
+ܤ݁,0724+0741,always,FINAL SEMKATH and QUSHSHAYA,⠢⠎⠂
+ܤ݂,0724+0742,always,FINAL SEMKATH and RUKKAKHA,⠢⠎⠄
 ܤ,0724,letter,FINAL SEMKATH,⠢⠎
-ܥ݁,0725+0741,letter,E and QUSHSHAYA,⠫⠂
-ܥ݂,0725+0742,letter,E and RUKKAKHA,⠫⠄
+ܥ݁,0725+0741,always,E and QUSHSHAYA,⠫⠂
+ܥ݂,0725+0742,always,E and RUKKAKHA,⠫⠄
 ܥ,0725,letter,E,⠫
-ܦ݁,0726+0741,letter,PE and QUSHSHAYA,⠏⠂
-ܦ݂,0726+0742,letter,PE and RUKKAKHA,⠏⠄
+ܦ݁,0726+0741,always,PE and QUSHSHAYA,⠏⠂
+ܦ݂,0726+0742,always,PE and RUKKAKHA,⠏⠄
 ܦ,0726,letter,PE,⠏
-ܧ݁,0727+0741,letter,REVERSED PE and QUSHSHAYA,⠢⠏⠂
-ܧ݂,0727+0742,letter,REVERSED PE and RUKKAKHA,⠢⠏⠄
+ܧ݁,0727+0741,always,REVERSED PE and QUSHSHAYA,⠢⠏⠂
+ܧ݂,0727+0742,always,REVERSED PE and RUKKAKHA,⠢⠏⠄
 ܧ,0727,letter,REVERSED PE,⠢⠏
-ܨ݁,0728+0741,letter,SADHE and QUSHSHAYA,⠮⠂
-ܨ݂,0728+0742,letter,SADHE and RUKKAKHA,⠮⠄
+ܨ݁,0728+0741,always,SADHE and QUSHSHAYA,⠮⠂
+ܨ݂,0728+0742,always,SADHE and RUKKAKHA,⠮⠄
 ܨ,0728,letter,SADHE,⠮
-ܩ݁,0729+0741,letter,QAPH and QUSHSHAYA,⠟⠂
-ܩ݂,0729+0742,letter,QAPH and RUKKAKHA,⠟⠄
+ܩ݁,0729+0741,always,QAPH and QUSHSHAYA,⠟⠂
+ܩ݂,0729+0742,always,QAPH and RUKKAKHA,⠟⠄
 ܩ,0729,letter,QAPH,⠟
-ܪ݁,072A+0741,letter,RISH and QUSHSHAYA,⠗⠂
-ܪ݂,072A+0742,letter,RISH and RUKKAKHA,⠗⠄
+ܪ݁,072A+0741,always,RISH and QUSHSHAYA,⠗⠂
+ܪ݂,072A+0742,always,RISH and RUKKAKHA,⠗⠄
 ܪ,072A,letter,RISH,⠗
-ܫ݂,072B+0742,letter,SHIN and RUKKAKHA,⠩⠄
+ܫ݂,072B+0742,always,SHIN and RUKKAKHA,⠩⠄
 ܫ,072B,letter,SHIN,⠩
-ܬ݁,072C+0741,letter,TAW and QUSHSHAYA,⠳⠂
-ܬ݂,072C+0742,letter,TAW and RUKKAKHA,⠳⠄
+ܬ݁,072C+0741,always,TAW and QUSHSHAYA,⠳⠂
+ܬ݂,072C+0742,always,TAW and RUKKAKHA,⠳⠄
 ܬ,072C,letter,TAW,⠳
 ܭ,072D,letter,PERSIAN BHETH,⠢
 ܮ,072E,letter,PERSIAN GHAMAL,⠢⠶

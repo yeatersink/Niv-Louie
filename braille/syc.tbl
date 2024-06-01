@@ -36,94 +36,96 @@
 #-maintainer: Paul Geoghegan <contact@envisionly.tech>
 #-maintainer: Matityhau Yeshurun <yeatersink@gmail.com>
 
+# always op code characters
+always ܐ 1  # ALAPH
+always ܐ݁ 1-2  # ALAPH and QUSHSHAYA
+always ܐ݂ 1-3  # ALAPH and RUKKAKHA
+always ܑ݁ 26-1-2  # SUPERSCRIPT ALAPH  and QUSHSHAYA
+always ܑ݂ 26-1-3  # SUPERSCRIPT ALAPH  and RUKKAKHA
+always ܒ݁ 12-2  # BETH and QUSHSHAYA
+always ܒ݂ 12-3  # BETH and RUKKAKHA
+always ܓ݁ 1245-2  # GAMAL and QUSHSHAYA
+always ܓ݂ 1245-3  # GAMAL and RUKKAKHA
+always ܔ݁ 26-1245-2  # GAMAL GARSHUNI and QUSHSHAYA
+always ܔ݂ 26-1245-3  # GAMAL GARSHUNI and RUKKAKHA
+always ܕ݁ 145-2  # DALATH and QUSHSHAYA
+always ܕ݂ 145-3  # DALATH and RUKKAKHA
+always ܖ݁ 26-145-2  # DOTLESS DALATH RISH and QUSHSHAYA
+always ܖ݂ 26-145-3  # DOTLESS DALATH RISH and RUKKAKHA
+always ܗ̱ 125-12346  # HE with macron
+always ܗ݁ 125-2  # HE and QUSHSHAYA
+always ܗ݂ 125-3  # HE and RUKKAKHA
+always ܘ݁ 2456-2  # WAW and QUSHSHAYA
+always ܘ݂ 2456-3  # WAW and RUKKAKHA
+always ܙ݁ 1356-2  # ZAIN and QUSHSHAYA
+always ܙ݂ 1356-3  # ZAIN and RUKKAKHA
+always ܚ݁ 1346-2  # HETH and QUSHSHAYA
+always ܚ݂ 1346-3  # HETH and RUKKAKHA
+always ܛ݁ 2345-2  # TETH and QUSHSHAYA
+always ܛ݂ 2345-3  # TETH and RUKKAKHA
+always ܜ݁ 26-2345-2  # TETH GARSHUNI and QUSHSHAYA
+always ܜ݂ 26-2345-3  # TETH GARSHUNI and RUKKAKHA
+always ܝ݁ 245-2  # YUDH and QUSHSHAYA
+always ܝ݂ 245-3  # YUDH and RUKKAKHA
+always ܞ݁ 245-125-2  # YUDH HE and QUSHSHAYA
+always ܞ݂ 245-125-3  # YUDH HE and RUKKAKHA
+always ܟ݁ 13-2  # KAPH and QUSHSHAYA
+always ܟ݂ 13-3-3  # KAPH and RUKKAKHA
+always ܠ݁ 123-2  # LAMADH and QUSHSHAYA
+always ܠ݂ 123-3  # LAMADH and RUKKAKHA
+always ܡ݁ 134-2  # MIM and QUSHSHAYA
+always ܡ݂ 134-3  # MIM and RUKKAKHA
+always ܢ݁ 1345-2  # NUN and QUSHSHAYA
+always ܢ݂ 1345-3  # NUN and RUKKAKHA
+always ܣ݁ 234-2  # SEMKATH and QUSHSHAYA
+always ܣ݂ 234-3  # SEMKATH and RUKKAKHA
+always ܤ݁ 26-234-2  # FINAL SEMKATH and QUSHSHAYA
+always ܤ݂ 26-234-3  # FINAL SEMKATH and RUKKAKHA
+always ܥ݁ 1246-2  # E and QUSHSHAYA
+always ܥ݂ 1246-3  # E and RUKKAKHA
+always ܦ݁ 1234-2  # PE and QUSHSHAYA
+always ܦ݂ 1234-3  # PE and RUKKAKHA
+always ܧ݁ 26-1234-2  # REVERSED PE and QUSHSHAYA
+always ܧ݂ 26-1234-3  # REVERSED PE and RUKKAKHA
+always ܨ݁ 2346-2  # SADHE and QUSHSHAYA
+always ܨ݂ 2346-3  # SADHE and RUKKAKHA
+always ܩ݁ 12345-2  # QAPH and QUSHSHAYA
+always ܩ݂ 12345-3  # QAPH and RUKKAKHA
+always ܪ݁ 1235-2  # RISH and QUSHSHAYA
+always ܪ݂ 1235-3  # RISH and RUKKAKHA
+always ܫ݂ 146-3  # SHIN and RUKKAKHA
+always ܬ݁ 1256-2  # TAW and QUSHSHAYA
+always ܬ݂ 1256-3  # TAW and RUKKAKHA
+
 # letter op code characters
-letter ܐ 1  # ALAPH
-letter ܐ݁ 1-2  # ALAPH and QUSHSHAYA
-letter ܐ݂ 1-3  # ALAPH and RUKKAKHA
 letter ܑ 26-1  # SUPERSCRIPT ALAPH
-letter ܑ݁ 26-1-2  # SUPERSCRIPT ALAPH  and QUSHSHAYA
-letter ܑ݂ 26-1-3  # SUPERSCRIPT ALAPH  and RUKKAKHA
 letter ܒ 12  # BETH
-letter ܒ݁ 12-2  # BETH and QUSHSHAYA
-letter ܒ݂ 12-3  # BETH and RUKKAKHA
 letter ܓ 1245  # GAMAL
-letter ܓ݁ 1245-2  # GAMAL and QUSHSHAYA
-letter ܓ݂ 1245-3  # GAMAL and RUKKAKHA
 letter ܔ 26-1245  # GAMAL GARSHUNI
-letter ܔ݁ 26-1245-2  # GAMAL GARSHUNI and QUSHSHAYA
-letter ܔ݂ 26-1245-3  # GAMAL GARSHUNI and RUKKAKHA
 letter ܕ 145  # DALATH
-letter ܕ݁ 145-2  # DALATH and QUSHSHAYA
-letter ܕ݂ 145-3  # DALATH and RUKKAKHA
 letter ܖ 26-145  # DOTLESS DALATH RISH
-letter ܖ݁ 26-145-2  # DOTLESS DALATH RISH and QUSHSHAYA
-letter ܖ݂ 26-145-3  # DOTLESS DALATH RISH and RUKKAKHA
 letter ܗ 125  # HE
-letter ܗ̱ 125-12346  # HE with macron
-letter ܗ݁ 125-2  # HE and QUSHSHAYA
-letter ܗ݂ 125-3  # HE and RUKKAKHA
 letter ܘ 2456  # WAW
-letter ܘ݁ 2456-2  # WAW and QUSHSHAYA
-letter ܘ݂ 2456-3  # WAW and RUKKAKHA
 letter ܙ 1356  # ZAIN
-letter ܙ݁ 1356-2  # ZAIN and QUSHSHAYA
-letter ܙ݂ 1356-3  # ZAIN and RUKKAKHA
 letter ܚ 1346  # HETH
-letter ܚ݁ 1346-2  # HETH and QUSHSHAYA
-letter ܚ݂ 1346-3  # HETH and RUKKAKHA
 letter ܛ 2345  # TETH
-letter ܛ݁ 2345-2  # TETH and QUSHSHAYA
-letter ܛ݂ 2345-3  # TETH and RUKKAKHA
 letter ܜ 26-2345  # TETH GARSHUNI
-letter ܜ݁ 26-2345-2  # TETH GARSHUNI and QUSHSHAYA
-letter ܜ݂ 26-2345-3  # TETH GARSHUNI and RUKKAKHA
 letter ܝ 245  # YUDH
-letter ܝ݁ 245-2  # YUDH and QUSHSHAYA
-letter ܝ݂ 245-3  # YUDH and RUKKAKHA
 letter ܞ 245-125  # YUDH HE
-letter ܞ݁ 245-125-2  # YUDH HE and QUSHSHAYA
-letter ܞ݂ 245-125-3  # YUDH HE and RUKKAKHA
 letter ܟ 13  # KAPH
-letter ܟ݁ 13-2  # KAPH and QUSHSHAYA
-letter ܟ݂ 13-3-3  # KAPH and RUKKAKHA
 letter ܠ 123  # LAMADH
-letter ܠ݁ 123-2  # LAMADH and QUSHSHAYA
-letter ܠ݂ 123-3  # LAMADH and RUKKAKHA
 letter ܡ 134  # MIM
-letter ܡ݁ 134-2  # MIM and QUSHSHAYA
-letter ܡ݂ 134-3  # MIM and RUKKAKHA
 letter ܢ 1345  # NUN
-letter ܢ݁ 1345-2  # NUN and QUSHSHAYA
-letter ܢ݂ 1345-3  # NUN and RUKKAKHA
 letter ܣ 234  # SEMKATH
-letter ܣ݁ 234-2  # SEMKATH and QUSHSHAYA
-letter ܣ݂ 234-3  # SEMKATH and RUKKAKHA
 letter ܤ 26-234  # FINAL SEMKATH
-letter ܤ݁ 26-234-2  # FINAL SEMKATH and QUSHSHAYA
-letter ܤ݂ 26-234-3  # FINAL SEMKATH and RUKKAKHA
 letter ܥ 1246  # E
-letter ܥ݁ 1246-2  # E and QUSHSHAYA
-letter ܥ݂ 1246-3  # E and RUKKAKHA
 letter ܦ 1234  # PE
-letter ܦ݁ 1234-2  # PE and QUSHSHAYA
-letter ܦ݂ 1234-3  # PE and RUKKAKHA
 letter ܧ 26-1234  # REVERSED PE
-letter ܧ݁ 26-1234-2  # REVERSED PE and QUSHSHAYA
-letter ܧ݂ 26-1234-3  # REVERSED PE and RUKKAKHA
 letter ܨ 2346  # SADHE
-letter ܨ݁ 2346-2  # SADHE and QUSHSHAYA
-letter ܨ݂ 2346-3  # SADHE and RUKKAKHA
 letter ܩ 12345  # QAPH
-letter ܩ݁ 12345-2  # QAPH and QUSHSHAYA
-letter ܩ݂ 12345-3  # QAPH and RUKKAKHA
 letter ܪ 1235  # RISH
-letter ܪ݁ 1235-2  # RISH and QUSHSHAYA
-letter ܪ݂ 1235-3  # RISH and RUKKAKHA
 letter ܫ 146  # SHIN
-letter ܫ݂ 146-3  # SHIN and RUKKAKHA
 letter ܬ 1256  # TAW
-letter ܬ݁ 1256-2  # TAW and QUSHSHAYA
-letter ܬ݂ 1256-3  # TAW and RUKKAKHA
 letter ܭ 26  # PERSIAN BHETH
 letter ܮ 26-2356  # PERSIAN GHAMAL
 letter ܯ 26-256  # PERSIAN DHALATH

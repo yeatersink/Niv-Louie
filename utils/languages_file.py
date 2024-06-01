@@ -12,7 +12,9 @@
 languages=[
     {"name":"Akkadian","language_code":"akk","language_system_code":"akk-oracc","name_column":"Name","char_column":"Character","braille_column":"Braille","replace":["CUNEIFORM SIGN"],"included_braille_tables":["spaces.uti","litdigits6Dots.uti","latinLetterDef6Dots.uti","en-ueb-chardefs.uti"],"language_information":"""
 #Cuneiform, generally known as Akkadian, is a writing system that was used through several stages of development, from the 31st century BC down to the second century AD, and preserves documents in several languages which span from Sumerian to Greek.  
-#There is no braille standard set for these languages or this writing system. Thus, this table is extremely innovative, but does provide access to nearly all of the Cuneiform signs that are currently offered in Unicode.  This table represents the names of the American  system and is different than the German (Borger) system. 
+#There is no braille standard set for these languages or this writing system. Thus, this table is innovative, but does provide access to all of the Cuneiform signs that are currently represented by Unicode.  This table provides support for the American  system and is different than the German (Borger) system. If you are desireing access to the German system, please see the Sumero- Akkadian table on Lib Louis for the full list of Borger names and corresponding braille.
+#For more information on the different systems, please see:     
+#https://en.wikipedia.org/wiki/Cuneiform_(Unicode_block)
 #for more information on the Akkadian language, please go to:
 #https://oracc.museum.upenn.edu/dcclt/signlists/signlists/
 ""","contributors":"""

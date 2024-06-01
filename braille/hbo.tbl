@@ -48,6 +48,7 @@ always בּ 12  # bet with dagesh
 always בֿ 1236  # bet with rafe
 always דּ 5-145  # dalet with dagesh
 always דְּ 5-145-3  # dalet with dagesh sheva
+always הּ 125  # hey  with dagesh
 always וֹ 246  # holam-vav
 always וּ 136  # shuruq
 always יּ 5-245  # Yod with dagesh
@@ -136,7 +137,6 @@ letter ב 1236  # bet
 letter ג 1245  # gimel
 letter ד 145  # dalet
 letter ה 125  # hey
-letter הּ 125  # hey - isolated
 letter ו 2456  # vav
 letter ז 1356  # zayin
 letter ח 1346  # het

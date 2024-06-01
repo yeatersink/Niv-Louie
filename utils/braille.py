@@ -76,6 +76,10 @@ def create_braille_table(language_option):
 braille_file=open("utils/braille_converter.json",encoding="utf8")
 braille_object=json.load(braille_file)
 
+#The braille_test_converter.json file is opened and read in to the braille_test_object variable
+braille_test_file=open("utils/braille_test_converter.json",encoding="utf8")
+braille_test_object=json.load(braille_test_file)
+
 #The braille_numbers.json file is opened and read in to the braille_numbers_object variable
 braille_numbers_file=open("utils/braille_to_numbers.json",encoding="utf8")
 braille_numbers_object=json.load(braille_numbers_file)
@@ -196,18 +200,40 @@ tests:
     #This loop goes through each row in the test csv file
     for index,row in test_csv.iterrows():
         braille_test=row["Text"]
+        #This checks if the test contains any numbers
+        if any(char.isdigit() for char in braille_test):
+            new_text=""
+            previous_was_number=False 
+            #This loop goes through each character in the text
+            for index,char in enumerate(braille_test):
+                #This checks if the character is a number
+                if char.isdigit() and previous_was_number==False:
+                    #This adds a number sign to the character
+                    new_text+="⠼"+char
+                    previous_was_number=True
+                else:
+                    #This adds the character to the new text
+                    new_text+=char
+                    previous_was_number=False
+            #This replaces the text with the new text
+            braille_test=new_text
         #This loop goes through each character in the text
         for index,language_row in language_file.iterrows():
             if language_row[languages[language_option]["char_column"]] in braille_test and language_row[languages[language_option]["braille_column"]] != "nan":
-                print("Found: ",language_row[languages[language_option]["char_column"]]," : ",language_row[languages[language_option]["braille_column"]])
                 braille_test=braille_test.replace(language_row[languages[language_option]["char_column"]],language_row[languages[language_option]["braille_column"]])
-            else:
-                print("Not Found: ",language_row[languages[language_option]["char_column"]]," : ",language_row[languages[language_option]["braille_column"]])
-        print(row["Text"]+": "+braille_test)
+        #This loop goes through each character in the text and uses the braille test object to convert the text to braille
+        for char in braille_test:
+            if char in braille_test_object:
+                braille_test=braille_test.replace(char,braille_test_object[char])
+        #Checks if the test contains any non braille characters
+        for char in braille_test:
+            if char not in braille_numbers_object:
+                warnings.warn("This test contains a character that is not in the braille object. This may be a mistake in your test. Character: "+char)
         #writes the braille test to the test yaml file
         test_yaml.write('  - ["'+row["Text"]+'", "'+braille_test+'"]\n')
     #The test yaml file is closed to prevent memory leaks
     test_yaml.close()
+    print("done creating braille tests")
 
 def get_braille_from_text_in_source(language_option):
     """

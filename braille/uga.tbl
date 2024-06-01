@@ -71,9 +71,6 @@ letter 𐎝 234-1256  # SSU
 # punctuation op code characters
 punctuation 𐎟 36  # WORD DIVIDER
 
-# space op code characters
-space \s 0  # space
-
 # Include additional braille tables
 include spaces.uti
 include litdigits6Dots.uti

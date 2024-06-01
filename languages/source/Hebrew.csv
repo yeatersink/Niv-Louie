@@ -38,7 +38,7 @@ Character,Hex,Logic,Type,Name,Braille
 דּ,05D3+05BC,186.0,always,dalet with dagesh,⠐⠙
 דְּ,05D3+05BC+05B0,186.0,always,dalet with dagesh sheva,⠐⠙⠄
 ד,05D3,8.0,letter,letter dalet,⠙
-הּ,05D4+05BC,8.0,letter,hey - isolated,⠓
+הּ,05D4+05BC,8.0,always,hey  with dagesh,⠓
 ה,05D4,8.0,letter,letter hey,⠓
 וֹ,05D5+05B9,201.0,always,holam-vav*,⠪
 וּ,05D5+05BC,201.0,always,shuruq,⠥

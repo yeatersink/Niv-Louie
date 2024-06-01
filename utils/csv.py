@@ -24,6 +24,11 @@ def create_filtered_csv(language_option):
     new_name_column=name_column[languages[language_option]["name_column"]].apply(format_names,args=(language_option,))
     #replaces the name column with the new name column
     filtered_language[languages[language_option]["name_column"]]=new_name_column
+    #Checks if there are rows where there is a plus in the Hex column and the Type is not set to always
+    if filtered_language[(filtered_language["Hex"].str.contains("\+")) & (filtered_language["Type"]!="always")].shape[0]>0:
+        #Displays a warning to the user with the characters
+        warnings.warn("There are characters with multiple hex values that are not set to always")
+        print(filtered_language[(filtered_language["Hex"].str.contains("\+")) & (filtered_language["Type"]!="always")])
         #Checks if there are duplicates in the language file
     if filtered_language.duplicated(keep=False,subset=["Hex"]).sum() > 0:
         #Displays a warning to the user

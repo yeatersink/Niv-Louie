@@ -23,7 +23,7 @@ Character,Hex,Type,Name,Braille
 וּ,05D5+05BC,always,shuruq,⠥
 וֹ,05D5+05B9,always,holam-vav,⠪
 ֵי,05B5+05D9,always,tsere-yod,⠼
-הּ,05D4+05BC,letter,hey - isolated,⠓
+הּ,05D4+05BC,always,hey  with dagesh,⠓
 דּ,05D3+05BC,always,dalet with dagesh,⠐⠙
 בְּ,FB31+05B0,always,Bet with dagesh sheva,⠃⠄
 בֿ,05D1+05BF,always,bet with rafe,⠧
