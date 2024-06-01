@@ -88,11 +88,11 @@ languages=[
 #-maintainer: Matityhau Yeshurun <yeatersink@gmail.com>
 """},    \
         {"name":"Ugaritic","language_code":"uga","language_system_code":"uga-oracc","test_display_type":"unicode-without-blank.dis","name_column":"Name","char_column":"Character(decimal)","braille_column":"Braille","replace":["UGARITIC LETTER","UGARITIC "],"included_braille_tables":["spaces.uti","litdigits6Dots.uti","latinLetterDef6Dots.uti","en-ueb-chardefs.uti"],"language_information":"""
+#The braille code for Ugaritic is innovative, but closely follows the Cuneiform represented at ORACC. The braille code for Ugaritic is represented in braille as the name for the sign in Ugaritic. Thus, if the Ugaritic sign is a "Alepha," then the braille code for this sign would be a dot 1, similar to Hebrew.
 #for more information on the Ugaritic language, please go to:
 #https://oracc.museum.upenn.edu/aemw/ugarit/corpus
-#The standard for Ugaritic has been set by the academic community represented by ORACC. The braille code for Ugaritic follows the standard set by ORACC. The braille code for Ugaritic is represented in braille as the name for the sign in Ugaritic. Thus, if the Ugaritic sign is a "Alepha," then the braille code for this sign would be a.
 ""","contributors":"""
-#This braille code was developed by a group of both blind and sighted scholars in an academic setting.
+#This braille code was developed by a group of both blind and sighted scholars in an academic setting. Special thank you to Ray McAllestor and Matthew Yeater for your help in developing this braille code.
 #-maintainer: Paul Geoghegan <contact@envisionly.tech>
 #-maintainer: Matityhau Yeshurun <yeatersink@gmail.com>
 """}
