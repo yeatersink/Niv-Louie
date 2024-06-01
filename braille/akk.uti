@@ -4,8 +4,9 @@
 # ------------
 #-index-name: Akkadian uncontracted
 #-display-name: Akkadian uncontracted
-#
-#+language:akk
+
+#+language: akk
+
 #+type:literary
 #+contraction:no
 #+system:akk-oracc

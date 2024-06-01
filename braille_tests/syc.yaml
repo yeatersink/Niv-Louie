@@ -7,9 +7,10 @@
 # without any warranty.
 
 display: unicode.dis
+
 table:
   language: syc
-  __assert-match: syc.tbl
+  __assert-match: syc.uti
 flags: { testmode: forward }
 tests:
   # Syriac

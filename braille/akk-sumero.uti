@@ -4,8 +4,9 @@
 # ------------
 #-index-name: Sumero-Akkadian uncontracted
 #-display-name: Sumero-Akkadian uncontracted
-#
-#+language:akk-sumero
+
+#+language: akk-sumero
+
 #+type:literary
 #+contraction:no
 #+system:akk-sumero-oracc

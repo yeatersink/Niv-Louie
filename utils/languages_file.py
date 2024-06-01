@@ -40,18 +40,8 @@ languages=[
 #-maintainer: Paul Geoghegan <contact@envisionly.tech>
 #-maintainer: Matityhau Yeshurun <yeatersink@gmail.com>
 """},
-        {"name":"Transliterated-Cuneiform","language_code":"Transliterated-Cuneiform","language_system_code":"Transliterated-Cuneiform-oracc","name_column":"Name","char_column":"Character","braille_column":"Braille","replace":[],"included_braille_tables":["spaces.uti","litdigits6Dots.uti","latinLetterDef6Dots.uti","en-ueb-chardefs.uti"],"language_information":"""
-#+language: akk-Latn
-#+language: xhu-Latn
-#+language: uga-Latn
-#+language: peo-Latn
-#+language: sux-Latn
-#+language: xeb-Latn
-#+language: elx-Latn
-#+language: hit-Latn
-#+language: xur-Latn
-#+language: xlu-Latn
-         #Documents written in a writing system known as Cuneiform or Akkadian, are commonly preserved in clay, stone,  or even metal tablets.   When these tables are engaged academically, they are “transliterated” from their original Cuneiform, into Latin letters. Some of these letters have accents, dots, and lines associated with them. These are used to indicate specific sounds that are commonly made in Ancient Near Eastern  languages. This table provides braille support for the above mentioned languages that have been already transliterated into the latin characters mentioned above.
+        {"name":"Transliterated-Cuneiform","language_code":"Transliterated-Cuneiform","supported_braille_languages":["akk-Latn","xhu-Latn","uga-Latn","peo-Latn","sux-Latn","xeb-Latn","elx-Latn","hit-Latn","xur-Latn","xlu-Latn"],"language_system_code":"Transliterated-Cuneiform-oracc","name_column":"Name","char_column":"Character","braille_column":"Braille","replace":[],"included_braille_tables":["spaces.uti","litdigits6Dots.uti","latinLetterDef6Dots.uti","en-ueb-chardefs.uti"],"language_information":"""
+#Documents written in a writing system known as Cuneiform or Akkadian, are commonly preserved in clay, stone,  or even metal tablets.   When these tables are engaged academically, they are “transliterated” from their original Cuneiform, into Latin letters. Some of these letters have accents, dots, and lines associated with them. These are used to indicate specific sounds that are commonly made in Ancient Near Eastern  languages. This table provides braille support for the above mentioned languages that have been already transliterated into the latin characters mentioned above.
 #This table is intended to provide support for the languages represented in the Cuneiform / Akkadian Writing system. This includes Sumerian, Hittite, Babylonian  Assyrian, Ugaritic and many others. Thus, the braille in this table reflects braille patterns commonly utilized in   other Semitic  languages such as Hebrew, Aramaic, and Syriac. For more information please see: 
 #http://oracc.ub.uni-muenchen.de/doc/help/languages/ugaritic/index.html
 ""","contributors":"""
@@ -97,7 +87,7 @@ languages=[
 #This braille code was developed by a group of both blind and sighted scholars in an academic setting.Special thank you to Matthew Yeater, Louis Saenz and Shai Gordon for your help in making this work possible.
 #-maintainer: Matityhau Yeshurun <yeatersink@gmail.com>
 """},    \
-        {"name":"Ugaritic","language_code":"uga","language_system_code":"uga-oracc","name_column":"Name","char_column":"Character(decimal)","braille_column":"Braille","replace":["UGARITIC LETTER","UGARITIC "],"included_braille_tables":["spaces.uti","litdigits6Dots.uti","latinLetterDef6Dots.uti","en-ueb-chardefs.uti"],"language_information":"""
+        {"name":"Ugaritic","language_code":"uga","language_system_code":"uga-oracc","test_display_type":"unicode-without-blank.dis","name_column":"Name","char_column":"Character(decimal)","braille_column":"Braille","replace":["UGARITIC LETTER","UGARITIC "],"included_braille_tables":["spaces.uti","litdigits6Dots.uti","latinLetterDef6Dots.uti","en-ueb-chardefs.uti"],"language_information":"""
 #for more information on the Ugaritic language, please go to:
 #https://oracc.museum.upenn.edu/aemw/ugarit/corpus
 #The standard for Ugaritic has been set by the academic community represented by ORACC. The braille code for Ugaritic follows the standard set by ORACC. The braille code for Ugaritic is represented in braille as the name for the sign in Ugaritic. Thus, if the Ugaritic sign is a "Alepha," then the braille code for this sign would be a.

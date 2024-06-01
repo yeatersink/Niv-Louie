@@ -7,9 +7,10 @@
 # without any warranty.
 
 display: unicode.dis
+
 table:
   language: hbo
-  __assert-match: hbo.tbl
+  __assert-match: hbo.uti
 flags: { testmode: forward }
 tests:
   # Hebrew

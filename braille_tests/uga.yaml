@@ -6,10 +6,11 @@
 # notice and this notice are preserved. This file is offered as-is,
 # without any warranty.
 
-display: unicode.dis
+display: unicode-without-blank.dis
+
 table:
   language: uga
-  __assert-match: uga.tbl
+  __assert-match: uga.uti
 flags: { testmode: forward }
 tests:
   # Ugaritic

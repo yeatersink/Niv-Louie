@@ -7,9 +7,10 @@
 # without any warranty.
 
 display: unicode.dis
+
 table:
   language: akk
-  __assert-match: akk.tbl
+  __assert-match: akk.uti
 flags: { testmode: forward }
 tests:
   # Akkadian

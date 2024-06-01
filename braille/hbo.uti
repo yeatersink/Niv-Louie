@@ -4,8 +4,9 @@
 # ------------
 #-index-name: Hebrew uncontracted
 #-display-name: Hebrew uncontracted
-#
-#+language:hbo
+
+#+language: hbo
+
 #+type:literary
 #+contraction:no
 #+system:hbo

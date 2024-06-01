@@ -4,8 +4,9 @@
 # ------------
 #-index-name: Ugaritic uncontracted
 #-display-name: Ugaritic uncontracted
-#
-#+language:uga
+
+#+language: uga
+
 #+type:literary
 #+contraction:no
 #+system:uga-oracc

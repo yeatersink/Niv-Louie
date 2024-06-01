@@ -11,7 +11,7 @@ def create_braille_table(language_option):
     #The language file is read in to pandas
     braille=pd.read_csv("languages/filtered_"+languages[language_option]["name"]+".csv")
     #The braille table is opened in write mode to create the table
-    braille_table=open("braille/"+languages[language_option]["language_code"]+".tbl","w",encoding="utf8")
+    braille_table=open("braille/"+languages[language_option]["language_code"]+".uti","w",encoding="utf8")
     #The braille column is converted to numbers
     braille[languages[language_option]["braille_column"]]=braille[languages[language_option]["braille_column"]].apply(braille_to_numbers)
 
@@ -22,8 +22,14 @@ def create_braille_table(language_option):
 # ------------
 #-index-name: """+languages[language_option]["name"]+""" uncontracted
 #-display-name: """+languages[language_option]["name"]+""" uncontracted
-#
-#+language:"""+languages[language_option]["language_code"]+"""
+\n""")
+    #Checks if the supported_braille_languages property exists on the language
+    if "supported_braille_languages" in languages[language_option]:
+        for language in languages[language_option]["supported_braille_languages"]:
+            braille_table.write("#+language: "+language+"\n")
+    else:
+        braille_table.write("#+language: "+languages[language_option]["language_code"]+"\n")
+    braille_table.write("""
 #+type:literary
 #+contraction:no
 #+system:"""+languages[language_option]["language_system_code"]+"""
@@ -189,10 +195,16 @@ def create_braille_tests(language_option):
 # notice and this notice are preserved. This file is offered as-is,
 # without any warranty.
 
-display: unicode.dis
+""")
+    #Checks if the test_display_type property exists on the language
+    if "test_display_type" in languages[language_option]:
+        test_yaml.write("display: "+languages[language_option]["test_display_type"]+"\n")
+    else:
+        test_yaml.write("display: unicode.dis\n")
+    test_yaml.write("""
 table:
   language: """+languages[language_option]["language_code"]+"""
-  __assert-match: """+languages[language_option]["language_code"]+""".tbl
+  __assert-match: """+languages[language_option]["language_code"]+""".uti
 flags: { testmode: forward }
 tests:
   # """+languages[language_option]["name"]+"""

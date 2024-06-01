@@ -7,9 +7,10 @@
 # without any warranty.
 
 display: unicode.dis
+
 table:
   language: Transliterated-Cuneiform
-  __assert-match: Transliterated-Cuneiform.tbl
+  __assert-match: Transliterated-Cuneiform.uti
 flags: { testmode: forward }
 tests:
   # Transliterated-Cuneiform

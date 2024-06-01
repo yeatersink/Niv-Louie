@@ -4,8 +4,9 @@
 # ------------
 #-index-name: Syriac uncontracted
 #-display-name: Syriac uncontracted
-#
-#+language:syc
+
+#+language: syc
+
 #+type:literary
 #+contraction:no
 #+system:syc

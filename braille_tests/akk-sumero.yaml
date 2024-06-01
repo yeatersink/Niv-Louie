@@ -7,9 +7,10 @@
 # without any warranty.
 
 display: unicode.dis
+
 table:
   language: akk-sumero
-  __assert-match: akk-sumero.tbl
+  __assert-match: akk-sumero.uti
 flags: { testmode: forward }
 tests:
   # Sumero-Akkadian
