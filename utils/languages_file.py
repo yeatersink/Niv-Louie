@@ -12,8 +12,7 @@
 languages=[
     {"name":"Akkadian","language_code":"akk","supported_braille_languages":["akk-Xsux","xhu-Xsux","uga-Xsux","peo-Xsux","sux-Xsux","xeb-Xsux","elx-Xsux","hit-Xsux","xur-Xsux","xlu-Xsux"],"language_system_code":"akk-oracc","name_column":"Name","char_column":"Character","braille_column":"Braille","replace":["CUNEIFORM SIGN"],"included_braille_tables":["spaces.uti","litdigits6Dots.uti","latinLetterDef6Dots.uti","en-ueb-chardefs.uti"],"language_information":"""
 #Cuneiform, generally known as Akkadian, is a writing system that was used through several stages of development, from the 31st century BC down to the second century AD, and preserves documents in several languages which span from Sumerian to Greek.  
-#There is no braille standard set for these languages or this writing system. Thus, this table is innovative, but does provide access to all of the Cuneiform signs that are currently represented by Unicode.  This table provides support for the American  system and is different than the German (Borger) system. If you are desireing access to the German system, please see the Sumero- Akkadian table on Lib Louis for the full list of Borger names and corresponding braille.
-#For more information on the different systems, please see:     
+#There is no braille standard set for these languages or this writing system. Thus, this table is innovative, but does provide access to all of the Cuneiform signs that are currently represented by Unicode.  This table provides support for the American  system and is different than the German (Borger) system. If you are desireing access to the German system, please see the Sumero- Akkadian table on Lib Louis for the full list of Borger names and corresponding braille.     #For more information on the different systems, please see:     
 #https://en.wikipedia.org/wiki/Cuneiform_(Unicode_block)
 #for more information on the Akkadian language, please go to:
 #https://oracc.museum.upenn.edu/dcclt/signlists/signlists/
@@ -21,6 +20,7 @@ languages=[
 #This braille code was developed by a group of both blind and sighted scholars in an academic setting. Special thank you to Louis Saenz,Inbal Baum, Shai Gordon for helping Matthew Yeater develop the braille code , and thank you to Ray McAllester, Sarah LaRose and Eric Harvey for their helpful contributions.  
 #-maintainer: Paul Geoghegan <contact@envisionly.tech>
 #-maintainer: Matityhau Yeshurun <yeatersink@gmail.com>
+#Copyright 2024 OneStopShop for all your Ancient Language needs. 
 """},
 {"name":"Amharic","language_code":"amh","language_system_code":"amh","name_column":"Name","char_column":"Char","braille_column":"Braille","replace":["CUNEIFORM SIGN"],"language_information":"""
 #for more information on braille in the Amharic language, please read this paper.
@@ -30,6 +30,7 @@ languages=[
 #This braille code was developed by a group of both blind and sighted scholars in an academic setting.
 #-maintainer: Paul Geoghegan <contact@envisionly.tech>
 #-maintainer: Matityhau Yeshurun <yeatersink@gmail.com>
+#Copyright 2024 OneStopShop for all your Ancient Language needs. 
 """},
         {"name":"Critical-Apparatus-NT","language_code":"Critical-Apparatus-NT","language_system_code":"critical-apparatus","name_column":"Name","char_column":"Char","braille_column":"Braille","replace":["CUNEIFORM SIGN"],"language_information":"""
 #for more information on the Critical Apparatus , please check out this link:
@@ -48,15 +49,17 @@ languages=[
 #This braille code was developed by a group of both blind and sighted scholars in an academic setting. Special thank you to Inbal Baum for helping Matthew Yeaterand Ray McAllester develop this braille code. Special thank you to Sarah LaRose and Eric Harvey for their helpful suggestions.  
 #-maintainer: Paul Geoghegan <contact@envisionly.tech>
 #-maintainer: Matityhau Yeshurun <yeatersink@gmail.com>
+#Copyright 2024 OneStopShop for all your Ancient Language needs. 
 """},
         {"name":"Greek","language_code":"grc-koine","name_column":"Name","char_column":"Character","braille_column":"Braille","replace":["CUNEIFORM SIGN"],"language_information":"""
-#for more information on the Koine Greek language, please go to:
+#for more information on the Koine Greek language, please go to:v
 #https://www.koinegreek.com/
 #The standard for Koine Greek has been set by the academic community . The braille code for Koine Greek follows the standard set.
 ""","contributors":"""
 #This braille code was developed by a group of both blind and sighted scholars in an academic setting.
 #-maintainer: Paul Geoghegan <contact@envisionly.tech>
 #-maintainer: Matityhau Yeshurun <yeatersink@gmail.com>
+#Copyright 2024 OneStopShop for all your Ancient Language needs. 
 """},
         {"name":"Hebrew","language_code":"hbo","language_system_code":"hbo","name_column":"Name","char_column":"Character","braille_column":"Braille","replace":["point","punctuation","mark","letter","accent","*"],"included_braille_tables":["spaces.uti","litdigits6Dots.uti","latinLetterDef6Dots.uti","en-ueb-chardefs.uti"],"language_information":"""
 #The first Hebrew Braille table hosted on Lib Louis was developed by the Library for the Blind and the Ministry of Education in Israel. That  table is based on the IHBC which was developed in the mid-1930’s. Please see World Braille usage 3rd edition, p. 74. 
@@ -68,6 +71,7 @@ languages=[
 #Special thank you to Ray McAllestor and Matthew Yeater for developing the braille for the cantillation. Also to Abby Howell for the suggestions to include support for Yiddish. Extra gratitude to Sarah LaRose, Eric Harvey, and Leonard de Ruijder for the helpful suggestions. 
 #-maintainer: Paul Geoghegan <contact@envisionly.tech>
 #-maintainer: Matityhau Yeshurun <yeatersink@gmail.com>
+#Copyright 2024 OneStopShop for all your Ancient Language needs. 
 """},
 {"name":"Syriac","language_code":"syc","language_system_code":"syc","name_column":"Name","char_column":"Character","braille_column":"Braille","replace":[],"included_braille_tables":["spaces.uti","litdigits6Dots.uti","latinLetterDef6Dots.uti","en-ueb-chardefs.uti"],"language_information":"""
 #This table provides support for ʾEsṭrangēlā, Maḏnḥāyā and Serṭā Syriac also known as  Old, Eastern and Western Syriac. 
@@ -77,15 +81,19 @@ languages=[
 #This braille code was developed by a group of both blind and sighted scholars in an academic setting. Special thank you to Paul Keim, Ray McAllestor, and Matthew Yeater for development of the braille code for this language.  Also thanks to Sarah LaRose for the suggestions while serving on the committee. 
 #-maintainer: Paul Geoghegan <contact@envisionly.tech>
 #-maintainer: Matityhau Yeshurun <yeatersink@gmail.com>
+#Copyright 2024 OneStopShop for all your Ancient Language needs. 
 """},
-{"name":"Sumero-Akkadian","language_code":"akk-sumero","supported_braille_languages":["akk-sumero-Xsux","xhu-Xsux","peo-Xsux","sux-Xsux","xeb-Xsux","elx-Xsux","hit-Xsux","xur-Xsux","xlu-Xsux"],"language_system_code":"akk-sumero-oracc","name_column":"Name","char_column":"Character","braille_column":"Braille","replace":["CUNEIFORM SIGN"],"included_braille_tables":["spaces.uti","litdigits6Dots.uti","latinLetterDef6Dots.uti","en-ueb-chardefs.uti"],"language_information":"""
-#This is a braille table for Sumero Akkadian. The braille in this table reflects the names for the Cuneiform signs represented in the German/ Borgers system. This is different than the American system. If you are looking for the braille that represents the American system, please find the table here on Lib Louis that represents the American system. For more information on the differences between these systems, please see: 
+{"name":"Akkadian","language_code":"akk-sumero","supported_braille_languages":["akk-sumero-Xsux","xhu-Xsux","peo-Xsux","sux-Xsux","xeb-Xsux","elx-Xsux","hit-Xsux","xur-Xsux","xlu-Xsux"],"language_system_code":"akk-sumero-oracc","name_column":"Name","char_column":"Character","braille_column":"Braille","replace":["CUNEIFORM SIGN"],"included_braille_tables":["spaces.uti","litdigits6Dots.uti","latinLetterDef6Dots.uti","en-ueb-chardefs.uti"],"language_information":"""
+#This is a braille table for the Borger version of Akkadian. The braille in this table reflects the names for the Cuneiform signs represented in the German/ Borgers system.
+#The Table for the American system utilizes braille that describes what the Cuneiform Sign is according to the  American System. This table utilizes braille according to the Borger/ German  system. Both of these systems have different names for the Cuneiform sign. Thus, both of these systems have different braille. If you are looking for the braille that represents the American system, please find the other Akkadian table here on Lib Louis that represents the American system.
+#For more information on the differences between these systems, please see: 
 #https://en.wikipedia.org/wiki/Cuneiform_(Unicode_block)
 #for more information on the Akkadian language, please go to:
 #https://oracc.museum.upenn.edu/dcclt/signlists/signlists/
 ""","contributors":"""
 #This braille code was developed by a group of both blind and sighted scholars in an academic setting.Special thank you to Matthew Yeater, Louis Saenz and Shai Gordon for your help in making this work possible.
 #-maintainer: Matityhau Yeshurun <yeatersink@gmail.com>
+#Copyright 2024 OneStopShop for all your Ancient Language needs. 
 """},    \
         {"name":"Ugaritic","language_code":"uga","language_system_code":"uga-oracc","test_display_type":"unicode-without-blank.dis","name_column":"Name","char_column":"Character(decimal)","braille_column":"Braille","replace":["UGARITIC LETTER","UGARITIC "],"included_braille_tables":["spaces.uti","litdigits6Dots.uti","latinLetterDef6Dots.uti","en-ueb-chardefs.uti"],"language_information":"""
 #The braille code for Ugaritic is innovative, but accurately represents the Cuneiform . The braille code for Ugaritic is represented in braille as the name for the sign in Ugaritic. Thus, if the Ugaritic sign is a "Alepha," then the braille code for this sign would be a dot 1, similar to Hebrew.
@@ -95,5 +103,6 @@ languages=[
 #This braille code was developed by a group of both blind and sighted scholars in an academic setting. Special thank you to Ray McAllestor and Matthew Yeater for your help in developing this braille code.
 #-maintainer: Paul Geoghegan <contact@envisionly.tech>
 #-maintainer: Matityhau Yeshurun <yeatersink@gmail.com>
+#Copyright 2024 OneStopShop for all your Ancient Language needs. 
 """}
 ]

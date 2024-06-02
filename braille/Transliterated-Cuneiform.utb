@@ -45,6 +45,7 @@
 #This braille code was developed by a group of both blind and sighted scholars in an academic setting. Special thank you to Inbal Baum for helping Matthew Yeaterand Ray McAllester develop this braille code. Special thank you to Sarah LaRose and Eric Harvey for their helpful suggestions.  
 #-maintainer: Paul Geoghegan <contact@envisionly.tech>
 #-maintainer: Matityhau Yeshurun <yeatersink@gmail.com>
+#Copyright 2024 OneStopShop for all your Ancient Language needs. 
 
 # digit op code characters
 digit ₁ 26-3456-1  # SUBSCRIPT ONE

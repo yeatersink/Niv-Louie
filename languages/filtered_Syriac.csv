@@ -1,11 +1,10 @@
 Character,Hex,Type,Name,Braille
 ܪ݂,072A+0742,always,RISH and RUKKAKHA,⠗⠄
-ܛ݁,071B+0741,always,TETH and QUSHSHAYA,⠞⠂
+ܕ݂,0715+0742,always,DALATH and RUKKAKHA,⠙⠄
 ܖ݂,0716+0742,always,DOTLESS DALATH RISH and RUKKAKHA,⠢⠙⠄
 ܗ݁,0717+0741,always,HE and QUSHSHAYA,⠓⠂
 ܗ݂,0717+0742,always,HE and RUKKAKHA,⠓⠄
 ܣ݂,0723+0742,always,SEMKATH and RUKKAKHA,⠎⠄
-ܗ̱,0717+0331,always,HE with macron,⠓⠯
 ܘ݁,0718+0741,always,WAW and QUSHSHAYA,⠺⠂
 ܘ݂,0718+0742,always,WAW and RUKKAKHA,⠺⠄
 ܣ݁,0723+0741,always,SEMKATH and QUSHSHAYA,⠎⠂
@@ -14,8 +13,8 @@ Character,Hex,Type,Name,Braille
 ܚ݁,071A+0741,always,HETH and QUSHSHAYA,⠭⠂
 ܚ݂,071A+0742,always,HETH and RUKKAKHA,⠭⠄
 ܫ݂,072B+0742,always,SHIN and RUKKAKHA,⠩⠄
+ܛ݁,071B+0741,always,TETH and QUSHSHAYA,⠞⠂
 ܛ݂,071B+0742,always,TETH and RUKKAKHA,⠞⠄
-ܕ݂,0715+0742,always,DALATH and RUKKAKHA,⠙⠄
 ܢ݂,0722+0742,always,NUN and RUKKAKHA,⠝⠄
 ܜ݁,071C+0741,always,TETH GARSHUNI and QUSHSHAYA,⠢⠞⠂
 ܜ݂,071C+0742,always,TETH GARSHUNI and RUKKAKHA,⠢⠞⠄
@@ -29,8 +28,8 @@ Character,Hex,Type,Name,Braille
 ܟ݂,071F+0742,always,KAPH and RUKKAKHA,⠅⠄⠄
 ܡ݁,0721+0741,always,MIM and QUSHSHAYA,⠍⠂
 ܠ݁,0720+0741,always,LAMADH and QUSHSHAYA,⠇⠂
-ܤ݁,0724+0741,always,FINAL SEMKATH and QUSHSHAYA,⠢⠎⠂
 ܖ݁,0716+0741,always,DOTLESS DALATH RISH and QUSHSHAYA,⠢⠙⠂
+ܤ݁,0724+0741,always,FINAL SEMKATH and QUSHSHAYA,⠢⠎⠂
 ܕ݁,0715+0741,always,DALATH and QUSHSHAYA,⠙⠂
 ܑ݁,0711+0741,always,SUPERSCRIPT ALAPH  and QUSHSHAYA,⠢⠁⠂
 ܪ݁,072A+0741,always,RISH and QUSHSHAYA,⠗⠂
@@ -61,8 +60,8 @@ Character,Hex,Type,Name,Braille
 ܭ,072D,letter,PERSIAN BHETH,⠢
 ܱ,0731,letter,Pthaha BELOW,⠡
 ܮ,072E,letter,PERSIAN GHAMAL,⠢⠶
-ܰ,0730,letter,Pthaha ABOVE,⠷
 ܯ,072F,letter,PERSIAN DHALATH,⠢⠲
+ܰ,0730,letter,Pthaha ABOVE,⠷
 ܫ,072B,letter,SHIN,⠩
 ܲ,0732,letter,Pthaha DOTTED,⠉
 ܀,0700,punctuation,END OF PARAGRAPH,⠲⠏
@@ -121,7 +120,7 @@ Character,Hex,Type,Name,Braille
 ܗ,0717,letter,HE,⠓
 ܨ,0728,letter,SADHE,⠮
 ܧ,0727,letter,REVERSED PE,⠢⠏
-ܦ,0726,letter,PE,⠏
+ܦ,0726,letter,PE ,⠏
 ܥ,0725,letter,E,⠫
 ܤ,0724,letter,FINAL SEMKATH,⠢⠎
 ܣ,0723,letter,SEMKATH,⠎

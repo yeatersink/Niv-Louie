@@ -10,7 +10,7 @@ display: unicode.dis
 
 table:
   language: syc
-  __assert-match: syc.uti
+  __assert-match: syc.utb
 flags: { testmode: forward }
 tests:
   # Syriac

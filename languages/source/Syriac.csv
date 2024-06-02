@@ -38,7 +38,6 @@ Character,Hex,Type,Name,Braille
 ܗ݁,0717+0741,always,HE and QUSHSHAYA,⠓⠂
 ܗ݂,0717+0742,always,HE and RUKKAKHA,⠓⠄
 ܗ,0717,letter,HE,⠓
-ܗ̱,0717+0331,always,HE with macron,⠓⠯
 ܘ݁,0718+0741,always,WAW and QUSHSHAYA,⠺⠂
 ܘ݂,0718+0742,always,WAW and RUKKAKHA,⠺⠄
 ܘ,0718,letter,WAW,⠺
@@ -83,7 +82,7 @@ Character,Hex,Type,Name,Braille
 ܥ,0725,letter,E,⠫
 ܦ݁,0726+0741,always,PE and QUSHSHAYA,⠏⠂
 ܦ݂,0726+0742,always,PE and RUKKAKHA,⠏⠄
-ܦ,0726,letter,PE,⠏
+ܦ,0726,letter,PE ,⠏
 ܧ݁,0727+0741,always,REVERSED PE and QUSHSHAYA,⠢⠏⠂
 ܧ݂,0727+0742,always,REVERSED PE and RUKKAKHA,⠢⠏⠄
 ܧ,0727,letter,REVERSED PE,⠢⠏
