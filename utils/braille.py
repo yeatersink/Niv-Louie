@@ -19,33 +19,41 @@ def create_braille_table(language_option):
     braille_table.write("""
 # liblouis: """+languages[language_option]["name"]+"""
 #
-# ------------
-#-index-name: """+languages[language_option]["name"]+""" uncontracted
-#-display-name: """+languages[language_option]["name"]+""" uncontracted
-\n""")
+""")
+
+    if "display_name" in languages[language_option]:
+        braille_table.write("#-display-name: "+languages[language_option]["display_name"]+"\n")
+    else:
+        braille_table.write("#-display-name: "+languages[language_option]["name"]+" uncontracted\n")
+            
+    if "index-name" in languages[language_option]:
+        braille_table.write("#-index-name: "+languages[language_option]["index_name"]+"\n")
+    else:
+                            braille_table.write("#-index-name: "+languages[language_option]["name"]+" uncontracted\n")
+                            
     #Checks if the supported_braille_languages property exists on the language
     if "supported_braille_languages" in languages[language_option]:
         for language in languages[language_option]["supported_braille_languages"]:
             braille_table.write("#+language: "+language+"\n")
     else:
         braille_table.write("#+language: "+languages[language_option]["language_code"]+"\n")
-    braille_table.write("""
-#+type:literary
+    braille_table.write("""#+type:literary
 #+contraction:no
 #+system:"""+languages[language_option]["language_system_code"]+"""
 #+dots:6
 
 #-license: lgpl-2.1
+
 # This file is free software; you can redistribute it and/or
 # modify it under the terms of the GNU Lesser General Public
 # License as published by the Free Software Foundation; either
 # version 2.1 of the License, or (at your option) any later version.
-
+#
 # This file is distributed in the hope that it will be useful,
 # but WITHOUT ANY WARRANTY; without even the implied warranty of
 # MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
 # Lesser General Public License for more details.
-
+#
 # You should have received a copy of the GNU Lesser General Public
 # License along with this file; if not, write to the Free Software
 # Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA
@@ -201,13 +209,12 @@ def create_braille_tests(language_option):
         test_yaml.write("display: "+languages[language_option]["test_display_type"]+"\n")
     else:
         test_yaml.write("display: unicode.dis\n")
-    test_yaml.write("""
-table:
+        
+    test_yaml.write("""table:
   language: """+languages[language_option]["language_code"]+"""
   __assert-match: """+languages[language_option]["language_code"]+""".utb
 flags: { testmode: forward }
 tests:
-  # """+languages[language_option]["name"]+"""
 """)
     #This loop goes through each row in the test csv file
     for index,row in test_csv.iterrows():

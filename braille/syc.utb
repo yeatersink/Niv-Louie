@@ -33,10 +33,10 @@
 #For more information, please see: 
 #https://en.wikipedia.org/wiki/Syriac_language
 
-#This braille code was developed by a group of both blind and sighted scholars in an academic setting. Special thank you to Paul Keim, Ray McAllestor, and Matthew Yeater for development of the braille code for this language.  Also thanks to Sarah LaRose for the suggestions while serving on the committee. 
+#This braille code was developed by a group of both blind and sighted scholars in an academic setting. Special thank you to Paul Keim, Ray McAllister, and Matthew Yeater for development of the braille code for this language.  Also thanks to Sarah LaRose for the suggestions while serving on the committee. 
 #-maintainer: Paul Geoghegan <contact@envisionly.tech>
 #-maintainer: Matityhau Yeshurun <yeatersink@gmail.com>
-#Copywrite 2024 OneStopShop for all your Ancient Language needs. 
+#Copywrite 2024 Matthew Yeater and Paul Geoghegan.
 
 # always op code characters
 always ܐ 1  # ALAPH
