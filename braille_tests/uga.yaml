@@ -7,13 +7,11 @@
 # without any warranty.
 
 display: unicode-without-blank.dis
-
 table:
   language: uga
-  __assert-match: uga.uti
+  __assert-match: uga.utb
 flags: { testmode: forward }
 tests:
-  # Ugaritic
   - ["𐎄𐎛𐎐 𐎂𐎛𐎗𐎟", "⠙⠊⠝ ⠛⠊⠗⠤"]
   - ["𐎎 𐎛𐎌𐎟", "⠍ ⠊⠩⠤"]
   - ["𐎔𐎀𐎔 𐎗𐎜𐎟", "⠏⠁⠏ ⠗⠥⠤"]

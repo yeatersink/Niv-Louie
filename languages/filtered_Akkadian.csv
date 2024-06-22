@@ -1,0 +1,923 @@
+Character,Hex,Type,Name,Braille
+𒀀,12000,letter,A,⠁
+𒉝,1225D,letter,NINDA2 TIMES SHE PLUS ASH PLUS ASH,⠝⠊⠝⠙⠁⠡⠩⠑⠬⠁⠩⠬⠁⠩
+𒉟,1225F,letter,NINDA2 TIMES USH,⠝⠊⠝⠙⠁⠡⠥⠩
+𒉠,12260,letter,NISAG,⠝⠊⠎⠁⠛
+𒉡,12261,letter,NU,⠝⠥
+𒉢,12262,letter,NU11,⠝⠥⠂⠂
+𒉣,12263,letter,NUN,⠝⠥⠝
+𒉤,12264,letter,NUN LAGAR TIMES GAR,⠝⠥⠝ ⠇⠁⠛⠜⠡⠛⠜
+𒉥,12265,letter,NUN LAGAR TIMES MASH,⠝⠥⠝ ⠇⠁⠛⠜⠡⠍⠁⠩
+𒉦,12266,letter,NUN LAGAR TIMES SAL,⠝⠥⠝ ⠇⠁⠛⠜⠡⠎⠁⠇
+𒉧,12267,letter,NUN LAGAR TIMES SAL OVER NUN LAGAR TIMES SAL,⠝⠥⠝ ⠇⠁⠛⠜⠡⠎⠁⠇⠌⠝⠥⠝ ⠇⠁⠛⠜⠡⠎⠁⠇
+𒉨,12268,letter,NUN LAGAR TIMES USH,⠝⠥⠝ ⠇⠁⠛⠜⠡⠥⠩
+𒉩,12269,letter,NUN TENU,⠝⠥⠝ ⠞⠑⠝⠥
+𒉪,1226A,letter,NUN OVER NUN,⠝⠥⠝⠌⠝⠥⠝
+𒉫,1226B,letter,NUN CROSSING NUN,⠝⠥⠝⠯⠝⠥⠝
+𒉬,1226C,letter,NUN CROSSING NUN LAGAR OVER LAGAR,⠝⠥⠝⠯⠝⠥⠝ ⠇⠁⠛⠜⠌⠇⠁⠛⠜
+𒉭,1226D,letter,NUNUZ,⠝⠥⠝⠥
+𒉮,1226E,letter,NUNUZ AB2 TIMES ASHGAB,⠝⠥⠝⠥⠵ ⠁⠃⠡⠁⠩⠛⠁⠃
+𒉯,1226F,letter,NUNUZ AB2 TIMES BI,⠝⠥⠝⠥⠵ ⠁⠃⠡⠃⠊
+𒉰,12270,letter,NUNUZ AB2 TIMES DUG,⠝⠥⠝⠥⠵ ⠁⠃⠡⠙⠥⠛
+𒉱,12271,letter,NUNUZ AB2 TIMES GUD,⠝⠥⠝⠥⠵ ⠁⠃⠡⠛⠥⠙
+𒉲,12272,letter,NUNUZ AB2 TIMES IGI GUNU,⠝⠥⠝⠥⠵ ⠁⠃⠡⠊⠛⠊ ⠛⠥⠝⠥
+𒉳,12273,letter,NUNUZ AB2 TIMES KAD3,⠝⠥⠝⠥⠵ ⠁⠃⠡⠅⠁⠙⠒
+𒉴,12274,letter,NUNUZ AB2 TIMES LA,⠝⠥⠝⠥⠵ ⠁⠃⠡⠇⠁
+𒉵,12275,letter,NUNUZ AB2 TIMES NE,⠝⠥⠝⠥⠵ ⠁⠃⠡⠝⠑
+𒉶,12276,letter,NUNUZ AB2 TIMES SILA3,⠝⠥⠝⠥⠵ ⠁⠃⠡⠎⠊⠇⠁⠒
+𒉷,12277,letter,NUNUZ AB2 TIMES U2,⠝⠥⠝⠥⠵ ⠁⠃⠡⠥
+𒉞,1225E,letter,NINDA2 TIMES U2 PLUS ASH,⠝⠊⠝⠙⠁⠡⠥⠬⠁⠩
+𒉜,1225C,letter,NINDA2 TIMES SHE PLUS ASH,⠝⠊⠝⠙⠁⠡⠩⠑⠬⠁⠩
+𒉀,12240,letter,NAGA,⠝⠁⠛⠁
+𒉛,1225B,letter,NINDA2 TIMES SHE PLUS A AN,⠝⠊⠝⠙⠁⠡⠩⠑⠬⠁ ⠁⠝
+𒉂,12242,letter,NAGA TIMES SHU TENU,⠝⠁⠛⠁⠡⠩⠥ ⠞⠑⠝⠥
+𒉃,12243,letter,NAGA OPPOSING NAGA,⠝⠁⠛⠁⠫⠝⠁⠛⠁
+𒉄,12244,letter,NAGAR,⠝⠁⠛⠜
+𒉅,12245,letter,NAM NUTILLU,⠝⠁⠍ ⠝⠥⠞⠊⠇⠇⠥
+𒉆,12246,letter,NAM,⠝⠁⠍
+𒉇,12247,letter,NAM2,⠝⠁⠍
+𒉈,12248,letter,NE,⠝⠑
+𒉉,12249,letter,NE TIMES A,⠝⠑⠡⠁
+𒉊,1224A,letter,NE TIMES UD,⠝⠑⠡⠥⠙
+𒉋,1224B,letter,NE SHESHIG,⠝⠑ ⠩⠑⠩⠊⠛
+𒉌,1224C,letter,NI,⠝⠊
+𒉍,1224D,letter,NI TIMES E,⠝⠊⠡⠑
+𒉎,1224E,letter,NI2,⠝⠊
+𒉏,1224F,letter,NIM,⠝⠊⠍
+𒉐,12250,letter,NIM TIMES GAN2 TENU,⠝⠊⠍⠡⠛⠁⠝ ⠞⠑⠝⠥
+𒉑,12251,letter,NIM TIMES GAR PLUS GAN2 TENU,⠝⠊⠍⠡⠛⠜⠬⠛⠁⠝ ⠞⠑⠝⠥
+𒉒,12252,letter,NINDA2,⠝⠊⠝⠙⠁
+𒉓,12253,letter,NINDA2 TIMES AN,⠝⠊⠝⠙⠁⠡⠁⠝
+𒉔,12254,letter,NINDA2 TIMES ASH,⠝⠊⠝⠙⠁⠡⠁⠩
+𒉕,12255,letter,NINDA2 TIMES ASH PLUS ASH,⠝⠊⠝⠙⠁⠡⠁⠩⠬⠁⠩
+𒉖,12256,letter,NINDA2 TIMES GUD,⠝⠊⠝⠙⠁⠡⠛⠥⠙
+𒉗,12257,letter,NINDA2 TIMES ME PLUS GAN2 TENU,⠝⠊⠝⠙⠁⠡⠍⠑⠬⠛⠁⠝ ⠞⠑⠝⠥
+𒉘,12258,letter,NINDA2 TIMES NE,⠝⠊⠝⠙⠁⠡⠝⠑
+𒉙,12259,letter,NINDA2 TIMES NUN,⠝⠊⠝⠙⠁⠡⠝⠥⠝
+𒉚,1225A,letter,NINDA2 TIMES SHE,⠝⠊⠝⠙⠁⠡⠩⠑
+𒉸,12278,letter,NUNUZ KISIM5 TIMES BI,⠝⠥⠝⠥⠵ ⠅⠊⠎⠊⠍⠢⠡⠃⠊
+𒉹,12279,letter,NUNUZ KISIM5 TIMES BI U,⠝⠥⠝⠥⠵ ⠅⠊⠎⠊⠍⠢⠡⠃⠊ ⠥
+𒉺,1227A,letter,PA,⠏⠁
+𒉻,1227B,letter,PAD,⠏⠁⠙
+𒊘,12298,letter,SAG TIMES DUB,⠎⠁⠛⠡⠙⠥⠃
+𒊙,12299,letter,SAG TIMES HA,⠎⠁⠛⠡⠓⠁
+𒊚,1229A,letter,SAG TIMES KAK,⠎⠁⠛⠡⠅⠁⠅
+𒊛,1229B,letter,SAG TIMES KUR,⠎⠁⠛⠡⠅⠥⠗
+𒊜,1229C,letter,SAG TIMES LUM,⠎⠁⠛⠡⠇⠥⠍
+𒊝,1229D,letter,SAG TIMES MI,⠎⠁⠛⠡⠍⠊
+𒊞,1229E,letter,SAG TIMES NUN,⠎⠁⠛⠡⠝⠥⠝
+𒊟,1229F,letter,SAG TIMES SAL,⠎⠁⠛⠡⠎⠁⠇
+𒊠,122A0,letter,SAG TIMES SHID,⠎⠁⠛⠡⠩⠊⠙
+𒊡,122A1,letter,SAG TIMES TAB,⠎⠁⠛⠡⠞⠁⠃
+𒊢,122A2,letter,SAG TIMES U2,⠎⠁⠛⠡⠥
+𒊣,122A3,letter,SAG TIMES UB,⠎⠁⠛⠡⠥⠃
+𒊤,122A4,letter,SAG TIMES UM,⠎⠁⠛⠡⠥⠍
+𒊥,122A5,letter,SAG TIMES UR,⠎⠁⠛⠡⠥⠗
+𒊦,122A6,letter,SAG TIMES USH,⠎⠁⠛⠡⠥⠩
+𒊧,122A7,letter,SAG OVER SAG,⠎⠁⠛⠌⠎⠁⠛
+𒊨,122A8,letter,SAG GUNU,⠎⠁⠛ ⠛⠥⠝⠥
+𒊩,122A9,letter,SAL,⠎⠁⠇
+𒊪,122AA,letter,SAL LAGAB TIMES ASH2,⠎⠁⠇ ⠇⠁⠛⠁⠃⠡⠁⠩
+𒊫,122AB,letter,SANGA2,⠎⠁⠝⠛⠁
+𒊬,122AC,letter,SAR,⠎⠜
+𒊭,122AD,letter,SHA,⠩⠁
+𒊮,122AE,letter,SHA3,⠩⠁⠒
+𒊯,122AF,letter,SHA3 TIMES A,⠩⠁⠒⠡⠁
+𒊰,122B0,letter,SHA3 TIMES BAD,⠩⠁⠒⠡⠃⠁⠙
+𒊗,12297,letter,SAG TIMES DU,⠎⠁⠛⠡⠙⠥
+𒊖,12296,letter,SAG TIMES A,⠎⠁⠛⠡⠁
+𒊕,12295,letter,SAG,⠎⠁⠛
+𒊇,12287,letter,PI TIMES U,⠏⠊⠡⠥
+𒉼,1227C,letter,PAN,⠏⠁⠝
+𒉽,1227D,letter,PAP,⠏⠁⠏
+𒉾,1227E,letter,PESH2,⠏⠑⠩
+𒉿,1227F,letter,PI,⠏⠊
+𒊀,12280,letter,PI TIMES A,⠏⠊⠡⠁
+𒊁,12281,letter,PI TIMES AB,⠏⠊⠡⠁⠃
+𒊂,12282,letter,PI TIMES BI,⠏⠊⠡⠃⠊
+𒊃,12283,letter,PI TIMES BU,⠏⠊⠡⠃⠥
+𒊄,12284,letter,PI TIMES E,⠏⠊⠡⠑
+𒊅,12285,letter,PI TIMES I,⠏⠊⠡⠊
+𒊆,12286,letter,PI TIMES IB,⠏⠊⠡⠊⠃
+𒊈,12288,letter,PI TIMES U2,⠏⠊⠡⠥
+𒊔,12294,letter,SAG NUTILLU,⠎⠁⠛ ⠝⠥⠞⠊⠇⠇⠥
+𒊉,12289,letter,PI CROSSING PI,⠏⠊⠯⠏⠊
+𒊊,1228A,letter,PIRIG,⠏⠊⠗⠊⠛
+𒊋,1228B,letter,PIRIG TIMES KAL,⠏⠊⠗⠊⠛⠡⠅⠁⠇
+𒊌,1228C,letter,PIRIG TIMES UD,⠏⠊⠗⠊⠛⠡⠥⠙
+𒊍,1228D,letter,PIRIG TIMES ZA,⠏⠊⠗⠊⠛⠡⠵⠁
+𒊎,1228E,letter,PIRIG OPPOSING PIRIG,⠏⠊⠗⠊⠛⠫⠏⠊⠗⠊⠛
+𒊏,1228F,letter,RA,⠗⠁
+𒊐,12290,letter,RAB,⠗⠁⠃
+𒊑,12291,letter,RI,⠗⠊
+𒊒,12292,letter,RU,⠗⠥
+𒊓,12293,letter,SA,⠎⠁
+𒉁,12241,letter,NAGA INVERTED,⠝⠁⠛⠁ ⠊⠝⠧⠑⠗⠞⠑⠙
+𒈿,1223F,letter,NA2,⠝⠁
+𒊲,122B2,letter,SHA3 TIMES NE,⠩⠁⠒⠡⠝⠑
+𒇪,121EA,letter,LAGAB TIMES USH,⠇⠁⠛⠁⠃⠡⠥⠩
+𒇬,121EC,letter,LAGAR,⠇⠁⠛⠜
+𒇭,121ED,letter,LAGAR TIMES SHE,⠇⠁⠛⠜⠡⠩⠑
+𒇮,121EE,letter,LAGAR TIMES SHE PLUS SUM,⠇⠁⠛⠜⠡⠩⠑⠬⠎⠥⠍
+𒇯,121EF,letter,LAGAR GUNU,⠇⠁⠛⠜ ⠛⠥⠝⠥
+𒇰,121F0,letter,LAGAR GUNU OVER LAGAR GUNU SHE,⠇⠁⠛⠜ ⠛⠥⠝⠥⠌⠇⠁⠛⠜ ⠛⠥⠝⠥ ⠩⠑
+𒇱,121F1,letter,LAHSHU,⠇⠁⠓⠩⠥
+𒇲,121F2,letter,LAL,⠇⠁⠇
+𒇳,121F3,letter,LAL TIMES LAL,⠇⠁⠇⠡⠇⠁⠇
+𒇴,121F4,letter,LAM,⠇⠁⠍
+𒇵,121F5,letter,LAM TIMES KUR,⠇⠁⠍⠡⠅⠥⠗
+𒇶,121F6,letter,LAM TIMES KUR PLUS RU,⠇⠁⠍⠡⠅⠥⠗⠬⠗⠥
+𒇷,121F7,letter,LI,⠇⠊
+𒇸,121F8,letter,LIL,⠇⠊⠇
+𒇹,121F9,letter,LIMMU2,⠇⠊⠍⠍⠥
+𒇺,121FA,letter,LISH,⠇⠊⠩
+𒇻,121FB,letter,LU,⠇⠥
+𒇼,121FC,letter,LU TIMES BAD,⠇⠥⠡⠃⠁⠙
+𒇽,121FD,letter,LU2,⠇⠥
+𒇾,121FE,letter,LU2 TIMES AL,⠇⠥⠡⠁⠇
+𒇿,121FF,letter,LU2 TIMES BAD,⠇⠥⠡⠃⠁⠙
+𒈀,12200,letter,LU2 TIMES ESH2,⠇⠥⠡⠑⠩
+𒈁,12201,letter,LU2 TIMES ESH2 TENU,⠇⠥⠡⠑⠩ ⠞⠑⠝⠥
+𒈂,12202,letter,LU2 TIMES GAN2 TENU,⠇⠥⠡⠛⠁⠝ ⠞⠑⠝⠥
+𒈃,12203,letter,LU2 TIMES HI TIMES BAD,⠇⠥⠡⠓⠊⠡⠃⠁⠙
+𒈄,12204,letter,LU2 TIMES IM,⠇⠥⠡⠊⠍
+𒇫,121EB,letter,LAGAB SQUARED,⠇⠁⠛⠁⠃⠘⠸
+𒇩,121e9,letter,LAGAB TIMES UD,⠇⠁⠛⠁⠃⠡⠥⠙
+𒈾,1223E,letter,NA,⠝⠁
+𒇨,121e8,letter,LAGAB TIMES U2 PLUS ASH,⠇⠁⠛⠁⠃⠡⠥⠬⠁⠩
+𒀁,12001,letter,A TIMES A,⠁⠡⠁
+𒇎,121CE,letter,LAGAB TIMES IM PLUS LU,⠇⠁⠛⠁⠃⠡⠊⠍⠬⠇⠥
+𒇏,121CF,letter,LAGAB TIMES KI,⠇⠁⠛⠁⠃⠡⠅⠊
+𒇐,121D0,letter,LAGAB TIMES KIN,⠇⠁⠛⠁⠃⠡⠅⠊⠝
+𒇑,121D1,letter,LAGAB TIMES KU3,⠇⠁⠛⠁⠃⠡⠅⠥⠒
+𒇒,121D2,letter,LAGAB TIMES KUL,⠇⠁⠛⠁⠃⠡⠅⠥⠇
+𒇓,121D3,letter,LAGAB TIMES KUL PLUS HI PLUS A,⠇⠁⠛⠁⠃⠡⠅⠥⠇⠬⠓⠊⠬⠁
+𒇔,121D4,letter,LAGAB TIMES LAGAB,⠇⠁⠛⠁⠃⠡⠇⠁⠛⠁⠃
+𒇕,121D5,letter,LAGAB TIMES LISH,⠇⠁⠛⠁⠃⠡⠇⠊⠩
+𒇖,121D6,letter,LAGAB TIMES LU,⠇⠁⠛⠁⠃⠡⠇⠥
+𒇗,121D7,letter,LAGAB TIMES LUL,⠇⠁⠛⠁⠃⠡⠇⠥⠇
+𒇘,121D8,letter,LAGAB TIMES ME,⠇⠁⠛⠁⠃⠡⠍⠑
+𒇙,121D9,letter,LAGAB TIMES ME PLUS EN,⠇⠁⠛⠁⠃⠡⠍⠑⠬⠑⠝
+𒇚,121DA,letter,LAGAB TIMES MUSH,⠇⠁⠛⠁⠃⠡⠍⠥⠩
+𒇛,121DB,letter,LAGAB TIMES NE,⠇⠁⠛⠁⠃⠡⠝⠑
+𒇜,121DC,letter,LAGAB TIMES SHE PLUS SUM,⠇⠁⠛⠁⠃⠡⠩⠑⠬⠎⠥⠍
+𒇝,121DD,letter,LAGAB TIMES SHITA PLUS GISH PLUS ERIN2,⠇⠁⠛⠁⠃⠡⠩⠊⠞⠁⠬⠛⠊⠩⠬⠑⠗⠊⠝
+𒇞,121DE,letter,LAGAB TIMES SHITA PLUS GISH TENU,⠇⠁⠛⠁⠃⠡⠩⠊⠞⠁⠬⠛⠊⠩ ⠞⠑⠝⠥
+𒇟,121DF,letter,LAGAB TIMES SHU2,⠇⠁⠛⠁⠃⠡⠩⠥
+𒇢,121E2,letter,LAGAB TIMES TAG,⠇⠁⠛⠁⠃⠡⠞⠁⠛
+𒇣,121e3,letter,LAGAB TIMES TAK4,⠇⠁⠛⠁⠃⠡⠞⠁⠅⠲
+𒇤,121e4,letter,LAGAB TIMES TE PLUS A PLUS SU PLUS NA,⠇⠁⠛⠁⠃⠡⠞⠑⠬⠁⠬⠎⠥⠬⠝⠁
+𒇥,121e5,letter,LAGAB TIMES U,⠇⠁⠛⠁⠃⠡⠥
+𒇦,121e6,letter,LAGAB TIMES U PLUS A,⠇⠁⠛⠁⠃⠡⠥⠬⠁
+𒇧,121e7,letter,LAGAB TIMES U PLUS U PLUS U,⠇⠁⠛⠁⠃⠡⠥⠬⠥⠬⠥
+𒈅,12205,letter,LU2 TIMES KAD2,⠇⠥⠡⠅⠁⠙
+𒈆,12206,letter,LU2 TIMES KAD3,⠇⠥⠡⠅⠁⠙⠒
+𒈇,12207,letter,LU2 TIMES KAD3 PLUS ASH,⠇⠥⠡⠅⠁⠙⠒⠬⠁⠩
+𒈈,12208,letter,LU2 TIMES KI,⠇⠥⠡⠅⠊
+𒈥,12225,letter,MAR,⠍⠜
+𒈦,12226,letter,MASH,⠍⠁⠩
+𒈧,12227,letter,MASH2,⠍⠁⠩
+𒈨,12228,letter,ME,⠍⠑
+𒈩,12229,letter,MES,⠍⠑⠎
+𒈪,1222A,letter,MI,⠍⠊
+𒈫,1222B,letter,MIN,⠍⠊⠝
+𒈬,1222C,letter,MU,⠍⠥
+𒈭,1222D,letter,MU OVER MU,⠍⠥⠌⠍⠥
+𒈮,1222E,letter,MUG,⠍⠥⠛
+𒈯,1222F,letter,MUG GUNU,⠍⠥⠛ ⠛⠥⠝⠥
+𒈰,12230,letter,MUNSUB,⠍⠥⠝⠎⠥⠃
+𒈱,12231,letter,MURGU2,⠍⠥⠗⠛⠥
+𒈲,12232,letter,MUSH,⠍⠥⠩
+𒈳,12233,letter,MUSH TIMES A,⠍⠥⠩⠡⠁
+𒈴,12234,letter,MUSH TIMES KUR,⠍⠥⠩⠡⠅⠥⠗
+𒈵,12235,letter,MUSH TIMES ZA,⠍⠥⠩⠡⠵⠁
+𒈶,12236,letter,MUSH OVER MUSH,⠍⠥⠩⠌⠍⠥⠩
+𒈷,12237,letter,MUSH OVER MUSH TIMES A PLUS NA,⠍⠥⠩⠌⠍⠥⠩⠡⠁⠬⠝⠁
+𒈸,12238,letter,MUSH CROSSING MUSH,⠍⠥⠩⠯⠍⠥⠩
+𒈹,12239,letter,MUSH3,⠍⠥⠩⠒
+𒈺,1223A,letter,MUSH3 TIMES A,⠍⠥⠩⠒⠡⠁
+𒈻,1223B,letter,MUSH3 TIMES A PLUS DI,⠍⠥⠩⠒⠡⠁⠬⠙⠊
+𒈼,1223C,letter,MUSH3 TIMES DI,⠍⠥⠩⠒⠡⠙⠊
+𒈽,1223D,letter,MUSH3 GUNU,⠍⠥⠩⠒ ⠛⠥⠝⠥
+𒈤,12224,letter,MAH,⠍⠁⠓
+𒈣,12223,letter,MA2,⠍⠁
+𒈢,12222,letter,MA GUNU,⠍⠁ ⠛⠥⠝⠥
+𒈔,12214,letter,LU2 SQUARED,⠇⠥⠘⠸
+𒈉,12209,letter,LU2 TIMES LA PLUS ASH,⠇⠥⠡⠇⠁⠬⠁⠩
+𒈊,1220A,letter,LU2 TIMES LAGAB,⠇⠥⠡⠇⠁⠛⠁⠃
+𒈋,1220B,letter,LU2 TIMES ME PLUS EN,⠇⠥⠡⠍⠑⠬⠑⠝
+𒈌,1220C,letter,LU2 TIMES NE,⠇⠥⠡⠝⠑
+𒈍,1220D,letter,LU2 TIMES NU,⠇⠥⠡⠝⠥
+𒈎,1220E,letter,LU2 TIMES SI PLUS ASH,⠇⠥⠡⠎⠊⠬⠁⠩
+𒈏,1220F,letter,LU2 TIMES SIK2 PLUS BU,⠇⠥⠡⠎⠊⠅⠬⠃⠥
+𒈐,12210,letter,LU2 TIMES TUG2,⠇⠥⠡⠞⠥⠛
+𒈑,12211,letter,LU2 TENU,⠇⠥ ⠞⠑⠝⠥
+𒈒,12212,letter,LU2 CROSSING LU2,⠇⠥⠯⠇⠥
+𒈓,12213,letter,LU2 OPPOSING LU2,⠇⠥⠫⠇⠥
+𒈕,12215,letter,LU2 SHESHIG,⠇⠥ ⠩⠑⠩⠊⠛
+𒈡,12221,letter,MA TIMES TAK4,⠍⠁⠡⠞⠁⠅⠲
+𒈖,12216,letter,LU3,⠇⠥⠒
+𒈗,12217,letter,LUGAL,⠇⠥⠛⠁⠇
+𒈘,12218,letter,LUGAL OVER LUGAL,⠇⠥⠛⠁⠇⠌⠇⠥⠛⠁⠇
+𒈙,12219,letter,LUGAL OPPOSING LUGAL,⠇⠥⠛⠁⠇⠫⠇⠥⠛⠁⠇
+𒈚,1221A,letter,LUGAL SHESHIG,⠇⠥⠛⠁⠇ ⠩⠑⠩⠊⠛
+𒈛,1221B,letter,LUH,⠇⠥⠓
+𒈜,1221C,letter,LUL,⠇⠥⠇
+𒈝,1221D,letter,LUM,⠇⠥⠍
+𒈞,1221E,letter,LUM OVER LUM,⠇⠥⠍⠌⠇⠥⠍
+𒈟,1221F,letter,LUM OVER LUM GAR OVER GAR,⠇⠥⠍⠌⠇⠥⠍ ⠛⠜⠌⠛⠜
+𒈠,12220,letter,MA,⠍⠁
+𒊱,122B1,letter,SHA3 TIMES GISH,⠩⠁⠒⠡⠛⠊⠩
+𒊳,122B3,letter,SHA3 TIMES SHU2,⠩⠁⠒⠡⠩⠥
+𒇋,121CB,letter,LAGAB TIMES IGI GUNU,⠇⠁⠛⠁⠃⠡⠊⠛⠊ ⠛⠥⠝⠥
+𒍅,12345,letter,URU TIMES KI,⠥⠗⠥⠡⠅⠊
+𒍇,12347,letter,URU TIMES MIN,⠥⠗⠥⠡⠍⠊⠝
+𒍈,12348,letter,URU TIMES PA,⠥⠗⠥⠡⠏⠁
+𒍉,12349,letter,URU TIMES SHE,⠥⠗⠥⠡⠩⠑
+𒍊,1234A,letter,URU TIMES SIG4,⠥⠗⠥⠡⠎⠊⠛⠲
+𒍋,1234B,letter,URU TIMES TU,⠥⠗⠥⠡⠞⠥
+𒍌,1234C,letter,URU TIMES U PLUS GUD,⠥⠗⠥⠡⠥⠬⠛⠥⠙
+𒍍,1234D,letter,URU TIMES UD,⠥⠗⠥⠡⠥⠙
+𒍎,1234E,letter,URU TIMES URUDA,⠥⠗⠥⠡⠥⠗⠥⠙⠁
+𒍏,1234F,letter,URUDA,⠥⠗⠥⠙⠁
+𒍐,12350,letter,URUDA TIMES U,⠥⠗⠥⠙⠁⠡⠥
+𒍑,12351,letter,USH,⠥⠩
+𒍒,12352,letter,USH TIMES A,⠥⠩⠡⠁
+𒍓,12353,letter,USH TIMES KU,⠥⠩⠡⠅⠥
+𒍔,12354,letter,USH TIMES KUR,⠥⠩⠡⠅⠥⠗
+𒍕,12355,letter,USH TIMES TAK4,⠥⠩⠡⠞⠁⠅⠲
+𒍖,12356,letter,USHX,⠥⠩⠭
+𒍗,12357,letter,USH2,⠥⠩
+𒍘,12358,letter,USHUMX,⠥⠩⠥⠍⠭
+𒍙,12359,letter,UTUKI,⠥⠞⠥⠅⠊
+𒍚,1235A,letter,UZ3,⠥⠵⠒
+𒍛,1235B,letter,UZ3 TIMES KASKAL,⠥⠵⠒⠡⠅⠁⠎⠅⠁⠇
+𒍜,1235C,letter,UZU,⠥⠵⠥
+𒍝,1235D,letter,ZA,⠵⠁
+𒍞,1235E,letter,ZA TENU,⠵⠁ ⠞⠑⠝⠥
+𒍟,1235F,letter,ZA SQUARED TIMES KUR,⠵⠁⠘⠸⠡⠅⠥⠗
+𒍆,12346,letter,URU TIMES LUM,⠥⠗⠥⠡⠇⠥⠍
+𒍄,12344,letter,URU TIMES ISH,⠥⠗⠥⠡⠊⠩
+𒌨,12328,letter,UR,⠥⠗
+𒍃,12343,letter,URU TIMES IM,⠥⠗⠥⠡⠊⠍
+𒌪,1232A,letter,UR SHESHIG,⠥⠗ ⠩⠑⠩⠊⠛
+𒌫,1232B,letter,UR2,⠥⠗
+𒌬,1232C,letter,UR2 TIMES A PLUS HA,⠥⠗⠡⠁⠬⠓⠁
+𒌭,1232D,letter,UR2 TIMES A PLUS NA,⠥⠗⠡⠁⠬⠝⠁
+𒌮,1232E,letter,UR2 TIMES AL,⠥⠗⠡⠁⠇
+𒌯,1232F,letter,UR2 TIMES HA,⠥⠗⠡⠓⠁
+𒌰,12330,letter,UR2 TIMES NUN,⠥⠗⠡⠝⠥⠝
+𒌱,12331,letter,UR2 TIMES U2,⠥⠗⠡⠥
+𒌲,12332,letter,UR2 TIMES U2 PLUS ASH,⠥⠗⠡⠥⠬⠁⠩
+𒌳,12333,letter,UR2 TIMES U2 PLUS BI,⠥⠗⠡⠥⠬⠃⠊
+𒌴,12334,letter,UR4,⠥⠗⠲
+𒌵,12335,letter,URI,⠥⠗⠊
+𒌶,12336,letter,URI3,⠥⠗⠊⠒
+𒌷,12337,letter,URU,⠥⠗⠥
+𒌸,12338,letter,URU TIMES A,⠥⠗⠥⠡⠁
+𒌹,12339,letter,URU TIMES ASHGAB,⠥⠗⠥⠡⠁⠩⠛⠁⠃
+𒌺,1233A,letter,URU TIMES BAR,⠥⠗⠥⠡⠃⠜
+𒌻,1233B,letter,URU TIMES DUN,⠥⠗⠥⠡⠙⠥⠝
+𒌼,1233C,letter,URU TIMES GA,⠥⠗⠥⠡⠛⠁
+𒌽,1233D,letter,URU TIMES GAL,⠥⠗⠥⠡⠛⠁⠇
+𒌾,1233E,letter,URU TIMES GAN2 TENU,⠥⠗⠥⠡⠛⠁⠝ ⠞⠑⠝⠥
+𒌿,1233F,letter,URU TIMES GAR,⠥⠗⠥⠡⠛⠜
+𒍀,12340,letter,URU TIMES GU,⠥⠗⠥⠡⠛⠥
+𒍁,12341,letter,URU TIMES HA,⠥⠗⠥⠡⠓⠁
+𒍂,12342,letter,URU TIMES IGI,⠥⠗⠥⠡⠊⠛⠊
+𒍠,12360,letter,ZAG,⠵⠁⠛
+𒍡,12361,letter,ZAMX,⠵⠁⠍⠭
+𒍢,12362,letter,ZE2,⠵⠑
+𒍣,12363,letter,ZI,⠵⠊
+𒎀,12380,letter,KA TIMES GISH,⠅⠁⠡⠛⠊⠩
+𒎁,12381,letter,KA TIMES GUD,⠅⠁⠡⠛⠥⠙
+𒎂,12382,letter,KA TIMES HI TIMES ASH2,⠅⠁⠡⠓⠊⠡⠁⠩
+𒎃,12383,letter,KA TIMES LUM,⠅⠁⠡⠇⠥⠍
+𒎄,12384,letter,KA TIMES PA,⠅⠁⠡⠏⠁
+𒎅,12385,letter,KA TIMES SHUL,⠅⠁⠡⠩⠥⠇
+𒎆,12386,letter,KA TIMES TU,⠅⠁⠡⠞⠥
+𒎇,12387,letter,KA TIMES UR2,⠅⠁⠡⠥⠗
+𒎈,12388,letter,LAGAB TIMES GI,⠇⠁⠛⠁⠃⠡⠛⠊
+𒎉,12389,letter,LU2 SHESHIG TIMES BAD,⠇⠥ ⠩⠑⠩⠊⠛⠡⠃⠁⠙
+𒎊,1238A,letter,LU2 TIMES ESH2 PLUS LAL,⠇⠥⠡⠑⠩⠬⠇⠁⠇
+𒎋,1238B,letter,LU2 TIMES SHU,⠇⠥⠡⠩⠥
+𒎌,1238C,letter,MESH,⠍⠑⠩
+𒎍,1238D,letter,MUSH3 TIMES ZA,⠍⠥⠩⠒⠡⠵⠁
+𒎎,1238E,letter,NA4,⠝⠁⠲
+𒎏,1238F,letter,NIN,⠝⠊⠝
+𒎐,12390,letter,NIN9,⠝⠊⠝⠔
+𒎑,12391,letter,NINDA2 TIMES BAL,⠝⠊⠝⠙⠁⠡⠃⠁⠇
+𒎒,12392,letter,NINDA2 TIMES GI,⠝⠊⠝⠙⠁⠡⠛⠊
+𒎓,12393,letter,NU11 ROTATED NINETY DEGREES,⠝⠥⠂⠂⠩
+𒎔,12394,letter,PESH2 ASTERISK,⠏⠑⠩⠡
+𒎕,12395,letter,PIR2,⠏⠊⠗
+𒎖,12396,letter,SAG TIMES IGI GUNU,⠎⠁⠛⠡⠊⠛⠊ ⠛⠥⠝⠥
+𒎗,12397,letter,TI2,⠞⠊
+𒎘,12398,letter,UM TIMES ME,⠥⠍⠡⠍⠑
+𒍿,1237F,letter,KA TIMES ASH3,⠅⠁⠡⠁⠩⠒
+𒍾,1237E,letter,KA TIMES ANSHE,⠅⠁⠡⠁⠝⠩⠑
+𒍽,1237D,letter,HUSH,⠓⠥⠩
+𒍯,1236F,letter,KAP ELAMITE,⠅⠁⠏ ⠑⠇⠁⠍⠊⠞⠑
+𒍤,12364,letter,ZI OVER ZI,⠵⠊⠌⠵⠊
+𒍥,12365,letter,ZI3,⠵⠊⠒
+𒍦,12366,letter,ZIB,⠵⠊⠃
+𒍧,12367,letter,ZIB KABA TENU,⠵⠊⠃ ⠅⠁⠃⠁ ⠞⠑⠝⠥
+𒍨,12368,letter,ZIG,⠵⠊⠛
+𒍩,12369,letter,ZIZ2,⠵⠊⠵
+𒍪,1236A,letter,ZU,⠵⠥
+𒍫,1236B,letter,ZU5,⠵⠥⠢
+𒍬,1236C,letter,ZU5 TIMES A,⠵⠥⠢⠡⠁
+𒍭,1236D,letter,ZUBUR,⠵⠥⠃⠥⠗
+𒍮,1236E,letter,ZUM,⠵⠥⠍
+𒍰,12370,letter,AB TIMES NUN,⠁⠃⠡⠝⠥⠝
+𒍼,1237C,letter,GIG,⠛⠊⠛
+𒍱,12371,letter,AB2 TIMES A,⠁⠃⠡⠁
+𒍲,12372,letter,AMAR TIMES KUG,⠁⠍⠜⠡⠅⠥⠛
+𒍳,12373,letter,DAG KISIM5 TIMES U2 PLUS MASH,⠙⠁⠛ ⠅⠊⠎⠊⠍⠢⠡⠥⠬⠍⠁⠩
+𒍴,12374,letter,DAG3,⠙⠁⠛⠒
+𒍵,12375,letter,DISH PLUS SHU,⠙⠊⠩⠬⠩⠥
+𒍶,12376,letter,DUB TIMES SHE,⠙⠥⠃⠡⠩⠑
+𒍷,12377,letter,EZEN TIMES GUD,⠑⠵⠑⠝⠡⠛⠥⠙
+𒍸,12378,letter,EZEN TIMES SHE,⠑⠵⠑⠝⠡⠩⠑
+𒍹,12379,letter,GA2 TIMES AN PLUS KAK PLUS A,⠛⠁⠡⠁⠝⠬⠅⠁⠅⠬⠁
+𒍺,1237A,letter,GA2 TIMES ASH2,⠛⠁⠡⠁⠩
+𒍻,1237B,letter,GE22,⠛⠑
+𒌩,12329,letter,UR CROSSING UR,⠥⠗⠯⠥⠗
+𒌧,12327,letter,UN GUNU,⠥⠝ ⠛⠥⠝⠥
+𒊴,122B4,letter,SHA3 TIMES TUR,⠩⠁⠒⠡⠞⠥⠗
+𒋐,122D0,letter,SHIM TIMES MUG,⠩⠊⠍⠡⠍⠥⠛
+𒋒,122D2,letter,SHINIG,⠩⠊⠝⠊⠛
+𒋓,122D3,letter,SHIR,⠩⠊⠗
+𒋔,122D4,letter,SHIR TENU,⠩⠊⠗ ⠞⠑⠝⠥
+𒋕,122D5,letter,SHIR OVER SHIR BUR OVER BUR,⠩⠊⠗⠌⠩⠊⠗ ⠃⠥⠗⠌⠃⠥⠗
+𒋖,122D6,letter,SHITA,⠩⠊⠞⠁
+𒋗,122D7,letter,SHU,⠩⠥
+𒋘,122D8,letter,SHU OVER INVERTED SHU,⠩⠥⠌⠊⠝⠧⠑⠗⠞⠑⠙ ⠩⠥
+𒋙,122D9,letter,SHU2,⠩⠥
+𒋚,122DA,letter,SHUBUR,⠩⠥⠃⠥⠗
+𒋛,122DB,letter,SI,⠎⠊
+𒋜,122DC,letter,SI GUNU,⠎⠊ ⠛⠥⠝⠥
+𒋝,122DD,letter,SIG,⠎⠊⠛
+𒋞,122DE,letter,SIG4,⠎⠊⠛⠲
+𒋟,122DF,letter,SIG4 OVER SIG4 SHU2,⠎⠊⠛⠲⠌⠎⠊⠛⠲ ⠩⠥
+𒋢,122E2,letter,SU,⠎⠥
+𒋣,122e3,letter,SU OVER SU,⠎⠥⠌⠎⠥
+𒋤,122e4,letter,SUD,⠎⠥⠙
+𒋥,122e5,letter,SUD2,⠎⠥⠙
+𒋦,122e6,letter,SUHUR,⠎⠥⠓⠥⠗
+𒋧,122e7,letter,SUM,⠎⠥⠍
+𒋨,122e8,letter,SUMASH,⠎⠥⠍⠁⠩
+𒋩,122e9,letter,SUR,⠎⠥⠗
+𒋪,122EA,letter,SUR9,⠎⠥⠗⠔
+𒋫,122EB,letter,TA,⠞⠁
+𒋬,122EC,letter,TA ASTERISK,⠞⠁⠡
+𒋑,122D1,letter,SHIM TIMES SAL,⠩⠊⠍⠡⠎⠁⠇
+𒋏,122CF,letter,SHIM TIMES LUL,⠩⠊⠍⠡⠇⠥⠇
+𒌦,12326,letter,UN,⠥⠝
+𒋎,122CE,letter,SHIM TIMES KUSHU2,⠩⠊⠍⠡⠅⠥⠩⠥
+𒊵,122B5,letter,SHA3 TIMES U,⠩⠁⠒⠡⠥
+𒊶,122B6,letter,SHA3 TIMES U PLUS A,⠩⠁⠒⠡⠥⠬⠁
+𒊷,122B7,letter,SHA6,⠩⠁⠖
+𒊸,122B8,letter,SHAB6,⠩⠁⠃⠖
+𒊹,122B9,letter,SHAR2,⠩⠜
+𒊺,122BA,letter,SHE,⠩⠑
+𒊻,122BB,letter,SHE HU,⠩⠑ ⠓⠥
+𒊼,122BC,letter,SHE OVER SHE GAD OVER GAD GAR OVER GAR,⠩⠑⠌⠩⠑ ⠛⠁⠙⠌⠛⠁⠙ ⠛⠜⠌⠛⠜
+𒊽,122BD,letter,SHE OVER SHE TAB OVER TAB GAR OVER GAR,⠩⠑⠌⠩⠑ ⠞⠁⠃⠌⠞⠁⠃ ⠛⠜⠌⠛⠜
+𒊾,122BE,letter,SHEG9,⠩⠑⠛⠔
+𒊿,122BF,letter,SHEN,⠩⠑⠝
+𒋀,122C0,letter,SHESH,⠩⠑⠩
+𒋁,122C1,letter,SHESH2,⠩⠑⠩
+𒋂,122C2,letter,SHESHLAM,⠩⠑⠩⠇⠁⠍
+𒋃,122C3,letter,SHID,⠩⠊⠙
+𒋄,122C4,letter,SHID TIMES A,⠩⠊⠙⠡⠁
+𒋅,122C5,letter,SHID TIMES IM,⠩⠊⠙⠡⠊⠍
+𒋆,122C6,letter,SHIM,⠩⠊⠍
+𒋇,122C7,letter,SHIM TIMES A,⠩⠊⠍⠡⠁
+𒋈,122C8,letter,SHIM TIMES BAL,⠩⠊⠍⠡⠃⠁⠇
+𒋉,122C9,letter,SHIM TIMES BULUG,⠩⠊⠍⠡⠃⠥⠇⠥⠛
+𒋊,122CA,letter,SHIM TIMES DIN,⠩⠊⠍⠡⠙⠊⠝
+𒋋,122CB,letter,SHIM TIMES GAR,⠩⠊⠍⠡⠛⠜
+𒋌,122CC,letter,SHIM TIMES IGI,⠩⠊⠍⠡⠊⠛⠊
+𒋍,122CD,letter,SHIM TIMES IGI GUNU,⠩⠊⠍⠡⠊⠛⠊ ⠛⠥⠝⠥
+𒋭,122ED,letter,TA TIMES HI,⠞⠁⠡⠓⠊
+𒋮,122EE,letter,TA TIMES MI,⠞⠁⠡⠍⠊
+𒋯,122EF,letter,TA GUNU,⠞⠁ ⠛⠥⠝⠥
+𒋰,122F0,letter,TAB,⠞⠁⠃
+𒌍,1230D,letter,U U U,⠥ ⠥ ⠥
+𒌎,1230E,letter,U OVER U PA OVER PA GAR OVER GAR,⠥⠌⠥ ⠏⠁⠌⠏⠁ ⠛⠜⠌⠛⠜
+𒌏,1230F,letter,U OVER U SUR OVER SUR,⠥⠌⠥ ⠎⠥⠗⠌⠎⠥⠗
+𒌐,12310,letter,U OVER U U REVERSED OVER U REVERSED,⠥⠌⠥ ⠥⠯⠇⠞⠰⠌⠥⠯⠇⠞⠰
+𒌑,12311,letter,U2,⠥
+𒌒,12312,letter,UB,⠥⠃
+𒌓,12313,letter,UD,⠥⠙
+𒌔,12314,letter,UD KUSHU2,⠥⠙ ⠅⠥⠩⠥
+𒌕,12315,letter,UD TIMES BAD,⠥⠙⠡⠃⠁⠙
+𒌖,12316,letter,UD TIMES MI,⠥⠙⠡⠍⠊
+𒌗,12317,letter,UD TIMES U PLUS U PLUS U,⠥⠙⠡⠥⠬⠥⠬⠥
+𒌘,12318,letter,UD TIMES U PLUS U PLUS U GUNU,⠥⠙⠡⠥⠬⠥⠬⠥ ⠛⠥⠝⠥
+𒌙,12319,letter,UD GUNU,⠥⠙ ⠛⠥⠝⠥
+𒌚,1231A,letter,UD SHESHIG,⠥⠙ ⠩⠑⠩⠊⠛
+𒌛,1231B,letter,UD SHESHIG TIMES BAD,⠥⠙ ⠩⠑⠩⠊⠛⠡⠃⠁⠙
+𒌜,1231C,letter,UDUG,⠥⠙⠥⠛
+𒌝,1231D,letter,UM,⠥⠍
+𒌞,1231E,letter,UM TIMES LAGAB,⠥⠍⠡⠇⠁⠛⠁⠃
+𒌟,1231F,letter,UM TIMES ME PLUS DA,⠥⠍⠡⠍⠑⠬⠙⠁
+𒌠,12320,letter,UM TIMES SHA3,⠥⠍⠡⠩⠁⠒
+𒌡,12321,letter,UM TIMES U,⠥⠍⠡⠥
+𒌢,12322,letter,UMBIN,⠥⠍⠃⠊⠝
+𒌣,12323,letter,UMUM,⠥⠍⠥⠍
+𒌤,12324,letter,UMUM TIMES KASKAL,⠥⠍⠥⠍⠡⠅⠁⠎⠅⠁⠇
+𒌥,12325,letter,UMUM TIMES PA,⠥⠍⠥⠍⠡⠏⠁
+𒌌,1230C,letter,U GUD,⠥ ⠛⠥⠙
+𒌋,1230B,letter,U,⠥
+𒌊,1230A,letter,TUR OVER TUR ZA OVER ZA,⠞⠥⠗⠌⠞⠥⠗ ⠵⠁⠌⠵⠁
+𒋼,122FC,letter,TE,⠞⠑
+𒋱,122F1,letter,TAB OVER TAB NI OVER NI DISH OVER DISH,⠞⠁⠃⠌⠞⠁⠃ ⠝⠊⠌⠝⠊ ⠙⠊⠩⠌⠙⠊⠩
+𒋲,122F2,letter,TAB SQUARED,⠞⠁⠃⠘⠸
+𒋳,122F3,letter,TAG,⠞⠁⠛
+𒋴,122F4,letter,TAG TIMES BI,⠞⠁⠛⠡⠃⠊
+𒋵,122F5,letter,TAG TIMES GUD,⠞⠁⠛⠡⠛⠥⠙
+𒋶,122F6,letter,TAG TIMES SHE,⠞⠁⠛⠡⠩⠑
+𒋷,122F7,letter,TAG TIMES SHU,⠞⠁⠛⠡⠩⠥
+𒋸,122F8,letter,TAG TIMES TUG2,⠞⠁⠛⠡⠞⠥⠛
+𒋹,122F9,letter,TAG TIMES UD,⠞⠁⠛⠡⠥⠙
+𒋺,122FA,letter,TAK4,⠞⠁⠅⠲
+𒋻,122FB,letter,TAR,⠞⠜
+𒋽,122FD,letter,TE GUNU,⠞⠑ ⠛⠥⠝⠥
+𒌉,12309,letter,TUR,⠞⠥⠗
+𒋾,122FE,letter,TI,⠞⠊
+𒋿,122FF,letter,TI TENU,⠞⠊ ⠞⠑⠝⠥
+𒌀,12300,letter,TIL,⠞⠊⠇
+𒌁,12301,letter,TIR,⠞⠊⠗
+𒌂,12302,letter,TIR TIMES TAK4,⠞⠊⠗⠡⠞⠁⠅⠲
+𒌃,12303,letter,TIR OVER TIR,⠞⠊⠗⠌⠞⠊⠗
+𒌄,12304,letter,TIR OVER TIR GAD OVER GAD GAR OVER GAR,⠞⠊⠗⠌⠞⠊⠗ ⠛⠁⠙⠌⠛⠁⠙ ⠛⠜⠌⠛⠜
+𒌅,12305,letter,TU,⠞⠥
+𒌆,12306,letter,TUG2,⠞⠥⠛
+𒌇,12307,letter,TUK,⠞⠥⠅
+𒌈,12308,letter,TUM,⠞⠥⠍
+𒇌,121CC,letter,LAGAB TIMES IM,⠇⠁⠛⠁⠃⠡⠊⠍
+𒇍,121CD,letter,LAGAB TIMES IM PLUS HA,⠇⠁⠛⠁⠃⠡⠊⠍⠬⠓⠁
+𒇊,121CA,letter,LAGAB TIMES HI TIMES NUN,⠇⠁⠛⠁⠃⠡⠓⠊⠡⠝⠥⠝
+𒂐,12090,letter,E2 TIMES MI,⠑⠡⠍⠊
+𒂒,12092,letter,E2 TIMES SHE,⠑⠡⠩⠑
+𒂓,12093,letter,E2 TIMES U,⠑⠡⠥
+𒂔,12094,letter,EDIN,⠑⠙⠊⠝
+𒂕,12095,letter,EGIR,⠑⠛⠊⠗
+𒂖,12096,letter,EL,⠑⠇
+𒂗,12097,letter,EN,⠑⠝
+𒂘,12098,letter,EN TIMES GAN2,⠑⠝⠡⠛⠁⠝
+𒂙,12099,letter,EN TIMES GAN2 TENU,⠑⠝⠡⠛⠁⠝ ⠞⠑⠝⠥
+𒂚,1209A,letter,EN TIMES ME,⠑⠝⠡⠍⠑
+𒂛,1209B,letter,EN CROSSING EN,⠑⠝⠯⠑⠝
+𒂜,1209C,letter,EN OPPOSING EN,⠑⠝⠫⠑⠝
+𒂝,1209D,letter,EN SQUARED,⠑⠝⠘⠸
+𒂞,1209E,letter,EREN,⠑⠗⠑⠝
+𒂟,1209F,letter,ERIN2,⠑⠗⠊⠝
+𒂠,120A0,letter,ESH2,⠑⠩
+𒂡,120A1,letter,EZEN,⠑⠵⠑⠝
+𒂢,120A2,letter,EZEN TIMES A,⠑⠵⠑⠝⠡⠁
+𒂣,120A3,letter,EZEN TIMES A PLUS LAL,⠑⠵⠑⠝⠡⠁⠬⠇⠁⠇
+𒂤,120A4,letter,EZEN TIMES A PLUS LAL TIMES LAL,⠑⠵⠑⠝⠡⠁⠬⠇⠁⠇⠡⠇⠁⠇
+𒂥,120A5,letter,EZEN TIMES AN,⠑⠵⠑⠝⠡⠁⠝
+𒂦,120A6,letter,EZEN TIMES BAD,⠑⠵⠑⠝⠡⠃⠁⠙
+𒂧,120A7,letter,EZEN TIMES DUN3 GUNU,⠑⠵⠑⠝⠡⠙⠥⠝⠒ ⠛⠥⠝⠥
+𒂨,120A8,letter,EZEN TIMES DUN3 GUNU GUNU,⠑⠵⠑⠝⠡⠙⠥⠝⠒ ⠛⠥⠝⠥ ⠛⠥⠝⠥
+𒂩,120A9,letter,EZEN TIMES HA,⠑⠵⠑⠝⠡⠓⠁
+𒂪,120AA,letter,EZEN TIMES HA GUNU,⠑⠵⠑⠝⠡⠓⠁ ⠛⠥⠝⠥
+𒂑,12091,letter,E2 TIMES SAL,⠑⠡⠎⠁⠇
+𒂏,1208F,letter,E2 TIMES GAR,⠑⠡⠛⠜
+𒁳,12073,letter,DIB,⠙⠊⠃
+𒂎,1208E,letter,E2 TIMES A PLUS HA PLUS DA,⠑⠡⠁⠬⠓⠁⠬⠙⠁
+𒁵,12075,letter,DIM TIMES SHE,⠙⠊⠍⠡⠩⠑
+𒁶,12076,letter,DIM2,⠙⠊⠍
+𒁷,12077,letter,DIN,⠙⠊⠝
+𒁸,12078,letter,DIN KASKAL U GUNU DISH,⠙⠊⠝ ⠅⠁⠎⠅⠁⠇ ⠥ ⠛⠥⠝⠥ ⠙⠊⠩
+𒁹,12079,letter,DISH,⠙⠊⠩
+𒁺,1207A,letter,DU,⠙⠥
+𒁻,1207B,letter,DU OVER DU,⠙⠥⠌⠙⠥
+𒁼,1207C,letter,DU GUNU,⠙⠥ ⠛⠥⠝⠥
+𒁽,1207D,letter,DU SHESHIG,⠙⠥ ⠩⠑⠩⠊⠛
+𒁾,1207E,letter,DUB,⠙⠥⠃
+𒁿,1207F,letter,DUB TIMES ESH2,⠙⠥⠃⠡⠑⠩
+𒂀,12080,letter,DUB2,⠙⠥⠃
+𒂁,12081,letter,DUG,⠙⠥⠛
+𒂂,12082,letter,DUGUD,⠙⠥⠛⠥⠙
+𒂃,12083,letter,DUH,⠙⠥⠓
+𒂄,12084,letter,DUN,⠙⠥⠝
+𒂅,12085,letter,DUN3,⠙⠥⠝⠒
+𒂆,12086,letter,DUN3 GUNU,⠙⠥⠝⠒ ⠛⠥⠝⠥
+𒂇,12087,letter,DUN3 GUNU GUNU,⠙⠥⠝⠒ ⠛⠥⠝⠥ ⠛⠥⠝⠥
+𒂈,12088,letter,DUN4,⠙⠥⠝⠲
+𒂉,12089,letter,DUR2,⠙⠥⠗
+𒂊,1208A,letter,E,⠑
+𒂋,1208B,letter,E TIMES PAP,⠑⠡⠏⠁⠏
+𒂌,1208C,letter,E OVER E NUN OVER NUN,⠑⠌⠑ ⠝⠥⠝⠌⠝⠥⠝
+𒂍,1208D,letter,E2,⠑
+𒂫,120AB,letter,EZEN TIMES IGI GUNU,⠑⠵⠑⠝⠡⠊⠛⠊ ⠛⠥⠝⠥
+𒂬,120AC,letter,EZEN TIMES KASKAL,⠑⠵⠑⠝⠡⠅⠁⠎⠅⠁⠇
+𒂭,120AD,letter,EZEN TIMES KASKAL SQUARED,⠑⠵⠑⠝⠡⠅⠁⠎⠅⠁⠇⠘⠸
+𒂮,120AE,letter,EZEN TIMES KU3,⠑⠵⠑⠝⠡⠅⠥⠒
+𒃋,120CB,letter,GA2 TIMES GAN2 TENU,⠛⠁⠡⠛⠁⠝ ⠞⠑⠝⠥
+𒃌,120CC,letter,GA2 TIMES GAR,⠛⠁⠡⠛⠜
+𒃍,120CD,letter,GA2 TIMES GI,⠛⠁⠡⠛⠊
+𒃎,120CE,letter,GA2 TIMES GI4,⠛⠁⠡⠛⠊⠲
+𒃏,120CF,letter,GA2 TIMES GI4 PLUS A,⠛⠁⠡⠛⠊⠲⠬⠁
+𒃐,120D0,letter,GA2 TIMES GIR2 PLUS SU,⠛⠁⠡⠛⠊⠗⠬⠎⠥
+𒃑,120D1,letter,GA2 TIMES HA PLUS LU PLUS ESH2,⠛⠁⠡⠓⠁⠬⠇⠥⠬⠑⠩
+𒃒,120D2,letter,GA2 TIMES HAL,⠛⠁⠡⠓⠁⠇
+𒃓,120D3,letter,GA2 TIMES HAL PLUS LA,⠛⠁⠡⠓⠁⠇⠬⠇⠁
+𒃔,120D4,letter,GA2 TIMES HI PLUS LI,⠛⠁⠡⠓⠊⠬⠇⠊
+𒃕,120D5,letter,GA2 TIMES HUB2,⠛⠁⠡⠓⠥⠃
+𒃖,120D6,letter,GA2 TIMES IGI GUNU,⠛⠁⠡⠊⠛⠊ ⠛⠥⠝⠥
+𒃗,120D7,letter,GA2 TIMES ISH PLUS HU PLUS ASH,⠛⠁⠡⠊⠩⠬⠓⠥⠬⠁⠩
+𒃘,120D8,letter,GA2 TIMES KAK,⠛⠁⠡⠅⠁⠅
+𒃙,120D9,letter,GA2 TIMES KASKAL,⠛⠁⠡⠅⠁⠎⠅⠁⠇
+𒃚,120DA,letter,GA2 TIMES KID,⠛⠁⠡⠅⠊⠙
+𒃛,120DB,letter,GA2 TIMES KID PLUS LAL,⠛⠁⠡⠅⠊⠙⠬⠇⠁⠇
+𒃜,120DC,letter,GA2 TIMES KU3 PLUS AN,⠛⠁⠡⠅⠥⠒⠬⠁⠝
+𒃝,120DD,letter,GA2 TIMES LA,⠛⠁⠡⠇⠁
+𒃞,120DE,letter,GA2 TIMES ME PLUS EN,⠛⠁⠡⠍⠑⠬⠑⠝
+𒃟,120DF,letter,GA2 TIMES MI,⠛⠁⠡⠍⠊
+𒃡,120e1,letter,GA2 TIMES NUN OVER NUN,⠛⠁⠡⠝⠥⠝⠌⠝⠥⠝
+𒃢,120e2,letter,GA2 TIMES PA,⠛⠁⠡⠏⠁
+𒃣,120e3,letter,GA2 TIMES SAL,⠛⠁⠡⠎⠁⠇
+𒃤,120e4,letter,GA2 TIMES SAR,⠛⠁⠡⠎⠜
+𒃊,120CA,letter,GA2 TIMES EN TIMES GAN2 TENU,⠛⠁⠡⠑⠝⠡⠛⠁⠝ ⠞⠑⠝⠥
+𒃉,120C9,letter,GA2 TIMES EN,⠛⠁⠡⠑⠝
+𒃈,120C8,letter,GA2 TIMES EL PLUS LA,⠛⠁⠡⠑⠇⠬⠇⠁
+𒂺,120BA,letter,GA2 TIMES A PLUS IGI,⠛⠁⠡⠁⠬⠊⠛⠊
+𒂯,120AF,letter,EZEN TIMES LA,⠑⠵⠑⠝⠡⠇⠁
+𒂰,120B0,letter,EZEN TIMES LAL TIMES LAL,⠑⠵⠑⠝⠡⠇⠁⠇⠡⠇⠁⠇
+𒂱,120B1,letter,EZEN TIMES LI,⠑⠵⠑⠝⠡⠇⠊
+𒂲,120B2,letter,EZEN TIMES LU,⠑⠵⠑⠝⠡⠇⠥
+𒂳,120B3,letter,EZEN TIMES U2,⠑⠵⠑⠝⠡⠥
+𒂴,120B4,letter,EZEN TIMES UD,⠑⠵⠑⠝⠡⠥⠙
+𒂵,120B5,letter,GA,⠛⠁
+𒂶,120B6,letter,GA GUNU,⠛⠁ ⠛⠥⠝⠥
+𒂷,120B7,letter,GA2,⠛⠁
+𒂸,120B8,letter,GA2 TIMES A PLUS DA PLUS HA,⠛⠁⠡⠁⠬⠙⠁⠬⠓⠁
+𒂹,120B9,letter,GA2 TIMES A PLUS HA,⠛⠁⠡⠁⠬⠓⠁
+𒂻,120BB,letter,GA2 TIMES AB2 TENU PLUS TAB,⠛⠁⠡⠁⠃ ⠞⠑⠝⠥⠬⠞⠁⠃
+𒃇,120C7,letter,GA2 TIMES EL,⠛⠁⠡⠑⠇
+𒂼,120BC,letter,GA2 TIMES AN,⠛⠁⠡⠁⠝
+𒂽,120BD,letter,GA2 TIMES ASH,⠛⠁⠡⠁⠩
+𒂾,120BE,letter,GA2 TIMES ASH2 PLUS GAL,⠛⠁⠡⠁⠩⠬⠛⠁⠇
+𒂿,120BF,letter,GA2 TIMES BAD,⠛⠁⠡⠃⠁⠙
+𒃀,120C0,letter,GA2 TIMES BAR PLUS RA,⠛⠁⠡⠃⠜⠬⠗⠁
+𒃁,120C1,letter,GA2 TIMES BUR,⠛⠁⠡⠃⠥⠗
+𒃂,120C2,letter,GA2 TIMES BUR PLUS RA,⠛⠁⠡⠃⠥⠗⠬⠗⠁
+𒃃,120C3,letter,GA2 TIMES DA,⠛⠁⠡⠙⠁
+𒃄,120C4,letter,GA2 TIMES DI,⠛⠁⠡⠙⠊
+𒃅,120C5,letter,GA2 TIMES DIM TIMES SHE,⠛⠁⠡⠙⠊⠍⠡⠩⠑
+𒃆,120C6,letter,GA2 TIMES DUB,⠛⠁⠡⠙⠥⠃
+𒁴,12074,letter,DIM,⠙⠊⠍
+𒁲,12072,letter,DI,⠙⠊
+𒃦,120e6,letter,GA2 TIMES SHE PLUS TUR,⠛⠁⠡⠩⠑⠬⠞⠥⠗
+𒀝,1201D,letter,AK,⠁⠅
+𒀟,1201F,letter,AK TIMES SHITA PLUS GISH,⠁⠅⠡⠩⠊⠞⠁⠬⠛⠊⠩
+𒀠,12020,letter,AL,⠁⠇
+𒀡,12021,letter,AL TIMES AL,⠁⠇⠡⠁⠇
+𒀢,12022,letter,AL TIMES DIM2,⠁⠇⠡⠙⠊⠍
+𒀣,12023,letter,AL TIMES GISH,⠁⠇⠡⠛⠊⠩
+𒀤,12024,letter,AL TIMES HA,⠁⠇⠡⠓⠁
+𒀥,12025,letter,AL TIMES KAD3,⠁⠇⠡⠅⠁⠙⠒
+𒀦,12026,letter,AL TIMES KI,⠁⠇⠡⠅⠊
+𒀧,12027,letter,AL TIMES SHE,⠁⠇⠡⠩⠑
+𒀨,12028,letter,AL TIMES USH,⠁⠇⠡⠥⠩
+𒀩,12029,letter,ALAN,⠁⠇⠁⠝
+𒀪,1202A,letter,ALEPH,⠁⠇⠑⠏⠓
+𒀫,1202B,letter,AMAR,⠁⠍⠜
+𒀬,1202C,letter,AMAR TIMES SHE,⠁⠍⠜⠡⠩⠑
+𒀭,1202D,letter,AN,⠁⠝
+𒀮,1202E,letter,AN OVER AN,⠁⠝⠌⠁⠝
+𒀯,1202F,letter,AN THREE TIMES,⠁⠝⠘⠸⠒
+𒀰,12030,letter,AN PLUS NAGA OPPOSING AN PLUS NAGA,⠁⠝⠬⠝⠁⠛⠁⠫⠁⠝⠬⠝⠁⠛⠁
+𒀱,12031,letter,AN PLUS NAGA SQUARED,⠁⠝⠬⠝⠁⠛⠁⠘⠸
+𒀲,12032,letter,ANSHE,⠁⠝⠩⠑
+𒀳,12033,letter,APIN,⠁⠏⠊⠝
+𒀴,12034,letter,ARAD,⠜⠁⠙
+𒀵,12035,letter,ARAD TIMES KUR,⠜⠁⠙⠡⠅⠥⠗
+𒀶,12036,letter,ARKAB,⠜⠅⠁⠃
+𒀷,12037,letter,ASAL2,⠁⠎⠁⠇
+𒀞,1201E,letter,AK TIMES ERIN2,⠁⠅⠡⠑⠗⠊⠝
+𒀜,1201C,letter,AD,⠁⠙
+𒁱,12071,letter,DARA4,⠙⠜⠁⠲
+𒀛,1201B,letter,AB2 TIMES TAK4,⠁⠃⠡⠞⠁⠅⠲
+𒀂,12002,letter,A TIMES BAD,⠁⠡⠃⠁⠙
+𒀃,12003,letter,A TIMES GAN2 TENU,⠁⠡⠛⠁⠝ ⠞⠑⠝⠥
+𒀄,12004,letter,A TIMES HA,⠁⠡⠓⠁
+𒀅,12005,letter,A TIMES IGI,⠁⠡⠊⠛⠊
+𒀆,12006,letter,A TIMES LAGAR GUNU,⠁⠡⠇⠁⠛⠜ ⠛⠥⠝⠥
+𒀇,12007,letter,A TIMES MUSH,⠁⠡⠍⠥⠩
+𒀈,12008,letter,A TIMES SAG,⠁⠡⠎⠁⠛
+𒀉,12009,letter,A2,⠁
+𒀊,1200A,letter,AB,⠁⠃
+𒀋,1200B,letter,AB TIMES ASH2,⠁⠃⠡⠁⠩
+𒀌,1200C,letter,AB TIMES DUN3 GUNU,⠁⠃⠡⠙⠥⠝⠒ ⠛⠥⠝⠥
+𒀍,1200D,letter,AB TIMES GAL,⠁⠃⠡⠛⠁⠇
+𒀎,1200E,letter,AB TIMES GAN2 TENU,⠁⠃⠡⠛⠁⠝ ⠞⠑⠝⠥
+𒀏,1200F,letter,AB TIMES HA,⠁⠃⠡⠓⠁
+𒀐,12010,letter,AB TIMES IGI GUNU,⠁⠃⠡⠊⠛⠊ ⠛⠥⠝⠥
+𒀑,12011,letter,AB TIMES IMIN,⠁⠃⠡⠊⠍⠊⠝
+𒀒,12012,letter,AB TIMES LAGAB,⠁⠃⠡⠇⠁⠛⠁⠃
+𒀓,12013,letter,AB TIMES SHESH,⠁⠃⠡⠩⠑⠩
+𒀔,12014,letter,AB TIMES U PLUS U PLUS U,⠁⠃⠡⠥⠬⠥⠬⠥
+𒀕,12015,letter,AB GUNU,⠁⠃ ⠛⠥⠝⠥
+𒀖,12016,letter,AB2,⠁⠃
+𒀗,12017,letter,AB2 TIMES BALAG,⠁⠃⠡⠃⠁⠇⠁⠛
+𒀘,12018,letter,AB2 TIMES GAN2 TENU,⠁⠃⠡⠛⠁⠝ ⠞⠑⠝⠥
+𒀙,12019,letter,AB2 TIMES ME PLUS EN,⠁⠃⠡⠍⠑⠬⠑⠝
+𒀚,1201A,letter,AB2 TIMES SHA3,⠁⠃⠡⠩⠁⠒
+𒀸,12038,letter,ASH,⠁⠩
+𒀹,12039,letter,ASH ZIDA TENU,⠁⠩ ⠵⠊⠙⠁ ⠞⠑⠝⠥
+𒀺,1203A,letter,ASH KABA TENU,⠁⠩ ⠅⠁⠃⠁ ⠞⠑⠝⠥
+𒀻,1203B,letter,ASH OVER ASH TUG2 OVER TUG2 TUG2 OVER TUG2 PAP,⠁⠩⠌⠁⠩ ⠞⠥⠛⠌⠞⠥⠛ ⠞⠥⠛⠌⠞⠥⠛ ⠏⠁⠏
+𒁘,12058,letter,DAG KISIM5 TIMES AMAR,⠙⠁⠛ ⠅⠊⠎⠊⠍⠢⠡⠁⠍⠜
+𒁙,12059,letter,DAG KISIM5 TIMES BALAG,⠙⠁⠛ ⠅⠊⠎⠊⠍⠢⠡⠃⠁⠇⠁⠛
+𒁚,1205A,letter,DAG KISIM5 TIMES BI,⠙⠁⠛ ⠅⠊⠎⠊⠍⠢⠡⠃⠊
+𒁛,1205B,letter,DAG KISIM5 TIMES GA,⠙⠁⠛ ⠅⠊⠎⠊⠍⠢⠡⠛⠁
+𒁜,1205C,letter,DAG KISIM5 TIMES GA PLUS MASH,⠙⠁⠛ ⠅⠊⠎⠊⠍⠢⠡⠛⠁⠬⠍⠁⠩
+𒁝,1205D,letter,DAG KISIM5 TIMES GI,⠙⠁⠛ ⠅⠊⠎⠊⠍⠢⠡⠛⠊
+𒁞,1205E,letter,DAG KISIM5 TIMES GIR2,⠙⠁⠛ ⠅⠊⠎⠊⠍⠢⠡⠛⠊⠗
+𒁟,1205F,letter,DAG KISIM5 TIMES GUD,⠙⠁⠛ ⠅⠊⠎⠊⠍⠢⠡⠛⠥⠙
+𒁠,12060,letter,DAG KISIM5 TIMES HA,⠙⠁⠛ ⠅⠊⠎⠊⠍⠢⠡⠓⠁
+𒁡,12061,letter,DAG KISIM5 TIMES IR,⠙⠁⠛ ⠅⠊⠎⠊⠍⠢⠡⠊⠗
+𒁢,12062,letter,DAG KISIM5 TIMES IR PLUS LU,⠙⠁⠛ ⠅⠊⠎⠊⠍⠢⠡⠊⠗⠬⠇⠥
+𒁣,12063,letter,DAG KISIM5 TIMES KAK,⠙⠁⠛ ⠅⠊⠎⠊⠍⠢⠡⠅⠁⠅
+𒁤,12064,letter,DAG KISIM5 TIMES LA,⠙⠁⠛ ⠅⠊⠎⠊⠍⠢⠡⠇⠁
+𒁥,12065,letter,DAG KISIM5 TIMES LU,⠙⠁⠛ ⠅⠊⠎⠊⠍⠢⠡⠇⠥
+𒁦,12066,letter,DAG KISIM5 TIMES LU PLUS MASH2,⠙⠁⠛ ⠅⠊⠎⠊⠍⠢⠡⠇⠥⠬⠍⠁⠩
+𒁧,12067,letter,DAG KISIM5 TIMES LUM,⠙⠁⠛ ⠅⠊⠎⠊⠍⠢⠡⠇⠥⠍
+𒁨,12068,letter,DAG KISIM5 TIMES NE,⠙⠁⠛ ⠅⠊⠎⠊⠍⠢⠡⠝⠑
+𒁩,12069,letter,DAG KISIM5 TIMES PAP PLUS PAP,⠙⠁⠛ ⠅⠊⠎⠊⠍⠢⠡⠏⠁⠏⠬⠏⠁⠏
+𒁪,1206A,letter,DAG KISIM5 TIMES SI,⠙⠁⠛ ⠅⠊⠎⠊⠍⠢⠡⠎⠊
+𒁫,1206B,letter,DAG KISIM5 TIMES TAK4,⠙⠁⠛ ⠅⠊⠎⠊⠍⠢⠡⠞⠁⠅⠲
+𒁬,1206C,letter,DAG KISIM5 TIMES U2 PLUS GIR2,⠙⠁⠛ ⠅⠊⠎⠊⠍⠢⠡⠥⠬⠛⠊⠗
+𒁭,1206D,letter,DAG KISIM5 TIMES USH,⠙⠁⠛ ⠅⠊⠎⠊⠍⠢⠡⠥⠩
+𒁮,1206E,letter,DAM,⠙⠁⠍
+𒁯,1206F,letter,DAR,⠙⠜
+𒁰,12070,letter,DARA3,⠙⠜⠁⠒
+𒁗,12057,letter,DAG KISIM5 TIMES A PLUS MASH,⠙⠁⠛ ⠅⠊⠎⠊⠍⠢⠡⠁⠬⠍⠁⠩
+𒁖,12056,letter,DAG,⠙⠁⠛
+𒁕,12055,letter,DA,⠙⠁
+𒁇,12047,letter,BAR,⠃⠜
+𒀼,1203C,letter,ASH OVER ASH OVER ASH,⠁⠩⠌⠁⠩⠌⠁⠩
+𒀽,1203D,letter,ASH OVER ASH OVER ASH CROSSING ASH OVER ASH OVER ASH,⠁⠩⠌⠁⠩⠌⠁⠩⠯⠁⠩⠌⠁⠩⠌⠁⠩
+𒀾,1203E,letter,ASH2,⠁⠩
+𒀿,1203F,letter,ASHGAB,⠁⠩⠛⠁⠃
+𒁀,12040,letter,BA,⠃⠁
+𒁁,12041,letter,BAD,⠃⠁⠙
+𒁂,12042,letter,BAG3,⠃⠁⠛⠒
+𒁃,12043,letter,BAHAR2,⠃⠁⠓⠜
+𒁄,12044,letter,BAL,⠃⠁⠇
+𒁅,12045,letter,BAL OVER BAL,⠃⠁⠇⠌⠃⠁⠇
+𒁆,12046,letter,BALAG,⠃⠁⠇⠁⠛
+𒁈,12048,letter,BARA2,⠃⠜⠁
+𒁔,12054,letter,BUR2,⠃⠥⠗
+𒁉,12049,letter,BI,⠃⠊
+𒁊,1204A,letter,BI TIMES A,⠃⠊⠡⠁
+𒁋,1204B,letter,BI TIMES GAR,⠃⠊⠡⠛⠜
+𒁌,1204C,letter,BI TIMES IGI GUNU,⠃⠊⠡⠊⠛⠊ ⠛⠥⠝⠥
+𒁍,1204D,letter,BU,⠃⠥
+𒁎,1204E,letter,BU OVER BU AB,⠃⠥⠌⠃⠥ ⠁⠃
+𒁏,1204F,letter,BU OVER BU UN,⠃⠥⠌⠃⠥ ⠥⠝
+𒁐,12050,letter,BU CROSSING BU,⠃⠥⠯⠃⠥
+𒁑,12051,letter,BULUG,⠃⠥⠇⠥⠛
+𒁒,12052,letter,BULUG OVER BULUG,⠃⠥⠇⠥⠛⠌⠃⠥⠇⠥⠛
+𒁓,12053,letter,BUR,⠃⠥⠗
+𒇉,121C9,letter,LAGAB TIMES HAL,⠇⠁⠛⠁⠃⠡⠓⠁⠇
+𒃥,120e5,letter,GA2 TIMES SHE,⠛⠁⠡⠩⠑
+𒃧,120e7,letter,GA2 TIMES SHID,⠛⠁⠡⠩⠊⠙
+𒅴,12174,letter,KA TIMES ME,⠅⠁⠡⠍⠑
+𒅶,12176,letter,KA TIMES ME PLUS GI,⠅⠁⠡⠍⠑⠬⠛⠊
+𒅷,12177,letter,KA TIMES ME PLUS TE,⠅⠁⠡⠍⠑⠬⠞⠑
+𒅸,12178,letter,KA TIMES MI,⠅⠁⠡⠍⠊
+𒅹,12179,letter,KA TIMES MI PLUS NUNUZ,⠅⠁⠡⠍⠊⠬⠝⠥⠝⠥
+𒅺,1217A,letter,KA TIMES NE,⠅⠁⠡⠝⠑
+𒅻,1217B,letter,KA TIMES NUN,⠅⠁⠡⠝⠥⠝
+𒅼,1217C,letter,KA TIMES PI,⠅⠁⠡⠏⠊
+𒅽,1217D,letter,KA TIMES RU,⠅⠁⠡⠗⠥
+𒅾,1217E,letter,KA TIMES SA,⠅⠁⠡⠎⠁
+𒅿,1217F,letter,KA TIMES SAR,⠅⠁⠡⠎⠜
+𒆀,12180,letter,KA TIMES SHA,⠅⠁⠡⠩⠁
+𒆁,12181,letter,KA TIMES SHE,⠅⠁⠡⠩⠑
+𒆂,12182,letter,KA TIMES SHID,⠅⠁⠡⠩⠊⠙
+𒆃,12183,letter,KA TIMES SHU,⠅⠁⠡⠩⠥
+𒆄,12184,letter,KA TIMES SIG,⠅⠁⠡⠎⠊⠛
+𒆅,12185,letter,KA TIMES SUHUR,⠅⠁⠡⠎⠥⠓⠥⠗
+𒆆,12186,letter,KA TIMES TAR,⠅⠁⠡⠞⠜
+𒆇,12187,letter,KA TIMES U,⠅⠁⠡⠥
+𒆈,12188,letter,KA TIMES U2,⠅⠁⠡⠥
+𒆉,12189,letter,KA TIMES UD,⠅⠁⠡⠥⠙
+𒆊,1218A,letter,KA TIMES UMUM TIMES PA,⠅⠁⠡⠥⠍⠥⠍⠡⠏⠁
+𒆋,1218B,letter,KA TIMES USH,⠅⠁⠡⠥⠩
+𒆌,1218C,letter,KA TIMES ZI,⠅⠁⠡⠵⠊
+𒆍,1218D,letter,KA2,⠅⠁
+𒆎,1218E,letter,KA2 CROSSING KA2,⠅⠁⠯⠅⠁
+𒅵,12175,letter,KA TIMES ME PLUS DU,⠅⠁⠡⠍⠑⠬⠙⠥
+𒅳,12173,letter,KA TIMES LU,⠅⠁⠡⠇⠥
+𒆐,12190,letter,KAD2,⠅⠁⠙
+𒅲,12172,letter,KA TIMES LI,⠅⠁⠡⠇⠊
+𒅙,12159,letter,KA TIMES AD,⠅⠁⠡⠁⠙
+𒅚,1215A,letter,KA TIMES AD PLUS KU3,⠅⠁⠡⠁⠙⠬⠅⠥⠒
+𒅛,1215B,letter,KA TIMES ASH2,⠅⠁⠡⠁⠩
+𒅜,1215C,letter,KA TIMES BAD,⠅⠁⠡⠃⠁⠙
+𒅝,1215D,letter,KA TIMES BALAG,⠅⠁⠡⠃⠁⠇⠁⠛
+𒅞,1215E,letter,KA TIMES BAR,⠅⠁⠡⠃⠜
+𒅟,1215F,letter,KA TIMES BI,⠅⠁⠡⠃⠊
+𒅠,12160,letter,KA TIMES ERIN2,⠅⠁⠡⠑⠗⠊⠝
+𒅡,12161,letter,KA TIMES ESH2,⠅⠁⠡⠑⠩
+𒅢,12162,letter,KA TIMES GA,⠅⠁⠡⠛⠁
+𒅣,12163,letter,KA TIMES GAL,⠅⠁⠡⠛⠁⠇
+𒅤,12164,letter,KA TIMES GAN2 TENU,⠅⠁⠡⠛⠁⠝ ⠞⠑⠝⠥
+𒅥,12165,letter,KA TIMES GAR,⠅⠁⠡⠛⠜
+𒅦,12166,letter,KA TIMES GAR PLUS SHA3 PLUS A,⠅⠁⠡⠛⠜⠬⠩⠁⠒⠬⠁
+𒅧,12167,letter,KA TIMES GI,⠅⠁⠡⠛⠊
+𒅨,12168,letter,KA TIMES GIR2,⠅⠁⠡⠛⠊⠗
+𒅩,12169,letter,KA TIMES GISH PLUS SAR,⠅⠁⠡⠛⠊⠩⠬⠎⠜
+𒅪,1216A,letter,KA TIMES GISH CROSSING GISH,⠅⠁⠡⠛⠊⠩⠯⠛⠊⠩
+𒅫,1216B,letter,KA TIMES GU,⠅⠁⠡⠛⠥
+𒅬,1216C,letter,KA TIMES GUR7,⠅⠁⠡⠛⠥⠗⠶
+𒅭,1216D,letter,KA TIMES IGI,⠅⠁⠡⠊⠛⠊
+𒅮,1216E,letter,KA TIMES IM,⠅⠁⠡⠊⠍
+𒅯,1216F,letter,KA TIMES KAK,⠅⠁⠡⠅⠁⠅
+𒅰,12170,letter,KA TIMES KI,⠅⠁⠡⠅⠊
+𒅱,12171,letter,KA TIMES KID,⠅⠁⠡⠅⠊⠙
+𒆏,1218F,letter,KAB,⠅⠁⠃
+𒆑,12191,letter,KAD3,⠅⠁⠙⠒
+𒅗,12157,letter,KA,⠅⠁
+𒆮,121AE,letter,KU4 VARIANT FORM,⠅⠥⠲ ⠧⠜⠊⠁⠝⠞ ⠋⠕⠗⠍
+𒆰,121B0,letter,KUL,⠅⠥⠇
+𒆱,121B1,letter,KUL GUNU,⠅⠥⠇ ⠛⠥⠝⠥
+𒆲,121B2,letter,KUN,⠅⠥⠝
+𒆳,121B3,letter,KUR,⠅⠥⠗
+𒆴,121B4,letter,KUR OPPOSING KUR,⠅⠥⠗⠫⠅⠥⠗
+𒆵,121B5,letter,KUSHU2,⠅⠥⠩⠥
+𒆶,121B6,letter,KWU318,⠅⠺⠥⠒⠂⠦
+𒆷,121B7,letter,LA,⠇⠁
+𒆸,121B8,letter,LAGAB,⠇⠁⠛⠁⠃
+𒆹,121B9,letter,LAGAB TIMES A,⠇⠁⠛⠁⠃⠡⠁
+𒆺,121BA,letter,LAGAB TIMES A PLUS DA PLUS HA,⠇⠁⠛⠁⠃⠡⠁⠬⠙⠁⠬⠓⠁
+𒆻,121BB,letter,LAGAB TIMES A PLUS GAR,⠇⠁⠛⠁⠃⠡⠁⠬⠛⠜
+𒆼,121BC,letter,LAGAB TIMES A PLUS LAL,⠇⠁⠛⠁⠃⠡⠁⠬⠇⠁⠇
+𒆽,121BD,letter,LAGAB TIMES AL,⠇⠁⠛⠁⠃⠡⠁⠇
+𒆾,121BE,letter,LAGAB TIMES AN,⠇⠁⠛⠁⠃⠡⠁⠝
+𒆿,121BF,letter,LAGAB TIMES ASH ZIDA TENU,⠇⠁⠛⠁⠃⠡⠁⠩ ⠵⠊⠙⠁ ⠞⠑⠝⠥
+𒇀,121C0,letter,LAGAB TIMES BAD,⠇⠁⠛⠁⠃⠡⠃⠁⠙
+𒇁,121C1,letter,LAGAB TIMES BI,⠇⠁⠛⠁⠃⠡⠃⠊
+𒇂,121C2,letter,LAGAB TIMES DAR,⠇⠁⠛⠁⠃⠡⠙⠜
+𒇃,121C3,letter,LAGAB TIMES EN,⠇⠁⠛⠁⠃⠡⠑⠝
+𒇄,121C4,letter,LAGAB TIMES GA,⠇⠁⠛⠁⠃⠡⠛⠁
+𒇅,121C5,letter,LAGAB TIMES GAR,⠇⠁⠛⠁⠃⠡⠛⠜
+𒇆,121C6,letter,LAGAB TIMES GUD,⠇⠁⠛⠁⠃⠡⠛⠥⠙
+𒇇,121C7,letter,LAGAB TIMES GUD PLUS GUD,⠇⠁⠛⠁⠃⠡⠛⠥⠙⠬⠛⠥⠙
+𒇈,121C8,letter,LAGAB TIMES HA,⠇⠁⠛⠁⠃⠡⠓⠁
+𒆯,121AF,letter,KU7,⠅⠥⠶
+𒆭,121AD,letter,KU4,⠅⠥⠲
+𒆒,12192,letter,KAD4,⠅⠁⠙⠲
+𒆬,121AC,letter,KU3,⠅⠥⠒
+𒆓,12193,letter,KAD5,⠅⠁⠙⠢
+𒆔,12194,letter,KAD5 OVER KAD5,⠅⠁⠙⠢⠌⠅⠁⠙⠢
+𒆕,12195,letter,KAK,⠅⠁⠅
+𒆖,12196,letter,KAK TIMES IGI GUNU,⠅⠁⠅⠡⠊⠛⠊ ⠛⠥⠝⠥
+𒆗,12197,letter,KAL,⠅⠁⠇
+𒆘,12198,letter,KAL TIMES BAD,⠅⠁⠇⠡⠃⠁⠙
+𒆙,12199,letter,KAL CROSSING KAL,⠅⠁⠇⠯⠅⠁⠇
+𒆚,1219A,letter,KAM2,⠅⠁⠍
+𒆛,1219B,letter,KAM4,⠅⠁⠍⠲
+𒆜,1219C,letter,KASKAL,⠅⠁⠎⠅⠁⠇
+𒆝,1219D,letter,KASKAL LAGAB TIMES U OVER LAGAB TIMES U,⠅⠁⠎⠅⠁⠇ ⠇⠁⠛⠁⠃⠡⠥⠌⠇⠁⠛⠁⠃⠡⠥
+𒆞,1219E,letter,KASKAL OVER KASKAL LAGAB TIMES U OVER LAGAB TIMES U,⠅⠁⠎⠅⠁⠇⠌⠅⠁⠎⠅⠁⠇ ⠇⠁⠛⠁⠃⠡⠥⠌⠇⠁⠛⠁⠃⠡⠥
+𒆟,1219F,letter,KESH2,⠅⠑⠩
+𒆠,121A0,letter,KI,⠅⠊
+𒆡,121A1,letter,KI TIMES BAD,⠅⠊⠡⠃⠁⠙
+𒆢,121A2,letter,KI TIMES U,⠅⠊⠡⠥
+𒆣,121A3,letter,KI TIMES UD,⠅⠊⠡⠥⠙
+𒆤,121A4,letter,KID,⠅⠊⠙
+𒆥,121A5,letter,KIN,⠅⠊⠝
+𒆦,121A6,letter,KISAL,⠅⠊⠎⠁⠇
+𒆧,121A7,letter,KISH,⠅⠊⠩
+𒆨,121A8,letter,KISIM5,⠅⠊⠎⠊⠍⠢
+𒆩,121A9,letter,KISIM5 OVER KISIM5,⠅⠊⠎⠊⠍⠢⠌⠅⠊⠎⠊⠍⠢
+𒆪,121AA,letter,KU,⠅⠥
+𒆫,121AB,letter,KU OVER HI TIMES ASH2 KU OVER HI TIMES ASH2,⠅⠥⠌⠓⠊⠡⠁⠩ ⠅⠥⠌⠓⠊⠡⠁⠩
+𒃨,120e8,letter,GA2 TIMES SUM,⠛⠁⠡⠎⠥⠍
+𒅘,12158,letter,KA TIMES A,⠅⠁⠡⠁
+𒅖,12156,letter,ISH,⠊⠩
+𒄐,12110,letter,GISAL,⠛⠊⠎⠁⠇
+𒄅,12105,letter,GI4 OVER GI4,⠛⠊⠲⠌⠛⠊⠲
+𒄆,12106,letter,GI4 CROSSING GI4,⠛⠊⠲⠯⠛⠊⠲
+𒄇,12107,letter,GIDIM,⠛⠊⠙⠊⠍
+𒄈,12108,letter,GIR2,⠛⠊⠗
+𒄉,12109,letter,GIR2 GUNU,⠛⠊⠗ ⠛⠥⠝⠥
+𒄊,1210A,letter,GIR3,⠛⠊⠗⠒
+𒄋,1210B,letter,GIR3 TIMES A PLUS IGI,⠛⠊⠗⠒⠡⠁⠬⠊⠛⠊
+𒄌,1210C,letter,GIR3 TIMES GAN2 TENU,⠛⠊⠗⠒⠡⠛⠁⠝ ⠞⠑⠝⠥
+𒄍,1210D,letter,GIR3 TIMES IGI,⠛⠊⠗⠒⠡⠊⠛⠊
+𒄎,1210E,letter,GIR3 TIMES LU PLUS IGI,⠛⠊⠗⠒⠡⠇⠥⠬⠊⠛⠊
+𒄏,1210F,letter,GIR3 TIMES PA,⠛⠊⠗⠒⠡⠏⠁
+𒄑,12111,letter,GISH,⠛⠊⠩
+𒄃,12103,letter,GI CROSSING GI,⠛⠊⠯⠛⠊
+𒄒,12112,letter,GISH CROSSING GISH,⠛⠊⠩⠯⠛⠊⠩
+𒄓,12113,letter,GISH TIMES BAD,⠛⠊⠩⠡⠃⠁⠙
+𒄔,12114,letter,GISH TIMES TAK4,⠛⠊⠩⠡⠞⠁⠅⠲
+𒄕,12115,letter,GISH TENU,⠛⠊⠩ ⠞⠑⠝⠥
+𒄖,12116,letter,GU,⠛⠥
+𒄗,12117,letter,GU CROSSING GU,⠛⠥⠯⠛⠥
+𒄘,12118,letter,GU2,⠛⠥
+𒄙,12119,letter,GU2 TIMES KAK,⠛⠥⠡⠅⠁⠅
+𒄚,1211A,letter,GU2 TIMES KAK TIMES IGI GUNU,⠛⠥⠡⠅⠁⠅⠡⠊⠛⠊ ⠛⠥⠝⠥
+𒄛,1211B,letter,GU2 TIMES NUN,⠛⠥⠡⠝⠥⠝
+𒅕,12155,letter,IR,⠊⠗
+𒄄,12104,letter,GI4,⠛⠊⠲
+𒄂,12102,letter,GI TIMES U,⠛⠊⠡⠥
+𒄞,1211E,letter,GUD,⠛⠥⠙
+𒃴,120F4,letter,GALAM,⠛⠁⠇⠁⠍
+𒃩,120e9,letter,GA2 TIMES TAK4,⠛⠁⠡⠞⠁⠅⠲
+𒃪,120EA,letter,GA2 TIMES U,⠛⠁⠡⠥
+𒃫,120EB,letter,GA2 TIMES UD,⠛⠁⠡⠥⠙
+𒃬,120EC,letter,GA2 TIMES UD PLUS DU,⠛⠁⠡⠥⠙⠬⠙⠥
+𒃭,120ED,letter,GA2 OVER GA2,⠛⠁⠌⠛⠁
+𒃮,120EE,letter,GABA,⠛⠁⠃⠁
+𒃯,120EF,letter,GABA CROSSING GABA,⠛⠁⠃⠁⠯⠛⠁⠃⠁
+𒃰,120F0,letter,GAD,⠛⠁⠙
+𒃱,120F1,letter,GAD OVER GAD GAR OVER GAR,⠛⠁⠙⠌⠛⠁⠙ ⠛⠜⠌⠛⠜
+𒃲,120F2,letter,GAL,⠛⠁⠇
+𒃳,120F3,letter,GAL GAD OVER GAD GAR OVER GAR,⠛⠁⠇ ⠛⠁⠙⠌⠛⠁⠙ ⠛⠜⠌⠛⠜
+𒃵,120F5,letter,GAM,⠛⠁⠍
+𒄁,12101,letter,GI TIMES E,⠛⠊⠡⠑
+𒃶,120F6,letter,GAN,⠛⠁⠝
+𒃷,120F7,letter,GAN2,⠛⠁⠝
+𒃸,120F8,letter,GAN2 TENU,⠛⠁⠝ ⠞⠑⠝⠥
+𒃹,120F9,letter,GAN2 OVER GAN2,⠛⠁⠝⠌⠛⠁⠝
+𒃺,120FA,letter,GAN2 CROSSING GAN2,⠛⠁⠝⠯⠛⠁⠝
+𒃻,120FB,letter,GAR,⠛⠜
+𒃼,120FC,letter,GAR3,⠛⠜⠒
+𒃽,120FD,letter,GASHAN,⠛⠁⠩⠁⠝
+𒃾,120FE,letter,GESHTIN,⠛⠑⠩⠞⠊⠝
+𒃿,120FF,letter,GESHTIN TIMES KUR,⠛⠑⠩⠞⠊⠝⠡⠅⠥⠗
+𒄀,12100,letter,GI,⠛⠊
+𒄝,1211D,letter,GU2 GUNU,⠛⠥ ⠛⠥⠝⠥
+𒄜,1211C,letter,GU2 TIMES SAL PLUS TUG2,⠛⠥⠡⠎⠁⠇⠬⠞⠥⠛
+𒄟,1211F,letter,GUD TIMES A PLUS KUR,⠛⠥⠙⠡⠁⠬⠅⠥⠗
+𒄺,1213A,letter,HUB2 TIMES HAL,⠓⠥⠃⠡⠓⠁⠇
+𒄼,1213C,letter,HUB2 TIMES LISH,⠓⠥⠃⠡⠇⠊⠩
+𒄽,1213D,letter,HUB2 TIMES UD,⠓⠥⠃⠡⠥⠙
+𒄾,1213E,letter,HUL2,⠓⠥⠇
+𒄿,1213F,letter,I,⠊
+𒅀,12140,letter,I A,⠊ ⠁
+𒅁,12141,letter,IB,⠊⠃
+𒅂,12142,letter,IDIM,⠊⠙⠊⠍
+𒅃,12143,letter,IDIM OVER IDIM BUR,⠊⠙⠊⠍⠌⠊⠙⠊⠍ ⠃⠥⠗
+𒅄,12144,letter,IDIM OVER IDIM SQUARED,⠊⠙⠊⠍⠌⠊⠙⠊⠍⠘⠸
+𒅅,12145,letter,IG,⠊⠛
+𒅆,12146,letter,IGI,⠊⠛⠊
+𒅇,12147,letter,IGI DIB,⠊⠛⠊ ⠙⠊⠃
+𒅈,12148,letter,IGI RI,⠊⠛⠊ ⠗⠊
+𒅉,12149,letter,IGI OVER IGI SHIR OVER SHIR UD OVER UD,⠊⠛⠊⠌⠊⠛⠊ ⠩⠊⠗⠌⠩⠊⠗ ⠥⠙⠌⠥⠙
+𒅊,1214A,letter,IGI GUNU,⠊⠛⠊ ⠛⠥⠝⠥
+𒅋,1214B,letter,IL,⠊⠇
+𒅌,1214C,letter,IL TIMES GAN2 TENU,⠊⠇⠡⠛⠁⠝ ⠞⠑⠝⠥
+𒅍,1214D,letter,IL2,⠊⠇
+𒅎,1214E,letter,IM,⠊⠍
+𒅏,1214F,letter,IM TIMES TAK4,⠊⠍⠡⠞⠁⠅⠲
+𒅐,12150,letter,IM CROSSING IM,⠊⠍⠯⠊⠍
+𒅑,12151,letter,IM OPPOSING IM,⠊⠍⠫⠊⠍
+𒅒,12152,letter,IM SQUARED,⠊⠍⠘⠸
+𒅓,12153,letter,IMIN,⠊⠍⠊⠝
+𒅔,12154,letter,IN,⠊⠝
+𒄠,12120,letter,GUD TIMES KUR,⠛⠥⠙⠡⠅⠥⠗
+𒄻,1213B,letter,HUB2 TIMES KASKAL,⠓⠥⠃⠡⠅⠁⠎⠅⠁⠇
+𒄹,12139,letter,HUB2 TIMES AN,⠓⠥⠃⠡⠁⠝
+𒄭,1212D,letter,HI,⠓⠊
+𒄡,12121,letter,GUD OVER GUD LUGAL,⠛⠥⠙⠌⠛⠥⠙ ⠇⠥⠛⠁⠇
+𒄢,12122,letter,GUL,⠛⠥⠇
+𒄣,12123,letter,GUM,⠛⠥⠍
+𒄤,12124,letter,GUM TIMES SHE,⠛⠥⠍⠡⠩⠑
+𒄥,12125,letter,GUR,⠛⠥⠗
+𒄦,12126,letter,GUR7,⠛⠥⠗⠶
+𒄧,12127,letter,GURUN,⠛⠥⠗⠥⠝
+𒄨,12128,letter,GURUSH,⠛⠥⠗⠥⠩
+𒄩,12129,letter,HA,⠓⠁
+𒄪,1212A,letter,HA TENU,⠓⠁ ⠞⠑⠝⠥
+𒄫,1212B,letter,HA GUNU,⠓⠁ ⠛⠥⠝⠥
+𒄸,12138,letter,HUB2,⠓⠥⠃
+𒄬,1212C,letter,HAL,⠓⠁⠇
+𒄮,1212E,letter,HI TIMES ASH,⠓⠊⠡⠁⠩
+𒄯,1212F,letter,HI TIMES ASH2,⠓⠊⠡⠁⠩
+𒄰,12130,letter,HI TIMES BAD,⠓⠊⠡⠃⠁⠙
+𒄱,12131,letter,HI TIMES DISH,⠓⠊⠡⠙⠊⠩
+𒄲,12132,letter,HI TIMES GAD,⠓⠊⠡⠛⠁⠙
+𒄳,12133,letter,HI TIMES KIN,⠓⠊⠡⠅⠊⠝
+𒄴,12134,letter,HI TIMES NUN,⠓⠊⠡⠝⠥⠝
+𒄵,12135,letter,HI TIMES SHE,⠓⠊⠡⠩⠑
+𒄶,12136,letter,HI TIMES U,⠓⠊⠡⠥
+𒄷,12137,letter,HU,⠓⠥
+𒎙,12399,letter,UU,⠥⠥
+𒋡,1220,letter,SILA3,⠎⠊⠇⠁⠒
+𒇡,1210,letter,LAGAB TIMES SUM,⠇⠁⠛⠁⠃⠡⠎⠥⠍
+𒇠,121,letter,LAGAB TIMES SHU2 PLUS SHU2,⠇⠁⠛⠁⠃⠡⠩⠥⠬⠩⠥
+𒋠,122,letter,SIK2,⠎⠊⠅
+𒃠,120,letter,GA2 TIMES NUN,⠛⠁⠡⠝⠥⠝

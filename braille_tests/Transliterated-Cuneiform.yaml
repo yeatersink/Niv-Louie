@@ -6,14 +6,12 @@
 # notice and this notice are preserved. This file is offered as-is,
 # without any warranty.
 
-display: unicode.dis
-
+display: unicode-without-blank.dis
 table:
   language: Transliterated-Cuneiform
-  __assert-match: Transliterated-Cuneiform.uti
+  __assert-match: Transliterated-Cuneiform.utb
 flags: { testmode: forward }
 tests:
-  # Transliterated-Cuneiform
   - ["aš-ku-un.", "⠁⠩⠤⠅⠥⠤⠥⠝⠲"]
   - ["šum-ma da-a-a-nu-um", "⠩⠥⠍⠤⠍⠁ ⠙⠁⠤⠁⠤⠁⠤⠝⠥⠤⠥⠍"]
   - ["pu-ru-sà-am ip-ru-ús.", "⠏⠥⠤⠗⠥⠤⠎⠘⠡⠁⠤⠁⠍ ⠊⠏⠤⠗⠥⠤⠘⠌⠥⠎⠲"]

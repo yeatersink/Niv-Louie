@@ -7,13 +7,11 @@
 # without any warranty.
 
 display: unicode.dis
-
 table:
   language: hbo
-  __assert-match: hbo.uti
+  __assert-match: hbo.utb
 flags: { testmode: forward }
 tests:
-  # Hebrew
   - ["שְׁמַ֖עa", "⠩⠄⠍⠉⠨⠞⠫⠁"]
   - ["יִשְׂרָאֵ֑ל", "⠚⠊⠱⠄⠗⠣⠁⠌⠆⠇"]
   - ["יְהוָ֥ה", "⠚⠄⠓⠺⠣⠨⠍⠓"]
