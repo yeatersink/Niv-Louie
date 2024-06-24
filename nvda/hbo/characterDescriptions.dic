@@ -1,104 +1,88 @@
-ױ  #vav yod
-֔  #zaqef qatan
-❚  #Mark indicates varrnt
-❦  #Marks beginning of transposition
-❘  #Mark that separates variations
-֙  #pashta
-֘  #zarqa
-֑  #atnokta
-❥  #Marks distinguishes between varient
-❙  #Mark that indicates Alternative readings
-֗  #revia
-֖  #tipeha
-ײ  #double yod
-֒  #segol - isolated
-װ  #double vav
-֚  #yetiv
-֓  #shalshelet
-֕  #zaqef gadol
-ײַ  #Double Yod with patah
-❁  #Reference to LXX
-֛  #tevir
-❑  #Mark that Distinguishes between Varient
-✘  #Marks Varients with in Apparatus
-✗  #Mark for  Insertion
-✖  #Mark Ends of Replacement
-✕  #Mark beginning of Replacement
-✔  #Check Mark Distinguishes Same kind of Varient
-֯  #masora circle
-֮  #zinor
-֭  #dehi
-֬  #iluy
-֫  #ole
-֪  #yerah ben yomo
-֩  #telisha qetana
-֨  #qadma
-֧  #darga
-❍  #Marks Omitted Word
-֦  #merkha kefula
-֥  #merkha
-֤  #mahapakh
-❏  #Marks End of Omited word
-֣  #munah
-֢  #atnah hafukh
-֡  #pazer
-֠  #telisha gedola
-֟  #qarney para
-֞  #gershayim
-❐  #Marks Replaced Word
-✙  #  Marks end of Replaced text
-֜  #geresh
-֝  #geresh muqdam
-ְ  #sheva
-ש  #Shin
-־  #maqaf
-״  #gershayim
-׳  #geresh
-ׇ  #qamats qatan
-׆  #nun hafukha
-ׅ  #lower dot
-ׄ  #upper dot
-׃  #sof pasuq
-ׂ  #sin dot
-ׁ  #shin dot
-׀  #paseq
-ֿ  #rafe
-ֽ  #meteg
-ר  #resh
-ּ  #dagesh
-ֻ  #qubuts
-ֺ  #holam haser
-ֹ  #holam Malay
-ָ  #qamats
-ַ  #patah
-ֶ  #segol
-ֵ  #tsere
-ִ  #hiriq
-ֳ  #hataf qamats
-ֲ  #hataf patah
-א  #alef
-ב  #bet
-ג  #gimel
-ק  #qof
-צ  #tsadi
-ץ  #final tsadi
-פ  #Pe
-ֱ  #hataf segol
-ף  #final pe
-ע  #ayin
-ס  #samekh
-נ  #nun
-ן  #final nun
-מ  #mem
-ם  #final mem
-ל  #lamed
-כ  #kaf
-ך  #final kaf
-י  #yod
-ט  #tet
-ח  #het
-ז  #zayin
-ו  #vav
-ה  #hey
-ד  #dalet
-❧  #Check Marks end of transposition
+#Hebrew characterDescriptions.dic
+#A part of NonVisual Desktop Access (NVDA)
+#URL: http://www.nvda-project.org/
+#Copyright (c) 2024Matthew Yeater and Paul Geoghegan.
+#This file is covered by the GNU General Public License.
+
+א	alef
+֢	atnah hafukh
+ע	ayin
+ב	bet
+ּ	dagesh
+ד	dalet
+֧	darga
+֭	dehi
+װ	double vav
+ײ	double yod
+ײַ	double yod with patah
+ך	final kaf
+ם	final mem
+ן	final nun
+ף	final pe
+ץ	final tsadi
+֜	geresh
+׳	geresh
+֝	geresh muqdam
+֞	gershayim
+ג	gimel
+ֲ	hataf patah
+ֳ	hataf qamats
+ֱ	hataf segol
+ח	het
+ה	hey
+ִ	hiriq
+ֺ	holam haser
+ֹ	holam malay
+֬	iluy
+כ	kaf
+ל	lamed
+ׅ	lower dot
+֤	mahapakh
+֯	masora circle
+מ	mem
+֥	merkha
+֦	merkha kefula
+ֽ	meteg
+֣	munah
+נ	nun
+׆	nun hafukha
+֫	ole
+֙	pashta
+ַ	patah
+֡	pazer
+פ	pe
+֨	qadma
+ָ	qamats
+ׇ	qamats qatan
+֟	qarney para
+ק	qof
+ֻ	qubuts
+ֿ	rafe
+ר	resh
+֗	revia
+ס	samekh
+ֶ	segol
+֒	segol - isolated
+֓	shalshelet
+ְ	sheva
+ש	shin
+ׁ	shin dot
+ׂ	sin dot
+֠	telisha gedola
+֩	telisha qetana
+ט	tet
+֛	tevir
+֖	tipeha
+צ	tsadi
+ֵ	tsere
+ׄ	upper dot
+ו	vav
+ױ	vav yod
+֪	yerah ben yomo
+֚	yetiv
+י	yod
+֕	zaqef gadol
+֔	zaqef qatan
+֘	zarqa
+ז	zayin
+֮	zinor

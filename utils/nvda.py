@@ -48,18 +48,52 @@ def generate_locale_file(language_option):
     new_folder.mkdir(parents=True,exist_ok=True)
     #The locale characters file is created
     nvda_locale_file=open("nvda/"+languages[language_option]["language_code"]+"/characterDescriptions.dic","w",encoding="utf8")
-    #this loop goes through each row in the language file which does not have the type always and adds the character and name to the nvda symbols file
-    for index,row in language_file.loc[(language_file["Type"]!="always")].iterrows():
-        new_line=str(row[languages[language_option]["char_column"]])+"  #"+str(row["Name"])+"\n"
+    nvda_locale_file.write("""#"""+languages[language_option]["name"]+""" characterDescriptions.dic
+#A part of NonVisual Desktop Access (NVDA)
+#URL: http://www.nvda-project.org/
+#Copyright (c) 2024Matthew Yeater and Paul Geoghegan.
+#This file is covered by the GNU General Public License.
+\n""")
+    language_file[languages[language_option]["name_column"]]=language_file[languages[language_option]["name_column"]].apply(format_names)
+    #this loop goes through each row in the language file which has the type letter and adds the character and name to the nvda symbols file
+    for index,row in language_file.loc[(language_file["Type"]=="letter")].sort_values(by=[languages[language_option]["name_column"]]).iterrows():
+        new_line=str(row[languages[language_option]["char_column"]])+"\t"+str(row["Name"])+"\n"
         nvda_locale_file.write(new_line)
     #the file is closed to prevent memory leaks
     nvda_locale_file.close()
-    #The locale symbols file is created
-    nvda_locale_file=open("nvda/"+languages[language_option]["language_code"]+"/symbols.dic","w",encoding="utf8")
-        #this loop goes through each row in the language file which has the type always and adds the character and name to the nvda symbols file
-    for index,row in language_file.loc[(language_file["Type"]=="always")].iterrows():
-        new_line=str(row[languages[language_option]["char_column"]])+"\t"+str(row["Name"])+"\tmost\talways\n"
-        nvda_locale_file.write(new_line)
-    #the file is closed to prevent memory leaks
-    nvda_locale_file.close()
+    #Checks if there are any non-letter characters in the language file
+    if not language_file.loc[(language_file["Type"]!="letter")].empty:
+        #The locale symbols file is created
+        nvda_locale_file=open("nvda/"+languages[language_option]["language_code"]+"/symbols.dic","w",encoding="utf8")
+        nvda_locale_file.write("""#"""+languages[language_option]["name"]+""" symbols.dic
+#A part of NonVisual Desktop Access (NVDA)
+#URL: http://www.nvda-project.org/
+#Copyright (c) 2024Matthew Yeater and Paul Geoghegan.
+#This file is covered by the GNU General Public License.
+\n""")    
+        #this loop goes through each row in the language file which does not have the type letter and adds the character and name to the nvda symbols file
+        for index,row in language_file.loc[(language_file["Type"]!="letter")].sort_values(by=[languages[language_option]["name_column"]]).iterrows():
+            new_line=str(row[languages[language_option]["char_column"]])+"\t"+str(row["Name"])+"\tmost\talways\n"
+            nvda_locale_file.write(new_line)
+        #the file is closed to prevent memory leaks
+        nvda_locale_file.close()
     print("Generated Locale files for NVDA for",languages[language_option]["name"])
+
+def format_names(name):
+    """
+
+    This function removes unwanted characters from the name of the character
+
+    Parameters:
+    name (str): The name of the character
+    
+    Returns:
+    str: The name of the character without unwanted characters
+    
+    """
+    #Checks if the name is not a string
+    if not isinstance(name,str):
+        #If the name is not a string it is converted to a string
+        name=str(name)
+
+    return name.strip().lower()
