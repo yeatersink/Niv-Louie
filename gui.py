@@ -1,6 +1,9 @@
 from nicegui import app, events, ui
 from utils.languages_file import languages
 
+project_name=""
+project_text=""
+
 language_list=[]
 for language in languages:
     language_list.append(language["name"])
@@ -18,23 +21,25 @@ def existing_project():
     ui.checkbox("Download Language Spreadsheet")
     ui.button("Next")
 
+
 @ui.page("/create_project")
 def create_project():
+    #create a dialog
+    with ui.dialog() as dialog:
+        with ui.card():
+            ui.label("Project Information")
+            ui.input(label="What is the language code for your language?",)
+
     ui.button("Go Back",on_click=ui.navigate.back)
     ui.label("Create New Project")
     ui.label("Upload your Spreadsheet.")
     ui.upload(on_upload=handle_file_upload)
+    ui.button("Continue",on_click=dialog.open)
+
 
 def handle_file_upload(e:events.UploadEventArguments):
-    text=e.content.read().decode("utf-8")
-    
-    # Define and open the dialog after processing the file
-    with ui.dialog() as dialog:
-        with ui.card():
-            ui.label("Project Information")
-            ui.label(text[:100])  # Display the first 100 characters for demonstration
-        dialog.open()
-
+    project_name=e.name
+    project_text=e.content.read().decode("utf-8")
 
 ui.label("What do you want to do?")
 ui.link("Get Access to Existing Project",existing_project)
