@@ -1,22 +1,3 @@
-# This braille code was developed by a group of both blind and sighted
-# scholars in an academic setting. Special thank you to Paul Keim, Ray
-# McAllister, and Matthew Yeater for development of the braille code
-# for this language.  Also thanks to Sarah LaRose for the suggestions
-# while serving on the committee.
-#-maintainer: Paul Geoghegan <contact@envisionly.tech>
-#-maintainer: Matityhau Yeshurun <yeatersink@gmail.com>
-# Copyright 2024 Matt Yeater and Paul Geoghegan
-
-#languages is a list of dictionaries that contain information about the languages that are being used in the project
-#The dictionaries contain the following
-#name: the name of the language
-#language_code: the ISO code for the language
-#name_column: the name of the column in the csv file that contains the name of the character
-#char_column: the name of the column in the csv file that contains the character
-#braille_column: the name of the column in the csv file that contains the braille code for the character
-#replace: a list of strings that are to be removed from the name of the character
-#language_information: a string that contains information about the language for Lib Louis
-#contributors: a string that contains information about the people who have contributed to the project
 languages=[
     {"name":"Akkadian","language_code":"akk-Xsux","display_name":"Akkadian braille according to U.S. system","index_name":"Akkadian, U.S.","supported_braille_languages":["akk-Xsux","xhu-Xsux","uga-Xsux","peo-Xsux","sux-Xsux","xeb-Xsux","elx-Xsux","hit-Xsux","xur-Xsux","xlu-Xsux"],"language_system_code":"akk-oracc","name_column":"Name","char_column":"Character","braille_column":"Braille","replace":["CUNEIFORM SIGN"],"included_braille_tables":["spaces.uti","litdigits6Dots.uti","latinLetterDef6Dots.uti","en-ueb-chardefs.uti"],"language_information":"""
 #Cuneiform, generally known as Akkadian, is a writing system
