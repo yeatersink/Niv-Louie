@@ -79,6 +79,39 @@ def generate_locale_file(language_option):
         nvda_locale_file.close()
     print("Generated Locale files for NVDA for",languages[language_option]["name"])
 
+
+def generate_character_set(language_option):
+    """
+
+        This function generates a locale file for the language
+
+        Args:
+            language_option: The index of the language in the languages variable
+
+    """
+    print("generating nvda  Character Set for for",languages[language_option]["name"])
+    #The language file is read in to pandas
+    language_file=pd.read_csv("languages/filtered_"+languages[language_option]["name"]+".csv")
+    new_folder = pathlib.Path("nvda_character_sets/",languages[language_option]["language_code"])
+    new_folder.mkdir(parents=True,exist_ok=True)
+    #The character Set  file is created
+    nvda_character_set_file=open("nvda_character_sets/"+languages[language_option]["language_code"]+"/symbols.dic","w",encoding="utf8")
+    nvda_character_set_file.write("""#"""+languages[language_option]["name"]+""" symbols.dic
+#A part of NonVisual Desktop Access (NVDA)
+#URL: http://www.nvda-project.org/
+#Copyright (c) 2024Matthew Yeater and Paul Geoghegan.
+#This file is covered by the GNU General Public License.
+\n""")
+    language_file[languages[language_option]["name_column"]]=language_file[languages[language_option]["name_column"]].apply(format_names)
+    #this loop goes through each row in the language file
+    for index,row in language_file.sort_values(by=[languages[language_option]["name_column"]]).iterrows():
+        new_line=str(row[languages[language_option]["char_column"]])+"\t"+str(row["Name"])+"\tmost\talways\n"
+        nvda_character_set_file.write(new_line)
+    #the file is closed to prevent memory leaks
+    nvda_character_set_file.close()
+    print("Generated Character Set file for NVDA for",languages[language_option]["name"])
+
+
 def format_names(name):
     """
 
