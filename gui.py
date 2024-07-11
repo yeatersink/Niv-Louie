@@ -35,13 +35,36 @@ def existing_project():
     print(language_list)
     ui.button("Go Back",on_click=ui.navigate.back)
     ui.label("Get Access to an Existing Language")
-    ui.select(options=language_list,label="Select a Language",with_input=True)
+    ui.select(options=language_list,label="Select a Language",with_input=True,on_change=update_project_name)
     ui.select(options=["Add Characters to NVDA","Download Files for NVDA","Write Table for Lib Louis","Write Test for Lib Louis"],label="What do you want to do with this Project?",multiple=True)
+    with ui.dialog() as confirm_remove_project_dialog, ui.card():
+        ui.label("Are you sure you want to completely remove this project?")
+        ui.button("Cancel",on_click=confirm_remove_project_dialog.close)
+        ui.button("Delete",on_click=remove_project(confirm_remove_project_dialog))
     with ui.button("More Options"):
         with ui.menu() as more_options_menu:
-            ui.menu_item("Completely Remove Project")
-    ui.menu_item("Edit Project")
+            ui.menu_item("Edit Project")
+            ui.menu_item("Completely Remove Project",on_click=confirm_remove_project_dialog.open)
     ui.button("Next")
+
+
+def remove_project(dialog):
+    global project_name, languages
+    if not project_name ==None:
+        new_languages=filter(check_language_names,languages)
+        languages=list(new_languages)
+        with open("utils/languages_file.json","w",encoding="utf-8") as file:
+            json.dump(languages,file,ensure_ascii=False,indent=4)
+        dialog.close
+        ui.notify("Project Removed",close_button="Ok")
+
+
+def check_language_names(language):
+    global project_name
+    if language["name"]==project_name:
+        return False
+    else:
+        return True
 
 
 @ui.page("/create_project")
@@ -91,6 +114,6 @@ def save_project():
 
 ui.label("What do you want to do?")
 ui.link("Create a New Project",create_project)
-ui.link("Get Access to Existing Project",existing_project)
+ui.link("Access Existing Project",existing_project)
 
 ui.run(native=True,window_size=(400,300),fullscreen=False,title="example")
