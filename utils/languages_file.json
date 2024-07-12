@@ -199,13 +199,5 @@
         ],
         "language_information": "\n# The braille code for Ugaritic is innovative, but accurately represents the Cuneiform . The braille\n# code for Ugaritic is represented in braille as the name for\n# the sign in Ugaritic. Thus, if the Ugaritic sign is\n# a \"Alepha,\" then the braille code for this sign would\n# be a dot 1. \n# for more information on the Ugaritic language, please go to:\n# <https://oracc.museum.upenn.edu/aemw/ugarit/corpus> \n# Also see: \n# <https://en.wikipedia.org/wiki/Ugaritic>\n",
         "contributors": "\n# This braille code was developed by a group of both blind and sighted scholars\n# in an academic setting. Special thank you to Ray McAllister\n# and Matthew Yeater for your help in developing this braille code.\n#-maintainer: Paul Geoghegan <contact@envisionly.tech>\n#-maintainer: Matityhau Yeshurun <yeatersink@gmail.com>\n# Copyright 2024 Matt Yeater and Paul GeogheganCopyright 2024 Matt Yeater McAllisterCopyright 2024 Matt Yeater adn Paul Geoghegan.andand Paul Geoghegan.andPaul Geoghegan.\n"
-    },
-    {
-        "name": "Akkadian-Test",
-        "name_column": null,
-        "char_column": null,
-        "braille_column": null,
-        "type_column": null,
-        "unicode_column": null
     }
 ]
