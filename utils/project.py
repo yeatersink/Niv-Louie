@@ -13,7 +13,10 @@ class Project:
         self.project_unicode_column = None
         self.project_type_column = None
         self.project_braille_column = None
-        self.languages = None
+
+    def update_project_name(self, e: events.ValueChangeEventArguments):
+        self.project_name = e.value
+
 
     def update_project_name_column(self, e: events.ValueChangeEventArguments):
         self.project_name_column = e.value
@@ -36,23 +39,32 @@ class Project:
         self.project_text = pd.read_csv(content_as_file)
 
     def save_project(self):
+        error=False
         if self.project_name is None:
             ui.notify("Please enter a name for your project.", type="negative")
-        elif self.project_name_column is None:
+            error=True
+        if self.project_name_column is None:
             ui.notify("Please select a name column for your project.", type="negative")
-        elif self.project_character_column is None:
+            error=True
+        if self.project_character_column is None:
             ui.notify("Please select a character column for your project.", type="negative")
-        elif self.project_unicode_column is None:
-         ui.notify("Please select a Unicode column for your project.", type="negative")
-        elif self.project_type_column is None:
+            error=True
+        if self.project_unicode_column is None:
+            ui.notify("Please select a Unicode column for your project.", type="negative")
+            error=True
+        if self.project_type_column is None:
             ui.notify("Please select a type column for your project.", type="negative")
-        elif self.project_braille_column is None:
+            error=True
+        if self.project_braille_column is None:
             ui.notify("Please select a braille column for your project.", type="negative")
+            error=True
 
         for language in languages:
-            if self.project_name.lower() == language.name.lower():
+            if self.project_name.lower() == language["name"].lower():
                 ui.notify("A project with that name already exists.",type="negative")
-                return
+
+        if error:
+            return
 
         project_object= {"name":self.project_name,"name_column":self.project_name_column,"char_column":self.project_character_column,"braille_column":self.project_braille_column,"type_column":self.project_type_column,"unicode_column":self.project_unicode_column}
         languages.append(project_object)

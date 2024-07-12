@@ -12,10 +12,10 @@ def existing_project():
     print(languages)
     for language in languages:
         language_list.append(language["name"])
-    print(language_list)
+
     ui.button("Go Back",on_click=ui.navigate.back)
     ui.label("Get Access to an Existing Language")
-    ui.select(options=language_list,label="Select a Language",with_input=True,on_change=project.update_project_name)
+    ui.select(options=sorted(language_list),label="Select a Language",with_input=True,on_change=project.update_project_name)
     ui.select(options=["Add Characters to NVDA","Download Files for NVDA","Write Table for Lib Louis","Write Test for Lib Louis"],label="What do you want to do with this Project?",multiple=True)
     with ui.dialog() as confirm_remove_project_dialog, ui.card():
         ui.label("Are you sure you want to completely remove this project?")
@@ -48,8 +48,8 @@ def project_information():
         ui.select(label="What column contains the name of the character?",options=project.project_text.columns.tolist(),value=project.project_name_column,on_change=project.update_project_name_column)
         ui.select(label="What column contains the character?",options=project.project_text.columns.tolist(),value=project.project_character_column,on_change=project.update_project_character_column)
         ui.select(label="What column contains the Unicode value of the character?",options=project.project_text.columns.tolist(),value=project.project_unicode_column,on_change=project.update_project_unicode_column)
-        ui.select(label="What column contains the Type of the character?",options=project_text.columns.tolist(),value=project_type_column,on_change=project.update_project_type_column)
-        ui.select(label="What column contains the Braille character?",options=project_text.columns.tolist(),value=project_braille_column,on_change=project.update_project_braille_column)
+        ui.select(label="What column contains the Type of the character?",options=project.project_text.columns.tolist(),value=project.project_type_column,on_change=project.update_project_type_column)
+        ui.select(label="What column contains the Braille character?",options=project.project_text.columns.tolist(),value=project.project_braille_column,on_change=project.update_project_braille_column)
     ui.button("Save Project",on_click=project.save_project)
 
 
