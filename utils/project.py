@@ -2,6 +2,29 @@ from nicegui import app, events, ui
 import io
 import pandas as pd
 import json
+#the create_braille_table function is used to create the braille table for lib louis
+#the create_braille_tests function is used to create the braille tests for lib louis
+#the get_braille_from_text_in_source function is used to convert the text characters to braille characters in the source language file
+from braille import create_braille_table, create_braille_tests, get_braille_from_text_in_source
+#The create_filtered_csv function is used to create the filtered csv file
+#The regenerate_characters_using_hex function is used to regenerate the characters in the language source file
+from csv import create_filtered_csv, regenerate_characters_using_hex
+#The add_characters_to_nvda function is used to add the symbols to the nvda symbols file
+#The generate_locale_file function is used to generate the locale file for nvda
+#The generate_character_set function is used to generate the character set for nvda
+from nvda import add_characters_to_nvda,generate_locale_file, generate_character_set
+
+
+# Function to load languages from JSON file
+def load_languages():
+    try:
+        with open("utils/languages_file.json", "r", encoding="utf-8") as file:
+            return json.load(file)
+    except FileNotFoundError:
+        return []  # Return an empty list if the file does not exist
+
+#Loads the languages from the JSON file
+languages = load_languages()
 
 
 class Project:
@@ -13,6 +36,8 @@ class Project:
         self.project_unicode_column = None
         self.project_type_column = None
         self.project_braille_column = None
+        self.user_actions=[]
+        self.actions={"Add Characters to NVDA":add_characters_to_nvda,"Download Files for NVDA":generate_locale_file,"Write Table for Lib Louis":create_braille_table,"Write Test for Lib Louis":create_braille_tests}
 
     def update_project_name(self, e: events.ValueChangeEventArguments):
         self.project_name = e.value
@@ -32,6 +57,9 @@ class Project:
 
     def update_project_braille_column(self, e: events.ValueChangeEventArguments):
         self.project_braille_column = e.value
+
+    def update_user_actions(self,e:events.ValueChangeEventArguments):
+        self.user_actions=e.value
 
     def handle_file_upload(self, e: events.UploadEventArguments):
         self.project_name = e.name.split(".")[0]
@@ -72,48 +100,45 @@ class Project:
             json.dump(languages, file, ensure_ascii=False, indent=4)
         project.project_text.to_csv("languages/source/"+project.project_name+".csv",index=False)
         ui.navigate.to("/existing_project")
+        ui.notify("Project Saved",close_button="Ok")
 
-        
+    def remove_project(self):
+        """
+        Remove the project from the languages file
+        """
+        global languages
+        removed=False
+        if not self.project_name ==None:
+            new_languages=filter(self.check_language_names,languages)
+            if len(new_languages) < len(languages):
+                removed=True
+            languages=list(new_languages)
+            with open("utils/languages_file.json","w",encoding="utf-8") as file:
+                json.dump(languages,file,ensure_ascii=False,indent=4)
+        if removed:
+            ui.notify("Project Removed",close_button="Ok")
+        else:
+            ui.notify("Project not found",close_button="Ok")
+
+    def check_language_names(self,language):
+        """
+        Check if the language name is the same as the project name.
+    
+        Parameters:
+    language: The language to be checked.
+
+    Returns:
+    True if the language name is not the same as the project name, False otherwise.
+        """
+    
+        if language["name"]==self.project_name:
+            return False
+        else:
+            return True
+
+    def perform_actions(self):
+        for action in self.user_actions:
+            ui.notify(action)
+
+
 project = Project()
-
-# Function to load languages from JSON file
-def load_languages():
-    try:
-        with open("utils/languages_file.json", "r", encoding="utf-8") as file:
-            return json.load(file)
-    except FileNotFoundError:
-        return []  # Return an empty list if the file does not exist
-
-#Loads the languages from the JSON file
-languages = load_languages()
-
-def remove_project(dialog):
-    """
-    Remove the project from the languages file and close the dialog.
-    
-    Parameters:
-    dialog: The dialog to be closed.
-    """
-    if not project.project_name ==None:
-        new_languages=filter(check_language_names,languages)
-        languages=list(new_languages)
-        with open("utils/languages_file.json","w",encoding="utf-8") as file:
-            json.dump(languages,file,ensure_ascii=False,indent=4)
-        dialog.close
-        ui.notify("Project Removed",close_button="Ok")
-
-def check_language_names(language):
-    """
-    Check if the language name is the same as the project name.
-    
-    Parameters:
-language: The language to be checked.
-
-Returns:
-True if the language name is not the same as the project name, False otherwise.
-	"""
-    
-    if language["name"]==project.project_name:
-        return False
-    else:
-        return True

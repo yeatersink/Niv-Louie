@@ -1,5 +1,5 @@
 from nicegui import app, events, ui
-from utils.project import remove_project, project, languages
+from utils.project import languages, project
 
 
 app.native.window_args["resizable"]=True
@@ -9,23 +9,27 @@ app.native.start_args["debug"]=True
 def existing_project():
     global languages
     language_list=[]
-    print(languages)
     for language in languages:
         language_list.append(language["name"])
 
     ui.button("Go Back",on_click=ui.navigate.back)
     ui.label("Get Access to an Existing Language")
     ui.select(options=sorted(language_list),label="Select a Language",with_input=True,on_change=project.update_project_name)
-    ui.select(options=["Add Characters to NVDA","Download Files for NVDA","Write Table for Lib Louis","Write Test for Lib Louis"],label="What do you want to do with this Project?",multiple=True)
+    ui.select(options=project.actions.keys(),label="What do you want to do with this Project?",multiple=True,on_change=project.update_user_actions)
     with ui.dialog() as confirm_remove_project_dialog, ui.card():
         ui.label("Are you sure you want to completely remove this project?")
         ui.button("Cancel",on_click=confirm_remove_project_dialog.close)
-        ui.button("Delete",on_click=remove_project(confirm_remove_project_dialog))
+
+        def remove_and_close():
+            project.remove_project()
+            confirm_remove_project_dialog.close
+
+        ui.button("Delete",on_click=remove_and_close())
     with ui.button("More Options"):
         with ui.menu() as more_options_menu:
             ui.menu_item("Edit Project")
             ui.menu_item("Completely Remove Project",on_click=confirm_remove_project_dialog.open)
-    ui.button("Next")
+    ui.button("Next",on_click=project.perform_actions)
 
 
 @ui.page("/create_project")
@@ -56,6 +60,7 @@ def project_information():
 ui.label("What do you want to do?")
 ui.link("Create a New Project",create_project)
 ui.link("Access Existing Project",existing_project)
+ui.link("Create Braille document from Existing Project.")
 ui.button("Exit",on_click=app.stop)
 
 
