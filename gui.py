@@ -1,5 +1,6 @@
 from nicegui import app, events, ui
-from utils.project import languages, project
+from utils.project import project
+from utils.project_utils import actions, actions_name_list, user_actions, perform_user_actions, save_and_create_csv, update_user_actions
 
 
 app.native.window_args["resizable"]=True
@@ -7,29 +8,27 @@ app.native.start_args["debug"]=True
 
 @ui.page("/existing_project")
 def existing_project():
-    global languages
-    language_list=[]
-    for language in languages:
-        language_list.append(language["name"])
-
     ui.button("Go Back",on_click=ui.navigate.back)
     ui.label("Get Access to an Existing Language")
-    ui.select(options=sorted(language_list),label="Select a Language",with_input=True,on_change=project.update_project_name)
-    ui.select(options=project.actions.keys(),label="What do you want to do with this Project?",multiple=True,on_change=project.update_user_actions)
+    language_select = ui.select(options=sorted(project.languages_list),label="Select a Language",with_input=True,on_change=project.update_project_name)
+    ui.select(options=actions_name_list,label="What do you want to do with this Project?",multiple=True,on_change=update_user_actions)
     with ui.dialog() as confirm_remove_project_dialog, ui.card():
         ui.label("Are you sure you want to completely remove this project?")
         ui.button("Cancel",on_click=confirm_remove_project_dialog.close)
 
         def remove_and_close():
             project.remove_project()
-            confirm_remove_project_dialog.close
+            language_select.options = sorted(project.languages_list)
+            confirm_remove_project_dialog.close()
 
-        ui.button("Delete",on_click=remove_and_close())
+
+        ui.button("Delete",on_click=remove_and_close)
     with ui.button("More Options"):
         with ui.menu() as more_options_menu:
             ui.menu_item("Edit Project")
             ui.menu_item("Completely Remove Project",on_click=confirm_remove_project_dialog.open)
-    ui.button("Next",on_click=project.perform_actions)
+    ui.button("Next",on_click=perform_user_actions)
+    ui.button("Home",on_click=lambda: ui.navigate.to("/"))
 
 
 @ui.page("/create_project")
@@ -54,7 +53,7 @@ def project_information():
         ui.select(label="What column contains the Unicode value of the character?",options=project.project_text.columns.tolist(),value=project.project_unicode_column,on_change=project.update_project_unicode_column)
         ui.select(label="What column contains the Type of the character?",options=project.project_text.columns.tolist(),value=project.project_type_column,on_change=project.update_project_type_column)
         ui.select(label="What column contains the Braille character?",options=project.project_text.columns.tolist(),value=project.project_braille_column,on_change=project.update_project_braille_column)
-    ui.button("Save Project",on_click=project.save_project)
+    ui.button("Save Project",on_click=save_and_create_csv)
 
 
 ui.label("What do you want to do?")

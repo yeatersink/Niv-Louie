@@ -1,5 +1,4 @@
-#The languages variable is imported from the languages file
-from utils.languages_file import languages
+from utils.project import languages,project
 #the create_braille_table function is used to create the braille table for lib louis
 #the create_braille_tests function is used to create the braille tests for lib louis
 #the get_braille_from_text_in_source function is used to convert the text characters to braille characters in the source language file
@@ -33,7 +32,7 @@ print("""
 option=int(input("enter a number one through 8"))
 #option 1 creates the filtered csv file
 if option == 1:
-    create_filtered_csv(language_option)
+    create_filtered_csv()
 #option 2 generates locale file for nvda
 elif option==2:
     generate_locale_file(language_option)

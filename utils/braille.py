@@ -3,43 +3,43 @@ import warnings
 import pandas as pd
 #json is used for reading the json files
 import json
-#The languages variable is imported from the languages file
-from utils.languages_file import languages
+from utils.project import project
 
-def create_braille_table(language_option):
+
+def create_braille_table():
     print("creating table for lib louis")
     #The language file is read in to pandas
-    braille=pd.read_csv("languages/filtered_"+languages[language_option]["name"]+".csv")
+    braille=pd.read_csv("languages/filtered_"+project.project_name+".csv")
     #The braille table is opened in write mode to create the table
-    braille_table=open("braille/"+languages[language_option]["language_code"]+".utb","w",encoding="utf8")
+    braille_table=open("braille/"+project.project_language_code+".utb","w",encoding="utf-8")
     #The braille column is converted to numbers
-    braille[languages[language_option]["braille_column"]]=braille[languages[language_option]["braille_column"]].apply(braille_to_numbers)
+    braille[project.project_braille_column]=braille[project.project_braille_column].apply(braille_to_numbers)
 
     #The braille table is written to with the information for the language that is required for lib louis
     braille_table.write("""
-# liblouis: """+languages[language_option]["name"]+"""
+# liblouis: """+project.project_name+"""
 #
 """)
 
-    if "display_name" in languages[language_option]:
-        braille_table.write("#-display-name: "+languages[language_option]["display_name"]+"\n")
+    if not project.project_display_name==None:
+        braille_table.write("#-display-name: "+project.project_display_name+"\n")
     else:
-        braille_table.write("#-display-name: "+languages[language_option]["name"]+" uncontracted\n")
+        braille_table.write("#-display-name: "+project.project_display_name+" uncontracted\n")
             
-    if "index-name" in languages[language_option]:
-        braille_table.write("#-index-name: "+languages[language_option]["index_name"]+"\n")
+    if not project.project_index_name==None:
+        braille_table.write("#-index-name: "+project.project_index_name+"\n")
     else:
-                            braille_table.write("#-index-name: "+languages[language_option]["name"]+" uncontracted\n")
+                            braille_table.write("#-index-name: "+project.project_name+" uncontracted\n")
                             
     #Checks if the supported_braille_languages property exists on the language
-    if "supported_braille_languages" in languages[language_option]:
-        for language in languages[language_option]["supported_braille_languages"]:
+    if not project.project_supported_braille_languages==None:
+        for language in project.project_supported_braille_languages:
             braille_table.write("#+language: "+language+"\n")
     else:
-        braille_table.write("#+language: "+languages[language_option]["language_code"]+"\n")
+        braille_table.write("#+language: "+project.project_language_code+"\n")
     braille_table.write("""#+type:literary
 #+contraction:no
-#+system:"""+languages[language_option]["language_system_code"]+"""
+#+system:"""+project.project_language_system_code+"""
 #+dots:6
 
 #-license: lgpl-2.1
@@ -59,28 +59,27 @@ def create_braille_table(language_option):
 # Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA
 # liblouis  comes with ABSOLUTELY NO WARRANTY.
 
-"""+languages[language_option]["language_information"]+languages[language_option]["contributors"])
-    braille=braille.sort_values(["Type",languages[language_option]["char_column"]])
+"""+project.project_language_information+project.project_contributers)
+    braille=braille.sort_values(["Type",project.project_character_column])
     previous_char=""
     #This loop goes through each row in the braille file and writes the braille code and the number to the braille table
     for index, row in braille.iterrows():
         if row["Type"] != previous_char:
             braille_table.write("\n# "+str(row["Type"])+" op code characters\n")
             previous_char=row["Type"]
-        if len(row[languages[language_option]["braille_column"]]) > 0:
+        if len(row[project.project_braille_column]) > 0:
             new_line=""
-            if  str(row[languages[language_option]["char_column"]]).isspace():
-                print("space Found")
-                new_line=row["Type"]+" \\s "+str(row[languages[language_option]["braille_column"]])+"  # space\n"
+            if str(row[project.project_character_column]).isspace():
+                new_line=row["Type"]+" \\s "+str(row[project.project_braille_column])+"  # space\n"
             else:
-                new_line=row["Type"]+" "+str(row[languages[language_option]["char_column"]])+" "+str(row[languages[language_option]["braille_column"]])+"  # "+str(row[languages[language_option]["name_column"]])+"\n"
+                new_line=row["Type"]+" "+str(row[project.project_character_column])+" "+str(row[project.project_braille_column])+"  # "+str(row[project.project_name_column])+"\n"
             braille_table.write(new_line)
         else:
-            warnings.warn("this line was missing it's braille. This may be a mistake in your table. Character: "+row[languages[language_option]["char_column"]])
+            warnings.warn("this line was missing it's braille. This may be a mistake in your table. Character: "+row[project.project_character_column])
 
-    if len(languages[language_option]["included_braille_tables"]) > 0:
+    if not project.project_included_braille_tables==None:
         braille_table.write("\n# Include additional braille tables\n")
-        for table in languages[language_option]["included_braille_tables"]:
+        for table in project.project_included_braille_tables:
             braille_table.write("include "+table+"\n")
     #The braille table is closed to prevent memory leaks
     braille_table.close()
@@ -179,24 +178,25 @@ def braille_to_numbers(text):
     else:
         return ""
 
-def create_braille_tests(language_option):
+
+def create_braille_tests():
     """
     This function creates the braille tests for Lib Louis
     
     Parameters:
-    language_option (int): The index of the language that the user has chosen
+     (int): The index of the language that the user has chosen
 
     """
 
     #The language file is read in to pandas
-    language_file=pd.read_csv("languages/filtered_"+languages[language_option]["name"]+".csv",encoding="utf8")
+    language_file=pd.read_csv("languages/filtered_"+project.project_name+".csv",encoding="utf-8")
     #The test csv file is read in to pandas
-    test_csv=pd.read_csv("braille_tests/"+languages[language_option]["language_code"]+".csv",encoding="utf8")
+    test_csv=pd.read_csv("braille_tests/"+project.project_language_code+".csv",encoding="utf-8")
     #The test yaml file is opened in write mode to create the test
-    test_yaml=open("braille_tests/"+languages[language_option]["language_code"]+".yaml","w",encoding="utf8")
+    test_yaml=open("braille_tests/"+project.project_language_code+".yaml","w",encoding="utf-8")
     #The test yaml file is written to with the information that is required for the test for Lib Louis
     test_yaml.write("""
-# Yaml Test For """+languages[language_option]["name"]+"""
+# Yaml Test For """+project.project_name+"""
 
 # Copying and distribution of this file, with or without modification,
 # are permitted in any medium without royalty provided the copyright
@@ -205,14 +205,14 @@ def create_braille_tests(language_option):
 
 """)
     #Checks if the test_display_type property exists on the language
-    if "test_display_type" in languages[language_option]:
-        test_yaml.write("display: "+languages[language_option]["test_display_type"]+"\n")
+    if not project.project_test_display_type==None:
+        test_yaml.write("display: "+project.project_test_display_type+"\n")
     else:
         test_yaml.write("display: unicode.dis\n")
         
     test_yaml.write("""table:
-  language: """+languages[language_option]["language_code"]+"""
-  __assert-match: """+languages[language_option]["language_code"]+""".utb
+  language: """+project.project_language_code+"""
+  __assert-match: """+project.project_language_code+""".utb
 flags: { testmode: forward }
 tests:
 """)
@@ -238,8 +238,8 @@ tests:
             braille_test=new_text
         #This loop goes through each character in the text
         for index,language_row in language_file.iterrows():
-            if language_row[languages[language_option]["char_column"]] in braille_test and language_row[languages[language_option]["braille_column"]] != "nan":
-                braille_test=braille_test.replace(language_row[languages[language_option]["char_column"]],language_row[languages[language_option]["braille_column"]])
+            if language_row[project.project_character_column] in braille_test and language_row[project.project_braille_column] != "nan":
+                braille_test=braille_test.replace(language_row[project.project_character_column],language_row[project. project_braille_column])
         #This loop goes through each character in the text and uses the braille test object to convert the text to braille
         for char in braille_test:
             if char in braille_test_object:
@@ -254,23 +254,23 @@ tests:
     test_yaml.close()
     print("done creating braille tests")
 
-def get_braille_from_text_in_source(language_option):
+def get_braille_from_text_in_source():
     """
     This function converts the text characters to braille characters in the source language file
     
     Parameters:
-    language_option (int): The index of the language that the user has chosen
+     (int): The index of the language that the user has chosen
     
     """
     print ("converting text to braille")
     #the language source file is read in to pandas
-    language_file=pd.read_csv("languages/source/"+languages[language_option]["name"]+".csv")
+    language_file=pd.read_csv("languages/source/"+project.project_name+".csv")
     #selects the braille column
-    braille_column=language_file[languages[language_option]["braille_column"]]
+    braille_column=language_file[project.project_braille_column]
     #applies the get_braille function to the braille column to convert the text to braille
     new_braille_column=braille_column.apply(get_braille_from_text)
     #the braille column is replaced with the new braille column
     language_file["Braille"]=new_braille_column
     #the file is saved to the source folder
-    language_file.to_csv("languages/source/"+languages[language_option]["name"]+".csv",index=False)
+    language_file.to_csv("languages/source/"+project.project_name+".csv",index=False)
     print("done converting text to braille")

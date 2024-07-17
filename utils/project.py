@@ -2,17 +2,6 @@ from nicegui import app, events, ui
 import io
 import pandas as pd
 import json
-#the create_braille_table function is used to create the braille table for lib louis
-#the create_braille_tests function is used to create the braille tests for lib louis
-#the get_braille_from_text_in_source function is used to convert the text characters to braille characters in the source language file
-from braille import create_braille_table, create_braille_tests, get_braille_from_text_in_source
-#The create_filtered_csv function is used to create the filtered csv file
-#The regenerate_characters_using_hex function is used to regenerate the characters in the language source file
-from csv import create_filtered_csv, regenerate_characters_using_hex
-#The add_characters_to_nvda function is used to add the symbols to the nvda symbols file
-#The generate_locale_file function is used to generate the locale file for nvda
-#The generate_character_set function is used to generate the character set for nvda
-from nvda import add_characters_to_nvda,generate_locale_file, generate_character_set
 
 
 # Function to load languages from JSON file
@@ -23,10 +12,6 @@ def load_languages():
     except FileNotFoundError:
         return []  # Return an empty list if the file does not exist
 
-#Loads the languages from the JSON file
-languages = load_languages()
-
-
 class Project:
     def __init__(self):
         self.project_name = None
@@ -36,8 +21,23 @@ class Project:
         self.project_unicode_column = None
         self.project_type_column = None
         self.project_braille_column = None
-        self.user_actions=[]
-        self.actions={"Add Characters to NVDA":add_characters_to_nvda,"Download Files for NVDA":generate_locale_file,"Write Table for Lib Louis":create_braille_table,"Write Test for Lib Louis":create_braille_tests}
+        self.project_language_code = None
+        self.project_language_system_code=None
+        self.project_display_name=None
+        self.project_index_name=None
+        self.project_supported_braille_languages=None
+        self.project_language_information=None
+        self.project_contributors=None
+        self.project_included_braille_tables=None
+        self.project_test_display_type=None
+        self.project_replace=None
+        #Loads the languages from the JSON file
+        self.languages = load_languages()
+        self.languages_list = [language["name"] for language in self.languages]
+
+
+    def update_languages_list(self):
+        self.languages_list = [language["name"] for language in self.languages]
 
     def update_project_name(self, e: events.ValueChangeEventArguments):
         self.project_name = e.value
@@ -57,9 +57,6 @@ class Project:
 
     def update_project_braille_column(self, e: events.ValueChangeEventArguments):
         self.project_braille_column = e.value
-
-    def update_user_actions(self,e:events.ValueChangeEventArguments):
-        self.user_actions=e.value
 
     def handle_file_upload(self, e: events.UploadEventArguments):
         self.project_name = e.name.split(".")[0]
@@ -87,7 +84,7 @@ class Project:
             ui.notify("Please select a braille column for your project.", type="negative")
             error=True
 
-        for language in languages:
+        for language in self.languages:
             if self.project_name.lower() == language["name"].lower():
                 ui.notify("A project with that name already exists.",type="negative")
 
@@ -95,27 +92,31 @@ class Project:
             return
 
         project_object= {"name":self.project_name,"name_column":self.project_name_column,"char_column":self.project_character_column,"braille_column":self.project_braille_column,"type_column":self.project_type_column,"unicode_column":self.project_unicode_column}
-        languages.append(project_object)
+        self.languages.append(project_object)
+        self.update_languages_list()
         with open("utils/languages_file.json", "w", encoding="utf-8") as file:
-            json.dump(languages, file, ensure_ascii=False, indent=4)
+            json.dump(self.languages, file, ensure_ascii=False, indent=4)
         project.project_text.to_csv("languages/source/"+project.project_name+".csv",index=False)
+
         ui.navigate.to("/existing_project")
         ui.notify("Project Saved",close_button="Ok")
+
 
     def remove_project(self):
         """
         Remove the project from the languages file
         """
-        global languages
+
         removed=False
-        if not self.project_name ==None:
-            new_languages=filter(self.check_language_names,languages)
-            if len(new_languages) < len(languages):
+        if self.project_name != None:
+            new_languages=list(filter(self.check_language_names,self.languages))
+            if len(new_languages) < len(self.languages):
                 removed=True
-            languages=list(new_languages)
+            self.languages=list(new_languages)
+            self.update_languages_list()
             with open("utils/languages_file.json","w",encoding="utf-8") as file:
-                json.dump(languages,file,ensure_ascii=False,indent=4)
-        if removed:
+                json.dump(self.languages,file,ensure_ascii=False,indent=4)
+        if removed == True:
             ui.notify("Project Removed",close_button="Ok")
         else:
             ui.notify("Project not found",close_button="Ok")
@@ -136,9 +137,22 @@ class Project:
         else:
             return True
 
-    def perform_actions(self):
-        for action in self.user_actions:
-            ui.notify(action)
+    def set_all_fields(self):
+        if self.project_name==None:
+            ui.notify("No Project Selected!",type="negative")
+            return
+        current_language=None
+        for language in self.languages:
+            if language["name"]==self.project_name:
+                current_language=language
+        if current_language==None:
+            ui.notify("Couldn't Find that Project!",type="negative")
+            return
+        self.project_name_column=current_language["name_column"]
+        self.project_character_column=current_language["character_column"]
+        set.project_unicode_column=current_language["unicode_column"]
+        self.project_type_column=current_language["type_column"]
+        self.project_braille_column=current_language["braille_column"]
 
 
 project = Project()

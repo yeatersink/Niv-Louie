@@ -1,29 +1,25 @@
 #Pandas is used for reading the   csv files
 import pandas as pd
-#The languages dictionary is imported from the languages.py file
-from utils.languages_file import languages
 #Warnings is imported to display warnings to the user
 import warnings
+from utils.project import project
 
-def create_filtered_csv(language_option):
+
+def create_filtered_csv():
     """
     This function creates a filtered csv file that only contains the characters, names, and braille codes for the language    
-    
-    Parameters:
-    language_option (int): The index of the language that the user has chosen
-
-"""
-    print("Generating",languages[language_option]["name"],"Spreadsheet")
+    """
+    print("Generating",project.project_name,"Spreadsheet")
     #The language file is read in to pandas
-    language_file=pd.read_csv("languages/source/"+languages[language_option]["name"]+".csv")
+    language_file=pd.read_csv("languages/source/"+project.project_name+".csv")
     #selects the columns that are needed for the filtered csv file
-    filtered_language=language_file[[languages[language_option]["char_column"],"Hex","Type",languages[language_option]["name_column"],languages[language_option]["braille_column"]]].copy()
+    filtered_language=language_file[[project.project_character_column,"Hex","Type",project.project_name_column,project.project_braille_column]].copy()
     #Gets the name column
-    name_column=filtered_language[[languages[language_option]["name_column"]]].copy()
+    name_column=filtered_language[[project.project_name_column]].copy()
     #applies the format_names function to the name column to remove any unwanted characters
-    new_name_column=name_column[languages[language_option]["name_column"]].apply(format_names,args=(language_option,))
+    new_name_column=name_column[project.project_name_column].apply(format_names)
     #replaces the name column with the new name column
-    filtered_language[languages[language_option]["name_column"]]=new_name_column
+    filtered_language[project.project_name_column]=new_name_column
     #Checks if there are rows where there is a plus in the Hex column and the Type is not set to always
     if filtered_language[(filtered_language["Hex"].str.contains("\+")) & (filtered_language["Type"]!="always")].shape[0]>0:
         #Displays a warning to the user with the characters
@@ -36,10 +32,10 @@ def create_filtered_csv(language_option):
         print(filtered_language[filtered_language.duplicated(keep=False,subset=["Hex"])])
     filtered_language = filtered_language.sort_values(by=["Hex"],key=lambda x:x.str.len(),ascending=False)
     #saves the filtered language file to the languages folder
-    filtered_language.to_csv("languages/filtered_"+languages[language_option]["name"]+".csv",index=False)
+    filtered_language.to_csv("languages/filtered_"+project.project_name+".csv",index=False)
     print("Spreadsheet Generated")
 
-def format_names(name,language_option):
+def format_names(name):
     """
 
     This function removes unwanted characters from the name of the character
@@ -54,9 +50,9 @@ def format_names(name,language_option):
     print(name)
 
     #checks if the name contains any of the unwanted characters
-    if len(languages[language_option]["replace"]) > 0:
+    if not project.project_replace==None:
         #loops through the unwanted characters
-        for phrase in languages[language_option]["replace"]:
+        for phrase in project.project_replace:
             #checks if the unwanted character is in the name
             if phrase in name:
                 #removes the unwanted character from the name
@@ -64,22 +60,22 @@ def format_names(name,language_option):
     #returns the name without the unwanted characters
     return name
 
-def regenerate_characters_using_hex(language_option):
+def regenerate_characters_using_hex():
     """
     
     This function regenerates the characters in the language file to the correct characters using the change_characters function
     
     Parameters:
-    language_option (int): The index of the language that the user has chosen
+     (int): The index of the language that the user has chosen
     
     """
     print("Regenerating characters")
     #the language source file is read in to pandas
-    language_file=pd.read_csv("languages/source/"+languages[language_option]["name"]+".csv")
+    language_file=pd.read_csv("languages/source/"+project.project_name+".csv")
     #the characters are changed to the correct characters
-    language_file[languages[language_option]["char_column"]]=language_file["Hex"].apply(generate_characters)
+    language_file[project.project_character_column]=language_file["Hex"].apply(generate_characters)
     #the file is saved to the source folder
-    language_file.to_csv("languages/source/"+languages[language_option]["name"]+".csv",index=False)
+    language_file.to_csv("languages/source/"+project.project_name+".csv",index=False)
     print("Characters regenerated")
 
 def generate_characters(hex):
