@@ -21,18 +21,18 @@ def create_braille_table():
 #
 """)
 
-    if not project.project_display_name==None:
+    if project.project_display_name!=None:
         braille_table.write("#-display-name: "+project.project_display_name+"\n")
     else:
-        braille_table.write("#-display-name: "+project.project_display_name+" uncontracted\n")
+        braille_table.write("#-display-name: "+project.project_name+" uncontracted\n")
             
-    if not project.project_index_name==None:
+    if project.project_index_name!=None:
         braille_table.write("#-index-name: "+project.project_index_name+"\n")
     else:
                             braille_table.write("#-index-name: "+project.project_name+" uncontracted\n")
                             
     #Checks if the supported_braille_languages property exists on the language
-    if not project.project_supported_braille_languages==None:
+    if project.project_supported_braille_languages!=None:
         for language in project.project_supported_braille_languages:
             braille_table.write("#+language: "+language+"\n")
     else:
@@ -59,7 +59,7 @@ def create_braille_table():
 # Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA
 # liblouis  comes with ABSOLUTELY NO WARRANTY.
 
-"""+project.project_language_information+project.project_contributers)
+"""+project.project_language_information+project.project_contributors)
     braille=braille.sort_values(["Type",project.project_character_column])
     previous_char=""
     #This loop goes through each row in the braille file and writes the braille code and the number to the braille table
@@ -77,7 +77,7 @@ def create_braille_table():
         else:
             warnings.warn("this line was missing it's braille. This may be a mistake in your table. Character: "+row[project.project_character_column])
 
-    if not project.project_included_braille_tables==None:
+    if project.project_included_braille_tables!=None:
         braille_table.write("\n# Include additional braille tables\n")
         for table in project.project_included_braille_tables:
             braille_table.write("include "+table+"\n")

@@ -1,0 +1,15 @@
+[
+    {
+        "name": "Akkadian",
+        "summary": "Akkadian US",
+        "description": "This is a beta version of Akkadian US.",
+        "author": "Matt and Paul",
+        "version": "1",
+        "minimum_version": "2024.1",
+        "last_tested_version": "2024.1",
+        "locale": "en",
+        "included_projects": [
+            "Akkadian"
+        ]
+    }
+]

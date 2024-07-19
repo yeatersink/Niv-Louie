@@ -19,6 +19,8 @@
         "language_system_code": "akk-oracc",
         "name_column": "Name",
         "char_column": "Character",
+        "unicode_column": "Hex",
+        "type_column": "Type",
         "braille_column": "Braille",
         "replace": [
             "CUNEIFORM SIGN"
@@ -201,11 +203,21 @@
         "contributors": "\n# This braille code was developed by a group of both blind and sighted scholars\n# in an academic setting. Special thank you to Ray McAllister\n# and Matthew Yeater for your help in developing this braille code.\n#-maintainer: Paul Geoghegan <contact@envisionly.tech>\n#-maintainer: Matityhau Yeshurun <yeatersink@gmail.com>\n# Copyright 2024 Matt Yeater and Paul GeogheganCopyright 2024 Matt Yeater McAllisterCopyright 2024 Matt Yeater adn Paul Geoghegan.andand Paul Geoghegan.andPaul Geoghegan.\n"
     },
     {
-        "name": "Akkadian-Test2",
+        "name": "Akkadian-Test3",
         "name_column": "Name",
-        "char_column": "Character(decimal)",
+        "char_column": "Character",
         "braille_column": "Braille",
         "type_column": "Type",
-        "unicode_column": "Hex"
+        "unicode_column": "Hex",
+        "language_code": "ak",
+        "language_system_code": "ak=test",
+        "display_name": null,
+        "index_name": null,
+        "supported_braille_languages": null,
+        "language_information": "info here",
+        "contributors": "people",
+        "included_braille_tables": null,
+        "test_display_type": null,
+        "replace": null
     }
 ]

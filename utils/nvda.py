@@ -2,7 +2,10 @@
 import pathlib
 #Pandas is used for reading the   csv files
 import pandas as pd
+#ui is used for displaying notifications
+from nicegui import ui
 from utils.project import project
+from utils.project_extention import extention
 
 
 def add_characters_to_nvda():
@@ -80,14 +83,64 @@ def generate_locale_file():
     print("Generated Locale files for NVDA for",project.project_name)
 
 
+def create_nvda_extention():
+    """
+        This function creates a new extention for NVDA
+    """
+    print("Creating Extention for NVDA")
+    extention.set_fields()
+    new_folder = pathlib.Path("nvda_extentions/",extention.extention_name+".nvda-addon")
+    new_folder.mkdir(parents=True,exist_ok=True)
+    new_locale_folder=pathlib.Path("nvda_extentions/"+extention.extention_name+".nvda-addon/locale/",extention.extention_locale)
+    new_locale_folder.mkdir(parents=True,exist_ok=True)
+    manifest_file=open("nvda_extentions/"+extention.extention_name+".nvda-addon/manifest.ini","w",encoding="utf-8")
+    manifest_file.write("""name = """+extention.extention_name+"""""""""
+summary = \""""+extention.extention_summary+"""\"
+description = \""""+extention.extention_description+"""\"
+author = \""""+extention.extention_author+"""\"
+version = """+extention.extention_version+"""
+minimumNVDAVersion = """+extention.extention_minimum_version+"""
+lastTestedNVDAVersion = """+extention.extention_last_tested_version+"""
+
+[symbolDictionaries]
+""")
+    for language in extention.extention_included_projects:
+        project.set_project_name(language)
+        project.set_all_fields()
+        manifest_file.write("[["+project.project_language_code+"]]\n")
+        manifest_file.write("displayName = "+project.project_display_name+"\n")
+        manifest_file.write("mandatory = false\n")
+        add_characters_to_nvda_extention()
+    manifest_file.close()
+    ui.notify("Extention Generated!")
+
+
+def add_characters_to_nvda_extention():
+    """
+        This function adds the characters from the language file to the NVDA extention
+    """
+    print("generating nvda  Character Set for for",project.project_name)
+    #The language file is read in to pandas
+    language_file=pd.read_csv("languages/filtered_"+project.project_name+".csv")
+    #The character Set  file is created
+    nvda_character_set_file=open("nvda_extentions/"+extention.extention_name+".nvda-addon/locale/"+extention.extention_locale+"/symbols-"+project.project_language_code+".dic","w",encoding="utf-8")
+    nvda_character_set_file.write("""#"""+project.project_name+""" symbols.dic
+#Copyright (c) 2024Matthew Yeater and Paul Geoghegan.
+#This file is covered by the GNU General Public License.
+\n""")
+    language_file[project.project_name_column]=language_file[project.project_name_column].apply(format_names)
+    #this loop goes through each row in the language file
+    for index,row in language_file.sort_values(by=[project.project_name_column]).iterrows():
+        new_line=str(row[project.project_character_column])+"\t"+str(row["Name"])+"\tmost\talways\n"
+        nvda_character_set_file.write(new_line)
+    #the file is closed to prevent memory leaks
+    nvda_character_set_file.close()
+    print("Generated Character Set file for NVDA extention for",project.project_name)
+
+
 def generate_character_set():
     """
-
         This function generates a locale file for the language
-
-        Args:
-            : The index of the language in the languages variable
-
     """
     print("generating nvda  Character Set for for",project.project_name)
     #The language file is read in to pandas

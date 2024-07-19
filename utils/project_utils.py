@@ -9,12 +9,13 @@ from utils.csv import create_filtered_csv, regenerate_characters_using_hex
 #The add_characters_to_nvda function is used to add the symbols to the nvda symbols file
 #The generate_locale_file function is used to generate the locale file for nvda
 #The generate_character_set function is used to generate the character set for nvda
-from utils.nvda import add_characters_to_nvda,generate_locale_file, generate_character_set
+from utils.nvda import add_characters_to_nvda,generate_locale_file, generate_character_set, create_nvda_extention
 from utils.project import project
+
 
 user_actions=[]
 
-actions={"Add Characters to NVDA":add_characters_to_nvda,"Download Files for NVDA":generate_locale_file,"Write Table for Lib Louis":create_braille_table,"Write Test for Lib Louis":create_braille_tests}
+actions={"Add Characters to NVDA":{"action":add_characters_to_nvda,"notification":"Added characters to NVDA!"},"create extention for NVDA":{"action":create_nvda_extention,"notification":"Extention created for NVDA !"},"Write Table for Lib Louis":{"action":create_braille_table,"notification":"Table written for Lib Louis!"},"Write Test for Lib Louis":{"action":create_braille_tests,"notification":"Test written for Lib Louis!"}}
 
 actions_name_list=[key for key in actions]
 
@@ -22,7 +23,8 @@ def perform_user_actions():
     project.set_all_fields()
     global user_actions
     for action in user_actions:
-        actions[action]()
+        actions[action]["action"]()
+        ui.notify(actions[action]["notification"])
 
 def update_user_actions(e:events.ValueChangeEventArguments):
     global user_actions
