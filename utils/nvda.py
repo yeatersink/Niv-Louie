@@ -131,7 +131,7 @@ def add_characters_to_nvda_extention():
     language_file[project.project_name_column]=language_file[project.project_name_column].apply(format_names)
     #this loop goes through each row in the language file
     for index,row in language_file.sort_values(by=[project.project_name_column]).iterrows():
-        new_line=str(row[project.project_character_column])+"\t"+str(row["Name"])+"\tmost\talways\n"
+        new_line=str(row[project.project_character_column])+"\t"+str(row["Name"])+"\tmost\n"
         nvda_character_set_file.write(new_line)
     #the file is closed to prevent memory leaks
     nvda_character_set_file.close()
