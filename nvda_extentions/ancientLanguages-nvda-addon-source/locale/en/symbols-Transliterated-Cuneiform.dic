@@ -1,0 +1,81 @@
+#Transliterated-Cuneiform symbols.dic
+#Copyright (c) 2024Matthew Yeater and Paul Geoghegan.
+#This file is covered by the GNU General Public License.
+
+symbols:
+á	a with acute	most
+â	a with circumflex	most
+à	a with grave	most
+ā	a with macron	most
+⸤	bottom left half bracket	most
+⸥	bottom right half bracket	most
+Á	capital a with acute	most
+Â	capital a with circumflex	most
+À	capital a with grave	most
+Ā	capital a with macron	most
+É	capital e with acute	most
+Ê	capital e with circumflex	most
+È	capital e with grave	most
+Ē	capital e with macron	most
+Ŋ	capital eng	most
+Ḫ	capital h with breve below	most
+Í	capital i with acute	most
+Î	capital i with circumflex	most
+Ì	capital i with grave	most
+Ī	capital i with macron	most
+Ś	capital s with acute	most
+Š	capital s with caron	most
+Ṣ	capital s with dot below	most
+Ṭ	capital t with dot below	most
+Ṯ	capital t with line below	most
+Ú	capital u with acute	most
+Û	capital u with circumflex	most
+Ù	capital u with grave	most
+Ū	capital u with macron	most
+Ẓ	capital z with dot below	most
+Ḏ	capitol d with line below	most
+Ǵ	capitol g with acute	most
+ḏ	d with line below	most
+é	e with acute	most
+ê	e with circumflex	most
+è	e with grave	most
+ē	e with macron	most
+ŋ	eng	most
+ǵ	g with acute	most
+ḫ	h with breve below	most
+í	i with acute	most
+î	i with circumflex	most
+ì	i with grave	most
+ī	i with macron	most
+ʿ	left half ring	most
+×	multiplication sign	most
+ʾ	right half ring	most
+ś	s with acute	most
+š	s with caron	most
+ṣ	s with dot below	most
+ʳ	small r	most
+󑴰	subscript capitol d	most
+ꟳ	subscript capitol f	most
+ᴹ	subscript capitol m	most
+ᵈ	subscript d	most
+₈	subscript eight	most
+ᶠ	subscript f	most
+₅	subscript five	most
+₄	subscript four	most
+ₘ	subscript m	most
+₉	subscript nine	most
+₁	subscript one	most
+₇	subscript seven	most
+₆	subscript six	most
+ₓ	subscript small x	most
+₃	subscript three	most
+₂	subscript two	most
+ṭ	t with dot below	most
+ṯ	t with line below	most
+⸢	top left half bracket	most
+⸣	top right half bracket	most
+ú	u with acute	most
+û	u with circumflex	most
+ù	u with grave	most
+ū	u with macron	most
+ẓ	z with dot below	most

@@ -11,5 +11,23 @@
         "included_projects": [
             "Akkadian"
         ]
+    },
+    {
+        "name": "ancientLanguages",
+        "summary": "Ancient Language Pack",
+        "description": "This is a package of all the languages we have made accessible thus far. ",
+        "author": "Matt and Paul",
+        "version": "1",
+        "minimum_version": "2024.1",
+        "last_tested_version": "2024.1",
+        "locale": "en",
+        "included_projects": [
+            "Akkadian",
+            "Akkadian-Sumero",
+            "Hebrew",
+            "Syriac",
+            "Transliterated-Cuneiform",
+            "Ugaritic"
+        ]
     }
 ]

@@ -1,0 +1,149 @@
+#Hebrew symbols.dic
+#Copyright (c) 2024Matthew Yeater and Paul Geoghegan.
+#This file is covered by the GNU General Public License.
+
+symbols:
+א	alef	most
+֢	atnah hafukh	most
+֑	atnokta	most
+ע	ayin	most
+ב	bet	most
+בּ	bet with dagesh	most
+בּ	bet with dagesh	most
+בְּ	bet with dagesh sheva	most
+בְּ	bet with dagesh sheva	most
+בֿ	bet with rafe	most
+✔	check mark distinguishes same kind of varient	most
+❧	check marks end of transposition	most
+ּ	dagesh	most
+ד	dalet	most
+דּ	dalet with dagesh	most
+דְּ	dalet with dagesh sheva	most
+֧	darga	most
+֭	dehi	most
+װ	double vav	most
+ײ	double yod	most
+ײַ	double yod with patah	most
+ך	final kaf	most
+ם	final mem	most
+ן	final nun	most
+ף	final pe	most
+ץ	final tsadi	most
+׳	geresh	most
+֜	geresh	most
+֝	geresh muqdam	most
+״	gershayim	most
+֞	gershayim	most
+ג	gimel	most
+ֲ	hataf patah	most
+ֳ	hataf qamats	most
+ֱ	hataf segol	most
+ח	het	most
+ה	hey	most
+הּ	hey  with dagesh	most
+ִ	hiriq	most
+ִי	hiriq-yod	most
+ֺ	holam haser	most
+ֹ	holam malay	most
+וֹ	holam-vav	most
+֬	iluy	most
+כ	kaf	most
+כּ	kaf with dagesh	most
+כּ	kaf with dagesh	most
+כְּ	kaf with dagesh  sheva	most
+כְּ	kaf with dagesh sheva	most
+ל	lamed	most
+לּ	lamed with dagesh	most
+לְּ	lamed with dagesh sheva	most
+ׅ	lower dot	most
+֤	mahapakh	most
+־	maqaf	most
+✕	mark beginning of replacement	most
+✖	mark ends of replacement	most
+✗	mark for  insertion	most
+❚	mark indicates varrnt	most
+❑	mark that distinguishes between varient	most
+❙	mark that indicates alternative readings	most
+❘	mark that separates variations	most
+❦	marks beginning of transposition	most
+❥	marks distinguishes between varient	most
+❏	marks end of omited word	most
+✙	marks end of replaced text	most
+❍	marks omitted word	most
+❐	marks replaced word	most
+✘	marks varients with in apparatus	most
+֯	masora circle	most
+מ	mem	most
+מּ	mem with dagesh	most
+מְּ	mem with dagesh sheva	most
+֥	merkha	most
+֦	merkha kefula	most
+ֽ	meteg	most
+֣	munah	most
+נ	nun	most
+׆	nun hafukha	most
+נְּ	nun with  dagesh sheva	most
+נּ	nun with dagesh	most
+֫	ole	most
+׀	paseq	most
+֙	pashta	most
+ַ	patah	most
+֡	pazer	most
+פ	pe	most
+פּ	pe with dagesh	most
+פְּ	pe with dagesh sheva	most
+פֿ	pe with rafe	most
+֨	qadma	most
+ָ	qamats	most
+ׇ	qamats qatan	most
+֟	qarney para	most
+ק	qof	most
+קּ	qof with dagesh	most
+קְּ	qof with dagesh sheva	most
+ֻ	qubuts	most
+ֿ	rafe	most
+❁	reference to lxx	most
+ר	resh	most
+֗	revia	most
+ס	samekh	most
+ֶ	segol	most
+֒	segol - isolated	most
+֓	shalshelet	most
+ְ	sheva	most
+ש	shin	most
+ׁ	shin dot	most
+שׁ	shin with dot	most
+שְׁ	shin with dot and sheva	most
+ּוְ	shuriq sheva	most
+ּו	shuruq	most
+וּ	shuruq	most
+שׂ	sin	most
+ׂ	sin dot	most
+שְׂ	sin sheva	most
+׃	sof pasuq	most
+ת	tav	most
+תּ	tav with dagesh	most
+תְּ	tav with dagesh sheva	most
+תּ	tav with daggesh	most
+תְּ	tav with daggesh sheva	most
+֠	telisha gedola	most
+֩	telisha qetana	most
+ט	tet	most
+֛	tevir	most
+֖	tipeha	most
+צ	tsadi	most
+ֵ	tsere	most
+ֵי	tsere-yod	most
+ׄ	upper dot	most
+ו	vav	most
+ױ	vav yod	most
+֪	yerah ben yomo	most
+֚	yetiv	most
+י	yod	most
+יּ	yod with dagesh	most
+יְּ	yod with dagesh sheva	most
+֕	zaqef gadol	most
+֔	zaqef qatan	most
+֘	zarqa	most
+ז	zayin	most
+֮	zinor	most

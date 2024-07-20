@@ -1,0 +1,36 @@
+#Ugaritic symbols.dic
+#Copyright (c) 2024Matthew Yeater and Paul Geoghegan.
+#This file is covered by the GNU General Public License.
+
+symbols:
+𐎓	ain	most
+𐎀	alpa	most
+𐎁	beta	most
+𐎄	delta	most
+𐎏	dhal	most
+𐎂	gamla	most
+𐎙	ghain	most
+𐎅	ho	most
+𐎈	hota	most
+𐎛	i	most
+𐎋	kaf	most
+𐎃	kha	most
+𐎍	lamda	most
+𐎎	mem	most
+𐎐	nun	most
+𐎔	pu	most
+𐎖	qopa	most
+𐎗	rasha	most
+𐎕	sade	most
+𐎒	samka	most
+𐎌	shin	most
+𐎝	ssu	most
+𐎉	tet	most
+𐎘	thanna	most
+𐎚	to	most
+𐎜	u	most
+𐎆	wo	most
+𐎟	word divider	most
+𐎊	yod	most
+𐎇	zeta	most
+𐎑	zu	most

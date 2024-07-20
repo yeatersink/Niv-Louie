@@ -4,6 +4,7 @@ import pandas as pd
 #json is used for reading the json files
 import json
 from utils.project import project
+from nicegui import ui
 
 
 def create_braille_table():
@@ -83,6 +84,7 @@ def create_braille_table():
             braille_table.write("include "+table+"\n")
     #The braille table is closed to prevent memory leaks
     braille_table.close()
+    ui.notify("Braille Table for Lib Louis has been Generated. ")
 
 
 #The braille_converter.json file is opened and read in to the braille_object variable
@@ -253,6 +255,7 @@ tests:
     #The test yaml file is closed to prevent memory leaks
     test_yaml.close()
     print("done creating braille tests")
+    ui.notify("Braille Test for Lib Louis has been Generateds. ")
 
 def get_braille_from_text_in_source():
     """

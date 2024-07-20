@@ -2,7 +2,7 @@
     {
         "name": "Akkadian",
         "language_code": "akk-Xsux",
-        "display_name": "Akkadian braille according to U.S. system",
+        "display_name": "Akkadian according to U.S. system",
         "index_name": "Akkadian, U.S.",
         "supported_braille_languages": [
             "akk-Xsux",
@@ -38,8 +38,11 @@
         "name": "Amharic",
         "language_code": "amh",
         "language_system_code": "amh",
+        "display_name": "Amharic",
         "name_column": "Name",
         "char_column": "Char",
+        "unicode_column": "Hex",
+        "type_column": "Type",
         "braille_column": "Braille",
         "replace": [
             "CUNEIFORM SIGN"
@@ -51,8 +54,11 @@
         "name": "Critical-Apparatus-NT",
         "language_code": "Critical-Apparatus-NT",
         "language_system_code": "critical-apparatus",
+        "display_name": "Critical Apparatus",
         "name_column": "Name",
         "char_column": "Char",
+        "unicode_column": "Hex",
+        "type_column": "Type",
         "braille_column": "Braille",
         "replace": [
             "CUNEIFORM SIGN"
@@ -63,6 +69,7 @@
     {
         "name": "Transliterated-Cuneiform",
         "language_code": "Transliterated-Cuneiform",
+        "display_name": "Transliterated Cuneiform",
         "test_display_type": "unicode-without-blank.dis",
         "supported_braille_languages": [
             "akk-Latn",
@@ -79,6 +86,8 @@
         "language_system_code": "Transliterated-Cuneiform-oracc",
         "name_column": "Name",
         "char_column": "Character",
+        "unicode_column": "Hex",
+        "type_column": "Type",
         "braille_column": "Braille",
         "replace": [],
         "included_braille_tables": [
@@ -93,8 +102,12 @@
     {
         "name": "Greek",
         "language_code": "grc-koine",
+        "language_system_code": "grc-koine",
+        "display_name": "Koine Greek",
         "name_column": "Name",
         "char_column": "Character",
+        "unicode_column": "Hex",
+        "type_column": "Type",
         "braille_column": "Braille",
         "replace": [
             "CUNEIFORM SIGN"
@@ -106,8 +119,11 @@
         "name": "Hebrew",
         "language_code": "hbo",
         "language_system_code": "IHBC/ McAllister ",
+        "display_name": "Classical Hebrew",
         "name_column": "Name",
         "char_column": "Character",
+        "unicode_column": "Hex",
+        "type_column": "Type",
         "braille_column": "Braille",
         "replace": [
             "point",
@@ -129,7 +145,8 @@
     {
         "name": "Syriac",
         "language_code": "syc",
-        "supported_bralle_langa": [
+        "display_name": "Syriac",
+        "supported_braille_languages": [
             "syr-Syrc",
             "syr-Syre",
             "syr-Syrj",
@@ -138,6 +155,8 @@
         "language_system_code": "syc",
         "name_column": "Name",
         "char_column": "Character",
+        "unicode_column": "Hex",
+        "type_column": "Type",
         "braille_column": "Braille",
         "replace": [],
         "included_braille_tables": [
@@ -152,7 +171,7 @@
     {
         "name": "Akkadian-Sumero",
         "language_code": "akk-sumero-Xsux",
-        "display_name": "Akkadian braille according to Borger system",
+        "display_name": "Akkadian according to Borger system",
         "index_name": "Akkadian, Borger",
         "supported_braille_languages": [
             "akk-sumero-Xsux",
@@ -168,6 +187,8 @@
         "language_system_code": "akk-sumero-oracc",
         "name_column": "Name",
         "char_column": "Character",
+        "unicode_column": "Hex",
+        "type_column": "Type",
         "braille_column": "Braille",
         "replace": [
             "CUNEIFORM SIGN"
@@ -185,9 +206,12 @@
         "name": "Ugaritic",
         "language_code": "uga",
         "language_system_code": "uga",
+        "display_name": "Ugaritic",
         "test_display_type": "unicode-without-blank.dis",
         "name_column": "Name",
         "char_column": "Character(decimal)",
+        "unicode_column": "Hex",
+        "type_column": "Type",
         "braille_column": "Braille",
         "replace": [
             "UGARITIC LETTER",
@@ -206,9 +230,9 @@
         "name": "Akkadian-Test3",
         "name_column": "Name",
         "char_column": "Character",
-        "braille_column": "Braille",
-        "type_column": "Type",
         "unicode_column": "Hex",
+        "type_column": "Type",
+        "braille_column": "Braille",
         "language_code": "ak",
         "language_system_code": "ak=test",
         "display_name": null,

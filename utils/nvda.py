@@ -6,6 +6,8 @@ import pandas as pd
 from nicegui import ui
 from utils.project import project
 from utils.project_extention import extention
+import shutil
+import os.path
 
 
 def add_characters_to_nvda():
@@ -89,11 +91,12 @@ def create_nvda_extention():
     """
     print("Creating Extention for NVDA")
     extention.set_fields()
-    new_folder = pathlib.Path("nvda_extentions/",extention.extention_name+".nvda-addon")
+    source_folder = os.path.join("nvda_extentions",extention.extention_name+"-nvda-addon-source")
+    new_folder = pathlib.Path(source_folder)
     new_folder.mkdir(parents=True,exist_ok=True)
-    new_locale_folder=pathlib.Path("nvda_extentions/"+extention.extention_name+".nvda-addon/locale/",extention.extention_locale)
+    new_locale_folder=pathlib.Path(os.path.join(source_folder,"locale",extention.extention_locale))
     new_locale_folder.mkdir(parents=True,exist_ok=True)
-    manifest_file=open("nvda_extentions/"+extention.extention_name+".nvda-addon/manifest.ini","w",encoding="utf-8")
+    manifest_file=open(os.path.join(source_folder,"manifest.ini"),"w",encoding="utf-8")
     manifest_file.write("""name = """+extention.extention_name+"""""""""
 summary = \""""+extention.extention_summary+"""\"
 description = \""""+extention.extention_description+"""\"
@@ -110,12 +113,15 @@ lastTestedNVDAVersion = """+extention.extention_last_tested_version+"""
         manifest_file.write("[["+project.project_language_code+"]]\n")
         manifest_file.write("displayName = "+project.project_display_name+"\n")
         manifest_file.write("mandatory = false\n")
-        add_characters_to_nvda_extention()
+        add_characters_to_nvda_extention(source_folder)
     manifest_file.close()
+    destination_folder = os.path.join("nvda_extentions",extention.extention_name+".nvda-addon")
+    archived=shutil.make_archive(destination_folder, 'zip', source_folder)
+    os.rename(destination_folder+".zip",destination_folder)
     ui.notify("Extention Generated!")
 
 
-def add_characters_to_nvda_extention():
+def add_characters_to_nvda_extention(source_folder):
     """
         This function adds the characters from the language file to the NVDA extention
     """
@@ -123,11 +129,12 @@ def add_characters_to_nvda_extention():
     #The language file is read in to pandas
     language_file=pd.read_csv("languages/filtered_"+project.project_name+".csv")
     #The character Set  file is created
-    nvda_character_set_file=open("nvda_extentions/"+extention.extention_name+".nvda-addon/locale/"+extention.extention_locale+"/symbols-"+project.project_language_code+".dic","w",encoding="utf-8")
+    nvda_character_set_file=open(os.path.join(source_folder,"locale",extention.extention_locale,"symbols-"+project.project_language_code+".dic"),"w",encoding="utf-8")
     nvda_character_set_file.write("""#"""+project.project_name+""" symbols.dic
 #Copyright (c) 2024Matthew Yeater and Paul Geoghegan.
 #This file is covered by the GNU General Public License.
-\n""")
+
+symbols:\n""")
     language_file[project.project_name_column]=language_file[project.project_name_column].apply(format_names)
     #this loop goes through each row in the language file
     for index,row in language_file.sort_values(by=[project.project_name_column]).iterrows():

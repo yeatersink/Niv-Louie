@@ -44,6 +44,7 @@ class Project:
 
     def update_project_name(self, e: events.ValueChangeEventArguments):
         self.project_name = e.value
+        self.set_all_fields()
 
 
     def update_project_name_column(self, e: events.ValueChangeEventArguments):
@@ -96,6 +97,19 @@ class Project:
         content_as_file = io.StringIO(e.content.read().decode("utf-8"))
         self.project_text = pd.read_csv(content_as_file)
 
+
+    def handle_test_upload(self, e: events.UploadEventArguments):
+        content_as_file = io.StringIO(e.content.read().decode("utf-8"))
+        test_file= pd.read_csv(content_as_file)
+        test_file.to_csv("braille_tests/"+self.project_language_code)
+        ui.notify("Test file for Lib Louis has been Saved. ")
+
+
+    def handle_document_upload(self, e: events.UploadEventArguments):
+        content= e.content.read()
+        with open("braille_documents/"+e.name,"w",encoding="utf-8") as file:
+            file.write(content)
+        ui.notify("Document to convert has been saved. ")
 
 
     def save_project(self):
