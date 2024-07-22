@@ -22,10 +22,18 @@ app.native.start_args["debug"]=True
 def existing_project():
     ui.button("Go Back",on_click=ui.navigate.back)
     ui.label("Manage a project")
-    language_select = ui.select(options=sorted(project.languages_list),label="Select a Language",with_input=True,on_change=project.update_project_name)
     ui.button("Create a New Project",on_click=lambda:ui.navigate.to("/create_project"))
-    ui.button("Edit an Existing Project")
-    ui.button("Remove an Existing Project")
+    language_select = ui.select(options=sorted(project.languages_list),label="Select a Project",with_input=True,on_change=project.update_project_name)
+    ui.button("Edit Project",on_click=lambda:ui.navigate.to("/edit_project_information"))
+    with ui.dialog() as dialog,ui.card():
+        ui.label("Are you Sure you want to Permenantly Remove this Project?")
+        ui.button("Cancel",on_click=dialog.close)
+        def confirm_delete():
+            project.remove_project()
+            language_select.options = sorted(project.languages_list)
+            dialog.close()
+        ui.button("Yes, Delete",on_click=confirm_delete)
+    ui.button("Remove Project",on_click=dialog.open)
     ui.button("Home",on_click=lambda: ui.navigate.to("/"))
 
 
@@ -40,7 +48,6 @@ def create_project():
 
 @ui.page("/project_information")
 def project_information():
-    global project_name, project_text, project_name_column, project_character_column, project_unicode_column, project_type_column, project_braille_column
     ui.button("Go Back",on_click=ui.navigate.back)
     ui.label("Project Information")            
     if project.project_name is not None:
@@ -54,6 +61,37 @@ def project_information():
         ui.select(label="What column contains the Type of the character?",options=project.project_text.columns.tolist(),value=project.project_type_column,on_change=project.update_project_type_column)
         ui.select(label="What column contains the Braille character?",options=project.project_text.columns.tolist(),value=project.project_braille_column,on_change=project.update_project_braille_column)
     ui.button("Save Project",on_click=save_and_create_csv)
+
+
+@ui.page("/edit_project_information")
+def edit_project_information():
+    regenerate_characters=False
+    generate_braille=False
+    ui.button("Go Back",on_click=ui.navigate.back)
+    ui.label("Edit Project Information")            
+    if project.project_name is not None:
+        project.set_all_fields()
+        project.load_language_source()
+        ui.input(label="What is the name of your project?",value=project.project_name,on_change=project.update_project_name)
+        ui.input("What is the language ISO code?",value=project.project_language_code,on_change=project.update_project_language_code)
+        ui.input("What is the language system?",value=project.project_language_system_code,on_change=project.update_project_language_system_code)
+    if project.project_text is not None:
+        ui.select(label="What column contains the name of the character?",options=project.project_text.columns.tolist(),value=project.project_name_column,on_change=project.update_project_name_column)
+        ui.select(label="What column contains the character?",options=project.project_text.columns.tolist(),value=project.project_character_column,on_change=project.update_project_character_column)
+        ui.select(label="What column contains the Unicode value of the character?",options=project.project_text.columns.tolist(),value=project.project_unicode_column,on_change=project.update_project_unicode_column)
+        ui.select(label="What column contains the Type of the character?",options=project.project_text.columns.tolist(),value=project.project_type_column,on_change=project.update_project_type_column)
+        ui.select(label="What column contains the Braille character?",options=project.project_text.columns.tolist(),value=project.project_braille_column,on_change=project.update_project_braille_column)
+        ui.checkbox(text="Generate Characters using Unicode Column",value=regenerate_characters)
+        ui.checkbox(text="Generate Braille Characters for Braille Column",value=generate_braille)
+    ui.button("Save Changes",on_click=lambda:save_project_edits(regenerate_characters,generate_braille))
+
+
+def save_project_edits(regenerate_characters,generate_braille):
+    if regenerate_characters==True:
+        regenerate_characters_using_hex()
+    if generate_braille==True:
+        get_braille_from_text_in_source()
+    save_and_create_csv()
 
 
 @ui.page("/nvda_extention_builder")

@@ -2,7 +2,7 @@ from nicegui import app, events, ui
 import io
 import pandas as pd
 import json
-
+from docx import Document
 
 # Function to load languages from JSON file
 def load_languages():
@@ -38,6 +38,8 @@ class Project:
 
     def update_languages_list(self):
         self.languages_list = [language["name"] for language in self.languages]
+
+    def load_language_source(self):        self.project_text=pd.read_csv("languages/source/"+self.project_name+".csv")
 
     def set_project_name(self, project_name):
         self.project_name = project_name
@@ -106,10 +108,12 @@ class Project:
 
 
     def handle_document_upload(self, e: events.UploadEventArguments):
-        content= e.content.read()
-        with open("braille_documents/"+e.name,"w",encoding="utf-8") as file:
-            file.write(content)
-        ui.notify("Document to convert has been saved. ")
+        #content= io.StringIO(e.content.read())
+        if e.name.split(".")[-1]=="docx":
+            ui.notify("docx baby!!")
+        # with open("braille_documents/"+e.name,"w",encoding="utf-8") as file:
+        #     file.write(content)
+        # ui.notify("Document to convert has been saved. ")
 
 
     def save_project(self):
