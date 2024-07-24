@@ -257,6 +257,7 @@ tests:
     print("done creating braille tests")
     ui.notify("Braille Test for Lib Louis has been Generateds. ")
 
+
 def get_braille_from_text_in_source():
     """
     This function converts the text characters to braille characters in the source language file

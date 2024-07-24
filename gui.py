@@ -101,8 +101,40 @@ def nvda_extention_builder():
     ui.button("Create New Extention",on_click=lambda: ui.navigate.to("/create_extention"))
     ui.select(label="Select an Extention.",options=sorted(extention.extentions_list),on_change=extention.update_extention_name)
     ui.button("Generate extention",on_click=create_nvda_extention)
-    ui.button("Next",on_click=perform_user_actions)
+    ui.button("Edit Extention",on_click=lambda:ui.navigate.to("/edit_extention"))
+    with ui.dialog() as dialog,ui.card():
+        ui.label("Are you Sure you want to Permenantly Remove this Extention?")
+        ui.button("Cancel",on_click=dialog.close)
+        def confirm_delete():
+            extention.remove_extention()
+            dialog.close()
+        ui.button("Yes, Delete",on_click=confirm_delete)
+
+    ui.button("Remove Extention",on_click=dialog.open)
     ui.button("Home",on_click=lambda: ui.navigate.to("/"))
+
+
+@ui.page("/edit_extention")
+def edit_extention():
+    extention.set_fields()
+    old_extention_name=extention.extention_name
+    ui.button("Go Back",on_click=ui.navigate.back)
+    ui.label("Edit Extention")
+    ui.input(label="What is the name of your Project?",on_change=extention.update_extention_name,value=extention.extention_name)
+    ui.input(label="Please briefly describe your Project?",on_change=extention.update_extention_summary,value=extention.extention_summary)
+    ui.input(label="Please provide a more detailed description of your Project?",on_change=extention.update_extention_description,value=extention.extention_description)
+    ui.input(label="Who are the Authors of your Project?",on_change=extention.update_extention_author,value=extention.extention_author)
+    ui.input(label="How many versions have you created of this Project?",on_change=extention.update_extention_version,value=extention.extention_version)
+    ui.input(label="What is the minimum version of NVDA does this Extention support?",on_change=extention.update_extention_minimum_version,value=extention.extention_minimum_version)
+    ui.input(label="What is the most recent version of NVDA that you have tested this Extention on?",on_change=extention.update_extention_last_tested_version,value=extention.extention_last_tested_version)
+    ui.input(label="What Language/ Locale does this Extention support ?",on_change=extention.update_extention_locale,value=extention.extention_locale)
+    ui.select(options=sorted(project.languages_list),label="What Projects do you want to include in this extention?",multiple=True,on_change=extention.update_extention_included_projects,value=extention.extention_included_projects)
+    ui.button("Save changes.",on_click=lambda: save_extention_edits(old_extention_name))
+
+
+def save_extention_edits(old_extention_name):
+    extention.save_changes(old_extention_name)
+
 
 
 @ui.page("/create_extention")
@@ -141,8 +173,9 @@ def create_test():
 @ui.page("/braille_document_builder")
 def braille_document_builder():
     ui.label("Braille Document Builder")
-    ui.select(label="What project do you want to use?",options=sorted(project.languages_list),with_input=True,on_change=project.update_project_name)
+    ui.select(label="What projects do you want to use?",options=sorted(project.languages_list),multiple=True,on_change=project.update_document_projects_to_use)
     ui.upload(on_upload=project.handle_document_upload,auto_upload=True)
+    ui.button("Generate Braille Document",on_click=project.convert_document)
 
 
 ui.label("Welcome to Niv Louie. What would you like to work on today?")

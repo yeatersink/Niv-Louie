@@ -117,6 +117,8 @@ lastTestedNVDAVersion = """+extention.extention_last_tested_version+"""
     manifest_file.close()
     destination_folder = os.path.join("nvda_extentions",extention.extention_name+".nvda-addon")
     archived=shutil.make_archive(destination_folder, 'zip', source_folder)
+    if os.path.exists(destination_folder):
+        os.remove(destination_folder)
     os.rename(destination_folder+".zip",destination_folder)
     ui.notify("Extention Generated!")
 
@@ -138,7 +140,7 @@ symbols:\n""")
     language_file[project.project_name_column]=language_file[project.project_name_column].apply(format_names)
     #this loop goes through each row in the language file
     for index,row in language_file.sort_values(by=[project.project_name_column]).iterrows():
-        new_line=str(row[project.project_character_column])+"\t"+str(row["Name"])+"\tmost\n"
+        new_line=str(row[project.project_character_column])+"\t"+str(row["Name"])+"\tnone\n"
         nvda_character_set_file.write(new_line)
     #the file is closed to prevent memory leaks
     nvda_character_set_file.close()
