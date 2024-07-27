@@ -3,147 +3,147 @@
 #This file is covered by the GNU General Public License.
 
 symbols:
-א	alef	most
-֢	atnah hafukh	most
-֑	atnokta	most
-ע	ayin	most
-ב	bet	most
-בּ	bet with dagesh	most
-בּ	bet with dagesh	most
-בְּ	bet with dagesh sheva	most
-בְּ	bet with dagesh sheva	most
-בֿ	bet with rafe	most
-✔	check mark distinguishes same kind of varient	most
-❧	check marks end of transposition	most
-ּ	dagesh	most
-ד	dalet	most
-דּ	dalet with dagesh	most
-דְּ	dalet with dagesh sheva	most
-֧	darga	most
-֭	dehi	most
-װ	double vav	most
-ײ	double yod	most
-ײַ	double yod with patah	most
-ך	final kaf	most
-ם	final mem	most
-ן	final nun	most
-ף	final pe	most
-ץ	final tsadi	most
-׳	geresh	most
-֜	geresh	most
-֝	geresh muqdam	most
-״	gershayim	most
-֞	gershayim	most
-ג	gimel	most
-ֲ	hataf patah	most
-ֳ	hataf qamats	most
-ֱ	hataf segol	most
-ח	het	most
-ה	hey	most
-הּ	hey  with dagesh	most
-ִ	hiriq	most
-ִי	hiriq-yod	most
-ֺ	holam haser	most
-ֹ	holam malay	most
-וֹ	holam-vav	most
-֬	iluy	most
-כ	kaf	most
-כּ	kaf with dagesh	most
-כּ	kaf with dagesh	most
-כְּ	kaf with dagesh  sheva	most
-כְּ	kaf with dagesh sheva	most
-ל	lamed	most
-לּ	lamed with dagesh	most
-לְּ	lamed with dagesh sheva	most
-ׅ	lower dot	most
-֤	mahapakh	most
-־	maqaf	most
-✕	mark beginning of replacement	most
-✖	mark ends of replacement	most
-✗	mark for  insertion	most
-❚	mark indicates varrnt	most
-❑	mark that distinguishes between varient	most
-❙	mark that indicates alternative readings	most
-❘	mark that separates variations	most
-❦	marks beginning of transposition	most
-❥	marks distinguishes between varient	most
-❏	marks end of omited word	most
-✙	marks end of replaced text	most
-❍	marks omitted word	most
-❐	marks replaced word	most
-✘	marks varients with in apparatus	most
-֯	masora circle	most
-מ	mem	most
-מּ	mem with dagesh	most
-מְּ	mem with dagesh sheva	most
-֥	merkha	most
-֦	merkha kefula	most
-ֽ	meteg	most
-֣	munah	most
-נ	nun	most
-׆	nun hafukha	most
-נְּ	nun with  dagesh sheva	most
-נּ	nun with dagesh	most
-֫	ole	most
-׀	paseq	most
-֙	pashta	most
-ַ	patah	most
-֡	pazer	most
-פ	pe	most
-פּ	pe with dagesh	most
-פְּ	pe with dagesh sheva	most
-פֿ	pe with rafe	most
-֨	qadma	most
-ָ	qamats	most
-ׇ	qamats qatan	most
-֟	qarney para	most
-ק	qof	most
-קּ	qof with dagesh	most
-קְּ	qof with dagesh sheva	most
-ֻ	qubuts	most
-ֿ	rafe	most
-❁	reference to lxx	most
-ר	resh	most
-֗	revia	most
-ס	samekh	most
-ֶ	segol	most
-֒	segol - isolated	most
-֓	shalshelet	most
-ְ	sheva	most
-ש	shin	most
-ׁ	shin dot	most
-שׁ	shin with dot	most
-שְׁ	shin with dot and sheva	most
-ּוְ	shuriq sheva	most
-ּו	shuruq	most
-וּ	shuruq	most
-שׂ	sin	most
-ׂ	sin dot	most
-שְׂ	sin sheva	most
-׃	sof pasuq	most
-ת	tav	most
-תּ	tav with dagesh	most
-תְּ	tav with dagesh sheva	most
-תּ	tav with daggesh	most
-תְּ	tav with daggesh sheva	most
-֠	telisha gedola	most
-֩	telisha qetana	most
-ט	tet	most
-֛	tevir	most
-֖	tipeha	most
-צ	tsadi	most
-ֵ	tsere	most
-ֵי	tsere-yod	most
-ׄ	upper dot	most
-ו	vav	most
-ױ	vav yod	most
-֪	yerah ben yomo	most
-֚	yetiv	most
-י	yod	most
-יּ	yod with dagesh	most
-יְּ	yod with dagesh sheva	most
-֕	zaqef gadol	most
-֔	zaqef qatan	most
-֘	zarqa	most
-ז	zayin	most
-֮	zinor	most
+א	alef	none
+֢	atnah hafukh	none
+֑	atnokta	none
+ע	ayin	none
+ב	bet	none
+בּ	bet with dagesh	none
+בּ	bet with dagesh	none
+בְּ	bet with dagesh sheva	none
+בְּ	bet with dagesh sheva	none
+בֿ	bet with rafe	none
+✔	check mark distinguishes same kind of varient	none
+❧	check marks end of transposition	none
+ּ	dagesh	none
+ד	dalet	none
+דּ	dalet with dagesh	none
+דְּ	dalet with dagesh sheva	none
+֧	darga	none
+֭	dehi	none
+װ	double vav	none
+ײ	double yod	none
+ײַ	double yod with patah	none
+ך	final kaf	none
+ם	final mem	none
+ן	final nun	none
+ף	final pe	none
+ץ	final tsadi	none
+׳	geresh	none
+֜	geresh	none
+֝	geresh muqdam	none
+״	gershayim	none
+֞	gershayim	none
+ג	gimel	none
+ֲ	hataf patah	none
+ֳ	hataf qamats	none
+ֱ	hataf segol	none
+ח	het	none
+ה	hey	none
+הּ	hey  with dagesh	none
+ִ	hiriq	none
+ִי	hiriq-yod	none
+ֺ	holam haser	none
+ֹ	holam malay	none
+וֹ	holam-vav	none
+֬	iluy	none
+כ	kaf	none
+כּ	kaf with dagesh	none
+כּ	kaf with dagesh	none
+כְּ	kaf with dagesh  sheva	none
+כְּ	kaf with dagesh sheva	none
+ל	lamed	none
+לּ	lamed with dagesh	none
+לְּ	lamed with dagesh sheva	none
+ׅ	lower dot	none
+֤	mahapakh	none
+־	maqaf	none
+✕	mark beginning of replacement	none
+✖	mark ends of replacement	none
+✗	mark for  insertion	none
+❚	mark indicates varrnt	none
+❑	mark that distinguishes between varient	none
+❙	mark that indicates alternative readings	none
+❘	mark that separates variations	none
+❦	marks beginning of transposition	none
+❥	marks distinguishes between varient	none
+❏	marks end of omited word	none
+✙	marks end of replaced text	none
+❍	marks omitted word	none
+❐	marks replaced word	none
+✘	marks varients with in apparatus	none
+֯	masora circle	none
+מ	mem	none
+מּ	mem with dagesh	none
+מְּ	mem with dagesh sheva	none
+֥	merkha	none
+֦	merkha kefula	none
+ֽ	meteg	none
+֣	munah	none
+נ	nun	none
+׆	nun hafukha	none
+נְּ	nun with  dagesh sheva	none
+נּ	nun with dagesh	none
+֫	ole	none
+׀	paseq	none
+֙	pashta	none
+ַ	patah	none
+֡	pazer	none
+פ	pe	none
+פּ	pe with dagesh	none
+פְּ	pe with dagesh sheva	none
+פֿ	pe with rafe	none
+֨	qadma	none
+ָ	qamats	none
+ׇ	qamats qatan	none
+֟	qarney para	none
+ק	qof	none
+קּ	qof with dagesh	none
+קְּ	qof with dagesh sheva	none
+ֻ	qubuts	none
+ֿ	rafe	none
+❁	reference to lxx	none
+ר	resh	none
+֗	revia	none
+ס	samekh	none
+ֶ	segol	none
+֒	segol - isolated	none
+֓	shalshelet	none
+ְ	sheva	none
+ש	shin	none
+ׁ	shin dot	none
+שׁ	shin with dot	none
+שְׁ	shin with dot and sheva	none
+ּוְ	shuriq sheva	none
+ּו	shuruq	none
+וּ	shuruq	none
+שׂ	sin	none
+ׂ	sin dot	none
+שְׂ	sin sheva	none
+׃	sof pasuq	none
+ת	tav	none
+תּ	tav with dagesh	none
+תְּ	tav with dagesh sheva	none
+תּ	tav with daggesh	none
+תְּ	tav with daggesh sheva	none
+֠	telisha gedola	none
+֩	telisha qetana	none
+ט	tet	none
+֛	tevir	none
+֖	tipeha	none
+צ	tsadi	none
+ֵ	tsere	none
+ֵי	tsere-yod	none
+ׄ	upper dot	none
+ו	vav	none
+ױ	vav yod	none
+֪	yerah ben yomo	none
+֚	yetiv	none
+י	yod	none
+יּ	yod with dagesh	none
+יְּ	yod with dagesh sheva	none
+֕	zaqef gadol	none
+֔	zaqef qatan	none
+֘	zarqa	none
+ז	zayin	none
+֮	zinor	none

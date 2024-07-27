@@ -16,7 +16,7 @@ from utils.nvda import add_characters_to_nvda,generate_locale_file, generate_cha
 
 
 app.native.window_args["resizable"]=True
-app.native.start_args["debug"]=True
+app.native.start_args["debug"]=False
 
 @ui.page("/existing_project")
 def existing_project():
