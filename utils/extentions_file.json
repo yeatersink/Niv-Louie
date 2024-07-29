@@ -16,5 +16,18 @@
             "Transliterated-Cuneiform",
             "Ugaritic"
         ]
+    },
+    {
+        "name": "akkadiantest1234",
+        "summary": "akkadiantest1234",
+        "description": "akk",
+        "author": "me",
+        "version": "1",
+        "minimum_version": "2024.1",
+        "last_tested_version": "2024.1",
+        "locale": "en",
+        "included_projects": [
+            "Hebrew"
+        ]
     }
 ]

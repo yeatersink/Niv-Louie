@@ -15,6 +15,11 @@ OutputBaseFilename={#MyAppName}-installer
 [Files]
 Source: "C:\Users\yeate\OneDrive\Documents\Ccuneiform-in-NVDA\dist\niv-louie.exe"; DestDir:{app}
 Source: "C:\Users\yeate\OneDrive\Documents\Ccuneiform-in-NVDA\Justicon-Free-Simple-Line-Arrow-Solution-Business-Computer-Technology.512.ico"; DestDir:{app}
+Source: "C:\Users\yeate\OneDrive\Documents\Ccuneiform-in-NVDA\utils\braille_converter.json"; DestDir:{app}\utils
+Source: "C:\Users\yeate\OneDrive\Documents\Ccuneiform-in-NVDA\utils\braille_test_converter.json"; DestDir:{app}\utils
+Source: "C:\Users\yeate\OneDrive\Documents\Ccuneiform-in-NVDA\utils\braille_to_numbers.json"; DestDir:{app}\utils
+Source: "C:\Users\yeate\OneDrive\Documents\Ccuneiform-in-NVDA\utils\extentions_file.json"; DestDir:{app}\utils
+Source: "C:\Users\yeate\OneDrive\Documents\Ccuneiform-in-NVDA\utils\languages_file.json"; DestDir:{app}\utils
 
 [Icons]
 Name:{group}\{#MyAppName}; Filename:{app}\niv-louie.exe; IconFilename:{app}\Justicon-Free-Simple-Line-Arrow-Solution-Business-Computer-Technology.512.ico

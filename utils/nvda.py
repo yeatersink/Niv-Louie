@@ -130,8 +130,13 @@ def add_characters_to_nvda_extention(source_folder):
     print("generating nvda  Character Set for for",project.project_name)
     #The language file is read in to pandas
     language_file=pd.read_csv("languages/filtered_"+project.project_name+".csv")
+    ui.notify("Adding Characters to NVDA Extention for "+project.project_name)
     #The character Set  file is created
-    nvda_character_set_file=open(os.path.join(source_folder,"locale",extention.extention_locale,"symbols-"+project.project_language_code+".dic"),"w",encoding="utf-8")
+    try:
+        nvda_character_set_file=open(os.path.join(source_folder,"locale",extention.extention_locale,"symbols-"+project.project_language_code+".dic"),"w",encoding="utf-8")
+    except:
+        ui.notify("Error creating file for "+project.project_name)
+        return
     nvda_character_set_file.write("""#"""+project.project_name+""" symbols.dic
 #Copyright (c) 2024Matthew Yeater and Paul Geoghegan.
 #This file is covered by the GNU General Public License.
