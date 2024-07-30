@@ -163,7 +163,7 @@ class Extention:
                 self.update_extentions_list()
                 with open("utils/extentions_file.json","w",encoding="utf-8") as file:
                     json.dump(self.extentions,file,ensure_ascii=False,indent=4)
-                os.remove("nvda_extentions/"+self.extention_name+"-nvda-addon-source")
+                os.rmdir("nvda_extentions/"+self.extention_name+"-nvda-addon-source")
                 os.remove("nvda_extentions/"+self.extention_name+".nvda-addon")
                 ui.notify("Extention has been Removed!")
 

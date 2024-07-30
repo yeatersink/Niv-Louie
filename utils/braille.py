@@ -1,3 +1,4 @@
+import os
 import warnings
 #Pandas is used for reading the   csv files
 import pandas as pd
@@ -11,6 +12,10 @@ def create_braille_table():
     print("creating table for lib louis")
     #The language file is read in to pandas
     braille=pd.read_csv("languages/filtered_"+project.project_name+".csv")
+    braille_folder=os.path.join("braille")
+    if os.path.exists(braille_folder) == False:
+        braille_folder.mkdir(parents=True,exists_ok=True)
+
     #The braille table is opened in write mode to create the table
     braille_table=open("braille/"+project.project_language_code+".utb","w",encoding="utf-8")
     #The braille column is converted to numbers

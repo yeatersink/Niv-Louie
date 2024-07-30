@@ -1,5 +1,6 @@
 from nicegui import app, events, ui
 import io
+import os
 import pandas as pd
 import json
 from docx import Document
@@ -125,6 +126,9 @@ class Project:
 
 
     def handle_document_upload(self, e: events.UploadEventArguments):
+        document_folder=os.path.join("braille_documents")
+        if os.path.exists(document_folder):
+            document_folder.mkdir(parents=True,exists_ok=True)
         if e.name.split(".")[-1]=="docx":
             document=Document(io.BytesIO(e.content.read()))
             document.save("braille_documents/"+e.name)
@@ -179,6 +183,9 @@ class Project:
         project_object= {"name":self.project_name,"name_column":self.project_name_column,"char_column":self.project_character_column,"braille_column":self.project_braille_column,"type_column":self.project_type_column,"unicode_column":self.project_unicode_column,"language_code":self.project_language_code,"language_system_code":self.project_language_system_code,"display_name":self.project_display_name,"index_name":self.project_index_name,"supported_braille_languages":self.project_supported_braille_languages,"language_information":self.project_language_information,"contributors":self.project_contributors,"included_braille_tables":self.project_included_braille_tables,"test_display_type":self.project_test_display_type,"replace":self.project_replace}
         self.languages.append(project_object)
         self.update_languages_list()
+        language_source_folder=os.path.join("languages","source")
+        if os.path.exists(language_source_folder) == False:
+            language_source_folder.mkdir(parents=True,exists_ok=True)
         with open("utils/languages_file.json", "w", encoding="utf-8") as file:
             json.dump(self.languages, file, ensure_ascii=False, indent=4)
         project.project_text.to_csv("languages/source/"+project.project_name+".csv",index=False)

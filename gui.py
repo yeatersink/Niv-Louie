@@ -54,6 +54,7 @@ def project_information():
         ui.input(label="What is the name of your project?",value=project.project_name,on_change=project.update_project_name)
         ui.input("What is the language ISO code?",value=project.project_language_code,on_change=project.update_project_language_code)
         ui.input("What is the language system?",value=project.project_language_system_code,on_change=project.update_project_language_system_code)
+        ui.input(label="What is the name you want to be displayed for your project?",value=project.project_display_name,on_change=project.update_project_display_name)
     if project.project_text is not None:
         ui.select(label="What column contains the name of the character?",options=project.project_text.columns.tolist(),value=project.project_name_column,on_change=project.update_project_name_column)
         ui.select(label="What column contains the character?",options=project.project_text.columns.tolist(),value=project.project_character_column,on_change=project.update_project_character_column)
