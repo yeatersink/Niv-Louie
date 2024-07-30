@@ -1,6 +1,7 @@
 from nicegui import app, events, ui
 import io
 import os
+from pathlib import Path
 import pandas as pd
 import json
 from docx import Document
@@ -126,9 +127,9 @@ class Project:
 
 
     def handle_document_upload(self, e: events.UploadEventArguments):
-        document_folder=os.path.join("braille_documents")
+        document_folder= Path("braille_documents")
         if os.path.exists(document_folder) == False:
-            document_folder.mkdir(parents=True,exists_ok=True)
+            document_folder.mkdir(parents=True,exist_ok=True)
         if e.name.split(".")[-1]=="docx":
             document=Document(io.BytesIO(e.content.read()))
             document.save("braille_documents/"+e.name)
