@@ -18,16 +18,16 @@
         ]
     },
     {
-        "name": "akkadiantest1234",
-        "summary": "akkadiantest1234",
-        "description": "akk",
+        "name": "patentillistration",
+        "summary": "patentillistration",
+        "description": "pt",
         "author": "me",
         "version": "1",
-        "minimum_version": "2024.1",
-        "last_tested_version": "2024.1",
+        "minimum_version": "2024",
+        "last_tested_version": "2024",
         "locale": "en",
         "included_projects": [
-            "Hebrew"
+            "patentillistration"
         ]
     }
 ]
