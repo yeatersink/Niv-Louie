@@ -127,7 +127,7 @@ class Project:
 
     def handle_document_upload(self, e: events.UploadEventArguments):
         document_folder=os.path.join("braille_documents")
-        if os.path.exists(document_folder):
+        if os.path.exists(document_folder) == False:
             document_folder.mkdir(parents=True,exists_ok=True)
         if e.name.split(".")[-1]=="docx":
             document=Document(io.BytesIO(e.content.read()))
