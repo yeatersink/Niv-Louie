@@ -16,6 +16,8 @@ def create_filtered_csv():
     filtered_language=language_file[[project.project_character_column,"Hex","Type",project.project_name_column,project.project_braille_column]].copy()
     #Gets the name column
     name_column=filtered_language[[project.project_name_column]].copy()
+    # Ensures the name column contains string values
+    name_column[project.project_name_column] = name_column[project.project_name_column].astype(str)
     #applies the format_names function to the name column to remove any unwanted characters
     new_name_column=name_column[project.project_name_column].apply(format_names)
     #replaces the name column with the new name column

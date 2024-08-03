@@ -16,5 +16,18 @@
             "Transliterated-Cuneiform",
             "Ugaritic"
         ]
+    },
+    {
+        "name": "pattest",
+        "summary": "patenttest",
+        "description": "this is a test",
+        "author": "me",
+        "version": "1",
+        "minimum_version": "2024.1",
+        "last_tested_version": "2024.1",
+        "locale": "en",
+        "included_projects": [
+            "patentillistration112"
+        ]
     }
 ]
