@@ -91,6 +91,7 @@ def create_braille_table():
     #The braille table is closed to prevent memory leaks
     braille_table.close()
     ui.notify("Braille Table for Lib Louis has been Generated. ")
+    ui.download("braille/"+project.project_language_code+".utb")
 
 
 #The braille_converter.json file is opened and read in to the braille_object variable
@@ -262,6 +263,7 @@ tests:
     test_yaml.close()
     print("done creating braille tests")
     ui.notify("Braille Test for Lib Louis has been Generateds. ")
+    ui.download("braille_tests/"+project.project_language_code+".yaml")
 
 
 def get_braille_from_text_in_source():

@@ -112,6 +112,7 @@ class Extention:
         ui.notify("Extention Saved.",close_button="Ok.")
 
 
+
     def set_fields(self):
         for addon in self.extentions:
             if self.extention_name==addon["name"]:

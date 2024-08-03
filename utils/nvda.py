@@ -121,6 +121,7 @@ lastTestedNVDAVersion = """+extention.extention_last_tested_version+"""
         os.remove(destination_folder)
     os.rename(destination_folder+".zip",destination_folder)
     ui.notify("Extention Generated!")
+    ui.download(destination_folder)
 
 
 def add_characters_to_nvda_extention(source_folder):

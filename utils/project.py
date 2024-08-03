@@ -46,14 +46,7 @@ class Project:
         #Loads the languages from the JSON file
         self.languages = load_languages()
         self.languages_list = [language["name"] for language in self.languages]
-        self.document_name=None
-        self.document_contents=None
-        self.document_projects_to_use=None
         
-
-    def update_document_projects_to_use(self,e:events.ValueChangeEventArguments):
-        self.document_projects_to_use=e.value
-
 
     def update_languages_list(self):
         self.languages_list = [language["name"] for language in self.languages]
@@ -124,32 +117,6 @@ class Project:
         test_file= pd.read_csv(content_as_file)
         test_file.to_csv("braille_tests/"+self.project_language_code)
         ui.notify("Test file for Lib Louis has been Saved. ")
-
-
-    def handle_document_upload(self, e: events.UploadEventArguments):
-        document_folder= Path("braille_documents")
-        if os.path.exists(document_folder) == False:
-            document_folder.mkdir(parents=True,exist_ok=True)
-        if e.name.split(".")[-1]=="docx":
-            document=Document(io.BytesIO(e.content.read()))
-            document.save("braille_documents/"+e.name)
-            self.document_name=e.name
-            self.document_contents=document
-        elif e.name.split(".")[-1]=="txt":
-            with open("braille_documents/"+e.name,"w",encoding="utf-8") as file:
-                file.write(        io.StringIO(e.content.read().decode("utf-8")))
-            ui.notify("Text document to convert has been saved. ")
-
-
-    def convert_document(self):
-        if self.document_name.split(".")[-1]=="docx":
-            braille_document=Document()
-            for paragraph in self.document_contents.paragraphs:
-                new_paragraph=convert_text_to_braille(self.document_name,paragraph)
-                braille_document.add_paragraph(new_paragraph)
-            braille_document.save("braille_documents/"+self.document_name.split(".")[0]+"-braille."+self.document_name.split(".")[-1])
-            ui.notify("Document converted.")
-
 
 
     def save_project(self):

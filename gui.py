@@ -2,6 +2,7 @@ from nicegui import app, events, ui
 from utils.project import project
 from utils.project_extention import extention
 from utils.project_utils import actions, actions_name_list, user_actions, perform_user_actions, save_and_create_csv, update_user_actions
+from utils.braille_document_manager import document
 #the create_braille_table function is used to create the braille table for lib louis
 #the create_braille_tests function is used to create the braille tests for lib louis
 #the get_braille_from_text_in_source function is used to convert the text characters to braille characters in the source language file
@@ -13,10 +14,13 @@ from utils.csv import create_filtered_csv, regenerate_characters_using_hex
 #The generate_locale_file function is used to generate the locale file for nvda
 #The generate_character_set function is used to generate the character set for nvda
 from utils.nvda import add_characters_to_nvda,generate_locale_file, generate_character_set, create_nvda_extention
+from pathlib import Path
+import os
 
 
 app.native.window_args["resizable"]=True
-app.native.start_args["debug"]=False
+app.native.settings['ALLOW_DOWNLOADS'] = True
+app.native.start_args["debug"]=True
 
 @ui.page("/existing_project")
 def existing_project():
@@ -160,32 +164,42 @@ def liblouis_table_builder():
     ui.button("Go Back",on_click=ui.navigate.back)
     ui.label("Table Builder")
     ui.select(label="What project do you want to use?",options=sorted(project.languages_list),with_input=True,on_change=project.update_project_name)
-    ui.button("Generate table for Lib Louis",on_click=create_braille_table)
-    ui.button("Generate Test for Lib Louis",on_click=lambda: ui.navigate.to("/create_test"))
+    ui.button("Generate and Download table for Lib Louis",on_click=create_braille_table)
+    ui.button("Home",on_click=lambda: ui.navigate.to("/"))
 
 
-@ui.page("/create_test")
-def create_test():
+@ui.page("/liblouis_test_builder")
+def liblouis_test_builder():
     ui.button("Go Back",on_click=ui.navigate.back)
-    ui.label("Create Test for Lib Louie.")
-    ui.upload(on_upload=project.handle_test_upload,auto_upload=True)
-    ui.button("Generate YAML Test for Lib Louis",on_click=create_braille_tests)
+    ui.label("Test Builder")
+    ui.upload(label="What document do you want to generate a test from?", on_upload=project.handle_test_upload,auto_upload=True)
+    ui.select(label="What project do you want to generate a test from?",options=sorted(project.languages_list),with_input=True,on_change=project.update_project_name)
+    ui.button("Generate and download YAML Test for Lib Louis",on_click=create_braille_tests)
+    ui.button("Home",on_click=lambda: ui.navigate.to("/"))
 
 
 @ui.page("/braille_document_builder")
 def braille_document_builder():
+    ui.button("Go Back",on_click=ui.navigate.back)
     ui.label("Braille Document Builder")
-    ui.select(label="What projects do you want to use?",options=sorted(project.languages_list),multiple=True,on_change=project.update_document_projects_to_use)
-    ui.upload(on_upload=project.handle_document_upload,auto_upload=True)
-    ui.button("Generate Braille Document",on_click=project.convert_document)
+    ui.upload(on_upload=document.handle_document_upload,auto_upload=True)
+    ui.select(label="What projects do you want to use?",options=sorted(project.languages_list),multiple=True,on_change=document.update_document_projects_to_use)
+    ui.button("Generate and Download Braille Document",on_click=document.convert_document)
+    document_path=Path("braille_documents")
+    if os.path.exists(document_path):
+        file_list = os.listdir(document_path)
+        ui.select(label="What Document would you like to Select?",options=file_list,on_change=document.update_document_name)
+        ui.button("Download",on_click=lambda: ui.download("braille_documents/"+document.document_name))
+    ui.button("Home",on_click=lambda:ui.navigate.to("/"))
 
 
 ui.label("Welcome to Niv Louie. What would you like to work on today?")
 ui.link("Project Manager",existing_project)
+ui.link("Braille document Builder",braille_document_builder)
 ui.link("NVDA Extention Builder",nvda_extention_builder)
-ui.link("Lib Louie Table/ Test Builder",liblouis_table_builder)
-ui.link("Braille document Builder.",braille_document_builder)
+ui.link("Lib Louie Table Builder",liblouis_table_builder)
+ui.link("Lib Louie Test Builder",liblouis_test_builder)
 ui.button("Exit",on_click=app.stop)
 
 
-ui.run(native=True,window_size=(400,300),fullscreen=False,title="Language Project Manager")
+ui.run(native=True,window_size=(400,300),fullscreen=False,title="Niv Louie")

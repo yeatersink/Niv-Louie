@@ -1,8 +1,8 @@
 
 # liblouis: Akkadian
 #
-#-display-name: Akkadian braille according to U.S. system
-#-index-name: Akkadian uncontracted
+#-display-name: Akkadian according to U.S. system
+#-index-name: Akkadian, U.S.
 #+language: akk-Xsux
 #+language: xhu-Xsux
 #+language: uga-Xsux
@@ -286,7 +286,6 @@ letter 𒃜 1245-1-16-13-136-25-346-1-1345  # GA2 TIMES KU3 PLUS AN
 letter 𒃝 1245-1-16-123-1  # GA2 TIMES LA
 letter 𒃞 1245-1-16-134-15-346-15-1345  # GA2 TIMES ME PLUS EN
 letter 𒃟 1245-1-16-134-24  # GA2 TIMES MI
-letter 𒃠 1245-1-16-1345-136-1345  # GA2 TIMES NUN
 letter 𒃡 1245-1-16-1345-136-1345-34-1345-136-1345  # GA2 TIMES NUN OVER NUN
 letter 𒃢 1245-1-16-1234-1  # GA2 TIMES PA
 letter 𒃣 1245-1-16-234-1-123  # GA2 TIMES SAL
