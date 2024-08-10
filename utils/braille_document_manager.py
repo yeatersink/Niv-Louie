@@ -8,6 +8,12 @@ from docx import Document
 import warnings
 from utils.project import project
 
+
+appdata_dir=os.getenv("LOCALAPPDATA")
+niv_louie_app_data=os.path.join(appdata_dir,"Niv_Louie")
+os.makedirs(niv_louie_app_data,exist_ok=True)
+
+
 #The braille_numbers.json file is opened and read in to the braille_numbers_object variable
 braille_numbers_file=open("utils/braille_to_numbers.json",encoding="utf8")
 braille_numbers_object=json.load(braille_numbers_file)
@@ -28,16 +34,16 @@ class DocumentManager:
         self.document_name=e.value
 
     def handle_document_upload(self, e: events.UploadEventArguments):
-        document_folder= Path("braille_documents")
+        document_folder= os.path.join(niv_louie_app_data,"documents")
         if os.path.exists(document_folder) == False:
-            document_folder.mkdir(parents=True,exist_ok=True)
+            os.makedirs(document_folder,exist_ok=True)
         if e.name.split(".")[-1]=="docx":
             document=Document(io.BytesIO(e.content.read()))
-            document.save("braille_documents/"+e.name)
+            document.save(os.path.join(document_folder,e.name))
             self.document_name=e.name
             self.document_contents=document
         elif e.name.split(".")[-1]=="txt":
-            with open("braille_documents/"+e.name,"w",encoding="utf-8") as file:
+            with open(os.path.join(document_folder,e.name),"w",encoding="utf-8") as file:
                 file.write(        io.StringIO(e.content.read().decode("utf-8")))
             ui.notify("Text document to convert has been saved. ")
 
@@ -46,15 +52,24 @@ class DocumentManager:
         self.document_projects_to_use=e.value
 
 
+    def remove_document(self):
+        document_path=os.path.join(niv_louie_app_data,"documents",self.document_name)
+        if os.path.exists(document_path):
+            os.remove(document_path)
+            ui.notify("Document has been Removed!")
+
+
     def convert_document(self):
+        document_folder= os.path.join(niv_louie_app_data,"documents")
         if self.document_name.split(".")[-1]=="docx":
             braille_document=Document()
             for paragraph in self.document_contents.paragraphs:
                 new_paragraph=convert_text_to_braille(self.document_name,paragraph)
                 braille_document.add_paragraph(new_paragraph)
-            braille_document.save("braille_documents/"+self.document_name.split(".")[0]+"-braille."+self.document_name.split(".")[-1])
+            braille_document.save(os.path.join(document_folder,self.document_name.split(".")[0]+"-braille."+self.document_name.split(".")[-1]))
             ui.notify("Document converted.")
-            ui.download("braille_documents/"+self.document_name.split(".")[0]+"-braille."+self.document_name.split(".")[-1])
+            ui.download(os.path.join(document_folder,self.document_name.split(".")[0]+"-braille."+self.document_name.split(".")[-1]))
+
 
 def convert_text_to_braille(name,content):
     """
@@ -68,7 +83,7 @@ def convert_text_to_braille(name,content):
     #The language files are read in to pandas
     language_file_list=[]
     for selected_language in document.document_projects_to_use:
-        language_file_list.append({"name":selected_language, "file":pd.read_csv("languages/filtered_"+selected_language+".csv",encoding="utf-8")})
+        language_file_list.append({"name":selected_language, "file":pd.read_csv(os.path.join(niv_louie_app_data,"languages","filtered_"+selected_language+".csv"),encoding="utf-8")})
     braille_content=""
     #This loop goes through each row in the content
     for row in content.text.split("\sn"):

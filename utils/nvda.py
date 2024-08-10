@@ -7,8 +7,11 @@ from nicegui import ui
 from utils.project import project
 from utils.project_extention import extention
 import shutil
-import os.path
+import os
 
+appdata_dir=os.getenv("LOCALAPPDATA")
+niv_louie_app_data=os.path.join(appdata_dir,"Niv_Louie")
+os.makedirs(niv_louie_app_data,exist_ok=True)
 
 def add_characters_to_nvda():
     """
@@ -91,11 +94,11 @@ def create_nvda_extention():
     """
     print("Creating Extention for NVDA")
     extention.set_fields()
-    source_folder = os.path.join("nvda_extentions",extention.extention_name+"-nvda-addon-source")
-    new_folder = pathlib.Path(source_folder)
-    new_folder.mkdir(parents=True,exist_ok=True)
-    new_locale_folder=pathlib.Path(os.path.join(source_folder,"locale",extention.extention_locale))
-    new_locale_folder.mkdir(parents=True,exist_ok=True)
+    source_folder = os.path.join(niv_louie_app_data,"nvda_extentions",extention.extention_name+"-nvda-addon-source")
+    if os.path.exists(source_folder) == False:
+        os.makedirs(source_folder,exist_ok=True)
+    new_locale_folder= os.path.join(source_folder,"locale",extention.extention_locale)
+    os.makedirs(new_locale_folder,exist_ok=True)
     manifest_file=open(os.path.join(source_folder,"manifest.ini"),"w",encoding="utf-8")
     manifest_file.write("""name = """+extention.extention_name+"""""""""
 summary = \""""+extention.extention_summary+"""\"
@@ -115,7 +118,7 @@ lastTestedNVDAVersion = """+extention.extention_last_tested_version+"""
         manifest_file.write("mandatory = false\n")
         add_characters_to_nvda_extention(source_folder)
     manifest_file.close()
-    destination_folder = os.path.join("nvda_extentions",extention.extention_name+".nvda-addon")
+    destination_folder = os.path.join(niv_louie_app_data,"nvda_extentions",extention.extention_name+".nvda-addon")
     archived=shutil.make_archive(destination_folder, 'zip', source_folder)
     if os.path.exists(destination_folder):
         os.remove(destination_folder)
@@ -130,7 +133,7 @@ def add_characters_to_nvda_extention(source_folder):
     """
     print("generating nvda  Character Set for for",project.project_name)
     #The language file is read in to pandas
-    language_file=pd.read_csv("languages/filtered_"+project.project_name+".csv")
+    language_file=pd.read_csv(os.path.join(niv_louie_app_data,"languages","filtered_"+project.project_name+".csv"))
     ui.notify("Adding Characters to NVDA Extention for "+project.project_name)
     #The character Set  file is created
     try:
@@ -160,8 +163,8 @@ def generate_character_set():
     print("generating nvda  Character Set for for",project.project_name)
     #The language file is read in to pandas
     language_file=pd.read_csv("languages/filtered_"+project.project_name+".csv")
-    new_folder = pathlib.Path("nvda_character_sets/",project.project_language_code)
-    new_folder.mkdir(parents=True,exist_ok=True)
+    new_folder = os.path.join("nvda_character_sets",project.project_language_code)
+    os.mkdir(new_folder,exist_ok=True)
     #The character Set  file is created
     nvda_character_set_file=open("nvda_character_sets/"+project.project_language_code+"/symbols.dic","w",encoding="utf8")
     nvda_character_set_file.write("""#"""+project.project_name+""" symbols.dic

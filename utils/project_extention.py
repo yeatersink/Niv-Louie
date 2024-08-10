@@ -1,12 +1,24 @@
 from nicegui import app, events, ui
 import json
-import os.path
+import os
+import shutil
+
+
+appdata_dir=os.getenv("LOCALAPPDATA")
+niv_louie_app_data=os.path.join(appdata_dir,"Niv_Louie")
+os.makedirs(niv_louie_app_data,exist_ok=True)
+
 
 # Function to load extentions from JSON file
 def load_extentions():
     try:
-        with open("utils/extentions_file.json", "r", encoding="utf-8") as file:
-            return json.load(file)
+        extentions_file_path=os.path.join(niv_louie_app_data,"utils")
+        if os.path.exists(os.path.join(extentions_file_path,"extentions_file.json")) == False:
+            os.makedirs(extentions_file_path,exist_ok=True)
+            return []
+        else:
+            with open(os.path.join(extentions_file_path,"extentions_file.json"), "r", encoding="utf-8") as file:
+                return json.load(file)
     except FileNotFoundError:
         return []  # Return an empty list if the file does not exist
 
@@ -106,7 +118,7 @@ class Extention:
         }
         self.extentions.append(extention_object)
         self.update_extentions_list()
-        with open("utils/extentions_file.json","w",encoding="utf-8") as file:
+        with open(os.path.join(niv_louie_app_data,"utils","extentions_file.json"),"w",encoding="utf-8") as file:
             json.dump(self.extentions,file,ensure_ascii=False,indent=4)
         ui.navigate.to("/nvda_extention_builder")
         ui.notify("Extention Saved.",close_button="Ok.")
@@ -145,9 +157,10 @@ class Extention:
                 addon["locale"]=self.extention_locale
                 addon["included_projects"]=self.extention_included_projects
                 self.update_extentions_list()
-                with open("utils/extentions_file.json","w",encoding="utf-8") as file:
+                with open(os.path.join(niv_louie_app_data,"utils","extentions_file.json"),"w",encoding="utf-8") as file:
                     json.dump(self.extentions,file,ensure_ascii=False,indent=4)
-                    os.rename("nvda_extentions/"+old_extention_name+".nvda-addon","nvda_extentions/"+self.extention_name+".nvda-addon")
+                if old_extention_name!=self.extention_name and os.path.exists(os.path.join(niv_louie_app_data,"nvda_extentions",old_extention_name+".nvda-addon")):
+                    os.rename(os.path.join(niv_louie_app_data,"nvda_extentions",old_extention_name+".nvda-addon"),os.path.join(niv_louie_app_data,"nvda_extentions",self.extention_name+".nvda-addon"))
                     os.rename("nvda_extentions/"+old_extention_name+"-nvda-addon-source","nvda_extentions/"+self.extention_name+"-nvda-addon-source")
                 updated=True
                 break
@@ -160,12 +173,14 @@ class Extention:
     def remove_extention(self):
         for addon in self.extentions:
             if addon["name"]==self.extention_name:
+                if os.path.exists(os.path.join(niv_louie_app_data,"nvda_extentions",self.extention_name+"-nvda-addon-source")):
+                    shutil.rmtree(os.path.join(niv_louie_app_data,"nvda_extentions",self.extention_name+"-nvda-addon-source"))
+                if os.path.exists(os.path.join(niv_louie_app_data,"nvda_extentions",self.extention_name+".nvda-addon")):
+                    os.remove(os.path.join(niv_louie_app_data,"nvda_extentions",self.extention_name+".nvda-addon"))
                 self.extentions.remove(addon)
                 self.update_extentions_list()
-                with open("utils/extentions_file.json","w",encoding="utf-8") as file:
+                with open(os.path.join(niv_louie_app_data,"utils","extentions_file.json"),"w",encoding="utf-8") as file:
                     json.dump(self.extentions,file,ensure_ascii=False,indent=4)
-                os.rmdir("nvda_extentions/"+self.extention_name+"-nvda-addon-source")
-                os.remove("nvda_extentions/"+self.extention_name+".nvda-addon")
                 ui.notify("Extention has been Removed!")
 
 

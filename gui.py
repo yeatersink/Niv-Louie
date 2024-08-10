@@ -18,6 +18,11 @@ from pathlib import Path
 import os
 
 
+appdata_dir=os.getenv("LOCALAPPDATA")
+niv_louie_app_data=os.path.join(appdata_dir,"Niv_Louie")
+os.makedirs(niv_louie_app_data,exist_ok=True)
+
+
 app.native.window_args["resizable"]=True
 app.native.settings['ALLOW_DOWNLOADS'] = True
 app.native.start_args["debug"]=True
@@ -185,11 +190,19 @@ def braille_document_builder():
     ui.upload(on_upload=document.handle_document_upload,auto_upload=True)
     ui.select(label="What projects do you want to use?",options=sorted(project.languages_list),multiple=True,on_change=document.update_document_projects_to_use)
     ui.button("Generate and Download Braille Document",on_click=document.convert_document)
-    document_path=Path("braille_documents")
+    document_path=os.path.join(niv_louie_app_data,"documents")
     if os.path.exists(document_path):
         file_list = os.listdir(document_path)
         ui.select(label="What Document would you like to Select?",options=file_list,on_change=document.update_document_name)
-        ui.button("Download",on_click=lambda: ui.download("braille_documents/"+document.document_name))
+        ui.button("Download",on_click=lambda: ui.download(os.path.join(document_path,document.document_name)))
+    with ui.dialog() as dialog,ui.card():
+        ui.label("Are you Sure you want to Permenantly Remove this Document?")
+        ui.button("Cancel",on_click=dialog.close)
+        def confirm_delete():
+            document.remove_document()
+            dialog.close()
+        ui.button("Yes, Delete",on_click=confirm_delete)
+    ui.button("Remove Document",on_click=dialog.open)
     ui.button("Home",on_click=lambda:ui.navigate.to("/"))
 
 

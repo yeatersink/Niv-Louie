@@ -2,7 +2,14 @@
 import pandas as pd
 #Warnings is imported to display warnings to the user
 import warnings
+#os is imported to create directories
+import os
 from utils.project import project
+
+
+appdata_dir=os.getenv("LOCALAPPDATA")
+niv_louie_app_data=os.path.join(appdata_dir,"Niv_Louie")
+os.makedirs(niv_louie_app_data,exist_ok=True)
 
 
 def create_filtered_csv():
@@ -10,8 +17,9 @@ def create_filtered_csv():
     This function creates a filtered csv file that only contains the characters, names, and braille codes for the language    
     """
     print("Generating",project.project_name,"Spreadsheet")
+    language_source_path=os.path.join(niv_louie_app_data,"languages","source")
     #The language file is read in to pandas
-    language_file=pd.read_csv("languages/source/"+project.project_name+".csv")
+    language_file=pd.read_csv(os.path.join(language_source_path,project.project_name+".csv"))
     #selects the columns that are needed for the filtered csv file
     filtered_language=language_file[[project.project_character_column,"Hex","Type",project.project_name_column,project.project_braille_column]].copy()
     #Gets the name column
@@ -34,7 +42,7 @@ def create_filtered_csv():
         print(filtered_language[filtered_language.duplicated(keep=False,subset=["Hex"])])
     filtered_language = filtered_language.sort_values(by=["Hex"],key=lambda x:x.str.len(),ascending=False)
     #saves the filtered language file to the languages folder
-    filtered_language.to_csv("languages/filtered_"+project.project_name+".csv",index=False)
+    filtered_language.to_csv(os.path.join(niv_louie_app_data,"languages","filtered_"+project.project_name+".csv"),index=False)
     print("Spreadsheet Generated")
 
 def format_names(name):

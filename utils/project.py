@@ -7,6 +7,12 @@ import json
 from docx import Document
 import warnings
 
+
+appdata_dir=os.getenv("LOCALAPPDATA")
+niv_louie_app_data=os.path.join(appdata_dir,"Niv_Louie")
+os.makedirs(niv_louie_app_data,exist_ok=True)
+
+
 #The braille_test_converter.json file is opened and read in to the braille_test_object variable
 braille_test_file=open("utils/braille_test_converter.json",encoding="utf8")
 braille_converter_object=json.load(braille_test_file)
@@ -115,6 +121,9 @@ class Project:
     def handle_test_upload(self, e: events.UploadEventArguments):
         content_as_file = io.StringIO(e.content.read().decode("utf-8"))
         test_file= pd.read_csv(content_as_file)
+        test_path=os.path.join(niv_louie_app_data,"braille_tests")
+        if os.path.exists(test_path)==False:
+            os.makedirs(test_path,exist_ok=True)
         test_file.to_csv("braille_tests/"+self.project_language_code)
         ui.notify("Test file for Lib Louis has been Saved. ")
 
@@ -151,12 +160,12 @@ class Project:
         project_object= {"name":self.project_name,"name_column":self.project_name_column,"char_column":self.project_character_column,"braille_column":self.project_braille_column,"type_column":self.project_type_column,"unicode_column":self.project_unicode_column,"language_code":self.project_language_code,"language_system_code":self.project_language_system_code,"display_name":self.project_display_name,"index_name":self.project_index_name,"supported_braille_languages":self.project_supported_braille_languages,"language_information":self.project_language_information,"contributors":self.project_contributors,"included_braille_tables":self.project_included_braille_tables,"test_display_type":self.project_test_display_type,"replace":self.project_replace}
         self.languages.append(project_object)
         self.update_languages_list()
-        language_source_folder=os.path.join("languages","source")
+        language_source_folder=os.path.join(niv_louie_app_data,"languages","source")
         if os.path.exists(language_source_folder) == False:
-            language_source_folder.mkdir(parents=True,exists_ok=True)
+            os.makedirs(language_source_folder,exist_ok=True)
         with open("utils/languages_file.json", "w", encoding="utf-8") as file:
             json.dump(self.languages, file, ensure_ascii=False, indent=4)
-        project.project_text.to_csv("languages/source/"+project.project_name+".csv",index=False)
+        project.project_text.to_csv(os.path.join(language_source_folder,project.project_name+".csv"),index=False)
 
         ui.navigate.to("/existing_project")
         ui.notify("Project Saved",close_button="Ok")
@@ -169,6 +178,12 @@ class Project:
 
         removed=False
         if self.project_name != None:
+            source_path=os.path.join(niv_louie_app_data,"languages","source",self.project_name+".csv")
+            if os.path.exists(source_path):
+                os.remove(source_path)
+            filtered_path=os.path.join(niv_louie_app_data,"languages","filtered_"+self.project_name+".csv")
+            if os.path.exists(filtered_path):
+                os.remove(filtered_path)
             new_languages=list(filter(self.check_language_names,self.languages))
             if len(new_languages) < len(self.languages):
                 removed=True
@@ -246,10 +261,10 @@ def convert_text_to_braille(name,content):
     #The language files are read in to pandas
     language_file_list=[]
     for selected_language in project.document_projects_to_use:
-        language_file_list.append({"name":selected_language, "file":pd.read_csv("languages/filtered_"+selected_language+".csv",encoding="utf-8")})
+        language_file_list.append({"name":selected_language, "file":pd.read_csv(os.path.join(niv_louie_app_data,"languages","filtered_"+selected_language+".csv"),encoding="utf-8")})
     braille_content=""
     #This loop goes through each row in the content
-    for row in content.text.split("\sn"):
+    for row in content.text.split("\n"):
         new_braille_content=row
         #This checks if the test contains any numbers
         if any(char.isdigit() for char in new_braille_content):
