@@ -51,7 +51,17 @@ Character,Hex,Logic,Type,Name,Braille
 יּ,05D9+05BC,186.0,always,Yod with dagesh,⠐⠚
 יְּ,05D9+05BC+05B0,186.0,always,Yod with dagesh sheva,⠐⠚⠄
 י,05D9,8.0,letter,letter yod,⠚
-ך,05DA,214.0,letter,letter final kaf,⠡
+ך,05DA,214.0,noback letter,letter final kaf,⠡
+ך׃,05DA+05C3,nofor always,final kaf with sof passuk,⠡⠲
+ך.,05DA+002E,nofor always,final kaf with  period,⠡⠲
+ך,,05DA+002C,nofor always,final kaf with  comma,⠡,
+ך!,05DA+0021,nofor always,final kaf with  exclamation mark,⠡!
+ך?,05DA+003F,nofor always,final kaf with  exclamation mark,⠡?
+ך),05DA+0029,nofor always,final kaf with  right parenthesis,⠡)
+ך”,05DA+201D,nofor always,final kaf with right quote,⠡”
+ך",05DA+0022,nofor always,final kaf with quote,⠡”
+ךַ,05DA+05B7,nofor always,final kaf with furtive patah,⠡c
+ך/s,05DA,nofor always,final kaf with  space,⠡/s
 כּ,05DB+05BC,8.0,always,kaf with dagesh,⠅
 כְּ,05DB+05BC+05B0,8.0,always,kaf with dagesh sheva,⠅⠄
 כ,05DB,8.0,letter,kaf,⠡
@@ -60,22 +70,62 @@ Character,Hex,Logic,Type,Name,Braille
 לּ,05DC+05BC,186.0,always,letter lamed with dagesh,⠐⠇
 לְּ,05DC+05BC+05B0,186.0,always,letter lamed with dagesh sheva,⠐⠇⠄
 ל,05DC,8.0,letter,letter lamed,⠇
-ם,05DD,8.0,letter,letter final mem,⠍
+ם,05DD,8.0,noback always,final mem,⠍
+ם׃,05DD+05C3,nofor always,final Mem with sof passuk,⠍⠲
+ם.,05DD+002E,nofor always,final Mem with  period,⠍⠲
+ם,,05DD+002C,nofor always,final Mem with  comma,⠍,
+ם!,05DD+0021,nofor always,final Mem with  exclamation mark,⠍!
+ם?,05DD+003F,nofor always,final Mem with  exclamation mark,⠍?
+ם),05DD+0029,nofor always,final Mem with  right parenthesis,⠍)
+ם”,05DD+201D,nofor always,final Mem with right quote,⠍”
+ם",05DD+0022,nofor always,final Mem with quote,⠍”
+םַ,05DD+05B7,nofor always,final Memwith furtive patah,⠍c
+ם/s,05DD,nofor always,final Mem with  space,⠍/s
 מּ,05DE+05BC,186.0,always,letter mem with dagesh,⠐⠍
 מְּ,05DE+05BC+05B0,186.0,always,letter mem with dagesh sheva,⠐⠍⠄
 מ,05DE,8.0,letter,letter mem,⠍
 ן,05DF,8.0,letter,letter final nun,⠝
+ן׃,05DF+05C3,nofor always,final Nun with sof passuk,⠝⠲
+ן.,05DF+002E,nofor always,final Nun with  period,⠝⠲
+ן,,05DF+002C,nofor always,final Nun with  comma,⠝,
+ן!,05DF+0021,nofor always,final Nun with  exclamation mark,⠝!
+ן?,05DF+003F,nofor always,final Nun with  exclamation mark,⠝?
+ן),05DF+0029,nofor always,final Nun with  right parenthesis,⠝)
+ן”,05DF+201D,nofor always,final Nun with right quote,⠝”
+ן",05DF+0022,nofor always,final Nun with quote,⠝”
+ןַ,05DF+05B7,nofor always,final Nun with furtive patah,⠝c
+ן/s,05DD,nofor always,final Nun with  space,⠝/s
 נּ,05E0+05BC,186.0,always,letter nun with dagesh,⠐⠝
 נְּ,05E0+05BC+05B0,186.0,always,letter nun with  dagesh sheva,⠐⠝⠄
 נ,05E0,8.0,letter,letter nun,⠝
 ס,05E1,8.0,letter,letter samekh,⠎
 ע,05E2,8.0,letter,letter ayin,⠫
 ף,05E3,8.0,letter,letter final pe,⠋
+ף׃,05E3+05C3,nofor always,final Pe with sof passuk,⠋⠲
+ף.,05E3+002E,nofor always,final Pe with  period,⠋⠲
+ף,,05E3+002C,nofor always,final Pe with  comma,⠋,
+ף!,05E3+0021,nofor always,final Pe with  exclamation mark,⠋!
+ף?,05E3+003F,nofor always,final Pe with  exclamation mark,⠋?
+ף),05E3+0029,nofor always,final Pe with  right parenthesis,⠋)
+ף”,05E3+201D,nofor always,final Pe with right quote,⠋”
+ף",05E3+0022,nofor always,final Pe with quote,⠋”
+ףַ,05E3+05B7,nofor always,final Pe with furtive patah,⠋c
+ף/s,05E3,nofor always,final Pe with  space,⠋/s
 פּ,05E4+05BC,8.0,always,pe with dagesh,⠏
 פְּ,05E4+05BC+05B0,8.0,always,pe with dagesh sheva,⠏⠄
 פ,05E4,214.0,letter,Pe,⠋
 פֿ,05E4+05BF,1.0,always,Pe with rafe,⠋
 ץ,05E5,8.0,letter,letter final tsadi,⠮
+ץ׃,05E5+05C3,nofor always,final tsadi with sof passuk,⠮⠲
+ץ.,05E5+002E,nofor always,final tsadi with  period,⠋⠮
+ץ,,05E5+002C,nofor always,final tsadi with  comma,⠮,
+ץ!,05E5+0021,nofor always,final tsadi with  exclamation mark,⠮!
+ץ?,05E5+003F,nofor always,final tsadi with  exclamation mark,⠮?
+ץ),05E5+0029,nofor always,final tsadi with  right parenthesis,⠮)
+ץ”,05E5+201D,nofor always,final tsadi with right quote,⠮”
+ץ",05E5+0022,nofor always,final tsadi with quote,⠮”
+ץַ,05E5+05B7,nofor always,final tsadi with furtive patah,⠮c
+ץ/s,05E5,nofor always,final tsadi with space,⠮/s
 צ,05E6,8.0,letter,letter tsadi,⠮
 קּ,05E7+05BC,186.0,always,letter qof with dagesh,⠐⠟
 קְּ,05E7+05BC+05B0,186.0,always,letter qof with dagesh sheva,⠐⠟⠄
