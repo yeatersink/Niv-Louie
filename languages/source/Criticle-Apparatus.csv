@@ -1,4 +1,4 @@
-Char,Unicode,Logic,Type,Name,Braille
+Char,Hex,Logic,Type,Name,Braille
 ✔,2714,,sign,Check Mark Distinguishes Same kind of Varient,⠷
 ✕,2715,,sign,Mark beginning of Replacement,⠗
 ✖,2716,,sign,Mark Ends of Replacement,⠺

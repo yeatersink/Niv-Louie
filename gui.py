@@ -1,7 +1,7 @@
 from nicegui import app, events, ui
 from utils.project import project
 from utils.project_extention import extention
-from utils.project_utils import actions, actions_name_list, user_actions, perform_user_actions, save_and_create_csv, update_user_actions
+from utils.project_utils import actions, actions_name_list, user_actions, perform_user_actions, save_and_create_csv, save_and_create_existing_csv, update_user_actions
 from utils.braille_document_manager import document
 #the create_braille_table function is used to create the braille table for lib louis
 #the create_braille_tests function is used to create the braille tests for lib louis
@@ -64,12 +64,19 @@ def project_information():
         ui.input("What is the language ISO code?",value=project.project_language_code,on_change=project.update_project_language_code)
         ui.input("What is the language system?",value=project.project_language_system_code,on_change=project.update_project_language_system_code)
         ui.input(label="What is the name you want to be displayed for your project?",value=project.project_display_name,on_change=project.update_project_display_name)
+        ui.input(label="What is the index name of your project?",value=project.project_index_name,on_change=project.update_project_index_name)
     if project.project_text is not None:
         ui.select(label="What column contains the name of the character?",options=project.project_text.columns.tolist(),value=project.project_name_column,on_change=project.update_project_name_column)
         ui.select(label="What column contains the character?",options=project.project_text.columns.tolist(),value=project.project_character_column,on_change=project.update_project_character_column)
         ui.select(label="What column contains the Unicode value of the character?",options=project.project_text.columns.tolist(),value=project.project_unicode_column,on_change=project.update_project_unicode_column)
         ui.select(label="What column contains the Type of the character?",options=project.project_text.columns.tolist(),value=project.project_type_column,on_change=project.update_project_type_column)
         ui.select(label="What column contains the Braille character?",options=project.project_text.columns.tolist(),value=project.project_braille_column,on_change=project.update_project_braille_column)
+        ui.input(label="What are the language codes for the language  for this project?",value=project.project_supported_braille_languages,on_change=project.update_project_supported_braille_languages)
+        ui.input(label="Please provide a brief explaination about the language in this project",value=project.project_language_information,on_change=project.update_project_language_information)
+        ui.input(label="Who are the contributers for this project?",value=project.project_contributors,on_change=project.update_project_contributors)
+        ui.input(label="What other braille tables would you like to include in this project?",value=project.project_included_braille_tables,on_change=project.update_project_included_braille_tables)
+        ui.input(label="Is this table intended to be a forward translation, a back translation, or both.",value=project.project_test_display_type,on_change=project.update_project_test_display_type)
+        ui.input(label="What characters or words do you want removed from your spreadsheet?",value=project.project_replace,on_change=project.update_project_replace)
     ui.button("Save Project",on_click=save_and_create_csv)
 
 
@@ -77,6 +84,7 @@ def project_information():
 def edit_project_information():
     regenerate_characters=False
     generate_braille=False
+    old_project_name=project.project_name
     ui.button("Go Back",on_click=ui.navigate.back)
     ui.label("Edit Project Information")            
     if project.project_name is not None:
@@ -91,17 +99,23 @@ def edit_project_information():
         ui.select(label="What column contains the Unicode value of the character?",options=project.project_text.columns.tolist(),value=project.project_unicode_column,on_change=project.update_project_unicode_column)
         ui.select(label="What column contains the Type of the character?",options=project.project_text.columns.tolist(),value=project.project_type_column,on_change=project.update_project_type_column)
         ui.select(label="What column contains the Braille character?",options=project.project_text.columns.tolist(),value=project.project_braille_column,on_change=project.update_project_braille_column)
+        ui.input(label="What are the language codes for the language  for this project?",value=project.project_supported_braille_languages,on_change=project.update_project_supported_braille_languages)
+        ui.input(label="Please provide a brief explaination about the language in this project",value=project.project_language_information,on_change=project.update_project_language_information)
+        ui.input(label="Who are the contributers for this project?",value=project.project_contributors,on_change=project.update_project_contributors)
+        ui.input(label="What other braille tables would you like to include in this project?",value=project.project_included_braille_tables,on_change=project.update_project_included_braille_tables)
+        ui.input(label="Is this table intended to be a forward translation, a back translation, or both.",value=project.project_test_display_type,on_change=project.update_project_test_display_type)
+        ui.input(label="What characters or words do you want removed from your spreadsheet?",value=project.project_replace,on_change=project.update_project_replace)
         ui.checkbox(text="Generate Characters using Unicode Column",value=regenerate_characters)
         ui.checkbox(text="Generate Braille Characters for Braille Column",value=generate_braille)
-    ui.button("Save Changes",on_click=lambda:save_project_edits(regenerate_characters,generate_braille))
+    ui.button("Save Changes",on_click=lambda:save_project_edits(regenerate_characters,generate_braille,old_project_name))
 
 
-def save_project_edits(regenerate_characters,generate_braille):
+def save_project_edits(regenerate_characters,generate_braille,old_project_name):
     if regenerate_characters==True:
         regenerate_characters_using_hex()
     if generate_braille==True:
         get_braille_from_text_in_source()
-    save_and_create_csv()
+    save_and_create_existing_csv(old_project_name)
 
 
 @ui.page("/nvda_extention_builder")
@@ -177,8 +191,8 @@ def liblouis_table_builder():
 def liblouis_test_builder():
     ui.button("Go Back",on_click=ui.navigate.back)
     ui.label("Test Builder")
-    ui.upload(label="What document do you want to generate a test from?", on_upload=project.handle_test_upload,auto_upload=True)
     ui.select(label="What project do you want to generate a test from?",options=sorted(project.languages_list),with_input=True,on_change=project.update_project_name)
+    ui.upload(label="What document do you want to generate a test from?", on_upload=project.handle_test_upload,auto_upload=True)
     ui.button("Generate and download YAML Test for Lib Louis",on_click=create_braille_tests)
     ui.button("Home",on_click=lambda: ui.navigate.to("/"))
 

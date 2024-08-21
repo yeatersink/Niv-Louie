@@ -34,3 +34,7 @@ def update_user_actions(e:events.ValueChangeEventArguments):
 def save_and_create_csv():
     project.save_project()
     create_filtered_csv()
+
+def save_and_create_existing_csv(old_project_name:str):
+    project.save_existing_project(old_project_name)
+    create_filtered_csv()

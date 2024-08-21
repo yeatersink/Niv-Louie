@@ -1,0 +1,110 @@
+Character,Hex,Logic,Type,Name,Braille
+ְ,05B0,187.0,letter,point sheva*,⠄
+ֱ,05B1,188.0,letter,hataf segol,⠢
+ֲ,05B2,188.0,letter,hataf patah,⠒
+ֳ,05B3,185.0,letter,point hataf qamats*,⠜
+ִי,05B4+05D9,201.0,always,point hiriq-yod,⠔
+ִ,05B4,188.0,letter,point hiriq*,⠊
+ֵי,05B5+05D9,188.0,always,point tsere-yod*,⠼
+ֵ,05B5,185.0,letter,point tsere*,⠌
+ֶ,05B6,185.0,letter,point segol*,⠑
+ַ,05B7,185.0,letter,point patah*,⠉
+ָ,05B8,185.0,letter,point qamats*,⠣
+ֹ,05B9,185.0,letter,holam Malay *,⠕
+ֺ,05BA,188.0,letter,point holam haser ,⠪
+ֻ,05BB,185.0,letter,point qubuts*,⠬
+ּ,05BC,186.0,letter,dagesh,⠐
+א,05D0,8.0,letter,letter alef,⠁
+בּ,05D1+05BC,8.0,always,bet with dagesh,⠃
+בּ,FB31,3.0,always,Bet with dagesh,⠃
+ב,05D1,8.0,letter,bet,⠧
+ג,05D2,8.0,letter,gimel,⠛
+דּ,05D3+05BC,186.0,always,dalet with dagesh,⠐⠙
+ד,05D3,8.0,letter,letter dalet,⠙
+ה,05D4,8.0,letter,letter hey,⠓
+וֹ,05D5+05B9,201.0,always,holam-vav*,⠕
+וּ,05D5+05BC,201.0,always,shuruq,⠥
+ּו,05BC+05D5,201.0,always,shuruq,⠥
+ו,05D5,8.0,letter,vav,⠺
+ז,05D6,8.0,letter,zayin,⠵
+ח,05D7,8.0,letter,letter het,⠭
+ט,05D8,8.0,letter,letter tet,⠞
+יּ,05D9+05BC,186.0,always,Yod with dagesh,⠐⠚
+ך,05DA,214.0,noback letter,letter final kaf,⠡
+ך.,05DA+002E,100,nofor always,final kaf with  period,⠡⠲
+"ך,",05DA+002C,100,nofor always,final kaf with comma,⠡⠂
+ך!,05DA+0021,100,nofor always,final kaf with exclamation mark,⠡⠖
+ך?,05DA+003F,100,nofor always,final kaf with  question mark,⠡⠰⠦
+ך),05DA+0029,100,nofor always,final kaf with  right parenthesis,⠡⠐⠜
+ך”,05DA+201D,100,nofor always,final kaf with right quote,⠡⠴
+ך",05DA+0022,100,nofor always,final kaf with quote,⠡⠠⠶
+ךְ,05DA+05B0,100,nofor always,final kaf with sheva,⠡⠄
+ך ,05DA+0020,nofor always,final kaf with  space,⠡ 
+ך־,05DA+05BE,100,nofor always,final kaf with  Mediq,⠡⠤
+כּ,05DB+05BC,8.0,always,kaf with dagesh,⠅
+כ,05DB,8.0,letter,kaf,⠡
+כּ,FB3B,9.0,always,KAF with dagesh ,⠅
+לּ,05DC+05BC,186.0,always,letter lamed with dagesh,⠐⠇
+ל,05DC,8.0,letter,letter lamed,⠇
+ם,05DD,8.0,noback letter,final mem,⠍
+ם.,05DD+002E,100,nofor always,final Mem with  period,⠍⠲
+"ם,",05DD+002C,100,nofor always,final Mem with  comma,⠍⠂
+ם!,05DD+0021,100,nofor always,final Mem with  exclamation mark,⠍⠖
+ם?,05DD+003F,100,nofor always,final Mem with  question mark,⠍⠰⠦
+ם),05DD+0029,100,nofor always,final Mem with  right parenthesis,⠍⠐⠜
+ם”,05DD+201D,100,nofor always,final Mem with right quote,⠍⠴
+ם",05DD+0022,100,nofor always,final Mem with quote,⠍⠠⠶
+םְ,05DD+05B0,100,nofor always,final Mem with sheva ,⠍⠄
+ם ,05DD+0020,100,nofor always,final Mem with  space,⠍ 
+ם־,05DD+05BE,100,nofor always,final Mem with  Mediq,⠍⠤
+מּ,05DE+05BC,186.0,always,letter mem with dagesh,⠐⠍
+מ,05DE,8.0,letter,letter mem,⠍
+ן,05DF,8.0,letter,noback letter final nun,⠝
+ן.,05DF+002E,100,nofor always,final Nun with  period,⠝⠲
+"ן,",05DF+002C,100,nofor always,final Nun with  comma,⠝⠂
+ן!,05DF+0021,100,nofor always,final Nun with  exclamation mark,⠝⠖
+ן?,05DF+003F,100,nofor always,final Nun with  question mark,⠝⠰⠦
+ן),05DF+0029,100,nofor always,final Nun with  right parenthesis,⠝⠐⠜
+ן”,05DF+201D,100,nofor always,final Nun with right quote,⠝⠴
+ן",05DF+0022,100,nofor always,final Nun with quote,⠝⠠⠶
+ןְ,05DF+05B0,100,nofor always,final Nun with sheva,⠝
+ן ,05DF+0020,100,nofor always,final Nun with  space,⠝ 
+ן־,05DF+05BE,100,nofor always,final Nun with Mediq,⠝⠤
+נּ,05E0+05BC,186.0,always,letter nun with dagesh,⠐⠝
+נ,05E0,8.0,letter,letter nun,⠝
+ס,05E1,8.0,letter,letter samekh,⠎
+ע,05E2,8.0,letter,letter ayin,⠫
+ף,05E3,8.0,letter,noback letter final pe,⠋
+ף.,05E3+002E,100,nofor always,final Pe with  period,⠋⠲
+"ף,",05E3+002C,100,nofor always,final Pe with  comma,⠋⠂
+ף!,05E3+0021,100,nofor always,final Pe with  exclamation mark,⠋⠖
+ף?,05E3+003F,100,nofor always,final Pe with  question mark,⠋⠰⠦
+ף),05E3+0029,100,nofor always,final Pe with  right parenthesis,⠋⠐⠜
+ף”,05E3+201D,100,nofor always,final Pe with right quote,⠋⠴
+ף",05E3+0022,100,nofor always,final Pe with quote,⠋⠠⠶
+ףְ,05E3+05B0,100,nofor always,final Pe with furtive patah,⠋⠉
+ף ,05E3+0020,100,nofor always,final Pe with  space,⠋ 
+ף־,05E3+05BE,100,nofor always,final Pe with Mediq,⠋⠤
+פּ,05E4+05BC,8.0,always,pe with dagesh,⠏
+פ,05E4,214.0,letter,Pe,⠋
+ץ,05E5,8.0,letter,noback letter final tsadi,⠮
+ץ.,05E5+002E,100,nofor always,final tsadi with  period,⠋⠮
+"ץ,",05E5+002C,100,nofor always,final tsadi with  comma,⠮⠂
+ץ!,05E5+0021,100,nofor always,final tsadi with  exclamation mark,⠮⠖
+ץ?,05E5+003F,100,nofor always,final tsadi with  question mark,⠮⠰⠦
+ץ),05E5+0029,100,nofor always,final tsadi with  right parenthesis,⠮⠐⠜
+ץ”,05E5+201D,100,nofor always,final tsadi with right quote,⠮⠴
+ץ",05E5+0022,100,nofor always,final tsadi with quote,⠮⠠⠶
+ץְ,05E5+05B0,100,nofor always,final tsadi with sheva,⠮⠄
+ץ ,05E5+0020,100,nofor always,final tsadi with space,⠮ 
+ץ־,05E5+05BE,100,nofor alwsays,final tsadi with Mediq,⠮⠤
+צ,05E6,8.0,letter,letter tsadi,⠮
+קּ,05E7+05BC,186.0,always,letter qof with dagesh,⠐⠟
+ק,05E7,8.0,letter,letter qof,⠟
+ר,05E8,8.0,letter,letter resh,⠗
+ש,05E9,9.0,letter,Shin,⠩
+שׁ,05E9+05C1,8.0,always,letter shin with dot,⠩
+שׂ,05E9+05C2,214.0,always,letter sin,⠱
+תּ,05EA+05BC,8.0,always,letter tav with dagesh,⠳
+ת,05EA,8.0,always,tav,⠹
+תּ,FB4A,10.0,always,tav with daggesh,⠳

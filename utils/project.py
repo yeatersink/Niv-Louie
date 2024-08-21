@@ -95,8 +95,8 @@ class Project:
         self.project_index_name = e.value
 
     def update_project_supported_braille_languages(self, e: events.ValueChangeEventArguments):
-        self.project_supported_braille_languages = e.value
-        
+        self.project_supported_braille_languages = e.value.split(",")
+
     def update_project_language_information(self, e: events.ValueChangeEventArguments):
         self.project_language_information = e.value
 
@@ -104,13 +104,13 @@ class Project:
         self.project_contributors = e.value
 
     def update_project_included_braille_tables(self, e: events.ValueChangeEventArguments):
-        self.project_included_braille_tables = e.value
+        self.project_included_braille_tables = e.value.split(",")
 
     def update_project_test_display_type(self, e: events.ValueChangeEventArguments):
         self.project_test_display_type = e.value
 
     def update_project_replace(self, e: events.ValueChangeEventArguments):
-        self.project_replace = e.value
+        self.project_replace = e.value.split(",")
 
     def handle_file_upload(self, e: events.UploadEventArguments):
         self.project_name = e.name.split(".")[0]
@@ -119,12 +119,13 @@ class Project:
 
 
     def handle_test_upload(self, e: events.UploadEventArguments):
+        self.set_all_fields()
         content_as_file = io.StringIO(e.content.read().decode("utf-8"))
         test_file= pd.read_csv(content_as_file)
         test_path=os.path.join(niv_louie_app_data,"braille_tests")
         if os.path.exists(test_path)==False:
             os.makedirs(test_path,exist_ok=True)
-        test_file.to_csv("braille_tests/"+self.project_language_code)
+        test_file.to_csv("braille_tests/"+self.project_language_code+".csv",index=False)
         ui.notify("Test file for Lib Louis has been Saved. ")
 
 
@@ -148,6 +149,32 @@ class Project:
         if self.project_braille_column is None:
             ui.notify("Please select a braille column for your project.", type="negative")
             error=True
+        if self.project_language_code is None:
+            ui.notify("Please enter a language code for your project.", type="negative")
+            error=True
+        if self.project_display_name is None:
+            ui.notify("Please enter a display name for your project.", type="negative")
+            error=True
+        if self.project_language_information is None:
+            ui.notify("Please enter language information for your project.", type="negative")
+            error=True
+        if self.project_contributors is None:
+            ui.notify("Please enter contributors for your project.", type="negative")
+            error=True
+        if self.project_test_display_type is None:
+            ui.notify("Please enter a test display type for your project.", type="negative")
+            error=True
+        if self.project_replace is None:
+            ui.notify("Please enter replace for your project.", type="negative")
+            error=True
+        if self.project_supported_braille_languages is None:
+            self.project_supported_braille_languages = []
+        if self.project_included_braille_tables is None:
+            self.project_included_braille_tables = []
+        if self.project_index_name is None:
+            self.project_index_name = ""
+        if self.project_language_system_code is None:
+            self.project_language_system_code = ""
 
         for language in self.languages:
             if self.project_name.lower() == language["name"].lower():
@@ -157,8 +184,118 @@ class Project:
         if error:
             return
 
-        project_object= {"name":self.project_name,"name_column":self.project_name_column,"char_column":self.project_character_column,"braille_column":self.project_braille_column,"type_column":self.project_type_column,"unicode_column":self.project_unicode_column,"language_code":self.project_language_code,"language_system_code":self.project_language_system_code,"display_name":self.project_display_name,"index_name":self.project_index_name,"supported_braille_languages":self.project_supported_braille_languages,"language_information":self.project_language_information,"contributors":self.project_contributors,"included_braille_tables":self.project_included_braille_tables,"test_display_type":self.project_test_display_type,"replace":self.project_replace}
+        project_object= {
+            "name":self.project_name,
+            "name_column":self.project_name_column,
+            "char_column":self.project_character_column,
+            "braille_column":self.project_braille_column,
+            "type_column":self.project_type_column,
+            "unicode_column":self.project_unicode_column,
+            "language_code":self.project_language_code,
+            "language_system_code":self.project_language_system_code,
+            "display_name":self.project_display_name,
+            "index_name":self.project_index_name,
+            "supported_braille_languages":self.project_supported_braille_languages,
+            "language_information":self.project_language_information,
+            "contributors":self.project_contributors,
+            "included_braille_tables":self.project_included_braille_tables,
+            "test_display_type":self.project_test_display_type,
+            "replace":self.project_replace
+            }
         self.languages.append(project_object)
+        self.update_languages_list()
+        language_source_folder=os.path.join(niv_louie_app_data,"languages","source")
+        if os.path.exists(language_source_folder) == False:
+            os.makedirs(language_source_folder,exist_ok=True)
+        with open("utils/languages_file.json", "w", encoding="utf-8") as file:
+            json.dump(self.languages, file, ensure_ascii=False, indent=4)
+        project.project_text.to_csv(os.path.join(language_source_folder,project.project_name+".csv"),index=False)
+
+        ui.navigate.to("/existing_project")
+        ui.notify("Project Saved",close_button="Ok")
+
+
+    def save_existing_project(self,old_project_name):
+        error=False
+        if self.project_name is None:
+            ui.notify("Please enter a name for your project.", type="negative")
+            error=True
+        if self.project_name_column is None:
+            ui.notify("Please select a name column for your project.", type="negative")
+            error=True
+        if self.project_character_column is None:
+            ui.notify("Please select a character column for your project.", type="negative")
+            error=True
+        if self.project_unicode_column is None:
+            ui.notify("Please select a Unicode column for your project.", type="negative")
+            error=True
+        if self.project_type_column is None:
+            ui.notify("Please select a type column for your project.", type="negative")
+            error=True
+        if self.project_braille_column is None:
+            ui.notify("Please select a braille column for your project.", type="negative")
+            error=True
+        if self.project_language_code is None:
+            ui.notify("Please enter a language code for your project.", type="negative")
+            error=True
+        if self.project_display_name is None:
+            ui.notify("Please enter a display name for your project.", type="negative")
+            error=True
+        if self.project_language_information is None:
+            ui.notify("Please enter language information for your project.", type="negative")
+            error=True
+        if self.project_contributors is None:
+            ui.notify("Please enter contributors for your project.", type="negative")
+            error=True
+        if self.project_test_display_type is None:
+            ui.notify("Please enter a test display type for your project.", type="negative")
+            error=True
+        if self.project_replace is None:
+            ui.notify("Please enter replace for your project.", type="negative")
+            error=True
+        if self.project_supported_braille_languages is None:
+            self.project_supported_braille_languages = []
+        if self.project_included_braille_tables is None:
+            self.project_included_braille_tables = []
+        if self.project_index_name is None:
+            self.project_index_name = ""
+        if self.project_language_system_code is None:
+            self.project_language_system_code = ""
+
+        if self.project_name.lower() != old_project_name.lower():
+            for language in self.languages:
+                if self.project_name.lower() == language["name"].lower():
+                    ui.notify("A project with that name already exists.",type="negative")
+                    error=True
+
+        if error:
+            return
+
+
+        project_object= {
+            "name":self.project_name,
+            "name_column":self.project_name_column,
+            "char_column":self.project_character_column,
+            "braille_column":self.project_braille_column,
+            "type_column":self.project_type_column,
+            "unicode_column":self.project_unicode_column,
+            "language_code":self.project_language_code,
+            "language_system_code":self.project_language_system_code,
+            "display_name":self.project_display_name,
+            "index_name":self.project_index_name,
+            "supported_braille_languages":self.project_supported_braille_languages,
+            "language_information":self.project_language_information,
+            "contributors":self.project_contributors,
+            "included_braille_tables":self.project_included_braille_tables,
+            "test_display_type":self.project_test_display_type,
+            "replace":self.project_replace
+            }
+        if self.project_name.lower() != old_project_name.lower():
+            self.languages.append(project_object)
+        else:
+            for language in self.languages:
+                if language["name"].lower() == old_project_name.lower():
+                    language=project_object
         self.update_languages_list()
         language_source_folder=os.path.join(niv_louie_app_data,"languages","source")
         if os.path.exists(language_source_folder) == False:

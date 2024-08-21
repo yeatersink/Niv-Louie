@@ -9,16 +9,21 @@ from utils.project import project
 from nicegui import ui
 
 
+appdata_dir=os.getenv("LOCALAPPDATA")
+niv_louie_app_data=os.path.join(appdata_dir,"Niv_Louie")
+os.makedirs(niv_louie_app_data,exist_ok=True)
+
+
 def create_braille_table():
     print("creating table for lib louis")
     #The language file is read in to pandas
-    braille=pd.read_csv("languages/filtered_"+project.project_name+".csv")
-    braille_folder=Path("braille")
+    braille=pd.read_csv(os.path.join(niv_louie_app_data,"languages","filtered_"+project.project_name+".csv"))
+    braille_folder=os.path.join(niv_louie_app_data,"braille")
     if os.path.exists(braille_folder) == False:
-        braille_folder.mkdir(parents=True,exist_ok=True)
+        os.makedirs(braille_folder)
 
     #The braille table is opened in write mode to create the table
-    braille_table=open("braille/"+project.project_language_code+".utb","w",encoding="utf-8")
+    braille_table=open(os.path.join(braille_folder,project.project_language_code+".utb"),"w",encoding="utf-8")
     #The braille column is converted to numbers
     braille[project.project_braille_column]=braille[project.project_braille_column].apply(braille_to_numbers)
 
@@ -91,7 +96,7 @@ def create_braille_table():
     #The braille table is closed to prevent memory leaks
     braille_table.close()
     ui.notify("Braille Table for Lib Louis has been Generated. ")
-    ui.download("braille/"+project.project_language_code+".utb")
+    ui.download(os.path.join(braille_folder,project.project_language_code+".utb"))
 
 
 #The braille_converter.json file is opened and read in to the braille_object variable
@@ -120,6 +125,7 @@ def get_braille_from_text(text):
 
     #The braille variable is initialized as an empty string
     braille=""
+    print(text)
     if str(text) != "nan":
         #The text is checked to see if it contains any numbers
         if any(char.isdigit() for char in text):
@@ -199,6 +205,13 @@ def create_braille_tests():
 
     #The language file is read in to pandas
     language_file=pd.read_csv("languages/filtered_"+project.project_name+".csv",encoding="utf-8")
+    if project.project_included_braille_tables:
+        for table in project.project_included_braille_tables:
+            for language in project.languages:
+                if table.split(".")[0] == language["language_code"]:
+                    temp_language_file=pd.read_csv("languages/filtered_"+language.name+".csv",encoding="utf-8")
+                    language_file=pd.concat([language_file,temp_language_file])
+    language_file=language_file.sort_values(by=["Hex"],key=lambda x:x.str.len(),ascending=False)
     #The test csv file is read in to pandas
     test_csv=pd.read_csv("braille_tests/"+project.project_language_code+".csv",encoding="utf-8")
     #The test yaml file is opened in write mode to create the test
