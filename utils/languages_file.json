@@ -256,8 +256,8 @@
         "language_information": "\n# The first Hebrew Braille table hosted on Lib Louis was developed\n# by the Library for the Blind and the Ministry of Education in Israel.\n# That  table is based on the IHBC which was developed in the\n# mid-1930’s. Please see\n# World Braille usage 3rd edition, p. 74. \n# However, Classical or Biblical Hebrew, which is used\n# in the Hebrew Bible and other liturgical literature, contains cantillation marks\n# that are not supported by the Hebrew table mentioned above.\n# This table seeks to provide access to these accents.\n# This table is   also based upon the tables mentioned above.  This table only\n# departs from it where the accents are concerned. With this table,\n# the user will have access to the accents and Masorah in BHS and BHS Quinta.\n# For more information about the IHBC and How it was developed:\n# <https://en.wikipedia.org/wiki/Hebrew_Braille#:~:text=The%20International%20Hebrew%20Braille%20Code>\n# also see:\n# <https://huc.edu/library_blog/learning-about-hebrew-braille/#:~:text=The%20Code%20created%20by%20Brevis,books%20written%20in%20Hebrew%20Braille.>\n",
         "contributors": "\n#Special thank you to Ray McAllister and Matthew Yeater\n# for developing the braille for the cantillation. Also to\n# Abby Howell for the suggestions to include support for Yiddish.\n# Extra gratitude to Sarah LaRose, Eric Harvey, and Leonard de Ruijder\n# for the helpful suggestions. \n#-maintainer: Paul Geoghegan <contact@envisionly.tech>\n#-maintainer: Matityhau Yeshurun <yeatersink@gmail.com>\n# Copyright 2024 Matt Yeater and Paul Geoghegan\n",
         "included_braille_tables": [
-            "criticle-apparatus-.uti",
-            "hebrew-common-characters.uti",
+            "criticle-apparatus.uti",
+            "he-common-characters",
             "spaces.uti",
             "litdigits6Dots.uti",
             "latinLetterDef6Dots.uti",
@@ -271,6 +271,59 @@
             "letter",
             "accent",
             "*"
+        ]
+    },
+    {
+        "name": "Hebrew -old",
+        "name_column": "Name",
+        "char_column": "Character",
+        "braille_column": "Braille",
+        "type_column": "Type",
+        "unicode_column": "Hex",
+        "language_code": "hbo",
+        "language_system_code": "hbo_old",
+        "display_name": "Hebrew Old",
+        "index_name": "hbo",
+        "supported_braille_languages": [
+            "hbo"
+        ],
+        "language_information": "this is a test document",
+        "contributors": "Mat and Paul",
+        "included_braille_tables": [
+            "none"
+        ],
+        "test_display_type": "both",
+        "replace": [
+            "point",
+            "*",
+            "letter"
+        ]
+    },
+    {
+        "name": "Hebrew _old",
+        "name_column": "Name",
+        "char_column": "Character",
+        "braille_column": "Braille",
+        "type_column": "Type",
+        "unicode_column": "Hex",
+        "language_code": "hbo",
+        "language_system_code": "hbo",
+        "display_name": "hbo",
+        "index_name": "hbo",
+        "supported_braille_languages": [
+            "hbo",
+            ""
+        ],
+        "language_information": "this is a test",
+        "contributors": "matt paul",
+        "included_braille_tables": [
+            "none"
+        ],
+        "test_display_type": "both",
+        "replace": [
+            "point",
+            "*",
+            "letter"
         ]
     }
 ]

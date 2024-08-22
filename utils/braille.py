@@ -204,14 +204,16 @@ def create_braille_tests():
     """
 
     #The language file is read in to pandas
-    language_file=pd.read_csv("languages/filtered_"+project.project_name+".csv",encoding="utf-8")
+    language_file=pd.read_csv(os.path.join(niv_louie_app_data,"languages","filtered_"+project.project_name+".csv"),encoding="utf-8")
     if project.project_included_braille_tables:
         for table in project.project_included_braille_tables:
             for language in project.languages:
                 if table.split(".")[0] == language["language_code"]:
-                    temp_language_file=pd.read_csv("languages/filtered_"+language.name+".csv",encoding="utf-8")
+                    print("found language "+language["language_code"])
+                    temp_language_file=pd.read_csv(os.path.join(niv_louie_app_data,"languages","filtered_"+language["name"]+".csv"),encoding="utf-8")
                     language_file=pd.concat([language_file,temp_language_file])
     language_file=language_file.sort_values(by=["Hex"],key=lambda x:x.str.len(),ascending=False)
+    language_file.to_csv("temp.csv",index=False)
     #The test csv file is read in to pandas
     test_csv=pd.read_csv("braille_tests/"+project.project_language_code+".csv",encoding="utf-8")
     #The test yaml file is opened in write mode to create the test
