@@ -18,8 +18,6 @@ Character,Hex,Logic,Type,Name,Braille
 דְּ,05D3+05BC+05B0,186.0,always,dalet with dagesh sheva,⠐⠙⠄
 ּוְ,05BC+05D5+05B0,201.0,always,Shuriq sheva,⠥⠄
 יְּ,05D9+05BC+05B0,186.0,always,Yod with dagesh sheva,⠐⠚⠄
-<<<<<<< Updated upstream
-=======
 י,05D9,8.0,letter,letter yod,⠚
 ך,05DA,214.0,noback letter,letter final kaf,⠡
 ך׃,05DA+05C3,nofor always,final kaf with sof passuk,⠡⠲

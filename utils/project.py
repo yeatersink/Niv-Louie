@@ -57,7 +57,7 @@ class Project:
     def update_languages_list(self):
         self.languages_list = [language["name"] for language in self.languages]
 
-    def load_language_source(self):        self.project_text=pd.read_csv("languages/source/"+self.project_name+".csv")
+    def load_language_source(self):        self.project_text=pd.read_csv(os.path.join(niv_louie_app_data,"languages","source",self.project_name+".csv"))
 
     def set_project_name(self, project_name):
         self.project_name = project_name

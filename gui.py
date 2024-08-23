@@ -105,7 +105,10 @@ def edit_project_information():
         ui.input(label="What other braille tables would you like to include in this project?",value=project.project_included_braille_tables,on_change=project.update_project_included_braille_tables)
         ui.input(label="Is this table intended to be a forward translation, a back translation, or both.",value=project.project_test_display_type,on_change=project.update_project_test_display_type)
         ui.input(label="What characters or words do you want removed from your spreadsheet?",value=project.project_replace,on_change=project.update_project_replace)
-        ui.checkbox(text="Generate Characters using Unicode Column",value=regenerate_characters)
+        def update_regenerate_characters(e: events.ValueChangeEventArguments):
+            nonlocal regenerate_characters
+            regenerate_characters=e.value
+        ui.checkbox(text="Generate Characters using Unicode Column",value=regenerate_characters,on_change=update_regenerate_characters)
         ui.checkbox(text="Generate Braille Characters for Braille Column",value=generate_braille)
     ui.button("Save Changes",on_click=lambda:save_project_edits(regenerate_characters,generate_braille,old_project_name))
 
