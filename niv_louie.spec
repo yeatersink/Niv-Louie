@@ -32,7 +32,7 @@ exe = EXE(
     a.binaries,
     a.datas,
     [],
-    name='niv-louie',
+    name='niv_louie',
     debug=False,
     bootloader_ignore_signals=False,
     strip=False,

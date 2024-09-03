@@ -2,6 +2,7 @@
 #define MyAppVersion "0.0.1"
 #define MyAppPublisher "Me"
 #define URL "http://example.com"
+#define sourceDir "C:\Users\mrpau\OneDrive\Dokumenter\GitHub\Ccuneiform-in-NVDA"
 
 [Setup]
 AppName={#MyAppName}
@@ -13,8 +14,8 @@ OutputDir=.
 OutputBaseFilename={#MyAppName}-installer
 
 [Files]
-Source: "C:\Users\mrpau\OneDrive\Dokumenter\GitHub\Ccuneiform-in-NVDA\dist\niv-louie.exe"; DestDir:{app}
-Source: "C:\Users\mrpau\OneDrive\Dokumenter\GitHub\Ccuneiform-in-NVDA\Justicon-Free-Simple-Line-Arrow-Solution-Business-Computer-Technology.512.ico"; DestDir:{app}
+Source: "{#sourceDir}\dist\niv_louie.exe"; DestDir:{app}
+Source: "{#sourceDir}\Justicon-Free-Simple-Line-Arrow-Solution-Business-Computer-Technology.512.ico"; DestDir:{app}
 
 [Icons]
-Name:{group}\{#MyAppName}; Filename:{app}\niv-louie.exe; IconFilename:{app}\Justicon-Free-Simple-Line-Arrow-Solution-Business-Computer-Technology.512.ico
+Name:{group}\{#MyAppName}; Filename:{app}\niv_louie.exe; IconFilename:{app}\Justicon-Free-Simple-Line-Arrow-Solution-Business-Computer-Technology.512.ico
