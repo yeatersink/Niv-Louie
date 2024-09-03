@@ -125,7 +125,7 @@ class Project:
         test_path=os.path.join(niv_louie_app_data,"braille_tests")
         if os.path.exists(test_path)==False:
             os.makedirs(test_path,exist_ok=True)
-        test_file.to_csv("braille_tests/"+self.project_language_code+".csv",index=False)
+        test_file.to_csv(os.path.join(niv_louie_app_data,"braille_tests",self.project_language_code+".csv"),index=False)
         ui.notify("Test file for Lib Louis has been Saved. ")
 
 

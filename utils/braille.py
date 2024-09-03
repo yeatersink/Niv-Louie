@@ -218,20 +218,19 @@ def create_braille_tests(selected_project_list ):
                     temp_language_file=pd.read_csv(os.path.join(niv_louie_app_data,"languages","filtered_"+language["name"]+".csv"),encoding="utf-8")
                     language_file=pd.concat([language_file,temp_language_file])
     language_file=language_file.sort_values(by=["Hex"],key=lambda x:x.str.len(),ascending=False)
-    language_file.to_csv("temp.csv",index=False)
     #The test csv file is read in to pandas
-    test_csv=pd.read_csv("braille_tests/"+project.project_language_code+".csv",encoding="utf-8")
+    test_csv=pd.read_csv(os.path.join(niv_louie_app_data,"braille_tests",project.project_language_code+".csv"),encoding="utf-8")
     #The test yaml file is opened in write mode to create the test
-    test_yaml=open("braille_tests/"+project.project_language_code+".yaml","w",encoding="utf-8")
+    test_yaml=open(os.path.join(niv_louie_app_data,"braille_tests",project.project_language_code+".yaml"),"w",encoding="utf-8")
     #The test yaml file is written to with the information that is required for the test for Lib Louis
     test_yaml.write("""
 # Yaml Test For """+project.project_name+"""
-
+#
 # Copying and distribution of this file, with or without modification,
 # are permitted in any medium without royalty provided the copyright
 # notice and this notice are preserved. This file is offered as-is,
 # without any warranty.
-
+#
 """)
     #Checks if the test_display_type property exists on the language
     if not project.project_test_display_type==None:

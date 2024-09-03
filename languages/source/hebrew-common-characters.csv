@@ -35,7 +35,7 @@ Character,Hex,Logic,Type,Name,Braille
 בֱּ,05D1+05B1+05BC,8.0,always,bet dagesh with hataf segol,⠃⠢
 בֲּ,05D1+05B2+05BC,8.0,always,bet dagesh with hataf patah,⠃⠒
 בֳּ,05D1+05B3+05BC,8.0,always,bet dagesh with hataf qamats,⠃⠜
-בִּ,05D1+05B4+05BC,8.0,always,bet  dagesh with hiriq,⠃⠊
+,05D1+05B4+05BC,8.0,always,bet  dagesh with hiriq,⠃⠊
 בֵּ,05D1+05B5+05BC,8.0,always,bet  dagesh with tsere,⠃⠌
 בֶּ,05D1+05B6+05BC,8.0,always,bet  dagesh with segol,⠃⠑
 בַּ,05D1+05B7+05BC,8.0,always,bet  dagesh with patah,⠃⠉

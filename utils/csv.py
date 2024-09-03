@@ -80,12 +80,15 @@ def regenerate_characters_using_hex():
     
     """
     print("Regenerating characters")
+    language_file_path = os.path.join(niv_louie_app_data,"languages","source",project.project_name+".csv")
     #the language source file is read in to pandas
-    language_file=pd.read_csv(os.path.join(niv_louie_app_data,"languages","source",project.project_name+".csv"))
+    language_file=pd.read_csv(language_file_path)
     #the characters are changed to the correct characters
     language_file[project.project_character_column]=language_file["Hex"].apply(generate_characters)
-    #the file is saved to the source folder
-    language_file.to_csv("languages/source/"+project.project_name+".csv",index=False)
+    #the file is saved to the appdata source folder
+    language_file.to_csv(language_file_path,index=False)
+    #Updates project_text
+    project.load_language_source()
     print("Characters regenerated")
 
 
