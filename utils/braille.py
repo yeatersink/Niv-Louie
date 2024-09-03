@@ -194,17 +194,22 @@ def braille_to_numbers(text):
         return ""
 
 
-def create_braille_tests():
+def create_braille_tests(selected_project_list ):
     """
     This function creates the braille tests for Lib Louis
     
     Parameters:
-     (int): The index of the language that the user has chosen
+     selected_project_list (list): The list of projects that the user has selected
 
     """
-
     #The language file is read in to pandas
     language_file=pd.read_csv(os.path.join(niv_louie_app_data,"languages","filtered_"+project.project_name+".csv"),encoding="utf-8")
+    #The language file is concatenated with the other language files that are included in the project
+    if len(selected_project_list)>1:
+        for project_name in selected_project_list[1:]:
+            print(project_name)
+            temp_language_file=pd.read_csv(os.path.join(niv_louie_app_data,"languages","filtered_"+project_name+".csv"),encoding="utf-8")
+            language_file=pd.concat([language_file,temp_language_file])
     if project.project_included_braille_tables:
         for table in project.project_included_braille_tables:
             for language in project.languages:
@@ -262,7 +267,7 @@ tests:
             braille_test=new_text
         #This loop goes through each character in the text
         for index,language_row in language_file.iterrows():
-            if language_row[project.project_character_column] in braille_test and language_row[project.project_braille_column] != "nan":
+            if language_row[project.project_character_column] in braille_test and str(language_row[project.project_braille_column]) != "nan":
                 braille_test=braille_test.replace(language_row[project.project_character_column],language_row[project. project_braille_column])
         #This loop goes through each character in the text and uses the braille test object to convert the text to braille
         for char in braille_test:

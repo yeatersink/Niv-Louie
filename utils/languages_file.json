@@ -166,7 +166,7 @@
         "display_name": "Ugaritic",
         "test_display_type": "unicode-without-blank.dis",
         "name_column": "Name",
-        "char_column": "Character(decimal)",
+        "char_column": "Character",
         "unicode_column": "Hex",
         "type_column": "Type",
         "braille_column": "Braille",
@@ -202,7 +202,7 @@
         "included_braille_tables": [
             ""
         ],
-        "test_display_type": "both",
+        "test_display_type": "unicode.dis",
         "replace": [
             "point",
             "punctuation",
@@ -229,7 +229,7 @@
         "language_information": "This is a common character file that supports Hebrew forward and back translation. ",
         "contributors": "Matthew Yeater, Paul Geoghegan, and Leonard De Ruijter",
         "included_braille_tables": [],
-        "test_display_type": "both",
+        "test_display_type": "unicode.dis",
         "replace": [
             "point",
             "punctuation",
@@ -263,7 +263,7 @@
             "latinLetterDef6Dots.uti",
             "en-ueb-chardefs.uti"
         ],
-        "test_display_type": "both",
+        "test_display_type": "unicode.dis",
         "replace": [
             "point",
             "punctuation",
@@ -292,7 +292,7 @@
         "included_braille_tables": [
             "none"
         ],
-        "test_display_type": "both",
+        "test_display_type": "unicode.dis",
         "replace": [
             "point",
             "*",
@@ -319,7 +319,7 @@
         "included_braille_tables": [
             "none"
         ],
-        "test_display_type": "both",
+        "test_display_type": "unicode.dis",
         "replace": [
             "point",
             "*",
@@ -345,7 +345,7 @@
         "included_braille_tables": [
             "none"
         ],
-        "test_display_type": "both",
+        "test_display_type": "unicode.dis",
         "replace": [
             "*"
         ]

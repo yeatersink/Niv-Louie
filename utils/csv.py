@@ -88,6 +88,7 @@ def regenerate_characters_using_hex():
     language_file.to_csv("languages/source/"+project.project_name+".csv",index=False)
     print("Characters regenerated")
 
+
 def generate_characters(hex):
     """
     This function changes the hex characters to the correct characters

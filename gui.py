@@ -192,11 +192,19 @@ def liblouis_table_builder():
 
 @ui.page("/liblouis_test_builder")
 def liblouis_test_builder():
+    selected_projects=[]
     ui.button("Go Back",on_click=ui.navigate.back)
     ui.label("Test Builder")
-    ui.select(label="What project do you want to generate a test from?",options=sorted(project.languages_list),with_input=True,on_change=project.update_project_name)
+
+    def update_selected_project_list(e: events.ValueChangeEventArguments):
+        nonlocal selected_projects
+        selected_projects=e.value
+        project.set_project_name(selected_projects[0])
+        project.set_all_fields()
+
+    ui.select(label="What projects do you want to generate a test from?",options=sorted(project.languages_list),multiple=True,with_input=True,on_change=update_selected_project_list)
     ui.upload(label="What document do you want to generate a test from?", on_upload=project.handle_test_upload,auto_upload=True)
-    ui.button("Generate and download YAML Test for Lib Louis",on_click=create_braille_tests)
+    ui.button("Generate and download YAML Test for Lib Louis",on_click=lambda: create_braille_tests(selected_projects))
     ui.button("Home",on_click=lambda: ui.navigate.to("/"))
 
 
