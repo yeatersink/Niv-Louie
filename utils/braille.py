@@ -1,3 +1,4 @@
+import io
 import os
 from pathlib import Path
 import warnings
@@ -202,6 +203,11 @@ def create_braille_tests(selected_project_list ):
      selected_project_list (list): The list of projects that the user has selected
 
     """
+    # The report dictionary is used to check for any errors in the tests
+    report={
+        'non_braille_characters_in_braille_section':[],
+        'extra_spaces':[]
+    }
     #The language file is read in to pandas
     language_file=pd.read_csv(os.path.join(niv_louie_app_data,"languages","filtered_"+project.project_name+".csv"),encoding="utf-8")
     #The language file is concatenated with the other language files that are included in the project
@@ -273,16 +279,36 @@ tests:
             if char in braille_test_object:
                 braille_test=braille_test.replace(char,braille_test_object[char])
         #Checks if the test contains any non braille characters
-        for char in braille_test:
-            if char not in braille_numbers_object:
-                warnings.warn("This test contains a character that is not in the braille object. This may be a mistake in your test. Character: "+char)
+        if any([char not in braille_numbers_object for char in braille_test]):
+            warnings.warn("This test contains a character that is not in the braille object. This may be a mistake in your test.")
+            report['non_braille_characters_in_braille_section'].append("\""+row["Text"]+"\": \""+braille_test+"\"")
+        #Checks if the test contains any extra spaces
+        if " " in braille_test:
+            warnings.warn("This test contains an extra space. This may be a mistake in your test.")
+            report['extra_spaces'].append("\""+row["Text"]+"\": \""+braille_test+"\"")
         #writes the braille test to the test yaml file
         test_yaml.write('  - ["'+row["Text"]+'", "'+braille_test+'"]\n')
     #The test yaml file is closed to prevent memory leaks
     test_yaml.close()
+    #The report file is opened
+    report_file = io.BytesIO()
+    #writes basic information to the report
+    report_file. write(("Report for "+project.project_name+"\n").encode("utf-8"))
+    report_file.write(("Generated on "+pd.Timestamp.now().strftime("%Y-%m-%d %H:%M:%S")+"\n").encode("utf-8"))
+    # Checks if there are any non braille characters in the test
+    if len(report['non_braille_characters_in_braille_section'])>0:
+        report_file.write("\n**Non Braille Characters in Braille Section**\n".encode("utf-8"))
+        for item in report['non_braille_characters_in_braille_section']:
+            report_file.write((item+"\n").encode("utf-8"))
+    # Checks if there are any extra spaces in the test
+    if len(report['extra_spaces'])>0:
+        report_file.write("\n**Extra Spaces**\n".encode("utf-8"))
+        for item in report['extra_spaces']:
+            report_file.write((item+"\n").encode("utf-8"))
     print("done creating braille tests")
     ui.notify("Braille Test for Lib Louis has been Generateds. ")
-    ui.download("braille_tests/"+project.project_language_code+".yaml")
+    ui.download(os.path.join(niv_louie_app_data,"braille_tests",project.project_language_code+".yaml"))
+    ui.download(report_file.getvalue(),filename="test report.txt")
 
 
 def get_braille_from_text_in_source():
