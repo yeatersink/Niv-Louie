@@ -44,16 +44,12 @@ def create_filtered_csv():
     language_file=pd.read_csv(os.path.join(language_source_path,project.project_name+".csv"))
     #selects the columns that are needed for the filtered csv file
     filtered_language=language_file[[project.project_character_column,"Hex","Type",project.project_name_column,project.project_braille_column]].copy()
-    #Gets the name column
-    name_column=filtered_language[[project.project_name_column]].copy()
     # Ensures the name column contains string values
-    name_column[project.project_name_column] = name_column[project.project_name_column].astype(str)
+    filtered_language[project.project_name_column] = filtered_language[project.project_name_column].astype(str)
     # Sets the index to start at 2 so that the line numbers of the csv will line up with the index of the dataframe
     filtered_language.index = range(2, 2 + len(filtered_language))
     #applies the format_names function to the name column to remove any unwanted characters
-    new_name_column=name_column[project.project_name_column].apply(format_names)
-    #replaces the name column with the new name column
-    filtered_language[project.project_name_column]=new_name_column
+    filtered_language[project.project_name_column]=filtered_language[project.project_name_column].apply(format_names)
     #Checks if there are rows where there is a plus in the Hex column and the Type is not set to always
     if filtered_language[(filtered_language["Hex"].str.contains("\+")) & (~filtered_language["Type"].str.contains("always"))].shape[0]>0:
         #Displays a warning to the user with the characters
@@ -226,4 +222,53 @@ def generate_characters(hex):
         new_char=chr(int(hex,16))
     #returns the new character
     return new_char
+
+
+def regenerate_hex_using_characters():
+    """
+    
+    This function regenerates the Unicode in the language file to the correct Hex using the change_characters function
+        
+    """
+    print("Regenerating hex")
+    language_file_path = os.path.join(niv_louie_app_data,"languages","source",project.project_name+".csv")
+    #the language source file is read in to pandas
+    language_file=pd.read_csv(language_file_path)
+    #the Hex Column is changed to the correct Unicode Values 
+    language_file["Hex"]=language_file[project.project_character_column].apply(generate_hex)
+    #the file is saved to the appdata source folder
+    language_file.to_csv(language_file_path,index=False)
+    #Updates project_text
+    project.load_language_source()
+    print("Hex Column regenerated")
+
+
+def generate_hex(characters):
+    """
+    This function generates the characters from hex to the correct Unicode
+    
+    Parameters:
+    characters (str): The character or characters that is to be changed
+    
+    Returns:
+    str: The correct hex
+    
+    """
+    
+    new_hex=""
+    print(characters)
+
+    if characters=="" or characters=="NAN":
+        return ""
+
+    #loops through the characters
+    for char in characters:
+        #converts the character to hex and adds it to the new hex
+        new_hex+=hex(ord(char))[2:]+"+"
+
+    #removes the last plus sign
+    new_hex=new_hex[:-1]
+
+    #returns the new hex
+    return new_hex
 

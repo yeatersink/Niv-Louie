@@ -349,5 +349,27 @@
         "replace": [
             "*"
         ]
+    },
+    {
+        "name": "combinedhebrew",
+        "name_column": "Name",
+        "char_column": "Character",
+        "braille_column": "Braille",
+        "type_column": "Type",
+        "unicode_column": "Hex",
+        "language_code": "hbo-test",
+        "language_system_code": "hbo",
+        "display_name": "hbo-test",
+        "index_name": "Hbo-test",
+        "supported_braille_languages": [
+            "hbo-test"
+        ],
+        "language_information": "This is a test",
+        "contributors": "Me",
+        "included_braille_tables": [],
+        "test_display_type": "both",
+        "replace": [
+            "*"
+        ]
     }
 ]

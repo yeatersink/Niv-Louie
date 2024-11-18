@@ -110,6 +110,9 @@ lastTestedNVDAVersion = """+extention.extention_last_tested_version+"""
 
 [symbolDictionaries]
 """)
+    if len(extention.extention_included_projects) == 0:
+        ui.notify("No Languages Selected")
+        return
     for language in extention.extention_included_projects:
         project.set_project_name(language)
         project.set_all_fields()

@@ -118,6 +118,7 @@ Character,Hex,Logic,Type,Name,Braille
 יֲּ,05D9+05B2+05BC,186.0,always,letter Yod dagesh  hataf patah,⠐⠚⠒
 יֳּ,05D9+05B3+05BC,186.0,always,letter Yod dagesh  hataf qamats,⠐⠚⠜
 י,05D9,186.0,always,Yod with dagesh,⠚
+ִי,05D9+05B4,201.0,always,yod with hiriq,⠚⠑
 ך,05DA,214.0,noback letter,letter final kaf,⠡
 ך.,05DA+002E,100,nofor always,final kaf with  period,⠡⠲
 "ך,",05DA+002C,100,nofor always,final kaf with comma,⠡⠂

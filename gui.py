@@ -9,7 +9,8 @@ from utils.braille_document_manager import document
 from utils.braille import create_braille_table, create_braille_tests, get_braille_from_text_in_source
 #The create_filtered_csv function is used to create the filtered csv file
 #The regenerate_characters_using_hex function is used to regenerate the characters in the language source file
-from utils.csv import create_filtered_csv, regenerate_characters_using_hex
+#The regenerate_hex_using_characters function is used to regenerate the hex values in the language source file
+from utils.csv import create_filtered_csv, regenerate_characters_using_hex, regenerate_hex_using_characters
 #The add_characters_to_nvda function is used to add the symbols to the nvda symbols file
 #The generate_locale_file function is used to generate the locale file for nvda
 #The generate_character_set function is used to generate the character set for nvda
@@ -83,6 +84,7 @@ def project_information():
 @ui.page("/edit_project_information")
 def edit_project_information():
     regenerate_characters=False
+    regenerate_hex=False
     generate_braille=False
     old_project_name=project.project_name
     ui.button("Go Back",on_click=ui.navigate.back)
@@ -109,13 +111,19 @@ def edit_project_information():
             nonlocal regenerate_characters
             regenerate_characters=e.value
         ui.checkbox(text="Generate Characters using Unicode Column",value=regenerate_characters,on_change=update_regenerate_characters)
+        def update_regenerate_hex(e: events.ValueChangeEventArguments):
+            nonlocal regenerate_hex
+            regenerate_hex=e.value
+        ui.checkbox(text="Generate Unicode using Character Column",value=regenerate_hex,on_change=update_regenerate_hex)
         ui.checkbox(text="Generate Braille Characters for Braille Column",value=generate_braille)
-    ui.button("Save Changes",on_click=lambda:save_project_edits(regenerate_characters,generate_braille,old_project_name))
+    ui.button("Save Changes",on_click=lambda:save_project_edits(regenerate_characters,regenerate_hex,generate_braille,old_project_name))
 
 
-def save_project_edits(regenerate_characters,generate_braille,old_project_name):
+def save_project_edits(regenerate_characters,regenerate_hex,generate_braille,old_project_name):
     if regenerate_characters==True:
         regenerate_characters_using_hex()
+    if regenerate_hex==True:
+        regenerate_hex_using_characters()
     if generate_braille==True:
         get_braille_from_text_in_source()
     save_and_create_existing_csv(old_project_name)
