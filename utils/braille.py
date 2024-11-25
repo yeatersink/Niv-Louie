@@ -8,6 +8,7 @@ import pandas as pd
 import json
 from utils.project import project
 from nicegui import ui
+import sys
 
 
 appdata_dir=os.getenv("LOCALAPPDATA")
@@ -100,16 +101,22 @@ def create_braille_table():
     ui.download(os.path.join(braille_folder,project.project_language_code+".utb"))
 
 
+# Get the base path for the executable
+if getattr(sys, 'frozen', False):
+    base_path = sys._MEIPASS
+else:
+    base_path = os.path.abspath(".")
+
 #The braille_converter.json file is opened and read in to the braille_object variable
-braille_file=open("utils/braille_converter.json",encoding="utf8")
+braille_file=open(os.path.join(base_path,"utils/braille_converter.json"),encoding="utf8")
 braille_object=json.load(braille_file)
 
 #The braille_test_converter.json file is opened and read in to the braille_test_object variable
-braille_test_file=open("utils/braille_test_converter.json",encoding="utf8")
+braille_test_file=open(os.path.join(base_path,"utils/braille_test_converter.json"),encoding="utf8")
 braille_test_object=json.load(braille_test_file)
 
 #The braille_numbers.json file is opened and read in to the braille_numbers_object variable
-braille_numbers_file=open("utils/braille_to_numbers.json",encoding="utf8")
+braille_numbers_file=open(os.path.join(base_path,"utils/braille_to_numbers.json"),encoding="utf8")
 braille_numbers_object=json.load(braille_numbers_file)
 
 def get_braille_from_text(text):

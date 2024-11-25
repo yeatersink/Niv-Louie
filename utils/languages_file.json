@@ -371,5 +371,32 @@
         "replace": [
             "*"
         ]
+    },
+    {
+        "name": "he-common-IHBC-vowels",
+        "name_column": "Name",
+        "char_column": "Character",
+        "braille_column": "Braille",
+        "type_column": "Type",
+        "unicode_column": "Hex",
+        "language_code": "he-common-characters-IHBC-vowels",
+        "language_system_code": "he-IHBC",
+        "display_name": "Hebrew Common Characters-IHBC Vowels",
+        "index_name": "he-common-characters",
+        "supported_braille_languages": [
+            "he"
+        ],
+        "language_information": "This is a common character file that supports Hebrew forward and back translation. ",
+        "contributors": "Matthew Yeater, Paul Geoghegan, and Leonard De Ruijter",
+        "included_braille_tables": [],
+        "test_display_type": "unicode.dis",
+        "replace": [
+            "point",
+            "punctuation",
+            "mark",
+            "letter",
+            "accent",
+            " *"
+        ]
     }
 ]

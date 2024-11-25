@@ -7,6 +7,7 @@ import json
 from docx import Document
 import warnings
 from utils.project import project
+import sys
 
 
 appdata_dir=os.getenv("LOCALAPPDATA")
@@ -14,12 +15,18 @@ niv_louie_app_data=os.path.join(appdata_dir,"Niv_Louie")
 os.makedirs(niv_louie_app_data,exist_ok=True)
 
 
+# Get the base path for the executable
+if getattr(sys, 'frozen', False):
+    base_path = sys._MEIPASS
+else:
+    base_path = os.path.abspath(".")
+
 #The braille_numbers.json file is opened and read in to the braille_numbers_object variable
-braille_numbers_file=open("utils/braille_to_numbers.json",encoding="utf8")
+braille_numbers_file=open(os.path.join(base_path,"utils/braille_to_numbers.json"),encoding="utf8")
 braille_numbers_object=json.load(braille_numbers_file)
 
 #The braille_test_converter.json file is opened and read in to the braille_test_object variable
-braille_test_file=open("utils/braille_test_converter.json",encoding="utf8")
+braille_test_file=open(os.path.join(base_path,"utils/braille_test_converter.json"),encoding="utf8")
 braille_converter_object=json.load(braille_test_file)
 
 

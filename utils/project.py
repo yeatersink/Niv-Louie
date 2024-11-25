@@ -6,26 +6,32 @@ import pandas as pd
 import json
 from docx import Document
 import warnings
+import sys
 
 
 appdata_dir=os.getenv("LOCALAPPDATA")
 niv_louie_app_data=os.path.join(appdata_dir,"Niv_Louie")
 os.makedirs(niv_louie_app_data,exist_ok=True)
 
+# Get the base path for the executable
+if getattr(sys, 'frozen', False):
+    base_path = sys._MEIPASS
+else:
+    base_path = os.path.abspath(".")
 
-#The braille_test_converter.json file is opened and read in to the braille_test_object variable
-braille_test_file=open("utils/braille_test_converter.json",encoding="utf8")
-braille_converter_object=json.load(braille_test_file)
+# The braille_test_converter.json file is opened and read into the braille_test_object variable
+braille_test_file = open(os.path.join(base_path, "utils/braille_test_converter.json"), encoding="utf8")
+braille_converter_object = json.load(braille_test_file)
 
 #The braille_numbers.json file is opened and read in to the braille_numbers_object variable
-braille_numbers_file=open("utils/braille_to_numbers.json",encoding="utf8")
+braille_numbers_file=open(os.path.join(base_path,"utils/braille_to_numbers.json"),encoding="utf8")
 braille_numbers_object=json.load(braille_numbers_file)
 
 
 # Function to load languages from JSON file
 def load_languages():
     try:
-        with open("utils/languages_file.json", "r", encoding="utf-8") as file:
+        with open(os.path.join(base_path,"utils/languages_file.json"), "r", encoding="utf-8") as file:
             return json.load(file)
     except FileNotFoundError:
         return []  # Return an empty list if the file does not exist
@@ -207,7 +213,7 @@ class Project:
         language_source_folder=os.path.join(niv_louie_app_data,"languages","source")
         if os.path.exists(language_source_folder) == False:
             os.makedirs(language_source_folder,exist_ok=True)
-        with open("utils/languages_file.json", "w", encoding="utf-8") as file:
+        with open(os.path.join(base_path,"utils/languages_file.json"), "w", encoding="utf-8") as file:
             json.dump(self.languages, file, ensure_ascii=False, indent=4)
         project.project_text.to_csv(os.path.join(language_source_folder,project.project_name+".csv"),index=False)
 
@@ -300,7 +306,7 @@ class Project:
         language_source_folder=os.path.join(niv_louie_app_data,"languages","source")
         if os.path.exists(language_source_folder) == False:
             os.makedirs(language_source_folder,exist_ok=True)
-        with open("utils/languages_file.json", "w", encoding="utf-8") as file:
+        with open(os.path.join(base_path,"utils/languages_file.json"), "w", encoding="utf-8") as file:
             json.dump(self.languages, file, ensure_ascii=False, indent=4)
         project.project_text.to_csv(os.path.join(language_source_folder,project.project_name+".csv"),index=False)
 
@@ -326,7 +332,7 @@ class Project:
                 removed=True
             self.languages=list(new_languages)
             self.update_languages_list()
-            with open("utils/languages_file.json","w",encoding="utf-8") as file:
+            with open(os.path.join(base_path,"utils/languages_file.json"),"w",encoding="utf-8") as file:
                 json.dump(self.languages,file,ensure_ascii=False,indent=4)
         if removed == True:
             ui.notify("Project Removed",close_button="Ok")

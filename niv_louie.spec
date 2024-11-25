@@ -10,11 +10,11 @@ a = Analysis(
         ('.venv/Lib/site-packages/pandas', 'pandas'),
         ('.venv/Lib/site-packages/docx', 'docx'),
         ('.venv/Lib/site-packages/webview', 'webview'),
-        ('utils/braille_test_converter.json','utils/braille_test_converter.json'),
-        ('utils/braille_converter.json','utils/braille_converter.json'),
-        ('utils/braille_to_numbers.json','utils/braille_to_numbers.json'),
-        ('utils/extentions_file.json','utils/extentions_file.json'),
-        ('utils/languages_file.json','utils/languages_file.json')
+        ('utils/braille_test_converter.json','utils'),
+        ('utils/braille_converter.json','utils'),
+        ('utils/braille_to_numbers.json','utils'),
+        ('utils/extentions_file.json','utils'),
+        ('utils/languages_file.json','utils')
     ],
     hiddenimports=[],
     hookspath=[],
