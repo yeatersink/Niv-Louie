@@ -32,7 +32,7 @@ jobs:
 
     - name: Run PyInstaller
       run: |
-        .env/bin/pyinstaller --clean --noconfirm niv_louie.spec
+        .venv/bin/pyinstaller --clean --noconfirm niv_louie.spec
 
     - name: Upload artifact
       uses: actions/upload-artifact@v4
