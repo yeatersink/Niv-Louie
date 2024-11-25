@@ -24,16 +24,15 @@ jobs:
     - name: Install dependencies
       run: |
         python -m venv .venv
-        source .venv/bin/activate
-        pip install -r requirements.txt
+        .venv/bin/pip install -r requirements.txt
 
     - name: Install PyInstaller
-      run: pip install pyinstaller
+      run: |
+        .venv/bin/pip install pyinstaller
 
     - name: Run PyInstaller
       run: |
-        source .venv/bin/activate
-        pyinstaller --clean --noconfirm niv_louie.spec
+        .env/bin/pyinstaller --clean --noconfirm niv_louie.spec
 
     - name: Upload artifact
       uses: actions/upload-artifact@v4
