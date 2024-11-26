@@ -43,7 +43,7 @@ jobs:
 
     - name: Run Inno Setup Compiler
       run: |
-        "C:\Program Files (x86)\Inno Setup 6\ISCC.exe" Create-installer.iss
+        run_inno_setup.bat
 
     - name: Upload artifact
       uses: actions/upload-artifact@v4
