@@ -2,7 +2,7 @@
 #define MyAppVersion "0.0.1"
 #define MyAppPublisher "Me"
 #define URL "http://example.com"
-#define sourceDir "C:\Users\mrpau\OneDrive\Dokumenter\GitHub\Ccuneiform-in-NVDA"
+#define sourceDir "."
 
 [Setup]
 AppName={#MyAppName}
@@ -10,7 +10,7 @@ AppVersion={#MyAppVersion}
 AppPublisher={#MyAppPublisher}
 DefaultDirName={pf}\{#MyAppName}
 DefaultGroupName={#MyAppName}
-OutputDir=.
+OutputDir=dist
 OutputBaseFilename={#MyAppName}-installer
 
 [Files]

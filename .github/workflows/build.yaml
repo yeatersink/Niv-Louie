@@ -33,16 +33,20 @@ jobs:
       run: |
         pip install pyinstaller
 
-    - name: List site-packages contents
-      run: |
-        dir C:\hostedtoolcache\windows\Python\3.9.13\x64\lib\site-packages
-
     - name: Run PyInstaller
       run: |
         pyinstaller --clean --noconfirm niv_louie.spec
 
+    - name: Install Inno Setup
+      run: |
+        choco install innosetup --yes
+
+    - name: Run Inno Setup Compiler
+      run: |
+        "C:\Program Files (x86)\Inno Setup 6\ISCC.exe" Create-installer.iss
+
     - name: Upload artifact
       uses: actions/upload-artifact@v4
       with:
-        name: niv_louie
-        path: dist/
+        name: niv_louie_installer
+        path: dist/Niv_Louie-installer.exe
