@@ -5,7 +5,7 @@ import site
 
 
 # Find site-packages directory
-site_packages=site.getsitepackages()[0]
+site_packages=os.path.join(site.getsitepackages()[0],"Lib","site-packages")
 
 a = Analysis(
     ['gui.py'],
