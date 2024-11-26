@@ -67,9 +67,12 @@ jobs:
     - name: Create GitHub Release and Upload Asset
       uses: softprops/action-gh-release@v2
       with:
+        name: Pre-Release v0.0.1
+        tag_name: v0.0.1
         prerelease: true
+        draft: false
+        files: ./dist/Niv_Louie-installer.exe
         fail_on_unmatched_files: true
         generate_release_notes: true
-        files: ./dist/Niv_Louie-installer.exe
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
