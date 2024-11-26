@@ -74,5 +74,4 @@ jobs:
         files: ./dist/Niv_Louie-installer.exe
         fail_on_unmatched_files: true
         generate_release_notes: true
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        token: ${{ secrets.PAT }}
