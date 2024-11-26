@@ -72,6 +72,8 @@ jobs:
         release_name: Preview v0.0.1
         draft: false
         prerelease: true
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
     - name: Upload Release Asset
       uses: actions/upload-release-asset@v1
@@ -80,3 +82,5 @@ jobs:
         asset_path: ./dist/Niv_Louie-installer.exe
         asset_name: Niv_Louie-installer.exe
         asset_content_type: application/octet-stream
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
