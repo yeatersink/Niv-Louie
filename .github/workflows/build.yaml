@@ -51,7 +51,7 @@ jobs:
         name: niv_louie_installer
         path: dist/Niv_Louie-installer.exe
 
-release:
+  release:
     needs: build
     runs-on: ubuntu-latest
     steps:
