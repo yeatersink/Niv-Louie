@@ -10,7 +10,7 @@ on:
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: windows-latest
 
     steps:
     - name: Checkout repository
@@ -21,27 +21,26 @@ jobs:
       with:
         python-version: 3.13
 
-    - name: Install system dependencies
+    - name: Upgrade pip, setuptools, and wheel
       run: |
-        sudo apt-get update
-        sudo apt-get install -y libxml2-dev libxslt-dev
+        python -m venv .venv
+        .venv\Scripts\pip install --upgrade pip setuptools wheel
 
     - name: Install dependencies
       run: |
-        python -m venv .venv
-        .venv/bin/pip install -r requirements.txt
+        .venv\Scripts\pip install -r requirements.txt --timeout=120
 
     - name: Verify nicegui installation
       run: |
-        .venv/bin/python -c "import nicegui" || echo "nicegui not installed"
+        .venv\Scripts\python -c "import nicegui" || echo "nicegui not installed"
 
     - name: Install PyInstaller
       run: |
-        .venv/bin/pip install pyinstaller
+        .venv\Scripts\pip install pyinstaller
 
     - name: Run PyInstaller
       run: |
-        .venv/bin/pyinstaller --clean --noconfirm niv_louie.spec
+        .venv\Scripts\pyinstaller --clean --noconfirm niv_louie.spec
 
     - name: Upload artifact
       uses: actions/upload-artifact@v4
