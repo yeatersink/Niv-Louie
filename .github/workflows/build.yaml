@@ -23,20 +23,19 @@ jobs:
 
     - name: Upgrade pip, setuptools, and wheel
       run: |
-        python -m venv .venv
-        .venv\Scripts\python.exe -m pip install --upgrade pip setuptools wheel
+        pip install --upgrade pip setuptools wheel
 
     - name: Install dependencies
       run: |
-        .venv\Scripts\python.exe -m pip install -r requirements.txt --timeout=120
+        pip install -r requirements.txt --timeout=120
 
     - name: Install PyInstaller
       run: |
-        .venv\Scripts\python.exe -m pip install pyinstaller
+        pip install pyinstaller
 
     - name: Run PyInstaller
       run: |
-        .venv\Scripts\python.exe -m pyinstaller --clean --noconfirm niv_louie.spec
+        pyinstaller --clean --noconfirm niv_louie.spec
 
     - name: Upload artifact
       uses: actions/upload-artifact@v4
