@@ -1,15 +1,21 @@
 # -*- mode: python ; coding: utf-8 -*-
 
+import os
+import site
+
+
+# Find site-packages directory
+site_packages=site.getsitepackages()
 
 a = Analysis(
     ['gui.py'],
     pathex=[],
     binaries=[],
     datas=[
-        ('C:\hostedtoolcache\windows\Python\3.9.13\x64\Lib\site-packages\nicegui', 'nicegui'),
-        ('C:\hostedtoolcache\windows\Python\3.9.13\x64\Lib\site-packages\pandas', 'pandas'),
-        ('C:\hostedtoolcache\windows\Python\3.9.13\x64\Lib\site-packages\docx', 'docx'),
-        ('C:\hostedtoolcache\windows\Python\3.9.13\x64\Lib\site-packages\webview', 'webview'),
+        (os.path.join(site_packages,'nicegui'), 'nicegui'),
+        (os.path.join(site_packages,'pandas'), 'pandas'),
+        (os.path.join(site_packages,'docx'), 'docx'),
+        (os.path.join(site_packages,'webview'), 'webview'),
         ('utils/braille_test_converter.json','utils'),
         ('utils/braille_converter.json','utils'),
         ('utils/braille_to_numbers.json','utils'),
