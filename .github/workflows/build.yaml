@@ -43,7 +43,7 @@ jobs:
 
     - name: Run Inno Setup Compiler
       run: |
-        run_inno_setup.bat
+        ./run_inno_setup.bat
 
     - name: Upload artifact
       uses: actions/upload-artifact@v4
