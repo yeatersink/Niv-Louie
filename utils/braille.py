@@ -108,15 +108,15 @@ else:
     base_path = os.path.abspath(".")
 
 #The braille_converter.json file is opened and read in to the braille_object variable
-braille_file=open(os.path.join(base_path,"utils/braille_converter.json"),encoding="utf8")
+braille_file=open(os.path.join(base_path,"utils","braille_converter.json"),encoding="utf8")
 braille_object=json.load(braille_file)
 
 #The braille_test_converter.json file is opened and read in to the braille_test_object variable
-braille_test_file=open(os.path.join(base_path,"utils/braille_test_converter.json"),encoding="utf8")
+braille_test_file=open(os.path.join(base_path,"utils","braille_test_converter.json"),encoding="utf8")
 braille_test_object=json.load(braille_test_file)
 
 #The braille_numbers.json file is opened and read in to the braille_numbers_object variable
-braille_numbers_file=open(os.path.join(base_path,"utils/braille_to_numbers.json"),encoding="utf8")
+braille_numbers_file=open(os.path.join(base_path,"utils","braille_to_numbers.json"),encoding="utf8")
 braille_numbers_object=json.load(braille_numbers_file)
 
 def get_braille_from_text(text):
@@ -328,7 +328,7 @@ def get_braille_from_text_in_source():
     """
     print ("converting text to braille")
     #the language source file is read in to pandas
-    language_file=pd.read_csv("languages/source/"+project.project_name+".csv")
+    language_file=pd.read_csv(os.path.join(niv_louie_app_data,"languages","source",project.project_name+".csv"))
     #selects the braille column
     braille_column=language_file[project.project_braille_column]
     #applies the get_braille function to the braille column to convert the text to braille
@@ -336,5 +336,5 @@ def get_braille_from_text_in_source():
     #the braille column is replaced with the new braille column
     language_file["Braille"]=new_braille_column
     #the file is saved to the source folder
-    language_file.to_csv("languages/source/"+project.project_name+".csv",index=False)
+    language_file.to_csv(os.path.join(niv_louie_app_data,"languages","source",project.project_name+".csv"),index=False)
     print("done converting text to braille")

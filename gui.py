@@ -137,7 +137,7 @@ def nvda_extention_builder():
     ui.select(label="Select an Extention.",options=sorted(extention.extentions_list),on_change=extention.update_extention_name)
     ui.button("Generate extention",on_click=create_nvda_extention)
     ui.button("Edit Extention",on_click=lambda:ui.navigate.to("/edit_extention"))
-    ui.button("Download Extention",on_click=lambda:ui.download("nvda_extentions/"+extention.extention_name+".nvda-addon"))
+    ui.button("Download Extention",on_click=lambda:ui.download(os.path.join(niv_louie_app_data,"nvda_extentions",extention.extention_name+".nvda-addon")))
     with ui.dialog() as dialog,ui.card():
         ui.label("Are you Sure you want to Permenantly Remove this Extention?")
         ui.button("Cancel",on_click=dialog.close)
