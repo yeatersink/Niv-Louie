@@ -24,7 +24,7 @@ def add_characters_to_nvda():
     """
     print("adding symbols to nvda for",project.project_name)
     #The language file is read in to pandas
-    language_file=pd.read_csv("languages/filtered_"+project.project_name+".csv")
+    language_file=pd.read_csv("languages/filtered",project.project_name+".csv")
     #The nvda symbols file is opened in append mode to add the symbols to the end of the file
     nvda_symbols_file=open("C:/Program Files (x86)/NVDA/locale/en/symbols.dic","a+",encoding="utf8")
     #a comment is added to the file to show where the symbols for the language start
@@ -51,7 +51,7 @@ def generate_locale_file():
     """
     print("generating nvda  locale file for for",project.project_name)
     #The language file is read in to pandas
-    language_file=pd.read_csv("languages/filtered_"+project.project_name+".csv")
+    language_file=pd.read_csv(os.path.join("languages","filtered",project.project_name+".csv"))
     new_folder = pathlib.Path("nvda/",project.project_language_code)
     new_folder.mkdir(parents=True,exist_ok=True)
     #The locale characters file is created
@@ -136,7 +136,7 @@ def add_characters_to_nvda_extention(source_folder):
     """
     print("generating nvda  Character Set for for",project.project_name)
     #The language file is read in to pandas
-    language_file=pd.read_csv(os.path.join(niv_louie_app_data,"languages","filtered_"+project.project_name+".csv"))
+    language_file=pd.read_csv(os.path.join(niv_louie_app_data,"languages","filtered",project.project_name+".csv"))
     ui.notify("Adding Characters to NVDA Extention for "+project.project_name)
     #The character Set  file is created
     try:
@@ -165,7 +165,7 @@ def generate_character_set():
     """
     print("generating nvda  Character Set for for",project.project_name)
     #The language file is read in to pandas
-    language_file=pd.read_csv("languages/filtered_"+project.project_name+".csv")
+    language_file=pd.read_csv(os.path.join("languages","filtered",project.project_name+".csv"))
     new_folder = os.path.join("nvda_character_sets",project.project_language_code)
     os.mkdir(new_folder,exist_ok=True)
     #The character Set  file is created

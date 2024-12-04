@@ -90,7 +90,7 @@ def convert_text_to_braille(name,content):
     #The language files are read in to pandas
     language_file_list=[]
     for selected_language in document.document_projects_to_use:
-        language_file_list.append({"name":selected_language, "file":pd.read_csv(os.path.join(niv_louie_app_data,"languages","filtered_"+selected_language+".csv"),encoding="utf-8")})
+        language_file_list.append({"name":selected_language, "file":pd.read_csv(os.path.join(niv_louie_app_data,"languages","filtered",selected_language+".csv"),encoding="utf-8")})
     braille_content=""
     #This loop goes through each row in the content
     for row in content.text.split("\sn"):

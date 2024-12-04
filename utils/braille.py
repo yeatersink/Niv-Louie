@@ -19,7 +19,7 @@ os.makedirs(niv_louie_app_data,exist_ok=True)
 def create_braille_table():
     print("creating table for lib louis")
     #The language file is read in to pandas
-    braille=pd.read_csv(os.path.join(niv_louie_app_data,"languages","filtered_"+project.project_name+".csv"))
+    braille=pd.read_csv(os.path.join(niv_louie_app_data,"languages","filtered",project.project_name+".csv"))
     braille_folder=os.path.join(niv_louie_app_data,"braille")
     if os.path.exists(braille_folder) == False:
         os.makedirs(braille_folder)
@@ -216,19 +216,19 @@ def create_braille_tests(selected_project_list ):
         'extra_spaces':[]
     }
     #The language file is read in to pandas
-    language_file=pd.read_csv(os.path.join(niv_louie_app_data,"languages","filtered_"+project.project_name+".csv"),encoding="utf-8")
+    language_file=pd.read_csv(os.path.join(niv_louie_app_data,"languages","filtered",project.project_name+".csv"),encoding="utf-8")
     #The language file is concatenated with the other language files that are included in the project
     if len(selected_project_list)>1:
         for project_name in selected_project_list[1:]:
             print(project_name)
-            temp_language_file=pd.read_csv(os.path.join(niv_louie_app_data,"languages","filtered_"+project_name+".csv"),encoding="utf-8")
+            temp_language_file=pd.read_csv(os.path.join(niv_louie_app_data,"languages","filtered",project_name+".csv"),encoding="utf-8")
             language_file=pd.concat([language_file,temp_language_file])
     if project.project_included_braille_tables:
         for table in project.project_included_braille_tables:
             for language in project.languages:
                 if table.split(".")[0] == language["language_code"]:
                     print("found language "+language["language_code"])
-                    temp_language_file=pd.read_csv(os.path.join(niv_louie_app_data,"languages","filtered_"+language["name"]+".csv"),encoding="utf-8")
+                    temp_language_file=pd.read_csv(os.path.join(niv_louie_app_data,"languages","filtered",language["name"]+".csv"),encoding="utf-8")
                     language_file=pd.concat([language_file,temp_language_file])
     language_file=language_file.sort_values(by=["Hex"],key=lambda x:x.str.len(),ascending=False)
     #The test csv file is read in to pandas

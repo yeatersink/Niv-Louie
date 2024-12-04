@@ -327,7 +327,7 @@ class Project:
             source_path=os.path.join(niv_louie_app_data,"languages","source",self.project_name+".csv")
             if os.path.exists(source_path):
                 os.remove(source_path)
-            filtered_path=os.path.join(niv_louie_app_data,"languages","filtered_"+self.project_name+".csv")
+            filtered_path=os.path.join(niv_louie_app_data,"languages","filtered",self.project_name+".csv")
             if os.path.exists(filtered_path):
                 os.remove(filtered_path)
             new_languages=list(filter(self.check_language_names,self.languages))
@@ -407,7 +407,7 @@ def convert_text_to_braille(name,content):
     #The language files are read in to pandas
     language_file_list=[]
     for selected_language in project.document_projects_to_use:
-        language_file_list.append({"name":selected_language, "file":pd.read_csv(os.path.join(niv_louie_app_data,"languages","filtered_"+selected_language+".csv"),encoding="utf-8")})
+        language_file_list.append({"name":selected_language, "file":pd.read_csv(os.path.join(niv_louie_app_data,"languages","filtered",selected_language+".csv"),encoding="utf-8")})
     braille_content=""
     #This loop goes through each row in the content
     for row in content.text.split("\n"):

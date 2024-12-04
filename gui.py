@@ -31,9 +31,9 @@ app.native.start_args["debug"]=True
 @ui.page("/existing_project")
 def existing_project():
     ui.button("Go Back",on_click=ui.navigate.back)
-    ui.label("Manage a project")
+    ui.label("Welcome to your project dashboard.")
     ui.button("Create a New Project",on_click=lambda:ui.navigate.to("/create_project"))
-    language_select = ui.select(options=sorted(project.languages_list),label="Select a Project",with_input=True,on_change=project.update_project_name)
+    language_select = ui.select(options=sorted(project.languages_list),label="Select an existing Project",with_input=True,on_change=project.update_project_name)
     ui.button("Edit Project",on_click=lambda:ui.navigate.to("/edit_project_information"))
     with ui.dialog() as dialog,ui.card():
         ui.label("Are you Sure you want to Permenantly Remove this Project?")

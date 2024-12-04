@@ -39,6 +39,7 @@ def create_filtered_csv():
     report={
         "duplicates":[],
         "extra_equals_in_hex":[],
+        "hex_wrong_length":[],
         "missing_columns":[],
         "extra_spaces":[],
         "missing_always":[],
@@ -88,11 +89,18 @@ def create_filtered_csv():
             warnings.warn("There are characters with missing hex")
             #Adds the row to the report dictionary
             report["missing_hex"].append(row)
+        else:
             # Checks if there is more than one equals sign in the hex column in a row
-        elif "++" in row["Hex"]:
-            warnings.warn("There are characters with extra equals in the hex column")
-            #Adds the row to the report dictionary
-            report["extra_equals_in_hex"].append(row)
+            if "++" in row["Hex"]:
+                warnings.warn("There are characters with extra equals in the hex column")
+                #Adds the row to the report dictionary
+                report["extra_equals_in_hex"].append(row)
+            # Checks if the hex column is not the correct length
+            hex_list=row["Hex"].split("+")
+            if any([len(hex_char)!=4 for hex_char in hex_list]):
+                warnings.warn("There are characters with hex values that are not the correct length")
+                #Adds the row to the report dictionary
+                report["hex_wrong_length"].append(row)
         #Checks if the braille column is empty
         if row[project.project_braille_column]=="NAN" or row[project.project_braille_column]=="":
             warnings.warn("There are characters with missing braille")
@@ -106,7 +114,9 @@ def create_filtered_csv():
 
     filtered_language = filtered_language.sort_values(by=["Hex"],key=lambda x:x.str.len(),ascending=False)
     #saves the filtered language file to the languages folder
-    filtered_language.to_csv(os.path.join(niv_louie_app_data,"languages","filtered_"+project.project_name+".csv"),index=False)
+    if not os.path.exists(os.path.join(niv_louie_app_data,"languages","filtered")):
+        os.makedirs(os.path.join(niv_louie_app_data,"languages","filtered"))
+    filtered_language.to_csv(os.path.join(niv_louie_app_data,"languages","filtered",project.project_name+".csv"),index=False)
     #Creates a report file like object
     report_file = io.BytesIO()
     #writes basic information to the report
@@ -129,6 +139,18 @@ def create_filtered_csv():
         report_file.write(("\n**Characters with multiple hex values that are not set to always: "+str(len(report["missing_always"]))+"**\n").encode("utf-8"))
         report_file.write(report["missing_always"].to_string().encode("utf-8"))
 
+    #Checks if there are any characters with extra equals in the hex column
+    if len(report["extra_equals_in_hex"])>0:
+        #Writes the characters to the report
+        report_file.write(("\n**Characters with extra equals in the hex column: "+str(len(report["extra_equals_in_hex"]))+"**\n").encode("utf-8"))
+        report_file.write(report["extra_equals_in_hex"].to_string().encode("utf-8"))
+    
+    #Checks if there are any characters with hex values that are not the correct length
+    if len(report["hex_wrong_length"])>0:
+        #Writes the characters to the report
+        report_file.write(("\n**Characters with hex values that are not the correct length: "+str(len(report["hex_wrong_length"]))+"**\n").encode("utf-8"))
+        report_file.write(report["hex_wrong_length"].to_string().encode("utf-8"))
+
     #Checks if there are any characters with extra spaces
     if len(report["extra_spaces"])>0:
         #Writes the characters to the report
@@ -150,7 +172,6 @@ def create_filtered_csv():
         #Writes the characters to the report
         report_file.write(("\n**Characters with missing hex: "+str(len(report["missing_hex"]))+"**\n").encode("utf-8"))
         report_file.write(pd.DataFrame(report["missing_hex"]).to_string().encode("utf-8"))
- 
     report_file.write(pd.DataFrame(report["missing_braille"]).to_string().encode("utf-8"))
 
     #Downloads report file
