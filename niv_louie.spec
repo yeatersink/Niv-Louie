@@ -18,9 +18,7 @@ a = Analysis(
         (os.path.join(site_packages,'webview'), 'webview'),
         ('utils/braille_test_converter.json','utils'),
         ('utils/braille_converter.json','utils'),
-        ('utils/braille_to_numbers.json','utils'),
-        ('utils/extentions_file.json','utils'),
-        ('utils/languages_file.json','utils')
+        ('utils/braille_to_numbers.json','utils')
     ],
     hiddenimports=[],
     hookspath=[],
