@@ -30,14 +30,15 @@ braille_numbers_object=json.load(braille_numbers_file)
 
 # Function to load languages from JSON file
 def load_languages():
-    try:
-        with open(os.path.join(niv_louie_app_data,"utils","languages_file.json"), "r", encoding="utf-8") as file:
+    file_path=os.path.join(niv_louie_app_data,"utils","languages_file.json")
+    if os.path.exists(file_path):
+        with open(file_path, "r", encoding="utf-8") as file:
             return json.load(file)
-    except FileNotFoundError:
-        #Create the languages file if it doesn't exist
-        with open(os.path.join(niv_louie_app_data,"utils","languages_file.json"), "w", encoding="utf-8") as file:
+    else:
+        with open(file_path, "w", encoding="utf-8") as file:
             json.dump([], file, ensure_ascii=False, indent=4)
         return []
+
 
 class Project:
     def __init__(self):
