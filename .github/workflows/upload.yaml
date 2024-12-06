@@ -1,0 +1,32 @@
+name: Upload Release Asset to Vercel
+
+on:
+  release:
+    types: [created]
+
+jobs:
+  upload:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+
+    - name: Download release asset
+      uses: actions/download-release-asset@v1
+      with:
+        owner: ${{ github.repository_owner }}
+        repo: ${{ github.event.repository.name }}
+        tag: ${{ github.event.release.tag_name }}
+        asset_name: Niv_Louie-installer.exe
+        token: ${{ secrets.pat }}
+        path: ./release-assets
+
+    - name: Install Vercel CLI
+      run: npm install -g vercel
+
+    - name: Authenticate with Vercel
+      run: vercel login --token ${{ secrets.VERCEL_TOKEN }}
+
+    - name: Deploy to Vercel
+      run: vercel --prod ./release-assets
