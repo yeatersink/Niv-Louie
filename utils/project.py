@@ -35,6 +35,7 @@ def load_languages():
         with open(file_path, "r", encoding="utf-8") as file:
             return json.load(file)
     else:
+        os.makedirs(os.path.join(niv_louie_app_data,"utils"),exist_ok=True)
         with open(file_path, "w", encoding="utf-8") as file:
             json.dump([], file, ensure_ascii=False, indent=4)
         return []
