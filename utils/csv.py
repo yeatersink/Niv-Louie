@@ -13,6 +13,7 @@ import io
 #the ui module is used to download the report
 from nicegui import  ui
 import sys
+from utils.logger import logger
 
 # Get the base path for the executable
 if getattr(sys, 'frozen', False):
@@ -21,8 +22,12 @@ else:
     base_path = os.path.abspath(".")
 
 #the braille_to_numbers file is used to check if there are any non-braille characters braille_numbers_object variable
-braille_numbers_file=open(os.path.join(base_path,"utils","braille_to_numbers.json"),encoding="utf8")
-braille_numbers_object=json.load(braille_numbers_file)
+try:
+    braille_numbers_file=open(os.path.join(base_path,"utils","braille_to_numbers.json"),encoding="utf8")
+    braille_numbers_object=json.load(braille_numbers_file)
+except:
+    logger.error("Could not open braille_to_numbers.json")
+    raise
 
 
 

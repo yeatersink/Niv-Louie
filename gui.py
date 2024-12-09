@@ -15,8 +15,10 @@ from utils.csv import create_filtered_csv, regenerate_characters_using_hex, rege
 #The generate_locale_file function is used to generate the locale file for nvda
 #The generate_character_set function is used to generate the character set for nvda
 from utils.nvda import add_characters_to_nvda,generate_locale_file, generate_character_set, create_nvda_extention
+from utils.logger import Logger
 from pathlib import Path
 import os
+import sys
 
 
 appdata_dir=os.getenv("LOCALAPPDATA")
@@ -26,7 +28,10 @@ os.makedirs(niv_louie_app_data,exist_ok=True)
 
 app.native.window_args["resizable"]=True
 app.native.settings['ALLOW_DOWNLOADS'] = True
-app.native.start_args["debug"]=True
+if getattr(sys, 'frozen', False):
+    app.native.start_args["debug"]=False
+else:
+    app.native.start_args["debug"]=True
 
 @ui.page("/existing_project")
 def existing_project():

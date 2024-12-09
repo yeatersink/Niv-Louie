@@ -9,6 +9,7 @@ import json
 from utils.project import project
 from nicegui import ui
 import sys
+from utils.logger import logger
 
 
 appdata_dir=os.getenv("LOCALAPPDATA")
@@ -17,18 +18,21 @@ os.makedirs(niv_louie_app_data,exist_ok=True)
 
 
 def create_braille_table():
-    print("creating table for lib louis")
+    logger.info("creating table for lib louis using the "+project.project_name+" project")
+    logger.info("Reading the language file")
     #The language file is read in to pandas
     braille=pd.read_csv(os.path.join(niv_louie_app_data,"languages","filtered",project.project_name+".csv"))
     braille_folder=os.path.join(niv_louie_app_data,"braille")
     if os.path.exists(braille_folder) == False:
         os.makedirs(braille_folder)
 
+    logger.info("Creating the braille table")
     #The braille table is opened in write mode to create the table
     braille_table=open(os.path.join(braille_folder,project.project_language_code+".utb"),"w",encoding="utf-8")
+    logger.info("Converting the braille to numbers")
     #The braille column is converted to numbers
     braille[project.project_braille_column]=braille[project.project_braille_column].apply(braille_to_numbers)
-
+    logger.info("Writing the braille table metadata")
     #The braille table is written to with the information for the language that is required for lib louis
     braille_table.write("""
 # liblouis: """+project.project_name+"""
@@ -76,6 +80,7 @@ def create_braille_table():
 """+project.project_language_information+project.project_contributors)
     braille=braille.sort_values(["Type",project.project_character_column])
     previous_char=""
+    logger.info("Writing the braille table")
     #This loop goes through each row in the braille file and writes the braille code and the number to the braille table
     for index, row in braille.iterrows():
         if row["Type"] != previous_char:
@@ -89,14 +94,18 @@ def create_braille_table():
                 new_line=row["Type"]+" "+str(row[project.project_character_column])+" "+str(row[project.project_braille_column])+"  # "+str(row[project.project_name_column])+"\n"
             braille_table.write(new_line)
         else:
-            warnings.warn("this line was missing it's braille. This may be a mistake in your table. Character: "+row[project.project_character_column])
+            logger.warning("Line "+index+" was missing it's braille. This may be a mistake in your table. Character: "+row[project.project_character_column])
 
-    if project.project_included_braille_tables!=None:
+    if project.project_included_braille_tables!=None and len(project.project_included_braille_tables)>0:
+        logger.info("Including additional braille tables")
         braille_table.write("\n# Include additional braille tables\n")
         for table in project.project_included_braille_tables:
             braille_table.write("include "+table+"\n")
+    else:
+        logger.info("No additional braille tables to include")
     #The braille table is closed to prevent memory leaks
     braille_table.close()
+    logger.info("Braille table for lib louis has been created")
     ui.notify("Braille Table for Lib Louis has been Generated. ")
     ui.download(os.path.join(braille_folder,project.project_language_code+".utb"))
 
@@ -108,16 +117,35 @@ else:
     base_path = os.path.abspath(".")
 
 #The braille_converter.json file is opened and read in to the braille_object variable
-braille_file=open(os.path.join(base_path,"utils","braille_converter.json"),encoding="utf8")
-braille_object=json.load(braille_file)
+logger.info("Reading the braille converter")
+try:
+    braille_file=open(os.path.join(base_path,"utils","braille_converter.json"),encoding="utf8")
+    braille_object=json.load(braille_file)
+except:
+    logger.error("There was an error reading the braille converter file")
+    ui.error("There was an error reading the braille converter file")
+    sys.exit()  
+
 
 #The braille_test_converter.json file is opened and read in to the braille_test_object variable
-braille_test_file=open(os.path.join(base_path,"utils","braille_test_converter.json"),encoding="utf8")
-braille_test_object=json.load(braille_test_file)
+logger.info("Reading the braille test converter")
+try:
+    braille_test_file=open(os.path.join(base_path,"utils","braille_test_converter.json"),encoding="utf8")
+    braille_test_object=json.load(braille_test_file)
+except:
+    logger.error("There was an error reading the braille test converter file")
+    ui.error("There was an error reading the braille test converter file")
+    sys.exit()
 
 #The braille_numbers.json file is opened and read in to the braille_numbers_object variable
-braille_numbers_file=open(os.path.join(base_path,"utils","braille_to_numbers.json"),encoding="utf8")
-braille_numbers_object=json.load(braille_numbers_file)
+logger.info("Reading the braille numbers")
+try:
+    braille_numbers_file=open(os.path.join(base_path,"utils","braille_to_numbers.json"),encoding="utf8")
+    braille_numbers_object=json.load(braille_numbers_file)
+except:
+    logger.error("There was an error reading the braille numbers file")
+    ui.error("There was an error reading the braille numbers file")
+    sys.exit()
 
 def get_braille_from_text(text):
     """
@@ -133,45 +161,57 @@ def get_braille_from_text(text):
 
     #The braille variable is initialized as an empty string
     braille=""
-    print(text)
+    #The text is checked to see if it is not a nan value
     if str(text) != "nan":
         #The text is checked to see if it contains any numbers
         if any(char.isdigit() for char in text):
             new_text=""
             #The text is looped
             for index,char in enumerate(text):
-                #checks if the character is a number
-                if char.isdigit():
-                    #adds a number sign to the character
-                    new_text+=""+char
-                else:
-                    #adds the character to the new text
-                    new_text+=char
-            #the text is replaced with the new text
-            text=new_text
-        #The text is checked to see if it contains any special characters
-        if "[q~^]"*3 in text:
-            text=text.replace("[q~^]"*3,"^#3")
-        if "[q~^]"*2 in text:
-            text=text.replace("[q~^]"*2,"^#2")
-        if "[q~" in text:
-            text=text.replace("[q~","")
-        if "]" in text:
-            text=text.replace("]","")
-        print(text)
+                try:
+                    #checks if the character is a number
+                    if char.isdigit():
+                        #adds a number sign to the character
+                        new_text+=""+char
+                    else:
+                        #adds the character to the new text
+                        new_text+=char
+                    #the text is replaced with the new text
+                    text=new_text
+                except:
+                    logger.error("Couldn't convert text containing numbers to braille text: "+text)
+                    raise
+            #The text is checked to see if it contains any special characters
+            try:
+                if "[q~^]"*3 in text:
+                    text=text.replace("[q~^]"*3,"^#3")
+                if "[q~^]"*2 in text:
+                    text=text.replace("[q~^]"*2,"^#2")
+                if "[q~" in text:
+                    text=text.replace("[q~","")
+                if "]" in text:
+                    text=text.replace("]","")
+            except:
+                logger.error("Couldn't convert text containing special characters to braille text: "+text)
+                raise
 
-        #The text is looped through
         for char in text:
             #checks if the character is in the braille numbers object
             if char not in braille_numbers_object:
                 #adds the new braille character to the braille variable
-                braille+=braille_object[char]
+                try:
+                    braille+=braille_object[char]
+                except:
+                    logger.error("Couldn't convert text to braille text: "+text+" character: "+char)
+                    raise
             else:
                 #adds the character to the braille variable
                 braille+=char
         #returns the braille variable
         return braille
     else:
+        #returns nan if the text is a nan value
+        logger.error("The text is a nan value")
         return "nan"
 
 def braille_to_numbers(text):
@@ -188,17 +228,21 @@ def braille_to_numbers(text):
 
     braille=""
     if str(text) != "nan":
-        print(text)
         #loops through each character in the text
         for char in text:
             #converts the braille character to a number
-            braille+=braille_numbers_object[char.lower()]+"-"
+            try:
+                braille+=braille_numbers_object[char.lower()]+"-"
+            except:
+                logger.error("Couldn't convert braille to numbers: "+text+" character: "+char)
+                raise
         #removes the last - from the braille variable
         if braille[-1]=="-":
             braille=braille[:-1]
         #returns the braille variable
         return braille
     else:
+        logger.error("The text is a nan value")
         return ""
 
 
