@@ -1,4 +1,4 @@
-#define MyAppName "Niv_Louie"
+  #define MyAppName "Niv_Louie"
 #define MyAppVersion "0.0.1"
 #define MyAppPublisher "Me"
 #define URL "http://example.com"
