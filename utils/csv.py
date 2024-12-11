@@ -25,8 +25,8 @@ else:
 try:
     braille_numbers_file=open(os.path.join(base_path,"utils","braille_to_numbers.json"),encoding="utf8")
     braille_numbers_object=json.load(braille_numbers_file)
-except:
-    logger.error("Could not open braille_to_numbers.json")
+except Exception as e:
+    logger.error("Could not open braille_to_numbers.json"  + str(e))
     raise
 
 
@@ -41,21 +41,22 @@ def create_filtered_csv():
     This function creates a filtered csv file that only contains the characters, names, and braille codes for the language    
     """
     logger.info("Generating "+project.project_name+" filtered Spreadsheet")
-    report={
-        "duplicates":[],
-        "extra_equals_in_hex":[],
-        "hex_wrong_length":[],
-        "missing_columns":[],
-        "extra_spaces":[],
-        "missing_always":[],
-        "missing_braille":[],
-        "missing_hex":[],
-        "non_braille_in_braille_column":[]
-        }
     language_source_path=os.path.join(niv_louie_app_data,"languages","source")
     #The language file is read in to pandas
     logger.info("Reading the language file")
     language_file=pd.read_csv(os.path.join(language_source_path,project.project_name+".csv"))
+    #A dictionary is created to store the rows that contain errors
+    report={
+        "missing_columns":pd.DataFrame(columns=language_file.columns),
+        "duplicates":pd.DataFrame(columns=language_file.columns),
+        "missing_always":pd.DataFrame(columns=language_file.columns),
+        "extra_equals_in_hex":pd.DataFrame(columns=language_file.columns),
+        "hex_wrong_length":pd.DataFrame(columns=language_file.columns),
+        "extra_spaces":pd.DataFrame(columns=language_file.columns),
+        "missing_hex":pd.DataFrame(columns=language_file.columns),
+        "missing_braille":pd.DataFrame(columns=language_file.columns),
+        "non_braille_in_braille_column":pd.DataFrame(columns=language_file.columns)
+        }
     #selects the columns that are needed for the filtered csv file
     logger.info("Selecting the columns that are needed for the filtered csv file")
     filtered_language=language_file[[project.project_character_column,"Hex","Type",project.project_name_column,project.project_braille_column]].copy()
@@ -72,7 +73,7 @@ def create_filtered_csv():
     if filtered_language[(filtered_language["Hex"].str.contains("\+")) & (~filtered_language["Type"].str.contains("always"))].shape[0]>0:
         logger.warning("There are characters with multiple hex values that are not set to always")
         #Adds the characters to the report dictionary
-        report["missing_always"]=filtered_language[(filtered_language["Hex"].str.contains("\+")) & (~filtered_language["Type"].str.contains("always"))]
+        report["missing_always"]=filtered_language[(filtered_language["Hex"].str.contains("\+")) & (~filtered_language["Type"].str.contains(r'\balways\b'))]
 
         #Checks if there are duplicates in the language file
     if filtered_language.duplicated(keep=False,subset=["Hex"]).sum() > 0:
@@ -86,39 +87,39 @@ def create_filtered_csv():
         if len(row)<len(filtered_language.columns):
             logger.warning("There are missing columns in the language file on row "+str(index))
             #Adds the row to the report dictionary
-            report["missing_columns"].append(row)
+            report["missing_columns"].loc[index]=row
         #Checks if there are any extra spaces in the character column
         if "  " in row[project.project_character_column]:
             logger.warning("There are characters with extra spaces in the character column on row "+str(index))
             #Adds the row to the report dictionary
-            report["extra_spaces"].append(row)
+            report["extra_spaces"].loc[index]=row
         # Checks if the hex column is empty, nan, or contains whitespace characters
         if row["Hex"]=="NAN" or row["Hex"]=="" or row["Hex"]=="nan" or row["Hex"].isspace():
             logger.warning("There are characters with missing hex on row "+str(index))
             #Adds the row to the report dictionary
-            report["missing_hex"].append(row)
+            report["missing_hex"].loc[index]=row
         else:
             # Checks if there is more than one equals sign in the hex column in a row
             if "++" in row["Hex"]:
                 logger.warning("There are characters with extra equals in the hex column on row "+str(index))
                 #Adds the row to the report dictionary
-                report["extra_equals_in_hex"].append(row)
+                report["extra_equals_in_hex"].loc[index]=row
             # Checks if the hex column is not the correct length
             hex_list=row["Hex"].split("+")
             if any([len(hex_char)!=4 for hex_char in hex_list]):
                 logger.warning("There are characters with hex values that are not the correct length on row "+str(index))
                 #Adds the row to the report dictionary
-                report["hex_wrong_length"].append(row)
+                report["hex_wrong_length"].loc[index]=row
         #Checks if the braille column is empty, nan, or contains whitespace characters
         if row[project.project_braille_column]=="NAN" or row[project.project_braille_column]=="" or row[project.project_braille_column]=="nan" or row[project.project_braille_column].isspace():
             logger.warning("There are characters with missing braille on row "+str(index))
             #Adds the row to the report dictionary
-            report["missing_braille"].append(row)
+            report["missing_braille"].loc[index]=row
         #Checks if there are any non-braille characters in the braille column
         elif any([char not in braille_numbers_object for char in str(row[project.project_braille_column])]):
             logger.warning("There are non-braille characters in the braille column on row "+str(index))
             #Adds the row to the report dictionary
-            report["non_braille_in_braille_column"].append(row)
+            report["non_braille_in_braille_column"].loc[index]=row
 
     filtered_language = filtered_language.sort_values(by=["Hex"],key=lambda x:x.str.len(),ascending=False)
     #saves the filtered language file to the languages folder
@@ -130,61 +131,123 @@ def create_filtered_csv():
     logger.info("Creating a report file like object")
     report_file = io.BytesIO()
     #writes basic information to the report
-    report_file. write(("Report for "+project.project_name+"\n").encode("utf-8"))
-    report_file.write(("Generated on "+pd.Timestamp.now().strftime("%Y-%m-%d %H:%M:%S")+"\n").encode("utf-8"))
+    try:
+        report_file. write(("Report for "+project.project_name+"\n").encode("utf-8"))
+        report_file.write(("Generated on "+pd.Timestamp.now().strftime("%Y-%m-%d %H:%M:%S")+"\n").encode("utf-8"))
+    except Exception as e:
+        logger.error("Could not write the basic information to the report file" + str(e))
+        raise
+
+    #Creates variable to check if there are any errors
+    errors=False
+
     #Checks if there are any missing columns
     if len(report["missing_columns"])>0:
         #Writes the missing columns to the report
-        report_file.write(("\n**Missing Columns: "+str(len(report["missing_columns"]))+"**\n").encode("utf-8"))
-        report_file.write("\n".join(report["missing_columns"].astype(str).tolist()).encode("utf-8"))
+        try:
+            errors=True
+            report_file.write(("\n**Missing Columns: "+str(len(report["missing_columns"]))+"**\n").encode("utf-8"))
+            report_file.write(report["missing_columns"].to_string().encode("utf-8"))
+        except Exception as e:
+            logger.error("Could not write the missing columns to the report file" + str(e))
+            raise
+
     #Checks if there are any duplicates
     if len(report["duplicates"])>0:
         #Writes the duplicates to the report
-        report_file.write(("\n**Duplicates: "+str(len(report["duplicates"]))+"**\n").encode("utf-8"))
-        report_file.write(report["duplicates"].to_string().encode("utf-8"))
+        try:
+            errors=True
+            report_file.write(("\n**Duplicates: "+str(len(report["duplicates"]))+"**\n").encode("utf-8"))
+            report_file.write(report["duplicates"].to_string().encode("utf-8"))
+        except Exception as e:
+            logger.error("Could not write the duplicates to the report file" + str(e))
+            raise
 
     #Checks if there are any characters with multiple hex values that are not set to always
     if len(report["missing_always"])>0:
         #Writes the characters to the report
-        report_file.write(("\n**Characters with multiple hex values that are not set to always: "+str(len(report["missing_always"]))+"**\n").encode("utf-8"))
-        report_file.write(report["missing_always"].to_string().encode("utf-8"))
+        try:
+            errors=True
+            report_file.write(("\n**Characters with multiple hex values that are not set to always: "+str(len(report["missing_always"]))+"**\n").encode("utf-8"))
+            report_file.write(report["missing_always"].to_string().encode("utf-8"))
+        except Exception as e:
+            logger.error("Could not write the characters with multiple hex values that are not set to always to the report file" + str(e))
+            raise
 
     #Checks if there are any characters with extra equals in the hex column
     if len(report["extra_equals_in_hex"])>0:
         #Writes the characters to the report
-        report_file.write(("\n**Characters with extra equals in the hex column: "+str(len(report["extra_equals_in_hex"]))+"**\n").encode("utf-8"))
-        report_file.write(report["extra_equals_in_hex"].to_string().encode("utf-8"))
-    
+        try:
+            errors=True
+            report_file.write(("\n**Characters with extra equals in the hex column: "+str(len(report["extra_equals_in_hex"]))+"**\n").encode("utf-8"))
+            report_file.write(report["extra_equals_in_hex"].to_string().encode("utf-8"))
+        except Exception as e:
+            logger.error("Could not write the characters with extra equals in the hex column to the report file" + str(e))
+            raise
+
     #Checks if there are any characters with hex values that are not the correct length
     if len(report["hex_wrong_length"])>0:
         #Writes the characters to the report
-        report_file.write(("\n**Characters with hex values that are not the correct length: "+str(len(report["hex_wrong_length"]))+"**\n").encode("utf-8"))
-        report_file.write(("\n**Characters with hex values that are not the correct length: "+str(len(report["hex_wrong_length"]))+"**\n").encode("utf-8"))
-        report_file.write("\n".join(report["hex_wrong_length"].astype(str)).encode("utf-8"))
+        try:
+            errors=True
+            report_file.write(("\n**Characters with hex values that are not the correct length: "+str(len(report["hex_wrong_length"]))+"**\n").encode("utf-8"))
+            report_file.write(report["hex_wrong_length"].to_string().encode("utf-8"))
+        except Exception as e:
+            logger.error("Could not write the characters with hex values that are not the correct length to the report file" + str(e))
+            raise
 
     #Checks if there are any characters with extra spaces
     if len(report["extra_spaces"])>0:
         #Writes the characters to the report
-        report_file.write(("\n**Characters with extra spaces: "+str(len(report["extra_spaces"]))+"**\n").encode("utf-8"))
-        report_file.write(report["extra_spaces"].to_string().encode("utf-8"))
+        try:
+            errors=True
+            report_file.write(("\n**Characters with extra spaces: "+str(len(report["extra_spaces"]))+"**\n").encode("utf-8"))
+            report_file.write(report["extra_spaces"].to_string().encode("utf-8"))
+        except Exception as e:
+            logger.error("Could not write the characters with extra spaces to the report file" + str(e))
+            raise
 
     #Checks if there are any characters with non-braille characters in the braille column
     if len(report["non_braille_in_braille_column"])>0:
         #Writes the characters to the report
-        report_file.write(("\n**Characters with non-braille characters in the braille column: "+str(len(report["non_braille_in_braille_column"]))+"**\n").encode("utf-8"))
-        report_file.write("\n".join(report["non_braille_in_braille_column"].astype(str)).encode("utf-8"))
+        try:
+            errors=True
+            report_file.write(("\n**Characters with non-braille characters in the braille column: "+str(len(report["non_braille_in_braille_column"]))+"**\n").encode("utf-8"))
+            report_file.write(report["non_braille_in_braille_column"].to_string().encode("utf-8"))
+        except Exception as e:
+            logger.error("Could not write the characters with non-braille characters in the braille column to the report file" + str(e))
+            raise
 
     #Checks if there are any characters with missing braille
     if len(report["missing_braille"])>0:
         #Writes the characters to the report
-        report_file.write(("\n**Characters with missing braille: "+str(len(report["missing_braille"]))+"**\n").encode("utf-8"))
-        report_file.write("\n".join(report["missing_braille"].astype(str)).encode("utf-8"))
+        try:
+            errors=True
+            report_file.write(("\n**Characters with missing braille: "+str(len(report["missing_braille"]))+"**\n").encode("utf-8"))
+            report_file.write(report["missing_braille"].to_string().encode("utf-8"))
+        except Exception as e:
+            logger.error("Could not write the characters with missing braille to the report file" + str(e))
+            raise
+
     #Checks if there are any characters with missing hex
     if len(report["missing_hex"])>0:
         #Writes the characters to the report
-        report_file.write(("\n**Characters with missing hex: "+str(len(report["missing_hex"]))+"**\n").encode("utf-8"))
-        report_file.write("\n".join(report["missing_hex"].astype(str)).encode("utf-8"))
-    report_file.write("\n".encode("utf-8"))
+        try:
+            errors=True
+            report_file.write(("\n**Characters with missing hex: "+str(len(report["missing_hex"]))+"**\n").encode("utf-8"))
+            report_file.write(report["missing_hex"].to_string().encode("utf-8"))
+        except Exception as e:
+            logger.error("Could not write the characters with missing hex to the report file" + str(e))
+            raise
+
+    #Checks if there are any errors
+    if not errors:
+        #Writes that there are no errors to the report
+        try:
+            report_file.write("\nNo errors found, good job!".encode("utf-8"))
+        except Exception as e:
+            logger.error("Could not write that there are no errors found to the report file" + str(e))
+            raise
 
     #Downloads report file
     logger.info("Downloading the report file")
