@@ -13,91 +13,65 @@ jobs:
     runs-on: windows-latest
 
     steps:
-    - name: Checkout repository
-      uses: actions/checkout@v4
+      - name: Checkout repository
+        uses: actions/checkout@v4
 
-    - name: Set up Python
-      uses: actions/setup-python@v5
-      with:
-        python-version: 3.9.13
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: 3.9.13
 
-    - name: Upgrade pip, setuptools, and wheel
-      run: |
-        pip install --upgrade pip setuptools wheel
+      - name: Upgrade pip, setuptools, and wheel
+        run: |
+          pip install --upgrade pip setuptools wheel
 
-    - name: Install dependencies
-      run: |
-        pip install -r requirements.txt --timeout=120
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt --timeout=120
 
-    - name: Install PyInstaller
-      run: |
-        pip install pyinstaller
+      - name: Install PyInstaller
+        run: |
+          pip install pyinstaller
 
-    - name: Run PyInstaller
-      run: |
-        pyinstaller --clean --noconfirm niv_louie.spec
+      - name: Run PyInstaller
+        run: |
+          pyinstaller --clean --noconfirm niv_louie.spec
 
-    - name: Install Inno Setup
-      run: |
-        choco install innosetup --yes
+      - name: Install Inno Setup
+        run: |
+          choco install innosetup --yes
 
-    - name: Run Inno Setup Compiler
-      run: |
-        ./run_inno_setup.bat
+      - name: Run Inno Setup Compiler
+        run: |
+          ./run_inno_setup.bat
 
-    - name: Upload artifact
-      uses: actions/upload-artifact@v4
-      with:
-        name: niv_louie_installer
-        path: dist/Niv_Louie-installer.exe
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: niv_louie_installer
+          path: dist/Niv_Louie-installer.exe
 
   release:
     needs: build
     runs-on: ubuntu-latest
     steps:
-    - name: Checkout repository
-      uses: actions/checkout@v4
+      - name: Checkout repository
+        uses: actions/checkout@v4
 
-    - name: Download artifact
-      uses: actions/download-artifact@v4
-      with:
-        name: niv_louie_installer
-        path: ./dist
+      - name: Download artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: niv_louie_installer
+          path: ./dist
 
-    - name: Create GitHub Release and Upload Asset
-      uses: softprops/action-gh-release@v2
-      with:
-        name: Pre-Release v0.0.1
-        tag_name: v0.0.1
-        prerelease: true
-        draft: false
-        files: ./dist/Niv_Louie-installer.exe
-        fail_on_unmatched_files: true
-        generate_release_notes: true
-        token: ${{ secrets.PAT }}
-
-  upload-to-vercel:
-    needs: release
-    runs-on: ubuntu-latest
-    steps:
-    - name: Checkout repository
-      uses: actions/checkout@v4
-
-    - name: Download release asset
-      uses: robinraju/release-downloader@v1
-      with:
-        token: ${{ secrets.PAT }}
-        preRelease: true
-        latest: true
-        fileName: "Niv_Louie-installer.exe"
-        out-file-path: "release-assets"
-
-
-    - name: Install Vercel CLI
-      run: npm install -g vercel
-
-    - name: Authenticate with Vercel
-      run: vercel login --token ${{ secrets.VERCEL_TOKEN }}
-
-    - name: Deploy to Vercel
-      run: vercel --prod ./release-assets
+      - name: Create GitHub Release and Upload Asset
+        uses: softprops/action-gh-release@v2
+        with:
+          name: Pre-Release v0.0.1
+          tag_name: v0.0.1
+          prerelease: true
+          draft: false
+          files: ./dist/Niv_Louie-installer.exe
+          fail_on_unmatched_files: true
+          generate_release_notes: true
+          token: ${{ secrets.PAT }}
