@@ -1,3 +1,7 @@
+# This CLI currently doesn't work
+print("The CLI is currently not working. Please use the GUI instead.")
+exit()
+
 from utils.project import languages,project
 #the create_braille_table function is used to create the braille table for lib louis
 #the create_braille_tests function is used to create the braille tests for lib louis
